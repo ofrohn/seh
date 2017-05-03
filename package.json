@@ -1,17 +1,34 @@
 {
-  "name": "SSEH",
-  "version": "1.3.6",
-  "description": "",
+  "name": "seh",
+  "version": "1.5.0",
+  "description": "Space Exploration History",
   "main": "hist.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Olaf Frohn",
-  "license": "CC",
+  "license": "BSD-3-Clause",
   "devDependencies": {
     "jslint": "^0.7.3",
     "shelljs": "^0.3.0",
     "uglify-js": "^2.4.16",
     "wrench": "^1.5.8"
-  }
+  },
+  "dependencies": {
+    "jslint": "^0.7.3",
+    "shelljs": "^0.3.0",
+    "node-sprite-generator": "^0.9.0",
+    "wrench": "^1.5.8",
+    "uglify-js": "^2.4.16",
+    "fs-extra": "^0.30.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ofrohn/seh/"
+  },
+  "keywords": [
+    "Space",
+    "Exploration",
+    "History"
+  ]
 }
