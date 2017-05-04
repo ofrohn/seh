@@ -1,4 +1,4 @@
-﻿#SEH - Space Exploration History  
+﻿# SEH - Space Exploration History  
 
 Behold: the entire history of Solar System exploration in one graphic. It requires a HTML5-capable browser, so all fairly new versions of Chrome, Firefox, IE, Opera and what-have-you should work. If your browser only shows a static image, it is too old.  
 

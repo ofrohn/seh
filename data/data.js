@@ -38,7 +38,7 @@ smlfyb: {name:"End Fullscreen", desc:"x:96;y:48"}
 SSEH.images = {
 comet: SSEH.PLANETS + "comet-j.png",
 sbg: SSEH.MAPS + "solsys-bg.png",
-lo: "lo.png",
+lo: SSEH.PATH + "lo.png",
 cc: SSEH.ICONS + "cc.png",
 zoomin: SSEH.ICONS + "zoomin.cur",
 nozoom: SSEH.ICONS + "nozoom.cur",

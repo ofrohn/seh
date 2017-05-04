@@ -56,7 +56,7 @@ pioneer2: {name:"Pioneer 2", desc:"lv:Thor-Able I",
 ]},
 luna1958c: {name:"Luna E-1 #3", desc:"lv:Vostok-L 8K72",
   parts:[
-    {names:"Луна-1А;[Luna 1958C]", type:"im", dest:"lun", stat:"f", ctry:"su", desc:"ag:okb;fam:E-1;m:361kg;dim:1.0x1.0x3.4m;sc:0.25", id:"", url:"ea:www.astronautix.com/craft/lunae1.htm;nssdc:nssdc.gsfc.nasa.gov/planetary/tent_launch.html", icon:"luna-e1.png"}], 
+    {names:"Луна-1C;[Luna 1958C]", type:"im", dest:"lun", stat:"f", ctry:"su", desc:"ag:okb;fam:E-1;m:361kg;dim:1.0x1.0x3.4m;sc:0.25", id:"", url:"ea:www.astronautix.com/craft/lunae1.htm;nssdc:nssdc.gsfc.nasa.gov/planetary/tent_launch.html", icon:"luna-e1.png"}], 
   events:[
     {pt:"", type:"l", dt:"1958-12-04", loc:"ter:bai:LC-1", desc:"fail:Core stage shutdown at T+245"}
 ]},
@@ -71,7 +71,7 @@ pioneer3: {name:"Pioneer 3", desc:"lv:Juno II",
 // --- 1959 --- 6 Missions
 luna1: {name:"Luna 1", desc:"lv:Vostok-L 8K72",
   parts:[
-    {names:"Луна-1;Mechta:Dream;Luna E-1 #4", type:"im", dest:"lun", stat:"p", ctry:"su", desc:"ag:okb;fam:E-1;First lunar flyby;First probe to escape Earth's gravity;m:361.3kg;dim:1.0x1.0x3.4m;sc:0.25", id:"1959-012A", url:"za:www.zarya.info/Diaries/Luna/Luna01.php;ea:www.astronautix.com/craft/lunae1.htm;nssdc:nssdc.gsfc.nasa.gov/planetary/lunar/lunarussr.html", icon:"luna-e1.png"}], 
+    {names:"Луна-1;Мечта:Dream;Luna E-1 #4", type:"im", dest:"lun", stat:"p", ctry:"su", desc:"ag:okb;fam:E-1;First lunar flyby;First probe to escape Earth's gravity;m:361.3kg;dim:1.0x1.0x3.4m;sc:0.25", id:"1959-012A", url:"za:www.zarya.info/Diaries/Luna/Luna01.php;ea:www.astronautix.com/craft/lunae1.htm;nssdc:nssdc.gsfc.nasa.gov/planetary/lunar/lunarussr.html", icon:"luna-e1.png"}], 
   events:[
     {pt:"", type:"l", dt:"1959-01-02", loc:"ter:bai:LC-1", desc:""},
     {pt:"", type:"toi", dt:"1959-01-02", loc:"ter:lto", desc:"mal:Guidance system error"},
