@@ -2922,9 +2922,11 @@ em1: {name:"EM-1:Exploration Mission 1", desc:"lv:SLS", stat:"pl",
     {pt:"", type:"l", dt:"2019-04", loc:"ter:ksc:LC-39B", desc:""},
     {pt:"", type:"toi", dt:"2019-04", loc:"ter", desc:"lto"},
     {pt:"", type:"fb", dt:"l+9dy", loc:"lun", desc:""},
-    {pt:"", type:"oi", dt:"l+9dy", loc:"lun:70000km", desc:"Deep Retrograde Orbit"},
-    {pt:"", type:"toi", dt:"l+16dy", loc:"ter", desc:"eto"},
-    {pt:"", type:"edl", dt:"l+25dy", loc:"ter", desc:"eom"}
+    {pt:"", type:"oi", dt:"l+9dy", loc:"lun:70000km", desc:"Distant Retrograde Orbit"},
+    {pt:"", type:"dep", dt:"l+16dy", loc:"lun", desc:"DRD"},
+    {pt:"", type:"fb", dt:"l+17dy", loc:"lun", desc:""},
+    {pt:"", type:"oi", dt:"l+17dy", loc:"ter", desc:"eto"},
+    {pt:"", type:"edl", dt:"l+26dy", loc:"ter", desc:"eom"}
 ]},
 em1lcube: {name:"EM-1 Lunar Cubesats", desc:"lv:SLS;part:em1;6U CubeSats", stat:"pl", 
   parts:[
