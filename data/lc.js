@@ -89,6 +89,7 @@ Common.lpad = [
 {n:"SLC-3E", par:"van", lv:"Atlas V", loc:"34.640N,120.590W"},
 {n:"SLC-4W", par:"van", lv:"Atlas-Agena;Titan", loc:"34.633N,120.616W"},
 {n:"SLC-4E", par:"van", lv:"Atlas-Agena;Titan;Falcon 9;Falcon Heavy", loc:"34.632N,120.610W"},
+{n:"SLC-5", par:"van", lv:"Scout", loc:"34.608N,120.625W"},
 {n:"SLC-6", par:"van", lv:"Delta IV", loc:"34.581N,120.628W"},
 {n:"SLC-8", par:"van", lv:"Minotaur", loc:"34.576N,120.632W"},
 {n:"LC-576E", par:"van", lv:"Taurus", loc:"34.740N,120.619W"},

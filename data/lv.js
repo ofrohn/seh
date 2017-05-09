@@ -136,6 +136,9 @@ add: spec. impulse, manufact.
 "Saturn IB": {ctry:"us", m:"587300", pm:"18600/-/-",  d:"68.1x6.53", pf:"", dt:"1966-02-26..1975-07-15", st:"2", th:"7290", fam:"Saturn", desc:"l:ksc;ag:nasa", fuel:"Kerosene/LOX", icon:"Saturn-IB.png"},
 //Saturn V
 "Saturn V": {ctry:"us", m:"2913000", pm:"118000/-/47000",  d:"110.6x10.1", pf:"", dt:"1967-11-09..1973-05-14", st:"3", th:"34030", fam:"Saturn", desc:"l:ksc;ag:nasa", fuel:"Kerosene/LOX", icon:"Saturn-V.png"},
+//Scout G1
+"Scout": {syn:"Scout G1"},
+"Scout G1": {n:"Scout G1", ctry:"us", m:"21500", pm:"220/-/-", d:"23x1.1", pf:"", dt:"1979-10-30..1994-05-09", st:"4", ust:"", th:"465", fam:"Scout", desc:"l:van;ag:nasa", fuel:"SRP", icon:"scout.png"},
 //SLS
 "SLS": {syn:"SLS 1"},
 "SLS 1": {n:"Space Launch System Block 1", ctry:"us", m:"2750000", pm:"70k/30k/20k", d:"98.1x8.4", pf:"", dt:"2019..", st:"2/2", ust:"iCPS", th:"39400", fam:"SLS", desc:"l:cap;ag:nasa", fuel:"LH2/LOX+SRP", icon:"sls-1.png"},
