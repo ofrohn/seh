@@ -24,10 +24,13 @@ var dat = cat([
   './data/elements.js'
 ]);
 
-//dat = dat.replace(/PATH\: \"\.\.\/res\/\"/, "PATH:''");
 
 var out = ug.minify(dat, {fromString: true});
 fs.writeFileSync('./data.js', out.code);
+
+dat = dat.replace(/PATH\: \"(.*?\/)\"/, "PATH:'../$1'");
+var out = ug.minify(dat, {fromString: true});
+fs.writeFileSync('./pub/data-' + version + '.js', out.code);
 
 
 echo('app.js');
@@ -51,6 +54,7 @@ var app = cat([
 
 var out = ug.minify(app, {fromString: true});
 fs.writeFileSync('./app.js', out.code);
+fs.writeFileSync('./pub/app-' + version + '.js', out.code);
 
 
 echo('copy files');
@@ -58,10 +62,13 @@ echo('copy files');
 //cp('-Rf', ['./index.html', './hist.png', './lo.png'], './pub');
 //cat('./style.css').to('./pub/style-' + version + '.css');
 
-var diag='<!DOCTYPE html><html><head><title>History of Solar System Exploration %ver%</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" media="screen" href="style.css" type="text/css"><script type="text/javascript" src="data.js"></script><script type="text/javascript" src="app.js"></script><script type="text/javascript">function init() {var img, param, height; param=Hist.init(); height=window.innerHeight; if (!param.c) { img=new Image(); img.src="images/hist.png"; img.style.width=px(param.w); img.style.height="auto"; img.style.position="absolute"; img.style.top=px(0); param.p.appendChild(img); } else {  setTimeout(Hist.load, 100); } }</script></head><body onload="init()"><noscript> Please enable javascript in your browser.</noscript></body></html>'.replace(/%ver%/g, version);
+var diag='<!DOCTYPE html><html><head><title>History of Solar System Exploration %ver1%</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" media="screen" href="%path%style.css" type="text/css"><script type="text/javascript" src="data%ver2%.js"></script><script type="text/javascript" src="app%ver2%.js"></script><script type="text/javascript">function init() {var img, param, height; param=Hist.init(); height=window.innerHeight; if (!param.c) { img=new Image(); img.src="images/hist.png"; img.style.width=px(param.w); img.style.height="auto"; img.style.position="absolute"; img.style.top=px(0); param.p.appendChild(img); } else {  setTimeout(Hist.load, 100); } }</script></head><body onload="init()"><noscript> Please enable javascript in your browser.</noscript></body></html>';
 
-fs.writeFileSync('./diag.html', diag);
+var d1 = diag.replace(/%ver1%/g, version).replace(/%ver2%/g, '').replace(/%path%/g, '');
+fs.writeFileSync('./diag.html', d1);
 
+var d2 = diag.replace(/%ver1%/g, version).replace(/%ver2%/g, '-' + version).replace(/%path%/g, '../');
+fs.writeFileSync('./pub/diag-' + version + '.html', d2);
 
 echo('copy data');
 var opt = {preserveTimestamps:true};
