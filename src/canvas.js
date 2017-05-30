@@ -519,7 +519,7 @@ function Cdraw(cid, params) {
     return grad;
   };
   
-  this.image = function(img, x, y, w, h, dx, dy ,dw, dh) {
+  this.image = function(img, x, y, w, h, dx, dy, dw, dh) {
   //image drawing; img can be path or DOM image
   //2 args: simple drawing; 4 args: scaling; 8 args: src-offset and scaling
     var limg;

@@ -1,0 +1,768 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Deep Space Exploration Infrastructure</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" media="screen" href="../style.css" type="text/css">
+  <style type="text/css">
+    body { padding:0; }
+    canvas { }
+    div.urls { display:none; position:absolute; top:0px; }
+    /*.infoPopup { border-radius:6px; display:inline-block; background:#fcfcf7; position:relative; margin:0px; border: 1px solid #000; opacity:1;  }
+    .ninfoBox * { position:relative; }*/
+  </style>
+<script type="text/javascript" src="../src/canvas.js"></script>
+<script type="text/javascript" src="../src/math.js"></script>
+<script type="text/javascript" src="../src/hist.js"></script>
+<script type="text/javascript" src="../data/config.js"></script>
+<script type="text/javascript" src="../data/common.js"></script>
+<script type="text/javascript" src="../data/data.js"></script>
+<script type="text/javascript" src="../data/probes.js"></script>
+<script type="text/javascript" src="../data/objects.js"></script>
+<script type="text/javascript" src="../data/lv.js"></script>
+<script type="text/javascript" src="../data/lc.js"></script>
+<script type="text/javascript" src="../src/utils.js"></script>
+<script type="text/javascript" src="../src/ui.js"></script>
+<script type="text/javascript" src="../src/parse.js"></script>
+<script type="text/javascript" src="../src/pos.js"></script>
+<script type="text/javascript" src="../src/moons.js"></script>
+<script type="text/javascript" src="../src/mission.js"></script>
+<script type="text/javascript" src="../src/destination.js"></script>
+<script type="text/javascript" src="../data/elements.js"></script>
+<script type="text/javascript" src="../src/panel.js"></script>
+<script type="text/javascript" src="../src/info.js"></script>
+<script type="text/javascript" src="../src/launch.js"></script>
+<script type="text/javascript" src="../data/dsn.js"></script>
+<script type="text/javascript" src="countries.geo.json"></script>
+<script type="text/javascript">
+
+  var w = 2048, h = w/2, qw = w/360, qh = h/180,
+      water   = "#ecf5f9",
+      country = "#fff7e0",
+      border  = "#666",
+      hilight = "#e7e0bc",
+      ttl = "bold 16px 'Trebuchet MS'",
+      bold = "bold 16px 'Trebuchet MS'",
+      normal = "normal 16px 'Trebuchet MS'",
+      italic = "italic 14px 'Trebuchet MS'",
+      rkt,dsh,tdn;
+  
+  function init() {
+    var i, j, x, y, cnv, t, b, col, loc, lcs = {}, dsn = {}, tdz = {}, names = [], urls = [],
+        sfc = "AUT,BEL,CHE,CHN,CZE,DEU,DNK,ESP,EST,FIN,FRA,GBR,GRC,GUF,HUN,IND,IRL,ITA,JPN,LUX,NLD,NOR,POL,PRT,ROU,RUS,SWE,USA",
+        brdrs = JSON.parse(geo);
+  
+
+    var ctrys = ["cn","eu","ind","jp","ru","us"];
+    img = new Image();
+    img.src = "relief.png";
+    cc = new Image();
+    cc.src = "../images/res/cc.png";
+    spr = new Image();
+    spr.src = "../images/res/sprites.png";
+    icons = new Image();
+    icons.src = "../images/res/icons.png";
+    rkt = {}; dsh = {}; tdn = {}; ccc = {};
+
+    for (var i=0; i<ctrys.length; i++) {
+      ccc[ctrys[i]] = {x:i*38, y:2, w:38, h:42};
+      dsh[ctrys[i]] = {x:i*38, y:48, w:38, h:47};
+      rkt[ctrys[i]] = {x:i*38, y:99, w:38, h:45};
+      tdn[ctrys[i]] = {x:i*38, y:145, w:38, h:45};
+
+    }
+    
+    cnv = new Cdraw("lcmap");
+    
+    SSEH.lc = "";
+    Common.symbols = Hist.Symbols();
+    Common.sprites = Hist.Sprites();
+    Common.names = new Names("SSEH");
+    Common.SPC = SSEH.SPC;
+ 
+    cnv.fillrect(0,0,w,h,water);
+    cnv.image(img,0,0,w,h);
+    cnv.setparam("globalAlpha", 0.6);
+    cnv.setparam("lineJoin", "round");
+
+    b = brdrs.features;
+    for (i=0; i<b.length; i++) {
+      col = sfc.search(b[i].id) != -1?hilight:country;
+      
+      if (b[i].geometry.type == "Polygon") drawCountry(cnv, b[i].geometry.coordinates[0], col);
+      else { 
+        for (j=0; j<b[i].geometry.coordinates.length; j++) drawCountry(cnv, b[i].geometry.coordinates[j][0], col);
+      };
+      
+    };
+
+    //cnv.setparam("globalCompositeOperation", "xor");
+    //cnv.fillrect(0,0,w,h,water);
+    
+    cnv.setparam("globalAlpha", 1.0);
+    //cnv.image(img,0,0);
+
+    for (key in Common.lc) {
+      if (key.search(/alc/) != -1) continue;
+      lcs[key] = new LC(key);
+      t = lcs[key].drawAzimuth(cnv,w,h,0);
+      names.push(t);
+    };
+
+    for (key in Common.tdz) {
+      tdz[key] = new TDZone(key);
+      t = tdz[key].drawTDZ(cnv,w,h,-20);
+      if (t) names.push(t);
+    };
+    
+    for (key in Common.ctrl) {
+      cc[key] = new CC(key);
+      t = cc[key].drawCC(cnv,w,h,0);
+      if (t) names.push(t);
+    };
+
+    for (key in Common.dsn) {
+      if (key.search(/cdsnqin|cdsnjix/) != -1) continue;
+      dsn[key] = new DSN(key);
+      t = dsn[key].drawDish(cnv,w,h,0);
+      names.push(t);
+    };
+
+    //names.sort( function(a,b) { return a.n.toLowerCase() > b.n.toLowerCase()?1:-1; } );
+    
+    var ulist = document.getElementById("urls");
+    var col_len = 0;
+    w1 = (w-20)/5 - 10;
+    wc = [10, w1-30, w1+40, w1+10, w1+0, -w1-0];
+    clnm = 0;
+    x = 0;
+    h1 = 20;
+    cnv.text("Deep Space Exploration Ground Infrastructure (operations)", wc[0], h-h1*13+8, "bold 20px 'Trebuchet MS'");
+    for (var key in Common.heads) {
+      if (key === "jp") { 
+        y = h - h1*7+10;
+      } else y = h - h1*12;
+      x += wc[clnm];
+      
+      var col = convertCol(Common.ctry[key].col);
+      var grad = cnv.makegradient(x,y-2,x+w1,y+h1,[{pos:0, col:"rgba(" + col + ",0.8)"},{pos:0.9, col:"rgba(" + col + ",0)"}]);
+      var flag = Common.sprites[key];
+      cnv.fillrect(x, y-2, w1, h1+2, grad);
+      cnv.image(spr, flag.x, flag.y, 24, 13, x-1, y-2, 36, 22);
+      cnv.text(Common.names.find(Common.heads[key].ag).n, x+38, y+h1-5, ttl, null, "#fff");
+
+      for (i=0; i<names.length; i++) {
+        if (names[i].c !== key) continue;
+        y += h1;
+        switch (names[i].tp) {
+          case "lc": 
+            h2 = (h1-2)*36/45; 
+            var ico = rkt[key];
+            cnv.image(icons, ico.x, ico.y, ico.w, ico.h, x + 10 - h2, y+1, h2, (h1-2)); break;
+          case "td": 
+            h2 = (h1-2)*36/45; 
+            var ico = tdn[key];
+            cnv.image(icons, ico.x, ico.y, ico.w, ico.h, x + 10 - h2, y+1, h2, (h1-2)); break;
+          case "dsn": 
+            h2 = (h1-2)*36/47; 
+            var ico = dsh[key];
+            cnv.image(icons, ico.x, ico.y, ico.w, ico.h, x + 10 - h2, y+1, h2, (h1-2)); break;
+          case "cc": 
+            h2 = (h1-2)*36/42; 
+            var ico = ccc[key];
+            cnv.image(icons, ico.x, ico.y, ico.w, ico.h, x + 10 - h2, y+1, h2, (h1-2));
+        }
+        
+        cnv.text(names[i].n + ":", x + 12, y + h1 - 2, bold);
+        var l = cnv.textwidth(names[i].n, bold) + 24;
+        cnv.text(names[i].l, x + l, y + h1 - 2, normal);
+        l += cnv.textwidth(names[i].l, normal) + 6;
+        if (names[i].h) {
+          var flag = Common.sprites[names[i].h];
+          cnv.image(spr, x + l, y + 6, 24, 13, flag.x, flag.y, 24, 13);
+          l += 0;
+        }
+        if (names[i].l.search(/\n/) !== -1) { 
+          y += h1; 
+          l = cnv.textwidth(names[i].n, bold) + 24;
+        }
+        if (names[i].dsh)
+          cnv.text("(" + names[i].dsh + ")", x + l, y + h1 - 2, normal);
+        if (names[i].url) {
+          Create.a(ulist, {n:names[i].l, u:names[i].url.u});      
+          Create.br(ulist);
+        }
+      };
+      clnm++;
+    }
+    cnv.text("Red Slices: Launch azimuths (directions)   Hilighted: Countries or member countries of organizations that launched missions beyond Earth orbit", 10, h-4, italic, "left", "#666");
+    cnv.image(cc, w-88, h-16);
+    cnv.text("Olaf Frohn", w-94, h-4, bold, "right");
+  };
+  
+  function drawCountry(cnv, line, col) {
+    var i, c, p;
+    
+    c = scale(line[0]);
+    cnv.startp(c.x, c.y, col, 0.3, border);
+    for (i=1; i<line.length; i++) {
+      p = scale(line[i]);  
+      cnv.movep(p.x, p.y);
+    };
+    cnv.endp(c.x, c.y, true);  
+  };
+  
+  function scale(pt) {
+    var x,y,l,b;
+    l = Trig.deg2rad(pt[0]);
+    b = Trig.deg2rad(pt[1]);
+    
+    x = (parseFloat(pt[0]) + 180) * qw;
+    y = (90 - parseFloat(pt[1])) * qh;
+    return {x:x, y:y};
+  };
+
+  function convertCol(c){
+    var res = [], a = c.split("");
+    for (var i=1; i<a.length; i++) {
+      res[i-1] = parseInt(a[i]+a[i], 16);
+    }
+    return res.join(",");
+  }
+  
+function DSN(id, parid) {
+  var _parent, _data = {}, _id, _box,
+
+  parse = function(d) {
+     var i, t;
+
+     t = Read.data(d.name);
+     _data.name = Read.string(t[0]);
+     _data.id = _id;
+     //alt. Names
+     if (d.other && d.other !== "") { _data.other = Read.string(d.other.split(":"), true); }
+     if (d.desig && d.desig !== "") { _data.desig = Read.string(d.desig.split(":"), true); }
+     _data.ctry = readCtry(d.ctry);
+     t = Read.data(d.desc);
+     for (i=0; i<t.length; i++) {
+       _data[t[i][0]] = readDesc(t[i]);
+     }
+     if (_data.hasOwnProperty("show") && _data.hasOwnProperty("shmap")) 
+       _data.show.p = _data.shmap
+  },
+  readDesc = function(s) {
+    var res, t;
+    if (!s || s.length < 2) return; 
+    //url,loc,show,reg,az,x,y
+    switch (s[0]) {
+      case "url": res = {u:"http://"+s[1], k:"ext"}; break;
+      case "n": 
+      case "ag": res = Common.names.find(s[1]); break;
+      case "show": res = s.length > 2? {n:s[1], p:s[2]} : {n:s[1], p:"NW"}; break;
+      case "reg": res = {n:s[1]}; break; 
+      case "loc": res = readLoc(s[1]); break;
+      case "dish": res =  readDish(s[1]); break;
+      case "shmap":
+      case "x":  
+      case "y": res = s[1]; break;
+      default: return;
+    }
+    return res;
+  },
+  readDish = function(d) {
+    var res = "", i, t = d.split(",");
+   
+    for (i=0; i<t.length; i++) {
+      res += t[i].replace(/x/, "\u2009\u00d7\u2009").replace(/m/, "\u2009m");
+      if (i < t.length - 1) res += ", ";
+    }
+        
+    return {n:res};
+  },
+  createBox = function(full) {
+    var i, t, h, frag, box, col;
+
+    frag = document.createDocumentFragment();
+    //box
+    box = Create.div(frag, "infoPopup", "lc"+_id, {w:442});
+    //title
+    col = Create.div(box, "col", null, {w:300});
+    Create.span(col, _data.name, "missionTitle");
+    if (_data.desig) {
+    Create.span(col, {n:" ("+_data.desig.n+")"}, "missionTitle");    
+    } 
+    Create.asymbol(col, _data.url, "symLnk");
+    col = Create.div(box, "rcol", null, {w:140});
+    //Country flags
+    for (i=0; i<_data.ctry.length; i++) {
+      Create.asymbol(col, _data.ctry[i], "missionFlag");
+    }
+    //map
+    col = Create.div(box, "col", null, {w:440});
+    t = Create.img(col, _data.map, "lcIcon");
+    t.onload = function() { this.parentNode.style.height = px(this.height-10); };
+    col = Create.div(box, "col", null, {w:230});
+    //title
+    col = Create.div(box, "col", null, {w:230});
+    if (_data.desig) {
+      Create.span(col, {n:_data.name.l});
+      Create.br(col);
+    }
+    if (_data.other) {
+      Create.span(col, _data.other);
+      Create.br(col);
+    }
+    //drawData(col);
+    if (_data.reg) {
+      Create.span(col, _data.reg);
+      Create.br(col);
+    }
+    if (_data.loc) {
+      Create.asymbol(col, _data.loc, "symGeo");
+      Create.a(col, _data.loc);
+      Create.br(col);    
+    }
+    if (_data.dish) {
+      Create.span(col, _data.dish);
+      Create.br(col);
+    }
+
+    _parent.appendChild(frag);
+    return box;
+  },
+  drawData = function(par, cat) {
+  },
+  readLoc =  function(s) {
+     return {k:"globe", t:"_blank", n:s};
+  },
+  //Country & flag {n,i}
+  readCtry = function(fld) {
+    var i, t, n, res = [];
+   
+    t = fld.split(";");
+    if (!t) return; 
+    
+    for (i=0; i<t.length; i++) {
+      n = t[i];
+      if (Common.ctry.hasOwnProperty(n)) {
+        res.push({n:Common.ctry[n].name, k:n});
+      }
+    }
+    return res;
+  };
+  
+  this.drawData = function(par, cat) {
+    drawData(par, cat);
+  };
+  
+  this.drawDish = function(cnv, w, h, dx) {
+    var x0, y0, loc, wd = 16, hd = wd * 47/32, bold = "bold 16px 'Trebuchet MS'";
+    if (!cnv) return; 
+    dx = dx || 0;
+    loc = Parse.pos(_data.loc.n).split(",");
+    y0 = (90 - parseFloat(loc[0])) * h/180; 
+    x0 = (parseFloat(loc[1]) + 180) * w/360 + dx;
+
+    if (_data.show[0] != 0) {
+      cnv.label(_data.show.n, x0, y0, 4, _data.show.p, bold, "#000");      
+    }
+
+    if (_id == "cdsnkun") y0 += 6;
+    if (_id == "dsa2") { x0 += 4; y0 -= 1; }
+    if (_id == "mdscc") { x0 -= 4; y0 += 1; }
+    var ico = dsh[_data.ctry[0].k];
+    cnv.image(icons, ico.x, ico.y, ico.w, ico.h, x0-wd/2, y0-hd, wd, hd);
+
+    res = {n:_data.show.n, l:_data.name.l, c:_data.ctry[0].k, dsh:_data.dish.n, url:_data.url, tp:"dsn"};
+    if (_data.ctry.length > 1) res.h = _data.ctry[1].k;
+    return res;
+  };
+  
+  this.setStat = function(s, val) { 
+  };
+  
+  this.Name = function() {
+     return _data.name.n;  
+  };
+
+  this.Box = function() {
+     return _box;  
+  };
+  
+  this.list = function() { 
+    return {n:_data.name, a:_data.show.n, loc:_data.loc.n, o:_data.show.p, ctry:_data.ctry};
+  };
+
+  
+  if (parid) { _parent = document.getElementById(parid); }
+  if (!_parent) { _parent = document.getElementsByTagName("body")[0]; }
+
+  _id = id;
+  parse(Common.dsn[id]);
+  //_box = createBox();
+  //_box.style.top = px(-9999);
+  //_box.style.left = px(10);
+}
+
+function TDZone(id, parid) {
+  var _parent, _data = {}, _id, _box,
+
+  parse = function(d) {
+     var i, t;
+
+     t = Read.data(d.name);
+     _data.name = Read.string(t[0]);
+     _data.id = _id;
+     //alt. Names
+     if (d.other && d.other !== "") { _data.other = Read.string(d.other.split(":"), true); }
+     if (d.desig && d.desig !== "") { _data.desig = Read.string(d.desig.split(":"), true); }
+     _data.ctry = readCtry(d.ctry);
+     t = Read.data(d.desc);
+     for (i=0; i<t.length; i++) {
+       _data[t[i][0]] = readDesc(t[i]);
+     }
+     if (_data.hasOwnProperty("show") && _data.hasOwnProperty("shmap")) 
+       _data.show.p = _data.shmap
+  },
+  readDesc = function(s) {
+    var res, t;
+    if (!s || s.length < 2) return; 
+    //url,loc,show,reg,az,x,y
+    switch (s[0]) {
+      case "url": res = {u:"http://"+s[1], k:"ext"}; break;
+      case "n": 
+      case "ag": res = Common.names.find(s[1]); break;
+      case "show": res = s.length > 2? {n:s[1], p:s[2]} : {n:s[1], p:"NW"}; break;
+      case "reg": res = {n:s[1]}; break; 
+      case "loc": res = readLoc(s[1]); break;
+      case "shmap":
+      case "x":  
+      case "y": res = s[1]; break;
+      default: return;
+    }
+    return res;
+  },
+  createBox = function(full) {
+    var i, t, h, frag, box, col;
+
+    frag = document.createDocumentFragment();
+    //box
+    box = Create.div(frag, "infoPopup", "lc"+_id, {w:442});
+    //title
+    col = Create.div(box, "col", null, {w:300});
+    Create.span(col, _data.name, "missionTitle");
+    if (_data.desig) {
+    Create.span(col, {n:" ("+_data.desig.n+")"}, "missionTitle");    
+    } 
+    Create.asymbol(col, _data.url, "symLnk");
+    col = Create.div(box, "rcol", null, {w:140});
+    //Country flags
+    for (i=0; i<_data.ctry.length; i++) {
+      Create.asymbol(col, _data.ctry[i], "missionFlag");
+    }
+    //map
+    col = Create.div(box, "col", null, {w:440});
+    t = Create.img(col, _data.map, "lcIcon");
+    t.onload = function() { this.parentNode.style.height = px(this.height-10); };
+    col = Create.div(box, "col", null, {w:230});
+    //title
+    col = Create.div(box, "col", null, {w:230});
+    if (_data.desig) {
+      Create.span(col, {n:_data.name.l});
+      Create.br(col);
+    }
+    if (_data.other) {
+      Create.span(col, _data.other);
+      Create.br(col);
+    }
+    //drawData(col);
+    if (_data.reg) {
+      Create.span(col, _data.reg);
+      Create.br(col);
+    }
+    if (_data.loc) {
+      Create.asymbol(col, _data.loc, "symGeo");
+      Create.a(col, _data.loc);
+      Create.br(col);    
+    }
+
+    _parent.appendChild(frag);
+    return box;
+  },
+  drawData = function(par, cat) {
+  },
+  readLoc =  function(s) {
+     return {k:"globe", t:"_blank", n:s};
+  },
+  //Country & flag {n,i}
+  readCtry = function(fld) {
+    var i, t, n, res = [];
+   
+    t = fld.split(";");
+    if (!t) return; 
+    
+    for (i=0; i<t.length; i++) {
+      n = t[i];
+      if (Common.ctry.hasOwnProperty(n)) {
+        res.push({n:Common.ctry[n].name, k:n});
+      }
+    }
+    return res;
+  };
+  
+  this.drawData = function(par, cat) {
+    drawData(par, cat);
+  };
+  
+  this.drawTDZ = function(cnv, w, h, dy) {
+    var x0, y0, loc, wd = 16, hd = wd * 45/32, bold = "bold 16px 'Trebuchet MS'";
+    if (!cnv) return; 
+    dy = dy || 0;
+    loc = Parse.pos(_data.loc.n).split(",");
+    y0 = (90 - parseFloat(loc[0])) * h/180; 
+    x0 = (parseFloat(loc[1]) + 180) * w/360;
+
+    if (_data.show.n != "0") {
+      cnv.label(_data.show.n, x0, y0 + dy, 4, _data.show.p, bold, "#000");      
+    }
+
+    var ico = tdn[_data.ctry[0].k];
+    cnv.image(icons, ico.x, ico.y, ico.w, ico.h, x0-wd/2, y0-hd, wd, hd);
+
+    if (_data.show.n == "0") return;
+    
+    res = {n:_data.show.n, l:_data.name.l, c:_data.ctry[0].k, url:_data.url, tp:"td"};
+    if (_data.ctry.length > 1) res.h = _data.ctry[1].k;
+    return res;
+    
+  };
+  
+  this.setStat = function(s, val) { 
+  };
+  
+  this.Name = function() {
+     return _data.name.n;  
+  };
+
+  this.Box = function() {
+     return _box;  
+  };
+  
+  this.list = function() { 
+    return {n:_data.name, a:_data.show.n, loc:_data.loc.n, o:_data.show.p, ctry:_data.ctry};
+  };
+
+  
+  if (parid) { _parent = document.getElementById(parid); }
+  if (!_parent) { _parent = document.getElementsByTagName("body")[0]; }
+
+  _id = id;
+  parse(Common.tdz[id]);
+  //_box = createBox();
+  //_box.style.top = px(-9999);
+  //_box.style.left = px(10);
+}
+
+function CC(id, parid) {
+  var _parent, _data = {}, _id, _box,
+
+  parse = function(d) {
+     var i, t;
+
+     t = Read.data(d.name);
+     _data.name = Read.string(t[0]);
+     _data.id = _id;
+     //alt. Names
+     if (d.other && d.other !== "") { _data.other = Read.string(d.other.split(":"), true); }
+     if (d.desig && d.desig !== "") { _data.desig = Read.string(d.desig.split(":"), true); }
+     _data.ctry = readCtry(d.ctry);
+     t = Read.data(d.desc);
+     for (i=0; i<t.length; i++) {
+       _data[t[i][0]] = readDesc(t[i]);
+     }
+     if (_data.hasOwnProperty("show") && _data.hasOwnProperty("shmap")) 
+       _data.show.p = _data.shmap
+  },
+  readDesc = function(s) {
+    var res, t;
+    if (!s || s.length < 2) return; 
+    //url,loc,show,reg,az,x,y
+    switch (s[0]) {
+      case "url": res = {u:"http://"+s[1], k:"ext"}; break;
+      case "n": 
+      case "ag": res = Common.names.find(s[1]); break;
+      case "show": res = s.length > 2? {n:s[1], p:s[2]} : {n:s[1], p:"NW"}; break;
+      case "reg": res = {n:s[1]}; break; 
+      case "loc": res = readLoc(s[1]); break;
+      case "shmap":
+      case "x":  
+      case "y": res = s[1]; break;
+      default: return;
+    }
+    return res;
+  },
+  createBox = function(full) {
+    var i, t, h, frag, box, col;
+
+    frag = document.createDocumentFragment();
+    //box
+    box = Create.div(frag, "infoPopup", "lc"+_id, {w:442});
+    //title
+    col = Create.div(box, "col", null, {w:300});
+    Create.span(col, _data.name, "missionTitle");
+    if (_data.desig) {
+    Create.span(col, {n:" ("+_data.desig.n+")"}, "missionTitle");    
+    } 
+    Create.asymbol(col, _data.url, "symLnk");
+    col = Create.div(box, "rcol", null, {w:140});
+    //Country flags
+    for (i=0; i<_data.ctry.length; i++) {
+      Create.asymbol(col, _data.ctry[i], "missionFlag");
+    }
+    //map
+    col = Create.div(box, "col", null, {w:440});
+    t = Create.img(col, _data.map, "lcIcon");
+    t.onload = function() { this.parentNode.style.height = px(this.height-10); };
+    col = Create.div(box, "col", null, {w:230});
+    //title
+    col = Create.div(box, "col", null, {w:230});
+    if (_data.desig) {
+      Create.span(col, {n:_data.name.l});
+      Create.br(col);
+    }
+    if (_data.other) {
+      Create.span(col, _data.other);
+      Create.br(col);
+    }
+    //drawData(col);
+    if (_data.reg) {
+      Create.span(col, _data.reg);
+      Create.br(col);
+    }
+    if (_data.loc) {
+      Create.asymbol(col, _data.loc, "symGeo");
+      Create.a(col, _data.loc);
+      Create.br(col);    
+    }
+
+    _parent.appendChild(frag);
+    return box;
+  },
+  drawData = function(par, cat) {
+  },
+  readLoc =  function(s) {
+     return {k:"globe", t:"_blank", n:s};
+  },
+  //Country & flag {n,i}
+  readCtry = function(fld) {
+    var i, t, n, res = [];
+   
+    t = fld.split(";");
+    if (!t) return; 
+    
+    for (i=0; i<t.length; i++) {
+      n = t[i];
+      if (Common.ctry.hasOwnProperty(n)) {
+        res.push({n:Common.ctry[n].name, k:n});
+      }
+    }
+    return res;
+  };
+  
+  this.drawData = function(par, cat) {
+    drawData(par, cat);
+  };
+  
+  this.drawCC = function(cnv, w, h, dy) {
+    var x0, y0, loc, wd = 14, hd = wd * 42/36, bold = "bold 16px 'Trebuchet MS'";
+    if (!cnv) return; 
+    dy = dy || 0;
+    loc = Parse.pos(_data.loc.n).split(",");
+    y0 = (90 - parseFloat(loc[0])) * h/180; 
+    x0 = (parseFloat(loc[1]) + 180) * w/360;
+
+    if (_data.show.n != "0") {
+      cnv.label(_data.show.n, x0, y0 + dy, 4, _data.show.p, bold, "#000");      
+    }
+
+    if (_id == "esoc" || _id == "tsup") {
+      var ico = ccc[_data.ctry[0].k];
+      cnv.image(icons, ico.x, ico.y, ico.w, ico.h, x0-wd/2, y0-hd, wd, hd);
+    }
+    if (_data.show.n == "0") return;
+    
+    res = {n:_data.show.n, l:_data.name.l, c:_data.ctry[0].k, url:_data.url, tp:"cc"};
+    if (_data.ctry.length > 1) res.h = _data.ctry[1].k;
+    return res;
+    
+  };
+  
+  this.setStat = function(s, val) { 
+  };
+  
+  this.Name = function() {
+     return _data.name.n;  
+  };
+
+  this.Box = function() {
+     return _box;  
+  };
+  
+  this.list = function() { 
+    return {n:_data.name, a:_data.show.n, loc:_data.loc.n, o:_data.show.p, ctry:_data.ctry};
+  };
+
+  
+  if (parid) { _parent = document.getElementById(parid); }
+  if (!_parent) { _parent = document.getElementsByTagName("body")[0]; }
+
+  _id = id;
+  parse(Common.ctrl[id]);
+  //_box = createBox();
+  //_box.style.top = px(-9999);
+  //_box.style.left = px(10);
+}
+
+
+/*
+SSEH.showDSN = function(e, nd) { 
+  var ar, id, top, left, box, 
+      ev = e || window.event,
+      node = nd || this; 
+
+  top = node.offsetTop + node.parentNode.parentNode.parentNode.offsetTop + node.offsetHeight + 4;
+  left = node.parentNode.parentNode.offsetLeft + node.parentNode.offsetLeft + 4;  
+  ar = node.id.match(/^lnk(.+)/);
+  if (ar !== null) { 
+    if (!Common.lc.hasOwnProperty(ar[1])) return; 
+    box = document.getElementById("lc"+ar[1]); 
+  }
+  if (!box && !UI.cancelled()) { 
+    UI.wait(true, top, left);
+    window.setTimeout(function() { SSEH.showLC(ev, node); }, 500);  
+  } else { UI.wait(false); }
+  if (!box) return false; 
+
+  if (box.style.opacity == 1) {
+    box.style.opacity = 0;  
+    setTimeout(UI.shift, 1000);
+  } else { 
+    UI.vanish(false);
+    box.style.left = px(left); 
+    box.style.top = px(top); 
+    box.style.opacity = 1;  
+    UI.Scroll.set(box); 
+  }
+  ev.stopPropagation();
+  return false; 
+};
+*/
+</script>
+  
+</head>
+
+<body onload="init()">
+<canvas id="lcmap" width="2048" height="1024"></canvas>
+<div id="urls"></div>
+</body>
+</html>
