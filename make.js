@@ -69,7 +69,7 @@ var diag='<!DOCTYPE html><html><head><title>History of Solar System Exploration 
 var d1 = diag.replace(/%ver1%/g, version).replace(/%ver2%/g, '').replace(/%path%/g, '');
 fs.writeFileSync('./diag.html', d1);
 
-var d2 = diag.replace(/%ver1%/g, version).replace(/%ver2%/g, '-' + version).replace(/%path%/g, '../');
+var d2 = diag.replace(/%ver1%/g, version).replace(/%ver2%/g, '-' + shortversion).replace(/%path%/g, '../');
 fs.writeFileSync('./pub/diag-' + shortversion + '.html', d2);
 
 echo('copy data');
