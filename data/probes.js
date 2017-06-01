@@ -2898,9 +2898,9 @@ mom2: {name:"MObM:Mars Observation Mission", desc:"lv:GSLV MkII",
     {pt:"", type:"nom", dt:"l+2yr", loc:"mar", desc:"?"},
     {pt:"", type:"pom", dt:"l+4yr", loc:"mar", desc:"?"}    
 ]},
-spp: {name:"SPP:Solar Probe Plus", desc:"lv:Delta IV Heavy",
+spp: {name:"Parker Solar Probe", desc:"lv:Delta IV Heavy",
   parts:[
-    {names:"", type:"obm", dest:"sol", stat:"pl", ctry:"us", desc:"ag:nasa,gsfc,apl;fam:Living With a Star;First flight through solar corona;m:610kg;sc:0.5", id:"", url:"hp:solarprobe.jhuapl.edu/;nasa:lws.gsfc.nasa.gov/missions.html", icon:"spp.png"}], 
+    {names:"SPP:Solar Probe Plus", type:"obm", dest:"sol", stat:"pl", ctry:"us", desc:"ag:nasa,gsfc,apl;fam:Living With a Star;First flight through solar corona;m:610kg;sc:0.5", id:"", url:"hp:solarprobe.jhuapl.edu/;nasa:lws.gsfc.nasa.gov/missions.html", icon:"spp.png"}], 
   events:[
     {pt:"", type:"l", dt:"2018-07-31", loc:"ter:cap:SLC-41", desc:""},
     {pt:"", type:"fb", dt:"l+0.16yr", loc:"ven", desc:"ga"},
@@ -2910,7 +2910,7 @@ spp: {name:"SPP:Solar Probe Plus", desc:"lv:Delta IV Heavy",
     {pt:"", type:"fb", dt:"l+3.20yr", loc:"ven", desc:"ga"},
     {pt:"", type:"fb", dt:"l+5.04yr", loc:"ven", desc:"ga"},
     {pt:"", type:"fb", dt:"l+6.26yr", loc:"ven", desc:"ga"},
-    {pt:"", type:"app", dt:"l+6.4yr", loc:"sol:9.5", desc:"Perihelion;16 More Solar Orbits"},
+    {pt:"", type:"app", dt:"l+6.4yr", loc:"sol:9.86", desc:"Perihelion;16 More Solar Orbits"},
     {pt:"", type:"nom", dt:"l+7.5yr", loc:"sol:ho:0.04x0.73aux3.4deg", desc:"?"},
     {pt:"", type:"pom", dt:"l+8.0yr", loc:"so", desc:""}
 ]},

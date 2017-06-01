@@ -1,6 +1,6 @@
 var SSEH = SSEH || {
   TITLE: "Solar System Exploration History",
-  VERSION: "1.5.1",
+  VERSION: "1.5.2",
   DATE: "2017-06 ",
   AUTHOR: "Olaf Frohn",
   CLICK: "Click on anything for more details",
@@ -27,12 +27,20 @@ var SSEH = SSEH || {
   PARENT: null
 };
 
+SSEH.path = function(s) {
+  var p = SSEH.PATH;
+
+  if (s) p = s;
+  
+  SSEH.ICONS = p + "res/";
+  SSEH.PLANETS = p + "planets/";
+  SSEH.MAPS = p + "maps/";
+  SSEH.PROBES = p + "probes/";
+  SSEH.LV  = p + "lv/";
+  SSEH.LC  = p + "lc/";
+}
+
+SSEH.path();
 //Common.symbols = {};
-SSEH.ICONS = SSEH.PATH + "res/";
-SSEH.PLANETS = SSEH.PATH + "planets/";
-SSEH.MAPS = SSEH.PATH + "maps/";
-SSEH.PROBES = SSEH.PATH + "probes/";
-SSEH.LV  = SSEH.PATH + "lv/";
-SSEH.LC  = SSEH.PATH + "lc/";
 
 

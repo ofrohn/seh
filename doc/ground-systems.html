@@ -3,7 +3,7 @@
 <head>
 	<title>Deep Space Exploration Infrastructure</title>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" media="screen" href="../style.css" type="text/css">
+<link rel="stylesheet" media="screen" href="../seh.css" type="text/css">
   <style type="text/css">
     body { padding:0; }
     canvas { }
@@ -11,28 +11,8 @@
     /*.infoPopup { border-radius:6px; display:inline-block; background:#fcfcf7; position:relative; margin:0px; border: 1px solid #000; opacity:1;  }
     .ninfoBox * { position:relative; }*/
   </style>
-<script type="text/javascript" src="../src/canvas.js"></script>
-<script type="text/javascript" src="../src/math.js"></script>
-<script type="text/javascript" src="../src/hist.js"></script>
-<script type="text/javascript" src="../data/config.js"></script>
-<script type="text/javascript" src="../data/common.js"></script>
-<script type="text/javascript" src="../data/data.js"></script>
-<script type="text/javascript" src="../data/probes.js"></script>
-<script type="text/javascript" src="../data/objects.js"></script>
-<script type="text/javascript" src="../data/lv.js"></script>
-<script type="text/javascript" src="../data/lc.js"></script>
-<script type="text/javascript" src="../src/utils.js"></script>
-<script type="text/javascript" src="../src/ui.js"></script>
-<script type="text/javascript" src="../src/parse.js"></script>
-<script type="text/javascript" src="../src/pos.js"></script>
-<script type="text/javascript" src="../src/moons.js"></script>
-<script type="text/javascript" src="../src/mission.js"></script>
-<script type="text/javascript" src="../src/destination.js"></script>
-<script type="text/javascript" src="../data/elements.js"></script>
-<script type="text/javascript" src="../src/panel.js"></script>
-<script type="text/javascript" src="../src/info.js"></script>
-<script type="text/javascript" src="../src/launch.js"></script>
-<script type="text/javascript" src="../data/dsn.js"></script>
+<script type="text/javascript" src="../data.js"></script>
+<script type="text/javascript" src="../app.js"></script>
 <script type="text/javascript" src="countries.geo.json"></script>
 <script type="text/javascript">
 
@@ -45,8 +25,22 @@
       bold = "bold 16px 'Trebuchet MS'",
       normal = "normal 16px 'Trebuchet MS'",
       italic = "italic 14px 'Trebuchet MS'",
-      rkt,dsh,tdn;
+      rkt, dsh, tdn, cc, spr, icons, img;
   
+  function load() {
+  
+    cc = new Image();
+    cc.src = "../images/res/cc.png";
+    spr = new Image();
+    spr.src = "../images/res/sprites.png";
+    icons = new Image();
+    icons.src = "../images/res/icons.png";
+    img = new Image();
+    img.onload = init;
+    img.src = "relief.png";
+  
+  }
+
   function init() {
     var i, j, x, y, cnv, t, b, col, loc, lcs = {}, dsn = {}, tdz = {}, names = [], urls = [],
         sfc = "AUT,BEL,CHE,CHN,CZE,DEU,DNK,ESP,EST,FIN,FRA,GBR,GRC,GUF,HUN,IND,IRL,ITA,JPN,LUX,NLD,NOR,POL,PRT,ROU,RUS,SWE,USA",
@@ -54,32 +48,20 @@
   
 
     var ctrys = ["cn","eu","ind","jp","ru","us"];
-    img = new Image();
-    img.src = "relief.png";
-    cc = new Image();
-    cc.src = "../images/res/cc.png";
-    spr = new Image();
-    spr.src = "../images/res/sprites.png";
-    icons = new Image();
-    icons.src = "../images/res/icons.png";
     rkt = {}; dsh = {}; tdn = {}; ccc = {};
 
     for (var i=0; i<ctrys.length; i++) {
-      ccc[ctrys[i]] = {x:i*38, y:2, w:38, h:42};
-      dsh[ctrys[i]] = {x:i*38, y:48, w:38, h:47};
-      rkt[ctrys[i]] = {x:i*38, y:99, w:38, h:45};
-      tdn[ctrys[i]] = {x:i*38, y:145, w:38, h:45};
+      ccc[ctrys[i]] = {x:i*39, y:2, w:38, h:42};
+      dsh[ctrys[i]] = {x:i*39, y:48, w:38, h:47};
+      rkt[ctrys[i]] = {x:i*39, y:99, w:38, h:45};
+      tdn[ctrys[i]] = {x:i*39, y:145, w:38, h:45};
 
     }
     
-    cnv = new Cdraw("lcmap");
+    Hist.init();
     
-    SSEH.lc = "";
-    Common.symbols = Hist.Symbols();
-    Common.sprites = Hist.Sprites();
-    Common.names = new Names("SSEH");
-    Common.SPC = SSEH.SPC;
- 
+    cnv = new Cdraw("lcmap");
+
     cnv.fillrect(0,0,w,h,water);
     cnv.image(img,0,0,w,h);
     cnv.setparam("globalAlpha", 0.6);
@@ -761,7 +743,7 @@ SSEH.showDSN = function(e, nd) {
   
 </head>
 
-<body onload="init()">
+<body onload="load()">
 <canvas id="lcmap" width="2048" height="1024"></canvas>
 <div id="urls"></div>
 </body>
