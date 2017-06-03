@@ -62,7 +62,7 @@ luna1958c: {name:"Luna E-1 #3", desc:"lv:Vostok-L 8K72",
 ]},
 pioneer3: {name:"Pioneer 3", desc:"lv:Juno II",
   parts:[
-    {names:"", type:"fbm", dest:"lun", stat:"p", ctry:"us", desc:"ag:nasa,jpl;fam:Pioneer;m:5.87kg;dim:0.25x0.25x0.58m", id:"1958-008A", url:"ql:space.jpl.nasa.gov/msl/QuickLooks/pioneer3QL.html", icon:"pioneer3-4.png"}], 
+    {names:"", type:"fbm", dest:"lun", stat:"p", ctry:"us", desc:"ag:nasa,jpl,abma;fam:Pioneer;m:5.87kg;dim:0.25x0.25x0.58m", id:"1958-008A", url:"ql:space.jpl.nasa.gov/msl/QuickLooks/pioneer3QL.html", icon:"pioneer3-4.png"}], 
   events:[
     {pt:"", type:"l", dt:"1958-12-06", loc:"ter:cap:LC-5", desc:""},
     {pt:"", type:"toi", dt:"1958-12-06", loc:"ter:lto", desc:"fail:Main engine premature shutdown"},
@@ -81,7 +81,7 @@ luna1: {name:"Luna 1", desc:"lv:Vostok-L 8K72",
 ]},
 pioneer4: {name:"Pioneer 4", desc:"lv:Juno II",
   parts:[
-    {names:"", type:"fbm", dest:"lun", stat:"p", ctry:"us", desc:"ag:nasa,jpl;fam:Pioneer;m:6.1kg;dim:0.25x0.25x0.58m", id:"1959-013A", url:"ql:space.jpl.nasa.gov/msl/QuickLooks/pioneer3QL.html", icon:"pioneer3-4.png"}], 
+    {names:"", type:"fbm", dest:"lun", stat:"p", ctry:"us", desc:"ag:nasa,jpl,abma;fam:Pioneer;m:6.1kg;dim:0.25x0.25x0.58m", id:"1959-013A", url:"ql:space.jpl.nasa.gov/msl/QuickLooks/pioneer3QL.html", icon:"pioneer3-4.png"}], 
   events:[
     {pt:"", type:"l", dt:"1959-03-03", loc:"ter:cap:LC-5", desc:""},
     {pt:"", type:"toi", dt:"1959-03-03", loc:"sol:ho:0.98x1.13aux1.3deg", desc:""},
@@ -2587,7 +2587,7 @@ msl: {name:"Curiosity", desc:"lv:Atlas V 541",
     {pt:"", type:"ev", dt:"2012-08-15..2013-06-05", loc:"mar", desc:"Instrument checkout;Drive to Glenelg"},
     {pt:"", type:"arr", dt:"2014-09-11", loc:"mar", desc:"Mt. Sharp"},
     {pt:"", type:"obs", dt:"2014-10-19", loc:"mar", desc:"Comet C 2013 A1 Siding Spring"},
-    {pt:"", type:"ex", dt:"", loc:"mar", desc:"Drive up Mt. Sharp;rv:15km;and counting"},
+    {pt:"", type:"ex", dt:"", loc:"mar", desc:"Drive up Mt. Sharp;rv:16km;and counting"},
     {pt:"", type:"nom", dt:"2018-09-30", loc:"mar", desc:"pend"},
     {pt:"", type:"pom", dt:"2022-11-15", loc:"mar", desc:"?"}
 ]},
@@ -2900,7 +2900,7 @@ mom2: {name:"MObM:Mars Observation Mission", desc:"lv:GSLV MkII",
 ]},
 spp: {name:"Parker Solar Probe", desc:"lv:Delta IV Heavy",
   parts:[
-    {names:"SPP:Solar Probe Plus", type:"obm", dest:"sol", stat:"pl", ctry:"us", desc:"ag:nasa,gsfc,apl;fam:Living With a Star;First flight through solar corona;m:610kg;sc:0.5", id:"", url:"hp:solarprobe.jhuapl.edu/;nasa:lws.gsfc.nasa.gov/missions.html", icon:"spp.png"}], 
+    {names:"SPP:Solar Probe Plus", type:"obm", dest:"sol", stat:"pl", ctry:"us", desc:"ag:nasa,gsfc,apl;fam:Living With a Star;First flight through solar corona;m:610kg;sc:0.5", id:"", url:"hp:solarprobe.jhuapl.edu/;nasa:lws.gsfc.nasa.gov/missions.html;tw:twitter.com/ParkerSunProbe", icon:"spp.png"}], 
   events:[
     {pt:"", type:"l", dt:"2018-07-31", loc:"ter:cap:SLC-41", desc:""},
     {pt:"", type:"fb", dt:"l+0.16yr", loc:"ven", desc:"ga"},
@@ -3101,7 +3101,7 @@ emm: {name:"Mars Hope", desc:"lv:H-IIA 202",
 // --- 2021
 lucy: {name:"Lucy", desc:"",
   parts:[
-    {names:"", type:"fbm", dest:"ast", stat:"pl", ctry:"us", desc:"ag:nasa,gsfc,swri;fam:discovery;sc:0.6", id:"", url:"hp:www.swri.org/9what/releases/2015/swri-nasa-contract-mission-jupiter-trojan-asteroid.htm", icon:"lucy.png"}
+    {names:"", type:"fbm", dest:"ast", stat:"pl", ctry:"us", desc:"ag:nasa,gsfc,swri;fam:discovery;sc:0.6", id:"", url:"hp:www.nasa.gov/content/goddard/lucy-the-first-mission-to-jupiter-s-trojans", icon:"lucy.png"}
   ], events:[
     {pt:"", type:"l", dt:"2021-10", loc:"ter:cap", desc:""},
     {pt:"", type:"oi", dt:"2021-10", loc:"sol:ho", desc:""},

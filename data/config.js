@@ -38,6 +38,19 @@ SSEH.path = function(s) {
   SSEH.PROBES = p + "probes/";
   SSEH.LV  = p + "lv/";
   SSEH.LC  = p + "lc/";
+  
+  SSEH.images = {
+    comet: SSEH.PLANETS + "comet-j.png",
+    sbg: SSEH.MAPS + "solsys-bg.png",
+    lo: p + "lo.png",
+    cc: SSEH.ICONS + "cc.png",
+    zoomin: SSEH.ICONS + "zoomin.cur",
+    nozoom: SSEH.ICONS + "nozoom.cur",
+    pioneer: SSEH.PROBES + "pioneer10-11.png",
+    voyager: SSEH.PROBES + "voyager1-2.png",
+    sprite:  SSEH.ICONS + "sprites.png"
+  };
+
 }
 
 SSEH.path();

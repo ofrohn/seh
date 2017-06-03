@@ -35,17 +35,6 @@ mbgnb: {name:"Fullscreen Mode", desc:"x:96;y:24"},
 smlfyb: {name:"End Fullscreen", desc:"x:96;y:48"}
 };
 
-SSEH.images = {
-comet: SSEH.PLANETS + "comet-j.png",
-sbg: SSEH.MAPS + "solsys-bg.png",
-lo: SSEH.PATH + "lo.png",
-cc: SSEH.ICONS + "cc.png",
-zoomin: SSEH.ICONS + "zoomin.cur",
-nozoom: SSEH.ICONS + "nozoom.cur",
-pioneer: SSEH.PROBES + "pioneer10-11.png",
-voyager: SSEH.PROBES + "voyager1-2.png",
-sprite:  SSEH.ICONS + "sprites.png"
-};
 
 SSEH.abbrevs = ["alsj", "ea", "edl", "eom", "esl1", "esl2", "et", "eto", "eva", "fail", "geo", "gto", "heasarc", "heeo", "hto", "ihw", "kbo", "leo", "leto", "loirp", "los", "lpi", "lto", "msss", "nom", "nssdc", "oi", "pds", "rsw", "tba", "toi", "tos", "tps", "nasa", "esa", "jaxa", "isro", "cnsa", "okb", "iki", "psa", "issdc", "darts", "isas", "dlr", "asi", "clep", "tsk", "apl", "jpl", "larc", "gsfc", "arc", "td_", "imp_", "tc", "acrsma", "acrincl", "acrecc", "acrapo", "acrperi", "acrau", "acrflat", "tid", "the", "thi", "tha", "tper", "ttemp", "tdens", "tsdens", "trot", "tgrav", "cap", "van", "wal", "bai", "vos", "ple", "kou", "uch", "tng", "wen", "xch", "sri", "usgs", "noaa", "b612", "fb_", "app_", "ksc", "usaf", "usn", "usa", "abma", "bmd", "bmdo", "za", "sse", "hist", "glxp", "acrlv", "sf101", "eop", "cnes", "ssi", "stsci"
 ];

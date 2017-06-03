@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Solar System Exploration History - Missions</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" media="screen" href="../seh.css" type="text/css">
+  <style type="text/css">
+    a.close { display:none; }
+    .infoBox { display:inline-block; position:relative; margin:12px; border: 2px solid #000; opacity:1;  }
+    .ninfoBox * { position:relative; }
+  </style>
+<script type="text/javascript" src="../data.js"></script>
+<script type="text/javascript" src="../app.js"></script>
+<script type="text/javascript">
+  
+  function init() {
+    var t, key, dest = {}, probes = [], i = 0,
+        bdy = document.getElementsByTagName("body")[0];
+
+    SSEH.lc = "";
+    SSEH.path("../images/");
+    Common.symbols = Hist.Symbols(); 
+    Hist.init();
+  
+    for (key in missions) {
+      probes[i] = new Mission(key);
+      i++;
+    }
+
+    probes.sort(function(a, b) { return (a.Launchdate() < b.Launchdate()?-1:1); });
+    
+    for (i=0; i<probes.length; i++) {
+      t = probes[i].createBox();
+      bdy.appendChild(t);
+    }
+    t = document.getElementsByClassName("infoBox");
+    for (i=0; i<t.length; i++) {
+      t[i].style.top = "auto";
+    };
+  }
+
+  
+</script>
+  
+</head>
+
+<body onload="init()">
+</body>
+</html>
