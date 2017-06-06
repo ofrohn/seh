@@ -352,6 +352,7 @@ function DSN(id, parid) {
     if (_id == "cdsnkun") y0 += 6;
     if (_id == "dsa2") { x0 += 4; y0 -= 1; }
     if (_id == "mdscc") { x0 -= 4; y0 += 1; }
+    if (_id == "bear") { x0 -= 8; y0 += 1; }
     var ico = dsh[_data.ctry[0].k];
     cnv.image(icons, ico.x, ico.y, ico.w, ico.h, x0-wd/2, y0-hd, wd, hd);
 
@@ -667,10 +668,11 @@ function CC(id, parid) {
       cnv.label(_data.show.n, x0, y0 + dy, 4, _data.show.p, bold, "#000");      
     }
 
-    if (_id == "esoc" || _id == "tsup") {
+    //if (_id == "esoc" || _id == "tsup") {
+      if (_id == "tsup" || _id == "gsfc") x0 += 4;
       var ico = ccc[_data.ctry[0].k];
       cnv.image(icons, ico.x, ico.y, ico.w, ico.h, x0-wd/2, y0-hd, wd, hd);
-    }
+    //}
     if (_data.show.n == "0") return;
     
     res = {n:_data.show.n, l:_data.name.l, c:_data.ctry[0].k, url:_data.url, tp:"cc"};

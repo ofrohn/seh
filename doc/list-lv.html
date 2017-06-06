@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Solar System Exploration History - Launch Vehicles</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" media="screen" href="../seh.css" type="text/css">
+  <style type="text/css">
+    a.close { display:none; }
+    .infoBox { display:inline-block; position:relative; margin:12px; border: 2px solid #000; opacity:1;  }
+    .ninfoBox * { position:relative; }
+    .legColCat, .legColC { border-top:0 none; }
+  </style>
+<script type="text/javascript" src="../data.js"></script>
+<script type="text/javascript" src="../app.js"></script>
+<script type="text/javascript">
+  
+  function getHeight(h, n, num) {
+    var i, res = 0;
+    for (i=0;i<h.length;i++) {
+      if (res < h[i]) res = h[i];
+    };
+    return res + 6;
+  };
+  
+  function init() {
+    var i, j, t, key, lvs = {}, probes = {}, clm, l, col, ccol,
+        id, frag, box, lvsort = [], dt = "", h = [], hrow, im = [], ids = "",
+        COLNUM = 7, 
+        bdy = document.getElementsByTagName("body")[0],
+        lvfont = "small-caps 14px/1.3 Arial, Helvetica, sans-serif";
+
+    SSEH.lc = "";
+    SSEH.path("../images/");
+    Hist.init();
+    UI.scale = SSEH.SCALE;
+  
+    cnv = new Cdraw("scale");
+
+    cnv.setsize({w:90, h:380})
+    //cnv.vline(89, 40, 340, "#000", 2);
+    
+    for (i=0; i<=110; i+=5) {
+      y = i*3 + 44;
+      if (i%10 === 0) {
+        cnv.hline(81, y, 8, "#000", 1);
+        cnv.text(110-i + "m", 76, y, lvfont, "right", "#663", "middle");
+      } else
+        cnv.hline(85, y, 4, "#000", 1);
+    }
+    
+    for (key in missions) {
+      probes[key] = new Mission(key);
+    };
+
+    i = 0;
+    for (key in Common.lv) {
+      if (!Common.lv[key].hasOwnProperty("syn")) {
+        lvs[key] = new LV(key);
+      };
+    }
+    
+  
+    frag = document.createDocumentFragment();
+    for (key in probes) {
+      l = probes[key].AchievementsLnch();
+      if (!l) continue;
+      id = Common.names.findLV(l.lv);
+      if (id) {
+        if (l.id != "" && ids.search(l.id) != -1) continue;
+        lvs[id].setStat("t");
+        if (l.st == "lf") lvs[id].setStat("f");
+        if (l.st == "pl") lvs[id].setStat("p");
+        lvs[id].setStat("dt", l.dt);
+        ids += l.id;
+      };
+    };
+
+    for (key in lvs) {
+      dt = lvs[key].Date();
+      if (dt) lvsort.push({id:key, dt:dt});
+    };
+    lvsort.sort( function(a, b) { return a.dt <= b.dt?-1:1; } );
+
+    clm = Create.div(bdy, "legColW", "legColLV", {t:10, l:10, w:100*(lvsort.length+1)});
+    
+    for (i=0; i<lvsort.length; i++) {
+      key = lvsort[i].id;
+      if (/*(i)%COLNUM == 0 || */i == 0) {
+        ccol = Create.div(frag, "legColCat", null, {w:90});
+        lvs[key].drawData(ccol, true);
+      };
+      l = lvs[key].list();
+      col = Create.div(frag, "legColC", null, {w:100});
+      dt = lvsort[i].dt.getFullYear();
+      Create.span(col, {n:dt}, "lvYr");
+      Create.asymbol(col, l.ctry[0], "lvFlag");
+      Create.br(col);
+      im[i] = Create.img(col, l);
+      h[i] = 3*parseInt(l.d);
+      im[i].style.height = px(h[i]);
+      if (/*(i+1)%COLNUM == 0 || */i == lvsort.length-1) {
+        hrow = getHeight(h, i, COLNUM);
+        for (j=0;j<h.length;j++) {
+          //if (j!=i && (j+1)%COLNUM == 0) break;
+          im[j].style.marginTop = px(hrow-h[j]);
+        };
+        ccol.style.paddingTop = px(hrow+61);
+      };
+      Create.br(col);
+      Create.span(col, l, "lvid");
+      Create.br(col);
+      lvs[key].drawData(col, false);
+      Create.span(col, {n:l.st.t + "\u2009/\u2009" + l.st.f + "\u2009/\u2009" + l.st.p});
+    };
+    
+    clm.appendChild(frag);
+
+    clm = Create.div(bdy, "legColW bold", "legCol0", {t:640, l:10, w:2720});
+    Create.span(clm, {n:"Launch Vehicle Statistics"}, "legTitle");
+    Create.text(clm, " as used for Solar System exploration, in order of appearance;");
+    Create.text(clm, " Stats: Number of total / failed / planned launches;");
+    Create.text(clm, " LEO, GTO, HO: Payload mass to Low Earth, Geostationary Transfer and Heliocentric Orbit.");
+    Create.br(clm);
+    Create.br(clm);
+
+  };
+
+  
+</script>
+  
+</head>
+
+<body onload="init()">
+<!--LV images from <a href="http://historicspacecraft.com/">Historic Spacecraft</a>, data mostly from <a href="http://space.skyrocket.de/">Gunter's Space Page</a> and <a href="http://planet4589.org/space/lvdb/">JSR Launch Vehicle Database</a>.-->
+</body>
+</html>

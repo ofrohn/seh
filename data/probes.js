@@ -3101,7 +3101,7 @@ emm: {name:"Mars Hope", desc:"lv:H-IIA 202",
 // --- 2021
 lucy: {name:"Lucy", desc:"",
   parts:[
-    {names:"", type:"fbm", dest:"ast", stat:"pl", ctry:"us", desc:"ag:nasa,gsfc,swri;fam:discovery;sc:0.6", id:"", url:"hp:www.nasa.gov/content/goddard/lucy-the-first-mission-to-jupiter-s-trojans", icon:"lucy.png"}
+    {names:"", type:"fbm", dest:"ast", stat:"pl", ctry:"us", desc:"ag:nasa,gsfc,swri;fam:discovery;sc:0.6", id:"", url:"hp:www.nasa.gov/lucy", icon:"lucy.png"}
   ], events:[
     {pt:"", type:"l", dt:"2021-10", loc:"ter:cap", desc:""},
     {pt:"", type:"oi", dt:"2021-10", loc:"sol:ho", desc:""},
@@ -3167,8 +3167,8 @@ juice: {name:"JUICE:JUpiter ICy moons Explorer", desc:"lv:Ariane 5ECA",
 // --- 2023
 em2: {name:"EM-2:Exploration Mission 2", desc:"lv:SLS 1B", stat:"pl", 
   parts:[
-    {names:"", type:"hm", dest:"lun", ctry:"us;eu", desc:"ag:nasa,jsc,esa;m:21250kg;sc:0.6", id:"", url:"hp:www.nasa.gov/exploration/systems/mpcv/index.html;esa:www.esa.int/Our_Activities/Human_Spaceflight/ATV", icon:"orion.png"},
-    {type:"srm", dest:"ast"}], 
+    {names:"", type:"hm", dest:"lun", ctry:"us;eu", desc:"ag:nasa,jsc,esa;m:21250kg;sc:0.6", id:"", url:"hp:www.nasa.gov/exploration/systems/mpcv/index.html;esa:www.esa.int/Our_Activities/Human_Spaceflight/ATV", icon:"orion.png"}],
+    //{type:"srm", dest:"ast"}], 
   events:[
     {pt:"", type:"l", dt:"2023-04", loc:"ter:ksc:LC-39B", desc:""},
     {pt:"", type:"app", dt:"l+?dy", loc:"lun:nrho", desc:""},
@@ -3178,16 +3178,17 @@ psyche: {name:"Psyche", desc:"",
   parts:[
     {names:"", type:"om", dest:"ast", stat:"pl", ctry:"us", desc:"ag:nasa,jpl,asu;fam:discovery;sc:0.9;m0:1300kg", id:"", url:"hp:sese.asu.edu/research/psyche;tw:twitter.com/NASAPsyche;jpl:jpl.nasa.gov/missions/psyche/", icon:"psyche.png"}
   ], events:[
-    {pt:"", type:"l", dt:"2023", loc:"ter:cap", desc:""},
-    {pt:"", type:"oi", dt:"2023", loc:"sol:ho", desc:""},
-    {pt:"", type:"fb", dt:"2024", loc:"ter", desc:"ga"},
-    {pt:"", type:"fb", dt:"2025", loc:"mar", desc:"ga"},
-    {pt:"", type:"oi", dt:"2030", loc:"ast", desc:"ast:16 Psyche"},  
-    {pt:"", type:"sco", dt:"2030", loc:"ast:806km", desc:"Charactrization orbit"},  
-    {pt:"", type:"sco", dt:"2030", loc:"ast:399km", desc:"Topography orbit"},  
-    {pt:"", type:"sco", dt:"2030", loc:"ast:279km", desc:"Integrated science orbit"},  
-    {pt:"", type:"sco", dt:"2031", loc:"ast:192km", desc:"Elemental mapping orbit"},  
-    {pt:"", type:"nom", dt:"2032", loc:"ast", desc:"?"}
+    {pt:"", type:"l", dt:"2022", loc:"ter:cap", desc:""},
+    {pt:"", type:"oi", dt:"2022", loc:"sol:ho", desc:""},
+    //{pt:"", type:"fb", dt:"2024", loc:"ter", desc:"ga"},
+    {pt:"", type:"fb", dt:"2023", loc:"mar", desc:"ga"},
+    {pt:"", type:"oi", dt:"2026", loc:"ast", desc:"ast:16 Psyche"},  
+    {pt:"", type:"sco", dt:"2026", loc:"ast:806km", desc:"Charactrization orbit"},  
+    {pt:"", type:"sco", dt:"2026", loc:"ast:399km", desc:"Topography orbit"},  
+    {pt:"", type:"sco", dt:"2026", loc:"ast:279km", desc:"Integrated science orbit"},  
+    {pt:"", type:"sco", dt:"2027", loc:"ast:192km", desc:"Elemental mapping orbit"},  
+    {pt:"", type:"nom", dt:"2028", loc:"ast", desc:"?"},
+    {pt:"", type:"pom", dt:"2030", loc:"ast", desc:"?"}
 ]},
 // --- 2025
 interheliozond: {name:"Interhelio-Zond", desc:"lv:Proton-M/Briz-M",

@@ -14,7 +14,7 @@ cdsnkun: {name:"CDSN Kunming:Chinese DSN Station Kunming", other:"昆明", ctry:
 idsn: {name:"IDSN Byalalu:Indian DSN Station Byalalu", other:"பயலாலு", ctry:"ind", desig:"", desc:"url:http://www.isro.gov.in/about-isro/isro-telemetry-tracking-and-command-network-istrac;loc:12.901631N,77.368619E;ag:isro;show:IDSN:S;reg:Karnataka, India;dish:1x32m,1x18m"},
 evpat: {name:"Yevpatoria:Yevpatoria RT-70 Radio Telescope\n", other:"Евпатория", ctry:"ru;ua", desig:"NIP-16", desc:"url:;loc:45.189028N,33.187361E;ag:rosc;show:NIP-16:S;reg:Crimea, Ukraine;dish:1x70m,1x32m"},
 galen: {name:"Ussuriysk:Eastern Deep Space Communication Center\n", other:"Уссури́йск", ctry:"ru", desig:"NIP-15", desc:"url:;loc:44.0161N,131.757E;ag:rosc;show:NIP-15:S;reg:Primorsky Krai, Russia;dish:1x70m,1x32m,1x25m"},
-bear: {name:"Medvezhi Ozera:Bear Lakes complex", other:"Медвежьи озёра", ctry:"ru", desig:"NIP-14", desc:"url:;loc:55.867886N,37.951804E;ag:rosc;show:NIP-14;reg:Moscow, Russia;dish:1x64m"},
+bear: {name:"Medvezhi Ozera:Bear Lakes complex", other:"Медвежьи озёра", ctry:"ru", desig:"NIP-14", desc:"url:;loc:55.867886N,37.951804E;ag:rosc;show:NIP-14:SW;reg:Moscow, Russia;dish:1x64m"},
 udsc: {name:"Usuda DSC:Usuda Deep Space Center", other:"臼田宇宙空間観測所", ctry:"jp", desig:"UDSC", desc:"url:global.jaxa.jp/about/centers/udsc/index.html;loc:36.133056N,138.362222E;ag:jaxa;show:UDSC:S;reg:Nagano, Japan;dish:1x64m"}
 };
     
@@ -23,7 +23,7 @@ Common.ctrl = {
   gsfc: {name:"GSFC:Goddard Space Flight Center, Greenbelt, Md", other:"", ctry:"us", desc:"url:www.nasa.gov/centers/goddard/home;loc:38.996944N,76.848333W;show:GSFC:NW;ag:nasa;reg:Maryland,USA"},
   jpl: {name:"JPL SFOF:Space Flight Operations Facility (JPL), Pasadena, Ca", other:"", ctry:"us", desc:"url:www.jpl.nasa.gov/;loc:34.201086N,118.173614W;show:SFOF:S;ag:masa;reg:California,USA"},
   esoc: {name:"ESOC:European Space Operations Centre, Darmstadt", other:"", ctry:"eu;de", desc:"url:www.esa.int/esoc;loc:49.871111N,8.622778E;show:ESOC:S;ag:esa;reg:Darmstadt,Germany"},
-  tsup: {name:"TsUP:RKA Mission Control Center, Korolev", other:"Центр управления полётами", ctry:"ru", desc:"url:www.mcc.rsa.ru/cup.htm;loc:55.912636N,37.810267E;show:TsUP:S;ag:rosc;reg:Korolyov,Moscow"},
+  tsup: {name:"TsUP:RKA Mission Control Center, Korolev", other:"Центр управления полётами", ctry:"ru", desc:"url:www.mcc.rsa.ru/cup.htm;loc:55.912636N,37.810267E;show:TsUP:SE;ag:rosc;reg:Korolyov,Moscow"},
   bacc: {name:"BACC:Beijing Aerospace Command and Control Center", other:"北京航天指挥控制中心", ctry:"cn", desc:"url:;loc:40.071989N,116.257092E;show:BACC:E;ag:cnsa;reg:Beijing,China"},
   tksc: {name:"TKSC:Tsukuba Space Center", other:"筑波宇宙センター", ctry:"jp", desc:"url:www.jaxa.jp/about/centers/tksc/index_e.html;loc:36.065778N,140.129806E;show:TKSC:E;ag:jaxa;reg:Ibaraki,Japan"},
   istrac: {name:"ISTRAC:ISRO Telemetry, Tracking and Command\nNetwork, Bangalore", other:"इस्रो टेलिमेट्री, ट्रॅकिंग अॅन्ड कमांड नेटवर्क", ctry:"ind", desc:"url:istrac.vsnl.net.in;loc:12.966667N,77.566667E;show:ISTRAC:W;ag:isro;reg:Bangalore,India"}

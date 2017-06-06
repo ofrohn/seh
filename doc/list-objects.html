@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Solar System Exploration History - Destinations</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" media="screen" href="../seh.css" type="text/css">
+  <style type="text/css">
+    a.close { display:none; }
+    .infoBox { display:inline-block; position:relative; margin:12px; border: 2px solid #000; opacity:1;  }
+    .ninfoBox * { position:relative; }
+  </style>
+<script type="text/javascript" src="../data.js"></script>
+<script type="text/javascript" src="../app.js"></script>
+<script type="text/javascript">
+  
+  function init() {
+    var t, key, dest = {}, probes = [], i = 0,
+        bdy = document.getElementsByTagName("body")[0];
+
+    SSEH.lc = "";
+    SSEH.path("../images/");
+    Hist.init();
+    UI.scale = SSEH.SCALE;
+
+    
+  
+    for (key in objects) {
+      if (objects[key].ind && objects[key].ind.search(/^\d+$/) != -1) 
+        dest[key] =  new Destination(key);
+    }
+
+    for (key in missions) {
+      probes[i] = new Mission(key);
+      i++;
+    }
+
+    probes.sort(function(a, b) { return (a.Launchdate() < b.Launchdate()?-1:1); });
+    
+
+    for (key in dest) {
+      for (i=0; i<probes.length; i++) {
+        dest[key].record(probes[i]);
+      }
+    }      
+
+    for (key in dest) {
+      t = dest[key].createBox();
+      t.style.left = px(10);
+      bdy.appendChild(t)
+    }
+
+/*    for (i=0; i<probes.length; i++) {
+      t = probes[i].createBox();
+      bdy.appendChild(t);
+    }*/
+    t = document.getElementsByClassName("infoBox");
+    for (i=0; i<t.length; i++) {
+      t[i].style.top = "auto";
+    };
+    t = document.getElementsByTagName("tbody");
+    for (i=0; i<t.length; i++) {
+      t[i].style.maxHeight = "none";
+    };
+    t = document.getElementsByClassName("detPanel");
+    for (i=0; i<t.length; i++) {
+      t[i].style.display = "table-row";
+      t[i].firstChild.style.display = "table-cell";
+    };
+
+  }
+
+  
+</script>
+  
+</head>
+
+<body onload="init()">
+</body>
+</html>

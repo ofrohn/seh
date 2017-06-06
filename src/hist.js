@@ -418,7 +418,7 @@ var Hist = new (function() {
     Common.TSPC = SSEH.TSPC;
     if (SSEH.PARENT) { parent = document.getElementById(SSEH.PARENT); }
     if (!parent) { parent = document.getElementsByTagName("body")[0]; }
-    cw = Create.div(parent, "", "canvas-wrap", {w:width,h:2});
+    cw = Create.div(parent, "", "canvas-wrap", {w:width,h:0});
     cnv = new Cdraw("canvas", {parent:"canvas-wrap", width:width, height:window.innerHeight});
     return {p:parent, c:cnv.setheight, w:width};
   };
