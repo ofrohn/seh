@@ -23,14 +23,14 @@ xch: {name:"Xichang:Xichang Satellite Launch Center", other:"西昌卫星发射�
 
 sri: {name:"Sriharikota:Satish Dhawan Space Centre, Sriharikota", other:"सतीश धवन अंतरिक्ष केंद्र", ctry:"ind", desig:"SDSC:Satish Dhawan Space Centre", desc:"url:www.shar.gov.in/sdsc/;loc:13.724N,80.184E;show:SDSC:NW;shmap:E;reg:Andhra Pradesh, India;az:0..140;kml:zgUqCFI4a2eQ.krAUqhsk0xpo", map:"sdsc.png"},
 
-alc: {name:"Alcântara:Alcântara Launch Center", other:"", ctry:"br", desig:"CLA:Centro de Lançamento de Alcântara", desc:"url:www.cla.aer.mil.br/index.php;loc:2.3730S,44.3964W;show:CLA;reg:Maranhão, Brazil;az:343..90;kml:zgUqCFI4a2eQ.kS2NlNk7_hfQ", map:"cla.png"},
+//alc: {name:"Alcântara:Alcântara Launch Center", other:"", ctry:"br", desig:"CLA:Centro de Lançamento de Alcântara", desc:"url:www.cla.aer.mil.br/index.php;loc:2.3730S,44.3964W;show:CLA;reg:Maranhão, Brazil;az:343..90;kml:zgUqCFI4a2eQ.kS2NlNk7_hfQ", map:"cla.png"},
 
 nar: {name:"Naro:Naro Space Center", other:"나로우주센터", ctry:"sk", desig:"NSC:Naro Space Center", desc:"url:http://www.kari.re.kr/eng.do;loc:34.4318N,127.5350E;show:NARO;reg:Kohung, Jeollanam-do;az:90..190;kml:12u04inPCpIFUtNWaYrlz__A7IwI", map:"naro.png"}
 
 };
 
 Common.lpad = [
-{n:"ACS", par:"alc", lv:"Tsiklon-4", loc:"2.2848S,44.3855W"},
+//{n:"ACS", par:"alc", lv:"Tsiklon-4", loc:"2.2848S,44.3855W"},
 {n:"ELA-1", par:"kou", lv:"Ariane 1-3;Vega", loc:"5.236N,52.775W"},
 {n:"ELA-2", par:"kou", lv:"Ariane 4;Ariane 6", loc:"5.232N,52.776W"},
 {n:"ELA-3", par:"kou", lv:"Ariane 5", loc:"5.239N,52.768W"},
@@ -63,6 +63,8 @@ Common.lpad = [
 {n:"LC-41", par:"cap", lv:"Titan;Atlas V", loc:"28.583N,80.583W"},
 {n:"LC-43/3", par:"ple", lv:"R-7;Molniya;Soyuz", loc:"62.927N,40.450E"},
 {n:"LC-43/4", par:"ple", lv:"R-7;Molniya;Soyuz", loc:"62.929N,40.457E"},
+{n:"LC43/921", par:"jiu", lv:"CZ-2F", loc:"40.958N,100.291E"},
+{n:"LC43/603", par:"jiu", lv:"CZ-2C/D;CZ-4C", loc:"40.960N,100.298E"},
 {n:"LC-45/1", par:"bai", lv:"Zenit", loc:"45.943N,63.653E"},
 {n:"LC-46", par:"cap", lv:"Athena 2", loc:"28.459N,80.528W"},
 {n:"LC-81/23", par:"bai", lv:"Proton-K", loc:"46.074N,62.978E"},
@@ -99,10 +101,7 @@ Common.lpad = [
 {n:"SLC-40", par:"cap", syn:"LC-40"},
 {n:"SLC-41", par:"cap", syn:"LC-41"},
 {n:"SLP", par:"sri", lv:"PSLV;GSLV", loc:"13.720N,80.230E"},
-//jiu LC-43 = SLS
-{n:"SLS-1", par:"jiu", lv:"CZ-2F", loc:"40.958N,100.291E"},
-{n:"SLS-2", par:"jiu", lv:"CZ-2C/D;CZ-4C", loc:"40.960N,100.298E"},
-{n:"VLS", par:"alc", lv:"VLS", loc:"2.3177S,44.3678W"},
+//{n:"VLS", par:"alc", lv:"VLS", loc:"2.3177S,44.3678W"},
 {n:"YLP-1", par:"tng", lv:"H-IIA", loc:"30.401N,130.977E"},
 {n:"YLP-2", par:"tng", lv:"H-IIB", loc:"30.401N, 130.975E"},
 {n:"(LP-1)", par:"vos", lv:"Angara-1.2/A3/A5", loc:"51.8756N,128.3615E"},

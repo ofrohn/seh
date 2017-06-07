@@ -2772,11 +2772,11 @@ change5: {name:"Chang'e 5", desc:"lv:CZ-5",
   parts:[
     {names:"嫦娥五号", type:"srm", dest:"lun", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:clep;m:7800kg;sc:0.4;w:0.67", id:"", url:"China Spaceflight:www.chinaspaceflight.com/satellite/Deepspace/CE-5/CE-5.html;sf101:spaceflight101.com/change/change-5/", icon:"chang-e5.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2017", loc:"ter:wen:LC-101", desc:""},
+    {pt:"", type:"l", dt:"2017-11", loc:"ter:wen:LC-101", desc:""},
     {pt:"", type:"toi", dt:"l+1hr", loc:"ter:lto", desc:""},
     {pt:"", type:"oi", dt:"l+5dy", loc:"lun:200km", desc:""},
     {pt:"", type:"sep", dt:"l+?dy", loc:"lun", desc:"op/lp"},
-    {pt:"", type:"td", dt:"l+?dy", loc:"lun:55W,43N", desc:"lp;NW Oceanus Procellarum?"},
+    {pt:"", type:"td", dt:"l+?dy", loc:"lun:55W,43N", desc:"lp;NW Oceanus Procellarum?;show:CE5"},
     {pt:"", type:"l", dt:"l+?dy", loc:"lun", desc:"as"},
     {pt:"", type:"doc", dt:"l+?dy", loc:"lun", desc:"op/as"},
     {pt:"", type:"ev", dt:"l+?dy", loc:"lun", desc:"as/src;Sample Transfer"},
@@ -3005,7 +3005,7 @@ change4: {name:"Chang'e 4 Lander", desc:"lv:CZ-3B",
   events:[
     {pt:"", type:"l", dt:"2019", loc:"ter:xch", desc:""},
     {pt:"", type:"oi", dt:"l+5dy", loc:"lun", desc:""},
-    {pt:"", type:"td", dt:"l+14dy", loc:"lun", desc:"South Pole Aitken, Apollo basin?"},
+    {pt:"", type:"td", dt:"l+14dy", loc:"lun:45.5S,178E", desc:"South Pole Aitken, Von Karman crater;show:CE4:NW"},
     {pt:"1", type:"nom", dt:"l+3mo", loc:"lun", desc:"rvp;?;eom:rvm"},
     {pt:"0", type:"nom", dt:"l+1yr", loc:"lun", desc:"lp;?"}
 ]},
