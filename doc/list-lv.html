@@ -9,6 +9,7 @@
     .infoBox { display:inline-block; position:relative; margin:12px; border: 2px solid #000; opacity:1;  }
     .ninfoBox * { position:relative; }
     .legColCat, .legColC { border-top:0 none; }
+    
   </style>
 <script type="text/javascript" src="../data.js"></script>
 <script type="text/javascript" src="../app.js"></script>
@@ -115,13 +116,15 @@
     
     clm.appendChild(frag);
 
-    clm = Create.div(bdy, "legColW bold", "legCol0", {t:640, l:10, w:2720});
+    clm = Create.div(bdy, "legColW", "legCol0", {t:652, l:10, w:2720});
     Create.span(clm, {n:"Launch Vehicle Statistics"}, "legTitle");
     Create.text(clm, " as used for Solar System exploration, in order of appearance;");
     Create.text(clm, " Stats: Number of total / failed / planned launches;");
-    Create.text(clm, " LEO, GTO, HO: Payload mass to Low Earth, Geostationary Transfer and Heliocentric Orbit.");
+    Create.text(clm, " LEO, GTO, HO: Payload mass to Low Earth, Geostationary Transfer and Heliocentric Orbit. ");
+    Create.img(clm, {i:"../images/res/cc.png", x:510} );
+    Create.text(clm, " Olaf Frohn 2017");
     Create.br(clm);
-    Create.br(clm);
+    //Create.br(clm);
 
   };
 

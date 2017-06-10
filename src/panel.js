@@ -69,6 +69,9 @@ function Panel(par, dest, moons, rings) {
     x = scale(objects[_dest].roche*radius);
     c.arc(1,y,x,Math.PI/10,-Math.PI/10,true,"#d0d",2);
   
+    x = scale(objects[_dest].rcrit*radius);
+    c.arc(1,y,x,Math.PI/25,-Math.PI/25,true,"#c00",2);
+
     x = scale(radius*1.3);
     i = (parseFloat(objects[_dest].tilt));
     if (i>90) { i = 180-i; }
@@ -155,15 +158,19 @@ function Panel(par, dest, moons, rings) {
     //Hill+Roche
     t = objects[_dest].tilt + "º";
     c.text("Planetary Orbital Plane Incl.: " + t, 120, 2+y0, font, "left", "#fff");
-    c.hline(332,y0-1,20,"#0c0",2.3);
+    c.hline(342,y0-1,20,"#0c0",2.3);
     
     t = objects[_dest].roche.toString() + " R" + _dest.substring(0,1) + " / " + Math.round(objects[_dest].roche * radius).toCommaString() + " km";
     c.text("Roche Limit (Ice): " + t, 120, 2+y0*2, font, "left", "#fff");
-    c.hline(332,y0*2-1,20,"#d0d",2.3);
+    c.hline(342,y0*2-1,20,"#d0d",2.3);
+
+    t = objects[_dest].rcrit.toString() + " R" + _dest.substring(0,1) + " / " + Math.round(objects[_dest].rcrit * radius).toCommaString() + " km";
+    c.text("Critical Distance: " + t, 120, 2+y0*3, font, "left", "#fff");
+    c.hline(342,y0*3-1,20,"#c00",2.3);
 
     t = objects[_dest].hill.toString() + " R" + _dest.substring(0,1) + " / " + Math.round(objects[_dest].hill * radius).toCommaString() + " km";
-    c.text("Hill Sphere: " + t,120, 2+y0*3, font, "left", "#fff");
-    c.hline(332,y0*3-1,20,"#00f",2.3);
+    c.text("Hill Sphere: " + t,120, 2+y0*4, font, "left", "#fff");
+    c.hline(342,y0*4-1,20,"#00f",2.3);
 
     drawScale();
   };

@@ -23,6 +23,7 @@
    grav:   Equatorial surface gravity (g)
    hill:   Hill sphere (planet radii)
    roche:  Roche limit (planet radii)
+   rcrit:  Critical radius (planet radii)
    comp:   Composition (main components;porosity/%)
    dens:   Mean density (g/cm3)
    temp:   Surface temperature min..mean..max (K)
@@ -96,7 +97,7 @@ deim: {name:"Deimos", other:"", desig:"II", type:"m", par:"mar", disc:"A. Hall",
       img:"deimos.png", desc:"sc:100;url:solarsystem.nasa.gov/planets/Deimos;orb:eq.2000-01-01"},
 //Asteroid belt & NEOs
 sbo: {name:"Small Bodies", other:"", desig:"", type:"b", par:"sol", disc:"", dyr:"",
-      com:"3889", ast:"712276", cen:"Atiras:24;Atens:1062;Apollos:7773;Amors:5536;Hungarias:15232;Mars-Crossers:14568;Inner Main Belt:13324;Central Main Belt:641899;Outer Main Belt:21562;Hildas:3800;Jupiter Trojans:6438;Comets:3889;Damocloids:96",
+      com:"3986", ast:"737254", cen:"Atiras:26;Atens:1183;Apollos:8088;Amors:6908;Hungarias:16550;Mars-Crossers:12979;Main Belt:683925;Hildas:3804;Jupiter Trojans:6643;Comets:3986;Damocloids:96",
       img:"mab.png", map:"sbo.png", col:"#9f9", ind:"6", 
       url:"haz:neo.jpl.nasa.gov/risk/",
       desc:"sc:30;scmoons:0.25;url:www.minorplanetcenter.net;rsize:1800,140;x:24;y:48"},
@@ -265,7 +266,7 @@ a2000dp107b: {name:"2000 DP107b", other:"", desig:"185851", type:"m", par:"a2000
 jup: {name:"Jupiter", other:"", desig:"f", type:"p", par:"sol", disc:"(Prehistoric)", dyr:"",
       a:"5.203au", e:"0.0484", i:"1.304", per:"11.863a", rot:"9.925h", daylen:"9.9259h",
       h:"", mass:"1.896e27kg", dia:"142984km/0.06487", rad:"71492/0.06487", tilt:"3.12",
-      irad:"50.5", alb:"0.52", grav:"2.530", hill:"740", roche:"2.91",
+      irad:"50.5", alb:"0.52", grav:"2.530", hill:"740", roche:"2.91", rcrit:"32.17",
       comp:"H+He+Rock+core:17", dens:"1.327", atm:"H2:89.8+He:10.2", atp:">>1000", temp:"~165K", dip:"4.28", dipt:"9.6",
       img:"jupiter-l.png", imgo:"jupiter.png", rings:"jupiter-rings.png", map:"", col:"#fc6", ind:"7", 
       desc:"sc:1;scmoons:0.5;url:nssdc.gsfc.nasa.gov/planetary/planets/jupiterpage.html;rsize:463,24;x:48;y:48"},
@@ -604,11 +605,21 @@ s2011j2: {name:"S/2011 J2", other:"", desig:"", type:"m", par:"jup", disc:"S.S. 
       h:"", mass:"", dia:"4km:", rad:"2:", tilt:"",
       alb:"", grav:"", comp:"", dens:"", 
       img:"", desc:"sc:3;url:solarsystem.nasa.gov/planets/S2011J2;orb:ec.2002-05-06"},
+s2016j1: {name:"S/2016 J1", other:"", desig:"", type:"m", par:"jup", disc:"S.S. Sheppard", dyr:"2016",
+      a:"20651000km", e:"0.140", i:"139.8", per:"-603.83d", rot:"S", gr:"",
+      h:"16.8", mass:"", dia:"1km:", rad:"0.5:", tilt:"",
+      alb:"", grav:"", comp:"", dens:"", 
+      img:"", desc:"sc:3;url:solarsystem.nasa.gov/planets/S2016J1;orb:ec.2017-09-04"},
+s2017j1: {name:"S/2017 J1", other:"", desig:"", type:"m", par:"jup", disc:"S.S. Sheppard", dyr:"2017",
+      a:"23547000km", e:"0.396", i:"149.2", per:"-735.21d", rot:"S", gr:"Pasiphae (R)",
+      h:"16.5", mass:"", dia:"2km:", rad:"1:", tilt:"",
+      alb:"", grav:"", comp:"", dens:"", 
+      img:"", desc:"sc:3;url:solarsystem.nasa.gov/planets/S2017J1;orb:ec.2017-09-04"},
 //Saturn system
 sat: {name:"Saturn", other:"", desig:"g", type:"p", par:"sol", disc:"(Prehistoric)", dyr:"",
       a:"9.537au", e:"0.0539", i:"2.486", per:"29.447a", rot:"10.656h", 
       h:"", mass:"5.685e26kg", dia:"120536km/0.09796", rad:"60268/0.09796", tilt:"26.73",
-      irad:"15.05", alb:"0.47", grav:"1.065", hill:"1100", roche:"2.19",
+      irad:"15.05", alb:"0.47", grav:"1.065", hill:"1100", roche:"2.19",  rcrit:"41.48",
       comp:"H+He+Ice+Rock+core:27", dens:"0.688", atm:"H2:95.3+He:3.25", atp:">>1000", temp:"~134K", dip:"0.210", dipt:"<1",
       img:"saturn-l0.png", imgo:"saturn.png", rings:"saturn-rings.png", map:"", col:"#fe6", ind:"8", 
       desc:"scmoons:0.8;url:nssdc.gsfc.nasa.gov/planetary/planets/saturnpage.html;rsize:540,49;x:72;y:48"},
@@ -926,7 +937,7 @@ s2009s1: {name:"S/2009 S1", other:"", desig:"", type:"m", par:"sat", disc:"Cassi
 ura: {name:"Uranus", other:"", desig:"h", type:"p", par:"sol", disc:"W. Herschel", dyr:"1781",
       a:"19.189au", e:"0.0473", i:"0.773", per:"84.017a", rot:"-17.24h",
       h:"", mass:"8.683e25kg", dia:"51118km/0.02293", rad:"25559/0.02293", tilt:"97.86",
-      irad:"3.71", alb:"0.51", grav:"0.905", hill:"2700", roche:"2.77",
+      irad:"3.71", alb:"0.51", grav:"0.905", hill:"2700", roche:"2.77",  rcrit:"54.78",
       comp:"NH4+Ice+Rock+core:58", dens:"1.270", atm:"H2:82.5+He:15.2+CH4:2.3", atp:">>1000", temp:"~76K",
       dip:"0.228", dipt:"58.6",
       img:"uranus.png", rings:"uranus-rings.png", map:"", col:"#9df", ind:"9", 
@@ -1070,7 +1081,7 @@ cupi: {name:"Cupid", other:"S/2003 U2", desig:"XXVII", type:"m", par:"ura", disc
 nep: {name:"Neptune", other:"", desig:"i", type:"p", par:"sol", disc:"J.G. Galle", dyr:"1846",
       a:"30.070au", e:"0.0086", i:"1.770", per:"164.791a", rot:"16.11h", 
       h:"", mass:"1.0244e26kg", dia:"49532km/0.0171", rad:"24766/0.0171", tilt:"29.56",
-      irad:"1.47", alb:"0.41", grav:"1.138", hill:"4700", roche:"3.02",
+      irad:"1.47", alb:"0.41", grav:"1.138", hill:"4700", roche:"3.02",  rcrit:"72.68",
       comp:"NH4+Ice+Rock+core:64", dens:"1.638", atm:"H2:80+He:19+CH4:~1", atp:">>1000",  temp:"~72K",
       dip:"0.142", dipt:"46.9",
       img:"neptune.png", rings:"neptune-rings.png", map:"", col:"#99f", ind:"10", 

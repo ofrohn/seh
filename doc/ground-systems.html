@@ -43,7 +43,7 @@
 
   function init() {
     var i, j, x, y, cnv, t, b, col, loc, lcs = {}, dsn = {}, tdz = {}, names = [], urls = [],
-        sfc = "AUT,BEL,CHE,CHN,CZE,DEU,DNK,ESP,EST,FIN,FRA,GBR,GRC,GUF,HUN,IND,IRL,ITA,JPN,LUX,NLD,NOR,POL,PRT,ROU,RUS,SWE,USA",
+        sfc = "ARE,AUT,BEL,CHE,CHN,CZE,DEU,DNK,ESP,EST,FIN,FRA,GBR,GRC,GUF,HUN,IND,IRL,ITA,JPN,KOR,LUX,NLD,NOR,POL,PRT,ROU,RUS,SWE,USA",
         brdrs = JSON.parse(geo);
   
 
@@ -85,7 +85,7 @@
     //cnv.image(img,0,0);
 
     for (key in Common.lc) {
-      if (key.search(/alc/) != -1) continue;
+      if (key.search(/alc|nar/) != -1) continue;
       lcs[key] = new LC(key);
       t = lcs[key].drawAzimuth(cnv,w,h,0);
       names.push(t);
@@ -669,7 +669,7 @@ function CC(id, parid) {
     }
 
     //if (_id == "esoc" || _id == "tsup") {
-      if (_id == "tsup" || _id == "gsfc") x0 += 4;
+      if (_id.search(/tsup|gsfc|bacc|istrac/) !== -1) x0 += 4;
       var ico = ccc[_data.ctry[0].k];
       cnv.image(icons, ico.x, ico.y, ico.w, ico.h, x0-wd/2, y0-hd, wd, hd);
     //}

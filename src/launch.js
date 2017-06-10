@@ -18,6 +18,7 @@ function LV(id, parid) {
      if (d.pf && d.pf !== "") { dat.pf = d.pf.replace(/x/g, Common.SPC + "\u00d7" + Common.SPC) + Parse.unit("m"); }
      dat.dt = d.dt.replace(/\.\./g, "\u2026");
      dat.st = d.st;
+     dat.fuel = d.fuel;
      if (d.ust && d.ust !== "") { dat.ust = d.ust; }
      if (d.th && d.th !== "") { dat.th = d.th.toCommaString() + Parse.unit("kN"); }
      if (d.fam && d.fam !== "") { dat.fam = d.fam; }
@@ -83,7 +84,7 @@ function LV(id, parid) {
     Create.br(par);  
   },
   drawDat = function(par, cat) {
-    var i, flds = ["m", "d", "st", "ust", "pm0", "pm1", "pm2", "th", "fam", "dt1", "dt2"]; // dt stat (l ag)
+    var i, flds = ["m", "d", "pf", "st", "ust", "fuel", "th", "pm0", "pm1", "pm2", "fam", "dt1", "dt2"]; // dt stat (l ag)
     for (i=0; i<flds.length; i++) {
       if (cat === true) {
         if (flds[i] != "dt2") { Create.span(par, Common.names.find("lv"+flds[i]), "lstcategory"); }
@@ -393,7 +394,8 @@ function LC(id, parid) {
       cnv.line(x0,y0,x1,y1,"#000",1);
       cnv.line(x0,y0,x2,y2,"#000",1);
       
-      cnv.image(rkt[_data.ctry[0].k],x0-wd/2,y0-hd,wd,hd);
+      var ico = rkt[_data.ctry[0].k];
+      cnv.image(icons, ico.x, ico.y, ico.w, ico.h, x0-wd/2, y0-hd, wd, hd);
     } else x0 -= 6;
     
     var p = _data.hasOwnProperty("shmap") ? _data.shmap : _data.show.p;

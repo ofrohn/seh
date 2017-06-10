@@ -2791,7 +2791,7 @@ chandrayaan2: {name:"Chandrayaan 2:Moon Craft 2", desc:"lv:GSLV MkII",
 {names:"{Chandrayaan 2 Lander}", type:"slm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:1260kg", icon:"chandrayaan2-l.png"},
 {names:"", type:"rvm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:20kg;sc:0.5", icon:"chandrayaan2-rv.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2018", loc:"ter:sri", desc:"or 2018"},
+    {pt:"", type:"l", dt:"2018", loc:"ter:sri", desc:""},
     {pt:"", type:"toi", dt:"2018", loc:"ter:170x16980km", desc:""},
     {pt:"0", type:"oi", dt:"l+1mo", loc:"lun", desc:""},
     {pt:"0", type:"sco", dt:"l+2mo", loc:"lun:100km", desc:""},
@@ -2858,7 +2858,7 @@ marco: {name:"MarCO:Mars Cube One", desc:"lv:Atlas V 401;part:insight",
     {pt:"", type:"l", dt:"2018-05", loc:"ter:van:SLC-3E", desc:""},
     {pt:"", type:"fb", dt:"l+7mo", loc:"mar:3500km", desc:"eom"}
 ]},
-change4relay: {name:"Chang'e 4 LRS:Lunar Relay Satellite", desc:"lv:CZ-4C",
+change4relay: {name:"Chang'e 4 LRS:Lunar Relay Satellite", desc:"lv:CZ-4B",
   parts:[
     {names:"嫦娥四号 中继通信卫星", type:"om", dest:"lun", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:clep;sc:0.4;m:425kg;dim:4.2m", id:"", url:"China Spaceflight:www.chinaspaceflight.com/satellite/Deepspace/CE-4/CE-4.html", icon:"chang-e4-relay.png"}
    ], 
