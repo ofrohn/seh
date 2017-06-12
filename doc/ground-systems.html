@@ -69,7 +69,7 @@
 
     b = brdrs.features;
     for (i=0; i<b.length; i++) {
-      col = sfc.search(b[i].id) != -1?hilight:country;
+      col = sfc.search(b[i].id) != -1 ? hilight : country;
       
       if (b[i].geometry.type == "Polygon") drawCountry(cnv, b[i].geometry.coordinates[0], col);
       else { 

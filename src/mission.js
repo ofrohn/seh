@@ -1140,6 +1140,10 @@ function Mission(id, parid) {
     return _box; 
   };
 
+  this.Events = function() {
+    return _data.ev; 
+  };
+
   this.createBox = function() {
     _box = createBox();
     _box.style.top = px(-9999);
@@ -1148,7 +1152,10 @@ function Mission(id, parid) {
     return _box; 
   };
 
-  this.Name = function() {
+  this.Name = function(shortn) {
+    if (shortn && _data.shortname && _data.shortname.length > 0) {
+      return _data.shortname[0].n; 
+    }
     if (_data.title && _data.title.length > 0) {
       return _data.title[0].n; 
     }

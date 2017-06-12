@@ -1,0 +1,107 @@
+<html><head>
+	<title>Solar System Exploration History - Events by Year</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" media="screen" href="../seh.css" type="text/css">
+  <style type="text/css">
+    #list { white-space: pre; font-family: monospace; }
+  </style>
+<script type="text/javascript" src="../data.js"></script>
+<script type="text/javascript" src="../app.js"></script>
+
+<script type="text/javascript">
+  var dat = [], probes = {},
+      now = new Date(), 
+      yr = now.getFullYear();
+
+  function init() {
+    SSEH.lc = "";
+    SSEH.path("../images/");
+    Hist.init();
+  
+    for (key in missions) {
+      probes[key] = new Mission(key);
+    };
+
+    document.body.appendChild(select(yr));
+    Create.div(document.body, null, "list")
+    
+    
+    write(list(yr));
+    
+
+  }
+
+  function list(yr) {
+    var dat = [];
+    for (var key in probes) {
+      var ev = probes[key].Events();
+      for (var i=0; i<ev.length; i++) {
+        if (!ev[i].date) continue;
+        var dt = Parse.dt(ev[i].date[0].n);
+        if (dt && dt.getFullYear() == yr) {
+          var type = "";
+          if (ev[i].type) {
+            for (var j=0; j<ev[i].type.length; j++)
+              type += ev[i].type[j].n + " ";
+          }
+
+          var loc = "";
+          if (ev[i].loc) {
+            for (var j=0; j<ev[i].loc.length; j++)
+              loc += ev[i].loc[j].n + " ";
+          }
+
+          var desc = "";
+          if (ev[i].desc) {
+            for (var j=0; j<ev[i].desc.length; j++)
+              desc += ev[i].desc[j].n + " ";
+          }
+          
+          dat.push({d:dt, n:probes[key].Name(true), t:type, dt:ev[i].date[0].n, l:loc, de:desc});
+        
+        }
+      }
+    }
+
+    dat.sort(function(a, b) { return a.d.getTime() - b.d.getTime(); });
+    return dat;
+  }
+  
+  function write(dat) {
+    var node = document.getElementById("list"), s = "";
+
+    for (i=0; i < dat.length; i++) {
+      s += pad(dat[i].dt, 12) + 
+           pad(dat[i].n, 20)  + 
+           pad(dat[i].t, 20) +  
+           dat[i].l + "" + 
+           dat[i].de + "\n";
+    }
+    node.innerHTML = s;  
+  }
+  
+  function select(yr) { 
+    var start = SSEH.STARTDATE.getFullYear(), end = SSEH.ENDDATE.getFullYear(),
+        node = document.createElement("select");
+    for (var i = start; i <= end; i++) {
+      var op = document.createElement("option");
+      op.value = i;
+      op.innerHTML = i;
+      if (yr == i) op.selected = "true";
+      node.appendChild(op);
+    }
+    node.onchange = function() {
+      yr = this.value;
+      write(list(yr));
+    }
+    return node;  
+  }
+
+  
+  function pad(s, n) { 
+    while (s.length < n) s += " "; 
+    return s;
+  }
+
+</script>
+</head><body onload="init()">
