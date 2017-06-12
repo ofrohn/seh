@@ -6,7 +6,7 @@ Showing all missions beyond Eath orbit send to explore Solar System objects sinc
 Some more documentary listings/garaphics:  
 [Ground Segment](http://ofrohn.github.io/seh-doc/ground-systems.html) Map overwiew  
 [Missions](http://ofrohn.github.io/seh-doc/list-missions.html), [Destinations](http://ofrohn.github.io/seh-doc/list-objects.html), [Launch sites](http://ofrohn.github.io/seh-doc/list-lc.html) Lists  
-[Rochets](http://ofrohn.github.io/seh-doc/list-lv.html) in one graphic in order of appearance  
+[Rockets](http://ofrohn.github.io/seh-doc/list-lv.html) in one graphic in order of appearance  
 
 
 The app requires a HTML5-capable browser, so all fairly new versions of Chrome, Firefox, IE, Opera and what-have-you should work. If your browser only shows a static image, it is too old.  
