@@ -268,6 +268,10 @@ var Parse = {
   dt: function(s, d0) {
     var t;
     if (!s) return; 
+    if (d0 && s.search(/^l/i) !== -1) {
+      t = s.split(/[\+\u202f]/);
+       return d0.add(t[1], t[2]);
+    }
     t = s.split(".");
     if (t.length < 1) return; 
     t = t[0].split("-");

@@ -3,7 +3,10 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <link rel="stylesheet" media="screen" href="../seh.css" type="text/css">
   <style type="text/css">
-    #list { white-space: pre; font-family: monospace; }
+    body { margin: 12px; }
+    #select { float:right; }
+    #list { white-space: pre-wrap; font-family: monospace; width: 100%; }
+    #list  b { font-size: larger; }
   </style>
 <script type="text/javascript" src="../data.js"></script>
 <script type="text/javascript" src="../app.js"></script>
@@ -32,13 +35,16 @@
   }
 
   function list(yr) {
-    var dat = [];
+    var dat = [], dt0;
     for (var key in probes) {
       var ev = probes[key].Events();
       for (var i=0; i<ev.length; i++) {
         if (!ev[i].date) continue;
-        var dt = Parse.dt(ev[i].date[0].n);
-        if (dt && dt.getFullYear() == yr) {
+        dt = ev[i].date[0].n.replace(/\u2026.*/, '');
+        if (i === 0) dt0 = Parse.dt(dt);
+        dt = Parse.dt(dt, dt0);
+        if (isNaN(dt)) continue;
+        if (dt && (yr == "all" || dt.getFullYear() == yr)) {
           var type = "";
           if (ev[i].type) {
             for (var j=0; j<ev[i].type.length; j++)
@@ -53,8 +59,15 @@
 
           var desc = "";
           if (ev[i].desc) {
-            for (var j=0; j<ev[i].desc.length; j++)
-              desc += ev[i].desc[j].n + " ";
+            for (var j=0; j<ev[i].desc.length; j++) {
+              if (ev[i].desc[j].v) desc += ev[i].desc[j].v;
+              else desc += " ";
+              
+              desc += ev[i].desc[j].n;
+              
+              if (ev[i].desc[j].d) desc += ": " + ev[i].desc[j].d;
+              else desc += "";
+            }
           }
           
           dat.push({d:dt, n:probes[key].Name(true), t:type, dt:ev[i].date[0].n, l:loc, de:desc});
@@ -68,9 +81,14 @@
   }
   
   function write(dat) {
-    var node = document.getElementById("list"), s = "";
-
+    var node = document.getElementById("list"), s = "", year = 0;
+    
     for (i=0; i < dat.length; i++) {
+      var y = dat[i].d.getFullYear();
+      if (y !== year) {
+        s += "<b>" + y + "</b>\n";
+        year = y;
+      }
       s += pad(dat[i].dt, 12) + 
            pad(dat[i].n, 20)  + 
            pad(dat[i].t, 20) +  
@@ -82,7 +100,13 @@
   
   function select(yr) { 
     var start = SSEH.STARTDATE.getFullYear(), end = SSEH.ENDDATE.getFullYear(),
-        node = document.createElement("select");
+        node = document.createElement("select"), op;
+
+    op = document.createElement("option");
+    op.value = "all";
+    op.innerHTML = "All";
+    node.appendChild(op);
+
     for (var i = start; i <= end; i++) {
       var op = document.createElement("option");
       op.value = i;
@@ -94,7 +118,11 @@
       yr = this.value;
       write(list(yr));
     }
-    return node;  
+    var div = document.createElement("div");
+    div.id = "select";
+    div.appendChild(document.createTextNode("Select year: "));
+    div.appendChild(node);
+    return div;  
   }
 
   

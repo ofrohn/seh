@@ -297,13 +297,13 @@ Date.prototype.add = function(val, type) {
     case 'm': case 'mo': ldt += 2629800000*val; break;
     case 'd': case 'dy': ldt += 86400000*val; break;
     case 'h': case 'hr': ldt += 3600000*val; break;
-    case 'n': case 'mn': ldt += 60000*val; break;
+    case 'n': case 'mn': case 'mon': ldt += 60000*val; break;
     case 's': case 'sec': ldt += 1000*val; break;
     case 'ms': ldt += val; break;
   }
   return new Date(ldt);
 };
-//Datediff in days
+//Datediff in selected intervals
 Date.prototype.diff = function(deldt, type) {
   var ldt, t, con;
   if (!deldt) return; 
