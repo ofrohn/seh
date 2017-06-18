@@ -58,6 +58,35 @@ var out = ug.minify(app, {fromString: true});
 fs.writeFileSync('./app.js', out.code);
 fs.writeFileSync('./pub/app-' + shortversion + '.js', out.code);
 
+echo('data-obs.js');
+
+var dat = cat([
+  './data/common.js',
+  './data/config-obs.js',
+  './data/data-obs.js',
+  './data/scopes.js',
+  './data/lv.js',
+]);
+
+var out = ug.minify(dat, {fromString: true});
+fs.writeFileSync('./data-obs.js', out.code);
+
+echo('app-obs.js');
+
+var app = cat([
+  './src/canvas.js',
+  './src/math.js',
+  './src/ui.js',
+  './src/utils.js',
+  './src/parse.js',
+  './src/obs.js',
+  './src/sobs.js',
+  './src/diag.js'
+]);
+
+var out = ug.minify(app, {fromString: true});
+fs.writeFileSync('./app-obs.js', app);
+
 
 echo('copy files');
 

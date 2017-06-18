@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Space Observatories - Spectral Ranges</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <style type="text/css">
+    body { font: normal 13px/1.35 sans-serif; margin: 0; padding:0; background:#fff;  }
+  </style>  
+<script type="text/javascript" src="../data-obs.js"></script>
+<script type="text/javascript" src="../app-obs.js"></script>
+<script type="text/javascript">
+  var cfg = {
+    WIDTH: 1000,                
+    HEIGHT: 2400,                  
+    BARHEIGHT: 26,
+    TEXTFONT: "normal bold 17px Arial, Helvetica, sans-serif",
+    SCALEFONT: "normal bold 13px Arial, Helvetica, sans-serif",
+    TEXTCOL: "#000",
+    LINECOL: "#222",
+    BGCOL: "#fff",
+    TYPE: "line",
+    LEGEND: "left",
+    FUTURE: null,
+    PARENT: null
+  };
+
+  function init(cfg) {
+    param = Sobs.init();
+    Sobs.load();
+  };
+</script>
+</head><body onload="init()">
+<noscript>Please enable javascript in your browser.</noscript>
+
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Space Observatories - Spectral Range vs. Angular Resolution</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <style type="text/css">
+    body { font: normal 13px/1.35 sans-serif; margin: 0; padding:0; background:#fff;  }
+  </style>  
+<script type="text/javascript" src="../data-obs.js"></script>
+<script type="text/javascript" src="../app-obs.js"></script>
+<script type="text/javascript">
+  var cfg = {
+    WIDTH: 1480,                
+    HEIGHT: 1100,                  
+    BARHEIGHT: 32,
+    TEXTFONT: "normal bold 19px Arial, Helvetica, sans-serif",
+    SCALEFONT: "normal bold 20px/1.34 Arial, Helvetica, sans-serif",
+    TEXTCOL: "#eee",
+    LINECOL: "#fff",
+    BGCOL: "#000",
+    TYPE: "res",
+    LEGEND: "left",
+    FUTURE: true,
+    PARENT: null
+  };
+
+  function init() {
+    param = Sobs.init(cfg);
+    Sobs.load();
+  };
+</script>
+</head><body onload="init()">
+<noscript>Please enable javascript in your browser.</noscript>
+
+
+</body>
+</html>
