@@ -1,15 +1,24 @@
 ﻿# SEH - Space Exploration History  
 
+### The Solar System  
+
 Behold: [the entire history of Solar System exploration in one graphic](http://ofrohn.github.io/diag.html).  
 
-Showing all missions beyond Eath orbit send to explore Solar System objects since 1958.  
+Showing all missions beyond Earth orbit send to explore Solar System objects since 1958.  
 Some more documentary listings/garaphics:  
 [Ground Segment](http://ofrohn.github.io/seh-doc/ground-systems.html) Map overwiew  
 [Missions](http://ofrohn.github.io/seh-doc/list-missions.html), [Destinations](http://ofrohn.github.io/seh-doc/list-objects.html), [Launch sites](http://ofrohn.github.io/seh-doc/list-lc.html) Lists  
 [Rockets](http://ofrohn.github.io/seh-doc/list-lv.html) in one graphic in order of appearance  
 
+### Space Telescopes  
 
-The app requires a HTML5-capable browser, so all fairly new versions of Chrome, Firefox, IE, Opera and what-have-you should work. If your browser only shows a static image, it is too old.  
+Extensive description [here](http://armchairastronautics.blogspot.com/p/space-observatories.html)   
+
+[Spectral Range](http://ofrohn.github.io/seh-doc/obs-range.html) of all operational and future space telescopes and some ground based examples for comparison    
+[Spectral Range vs. Angular Resolution](http://ofrohn.github.io/seh-doc/obs-range.html) for operational scopes
+
+
+The apps require a HTML5-capable browser, so all fairly new versions of Chrome, Firefox, IE, Opera and what-have-you should work. If your browser only shows a static image, it is too old.  
 
 ### Sources  
 
