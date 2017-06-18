@@ -15,7 +15,7 @@ Some more documentary listings/garaphics:
 Extensive description [here](http://armchairastronautics.blogspot.com/p/space-observatories.html)   
 
 [Spectral Range](http://ofrohn.github.io/seh-doc/obs-range.html) of all operational and future space telescopes and some ground based examples for comparison    
-[Spectral Range vs. Angular Resolution](http://ofrohn.github.io/seh-doc/obs-range.html) for operational scopes
+[Spectral Range vs. Angular Resolution](http://ofrohn.github.io/seh-doc/obs-res.html) for operational scopes
 
 
 The apps require a HTML5-capable browser, so all fairly new versions of Chrome, Firefox, IE, Opera and what-have-you should work. If your browser only shows a static image, it is too old.  
