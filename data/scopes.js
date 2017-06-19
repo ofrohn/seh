@@ -520,17 +520,17 @@ hst: {name:"HST:Hubble Space Telescope", url:"hp:hubblesite.org/;esa:www.spacete
     {n:"STIS FUV", tp:"sp", band:"115..170nm", sres:"1000R", px:0.025, fov:"25x25''", desc:"c:;cl:n;"},
     {n:"STIS NUV", tp:"sp", band:"165..310nm", sres:"500..1005R", px:0.025, fov:"25x25''", desc:"c:;cl:n;"},
 ]},
-hxmt:{name:"Huiyan:Insight", url:"hp:www.hxmt.org/;uk:www.integral.soton.ac.uk/missions/HXMT.html", desc:"m:2800kg;lv:CZ-4B;sc:1.3;x:0;y:16", stat:"o", 
+hxmt:{name:"Huì​yǎn:Insight", url:"hp:www.hxmt.org/;uk:www.integral.soton.ac.uk/missions/HXMT.html", desc:"m:2800kg;lv:CZ-4B;sc:1.3;x:0;y:16", stat:"o", 
   parts: [
-    {n:"HXMT:Hard X-ray Modulation Telescope", ctry:"cn", type:"hx", pur:"", id:"2017-034A", icon:"hxmt.png", desc:""}
+    {n:"HXMT:Hard X-ray Modulation Telescope", ctry:"cn", type:"hx", pur:"sur", id:"2017-034A", icon:"hxmt.png", desc:""}
   ], ev: [
     {pt:"", dt:"2017-06-15", tp:"l", loc:"ter:jiu:LC43/603", desc:""},
     {pt:"", dt:"2017-06-15", tp:"sco", loc:"leo:534x546kmx43deg", desc:""},
     {pt:"", dt:"2021", tp:"nom", loc:"leo", desc:""}
   ], inst: [
-    {n:"HE", band:"20..350keV", res:"300", ea:"5096cm2", tres:"25us", sres:"15%@60keV", fov:"5.2deg", sens:"0.4mCrab", desc:"c:nr;cl:nl"},
-    {n:"LE", band:"0.7..15keV", res:"", ea:"384cm2", tres:"1ms", sres:"140eV@6keV", fov:"4x6deg", desc:"c:n;cl:ny"},
-    {n:"ME", band:"5..30keV", res:"", ea:"952cm2", tres:"255us", sres:"3keV@20keV", fov:"4deg", desc:"c:n"}
+    {n:"HE", band:"20..250keV", res:"300", ea:"5096cm2", tres:"25us", sres:"15%@60keV", fov:"5.2deg", sens:"0.5mCrab", desc:"c:nr;cl:nl"},
+    {n:"LE", band:"1..15keV", res:"300", ea:"384cm2", tres:"1ms", sres:"140eV@6keV", fov:"4x6deg", desc:"c:;cl:ny"},
+    {n:"ME", band:"5..30keV", res:"300", ea:"952cm2", tres:"255us", sres:"3keV@20keV", fov:"4deg", desc:"cl:n"}
 ]},
 ibex:{name:"IBEX:Interstellar Boundary EXplorer", url:"hp:ibex.swri.edu/index.shtml;tw:twitter.com/IBEX_NASA", desc:"ag:nasa;lv:Pegasus XL;m:110kg", stat:"o", 
   parts: [
