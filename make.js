@@ -85,7 +85,7 @@ var app = cat([
 ]);
 
 var out = ug.minify(app, {fromString: true});
-fs.writeFileSync('./app-obs.js', app);
+fs.writeFileSync('./app-obs.js', out.code);
 
 
 echo('copy files');
