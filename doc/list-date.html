@@ -6,7 +6,7 @@
     body { margin: 12px; }
     #select { float:right; }
     #list { white-space: pre-wrap; font-family: monospace; width: 100%; }
-    #list  b { font-size: larger; }
+    #list  b { font-size: larger; line-height: 1.6; }
   </style>
 <script type="text/javascript" src="../data.js"></script>
 <script type="text/javascript" src="../app.js"></script>
@@ -14,7 +14,10 @@
 <script type="text/javascript">
   var dat = [], probes = {},
       now = new Date(), 
-      yr = now.getFullYear();
+      yr = now.getFullYear(),
+      start = SSEH.STARTDATE.getFullYear(), 
+      end = SSEH.ENDDATE.getFullYear();
+
 
   function init() {
     SSEH.lc = "";
@@ -99,10 +102,10 @@
   }
   
   function select(yr) { 
-    var start = SSEH.STARTDATE.getFullYear(), end = SSEH.ENDDATE.getFullYear(),
-        node = document.createElement("select"), op;
-
-    op = document.createElement("option");
+    var node = document.createElement("select");
+    node.id = "selectyear";
+    
+    var op = document.createElement("option");
     op.value = "all";
     op.innerHTML = "All";
     node.appendChild(op);
@@ -118,10 +121,29 @@
       yr = this.value;
       write(list(yr));
     }
+    var lnode = document.createElement("button");
+    lnode.innerHTML = "<";
+    lnode.onclick = function() {
+      if (yr == "all" || yr <= start) return;
+      yr--;
+      document.getElementById("selectyear").value = yr;
+      write(list(yr));
+    }
+    var rnode = document.createElement("button");
+    rnode.innerHTML = ">";
+    rnode.onclick = function() {
+      if (yr == "all" || yr >= end) return;
+      yr++;
+      document.getElementById("selectyear").value = yr;
+      write(list(yr));
+    }
+
     var div = document.createElement("div");
     div.id = "select";
     div.appendChild(document.createTextNode("Select year: "));
+    div.appendChild(lnode);
     div.appendChild(node);
+    div.appendChild(rnode);
     return div;  
   }
 
