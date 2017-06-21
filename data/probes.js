@@ -2604,8 +2604,8 @@ change3: {name:"Chang'e 3", desc:"lv:CZ-3B G3Z",
     {pt:"", type:"sep", dt:"2013-12-14", loc:"lun", desc:"lp/rvp"},
     {pt:"1", type:"ex", dt:"2013-12..2014-01", loc:"lun", desc:"rvp;rv:100m"},
     {pt:"1", type:"ev", dt:"2014-01-25", loc:"lun", desc:"rvp;mal:Electric control fault"},
-    {pt:"1", type:"los", dt:"2016-05-28", loc:"lun", desc:"rvp;eom:rvm"},
-    {pt:"0", type:"nom", dt:"2016-12", loc:"lun", desc:"lp;pend"}
+    {pt:"1", type:"los", dt:"2016-07-31", loc:"lun", desc:"rvp;eom:rvm"},
+    {pt:"0", type:"nom", dt:"2017-12", loc:"lun", desc:"lp;pend"}
 ]},
 ladee: {name:"LADEE:Lunar Atmosphere and Dust Environment Explorer", desc:"lv:Minotaur V",
   parts:[
