@@ -3126,7 +3126,7 @@ luna27: {name:"Luna 27", desc:"lv:Soyuz 2.1B",
 // --- 2022
 europaclipper: {name:"Europa Clipper", desc:"lv:SLS 1B",
   parts:[
-    {names:"EMFM:Europa Multi-Flyby Mission", type:"om", dest:"jup", stat:"pl", ctry:"us", desc:"ag:nasa,jpl,apl;sc:0.6", id:"", url:"hp:www.nasa.gov/europa;tw:twitter.com/NASAEuropa", icon:"emfm.png"}
+    {names:"EMFM:Europa Multi-Flyby Mission", type:"om", dest:"jup", stat:"pl", ctry:"us", desc:"ag:nasa,jpl,apl;sc:1.0", id:"", url:"hp:www.nasa.gov/europa;tw:twitter.com/NASAEuropa", icon:"europaclipper.png"}
   ], events:[
     {pt:"", type:"l", dt:"2022", loc:"ter:ksc:LC-39B", desc:"or later"},
     {pt:"", type:"toi", dt:"l+1dy", loc:"sol:hto", desc:""},
@@ -3149,7 +3149,7 @@ cnast2022: {name:"[Chinese Asteroid Mission]", desc:"lv:CZ-5",
 ]},
 juice: {name:"JUICE:JUpiter ICy moons Explorer", desc:"lv:Ariane 5ECA",
   parts:[
-    {names:"", type:"om", dest:"jup", stat:"pl", ctry:"eu", desc:"ag:esa;m:5250kg;m0:2200kg;fam:S-class;dim:28.4x3.9x4.0m;sc:1", id:"", url:"hp:sci.esa.int/juice;tw:twitter.com/ESA_JUICE", icon:"juice.png"},
+    {names:"", type:"om", dest:"jup", stat:"pl", ctry:"eu", desc:"ag:esa;m:5250kg;m0:2200kg;fam:L-class;dim:28.4x3.9x4.0m;sc:1", id:"", url:"hp:sci.esa.int/juice;tw:twitter.com/ESA_JUICE", icon:"juice.png"},
 {type:"om", dest:"jup:gany", stat:"pl", ctry:"eu"}], 
   events:[
     {pt:"", type:"l", dt:"2022-05-20", loc:"ter:kou:ELA-3", desc:""},
@@ -3190,6 +3190,16 @@ psyche: {name:"Psyche", desc:"",
     {pt:"", type:"nom", dt:"2028", loc:"ast", desc:"?"},
     {pt:"", type:"pom", dt:"2030", loc:"ast", desc:"?"}
 ]},
+// --- 2024
+/*mmx: {name:"MMX:Martian Moons eXploration", desc:"lv:H-IIA",
+  parts:[
+    {names:"", type:"srm", dest:"mar:Phobos", stat:"pl", ctry:"jp", desc:"ag:jaxa;m:;m0:;dim:;sc:0.75", id:"", url:"hp:mmx.isas.jaxa.jp/en/index.html;tw:twitter.com/mmx_jaxa_en", icon:"mmx.png"}], 
+  events:[
+    {pt:"", type:"l", dt:"2024-09", loc:"ter:tng", desc:""},
+    {pt:"", type:"oi", dt:"2025-08", loc:"mar", desc:""},
+    {pt:"", type:"oi", dt:"2028-08", loc:"sol:ho", desc:"ETO"},
+    {pt:"", type:"edl", dt:"2029-07", loc:"ter", desc:"eom"}
+]},*/
 // --- 2025
 interheliozond: {name:"Interhelio-Zond", desc:"lv:Proton-M/Briz-M",
   parts:[

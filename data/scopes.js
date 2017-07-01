@@ -141,7 +141,7 @@ astrosat:{name:"Astrosat", url:"hp:astrosat.iucaa.in/;isro:www.isro.gov.in/Space
     {n:"SSM:Scanning Sky Monitor", tp:"ctr", band:"2.5..10keV", res:"300..600", sres:"25%@6keV", tres:"1ms", fov:"10x90deg", sens:"28mCrab@600s", desc:"c:nl;"},
     {n:"LAXPC:Large Area X-ray Proportional Counters", tp:"ctr", band:"3..80keV", res:"300", sres:"22%@22keV", tres:"10us", ea:"8000@5..20keV", fov:"1x1deg", sens:"1mCrab@100s", desc:"c:nl;"}
 ]},
-athenaplus:{name:"Athena+:Advanced Telescope for High-energy Astrophysics+", url:"hp:www.the-athena-x-ray-observatory.eu/;mpe:www.mpe.mpg.de/Athena", desc:"ag:esa;lv:Ariane 5;fam:S-class;sc:1.2;x:0;y:10", stat:"pl", 
+athenaplus:{name:"Athena+:Advanced Telescope for High-energy Astrophysics+", url:"hp:www.the-athena-x-ray-observatory.eu/;mpe:www.mpe.mpg.de/Athena", desc:"ag:esa;lv:Ariane 5;fam:L-class;sc:1.2;x:0;y:10", stat:"pl", 
   parts: [
     {n:"", ctry:"eu", type:"x", pur:"", id:"", icon:"athena.png", desc:""}
   ], ev: [
@@ -280,7 +280,7 @@ einstein:{name:"Einstein", url:"hp:heasarc.gsfc.nasa.gov/docs/einstein/heao2.htm
     {pt:"", dt:"1978-12-14", tp:"sco", loc:"ter:leo:520x541kmx23.5deg", desc:""},
     {pt:"", dt:"1982-03-25", tp:"ae", loc:"", desc:"eom"}
 ]},
-elisa:{name:"eLisa:evolved Laser Interferometer Space Antenna", url:"hp:www.elisascience.org/;tw:twitter.com/LISACommunity", desc:"Gravity Waves;ag:esa;fam:S-class;lv:Ariane 5", stat:"pr", 
+elisa:{name:"LISA:Laser Interferometer Space Antenna", url:"hp:www.elisascience.org/;tw:twitter.com/LISACommunity", desc:"Gravity Waves;ag:esa;fam:L-class;m:6100hg;lv:Ariane 64", stat:"pr", 
   parts: [
     {n:"", ctry:"eu", type:"gr", pur:"", id:"", icon:"", desc:""}
   ], ev: [
@@ -680,7 +680,7 @@ lisapathfinder:{name:"LISA Pathfinder", url:"hp:www.esa.int/Our_activities/Space
   ], ev: [
     {pt:"", dt:"2015-12-03", tp:"l", loc:"ter:kou:ZLV", desc:""},
     {pt:"", dt:"2016-01-22", tp:"sco", loc:"sol:esl1:500000x800000km", desc:"Lissajous orbit"},
-    {pt:"", dt:"2016-09", tp:"nom", loc:"ter:leo", desc:"pend"}
+    {pt:"", dt:"2016-07-18", tp:"tos", loc:"sol:esl1:leo", desc:"eom"}
   ], inst: [
     {n:"", band:"", res:"", d:"", px:"", url:"", desc:"c:;"}
 ]},
