@@ -3191,7 +3191,7 @@ psyche: {name:"Psyche", desc:"",
     {pt:"", type:"pom", dt:"2030", loc:"ast", desc:"?"}
 ]},
 // --- 2024
-/*mmx: {name:"MMX:Martian Moons eXploration", desc:"lv:H-IIA",
+mmx: {name:"MMX:Martian Moons eXploration", desc:"lv:H-IIA",
   parts:[
     {names:"", type:"srm", dest:"mar:Phobos", stat:"pl", ctry:"jp", desc:"ag:jaxa;m:;m0:;dim:;sc:0.75", id:"", url:"hp:mmx.isas.jaxa.jp/en/index.html;tw:twitter.com/mmx_jaxa_en", icon:"mmx.png"}], 
   events:[
@@ -3199,7 +3199,7 @@ psyche: {name:"Psyche", desc:"",
     {pt:"", type:"oi", dt:"2025-08", loc:"mar", desc:""},
     {pt:"", type:"oi", dt:"2028-08", loc:"sol:ho", desc:"ETO"},
     {pt:"", type:"edl", dt:"2029-07", loc:"ter", desc:"eom"}
-]},*/
+]},
 // --- 2025
 interheliozond: {name:"Interhelio-Zond", desc:"lv:Proton-M/Briz-M",
   parts:[
