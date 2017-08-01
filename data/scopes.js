@@ -547,7 +547,8 @@ integral:{name:"Integral:International Gamma Ray Astrophysics Laboratory", url:"
   ], ev: [
     {pt:"", dt:"2002-10-17", tp:"l", loc:"ter:bai:LC-200/39", desc:""},
     {pt:"", dt:"2002-10-28", tp:"sco", loc:"ter:heeo:2284x152812kmx52.1deg", desc:""},
-    {pt:"", dt:"2016-12-31", tp:"nom", loc:"ter:heeo", desc:"pend"}
+    {pt:"", dt:"2018-12-31", tp:"nom", loc:"ter:heeo", desc:"pend"},
+    {pt:"", dt:"2023-12-31", tp:"pom", loc:"ter:heeo", desc:"pend"}
   ], inst: [
     {n:"SPI", band:"20keV..8MeV", res:"7200", sres:"2.2keV@1.33MeV", fov:"16deg", desc:"c:nr;cl:nly;"},
     {n:"IBIS", band:"3.63E+18..2.42E+21", res:"720", sres:"9keV@100keV", fov:"9x9deg", desc:"c:nr;cl:ny"},
@@ -674,7 +675,7 @@ lattes:{name:"LATTES", url:"hp:www.dem.inpe.br/projetos.html", desc:"m:430kg;sc:
     {n:"SXI:Soft X-ray Imager", band:"4.84E+17..4.35E+18", res:"300", desc:"c:nl;cl:nly;"},
     {n:"HXI:Hard X-ray Imager", band:"10..200keV", res:"420", sres:"<5keV@60keV", fov:"58x26deg", desc:"cl:n;"}
 ]},
-lisapathfinder:{name:"LISA Pathfinder", url:"hp:www.esa.int/Our_activities/Space_Science/LISA_Pathfinder_overview;esa:sci.esa.int/science-e/www/area/index.cfm?fareaid=40;tw:twitter.com/ESA_LPF", desc:"Gravity Waves;lv:Vega;m:1910kg", stat:"o", 
+lisapathfinder:{name:"LISA Pathfinder", url:"hp:www.esa.int/Our_activities/Space_Science/LISA_Pathfinder_overview;esa:sci.esa.int/science-e/www/area/index.cfm?fareaid=40;tw:twitter.com/ESA_LPF", desc:"Gravity Waves;lv:Vega;m:1910kg", stat:"s", 
   parts: [
     {n:"", ctry:"eu", type:"gr", pur:"", id:"2015-70A", icon:"lisapf.png", desc:""}
   ], ev: [
@@ -1203,7 +1204,8 @@ xmm:{name:"XMM:XMM-Newton", url:"hp:www.esa.int/Our_activities/Space_Science/XMM
   ], ev: [
     {pt:"", dt:"1999-12-11", tp:"l", loc:"ter:kou:ELA-3", desc:""},
     {pt:"", dt:"2000-01-09", tp:"sco", loc:"ter:heeo:7079x114027kmx28.4deg", desc:""},
-    {pt:"", dt:"2023-12-31", tp:"nom", loc:"ter:heeo", desc:"pend"}
+    {pt:"", dt:"2018-12-31", tp:"nom", loc:"ter:heeo", desc:"pend"},
+    {pt:"", dt:"2028-12-31", tp:"pom", loc:"ter:heeo", desc:""}
   ], inst: [
     {n:"OM", band:"4.61E+14..1.76E+15", res:"4", desc:"c:nr;cl:nl"},
     {n:"EPIC", band:"3.63E+16..3.63E+18", res:"6", desc:"c:nr;"}

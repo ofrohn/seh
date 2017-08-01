@@ -1918,7 +1918,7 @@ soho: {name:"SOHO:Solar and Heliospheric Observatory", desc:"lv:Atlas IIAS",
     {pt:"", type:"oi", dt:"1996-03-17", loc:"sol:esl1", desc:"Halo Orbit"},
     {pt:"", type:"los", dt:"1998-06-24", loc:"esl1", desc:"mal:Attitude Control"},
     {pt:"", type:"ev", dt:"1998-09-16", loc:"esl1", desc:"Regain of Contact"},
-    {pt:"", type:"nom", dt:"2018-09-30", loc:"esl1", desc:"?"},
+    {pt:"", type:"nom", dt:"2018-12-31", loc:"esl1", desc:"?"},
     {pt:"", type:"pom", dt:"2025-12-31", loc:"esl1", desc:""}    
 ]},
 // --- 1996 --- 4 Missions   
@@ -2174,7 +2174,7 @@ mex: {name:"MEX:Mars Express", desc:"lv:Soyuz-FG/Fregat",
     {pt:"0", type:"fb", dt:"2010-02..2010-03", loc:"Phobos", desc:"12 close Phobos flybys 60-1300km"},
     {pt:"0", type:"fb", dt:"2013-12-29", loc:"Phobos:47km", desc:"Closest Phobos flyby"},
     {pt:"0", type:"obs", dt:"2014-10-17..2014-10-22", loc:"mar", desc:"Comet C 2013 A1 Siding Spring"},
-    {pt:"0", type:"sco", dt:"2014-12", loc:"mar:353x10333kmx86.8deg", desc:"pend"},
+    {pt:"0", type:"sco", dt:"2014-12", loc:"mar:353x10333kmx86.8deg", desc:""},
     {pt:"0", type:"nom", dt:"2018-12-31", loc:"mar", desc:"pend"},
     {pt:"0", type:"pom", dt:"2020-12-31", loc:"mar", desc:""}    
 ]},
@@ -2275,7 +2275,7 @@ messenger: {name:"MESSENGER:Mercury Surface, Space Environment, Geochemistry and
 deepimpact: {name:"Deep Impact", desc:"lv:Delta II 7425-9.5", stat:"s",
   parts:[
     {names:"", type:"fbm", dest:"com", stat:"s", ctry:"us", desc:"ag:nasa,jpl;fam:Discovery;m:650kg;dim:3.2x1.7x2.3m;sc:0.3", id:"2005-001A", url:"hp:deepimpact.jpl.nasa.gov/", icon:"deep-impact.png"},
-{names:"DII:Deep Impact Impactor", type:"im", dest:"com", stat:"s", ctry:"us", desc:"First comet impact;sc:0.5;m:370kg", icon:"deep-impact-impactor.png"},
+{names:"DII:Deep Impact Impactor", type:"im", dest:"com", stat:"s", ctry:"us", desc:"First comet impact;sc:0.5;m:370kg", icon:"dii.png"},
 {names:"EPOXI", type:"fbm", dest:"com", stat:"s", ctry:"us", url:"epoxi:www.nasa.gov/epoxi"},
 {type:"fbm", dest:"ast", stat:"f"}], 
   events:[
@@ -2802,11 +2802,11 @@ chandrayaan2: {name:"Chandrayaan 2:Moon Craft 2", desc:"lv:GSLV MkII",
 ]},
 bepicolombo: {name:"Bepi Colombo", desc:"lv:Ariane 5ECA",
   parts:[
-    {names:"", type:"fbm", dest:"mer", stat:"pl", ctry:"eu;jp", desc:"ag:asi,esa,jaxa;m:4100kg;dim:16x4.5x4m;w:0.5", id:"BEPICLMBO", url:"hp:www.esa.int/Our_activities/Space_Science/BepiColombo_overview2;psa:www.sciops.esa.int/index.php?project=PSA&page=bepi;tw:twitter.com/BepiColombo", icon:"bepicolombo.png"},
-{names:"MPO:Mercury Planetary Orbiter", type:"om", dest:"mer", stat:"pl", ctry:"eu", desc:"ag:asi,esa;m:1150kg;sc:0.75", url:"esa:sci.esa.int/home/bepicolombo/", icon:"bepicolombo-mpo.png"},
-{names:"MMO:Mercury Magnetospheric Orbiter", type:"om", dest:"mer", stat:"pl", ctry:"jp", desc:"ag:jaxa;m:275kg", url:"jaxa:www.stp.isas.jaxa.jp/mercury/", icon:"bepicolombo-mmo.png"}], 
+    {names:"", type:"fbm", dest:"mer", stat:"pl", ctry:"eu;jp", desc:"ag:asi,esa,jaxa;m0:2700kg;m:4100kg;dim:16x4.5x4m;w:0.5", id:"BEPICLMBO", url:"hp:www.esa.int/Our_activities/Space_Science/BepiColombo_overview2;psa:www.sciops.esa.int/index.php?project=PSA&page=bepi;tw:twitter.com/BepiColombo", icon:"bepicolombo.png"},
+{names:"MPO:Mercury Planetary Orbiter", type:"om", dest:"mer", stat:"pl", ctry:"eu", desc:"ag:asi,esa;m:1850kg;sc:0.75", url:"esa:sci.esa.int/home/bepicolombo/", icon:"bepicolombo-mpo.png"},
+{names:"MMO:Mercury Magnetospheric Orbiter", type:"om", dest:"mer", stat:"pl", ctry:"jp", desc:"ag:jaxa;m:285kg", url:"jaxa:www.stp.isas.jaxa.jp/mercury/", icon:"bepicolombo-mmo.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2018-10", loc:"ter:kou:ELA-3", desc:""},
+    {pt:"", type:"l", dt:"2018-10-05", loc:"ter:kou:ELA-3", desc:""},
     {pt:"", type:"fb", dt:"2020-04", loc:"ter", desc:"ga"},
     {pt:"", type:"fb", dt:"2020-10", loc:"ven", desc:"ga"},
     {pt:"", type:"fb", dt:"2021-08", loc:"ven", desc:"ga"},
@@ -2815,9 +2815,9 @@ bepicolombo: {name:"Bepi Colombo", desc:"lv:Ariane 5ECA",
     {pt:"", type:"fb", dt:"2023-06", loc:"mer", desc:"ga"},
     {pt:"", type:"fb", dt:"2024-07", loc:"mer", desc:"ga"},
     {pt:"", type:"fb", dt:"2024-12", loc:"mer", desc:"ga;eom:fbm"},
-    {pt:"0", type:"oi", dt:"2025-12", loc:"mer", desc:""},
+    {pt:"0", type:"oi", dt:"2025-12", loc:"mer:670x178000kmx90deg", desc:""},
     {pt:"1", type:"sco", dt:"2026-03", loc:"mer:480x1500kmx90deg", desc:"MPO"},
-    {pt:"2", type:"sco", dt:"2026-03", loc:"mer:590x11640kmx90deg", desc:"MMO"},
+    {pt:"2", type:"sco", dt:"2026-03", loc:"mer:590x11700kmx90deg", desc:"MMO"},
     {pt:"", type:"nom", dt:"2027-05", loc:"mer", desc:"pend"},
     {pt:"", type:"pom", dt:"2028-05", loc:"mer", desc:"?"}
 ]},
@@ -2858,7 +2858,7 @@ marco: {name:"MarCO:Mars Cube One", desc:"lv:Atlas V 401;part:insight",
     {pt:"", type:"l", dt:"2018-05-05", loc:"ter:van:SLC-3E", desc:""},
     {pt:"", type:"fb", dt:"l+7mo", loc:"mar:3500km", desc:"eom"}
 ]},
-change4relay: {name:"Chang'e 4 LRS:Lunar Relay Satellite", desc:"lv:CZ-4B",
+change4relay: {name:"Chang'e 4 LRS:Lunar Relay Satellite", desc:"lv:CZ-4C",
   parts:[
     {names:"嫦娥四号 中继通信卫星", type:"om", dest:"lun", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:clep;sc:0.4;m:425kg;dim:4.2m", id:"", url:"China Spaceflight:www.chinaspaceflight.com/satellite/Deepspace/CE-4/CE-4.html", icon:"chang-e4-relay.png"}
    ], 
@@ -2867,7 +2867,16 @@ change4relay: {name:"Chang'e 4 LRS:Lunar Relay Satellite", desc:"lv:CZ-4B",
     {pt:"", type:"oi", dt:"l+5dy", loc:"lun:eml2", desc:"Halo orbit"},
     {pt:"", type:"nom", dt:"l+5yr", loc:"lun", desc:"?"}
 ]},
-reddragon: {name:"Red Dragon", desc:"lv:Falcon Heavy",
+dslwp: {name:"DSLWP-A1/A2", desc:"lv:CZ-4C;part:change4relay",
+  parts:[
+    {names:"月球轨道超长波天文观测微卫星", type:"om", dest:"lun", stat:"pl", ctry:"cn", desc:"ag:cnsa,hit;sc:0.4;m:45kg;dim:0.5x0.5x0.4m", id:"", url:"hp:lilacsat.hit.edu.cn/;China Spaceflight:www.chinaspaceflight.com/satellite/HIT/DSLWP-A1-A2.html", icon:"dslwp.png"}
+   ], 
+  events:[
+    {pt:"", type:"l", dt:"2018-06", loc:"ter:xch:LC-2", desc:"Chang'e 4 LRS piggyback"},
+    {pt:"", type:"oi", dt:"l+5dy", loc:"lun:200x9000km", desc:""},
+    {pt:"", type:"nom", dt:"l+1yr", loc:"lun", desc:"?"}
+]},
+/*reddragon: {name:"Red Dragon", desc:"lv:Falcon Heavy",
   parts:[
     {names:"", type:"slm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:spx;m:7500kg;dim:3.6x6.1m;fam:Dragon;sc:0.4", id:"", url:"hp:www.spacex.com/dragon", icon:"reddragon.png"}], 
   events:[
@@ -2876,7 +2885,7 @@ reddragon: {name:"Red Dragon", desc:"lv:Falcon Heavy",
     {pt:"", type:"edl", dt:"l+7mo", loc:"mar", desc:""},
     //{pt:"", type:"nom", dt:"2019", loc:"mar", desc:"?"},
     {pt:"", type:"pom", dt:"2022", loc:"mar", desc:"?"}
-]},
+]},*/
 kplo: {name:"KPLO:Korean Pathfinder Lunar Orbiter", desc:"lv:KSLV-II",
   parts:[
     {names:"", type:"om", dest:"lun", stat:"pl", ctry:"sk", desc:"ag:kari;fam:klep;sc:0.6;m:500kg;m0:;dim:", id:"", url:"hp:www.kari.re.kr/eng/sub03_04.do", icon:"kplo.png"}
