@@ -1097,7 +1097,7 @@ tess:{name:"TESS:Transiting Exoplanet Survey Satellite", url:"hp:tess.gsfc.nasa.
     {n:"", ctry:"us", type:"nir", pur:"exo", id:"", icon:"tess.png", desc:""}
   ], ev: [
     {pt:"", dt:"2018-03", tp:"l", loc:"ter:cap", desc:""},
-    {pt:"", dt:"", tp:"sco", loc:"ter:meo:17x59", desc:""},
+    {pt:"", dt:"", tp:"sco", loc:"ter:meo:108000x373000km", desc:""},
     {pt:"", dt:"2020", tp:"nom", loc:"ter:meo", desc:""}
   ], inst: [
     {n:"", band:"0.6..1um", res:"", d:"0.127m", px:"", desc:"cl:nl;"}

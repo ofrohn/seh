@@ -1546,7 +1546,7 @@ voyager2: {name:"Voyager 2", desc:"lv:Titan IIIE Centaur D1T", stat:"o",
     {pt:"4", type:"obs", dt:"1990-02-14", loc:"et:32au", desc:"Solar System Family Portrait"},
     {pt:"4", type:"ft", dt:"2007-08", loc:"sol:et:84au", desc:"Termination Shock"},
     {pt:"4", type:"tr", dt:"2017", loc:"et", desc:"isp"},
-    {pt:"4", type:"nom", dt:"2020-12-31", loc:"et", desc:"?;Power depletion"}
+    {pt:"4", type:"nom", dt:"2030-12-31", loc:"et", desc:"?;Power depletion"}
 ]},
 voyager1: {name:"Voyager 1", desc:"lv:Titan IIIE Centaur D1T", stat:"o",
   parts:[
@@ -1565,7 +1565,7 @@ voyager1: {name:"Voyager 1", desc:"lv:Titan IIIE Centaur D1T", stat:"o",
     {pt:"2", type:"ev", dt:"1998-02-17", loc:"et:69.4au", desc:"Farthest human-made object"},
     {pt:"2", type:"ft", dt:"2004-12", loc:"sol:et:94au", desc:"Termination shock"},
     {pt:"2", type:"tr", dt:"2012-08", loc:"et:121au", desc:"isp;Leaves Heliosphere"},
-    {pt:"2", type:"nom", dt:"2020-12-31", loc:"et", desc:"?;Power Depletion"}
+    {pt:"2", type:"nom", dt:"2030-12-31", loc:"et", desc:"?;Power Depletion"}
 ]},
 // --- 1978 --- 5 Missions   
 pioneervenus1: {name:"Pioneer Venus 1", desc:"lv:Atlas-SLV3D Centaur-D1AR",
