@@ -1,8 +1,8 @@
 ﻿/* global Common */
 
 Common.lv = {
-/*ctry: country, m:launch mass, pm:payload leo/gto/ho, d:heightxdiam, pf:payload hxd, dt:service period, st:stages
-th:thrust, fam:lv family, desc:l:lauchsites;ag;agency, icon:image
+/*ctry: country, m:launch mass (kg), pm:payload leo/gto/ho (kg), d:height x diam (m), pf:payload h x d (m), dt:service period,
+  st:stages, ust;upper stages, th:thrust (kN), fuel: fuel type, fam:lv family, desc:l:launch sites;ag;agency, icon:image
 add: spec. impulse, manufact.
 */
 //Angara 5V

@@ -1,6 +1,6 @@
 var SOBS = SOBS || {
   TITLE: "Space Observatories",
-  VERSION: "1.5",
+  VERSION: "1.6",
   DATE: "2017-06 ",
   AUTHOR: "Olaf Frohn",
   PATH: "../images/",  //Relative path to resources

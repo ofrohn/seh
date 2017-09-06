@@ -15,6 +15,7 @@ idsn: {name:"IDSN Byalalu:Indian DSN Station Byalalu", other:"பயலாலு
 evpat: {name:"Yevpatoria:Yevpatoria RT-70 Radio Telescope\n", other:"Евпатория", ctry:"ru;ua", desig:"NIP-16", desc:"url:;loc:45.189028N,33.187361E;ag:rosc;show:NIP-16:S;reg:Crimea, Ukraine;dish:1x70m,1x32m"},
 galen: {name:"Ussuriysk:Eastern Deep Space Communication Center\n", other:"Уссури́йск", ctry:"ru", desig:"NIP-15", desc:"url:;loc:44.0161N,131.757E;ag:rosc;show:NIP-15:S;reg:Primorsky Krai, Russia;dish:1x70m,1x32m,1x25m"},
 bear: {name:"Medvezhi Ozera:Bear Lakes complex", other:"Медвежьи озёра", ctry:"ru", desig:"NIP-14", desc:"url:;loc:55.867886N,37.951804E;ag:rosc;show:NIP-14:SW;reg:Moscow, Russia;dish:1x64m"},
+kalya: {name:"Kalyazin:Kalyazin Radio Astronomy Observatory", other:"Калязин", ctry:"ru", desig:"", desc:"url:;loc:57.2231N,37.9004E;ag:rosc;show:Kalyazin:NE;reg:Tver, Russia;dish:1x64m"},
 udsc: {name:"Usuda DSC:Usuda Deep Space Center", other:"臼田宇宙空間観測所", ctry:"jp", desig:"UDSC", desc:"url:global.jaxa.jp/about/centers/udsc/index.html;loc:36.133056N,138.362222E;ag:jaxa;show:UDSC:S;reg:Nagano, Japan;dish:1x64m"}
 };
     

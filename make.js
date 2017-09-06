@@ -12,7 +12,7 @@ var shortversion = version.replace(/\.\d+$/, '');
 
 echo('building ' + version);
 
-echo('data.js');
+echo('seh-data.js');
 
 var dat = cat([
   './data/config.js',
@@ -28,14 +28,15 @@ var dat = cat([
 
 
 var out = ug.minify(dat, {fromString: true});
-fs.writeFileSync('./data.js', out.code);
+fs.writeFileSync('./seh-data.js', dat);
+fs.writeFileSync('./seh-data.min.js', out.code);
 
 dat = dat.replace(/PATH\: \"(.*?\/)\"/, "PATH:'../$1'");
 var out = ug.minify(dat, {fromString: true});
-fs.writeFileSync('./pub/data-' + shortversion + '.js', out.code);
+fs.writeFileSync('./pub/seh-data-' + shortversion + '.min.js', out.code);
 
 
-echo('app.js');
+echo('seh-app.js');
 
 var app = cat([
   './src/canvas.js',
@@ -55,10 +56,11 @@ var app = cat([
 
 
 var out = ug.minify(app, {fromString: true});
-fs.writeFileSync('./app.js', out.code);
-fs.writeFileSync('./pub/app-' + shortversion + '.js', out.code);
+fs.writeFileSync('./seh-app.min.js', out.code);
+fs.writeFileSync('./seh-app.js', app);
+fs.writeFileSync('./pub/seh-app-' + shortversion + '.min.js', out.code);
 
-echo('data-obs.js');
+echo('obs-data.js');
 
 var dat = cat([
   './data/common.js',
@@ -69,9 +71,10 @@ var dat = cat([
 ]);
 
 var out = ug.minify(dat, {fromString: true});
-fs.writeFileSync('./data-obs.js', out.code);
+fs.writeFileSync('./obs-data.min.js', out.code);
+fs.writeFileSync('./obs-data.js', dat);
 
-echo('app-obs.js');
+echo('obs-app.js');
 
 var app = cat([
   './src/canvas.js',
@@ -85,7 +88,8 @@ var app = cat([
 ]);
 
 var out = ug.minify(app, {fromString: true});
-fs.writeFileSync('./app-obs.js', out.code);
+fs.writeFileSync('./obs-app.js', app);
+fs.writeFileSync('./obs-app.min.js', out.code);
 
 
 echo('copy files');
@@ -93,7 +97,7 @@ echo('copy files');
 //cp('-Rf', ['./index.html', './hist.png', './lo.png'], './pub');
 //cat('./style.css').to('./pub/style-' + version + '.css');
 
-var diag='<!DOCTYPE html><html><head><title>History of Solar System Exploration %ver1%</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" media="screen" href="%path%seh.css" type="text/css"><script type="text/javascript" src="data%ver2%.js"></script><script type="text/javascript" src="app%ver2%.js"></script><script type="text/javascript">function init() {var img, param, height; param=Hist.init(); height=window.innerHeight; if (!param.c) { img=new Image(); img.src="images/hist.png"; img.style.width=px(param.w); img.style.height="auto"; img.style.position="absolute"; img.style.top=px(0); param.p.appendChild(img); } else {  setTimeout(Hist.load, 100); } }</script></head><body onload="init()"><noscript> Please enable javascript in your browser.</noscript></body></html>';
+var diag='<!DOCTYPE html><html><head><title>History of Solar System Exploration %ver1%</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" media="screen" href="%path%seh.css" type="text/css"><script type="text/javascript" src="seh-data%ver2%.min.js"></script><script type="text/javascript" src="seh-app%ver2%.min.js"></script><script type="text/javascript">function init() {var img, param, height; param=Hist.init(); height=window.innerHeight; if (!param.c) { img=new Image(); img.src="images/hist.png"; img.style.width=px(param.w); img.style.height="auto"; img.style.position="absolute"; img.style.top=px(0); param.p.appendChild(img); } else {  setTimeout(Hist.load, 100); } }</script></head><body onload="init()"><noscript> Please enable javascript in your browser.</noscript></body></html>';
 
 var d1 = diag.replace(/%ver1%/g, version).replace(/%ver2%/g, '').replace(/%path%/g, '');
 fs.writeFileSync('./diag.html', d1);
