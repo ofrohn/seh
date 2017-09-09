@@ -1421,7 +1421,7 @@ surveyor7: {name:"Surveyor 7", desc:"lv:Atlas-SLV3C Centaur-D",
 ]},
 luna1968A: {name:"Luna E-6LS #112", desc:"lv:Molniya 8K78M/Blok-L",
   parts:[
-    {names:"Луна-14A;[Luna 1968A]", type:"om", dest:"lun", stat:"f", ctry:"su", desc:"ag:lav,iki;fam:E-6LS;m:~1700kg;dim:1.6x1.5x2.7m", id:"", url:"ea:www.astronautix.com/craft/lunae6ls.htm;nssdc:nssdc.gsfc.nasa.gov/planetary/tent_launch.html", icon:"luna-e6ls.png"}], 
+    {names:"Луна-14A;[Luna 1968A]", type:"om", dest:"lun", stat:"f", ctry:"su", desc:"ag:lav,iki;fam:E-6LS;m:~1700kg;dim:1.6x1.5x2.7m", id:"", url:"ea:www.astronautix.com/craft/lunae6ls.htm;nssdc:nssdc.gsfc.nasa.gov/planetary/tent_launch.html", icon:"luna-e6lf.png"}], 
   events:[
     {pt:"", type:"l", dt:"1968-02-07", loc:"ter:bai:LC-1", desc:"fail:Third stage premature shutdown"}
 ]},
@@ -1436,7 +1436,7 @@ zond4: {name:"Zond 4", desc:"lv:Proton-K/Blok-D", stat:"p",
 ]},
 luna14: {name:"Luna 14", desc:"lv:Molniya 8K78M/Blok-L",
   parts:[
-    {names:"Луна-14;Luna E-6LS #113", type:"om", dest:"lun", stat:"s", ctry:"su", desc:"ag:lav,iki;fam:E-6LS;m:1670kg;dim:1.6x1.5x2.7m", id:"1968-027A", url:"ea:www.astronautix.com/craft/lunae6ls.htm;nssdc:nssdc.gsfc.nasa.gov/planetary/lunar/lunarussr.html", icon:"luna-e6ls.png"}], 
+    {names:"Луна-14;Luna E-6LS #113", type:"om", dest:"lun", stat:"s", ctry:"su", desc:"ag:lav,iki;fam:E-6LS;m:1670kg;dim:1.6x1.5x2.7m", id:"1968-027A", url:"ea:www.astronautix.com/craft/lunae6ls.htm;nssdc:nssdc.gsfc.nasa.gov/planetary/lunar/lunarussr.html", icon:"luna-e6lf.png"}], 
   events:[
     {pt:"", type:"l", dt:"1968-04-07", loc:"ter:bai:LC-1", desc:""},
     {pt:"", type:"toi", dt:"1968-04-07", loc:"ter:lto", desc:""},
@@ -5736,7 +5736,7 @@ add: spec. impulse, manufact.
 "Vostok-L 8K72": {alt:"Восток-Л", ctry:"su", m:"279100", pm:"4000/-/400",  d:"33.5x2.95", pf:"", dt:"1958-09-23..1960-04-16", st:"1/4", ust:"Blok-E", th:"3998", fam:"R-7", desc:"l:bai;ag:okb", fuel:"KeroLOX", icon:"Luna.png"},
 // Vulcan
 "Vulcan": {syn:"Vulcan-Centaur"},
-"Vulcan-Centaur": {ctry:"us", m:"546700", pm:"18850/15100/",  d:"58.3x5.4", pf:"x5.4", dt:"2019..", st:"2/0-6", ust:"", th:"12520", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"CH4/Lox+SRP",  icon:"Vulcan.png"},
+"Vulcan-Centaur": {ctry:"us", m:"546700", pm:"18850/15100/",  d:"58.3x5.4", pf:"x5.4", dt:"2019..", st:"2/0-6", ust:"", th:"12520", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"CH4/Lox+SRP",  icon:"Vulcan1.png"},
 //Zenit 2SB
 "Zenit 2SB": {alt:"Зенит-2SLБ", ctry:"ru", m:"459000", pm:"13500/5200/2000",  d:"57x3.9", pf:"", dt:"2007-06-29..", st:"2", ust:"Fregat-SB", th:"7259", fam:"Zenit", desc:"l:bai", fuel:"KeroLOX", icon:"Zenit-2.png"},
 "Zenit 2M": {syn:"Zenit 2SB"}
@@ -5872,7 +5872,7 @@ idsn: {name:"IDSN Byalalu:Indian DSN Station Byalalu", other:"பயலாலு
 evpat: {name:"Yevpatoria:Yevpatoria RT-70 Radio Telescope\n", other:"Евпатория", ctry:"ru;ua", desig:"NIP-16", desc:"url:;loc:45.189028N,33.187361E;ag:rosc;show:NIP-16:S;reg:Crimea, Ukraine;dish:1x70m,1x32m"},
 galen: {name:"Ussuriysk:Eastern Deep Space Communication Center\n", other:"Уссури́йск", ctry:"ru", desig:"NIP-15", desc:"url:;loc:44.0161N,131.757E;ag:rosc;show:NIP-15:S;reg:Primorsky Krai, Russia;dish:1x70m,1x32m,1x25m"},
 bear: {name:"Medvezhi Ozera:Bear Lakes complex", other:"Медвежьи озёра", ctry:"ru", desig:"NIP-14", desc:"url:;loc:55.867886N,37.951804E;ag:rosc;show:NIP-14:SW;reg:Moscow, Russia;dish:1x64m"},
-kalya: {name:"Kalyazin:Kalyazin Radio Astronomy Observatory", other:"Калязин", ctry:"ru", desig:"", desc:"url:;loc:57.2231N,37.9004E;ag:rosc;show:Kalyazin:NE;reg:Tver, Russia;dish:1x64m"},
+//kalya: {name:"Kalyazin:Kalyazin Radio Astronomy Observatory", other:"Калязин", ctry:"ru", desig:"", desc:"url:;loc:57.2231N,37.9004E;ag:rosc;show:Kalyazin:NE;reg:Tver, Russia;dish:1x64m"},
 udsc: {name:"Usuda DSC:Usuda Deep Space Center", other:"臼田宇宙空間観測所", ctry:"jp", desig:"UDSC", desc:"url:global.jaxa.jp/about/centers/udsc/index.html;loc:36.133056N,138.362222E;ag:jaxa;show:UDSC:S;reg:Nagano, Japan;dish:1x64m"}
 };
     

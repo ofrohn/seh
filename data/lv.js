@@ -171,7 +171,7 @@ add: spec. impulse, manufact.
 "Vostok-L 8K72": {alt:"Восток-Л", ctry:"su", m:"279100", pm:"4000/-/400",  d:"33.5x2.95", pf:"", dt:"1958-09-23..1960-04-16", st:"1/4", ust:"Blok-E", th:"3998", fam:"R-7", desc:"l:bai;ag:okb", fuel:"KeroLOX", icon:"Luna.png"},
 // Vulcan
 "Vulcan": {syn:"Vulcan-Centaur"},
-"Vulcan-Centaur": {ctry:"us", m:"546700", pm:"18850/15100/",  d:"58.3x5.4", pf:"x5.4", dt:"2019..", st:"2/0-6", ust:"", th:"12520", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"CH4/Lox+SRP",  icon:"Vulcan.png"},
+"Vulcan-Centaur": {ctry:"us", m:"546700", pm:"18850/15100/",  d:"58.3x5.4", pf:"x5.4", dt:"2019..", st:"2/0-6", ust:"", th:"12520", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"CH4/Lox+SRP",  icon:"Vulcan1.png"},
 //Zenit 2SB
 "Zenit 2SB": {alt:"Зенит-2SLБ", ctry:"ru", m:"459000", pm:"13500/5200/2000",  d:"57x3.9", pf:"", dt:"2007-06-29..", st:"2", ust:"Fregat-SB", th:"7259", fam:"Zenit", desc:"l:bai", fuel:"KeroLOX", icon:"Zenit-2.png"},
 "Zenit 2M": {syn:"Zenit 2SB"}

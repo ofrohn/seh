@@ -775,7 +775,7 @@ surveyor7: {name:"Surveyor 7", desc:"lv:Atlas-SLV3C Centaur-D",
 ]},
 luna1968A: {name:"Luna E-6LS #112", desc:"lv:Molniya 8K78M/Blok-L",
   parts:[
-    {names:"Луна-14A;[Luna 1968A]", type:"om", dest:"lun", stat:"f", ctry:"su", desc:"ag:lav,iki;fam:E-6LS;m:~1700kg;dim:1.6x1.5x2.7m", id:"", url:"ea:www.astronautix.com/craft/lunae6ls.htm;nssdc:nssdc.gsfc.nasa.gov/planetary/tent_launch.html", icon:"luna-e6ls.png"}], 
+    {names:"Луна-14A;[Luna 1968A]", type:"om", dest:"lun", stat:"f", ctry:"su", desc:"ag:lav,iki;fam:E-6LS;m:~1700kg;dim:1.6x1.5x2.7m", id:"", url:"ea:www.astronautix.com/craft/lunae6ls.htm;nssdc:nssdc.gsfc.nasa.gov/planetary/tent_launch.html", icon:"luna-e6lf.png"}], 
   events:[
     {pt:"", type:"l", dt:"1968-02-07", loc:"ter:bai:LC-1", desc:"fail:Third stage premature shutdown"}
 ]},
@@ -790,7 +790,7 @@ zond4: {name:"Zond 4", desc:"lv:Proton-K/Blok-D", stat:"p",
 ]},
 luna14: {name:"Luna 14", desc:"lv:Molniya 8K78M/Blok-L",
   parts:[
-    {names:"Луна-14;Luna E-6LS #113", type:"om", dest:"lun", stat:"s", ctry:"su", desc:"ag:lav,iki;fam:E-6LS;m:1670kg;dim:1.6x1.5x2.7m", id:"1968-027A", url:"ea:www.astronautix.com/craft/lunae6ls.htm;nssdc:nssdc.gsfc.nasa.gov/planetary/lunar/lunarussr.html", icon:"luna-e6ls.png"}], 
+    {names:"Луна-14;Luna E-6LS #113", type:"om", dest:"lun", stat:"s", ctry:"su", desc:"ag:lav,iki;fam:E-6LS;m:1670kg;dim:1.6x1.5x2.7m", id:"1968-027A", url:"ea:www.astronautix.com/craft/lunae6ls.htm;nssdc:nssdc.gsfc.nasa.gov/planetary/lunar/lunarussr.html", icon:"luna-e6lf.png"}], 
   events:[
     {pt:"", type:"l", dt:"1968-04-07", loc:"ter:bai:LC-1", desc:""},
     {pt:"", type:"toi", dt:"1968-04-07", loc:"ter:lto", desc:""},
