@@ -1981,7 +1981,7 @@ ace: {name:"ACE:Advanced Composition Explorer", desc:"lv:Delta II 7920-8",
     {pt:"", type:"nom", dt:"2018-09-30", loc:"esl1", desc:"?"},
     {pt:"", type:"pom", dt:"2025-09-30", loc:"esl1", desc:"?;Fuel Depletion"}
 ]},
-cassini: {name:"Cassini-Huygens", desc:"lv:Titan 401B Centaur T", stat:"o",
+cassini: {name:"Cassini-Huygens", desc:"lv:Titan 401B Centaur T", stat:"s",
   parts:[
     {type:"fbm", dest:"ast", stat:"s", desc:"sc:0.5", ctry:"us;it"},
     {type:"fbm", dest:"jup", stat:"s", ctry:"us;it"},
@@ -2005,7 +2005,7 @@ cassini: {name:"Cassini-Huygens", desc:"lv:Titan 401B Centaur T", stat:"o",
     {pt:"2", type:"obs", dt:"", loc:"sat", desc:"175 Saturn-Moon Flybys in 317 Orbits;op"},
     {pt:"2", type:"sco", dt:"2016-11-29", loc:"sat:90000x1200000kmx6deg", desc:"F-Ring Orbits"},
     {pt:"2", type:"sco", dt:"2017-04-22", loc:"sat:4000x1200000kmx6deg", desc:"Grand Finale Orbits"},
-    {pt:"2", type:"ae", dt:"2017-09-11", loc:"sat", desc:"eom"}
+    {pt:"2", type:"ae", dt:"2017-09-15", loc:"sat", desc:"eom"}
 ]},
 hgs1: {name:"Asiasat 3", desc:"lv:Proton K/Blok-DM3",
   parts:[
@@ -2552,7 +2552,7 @@ juno: {name:"Juno", desc:"lv:Atlas V 551", stat:"o",
     {pt:"", type:"oi", dt:"2016-07-05", loc:"jup:3900x8029000kmx89.8deg", desc:"per:53.5d"},
     //{pt:"", type:"sco", dt:"2016-12-11", loc:"jup:5000x3500000kmx89.9deg", desc:"per:14d;Polar orbit"},
     {pt:"", type:"nom", dt:"2018-09-30", loc:"jup", desc:"pend"},
-    {pt:"", type:"ae", dt:"2021", loc:"jup", desc:"eom"}
+    {pt:"", type:"ae", dt:"2021-07", loc:"jup", desc:"eom"}
 ]},
 grail: {name:"GRAIL:Gravity Recovery And Interior Laboratory", desc:"lv:Delta II 7920H-10",
   parts:[
