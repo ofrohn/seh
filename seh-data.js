@@ -1,6 +1,6 @@
 var SSEH = SSEH || {
   TITLE: "Solar System Exploration History",
-  VERSION: "1.6.1",
+  VERSION: "1.6.2",
   DATE: "2017-06 ",
   AUTHOR: "Olaf Frohn",
   CLICK: "Click on anything for more details",
@@ -60,20 +60,21 @@ SSEH.path();
 
 ﻿/* global SSEH */
 
+["#","#","#","#","#","#","#","#","#","#","#ffff99","#"]
 SSEH.mtype = {
 test: {name:"Test Flight", col:"#ccc"}, //light grey
-fbm: {name:"Flyby", col:"#fc3"}, //orange 
-im: {name:"Impactor", col:"#f83"}, //brown
-om: {name:"Orbiter", col:"#d33"}, //red 
-slm: {name:"Lander", col:"#93c"}, //purple
-pm: {name:"Descent Probe", col:"#99e"}, //purpleblue
-bm: {name:"Balloon Probe", col:"#6cf"}, //lblue
-rvm: {name:"Rover", col:"#0c0"}, //dgreen 
-hpm: {name:"Hopper", col:"#0e6"}, //lgreen
-srm: {name:"Sample Return", col:"#cb8"}, //tan
-hm: {name:"Human Spaceflight", col:"#f9f"}, //pink
-obm: {name:"Observatory", col:"#d39"}, //red 
-erm: {name:"Return", col:"#a96"}, //blue
+fbm: {name:"Flyby", col:"#fdbf6f"}, //lorange 
+im: {name:"Impactor", col:"#b15928"}, //brown
+om: {name:"Orbiter", col:"#e31a1c"}, //red 
+slm: {name:"Lander", col:"#6a3d9a"}, //purple
+pm: {name:"Descent Probe", col:"#cab2d6"}, //purpleblue
+bm: {name:"Balloon Probe", col:"#a6cee3"}, //lblue
+rvm: {name:"Rover", col:"#33a02c"}, //dgreen 
+hpm: {name:"Hopper", col:"#b2df8a"}, //lgreen
+srm: {name:"Sample Return", col:"#ff7f00"}, //orange
+hm: {name:"Human Spaceflight", col:"#f9c"}, //pink
+obm: {name:"Observatory", col:"#1f78b4"}, //blue 
+erm: {name:"Return", col:"#fb9a99"}, //blue
 etm: {name:"Escape Trajectory", col:"#999"} //grey
 };
 
