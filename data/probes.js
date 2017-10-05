@@ -2633,7 +2633,7 @@ maven: {name:"MAVEN:Mars Atmosphere and Volatile Evolution Mission", desc:"lv:At
 ]},
 mangalyaan: {name:"MOM:Mars Orbiter Mission", desc:"lv:PSLV-XL",
   parts:[
-    {names:"मंगल ग्रह परिक्रमा मिशन;Mangalyaan:Mars Craft", type:"om", dest:"mar", stat:"o", ctry:"ind", desc:"ag:isro;m:1337kg;m0:475kg;dim:5.4x3.5x2.2m", id:"2013-060A", url:"hp:www.isro.gov.in/pslv-c25-mars-orbiter-mission;issdc:www.issdc.gov.in/marsmission.html;data:mrbrowse.issdc.gov.in/MOMLTA/;tw:twitter.com/MarsOrbiter", icon:"mom.png"}], 
+    {names:"मंगल ग्रह परिक्रमा मिशन;Mangalyaan:Mars Craft", type:"om", dest:"mar", stat:"o", ctry:"ind", desc:"ag:isro;m:1337kg;m0:475kg;dim:5.4x3.5x2.2m", id:"2013-060A", url:"hp:www.isro.gov.in/pslv-c25-mars-orbiter-mission;issdc:www.issdc.gov.in/marsmission.html;data:mrbrowse.issdc.gov.in/MOMLTA/;Atw:twitter.com/MarsOrbiter", icon:"mom.png"}], 
   events:[
     {pt:"", type:"l", dt:"2013-11-05", loc:"ter:sri", desc:""},
     {pt:"", type:"oi", dt:"2013-11-05", loc:"ter:heeo", desc:"Phasing orbits"},
