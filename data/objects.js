@@ -1212,10 +1212,10 @@ dysn: {name:"Dysnomia", other:"S/2005 (2003 UB313) 1", desig:"I", type:"m", par:
       img:"", desc:"sc:3;url:solarsystem.nasa.gov/planets/eris/moons;orb:eq.2000-01-01"},
 hau: {name:"Haumea", other:"2003 EL61", desig:"136108", type:"d", par:"sol", disc:"M.E. Brown et al.", dyr:"2004",
       a:"43.132au", e:"0.1950", i:"28.22", per:"283.28a", rot:"3.916h", gr:"cube",
-      h:"", mass:"4.006e21kg", dia:"1960x1518x996km", rad:"980x759x498", tilt:"",
-      alb:"0.7", grav:"0.045",
-      comp:"H2O (S)", dens:"2.6..3.3", atm:"", atp:"", temp:"32K",
-      img:"haumea.png", col:"", desc:"moon:hii,nam;sc:3.3;url:solarsystem.nasa.gov/planets/Haumea;orb:ec.2000-01-01"},
+      h:"0.2", mass:"4.006e21kg", dia:"2322x1701x1138km", rad:"816", tilt:"",
+      alb:"0.7", grav:"0.04",
+      comp:"Ice+Rock", dens:"1.8", atm:"", atp:"", temp:"32K",
+      img:"haumea.png", col:"", desc:"moon:hii,nam;sc:3;url:solarsystem.nasa.gov/planets/Haumea;orb:ec.2000-01-01"},
 hiia: {name:"Hi'iaka", other:"S/2005 (2003 EL61) 1", desig:"I", type:"m", par:"hau", disc:"M.E. Brown et al.", dyr:"2005",
       a:"49880km", e:"0.0513", i:"126.4", per:"49.462d", rot:"9.8h",
       h:"", mass:"2e19kg", dia:"300km", rad:"150:", tilt:"",
@@ -1598,8 +1598,12 @@ e2arc: {name:"Egalité 2 Arc", other:"", desig:"", type:"r", par:"nep", disc:"Si
 farc: {name:"Fraternité Arc", other:"", desig:"", type:"r", par:"nep", disc:"Sicardy, B et al.", dyr:"1989",
       a:"62932km", e:"0", i:"", per:"",
       h:"", mass:"", dia:"15km", rad:"15", thick:"2.15", opt:"0.12", len:"9.6",
-      alb:"",  comp:"dust:40..70", sdens:"", desc:"opa:0.65"}
-
+      alb:"",  comp:"dust:40..70", sdens:"", desc:"opa:0.65"},
+//Haumea ring
+haur: {name:"Ring", other:"", desig:"", type:"r", par:"hau", disc:"Ortiz et al.", dyr:"2017",
+      a:"2287km", e:"", i:"0", per:"",
+      h:"", mass:"", dia:"70km", rad:"70", thick:"", opt:"0.5",
+      alb:"0.09", comp:"", sdens:"", desc:""}
 };
 
 var groups = {     //Groups & rings

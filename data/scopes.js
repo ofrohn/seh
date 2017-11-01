@@ -1244,11 +1244,10 @@ evla: {name:"EVLA:Expanded Very Large Array", url:"www.vla.nrao.edu/", desc:"sc:
   ev: [{pt:"", dt:"", tp:"l", loc:"ter", desc:""}
   ], inst: [{n:"", band:"1e+9..5.00e+10", res:"0.2..0.004", desc:"c:nv;cl:nl;"}
 ]},
-hess: {name:"HESS:High Energy Stereoscopic System", url:"www.mpi-hd.mpg.de/hfm/HESS/", desc:"sc:1.3;x:-70;y:-50", stat:"g",
-  parts: [{n:"", ctry:"", type:"r", icon:"hess.png", desc:""}],
-  ev: [{pt:"", dt:"", tp:"l", loc:"ter", desc:""}
-  ], inst: [{n:"", band:"100GeV..10TeV", res:"540..360", desc:"c:nt;cl:nl;"},
-         {n:"", band:"30GeV..100GeV", res:"960..840", desc:"c:nt;"}
+cta: {name:"CTA:Cherenkov Telescope Array", url:"https://www.cta-observatory.org/", desc:"sc:1.3;x:-70;y:-50", stat:"g",
+  parts: [{n:"", ctry:"", type:"r", icon:"cta.png", desc:""}],
+  ev: [{pt:"", dt:"2021", tp:"l", loc:"ter", desc:""}
+  ], inst: [{n:"", band:"20GeV..300TeV", res:"900..72", desc:"c:nt;cl:nl;"}
 ]},
 lofar: {name:"LOFAR:LOw Frequency ARray", url:"www.lofar.org/", desc:"sc:1.4;x:0;y:10", stat:"g",
   parts: [{n:"", ctry:"", type:"r", icon:"lofar.png", desc:""}],
@@ -1285,7 +1284,7 @@ vlti: {name:"VLTi:Very Large Telescope interferometer", url:"www.eso.org/paranal
   ev: [{pt:"", dt:"", tp:"l", loc:"ter", desc:""}
   ], inst: [{n:"", band:"1.25e+13..9.99e+14", d:202, px:0.001, desc:"c:nr;cl:nl;"}
 ]}
-
+//ska 10m..10mm, cta 50..300000GeV, 900..72 https://www.cta-observatory.org 2021
 };
 /*
 name:{name:"", url:"", desc:"", stat:"", 

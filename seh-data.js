@@ -1,6 +1,6 @@
 var SSEH = SSEH || {
   TITLE: "Solar System Exploration History",
-  VERSION: "1.6.3",
+  VERSION: "1.6.4",
   DATE: "2017-06 ",
   AUTHOR: "Olaf Frohn",
   CLICK: "Click on anything for more details",
@@ -60,20 +60,19 @@ SSEH.path();
 
 ﻿/* global SSEH */
 
-["#","#","#","#","#","#","#","#","#","#","#ffff99","#"]
 SSEH.mtype = {
 test: {name:"Test Flight", col:"#ccc"}, //light grey
 fbm: {name:"Flyby", col:"#fdbf6f"}, //lorange 
 im: {name:"Impactor", col:"#b15928"}, //brown
 om: {name:"Orbiter", col:"#e31a1c"}, //red 
-slm: {name:"Lander", col:"#6a3d9a"}, //purple
+slm: {name:"Lander", col:"#1f78b4"}, //blue
 pm: {name:"Descent Probe", col:"#cab2d6"}, //purpleblue
 bm: {name:"Balloon Probe", col:"#a6cee3"}, //lblue
 rvm: {name:"Rover", col:"#33a02c"}, //dgreen 
 hpm: {name:"Hopper", col:"#b2df8a"}, //lgreen
 srm: {name:"Sample Return", col:"#ff7f00"}, //orange
-hm: {name:"Human Spaceflight", col:"#f9c"}, //pink
-obm: {name:"Observatory", col:"#1f78b4"}, //blue 
+hm: {name:"Human Spaceflight", col:"#ffbfdf"}, //pink
+obm: {name:"Observatory", col:"#9a3d9a"}, //purple 
 erm: {name:"Return", col:"#fb9a99"}, //blue
 etm: {name:"Escape Trajectory", col:"#999"} //grey
 };
@@ -2870,7 +2869,7 @@ smart1: {name:"SMART 1:Small Missions for Advanced Research in Technology 1", de
     {pt:"", type:"fb", dt:"2004-10-12", loc:"lun:?", desc:"3\u20441 orbit resonance"},
     {pt:"", type:"oi", dt:"2004-11-15", loc:"lun:6700x53200kmx81deg", desc:"2\u20441 orbit resonance"},
     {pt:"", type:"sco", dt:"2005-02-18", loc:"lun:2200x4600kmx90deg", desc:""},
-    {pt:"", type:"imp", dt:"2005-09-03", loc:"lun:34.4S,46.2W", desc:"Lacus Excellentiae;eom;show:0"}
+    {pt:"", type:"imp", dt:"2005-09-03", loc:"lun:34.262S,46.193W", desc:"Lacus Excellentiae;eom;show:0"}
 ]},
 // --- 2004 --- 2 Missions    
 rosetta: {name:"Rosetta", desc:"lv:Ariane 5G+", stat:"o",
@@ -5097,10 +5096,10 @@ dysn: {name:"Dysnomia", other:"S/2005 (2003 UB313) 1", desig:"I", type:"m", par:
       img:"", desc:"sc:3;url:solarsystem.nasa.gov/planets/eris/moons;orb:eq.2000-01-01"},
 hau: {name:"Haumea", other:"2003 EL61", desig:"136108", type:"d", par:"sol", disc:"M.E. Brown et al.", dyr:"2004",
       a:"43.132au", e:"0.1950", i:"28.22", per:"283.28a", rot:"3.916h", gr:"cube",
-      h:"", mass:"4.006e21kg", dia:"1960x1518x996km", rad:"980x759x498", tilt:"",
-      alb:"0.7", grav:"0.045",
-      comp:"H2O (S)", dens:"2.6..3.3", atm:"", atp:"", temp:"32K",
-      img:"haumea.png", col:"", desc:"moon:hii,nam;sc:3.3;url:solarsystem.nasa.gov/planets/Haumea;orb:ec.2000-01-01"},
+      h:"0.2", mass:"4.006e21kg", dia:"2322x1701x1138km", rad:"816", tilt:"",
+      alb:"0.7", grav:"0.04",
+      comp:"Ice+Rock", dens:"1.8", atm:"", atp:"", temp:"32K",
+      img:"haumea.png", col:"", desc:"moon:hii,nam;sc:3;url:solarsystem.nasa.gov/planets/Haumea;orb:ec.2000-01-01"},
 hiia: {name:"Hi'iaka", other:"S/2005 (2003 EL61) 1", desig:"I", type:"m", par:"hau", disc:"M.E. Brown et al.", dyr:"2005",
       a:"49880km", e:"0.0513", i:"126.4", per:"49.462d", rot:"9.8h",
       h:"", mass:"2e19kg", dia:"300km", rad:"150:", tilt:"",
@@ -5483,8 +5482,12 @@ e2arc: {name:"Egalité 2 Arc", other:"", desig:"", type:"r", par:"nep", disc:"Si
 farc: {name:"Fraternité Arc", other:"", desig:"", type:"r", par:"nep", disc:"Sicardy, B et al.", dyr:"1989",
       a:"62932km", e:"0", i:"", per:"",
       h:"", mass:"", dia:"15km", rad:"15", thick:"2.15", opt:"0.12", len:"9.6",
-      alb:"",  comp:"dust:40..70", sdens:"", desc:"opa:0.65"}
-
+      alb:"",  comp:"dust:40..70", sdens:"", desc:"opa:0.65"},
+//Haumea ring
+haur: {name:"Ring", other:"", desig:"", type:"r", par:"hau", disc:"Ortiz et al.", dyr:"2017",
+      a:"2287km", e:"", i:"0", per:"",
+      h:"", mass:"", dia:"70km", rad:"70", thick:"", opt:"0.5",
+      alb:"0.09", comp:"", sdens:"", desc:""}
 };
 
 var groups = {     //Groups & rings
@@ -5799,7 +5802,7 @@ Common.lpad = [
 {n:"LC-31/6", par:"bai", lv:"R-7;Molniya;Soyuz", loc:"45.996N,63.564E"},
 {n:"LC-34", par:"cap", lv:"Saturn IB", loc:"28.522N,80.561W"},
 {n:"LC-35", par:"ple", lv:"Angara", loc:"62.928N,40.5756E"},
-{n:"LC-36A", par:"cap", lv:"Atlas Centaur", loc:"28.4714N,80.5376W"},
+{n:"LC-36A", par:"cap", lv:"Atlas Centaur;New Glenn", loc:"28.4714N,80.5376W"},
 {n:"LC-36B", par:"cap", lv:"Atlas Centaur;Atlas II", loc:"28.4753N,80.5396W"},
 {n:"LC-37B", par:"cap", lv:"Saturn IB,Delta IV", loc:"28.531N,80.565W"},
 {n:"LC-39A", par:"ksc", lv:"Saturn V;STS;Falcon 9;Falcon Heavy", loc:"28.608N,80.604W"},

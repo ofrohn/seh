@@ -2223,7 +2223,7 @@ smart1: {name:"SMART 1:Small Missions for Advanced Research in Technology 1", de
     {pt:"", type:"fb", dt:"2004-10-12", loc:"lun:?", desc:"3\u20441 orbit resonance"},
     {pt:"", type:"oi", dt:"2004-11-15", loc:"lun:6700x53200kmx81deg", desc:"2\u20441 orbit resonance"},
     {pt:"", type:"sco", dt:"2005-02-18", loc:"lun:2200x4600kmx90deg", desc:""},
-    {pt:"", type:"imp", dt:"2005-09-03", loc:"lun:34.4S,46.2W", desc:"Lacus Excellentiae;eom;show:0"}
+    {pt:"", type:"imp", dt:"2005-09-03", loc:"lun:34.262S,46.193W", desc:"Lacus Excellentiae;eom;show:0"}
 ]},
 // --- 2004 --- 2 Missions    
 rosetta: {name:"Rosetta", desc:"lv:Ariane 5G+", stat:"o",
