@@ -2435,7 +2435,7 @@ dawn: {name:"Dawn", desc:"lv:Delta II 7925H-9.5", stat:"o",
     {pt:"1", type:"sco", dt:"2016-10-16", loc:"ast:1480km", desc:"XMO2:Extended Mission Orbit 2"},
     {pt:"1", type:"sco", dt:"2017-01-27", loc:"ast:7520x9350km", desc:"XMO3:Extended Mission Orbit 3"},
     {pt:"1", type:"sco", dt:"2017-04", loc:"ast:20000km", desc:"XMO4:Extended Mission Orbit 4"},
-    {pt:"1", type:"nom", dt:"2017-12", loc:"ast", desc:"?"},
+    {pt:"1", type:"nom", dt:"2018-07", loc:"ast", desc:"?"},
     {pt:"1", type:"pom", dt:"2018-08-30", loc:"ast", desc:"?"}
 ]},
 change1: {name:"Chang'e 1", desc:"lv:CZ-3A",
