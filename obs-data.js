@@ -710,7 +710,7 @@ aditya:{name:"Aditya-L1", url:"hp:aditya.iiap.res.in/", desc:"Solar Coronograph;
     {pt:"", dt:"", tp:"sco", loc:"sol:esl1", desc:""}
   ], inst: [
     {n:"VELC:Visible Emission Line Coronagraph", band:"530..640nm", res:"2", d:"0.2", px:"", url:"", desc:"c:nr;"},
-    {n:"SUIT:Solar Ultraviolet Imaging Telescope", band:"", res:"", d:"", px:"", url:"", desc:"c:;"},
+    {n:"SUIT:Solar Ultraviolet Imaging Telescope", band:"200..400nm", res:"", d:"", px:"", url:"", desc:"c:;"},
     {n:"SoLEXS:Solar Low Energy X-ray Spectrometer", band:"", res:"", d:"", px:"", url:"", desc:"c:;"},
     {n:"ASPEX:Aditya Solar wind Particle Experiment", band:"", res:"", d:"", px:"", url:"", desc:"c:;"},
     {n:"PAPA:Plasma Analyser Package For Aditya", band:"", res:"", d:"", px:"", url:"", desc:"c:;"},
@@ -1806,13 +1806,13 @@ wind:{name:"WIND", url:"hp:wind.nasa.gov/;ucb:cse.ssl.berkeley.edu/stereo_solarw
     {n:"TGRS:Transient Gamma-Ray Spectrometer", tp:"sp", band:"2.42E+18..2.42E+21", url:"lheawww.gsfc.nasa.gov/docs/gamcosray/legr/tgrs/tgrs_home.html", desc:""},
     {n:"KRONUS", band:"", res:"", url:"", desc:""}
 ]},
-wfirst:{name:"WFIRST:Widefield Infrared Survey Explorer", url:"hp:wfirst.gsfc.nasa.gov;tw:twitter.com/NASAWFIRST", desc:"ag:nasa;sc:0.9;x:40;y:0", stat:"pl", 
+wfirst:{name:"WFIRST:Widefield Infrared Survey Explorer", url:"hp:wfirst.gsfc.nasa.gov;tw:twitter.com/NASAWFIRST", desc:"ag:nasa;lv:Falcon Heavy;sc:0.9;x:40;y:0", stat:"pl", 
   parts: [
     {n:"AFTA:Astrophysics Focused Telescope Assets", ctry:"us", type:"nir", pur:"sur", id:"", icon:"wfirst.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2025", tp:"l", loc:"ter", desc:""},
-    {pt:"", dt:"2025", tp:"sco", loc:"ter:geo", desc:"Or ES-L2"},
-    {pt:"", dt:"2031", tp:"nom", loc:"", desc:""}
+    {pt:"", dt:"2026", tp:"l", loc:"ter", desc:""},
+    {pt:"", dt:"2026", tp:"sco", loc:"ter:esl2", desc:"or GEO"},
+    {pt:"", dt:"2032", tp:"nom", loc:"", desc:""}
   ], inst: [
     {n:"WFI:Wide Field Instrument", band:"760..2000nm", res:"", d:"2.5", px:"0.11", fov:"0.28deg2", desc:"c:nvt;cl:nl"},
     {n:"CGI:Coronograph Instrument", band:"430..970nm", res:"", d:"2.5", px:"", fov:"", desc:""}
@@ -1863,6 +1863,15 @@ xmm:{name:"XMM:XMM-Newton", url:"hp:www.esa.int/Our_activities/Space_Science/XMM
     {n:"OM", band:"4.61E+14..1.76E+15", res:"4", desc:"c:nr;cl:nl"},
     {n:"EPIC", band:"3.63E+16..3.63E+18", res:"6", desc:"c:nr;"}
 ]},
+xposat:{name:"XPoSat:X-ray Polariation Satellite", url:"hp:", desc:"ag:isro;lv:PSLV XL;sc:1.6;y:10", stat:"pl", 
+  parts: [
+    {n:"", ctry:"ind", type:"x", pur:"", id:"", icon:"xpo.png", desc:""}
+  ], ev: [
+    {pt:"", dt:"2021", tp:"l", loc:"ter:sri", desc:""},
+    {pt:"", dt:"2021", tp:"sco", loc:"ter:leo:600kmx30deg", desc:""},
+    {pt:"", dt:"2026", tp:"pom", loc:"ter:leo", desc:""}
+  ], inst: [
+    {n:"POLIX", band:"5..30keV", res:"", desc:"c:nr;cl:"}]},
 yokoh:{name:"Yohkoh:Sunbeam ", url:"hp:www.isas.jaxa.jp/e/enterp/missions/yohkoh/index.shtml;lmsal:www.lmsal.com/SXT/main2.html", desc:"ag:isas;lv:M-3SII", stat:"s", 
   parts: [
     {n:"ようこう;Solar-A", ctry:"jp", type:"x", pur:"sol", id:"1991-062A", icon:""}
@@ -1974,8 +1983,8 @@ add: spec. impulse, manufact.
 "Ariane 5G": {ctry:"eu", m:"720000", pm:"18000/6900/3000",  d:"54.0x5.4", pf:"12.7x5.4", dt:"1996-04-06..2005-12-21", st:"2/2", th:"11400", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"LH2/LOX+SRP", icon:"Ariane-5.png"},
 "Ariane 5G+": {syn:"Ariane 5G"},
 "Ariane 5ECA": {ctry:"eu", m:"764000", pm:"21000/9600/5400",  d:"57.7x5.4", pf:"17x5.4", dt:"2002-12-11..", st:"2/2", th:"11400", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"LH2/LOX+SRP", icon:"Ariane-5.png"},
-"Ariane 62": {ctry:"eu", m:"500000", pm:"10000/5000/3000",  d:"62x5.4", pf:"20x5.4", dt:"2020..", st:"2/2", ust:"ULPM", th:"8350", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"LH2/LOX+SRP", icon:"ariane62.png"},
-"Ariane 64": {ctry:"eu", m:"900000", pm:"20000/10500/7000",  d:"62x5.4", pf:"20x5.4", dt:"2020..", st:"2/4", ust:"ULPM", th:"15350", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"LH2/LOX+SRP", icon:"ariane64.png"},
+"Ariane 62": {ctry:"eu", m:"500000", pm:"10000/5000/3000",  d:"62x5.4", pf:"20x5.4", dt:"2020-07..", st:"2/2", ust:"ULPM", th:"8350", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"LH2/LOX+SRP", icon:"ariane62.png"},
+"Ariane 64": {ctry:"eu", m:"900000", pm:"20000/10500/7000",  d:"62x5.4", pf:"20x5.4", dt:"2020-07..", st:"2/4", ust:"ULPM", th:"15350", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"LH2/LOX+SRP", icon:"ariane64.png"},
 //Athena 2
 "Athena 2": {ctry:"us", m:"120700", pm:"2065/593/300",  d:"28.2x2.3", pf:"x2.36", dt:"1998-01-07..1999-09-24", st:"3", th:"1450", fam:"MX", desc:"l:cap;ag:nasa", fuel:"SRP", icon:"Athena-2.png"},
 //Atlas-D Able IV, Atlas-D Able V

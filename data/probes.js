@@ -2787,12 +2787,12 @@ change5: {name:"Chang'e 5", desc:"lv:CZ-5",
 // --- 2018
 chandrayaan2: {name:"Chandrayaan 2:Moon Craft 2", desc:"lv:GSLV MkII",
   parts:[
-    {names:"चंद्रयान-२", type:"om", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:3250kg;sc:0.5", id:"", url:"hp:isro.gov.in/chandrayaan-2;isp.justthe80.com/moon-exploration/chandrayaan---2", icon:"chandrayaan2-o.png"},
+    {names:"चंद्रयान-२", type:"om", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:3250kg;sc:0.5", id:"", url:"hp:isro.gov.in/chandrayaan-2;isp:sites.google.com/site/indianspaceprojects/moon-exploration/chandrayaan---2", icon:"chandrayaan2-o.png"},
 {names:"{Chandrayaan 2 Lander}", type:"slm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:1260kg", icon:"chandrayaan2-l.png"},
-{names:"", type:"rvm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:20kg;sc:0.5", icon:"chandrayaan2-rv.png"}], 
+{names:"", type:"rvm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:25kg;sc:0.5", icon:"chandrayaan2-rv.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2018", loc:"ter:sri", desc:""},
-    {pt:"", type:"toi", dt:"2018", loc:"ter:170x16980km", desc:"EPO"},
+    {pt:"", type:"l", dt:"2018-03", loc:"ter:sri", desc:""},
+    {pt:"", type:"toi", dt:"2018-03", loc:"ter:170x16980km", desc:"EPO"},
     {pt:"0", type:"oi", dt:"l+1mo", loc:"lun", desc:""},
     {pt:"0", type:"sco", dt:"l+2mo", loc:"lun:100km", desc:""},
     {pt:"1", type:"td", dt:"l+2mo", loc:"lun:87.2S,68E", desc:"Shoemaker, Faustini"},
@@ -2869,7 +2869,7 @@ change4relay: {name:"Chang'e 4 LRS:Lunar Relay Satellite", desc:"lv:CZ-4C",
 ]},
 dslwp: {name:"DSLWP-A1/A2", desc:"lv:CZ-4C;part:change4relay",
   parts:[
-    {names:"月球轨道超长波天文观测微卫星", type:"om", dest:"lun", stat:"pl", ctry:"cn", desc:"ag:cnsa,hit;sc:0.4;m:45kg;dim:0.5x0.5x0.4m", id:"", url:"hp:lilacsat.hit.edu.cn/;China Spaceflight:www.chinaspaceflight.com/satellite/HIT/DSLWP-A1-A2.html", icon:"dslwp.png"}
+    {names:"月球轨道超长波天文观测微卫星", type:"om", dest:"lun", stat:"pl", ctry:"cn", desc:"ag:cnsa,HIT;m:45kg;dim:0.5x0.5x0.4m;sc:1", id:"", url:"hp:lilacsat.hit.edu.cn/;China Spaceflight:www.chinaspaceflight.com/satellite/HIT/DSLWP-A1-A2.html", icon:"dslwp.png"}
    ], 
   events:[
     {pt:"", type:"l", dt:"2018-06", loc:"ter:xch:LC-2", desc:"Chang'e 4 LRS piggyback"},
@@ -2897,7 +2897,7 @@ kplo: {name:"KPLO:Korean Pathfinder Lunar Orbiter", desc:"lv:KSLV-II",
 ]},
 mom2: {name:"MOM 2:Mars Observation Mission 2", desc:"lv:GSLV MkIII",
   parts:[
-    {names:"", type:"om", dest:"mar", stat:"pl", ctry:"ind", desc:"ag:isro,cnes;m:;m0:;dim:", id:"", url:"hp:www.isro.gov.in/", icon:"mobm.png"},
+    {names:"", type:"om", dest:"mar", stat:"pl", ctry:"ind", desc:"ag:isro,cnes;m:;m0:;dim:", id:"", url:"hp:www.isro.gov.in/;isp:sites.google.com/site/indianspaceprojects/planetary-exploration/mars-orbiter-mission-mom---2", icon:"mobm.png"},
     {names:"", type:"slm", dest:"mar", stat:"pl", ctry:"ind", desc:"ag:isro;m:", icon:""},
     {names:"", type:"rvm", dest:"mar", stat:"pl", ctry:"ind", desc:"ag:isro;m:", icon:""}], 
   events:[
@@ -3180,8 +3180,10 @@ em2: {name:"EM-2:Exploration Mission 2", desc:"lv:SLS 1B", stat:"pl",
     //{type:"srm", dest:"ast"}], 
   events:[
     {pt:"", type:"l", dt:"2023-04", loc:"ter:ksc:LC-39B", desc:""},
-    {pt:"", type:"app", dt:"l+?dy", loc:"lun:nrho", desc:""},
-    {pt:"", type:"edl", dt:"l+?dy", loc:"ter", desc:"eom"}
+    {pt:"", type:"sep", dt:"2023-04", loc:"ter:lto", desc:"CM-EUS"},
+    {pt:"0", type:"fb", dt:"l+9dy", loc:"lun", desc:"CM"},
+    {pt:"1", type:"oi", dt:"2023-04", loc:"lun:nrho", desc:"PPE:Power Prop Element"},
+    {pt:"0", type:"edl", dt:"l+9dy", loc:"ter", desc:"eom"}
 ]},
 psyche: {name:"Psyche", desc:"",
   parts:[
