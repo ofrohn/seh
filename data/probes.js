@@ -1525,7 +1525,7 @@ luna24: {name:"Luna 24", desc:"lv:Proton-K/Blok-D",
 // --- 1977 --- 2 Missions   
 voyager2: {name:"Voyager 2", desc:"lv:Titan IIIE Centaur D1T", stat:"o",
   parts:[
-    {names:"Mariner Jupiter/Saturn B", type:"fbm", dest:"jup", stat:"s", ctry:"us", desc:"ag:nasa,jpl;fam:VGR77,Flagship;m:2020kg;dim:7.6x3.7x4.7m;w:0.16", id:"1977-076A", url:"hp:voyager.jpl.nasa.gov/;tps:www.planetary.org/explore/resource-library/voyager-mission-status.html;pds:pds-imaging.jpl.nasa.gov/portal/voyager_mission.html", icon:"voyager1-2.png"},
+    {names:"Mariner Jupiter/Saturn B", type:"fbm", dest:"jup", stat:"s", ctry:"us", desc:"ag:nasa,jpl;fam:VGR77,Flagship;m:2020kg;m0:808g;dim:7.6x3.7x4.7m;w:0.16", id:"1977-076A", url:"hp:voyager.jpl.nasa.gov/;tps:www.planetary.org/explore/resource-library/voyager-mission-status.html;pds:pds-imaging.jpl.nasa.gov/portal/voyager_mission.html", icon:"voyager1-2.png"},
 {type:"fbm", dest:"sat", stat:"s", ctry:"us"},
 {type:"fbm", dest:"ura", stat:"s", ctry:"us", desc:"First Uranus flyby"},
 {type:"fbm", dest:"nep", stat:"s", ctry:"us", desc:"First Neptune flyby"},
@@ -1550,7 +1550,7 @@ voyager2: {name:"Voyager 2", desc:"lv:Titan IIIE Centaur D1T", stat:"o",
 ]},
 voyager1: {name:"Voyager 1", desc:"lv:Titan IIIE Centaur D1T", stat:"o",
   parts:[
-    {names:"Mariner Jupiter/Saturn A", type:"fbm", dest:"jup", stat:"s", ctry:"us", desc:"ag:nasa,jpl;fam:VGR77,Flagship;m:2080kg;dim:7.6x3.7x4.7m", id:"1977-084A", url:"hp:voyager.jpl.nasa.gov/;tps:www.planetary.org/explore/resource-library/voyager-mission-status.html;pds:pds-imaging.jpl.nasa.gov/portal/voyager_mission.html", icon:"voyager1-2.png"},
+    {names:"Mariner Jupiter/Saturn A", type:"fbm", dest:"jup", stat:"s", ctry:"us", desc:"ag:nasa,jpl;fam:VGR77,Flagship;m:2080kg;m0:808g;dim:7.6x3.7x4.7m", id:"1977-084A", url:"hp:voyager.jpl.nasa.gov/;tps:www.planetary.org/explore/resource-library/voyager-mission-status.html;pds:pds-imaging.jpl.nasa.gov/portal/voyager_mission.html", icon:"voyager1-2.png"},
 {type:"fbm", dest:"sat", stat:"s", ctry:"us"},
 {names:"Voyager Interstellar Mission", type:"etm", dest:"ism", stat:"o", ctry:"us", desc:"Farthest human-made object;First probe in interstellar space", url:"tw:twitter.com/NASAVoyager", icon:"voyager-disk.png"}], 
   events:[
@@ -2207,7 +2207,7 @@ opportunity: {name:"Opportunity", desc:"lv:Delta II 7925H-9.5",
     {pt:"", type:"arr", dt:"2006-09-27", loc:"mar", desc:"Victoria Crater"},
     {pt:"", type:"arr", dt:"2011-08-09", loc:"mar", desc:"Endeavour Crater"},
     {pt:"", type:"obs", dt:"2014-10-19", loc:"mar", desc:"Comet C 2013 A1 Siding Spring"},
-    {pt:"", type:"ex", dt:"", loc:"mar", desc:"rv:43.5km;and counting"},
+    {pt:"", type:"ex", dt:"", loc:"mar", desc:"rv:45km;and counting"},
     {pt:"", type:"nom", dt:"2018-09-30", loc:"mar", desc:"pend"},
     {pt:"", type:"pom", dt:"2020-12-31", loc:"mar", desc:""}
     
@@ -2587,7 +2587,7 @@ msl: {name:"Curiosity", desc:"lv:Atlas V 541",
     {pt:"", type:"ev", dt:"2012-08-15..2013-06-05", loc:"mar", desc:"Instrument checkout;Drive to Glenelg"},
     {pt:"", type:"arr", dt:"2014-09-11", loc:"mar", desc:"Mt. Sharp"},
     {pt:"", type:"obs", dt:"2014-10-19", loc:"mar", desc:"Comet C 2013 A1 Siding Spring"},
-    {pt:"", type:"ex", dt:"", loc:"mar", desc:"Drive up Mt. Sharp;rv:16km;and counting"},
+    {pt:"", type:"ex", dt:"", loc:"mar", desc:"Drive up Mt. Sharp;rv:17km;and counting"},
     {pt:"", type:"nom", dt:"2018-09-30", loc:"mar", desc:"pend"},
     {pt:"", type:"pom", dt:"2022-11-15", loc:"mar", desc:"?"}
 ]},
@@ -2888,12 +2888,13 @@ dslwp: {name:"DSLWP-A1/A2", desc:"lv:CZ-4C;part:change4relay",
 ]},*/
 kplo: {name:"KPLO:Korean Pathfinder Lunar Orbiter", desc:"lv:KSLV-II",
   parts:[
-    {names:"", type:"om", dest:"lun", stat:"pl", ctry:"sk", desc:"ag:kari;fam:klep;sc:0.6;m:500kg;m0:;dim:", id:"", url:"hp:www.kari.re.kr/eng/sub03_04.do", icon:"kplo.png"}
+    {names:"", type:"om", dest:"lun", stat:"pl", ctry:"sk", desc:"ag:kari;fam:klep;sc:0.6;m:550kg;m0:;dim:", id:"", url:"hp:www.kari.re.kr/eng/sub03_04.do", icon:"kplo.png"}
    ], 
   events:[
-    {pt:"", type:"l", dt:"2018-12", loc:"ter:nar", desc:""},
-    {pt:"", type:"oi", dt:"l+5dy", loc:"lun", desc:""},
-    {pt:"", type:"nom", dt:"l+2yr", loc:"lun", desc:"?"}
+    {pt:"", type:"l", dt:"2020-12", loc:"ter:nar", desc:""},
+    {pt:"", type:"toi", dt:"2020-12", loc:"ter:heeo", desc:"Phasing Loop Transfer"},
+    {pt:"", type:"oi", dt:"l+1mo", loc:"lun:100kmx90deg", desc:""},
+    {pt:"", type:"nom", dt:"l+1yr", loc:"lun", desc:"?"}
 ]},
 mom2: {name:"MOM 2:Mars Observation Mission 2", desc:"lv:GSLV MkIII",
   parts:[
@@ -3012,7 +3013,7 @@ change4: {name:"Chang'e 4 Lander", desc:"lv:CZ-3B",
     {names:"{Chang'e 4 Rover}", type:"rvm", dest:"lun", stat:"pl", ctry:"cn", desc:"m:120kg", icon:"chang-e3-rv.png"}
    ], 
   events:[
-    {pt:"", type:"l", dt:"2019", loc:"ter:xch", desc:""},
+    {pt:"", type:"l", dt:"2018-12", loc:"ter:xch", desc:""},
     {pt:"", type:"oi", dt:"l+5dy", loc:"lun", desc:""},
     {pt:"", type:"td", dt:"l+14dy", loc:"lun:45.5S,178E", desc:"South Pole Aitken, Von Karman crater;show:CE4:NW"},
     {pt:"1", type:"nom", dt:"l+3mo", loc:"lun", desc:"rvp;?;eom:rvm"},

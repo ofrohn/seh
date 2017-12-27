@@ -1,6 +1,6 @@
 var SSEH = SSEH || {
   TITLE: "Solar System Exploration History",
-  VERSION: "1.6.6",
+  VERSION: "1.6.7",
   DATE: "2017-12 ",
   AUTHOR: "Olaf Frohn",
   CLICK: "Click on anything for more details",
@@ -2171,7 +2171,7 @@ luna24: {name:"Luna 24", desc:"lv:Proton-K/Blok-D",
 // --- 1977 --- 2 Missions   
 voyager2: {name:"Voyager 2", desc:"lv:Titan IIIE Centaur D1T", stat:"o",
   parts:[
-    {names:"Mariner Jupiter/Saturn B", type:"fbm", dest:"jup", stat:"s", ctry:"us", desc:"ag:nasa,jpl;fam:VGR77,Flagship;m:2020kg;dim:7.6x3.7x4.7m;w:0.16", id:"1977-076A", url:"hp:voyager.jpl.nasa.gov/;tps:www.planetary.org/explore/resource-library/voyager-mission-status.html;pds:pds-imaging.jpl.nasa.gov/portal/voyager_mission.html", icon:"voyager1-2.png"},
+    {names:"Mariner Jupiter/Saturn B", type:"fbm", dest:"jup", stat:"s", ctry:"us", desc:"ag:nasa,jpl;fam:VGR77,Flagship;m:2020kg;m0:808g;dim:7.6x3.7x4.7m;w:0.16", id:"1977-076A", url:"hp:voyager.jpl.nasa.gov/;tps:www.planetary.org/explore/resource-library/voyager-mission-status.html;pds:pds-imaging.jpl.nasa.gov/portal/voyager_mission.html", icon:"voyager1-2.png"},
 {type:"fbm", dest:"sat", stat:"s", ctry:"us"},
 {type:"fbm", dest:"ura", stat:"s", ctry:"us", desc:"First Uranus flyby"},
 {type:"fbm", dest:"nep", stat:"s", ctry:"us", desc:"First Neptune flyby"},
@@ -2196,7 +2196,7 @@ voyager2: {name:"Voyager 2", desc:"lv:Titan IIIE Centaur D1T", stat:"o",
 ]},
 voyager1: {name:"Voyager 1", desc:"lv:Titan IIIE Centaur D1T", stat:"o",
   parts:[
-    {names:"Mariner Jupiter/Saturn A", type:"fbm", dest:"jup", stat:"s", ctry:"us", desc:"ag:nasa,jpl;fam:VGR77,Flagship;m:2080kg;dim:7.6x3.7x4.7m", id:"1977-084A", url:"hp:voyager.jpl.nasa.gov/;tps:www.planetary.org/explore/resource-library/voyager-mission-status.html;pds:pds-imaging.jpl.nasa.gov/portal/voyager_mission.html", icon:"voyager1-2.png"},
+    {names:"Mariner Jupiter/Saturn A", type:"fbm", dest:"jup", stat:"s", ctry:"us", desc:"ag:nasa,jpl;fam:VGR77,Flagship;m:2080kg;m0:808g;dim:7.6x3.7x4.7m", id:"1977-084A", url:"hp:voyager.jpl.nasa.gov/;tps:www.planetary.org/explore/resource-library/voyager-mission-status.html;pds:pds-imaging.jpl.nasa.gov/portal/voyager_mission.html", icon:"voyager1-2.png"},
 {type:"fbm", dest:"sat", stat:"s", ctry:"us"},
 {names:"Voyager Interstellar Mission", type:"etm", dest:"ism", stat:"o", ctry:"us", desc:"Farthest human-made object;First probe in interstellar space", url:"tw:twitter.com/NASAVoyager", icon:"voyager-disk.png"}], 
   events:[
@@ -2853,7 +2853,7 @@ opportunity: {name:"Opportunity", desc:"lv:Delta II 7925H-9.5",
     {pt:"", type:"arr", dt:"2006-09-27", loc:"mar", desc:"Victoria Crater"},
     {pt:"", type:"arr", dt:"2011-08-09", loc:"mar", desc:"Endeavour Crater"},
     {pt:"", type:"obs", dt:"2014-10-19", loc:"mar", desc:"Comet C 2013 A1 Siding Spring"},
-    {pt:"", type:"ex", dt:"", loc:"mar", desc:"rv:43.5km;and counting"},
+    {pt:"", type:"ex", dt:"", loc:"mar", desc:"rv:45km;and counting"},
     {pt:"", type:"nom", dt:"2018-09-30", loc:"mar", desc:"pend"},
     {pt:"", type:"pom", dt:"2020-12-31", loc:"mar", desc:""}
     
@@ -3233,7 +3233,7 @@ msl: {name:"Curiosity", desc:"lv:Atlas V 541",
     {pt:"", type:"ev", dt:"2012-08-15..2013-06-05", loc:"mar", desc:"Instrument checkout;Drive to Glenelg"},
     {pt:"", type:"arr", dt:"2014-09-11", loc:"mar", desc:"Mt. Sharp"},
     {pt:"", type:"obs", dt:"2014-10-19", loc:"mar", desc:"Comet C 2013 A1 Siding Spring"},
-    {pt:"", type:"ex", dt:"", loc:"mar", desc:"Drive up Mt. Sharp;rv:16km;and counting"},
+    {pt:"", type:"ex", dt:"", loc:"mar", desc:"Drive up Mt. Sharp;rv:17km;and counting"},
     {pt:"", type:"nom", dt:"2018-09-30", loc:"mar", desc:"pend"},
     {pt:"", type:"pom", dt:"2022-11-15", loc:"mar", desc:"?"}
 ]},
@@ -3515,7 +3515,7 @@ change4relay: {name:"Chang'e 4 LRS:Lunar Relay Satellite", desc:"lv:CZ-4C",
 ]},
 dslwp: {name:"DSLWP-A1/A2", desc:"lv:CZ-4C;part:change4relay",
   parts:[
-    {names:"月球轨道超长波天文观测微卫星", type:"om", dest:"lun", stat:"pl", ctry:"cn", desc:"ag:cnsa,HIT;sc:1.4;m:45kg;dim:0.5x0.5x0.4m", id:"", url:"hp:lilacsat.hit.edu.cn/;China Spaceflight:www.chinaspaceflight.com/satellite/HIT/DSLWP-A1-A2.html", icon:"dslwp.png"}
+    {names:"月球轨道超长波天文观测微卫星", type:"om", dest:"lun", stat:"pl", ctry:"cn", desc:"ag:cnsa,HIT;m:45kg;dim:0.5x0.5x0.4m;sc:1", id:"", url:"hp:lilacsat.hit.edu.cn/;China Spaceflight:www.chinaspaceflight.com/satellite/HIT/DSLWP-A1-A2.html", icon:"dslwp.png"}
    ], 
   events:[
     {pt:"", type:"l", dt:"2018-06", loc:"ter:xch:LC-2", desc:"Chang'e 4 LRS piggyback"},
@@ -3534,12 +3534,13 @@ dslwp: {name:"DSLWP-A1/A2", desc:"lv:CZ-4C;part:change4relay",
 ]},*/
 kplo: {name:"KPLO:Korean Pathfinder Lunar Orbiter", desc:"lv:KSLV-II",
   parts:[
-    {names:"", type:"om", dest:"lun", stat:"pl", ctry:"sk", desc:"ag:kari;fam:klep;sc:0.6;m:500kg;m0:;dim:", id:"", url:"hp:www.kari.re.kr/eng/sub03_04.do", icon:"kplo.png"}
+    {names:"", type:"om", dest:"lun", stat:"pl", ctry:"sk", desc:"ag:kari;fam:klep;sc:0.6;m:550kg;m0:;dim:", id:"", url:"hp:www.kari.re.kr/eng/sub03_04.do", icon:"kplo.png"}
    ], 
   events:[
-    {pt:"", type:"l", dt:"2018-12", loc:"ter:nar", desc:""},
-    {pt:"", type:"oi", dt:"l+5dy", loc:"lun", desc:""},
-    {pt:"", type:"nom", dt:"l+2yr", loc:"lun", desc:"?"}
+    {pt:"", type:"l", dt:"2020-12", loc:"ter:nar", desc:""},
+    {pt:"", type:"toi", dt:"2020-12", loc:"ter:heeo", desc:"Phasing Loop Transfer"},
+    {pt:"", type:"oi", dt:"l+1mo", loc:"lun:100kmx90deg", desc:""},
+    {pt:"", type:"nom", dt:"l+1yr", loc:"lun", desc:"?"}
 ]},
 mom2: {name:"MOM 2:Mars Observation Mission 2", desc:"lv:GSLV MkIII",
   parts:[
@@ -3658,7 +3659,7 @@ change4: {name:"Chang'e 4 Lander", desc:"lv:CZ-3B",
     {names:"{Chang'e 4 Rover}", type:"rvm", dest:"lun", stat:"pl", ctry:"cn", desc:"m:120kg", icon:"chang-e3-rv.png"}
    ], 
   events:[
-    {pt:"", type:"l", dt:"2019", loc:"ter:xch", desc:""},
+    {pt:"", type:"l", dt:"2018-12", loc:"ter:xch", desc:""},
     {pt:"", type:"oi", dt:"l+5dy", loc:"lun", desc:""},
     {pt:"", type:"td", dt:"l+14dy", loc:"lun:45.5S,178E", desc:"South Pole Aitken, Von Karman crater;show:CE4:NW"},
     {pt:"1", type:"nom", dt:"l+3mo", loc:"lun", desc:"rvp;?;eom:rvm"},
@@ -4875,8 +4876,8 @@ bian: {name:"Bianca", other:"S/1986 U9", desig:"VIII", type:"m", par:"ura", disc
       img:"", desc:"sc:3;url:solarsystem.nasa.gov/planets/Bianca;orb:eq.1986-01-19"},
 cres: {name:"Cressida", other:"S/1986 U3", desig:"IX", type:"m", par:"ura", disc:"Voyager 2", dyr:"1986",
       a:"61800km", e:"0.0004", i:"0.006", per:"0.464d", rot:"", gr:"Inner",
-      h:"", mass:"3.95e-9", dia:"65km:", rad:"32.5:", tilt:"~0",
-      alb:"0.07:", grav:"", comp:"", dens:"", temp:"~64K",
+      h:"", mass:"3.95e-9", dia:"82km", rad:"32.5:", tilt:"~0",
+      alb:"0.07:", grav:"", comp:"", dens:"0.86", temp:"~64K",
       img:"", desc:"sc:3;url:solarsystem.nasa.gov/planets/Cressida;orb:eq.1986-01-19"},
 desd: {name:"Desdemona", other:"S/1986 U6", desig:"X", type:"m", par:"ura", disc:"Voyager 2", dyr:"1986",
       a:"62700km", e:"0.0001", i:"0.113", per:"0.474d", rot:"", gr:"Inner",
@@ -5671,7 +5672,7 @@ add: spec. impulse, manufact.
 "Falcon 9": {ctry:"us", m:"506000", pm:"13150/4850/2473",  d:"69.2x3.65", pf:"13.1x5.2", dt:"2010-06-04..", st:"2", th:"5886", fam:"Falcon", desc:"l:cap,van;ag:spx", fuel:"KeroLOX", icon:"falcon-9v11.png"},
 "Falcon 9 v1.1": {syn:"Falcon 9"},
 "Falcon 9 v1.2": {ctry:"us", m:"549100", pm:"22800/8300/4020",  d:"70x3.65", pf:"13.1x5.2", dt:"2015-12-21..", st:"2", th:"7607", fam:"Falcon", desc:"l:cap,van;ag:spx", fuel:"KeroLOX+SRP", icon:"falcon-9v12.png"},
-"Falcon Heavy": {ctry:"us", m:"1394000", pm:"54400/22200/13600",  d:"70.0x3.65", pf:"15.0x5.2", dt:"2016..", st:"2/2", th:"22819", fam:"Falcon", desc:"l:cap,van;ag:spx", fuel:"KeroLOX+SRP", icon:"falcon-9h.png"},
+"Falcon Heavy": {ctry:"us", m:"1420800", pm:"63800/26700/16800",  d:"70.0x3.65", pf:"15.0x5.2", dt:"2016..", st:"2/2", th:"22819", fam:"Falcon", desc:"l:cap,van;ag:spx", fuel:"KeroLOX+SRP", icon:"falcon-9h.png"},
 //GSLV 2
 "GSLV MkII": {n:"Geosynchronous Satellite Launch Vehicle Mk. II", alt:"भूस्थिर उपग्रह प्रक्षेपण यान", ctry:"ind", m:"402000", pm:"5000/2500/1300",  d:"49x2.8", pf:"", dt:"2010-04-15..", st:"2/4", ust:" CUS12", th:"7420", fam:"GSLV", desc:"l:sri;ag:isro", fuel:"SRP+UDMH/N2O4", icon:"gslv-mk2.png"},
 "GSLV MkIII": {n:"Geosynchronous Satellite Launch Vehicle Mk. III", alt:"भूस्थिर उपग्रह प्रक्षेपण यान-३", ctry:"ind", m:"630000", pm:"10000/5000/3200",  d:"42.4x4", pf:"", dt:"2014-12..", st:"2/2", ust:"C-25", th:"11300", fam:"GSLV", desc:"l:sri;ag:isro", fuel:"UDMH/N2O4+SRP", icon:"gslv-mk3.png"},
@@ -5737,7 +5738,7 @@ add: spec. impulse, manufact.
 "Titan III": {ctry:"us", m:"680000", pm:"14742/4990/4000",  d:"47.3x3.05", pf:"12.4-16x3.6", dt:"1990-01-01..1992-09-25", st:"2/2", ust:"TOS", th:"12450", fam:"Titan", desc:"l:cap;ag:nasa", fuel:"A50/N2O4+SRP", icon:"Titan-3.png"},
 "Titan IIIE Centaur D1T": {ctry:"us", m:"633000", pm:"17000/6800/5000",  d:"48.8x3.05", pf:"12.4-16x3.6", dt:"1974-02-12..1977-09-05", st:"3/2", ust:"Star-37E", th:"10600", fam:"Titan", desc:"l:cap;ag:nasa", fuel:"A50/N2O4+SRP", icon:"Titan-3E.png"},
 //Vega
-"Vega": {alt:"", ctry:"eu", m:"139000", pm:"2300/-/",  d:"30x3", pf:"7.88x2.6", dt:"2012-02-13..", st:"3", ust:"AVUM", th:"2261", fam:"", desc:"l:kou;ag:esa", fuel:"SRP", icon:"Vega.png"},
+"Vega": {alt:"", ctry:"eu", m:"139000", pm:"2300/-/",  d:"30x3", pf:"7.88x2.6", dt:"2012-02-13..", st:"3", ust:"AVUM", th:"2261", fam:"", desc:"l:kou;ag:esa", fuel:"SRP", icon:"vega.png"},
 //Vostok-L 8K72
 "Vostok-L 8K72": {alt:"Восток-Л", ctry:"su", m:"279100", pm:"4000/-/400",  d:"33.5x2.95", pf:"", dt:"1958-09-23..1960-04-16", st:"1/4", ust:"Blok-E", th:"3998", fam:"R-7", desc:"l:bai;ag:okb", fuel:"KeroLOX", icon:"Luna.png"},
 // Vulcan
