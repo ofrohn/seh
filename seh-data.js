@@ -3136,7 +3136,7 @@ lcross: {name:"LCROSS:Lunar Crater Observation and Sensing Satellite", desc:"lv:
 // --- 2010 --- 3 Missions     
 akatsuki: {name:"Akatsuki:Dawn", desc:"lv:H-IIA 202",
   parts:[
-    {names:"あかつき;VCO:Venus Climate Orbiter;Planet-C", type:"om", dest:"ven", stat:"o", ctry:"jp", desc:"ag:jaxa;m:517kg;m0:320kg;dim:7.0x1.7x1.6m;sc:0.4", id:"2010-020D", url:"hp:www.stp.isas.jaxa.jp/venus/top_english.html;tw:twitter.com/Akatsuki_JAXA", icon:"akatsuki.png"},
+    {names:"あかつき;VCO:Venus Climate Orbiter;Planet-C", type:"om", dest:"ven", stat:"o", ctry:"jp", desc:"ag:jaxa;m:517kg;m0:320kg;dim:7.0x1.7x1.6m;sc:0.4", id:"2010-020D", url:"hp:www.stp.isas.jaxa.jp/venus/top_english.html;jaxa:www.isas.jaxa.jp/en/missions/spacecraft/current/akatsuki.html;tw:twitter.com/Akatsuki_JAXA", icon:"akatsuki.png"},
 {type:"fbm", dest:"ven", stat:"o", ctry:"jp"}], 
   events:[
     {pt:"", type:"l", dt:"2010-05-20", loc:"ter:tng:YLP-1", desc:""},
@@ -3638,7 +3638,7 @@ slim:{name:"SLIM:Smart Lander for Investigating Moon", desc:"lv:Epsilon-2", stat
   parts: [
     {names:"スリム;SPRINT-C", ctry:"jp", type:"slm", dest:"lun", id:"", icon:"slim.png", desc:"ag:jaxa;m:450kg;m0:130kg;sc:0.2", url:"hp:www.isas.jaxa.jp/en/missions/spacecraft/developing/slim.html"}], 
   events: [
-    {pt:"", dt:"2019", type:"l", loc:"ter:uch", desc:""},
+    {pt:"", dt:"2020", type:"l", loc:"ter:uch", desc:""},
     {pt:"", dt:"l+4dy", type:"oi", loc:"lun", desc:""},
     {pt:"", type:"td", dt:"l+1mo", loc:"lun", desc:"Marius hills"},
     {pt:"", type:"nom", dt:"l+1.1mo", loc:"lun", desc:"?"}
@@ -3849,7 +3849,7 @@ psyche: {name:"Psyche", desc:"",
     {pt:"", type:"pom", dt:"2030", loc:"ast", desc:"?"}
 ]},
 // --- 2024
-mmx: {name:"MMX:Martian Moons eXploration", desc:"lv:H-IIA",
+mmx: {name:"MMX:Martian Moons eXploration", desc:"lv:H-III",
   parts:[
     {names:"", type:"srm", dest:"mar:Phobos", stat:"pl", ctry:"jp", desc:"ag:jaxa;m:;m0:;dim:;sc:0.75", id:"", url:"hp:mmx.isas.jaxa.jp/en/index.html;tw:twitter.com/mmx_jaxa_en", icon:"mmx.png"}], 
   events:[
@@ -5585,6 +5585,7 @@ add: spec. impulse, manufact.
 "Ariane 5G": {ctry:"eu", m:"720000", pm:"18000/6900/3000",  d:"54.0x5.4", pf:"12.7x5.4", dt:"1996-04-06..2005-12-21", st:"2/2", th:"11400", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"LH2/LOX+SRP", icon:"Ariane-5.png"},
 "Ariane 5G+": {syn:"Ariane 5G"},
 "Ariane 5ECA": {ctry:"eu", m:"764000", pm:"21000/9600/5400",  d:"57.7x5.4", pf:"17x5.4", dt:"2002-12-11..", st:"2/2", th:"11400", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"LH2/LOX+SRP", icon:"Ariane-5.png"},
+"Ariane 6": {syn:"Ariane 62"},
 "Ariane 62": {ctry:"eu", m:"500000", pm:"10000/5000/3000",  d:"62x5.4", pf:"20x5.4", dt:"2020-07..", st:"2/2", ust:"ULPM", th:"8350", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"LH2/LOX+SRP", icon:"ariane62.png"},
 "Ariane 64": {ctry:"eu", m:"900000", pm:"20000/10500/7000",  d:"62x5.4", pf:"20x5.4", dt:"2020-07..", st:"2/4", ust:"ULPM", th:"15350", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"LH2/LOX+SRP", icon:"ariane64.png"},
 //Athena 2
@@ -5681,6 +5682,8 @@ add: spec. impulse, manufact.
 "H-IIA 2022": {ctry:"jp", m:"348000", pm:"-/5000/2000",  d:"53x4", pf:"10x4", dt:"2005-02-26..2007-09-14", st:"2/4", th:"8580", fam:"H-II", desc:"l:tng;g:jaxa", fuel:"LH2/LOX+SRP", icon:"H2A-2022.png"},
 "H-IIA": {syn:"H-IIA 202"},
 "H-IIB": {ctry:"jp", m:"531000", pm:"19000/8000/4000",  d:"56.6x5.2", pf:"13x5.2", dt:"2009-09-10..", st:"2/4", th:"11200", fam:"H-II", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"H2B.png"},
+"H-III": {syn:"H-III 24L"},
+"H-III 24L": {ctry:"jp", m:"574000", pm:"/6500/",  d:"63x5.27", pf:"13x5.3", dt:"2021..", st:"2/0..4", th:"11500", fam:"H-III", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"h3-24l.png"},
 //Juno II
 "Juno II": {ctry:"us", m:"55300", pm:"50/-/6",  d:"23.4x2.67", pf:"", dt:"1958-12-06..1961-05-24", st:"4", th:"667", fam:"Jupiter", desc:"l:cap;ag:nasa", fuel:"KeroLOX", icon:"Juno-2.png"},
 //KSLV-II

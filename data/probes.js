@@ -2490,7 +2490,7 @@ lcross: {name:"LCROSS:Lunar Crater Observation and Sensing Satellite", desc:"lv:
 // --- 2010 --- 3 Missions     
 akatsuki: {name:"Akatsuki:Dawn", desc:"lv:H-IIA 202",
   parts:[
-    {names:"あかつき;VCO:Venus Climate Orbiter;Planet-C", type:"om", dest:"ven", stat:"o", ctry:"jp", desc:"ag:jaxa;m:517kg;m0:320kg;dim:7.0x1.7x1.6m;sc:0.4", id:"2010-020D", url:"hp:www.stp.isas.jaxa.jp/venus/top_english.html;tw:twitter.com/Akatsuki_JAXA", icon:"akatsuki.png"},
+    {names:"あかつき;VCO:Venus Climate Orbiter;Planet-C", type:"om", dest:"ven", stat:"o", ctry:"jp", desc:"ag:jaxa;m:517kg;m0:320kg;dim:7.0x1.7x1.6m;sc:0.4", id:"2010-020D", url:"hp:www.stp.isas.jaxa.jp/venus/top_english.html;jaxa:www.isas.jaxa.jp/en/missions/spacecraft/current/akatsuki.html;tw:twitter.com/Akatsuki_JAXA", icon:"akatsuki.png"},
 {type:"fbm", dest:"ven", stat:"o", ctry:"jp"}], 
   events:[
     {pt:"", type:"l", dt:"2010-05-20", loc:"ter:tng:YLP-1", desc:""},
@@ -2992,7 +2992,7 @@ slim:{name:"SLIM:Smart Lander for Investigating Moon", desc:"lv:Epsilon-2", stat
   parts: [
     {names:"スリム;SPRINT-C", ctry:"jp", type:"slm", dest:"lun", id:"", icon:"slim.png", desc:"ag:jaxa;m:450kg;m0:130kg;sc:0.2", url:"hp:www.isas.jaxa.jp/en/missions/spacecraft/developing/slim.html"}], 
   events: [
-    {pt:"", dt:"2019", type:"l", loc:"ter:uch", desc:""},
+    {pt:"", dt:"2020", type:"l", loc:"ter:uch", desc:""},
     {pt:"", dt:"l+4dy", type:"oi", loc:"lun", desc:""},
     {pt:"", type:"td", dt:"l+1mo", loc:"lun", desc:"Marius hills"},
     {pt:"", type:"nom", dt:"l+1.1mo", loc:"lun", desc:"?"}
@@ -3203,7 +3203,7 @@ psyche: {name:"Psyche", desc:"",
     {pt:"", type:"pom", dt:"2030", loc:"ast", desc:"?"}
 ]},
 // --- 2024
-mmx: {name:"MMX:Martian Moons eXploration", desc:"lv:H-IIA",
+mmx: {name:"MMX:Martian Moons eXploration", desc:"lv:H-III",
   parts:[
     {names:"", type:"srm", dest:"mar:Phobos", stat:"pl", ctry:"jp", desc:"ag:jaxa;m:;m0:;dim:;sc:0.75", id:"", url:"hp:mmx.isas.jaxa.jp/en/index.html;tw:twitter.com/mmx_jaxa_en", icon:"mmx.png"}], 
   events:[
