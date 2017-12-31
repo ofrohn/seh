@@ -259,9 +259,9 @@ UI.Scale = {
 UI.toggle = function(e) { 
   var par = this, node = par.nextSibling;
   if (!node) return; 
-  if (node.style.maxHeight != "120px") {
+  if (node.style.maxHeight != "130px") {
     node.firstChild.style.display = "inline-block";
-    node.style.maxHeight = px(120);
+    node.style.maxHeight = px(130);
     window.setTimeout(function() { UI.View.set(par); }, 600);
     //scrollIntoView.set(this);
   } else {

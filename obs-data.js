@@ -1449,12 +1449,13 @@ pamela:{name:"PAMELA:Payload for Antimatter Matter Exploration and Light-nuclei 
   ], inst: [
     {n:"", tp:"par", band:"10..1000GeV", sres:"3%@100GeV", d:"", px:"", url:"", desc:"c:;"}
 ]},
-picard:{name:"PICARD", url:"smsc.cnes.fr/PICARD/", desc:"ag:cnes;lv:Dnepr", stat:"o", 
+picard:{name:"PICARD", url:"smsc.cnes.fr/PICARD/", desc:"ag:cnes;lv:Dnepr", stat:"s", 
   parts: [
     {n:"", ctry:"fr", type:"", pur:"sol", id:"2010-028A", icon:"picard.png", desc:""}
   ], ev: [
     {pt:"", dt:"2010-06-15", tp:"l", loc:"ter:Dombarovsky:LC-370/13", desc:""},
-    {pt:"", dt:"2010-06-22", tp:"sco", loc:"ter:sseo:726x727kmx98.2deg", desc:""}
+    {pt:"", dt:"2010-06-22", tp:"sco", loc:"ter:sseo:726x727kmx98.2deg", desc:""},
+    {pt:"", dt:"2014-04-04", tp:"los", loc:"ter:sseo", desc:"eom"}
   ], inst: [
     {n:"", band:"", res:"", d:"", px:"", url:"", desc:"c:;"}
 ]},

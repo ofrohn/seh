@@ -989,9 +989,9 @@ UI.Scale = {
 UI.toggle = function(e) { 
   var par = this, node = par.nextSibling;
   if (!node) return; 
-  if (node.style.maxHeight != "120px") {
+  if (node.style.maxHeight != "130px") {
     node.firstChild.style.display = "inline-block";
-    node.style.maxHeight = px(120);
+    node.style.maxHeight = px(130);
     window.setTimeout(function() { UI.View.set(par); }, 600);
     //scrollIntoView.set(this);
   } else {
@@ -1776,10 +1776,13 @@ var Parse = {
   mag: function(s) {
     var res = "";
     if (s.dip && s.dip !== "") {
-      res = s.dip + Common.SPC + "Gauss";
+      res = s.dip.replace("..", "\u2026") + Common.SPC + "Gauss";
     }
     if (s.dipt) {
-       res += "; Tilt:" + s.dipt + this.unit("i");
+      var t = s.dipt.split("x");
+      res += "; Dipole:" + t[0] + this.unit("i")
+      if (t.length > 1)
+        res += Common.SPC + "/" + Common.SPC + t[1] + "km";
     }
     return res;
   },

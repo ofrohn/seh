@@ -315,10 +315,13 @@ var Parse = {
   mag: function(s) {
     var res = "";
     if (s.dip && s.dip !== "") {
-      res = s.dip + Common.SPC + "Gauss";
+      res = s.dip.replace("..", "\u2026") + Common.SPC + "Gauss";
     }
     if (s.dipt) {
-       res += "; Tilt:" + s.dipt + this.unit("i");
+      var t = s.dipt.split("x");
+      res += "; Dipole:" + t[0] + this.unit("i")
+      if (t.length > 1)
+        res += Common.SPC + "/" + Common.SPC + t[1] + "km";
     }
     return res;
   },

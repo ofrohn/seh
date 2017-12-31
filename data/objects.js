@@ -30,8 +30,8 @@
    spec:   Spectral class (astreroids) B,C,E,G,M,Q,S,Sq,Sr,V
    atm:    Atmospheric main components (%)
    atp:    Atm. pressure (g/cm2)
-   dip:    Magnetic dipole stength (gauss-Rp^3)
-   dipt:   Magnetic dipole tilt (deg)
+   dip:    Magnetic dipole surface stength min..max (gauss)
+   dipt:   Magnetic dipole tilt x oset (degxm)
    img:    Icon (image file  name)
    map:    Planet/system map (image file  name)
    ind:    Sort index for all main bodies/belts
@@ -42,7 +42,7 @@ var objects = {
 sol: {name:"Sun", other:"Sol", desig:"a", type:"s", par:"gc", disc:"(Prehistoric)", dyr:"",
       a:"2.5e17km", e:"", i:"", per:"230Ma", rot:"24.47..38d", 
       h:"", mass:"1.9891e30kg", dia:"1392684km/9e-6", rad:"696342/9e-6", tilt:"7.25", roche:"2.73",
-      alb:"", grav:"27.94", comp:"H:91.2+He:8.7", dens:"1.408", atm:"Plasma", atp:"1e-8..1e-18", temp:"5777K", dip:"0.5..4", dipt:"",
+      alb:"", grav:"27.94", comp:"H:91.2+He:8.7", dens:"1.408", atm:"Plasma", atp:"1e-8..1e-18", temp:"5777K", dip:"1..3000", dipt:"0",
       img:"sun-l.png", imgo:"sun.png", map:"", col:"#ff0", ind:"0", 
       url:"weather:www.swpc.noaa.gov/SWN/",
       desc:"url:solarscience.msfc.nasa.gov/;rsize:2183,76;x:0;y:24"},
@@ -51,7 +51,7 @@ mer: {name:"Mercury", other:"Hermes", desig:"b", type:"p", par:"sol", disc:"(Pre
       a:"0.387au", e:"0.2056", i:"7.004", per:"0.2409a", rot:"58.646d", daylen:"175.94d",
       h:"", mass:"3.301e23kg", dia:"4861.4km/0", rad:"2430.7/0", tilt:"0",
       irad:"9126.6", alb:"0.142", grav:"0.378", hill:"94.4", 
-      comp:"Rock+Metal+core:82", dens:"5.427", atm:"O2:42+Na:29+H2:22+He:6", atp:"1e-15", temp:"100..340..700K", dip:"0.0033", dipt:"169",
+      comp:"Rock+Metal+core:82", dens:"5.427", atm:"O2:42+Na:29+H2:22+He:6", atp:"1e-15", temp:"100..340..700K", dip:"2.5e-3..7e-3", dipt:"0x410",
       img:"mercury.png", map:"mercury-topo.jpg", col:"#aa9", ind:"1",
       desc:"sc:3;url:nssdc.gsfc.nasa.gov/planetary/planets/mercurypage.html;x:24;y:24"},
 ven: {name:"Venus", other:"", desig:"c", type:"p", par:"sol", disc:"(Prehistoric)", dyr:"",
@@ -66,7 +66,7 @@ ter: {name:"Earth", other:"Terra", desig:"d", type:"p", par:"sol", disc:"(Prehis
       a:"1.000au", e:"0.0167", i:"0", per:"1.000a", rot:"23.9345h", daylen:"24.000h",
       h:"", mass:"5.972e24kg", dia:"12756.24km/0.00335", rad:"6378.14/0.00335", tilt:"23.45",
       irad:"1367.6", alb:"0.367", grav:"1.0", hill:"234.9",
-      comp:"Rock+Metal+core:56", dens:"5.513", atm:"N2:78+O2:21+Ar:~1", atp:"1", temp:"184..288..330K", dip:"0.3076", dipt:"11.5",
+      comp:"Rock+Metal+core:56", dens:"5.513", atm:"N2:78+O2:21+Ar:~1", atp:"1", temp:"184..288..330K", dip:"0.24..0.66", dipt:"11.5x480",
       img:"earth.png", map:"earth-topo.jpg", col:"#00f", ind:"3", 
       url:"weather:earth.nullschool.net/",
       desc:"sc:3;url:nssdc.gsfc.nasa.gov/planetary/planets/earthpage.html;x:72;y:24"},
@@ -272,7 +272,7 @@ jup: {name:"Jupiter", other:"", desig:"f", type:"p", par:"sol", disc:"(Prehistor
       a:"5.203au", e:"0.0484", i:"1.304", per:"11.863a", rot:"9.925h", daylen:"9.9259h",
       h:"", mass:"1.896e27kg", dia:"142984km/0.06487", rad:"71492/0.06487", tilt:"3.12",
       irad:"50.5", alb:"0.52", grav:"2.530", hill:"740", roche:"2.91", rcrit:"32.17",
-      comp:"H+He+Rock+core:17", dens:"1.327", atm:"H2:89.8+He:10.2", atp:">>1000", temp:"~165K", dip:"4.28", dipt:"9.6",
+      comp:"H+He+Rock+core:17", dens:"1.327", atm:"H2:89.8+He:10.2", atp:">>1000", temp:"~165K", dip:"4..13", dipt:"9.4x8500",
       img:"jupiter-l.png", imgo:"jupiter.png", rings:"jupiter-rings.png", map:"", col:"#fc6", ind:"7", 
       desc:"sc:1;scmoons:0.5;url:nssdc.gsfc.nasa.gov/planetary/planets/jupiterpage.html;rsize:463,24;x:48;y:48"},
 io:  {name:"Io", other:"", desig:"I", type:"m", par:"jup", disc:"G. Galilei", dyr:"1610",
@@ -288,7 +288,7 @@ euro: {name:"Europa", other:"", desig:"II", type:"m", par:"jup", disc:"G. Galile
 gany: {name:"Ganymede", other:"", desig:"III", type:"m", par:"jup", disc:"G. Galilei", dyr:"1610",
       a:"1070400km", e:"0.0013", i:"0.177", per:"7.1546d", rot:"S", gr:"Galilean",
       h:"", mass:"7.805e-5", dia:"5264.4km/0", rad:"2632.2/0", tilt:"0.068", alb:"0.44", grav:"0.146", 
-      comp:"Ice+Rock+Metal+core:28", dens:"1.94", atm:"O2:~99", atp:"1e-11", temp:"70..110..152K", dip:"7.19e-3", dipt:"176",
+      comp:"Ice+Rock+Metal+core:28", dens:"1.94", atm:"O2:~99", atp:"1e-11", temp:"70..110..152K", dip:"7e-4..14e-4", dipt:"176",
       img:"ganymede.png", ind:"7.3", desc:"sc:2.5;url:solarsystem.nasa.gov/planets/Ganymede;orb:lp.1997-01-16"},
 call: {name:"Callisto", other:"", desig:"IV", type:"m", par:"jup", disc:"G. Galilei", dyr:"1610",
       a:"1882700km", e:"0.0074", i:"0.192", per:"16.6890d", rot:"S", gr:"Galilean",
@@ -625,7 +625,7 @@ sat: {name:"Saturn", other:"", desig:"g", type:"p", par:"sol", disc:"(Prehistori
       a:"9.537au", e:"0.0539", i:"2.486", per:"29.447a", rot:"10.656h", 
       h:"", mass:"5.685e26kg", dia:"120536km/0.09796", rad:"60268/0.09796", tilt:"26.73",
       irad:"15.05", alb:"0.47", grav:"1.065", hill:"1100", roche:"2.19",  rcrit:"41.48",
-      comp:"H+He+Ice+Rock+core:27", dens:"0.688", atm:"H2:95.3+He:3.25", atp:">>1000", temp:"~134K", dip:"0.210", dipt:"<1",
+      comp:"H+He+Ice+Rock+core:27", dens:"0.688", atm:"H2:95.3+He:3.25", atp:">>1000", temp:"~134K", dip:"0.18..0.84", dipt:"0x2300",
       img:"saturn-l0.png", imgo:"saturn.png", rings:"saturn-rings.png", map:"", col:"#fe6", ind:"8", 
       desc:"scmoons:0.8;url:nssdc.gsfc.nasa.gov/planetary/planets/saturnpage.html;rsize:540,49;x:72;y:48"},
 mima: {name:"Mimas", other:"", desig:"I", type:"m", par:"sat", disc:"W. Herschel", dyr:"1789",
@@ -944,7 +944,7 @@ ura: {name:"Uranus", other:"", desig:"h", type:"p", par:"sol", disc:"W. Herschel
       h:"", mass:"8.683e25kg", dia:"51118km/0.02293", rad:"25559/0.02293", tilt:"97.86",
       irad:"3.71", alb:"0.51", grav:"0.905", hill:"2700", roche:"2.77",  rcrit:"54.78",
       comp:"NH4+Ice+Rock+core:58", dens:"1.270", atm:"H2:82.5+He:15.2+CH4:2.3", atp:">>1000", temp:"~76K",
-      dip:"0.228", dipt:"58.6",
+      dip:"0.1..1", dipt:"53.6x9000",
       img:"uranus.png", rings:"uranus-rings.png", map:"", col:"#9df", ind:"9", 
       desc:"scmoons:0.4;url:nssdc.gsfc.nasa.gov/planetary/planets/uranuspage.html;rsize:240,121;x:0;y:72"},
 arie: {name:"Ariel", other:"", desig:"I", type:"m", par:"ura", disc:"W. Lassell", dyr:"1851",
@@ -1088,7 +1088,7 @@ nep: {name:"Neptune", other:"", desig:"i", type:"p", par:"sol", disc:"J.G. Galle
       h:"", mass:"1.0244e26kg", dia:"49532km/0.0171", rad:"24766/0.0171", tilt:"29.56",
       irad:"1.47", alb:"0.41", grav:"1.138", hill:"4700", roche:"3.02",  rcrit:"72.68",
       comp:"NH4+Ice+Rock+core:64", dens:"1.638", atm:"H2:80+He:19+CH4:~1", atp:">>1000",  temp:"~72K",
-      dip:"0.142", dipt:"46.9",
+      dip:"0.1..0.9", dipt:"46.9x12000",
       img:"neptune.png", rings:"neptune-rings.png", map:"", col:"#99f", ind:"10", 
       desc:"scmoons:0.9;url:nssdc.gsfc.nasa.gov/planetary/planets/neptunepage.html;rsize:274,113;x:24;y:72"},
 trit: {name:"Triton", other:"", desig:"I", type:"m", par:"nep", disc:"W. Lassell", dyr:"1846",
