@@ -960,8 +960,8 @@ solarorbiter:{name:"Solar Orbiter", url:"hp:www.esa.int/Our_activities/Space_Sci
   parts: [
     {n:"", ctry:"eu", type:"uv;par", pur:"sol", id:"", icon:"solarorbiter.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2018-10", tp:"l", loc:"ter:kou", desc:""},
-    {pt:"", dt:"2018-10", tp:"sco", loc:"sol:ho", desc:""}
+    {pt:"", dt:"2019-02", tp:"l", loc:"ter:kou", desc:""},
+    {pt:"", dt:"2019-02", tp:"sco", loc:"sol:ho", desc:""}
   ], inst: [
     {n:"EUI:Extreme Ultraviolet Imager", band:"17.4..30.4nm", res:"1", d:"", px:"", fov:"5.2deg", url:"", desc:"cl:ny;"},
     {n:"EPD:Energetic Particle Detector", band:"8..700keV", tp:"psp", res:"", url:"", desc:"c:"},
@@ -978,8 +978,8 @@ spp:{name:"Parker Solar Probe", url:"hp:solarprobe.jhuapl.edu/;nasa:solarprobe.g
   parts: [
     {n:"SPP:Solar Probe Plus", ctry:"us", type:"", pur:"sol", id:"", icon:"", desc:""}
   ], ev: [
-    {pt:"", dt:"2018", tp:"l", loc:"ter:cap", desc:""},
-    {pt:"", dt:"2018", tp:"sco", loc:"sol:ho", desc:""}
+    {pt:"", dt:"2018-07-31", tp:"l", loc:"ter:cap", desc:""},
+    {pt:"", dt:"2018-07-31", tp:"sco", loc:"sol:ho", desc:""}
   ], inst: [
     {n:"FIA:Fast Ion Analyzer", band:"50..20keV", tp:"par", sres:"0.05", tres:"0.1s", fov:"330x90deg", url:"", desc:"c:"},
     {n:"FEA:Fast Electron Analyzer", band:"1eV..5keV", tp:"par", sres:"0.1", tres:"0.1s", fov:"30x30deg", url:"", desc:"c:"},

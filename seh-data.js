@@ -1,7 +1,7 @@
 var SSEH = SSEH || {
   TITLE: "Solar System Exploration History",
-  VERSION: "1.6.8",
-  DATE: "2017-12 ",
+  VERSION: "1.6.9",
+  DATE: "2018-01 ",
   AUTHOR: "Olaf Frohn",
   CLICK: "Click on anything for more details",
   PATH: "images/",  //Relative path to resources
@@ -3320,7 +3320,7 @@ change5test: {name:"Chang'e 5 T1", desc:"lv:CZ-3C G2", stat:"o",
     {pt:"1", type:"sco", dt:"2015-01-12", loc:"lun:200kmx43.7deg", desc:""},
     {pt:"1", type:"nom", dt:"2015-05", loc:"lun", desc:"pend"}
 ]},
-hayabusa2: {name:"Hayabusa2:Peregrine Falcon 2", desc:"lv:H-IIA 202",
+hayabusa2: {name:"Hayabusa 2:Peregrine Falcon 2", desc:"lv:H-IIA 202",
   parts:[
     {names:"はやぶさ2", type:"srm", dest:"ast", stat:"o", ctry:"jp", desc:"ag:jaxa,dlr;m:590kg;m0:500kg;dim:6.0x4.23x1.4m;w:0.65", id:"2014-076A", url:"hp:global.jaxa.jp/projects/sat/hayabusa2/;jaxa:www.jspec.jaxa.jp/e/activity/hayabusa2.html;tw:twitter.com/haya2e_jaxa", icon:"hayabusa2.png"},
     {names:"SCI:Small Carry-on Impactor", type:"im", dest:"ast", stat:"o", ctry:"jp", desc:"ag:jaxa;sc:0.4;m:18kg", id:"", url:"", icon:"sci.png"},
@@ -3414,22 +3414,6 @@ osirisrex: {name:"OSIRIS-REx:Origins-Spectral Interpretation-Resource Identifica
     {pt:"", type:"edl", dt:"2023-09-24", loc:"ter", desc:"src;UTTR, Utah;"}
 ]},
 // --- 2017  
-change5: {name:"Chang'e 5", desc:"lv:CZ-5",
-  parts:[
-    {names:"嫦娥五号", type:"srm", dest:"lun", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:clep;m:7800kg;sc:0.4;w:0.67", id:"", url:"China Spaceflight:www.chinaspaceflight.com/satellite/Deepspace/CE-5/CE-5.html;sf101:spaceflight101.com/change/change-5/", icon:"chang-e5.png"}], 
-  events:[
-    {pt:"", type:"l", dt:"2019", loc:"ter:wen:LC-101", desc:""},
-    {pt:"", type:"toi", dt:"l+1hr", loc:"ter:lto", desc:""},
-    {pt:"", type:"oi", dt:"l+5dy", loc:"lun:200km", desc:""},
-    {pt:"", type:"sep", dt:"l+?dy", loc:"lun", desc:"op/lp"},
-    {pt:"", type:"td", dt:"l+?dy", loc:"lun:55W,43N", desc:"lp;NW Oceanus Procellarum?;show:CE5"},
-    {pt:"", type:"l", dt:"l+?dy", loc:"lun", desc:"as"},
-    {pt:"", type:"doc", dt:"l+?dy", loc:"lun", desc:"op/as"},
-    {pt:"", type:"ev", dt:"l+?dy", loc:"lun", desc:"as/src;Sample Transfer"},
-    {pt:"", type:"sep", dt:"l+?dy", loc:"lun", desc:"op/as"},
-    {pt:"", type:"toi", dt:"l+25dy", loc:"lun", desc:"op/src"},
-    {pt:"", type:"edl", dt:"l+30dy", loc:"ter", desc:"src;Siziwang Banner, Inner Mongolia;eom"}
-]},
 // --- 2018
 chandrayaan2: {name:"Chandrayaan 2:Moon Craft 2", desc:"lv:GSLV MkII",
   parts:[
@@ -3445,6 +3429,17 @@ chandrayaan2: {name:"Chandrayaan 2:Moon Craft 2", desc:"lv:GSLV MkII",
     {pt:"1", type:"nom", dt:"l+2.5mo", loc:"lun", desc:"lp"},
     {pt:"2", type:"nom", dt:"l+2.5mo", loc:"lun", desc:"rvp"},
     {pt:"0", type:"nom", dt:"l+1yr", loc:"lun", desc:"?"}
+]},
+hhk1: {name:"HHK1", desc:"lv:PSLV XL",
+  parts:[
+    {names:"", type:"slm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:Team Indus;m:600kg;sc:0.3;GLXP entry", id:"", url:"hp:www.teamindus.in/", icon:"hhk1.png"},
+    {names:"ECA:Ek Choti si Asha", type:"rvm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:Team Indus;m:;sc:0.5", id:"", url:"", icon:"eca.png"},
+    {names:"HAKUTO", type:"rvm", dest:"lun", stat:"pl", ctry:"jp", desc:"ag:Team Hakuto;m:;sc:0.5", id:"", url:"hp:team-hakuto.jp/en", icon:"hakuto.png"}
+  ], 
+  events:[
+    {pt:"", type:"l", dt:"2018-04", loc:"ter:sri", desc:""},
+    {pt:"", type:"td", dt:"l+10d", loc:"lun:29.87N,324.53E", desc:"Mare Imbrium"},
+    {pt:"", type:"nom", dt:"l+24d", loc:"lun", desc:"?"}
 ]},
 bepicolombo: {name:"Bepi Colombo", desc:"lv:Ariane 5ECA",
   parts:[
@@ -3466,27 +3461,6 @@ bepicolombo: {name:"Bepi Colombo", desc:"lv:Ariane 5ECA",
     {pt:"2", type:"sco", dt:"2026-03", loc:"mer:590x11700kmx90deg", desc:"MMO"},
     {pt:"", type:"nom", dt:"2027-05", loc:"mer", desc:"pend"},
     {pt:"", type:"pom", dt:"2028-05", loc:"mer", desc:"?"}
-]},
-solarorbiter: {name:"Solar Orbiter", desc:"lv:Atlas V 411",
-  parts:[
-    {names:"", type:"obm", dest:"sol", stat:"pl", ctry:"eu", desc:"ag:esa;fam:M-class;m:~1800kg;dim:14x3.0x2.5m;sc:0.75;Heliophysics Observatory", id:"", url:"hp:www.esa.int/Our_activities/Space_Science/Solar_Orbiter;esa:sci.esa.int/solarorbiter/", icon:"solarorbiter.png"}], 
-  events:[
-    {pt:"", type:"l", dt:"2018-10", loc:"ter:cap:SLC-41", desc:""},
-    {pt:"", type:"oi", dt:"2018-10", loc:"sol:ho:0.661x1.014aux2.9deg", desc:""},
-    {pt:"", type:"fb", dt:"l+0.35yr", loc:"ven", desc:""},
-    {pt:"", type:"fb", dt:"l+1.18yr", loc:"ter", desc:""},
-    {pt:"", type:"fb", dt:"l+3.0yr", loc:"ter", desc:""},
-    {pt:"", type:"fb", dt:"l+3.23yr", loc:"ven", desc:""},
-    {pt:"", type:"sco", dt:"l+3.23yr", loc:"sol:ho:0.342x1.105aux1.8deg", desc:"Start of primary mission"},
-    {pt:"", type:"fb", dt:"l+3.75yr", loc:"ven", desc:""},
-    {pt:"", type:"fb", dt:"l+4.45yr", loc:"ven", desc:""},
-    {pt:"", type:"fb", dt:"l+6.3yr", loc:"ven", desc:""},
-    {pt:"", type:"sco", dt:"l+6.3yr", loc:"sol:ho:0.293x0.901aux21.6deg", desc:"Start of high inclination phase"},
-    {pt:"", type:"ev", dt:"l+6.5yr", loc:"so", desc:"Minimum solar distance;0.268AU"},
-    {pt:"", type:"fb", dt:"l+7.5yr", loc:"ven", desc:""},
-    {pt:"", type:"fb", dt:"l+8.8yr", loc:"ven", desc:""},
-    {pt:"", type:"nom", dt:"l+8.8yr", loc:"sol:ho:0.334x0.770aux26.7deg", desc:"?"},
-    {pt:"", type:"pom", dt:"l+10yr", loc:"so", desc:""}
 ]},
 insight: {name:"InSIGHT:Interior Exploration using Seismic Investigations, Geodesy and Heat Transport", desc:"lv:Atlas V 401",
   parts:[
@@ -3532,6 +3506,99 @@ dslwp: {name:"DSLWP-A1/A2", desc:"lv:CZ-4C;part:change4relay",
     //{pt:"", type:"nom", dt:"2019", loc:"mar", desc:"?"},
     {pt:"", type:"pom", dt:"2022", loc:"mar", desc:"?"}
 ]},*/
+spp: {name:"Parker Solar Probe", desc:"lv:Delta IV Heavy",
+  parts:[
+    {names:"SPP:Solar Probe Plus", type:"obm", dest:"sol", stat:"pl", ctry:"us", desc:"ag:nasa,gsfc,apl;fam:Living With a Star;First flight through solar corona;m:610kg;sc:0.5", id:"", url:"hp:solarprobe.jhuapl.edu/;nasa:lws.gsfc.nasa.gov/missions.html;tw:twitter.com/ParkerSunProbe", icon:"spp.png"}], 
+  events:[
+    {pt:"", type:"l", dt:"2018-07-31", loc:"ter:cap:SLC-37B", desc:""},
+    {pt:"", type:"fb", dt:"2018-09-28", loc:"ven", desc:"ga"},
+    {pt:"", type:"fb", dt:"2019-12-22", loc:"ven", desc:"ga"},
+    {pt:"", type:"fb", dt:"2020-07-06", loc:"ven", desc:"ga"},
+    {pt:"", type:"fb", dt:"2021-02-16", loc:"ven", desc:"ga"},
+    {pt:"", type:"fb", dt:"2021-10-11", loc:"ven", desc:"ga"},
+    {pt:"", type:"fb", dt:"2023-08-16", loc:"ven", desc:"ga"},
+    {pt:"", type:"fb", dt:"2024-11-02", loc:"ven", desc:"ga"},
+    {pt:"", type:"app", dt:"2024-12-19", loc:"sol:9.86", desc:"First Close Approach;16 More Solar Orbits"},
+    {pt:"", type:"nom", dt:"2025-12-31", loc:"sol:ho:0.04x0.73aux3.4deg", desc:"?"},
+    {pt:"", type:"pom", dt:"2026-06", loc:"so", desc:""}
+]},
+change4: {name:"Chang'e 4 Lander", desc:"lv:CZ-3B",
+  parts:[
+    {names:"嫦娥四号", type:"slm", dest:"lun", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:clep;m:3780kg;m0:1200kg;dim:4.76x3.65x3.45m;First lunar far side landing", id:"", url:"China Spaceflight:www.chinaspaceflight.com/satellite/Deepspace/CE-4/CE-4.html;CCTV:english.cntv.cn/special/lunarmission/index.shtml", icon:"chang-e4-l.png"},
+    {names:"{Chang'e 4 Rover}", type:"rvm", dest:"lun", stat:"pl", ctry:"cn", desc:"m:120kg", icon:"chang-e3-rv.png"}
+   ], 
+  events:[
+    {pt:"", type:"l", dt:"2018-12", loc:"ter:xch", desc:""},
+    {pt:"", type:"oi", dt:"l+5dy", loc:"lun", desc:""},
+    {pt:"", type:"td", dt:"l+14dy", loc:"lun:45.5S,178E", desc:"South Pole Aitken, Von Karman crater;show:CE4:NW"},
+    {pt:"1", type:"nom", dt:"l+3mo", loc:"lun", desc:"rvp;?;eom:rvm"},
+    {pt:"0", type:"nom", dt:"l+1yr", loc:"lun", desc:"lp;?"}
+]},
+// --- 2019
+aditya:{name:"Aditya-L1", desc:"lv:PSLV XL", stat:"pl", 
+  parts: [
+    {names:"आदित्य", ctry:"ind", type:"obm", dest:"sol", id:"", icon:"aditya-l1.png", desc:"Solar Coronograph;ag:isro;m:400kg;sc:0.5", url:"hp:aditya.iiap.res.in/"}], 
+  events: [
+    {pt:"", dt:"2019", type:"l", loc:"ter:sri", desc:"or 2020"},
+    {pt:"", dt:"l+100dy", type:"sco", loc:"sol:esl1", desc:"Halo Orbit"},
+    {pt:"", type:"nom", dt:"l+2yr", loc:"sol:esl1", desc:"?"},
+    {pt:"", type:"pom", dt:"l+10yr", loc:"sol:esl1", desc:"?"},
+]},
+change5: {name:"Chang'e 5", desc:"lv:CZ-5",
+  parts:[
+    {names:"嫦娥五号", type:"srm", dest:"lun", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:clep;m:7800kg;sc:0.4;w:0.67", id:"", url:"China Spaceflight:www.chinaspaceflight.com/satellite/Deepspace/CE-5/CE-5.html;sf101:spaceflight101.com/change/change-5/", icon:"chang-e5.png"}], 
+  events:[
+    {pt:"", type:"l", dt:"2019", loc:"ter:wen:LC-101", desc:""},
+    {pt:"", type:"toi", dt:"l+1hr", loc:"ter:lto", desc:""},
+    {pt:"", type:"oi", dt:"l+5dy", loc:"lun:200km", desc:""},
+    {pt:"", type:"sep", dt:"l+?dy", loc:"lun", desc:"op/lp"},
+    {pt:"", type:"td", dt:"l+?dy", loc:"lun:55W,43N", desc:"lp;NW Oceanus Procellarum?;show:CE5"},
+    {pt:"", type:"l", dt:"l+?dy", loc:"lun", desc:"as"},
+    {pt:"", type:"doc", dt:"l+?dy", loc:"lun", desc:"op/as"},
+    {pt:"", type:"ev", dt:"l+?dy", loc:"lun", desc:"as/src;Sample Transfer"},
+    {pt:"", type:"sep", dt:"l+?dy", loc:"lun", desc:"op/as"},
+    {pt:"", type:"toi", dt:"l+25dy", loc:"lun", desc:"op/src"},
+    {pt:"", type:"edl", dt:"l+30dy", loc:"ter", desc:"src;Siziwang Banner, Inner Mongolia;eom"}
+]},
+luna25: {name:"Luna 25", desc:"lv:Soyuz 2.1B/Fregat",
+  parts:[
+    {names:"Луна-Глоб посадочный;Luna Glob Lander:Lunar Sphere Lander", type:"slm", dest:"lun", stat:"pl", ctry:"ru", desc:"ag:rosc,iki;m:1540kg;m0:530kg;sc:0.45", id:"", url:"rsw:www.russianspaceweb.com/luna_glob.html", icon:"luna25.png"}], 
+  events:[
+    {pt:"", type:"l", dt:"2019-01", loc:"ter:vos:1S", desc:""},
+    {pt:"", type:"oi", dt:"l+4dy", loc:"lun:100x100kmx90deg", desc:""},
+    {pt:"", type:"td", dt:"l+8dy", loc:"lun:73S,44E", desc:"Near South Pole, Boguslavsky Crater"},
+    {pt:"", type:"nom", dt:"l+3mo", loc:"lun", desc:"?"},
+    {pt:"", type:"pom", dt:"l+1yr", loc:"lun", desc:"?"}
+]},
+sentinel: {name:"Sentinel", desc:"lv:Falcon 9 v1.2",
+  parts:[
+    {names:"", type:"obm", dest:"ast", stat:"pl", ctry:"us", desc:"ag:b612;m:?kg;sc:0.25;w:0.7;NEO Observatory", id:"", url:"hp:b612foundation.org/sentinel/", icon:"sentinel.png"}], 
+  events:[
+    {pt:"", type:"l", dt:"2019", loc:"ter:cap", desc:"or 2019"},
+    {pt:"", type:"oi", dt:"l+4mo", loc:"sol:ho:0.6x0.8au", desc:""},
+    {pt:"", type:"nom", dt:"l+7yr", loc:"so", desc:""}
+]},
+solarorbiter: {name:"Solar Orbiter", desc:"lv:Atlas V 411",
+  parts:[
+    {names:"", type:"obm", dest:"sol", stat:"pl", ctry:"eu", desc:"ag:esa;fam:M-class;m:~1800kg;dim:14x3.0x2.5m;sc:0.75;Heliophysics Observatory", id:"", url:"hp:www.esa.int/Our_activities/Space_Science/Solar_Orbiter;esa:sci.esa.int/solarorbiter/", icon:"solarorbiter.png"}], 
+  events:[
+    {pt:"", type:"l", dt:"2019-02", loc:"ter:cap:SLC-41", desc:""},
+    {pt:"", type:"oi", dt:"2019-02", loc:"sol:ho:0.661x1.014aux2.9deg", desc:""},
+    {pt:"", type:"fb", dt:"l+0.35yr", loc:"ven", desc:""},
+    {pt:"", type:"fb", dt:"l+1.18yr", loc:"ter", desc:""},
+    {pt:"", type:"fb", dt:"l+3.0yr", loc:"ter", desc:""},
+    {pt:"", type:"fb", dt:"l+3.23yr", loc:"ven", desc:""},
+    {pt:"", type:"sco", dt:"l+3.23yr", loc:"sol:ho:0.342x1.105aux1.8deg", desc:"Start of primary mission"},
+    {pt:"", type:"fb", dt:"l+3.75yr", loc:"ven", desc:""},
+    {pt:"", type:"fb", dt:"l+4.45yr", loc:"ven", desc:""},
+    {pt:"", type:"fb", dt:"l+6.3yr", loc:"ven", desc:""},
+    {pt:"", type:"sco", dt:"l+6.3yr", loc:"sol:ho:0.293x0.901aux21.6deg", desc:"Start of high inclination phase"},
+    {pt:"", type:"ev", dt:"l+6.5yr", loc:"so", desc:"Minimum solar distance;0.268AU"},
+    {pt:"", type:"fb", dt:"l+7.5yr", loc:"ven", desc:""},
+    {pt:"", type:"fb", dt:"l+8.8yr", loc:"ven", desc:""},
+    {pt:"", type:"nom", dt:"l+8.8yr", loc:"sol:ho:0.334x0.770aux26.7deg", desc:"?"},
+    {pt:"", type:"pom", dt:"l+10yr", loc:"so", desc:""}
+]},
 kplo: {name:"KPLO:Korean Pathfinder Lunar Orbiter", desc:"lv:KSLV-II",
   parts:[
     {names:"", type:"om", dest:"lun", stat:"pl", ctry:"sk", desc:"ag:kari;fam:klep;sc:0.6;m:550kg;m0:;dim:", id:"", url:"hp:www.kari.re.kr/eng/sub03_04.do", icon:"kplo.png"}
@@ -3553,22 +3620,6 @@ mom2: {name:"MOM 2:Mars Observation Mission 2", desc:"lv:GSLV MkIII",
     {pt:"", type:"oi", dt:"l+7mo", loc:"mar:200x2000km", desc:""},
     {pt:"", type:"nom", dt:"l+2yr", loc:"mar", desc:"?"},
     {pt:"", type:"pom", dt:"l+4yr", loc:"mar", desc:"?"}    
-]},
-spp: {name:"Parker Solar Probe", desc:"lv:Delta IV Heavy",
-  parts:[
-    {names:"SPP:Solar Probe Plus", type:"obm", dest:"sol", stat:"pl", ctry:"us", desc:"ag:nasa,gsfc,apl;fam:Living With a Star;First flight through solar corona;m:610kg;sc:0.5", id:"", url:"hp:solarprobe.jhuapl.edu/;nasa:lws.gsfc.nasa.gov/missions.html;tw:twitter.com/ParkerSunProbe", icon:"spp.png"}], 
-  events:[
-    {pt:"", type:"l", dt:"2018-07-31", loc:"ter:cap:SLC-41", desc:""},
-    {pt:"", type:"fb", dt:"2018-09-28", loc:"ven", desc:"ga"},
-    {pt:"", type:"fb", dt:"2019-12-22", loc:"ven", desc:"ga"},
-    {pt:"", type:"fb", dt:"2020-07-06", loc:"ven", desc:"ga"},
-    {pt:"", type:"fb", dt:"2021-02-16", loc:"ven", desc:"ga"},
-    {pt:"", type:"fb", dt:"2021-10-11", loc:"ven", desc:"ga"},
-    {pt:"", type:"fb", dt:"2023-08-16", loc:"ven", desc:"ga"},
-    {pt:"", type:"fb", dt:"2024-11-02", loc:"ven", desc:"ga"},
-    {pt:"", type:"app", dt:"2024-12-19", loc:"sol:9.86", desc:"First Close Approach;16 More Solar Orbits"},
-    {pt:"", type:"nom", dt:"2025-12-31", loc:"sol:ho:0.04x0.73aux3.4deg", desc:"?"},
-    {pt:"", type:"pom", dt:"2026-06", loc:"so", desc:""}
 ]},
 em1: {name:"EM-1:Exploration Mission 1", desc:"lv:SLS", stat:"pl", 
   parts:[
@@ -3634,6 +3685,7 @@ em1cubes: {name:"EM-1 Cubesats", desc:"lv:SLS;part:em1;6U-CubeSat", stat:"pl",
     {pt:"1", type:"pom", dt:"l+2yr", loc:"sol:ho", desc:"BioSentinel"},
     {pt:"0", type:"pom", dt:"l+2.5yr", loc:"sol:ho", desc:"NEA-Scout"}
 ]},
+// --- 2020
 slim:{name:"SLIM:Smart Lander for Investigating Moon", desc:"lv:Epsilon-2", stat:"pl", 
   parts: [
     {names:"スリム;SPRINT-C", ctry:"jp", type:"slm", dest:"lun", id:"", icon:"slim.png", desc:"ag:jaxa;m:450kg;m0:130kg;sc:0.2", url:"hp:www.isas.jaxa.jp/en/missions/spacecraft/developing/slim.html"}], 
@@ -3643,47 +3695,6 @@ slim:{name:"SLIM:Smart Lander for Investigating Moon", desc:"lv:Epsilon-2", stat
     {pt:"", type:"td", dt:"l+1mo", loc:"lun", desc:"Marius hills"},
     {pt:"", type:"nom", dt:"l+1.1mo", loc:"lun", desc:"?"}
 ]},
-// --- 2019
-aditya:{name:"Aditya-L1", desc:"lv:PSLV XL", stat:"pl", 
-  parts: [
-    {names:"आदित्य", ctry:"ind", type:"obm", dest:"sol", id:"", icon:"aditya-l1.png", desc:"Solar Coronograph;ag:isro;m:400kg;sc:0.5", url:"hp:aditya.iiap.res.in/"}], 
-  events: [
-    {pt:"", dt:"2019", type:"l", loc:"ter:sri", desc:"or 2020"},
-    {pt:"", dt:"l+100dy", type:"sco", loc:"sol:esl1", desc:"Halo Orbit"},
-    {pt:"", type:"nom", dt:"l+2yr", loc:"sol:esl1", desc:"?"},
-    {pt:"", type:"pom", dt:"l+10yr", loc:"sol:esl1", desc:"?"},
-]},
-change4: {name:"Chang'e 4 Lander", desc:"lv:CZ-3B",
-  parts:[
-    {names:"嫦娥四号", type:"slm", dest:"lun", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:clep;m:3780kg;m0:1200kg;dim:4.76x3.65x3.45m;First lunar far side landing", id:"", url:"China Spaceflight:www.chinaspaceflight.com/satellite/Deepspace/CE-4/CE-4.html;CCTV:english.cntv.cn/special/lunarmission/index.shtml", icon:"chang-e4-l.png"},
-    {names:"{Chang'e 4 Rover}", type:"rvm", dest:"lun", stat:"pl", ctry:"cn", desc:"m:120kg", icon:"chang-e3-rv.png"}
-   ], 
-  events:[
-    {pt:"", type:"l", dt:"2018-12", loc:"ter:xch", desc:""},
-    {pt:"", type:"oi", dt:"l+5dy", loc:"lun", desc:""},
-    {pt:"", type:"td", dt:"l+14dy", loc:"lun:45.5S,178E", desc:"South Pole Aitken, Von Karman crater;show:CE4:NW"},
-    {pt:"1", type:"nom", dt:"l+3mo", loc:"lun", desc:"rvp;?;eom:rvm"},
-    {pt:"0", type:"nom", dt:"l+1yr", loc:"lun", desc:"lp;?"}
-]},
-luna25: {name:"Luna 25", desc:"lv:Soyuz 2.1B/Fregat",
-  parts:[
-    {names:"Луна-Глоб посадочный;Luna Glob Lander:Lunar Sphere Lander", type:"slm", dest:"lun", stat:"pl", ctry:"ru", desc:"ag:rosc,iki;m:1540kg;m0:530kg;sc:0.45", id:"", url:"rsw:www.russianspaceweb.com/luna_glob.html", icon:"luna25.png"}], 
-  events:[
-    {pt:"", type:"l", dt:"2019-01", loc:"ter:vos:1S", desc:""},
-    {pt:"", type:"oi", dt:"l+4dy", loc:"lun:100x100kmx90deg", desc:""},
-    {pt:"", type:"td", dt:"l+8dy", loc:"lun:73S,44E", desc:"Near South Pole, Boguslavsky Crater"},
-    {pt:"", type:"nom", dt:"l+3mo", loc:"lun", desc:"?"},
-    {pt:"", type:"pom", dt:"l+1yr", loc:"lun", desc:"?"}
-]},
-sentinel: {name:"Sentinel", desc:"lv:Falcon 9 v1.2",
-  parts:[
-    {names:"", type:"obm", dest:"ast", stat:"pl", ctry:"us", desc:"ag:b612;m:?kg;sc:0.25;w:0.7;NEO Observatory", id:"", url:"hp:b612foundation.org/sentinel/", icon:"sentinel.png"}], 
-  events:[
-    {pt:"", type:"l", dt:"2019", loc:"ter:cap", desc:"or 2019"},
-    {pt:"", type:"oi", dt:"l+4mo", loc:"sol:ho:0.6x0.8au", desc:""},
-    {pt:"", type:"nom", dt:"l+7yr", loc:"so", desc:""}
-]},
-// --- 2020
 exomarsrv: {name:"ExoMars Rover", desc:"lv:Proton-M/Briz-M",
   parts:[
     {names:"Pasteur", type:"rvm", dest:"mar", stat:"pl", ctry:"eu", desc:"ag:esa;m:296kg;dim:2.0x1.5x1.7m;fam:exom;sc:0.4", id:"", url:"hp:exploration.esa.int/mars/48088-mission-overview/;tw:twitter.com/ESA_Exomars", icon:"exomars-rv.png"},
