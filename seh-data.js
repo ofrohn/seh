@@ -3430,7 +3430,7 @@ chandrayaan2: {name:"Chandrayaan 2:Moon Craft 2", desc:"lv:GSLV MkII",
     {pt:"2", type:"nom", dt:"l+2.5mo", loc:"lun", desc:"rvp"},
     {pt:"0", type:"nom", dt:"l+1yr", loc:"lun", desc:"?"}
 ]},
-hhk1: {name:"HHK1", desc:"lv:PSLV XL",
+hhk1: {name:"HHK1", desc:"lv:PSLV-XL",
   parts:[
     {names:"", type:"slm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:Team Indus;m:600kg;sc:0.3;GLXP entry", id:"", url:"hp:www.teamindus.in/", icon:"hhk1.png"},
     {names:"ECA:Ek Choti si Asha", type:"rvm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:Team Indus;m:;sc:0.5", id:"", url:"", icon:"eca.png"},
