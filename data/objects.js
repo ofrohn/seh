@@ -655,7 +655,7 @@ rhea: {name:"Rhea", other:"", desig:"V", type:"m", par:"sat", disc:"G.D. Cassini
       img:"rhea.png", desc:"sc:2.5;url:solarsystem.nasa.gov/planets/Rhea;orb:lp.2000-01-01"},
 tita: {name:"Titan", other:"", desig:"VI", type:"m", par:"sat", disc:"C. Huygens", dyr:"1655",
       a:"1221865km", e:"0.0288", i:"0.306", per:"15.95d", rot:"S", gr:"Outer Large",
-      h:"", mass:"2.366e-4", dia:"5149.82km/0.000264", rad:"2574.91/0.000264", tilt:"0.629",
+      h:"", mass:"2.366e-4", dia:"5149.53km/0.000275", rad:"2574.77/0.000275", tilt:"0.629",
       alb:"0.22", grav:"0.14", comp:"Ice+Rock+core:83", dens:"1.88", atm:"N2:95+CH4:4.9", atp:"1.47", temp:"~94K",
       img:"titan.png", desc:"sc:2.7;url:solarsystem.nasa.gov/planets/Titan;orb:lp.2000-01-01"},
 hype: {name:"Hyperion", other:"", desig:"VII", type:"m", par:"sat", disc:"W.C.&G.P. Bond/W. Lassell", dyr:"1848",
