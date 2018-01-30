@@ -1273,7 +1273,7 @@ iss:{name:"ISS:International Space Station", ctry:"us;ru;eu;jp;ca", id:"1998-067
 ]},
 iue:{name:"IUE:International Ultraviolet Explorer", url:"hp:www.esa.int/Our_activities/Space_Science/IUE_overview;MAST:archive.stsci.edu/iue", desc:"ag:nasa,esa;lv:Delta 2914;m:669kg", stat:"s", 
   parts: [
-    {n:"Explorer 57", ctry:"us;eu", type:"uv", pur:"", id:"1978-012A", icon:""}
+    {n:"Explorer 57", ctry:"us;eu", type:"uv", pur:"", id:"1978-012A", icon:"iue.png"}
   ], ev: [
     {pt:"", dt:"1978-01-26", tp:"l", loc:"ter:cap:LC-17A", desc:""},
     {pt:"", dt:"1978-03-03", tp:"sco", loc:"ter:geo:25687x45892kmx28.5deg", desc:""},
