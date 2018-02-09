@@ -3233,7 +3233,7 @@ msl: {name:"Curiosity", desc:"lv:Atlas V 541",
     {pt:"", type:"ev", dt:"2012-08-15..2013-06-05", loc:"mar", desc:"Instrument checkout;Drive to Glenelg"},
     {pt:"", type:"arr", dt:"2014-09-11", loc:"mar", desc:"Mt. Sharp"},
     {pt:"", type:"obs", dt:"2014-10-19", loc:"mar", desc:"Comet C 2013 A1 Siding Spring"},
-    {pt:"", type:"ex", dt:"", loc:"mar", desc:"Drive up Mt. Sharp;rv:17km;and counting"},
+    {pt:"", type:"ex", dt:"", loc:"mar", desc:"Drive up Mt. Sharp;rv:18km;and counting"},
     {pt:"", type:"nom", dt:"2018-09-30", loc:"mar", desc:"pend"},
     {pt:"", type:"pom", dt:"2022-11-15", loc:"mar", desc:"?"}
 ]},
@@ -3415,6 +3415,14 @@ osirisrex: {name:"OSIRIS-REx:Origins-Spectral Interpretation-Resource Identifica
 ]},
 // --- 2017  
 // --- 2018
+fh1: {name:"Falcon Heavy Test 1", desc:"lv:Falcon Heavy", stat:"s", 
+  parts:[
+    {names:"Tesla Roadster", type:"test", dest:"sol:ho",ctry:"us", desc:"ag:spacex;m:1250kg;sc:0.5", id:"2018-017A", url:"hp:www.spacex.com/falcon-heavy", icon:"tesla.png"}], 
+  events:[
+    {pt:"", type:"l", dt:"2018-02-06", loc:"ter:cap:LC-39A", desc:""},
+    {pt:"", type:"oi", dt:"2018-02-06", loc:"sol:ho:0.99x1.71aux1.1deg", desc:""},
+    {pt:"", type:"los", dt:"2018-02-07", loc:"sol:ho", desc:"eom"}
+]},
 chandrayaan2: {name:"Chandrayaan 2:Moon Craft 2", desc:"lv:GSLV MkII",
   parts:[
     {names:"चंद्रयान-२", type:"om", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:3250kg;sc:0.5", id:"", url:"hp:isro.gov.in/chandrayaan-2;isp:sites.google.com/site/indianspaceprojects/moon-exploration/chandrayaan---2", icon:"chandrayaan2-o.png"},
@@ -3425,7 +3433,7 @@ chandrayaan2: {name:"Chandrayaan 2:Moon Craft 2", desc:"lv:GSLV MkII",
     {pt:"", type:"toi", dt:"2018-03", loc:"ter:170x16980km", desc:"EPO"},
     {pt:"0", type:"oi", dt:"l+1mo", loc:"lun", desc:""},
     {pt:"0", type:"sco", dt:"l+2mo", loc:"lun:100km", desc:""},
-    {pt:"1", type:"td", dt:"l+2mo", loc:"lun:87.2S,68E", desc:"Shoemaker, Faustini"},
+    {pt:"1", type:"td", dt:"l+2mo", loc:"lun:70.8S,22.9E", desc:"Between Manzinus & Simpelius Crater"},
     {pt:"1", type:"nom", dt:"l+2.5mo", loc:"lun", desc:"lp"},
     {pt:"2", type:"nom", dt:"l+2.5mo", loc:"lun", desc:"rvp"},
     {pt:"0", type:"nom", dt:"l+1yr", loc:"lun", desc:"?"}
@@ -5689,7 +5697,7 @@ add: spec. impulse, manufact.
 "Falcon 9": {ctry:"us", m:"506000", pm:"13150/4850/2473",  d:"69.2x3.65", pf:"13.1x5.2", dt:"2010-06-04..", st:"2", th:"5886", fam:"Falcon", desc:"l:cap,van;ag:spx", fuel:"KeroLOX", icon:"falcon-9v11.png"},
 "Falcon 9 v1.1": {syn:"Falcon 9"},
 "Falcon 9 v1.2": {ctry:"us", m:"549100", pm:"22800/8300/4020",  d:"70x3.65", pf:"13.1x5.2", dt:"2015-12-21..", st:"2", th:"7607", fam:"Falcon", desc:"l:cap,van;ag:spx", fuel:"KeroLOX+SRP", icon:"falcon-9v12.png"},
-"Falcon Heavy": {ctry:"us", m:"1420800", pm:"63800/26700/16800",  d:"70.0x3.65", pf:"15.0x5.2", dt:"2016..", st:"2/2", th:"22819", fam:"Falcon", desc:"l:cap,van;ag:spx", fuel:"KeroLOX+SRP", icon:"falcon-9h.png"},
+"Falcon Heavy": {ctry:"us", m:"1420800", pm:"63800/26700/16800",  d:"70.0x3.65", pf:"15.0x5.2", dt:"2018-02-06..", st:"2/2", th:"22819", fam:"Falcon", desc:"l:cap,van;ag:spx", fuel:"KeroLOX+SRP", icon:"falcon-9h.png"},
 //GSLV 2
 "GSLV MkII": {n:"Geosynchronous Satellite Launch Vehicle Mk. II", alt:"भूस्थिर उपग्रह प्रक्षेपण यान", ctry:"ind", m:"402000", pm:"5000/2500/1300",  d:"49x2.8", pf:"", dt:"2010-04-15..", st:"2/4", ust:" CUS12", th:"7420", fam:"GSLV", desc:"l:sri;ag:isro", fuel:"SRP+UDMH/N2O4", icon:"gslv-mk2.png"},
 "GSLV MkIII": {n:"Geosynchronous Satellite Launch Vehicle Mk. III", alt:"भूस्थिर उपग्रह प्रक्षेपण यान-३", ctry:"ind", m:"630000", pm:"10000/5000/3200",  d:"42.4x4", pf:"", dt:"2014-12..", st:"2/2", ust:"C-25", th:"11300", fam:"GSLV", desc:"l:sri;ag:isro", fuel:"UDMH/N2O4+SRP", icon:"gslv-mk3.png"},
