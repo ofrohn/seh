@@ -395,6 +395,14 @@ zond2: {name:"Zond 2", desc:"lv:Molniya 8K78/Blok-L",
     {pt:"", type:"fb", dt:"1965-08-06", loc:"mar:1500km", desc:""}
 ]},
 // --- 1965 --- 14 Missions
+pegasus1: {name:"Pegasus 1", desc:"lv:Saturn I",
+  parts:[
+    {names:"Saturn SA-9 Test", type:"obm", dest:"ter", stat:"s", ctry:"us", desc:"ag:nasa;fam:Pegasus;Micrometeorite Research;m0:1451.5kg;m:10500g;dim:29.3x4.3x5.3m;sc:1", id:"1965-009A", url:"ea:www.astronautix.com/p/pegasussatellite.html;hist:history.msfc.nasa.gov/ess/pegasus.html", icon:"pegasus.png"}], 
+  events:[
+    {pt:"", type:"l", dt:"1965-02-16", loc:"ter:cap:LC-37B", desc:""},
+    {pt:"", type:"oi", dt:"1965-02-16", loc:"ter:500x731kmx31.7deg", desc:""},
+    {pt:"", type:"tos", dt:"1968-08-29", loc:"ter", desc:"eom"}
+]},
 ranger8: {name:"Ranger 8", desc:"lv:Atlas-LV3 Agena-B",
   parts:[
     {names:"Ranger-C", type:"im", dest:"lun", stat:"s", ctry:"us", desc:"ag:nasa,jpl;fam:Ranger;m:366.87kg;dim:4.6x1.5x3.6m;sc:0.5", id:"1965-010A", url:"lpi:www.lpi.usra.edu/lunar/missions/ranger/;nssdc:nssdc.gsfc.nasa.gov/planetary/lunar/ranger.html;hist:history.nasa.gov/SP-4210/pages/Cover.htm", icon:"ranger6-9.png"}], 
@@ -406,7 +414,7 @@ ranger8: {name:"Ranger 8", desc:"lv:Atlas-LV3 Agena-B",
 ]},
 sd1: {name:"Surveyor SD1:Surveyor Dynamic Model 1", desc:"lv:Atlas-LV3C Centaur-C",
   parts:[
-    {names:"Atlas Centaur 5", type:"test", dest:"ter:leo", stat:"f", ctry:"us", desc:"ag:nasa,jpl;fam:Surveyor;Surveyor Test Flight 1;m:951kg;dim:3.05x3.05x16.2m;w:0.3", id:"ATCEN5", url:"ea:www.astronautix.com/lvs/atlrlv3c.htm;www.spacelaunchreport.com/aclv3cb.html", icon:"surveyor-sd.png"}], 
+    {names:"Atlas Centaur 5", type:"test", dest:"ter:leo", stat:"f", ctry:"us", desc:"ag:nasa,jpl;fam:Surveyor;Surveyor Test Flight 1;m:951kg;dim:3.05x3.05x16.2m;w:0.3;sc:0.7", id:"ATCEN5", url:"ea:www.astronautix.com/lvs/atlrlv3c.htm;www.spacelaunchreport.com/aclv3cb.html", icon:"surveyor-sd.png"}], 
   events:[
     {pt:"", type:"l", dt:"1965-03-02", loc:"ter:cap:LC-36A", desc:"fail:First stage shutdown"}
 ]},
@@ -442,6 +450,14 @@ luna5: {name:"Luna 5", desc:"lv:Molniya 8K78M/Blok-L",
     {pt:"", type:"td", dt:"1965-05-12", loc:"lun", desc:"fail:Guidance system malfunction;alt:40km"},
     {pt:"", type:"imp", dt:"1965-05-12", loc:"lun:8N,23W", desc:"near Crater Copernicus;show:L5:NW"}
 ]},
+pegasus2: {name:"Pegasus 2", desc:"lv:Saturn I",
+  parts:[
+    {names:"Saturn SA-8 Test", type:"obm", dest:"ter", stat:"s", ctry:"us", desc:"ag:nasa;fam:Pegasus;Micrometeorite Research;m0:1451.5kg;m:10460g;dim:29.3x4.3x5.3m;sc:1", id:"1965-039A", url:"ea:www.astronautix.com/p/pegasussatellite.html;hist:history.msfc.nasa.gov/ess/pegasus.html", icon:"pegasus.png"}], 
+  events:[
+    {pt:"", type:"l", dt:"1965-05-25", loc:"ter:cap:LC-37B", desc:""},
+    {pt:"", type:"oi", dt:"1965-05-25", loc:"ter:502x740kmx31.7deg", desc:""},
+    {pt:"", type:"tos", dt:"1968-08-29", loc:"ter", desc:"eom"}
+]},
 luna6: {name:"Luna 6", desc:"lv:Molniya 8K78M/Blok-L",
   parts:[
     {names:"Луна-6;Luna E-6 #7", type:"slm", dest:"lun", stat:"f", ctry:"su", desc:"ag:okb;fam:E-6;m:1442kg;dim:1.5x1.0x2.7m", id:"1965-044A", url:"ea:www.astronautix.com/craft/lunae6.htm;nssdc:nssdc.gsfc.nasa.gov/planetary/lunar/lunarussr.html", icon:"luna-e6.png"}], 
@@ -461,9 +477,17 @@ zond3: {name:"Zond 3", desc:"lv:Molniya 8K78/Blok-L", stat:"p",
     {pt:"", type:"fb", dt:"1965-07-20", loc:"lun:9200km", desc:""},
     {pt:"1", type:"los", dt:"1966-03", loc:"so", desc:"fail:Communication system malfunction"}
 ]},
+pegasus3: {name:"Pegasus 3", desc:"lv:Saturn I",
+  parts:[
+    {names:"Saturn SA-10 Test", type:"obm", dest:"ter", stat:"s", ctry:"us", desc:"ag:nasa;fam:Pegasus;Micrometeorite Research;m0:1451.5kg;m:10500g;dim:29.3x4.3x5.3m;sc:1", id:"1965-060A", url:"ea:www.astronautix.com/p/pegasussatellite.html;hist:history.msfc.nasa.gov/ess/pegasus.html", icon:"pegasus.png"}], 
+  events:[
+    {pt:"", type:"l", dt:"1965-07-30", loc:"ter:cap:LC-37B", desc:""},
+    {pt:"", type:"oi", dt:"1965-07-30", loc:"ter:441x449kmx28.9deg", desc:""},
+    {pt:"", type:"tos", dt:"1968-08-29", loc:"ter", desc:"eom"}
+]},
 sd2: {name:"Surveyor SD2:Surveyor Dynamic Model 2", desc:"lv:Atlas-LV3C Centaur-D",
   parts:[
-    {names:"Atlas Centaur 6", type:"test", dest:"ter:heeo", stat:"s", ctry:"us", desc:"ag:nasa,jpl;fam:Surveyor;Surveyor Test Flight 2;m:950kg;dim:3.05x3.05x16.2m", id:"1965-064A", url:"ea:www.astronautix.com/lvs/atlrlv3c.htm;www.spacelaunchreport.com/aclv3cb.html", icon:"surveyor-sd.png"}], 
+    {names:"Atlas Centaur 6", type:"test", dest:"ter:heeo", stat:"s", ctry:"us", desc:"ag:nasa,jpl;fam:Surveyor;Surveyor Test Flight 2;m:950kg;dim:3.05x3.05x16.2m;sc:0.7", id:"1965-064A", url:"ea:www.astronautix.com/lvs/atlrlv3c.htm;www.spacelaunchreport.com/aclv3cb.html", icon:"surveyor-sd.png"}], 
   events:[
     {pt:"", type:"l", dt:"1965-08-11", loc:"ter:cap:LC-36B", desc:""},
     {pt:"", type:"oi", dt:"1965-08-11", loc:"ter:166x815085kmx28.6deg", desc:"eom"}
@@ -549,7 +573,7 @@ luna10: {name:"Luna 10", desc:"lv:Molniya 8K78M/Blok-L",
 ]},
 sd3: {name:"Surveyor SD3:Surveyor Dynamic Model 3", desc:"lv:Atlas-LV3C Centaur-D",
   parts:[
-    {names:"Atlas Centaur 8", type:"test", dest:"ter:heeo", stat:"f", ctry:"us", desc:"ag:nasa,jpl;fam:Surveyor;Surveyor Test Flight 3;m:784kg;dim:3.05x3.05x16.2m", id:"1966-030A", url:"ea:www.astronautix.com/lvs/atlrlv3c.htm;www.spacelaunchreport.com/aclv3cb.html", icon:"surveyor-sd.png"}], 
+    {names:"Atlas Centaur 8", type:"test", dest:"ter:heeo", stat:"f", ctry:"us", desc:"ag:nasa,jpl;fam:Surveyor;Surveyor Test Flight 3;m:784kg;dim:3.05x3.05x16.2m;sc:0.7", id:"1966-030A", url:"ea:www.astronautix.com/lvs/atlrlv3c.htm;www.spacelaunchreport.com/aclv3cb.html", icon:"surveyor-sd.png"}], 
   events:[
     {pt:"", type:"l", dt:"1966-04-07", loc:"ter:cap:LC-36B", desc:""},
     {pt:"", type:"oi", dt:"1966-04-07", loc:"ter:175x344kmx30.7deg", desc:"fail:Upper stage reignition;eom"}

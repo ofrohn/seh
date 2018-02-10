@@ -1,6 +1,6 @@
 var SSEH = SSEH || {
   TITLE: "Solar System Exploration History",
-  VERSION: "1.6.10",
+  VERSION: "1.6.11",
   DATE: "2018-02 ",
   AUTHOR: "Olaf Frohn",
   CLICK: "Click on anything for more details",
@@ -1041,6 +1041,14 @@ zond2: {name:"Zond 2", desc:"lv:Molniya 8K78/Blok-L",
     {pt:"", type:"fb", dt:"1965-08-06", loc:"mar:1500km", desc:""}
 ]},
 // --- 1965 --- 14 Missions
+pegasus1: {name:"Pegasus 1", desc:"lv:Saturn I",
+  parts:[
+    {names:"Saturn SA-9 Test", type:"obm", dest:"ter", stat:"s", ctry:"us", desc:"ag:nasa;fam:Pegasus;Micrometeorite Research;m0:1451.5kg;m:10500g;dim:29.3x4.3x5.3m;sc:1", id:"1965-009A", url:"ea:www.astronautix.com/p/pegasussatellite.html;hist:history.msfc.nasa.gov/ess/pegasus.html", icon:"pegasus.png"}], 
+  events:[
+    {pt:"", type:"l", dt:"1965-02-16", loc:"ter:cap:LC-37B", desc:""},
+    {pt:"", type:"oi", dt:"1965-02-16", loc:"ter:500x731kmx31.7deg", desc:""},
+    {pt:"", type:"tos", dt:"1968-08-29", loc:"ter", desc:"eom"}
+]},
 ranger8: {name:"Ranger 8", desc:"lv:Atlas-LV3 Agena-B",
   parts:[
     {names:"Ranger-C", type:"im", dest:"lun", stat:"s", ctry:"us", desc:"ag:nasa,jpl;fam:Ranger;m:366.87kg;dim:4.6x1.5x3.6m;sc:0.5", id:"1965-010A", url:"lpi:www.lpi.usra.edu/lunar/missions/ranger/;nssdc:nssdc.gsfc.nasa.gov/planetary/lunar/ranger.html;hist:history.nasa.gov/SP-4210/pages/Cover.htm", icon:"ranger6-9.png"}], 
@@ -1052,7 +1060,7 @@ ranger8: {name:"Ranger 8", desc:"lv:Atlas-LV3 Agena-B",
 ]},
 sd1: {name:"Surveyor SD1:Surveyor Dynamic Model 1", desc:"lv:Atlas-LV3C Centaur-C",
   parts:[
-    {names:"Atlas Centaur 5", type:"test", dest:"ter:leo", stat:"f", ctry:"us", desc:"ag:nasa,jpl;fam:Surveyor;Surveyor Test Flight 1;m:951kg;dim:3.05x3.05x16.2m;w:0.3", id:"ATCEN5", url:"ea:www.astronautix.com/lvs/atlrlv3c.htm;www.spacelaunchreport.com/aclv3cb.html", icon:"surveyor-sd.png"}], 
+    {names:"Atlas Centaur 5", type:"test", dest:"ter:leo", stat:"f", ctry:"us", desc:"ag:nasa,jpl;fam:Surveyor;Surveyor Test Flight 1;m:951kg;dim:3.05x3.05x16.2m;w:0.3;sc:0.7", id:"ATCEN5", url:"ea:www.astronautix.com/lvs/atlrlv3c.htm;www.spacelaunchreport.com/aclv3cb.html", icon:"surveyor-sd.png"}], 
   events:[
     {pt:"", type:"l", dt:"1965-03-02", loc:"ter:cap:LC-36A", desc:"fail:First stage shutdown"}
 ]},
@@ -1088,6 +1096,14 @@ luna5: {name:"Luna 5", desc:"lv:Molniya 8K78M/Blok-L",
     {pt:"", type:"td", dt:"1965-05-12", loc:"lun", desc:"fail:Guidance system malfunction;alt:40km"},
     {pt:"", type:"imp", dt:"1965-05-12", loc:"lun:8N,23W", desc:"near Crater Copernicus;show:L5:NW"}
 ]},
+pegasus2: {name:"Pegasus 2", desc:"lv:Saturn 1",
+  parts:[
+    {names:"Saturn SA-8 Test", type:"obm", dest:"ter", stat:"s", ctry:"us", desc:"ag:nasa;fam:Pegasus;Micrometeorite Research;m0:1451.5kg;m:10460g;dim:29.3x4.3x5.3m;sc:1", id:"1965-039A", url:"ea:www.astronautix.com/p/pegasussatellite.html;hist:history.msfc.nasa.gov/ess/pegasus.html", icon:"pegasus.png"}], 
+  events:[
+    {pt:"", type:"l", dt:"1965-05-25", loc:"ter:cap:LC-37B", desc:""},
+    {pt:"", type:"oi", dt:"1965-05-25", loc:"ter:502x740kmx31.7deg", desc:""},
+    {pt:"", type:"tos", dt:"1968-08-29", loc:"ter", desc:"eom"}
+]},
 luna6: {name:"Luna 6", desc:"lv:Molniya 8K78M/Blok-L",
   parts:[
     {names:"Луна-6;Luna E-6 #7", type:"slm", dest:"lun", stat:"f", ctry:"su", desc:"ag:okb;fam:E-6;m:1442kg;dim:1.5x1.0x2.7m", id:"1965-044A", url:"ea:www.astronautix.com/craft/lunae6.htm;nssdc:nssdc.gsfc.nasa.gov/planetary/lunar/lunarussr.html", icon:"luna-e6.png"}], 
@@ -1107,9 +1123,17 @@ zond3: {name:"Zond 3", desc:"lv:Molniya 8K78/Blok-L", stat:"p",
     {pt:"", type:"fb", dt:"1965-07-20", loc:"lun:9200km", desc:""},
     {pt:"1", type:"los", dt:"1966-03", loc:"so", desc:"fail:Communication system malfunction"}
 ]},
+pegasus3: {name:"Pegasus 3", desc:"lv:Saturn 1",
+  parts:[
+    {names:"Saturn SA-10 Test", type:"obm", dest:"ter", stat:"s", ctry:"us", desc:"ag:nasa;fam:Pegasus;Micrometeorite Research;m0:1451.5kg;m:10500g;dim:29.3x4.3x5.3m;sc:1", id:"1965-060A", url:"ea:www.astronautix.com/p/pegasussatellite.html;hist:history.msfc.nasa.gov/ess/pegasus.html", icon:"pegasus.png"}], 
+  events:[
+    {pt:"", type:"l", dt:"1965-07-30", loc:"ter:cap:LC-37B", desc:""},
+    {pt:"", type:"oi", dt:"1965-07-30", loc:"ter:441x449kmx28.9deg", desc:""},
+    {pt:"", type:"tos", dt:"1968-08-29", loc:"ter", desc:"eom"}
+]},
 sd2: {name:"Surveyor SD2:Surveyor Dynamic Model 2", desc:"lv:Atlas-LV3C Centaur-D",
   parts:[
-    {names:"Atlas Centaur 6", type:"test", dest:"ter:heeo", stat:"s", ctry:"us", desc:"ag:nasa,jpl;fam:Surveyor;Surveyor Test Flight 2;m:950kg;dim:3.05x3.05x16.2m", id:"1965-064A", url:"ea:www.astronautix.com/lvs/atlrlv3c.htm;www.spacelaunchreport.com/aclv3cb.html", icon:"surveyor-sd.png"}], 
+    {names:"Atlas Centaur 6", type:"test", dest:"ter:heeo", stat:"s", ctry:"us", desc:"ag:nasa,jpl;fam:Surveyor;Surveyor Test Flight 2;m:950kg;dim:3.05x3.05x16.2m;sc:0.7", id:"1965-064A", url:"ea:www.astronautix.com/lvs/atlrlv3c.htm;www.spacelaunchreport.com/aclv3cb.html", icon:"surveyor-sd.png"}], 
   events:[
     {pt:"", type:"l", dt:"1965-08-11", loc:"ter:cap:LC-36B", desc:""},
     {pt:"", type:"oi", dt:"1965-08-11", loc:"ter:166x815085kmx28.6deg", desc:"eom"}
@@ -1195,7 +1219,7 @@ luna10: {name:"Luna 10", desc:"lv:Molniya 8K78M/Blok-L",
 ]},
 sd3: {name:"Surveyor SD3:Surveyor Dynamic Model 3", desc:"lv:Atlas-LV3C Centaur-D",
   parts:[
-    {names:"Atlas Centaur 8", type:"test", dest:"ter:heeo", stat:"f", ctry:"us", desc:"ag:nasa,jpl;fam:Surveyor;Surveyor Test Flight 3;m:784kg;dim:3.05x3.05x16.2m", id:"1966-030A", url:"ea:www.astronautix.com/lvs/atlrlv3c.htm;www.spacelaunchreport.com/aclv3cb.html", icon:"surveyor-sd.png"}], 
+    {names:"Atlas Centaur 8", type:"test", dest:"ter:heeo", stat:"f", ctry:"us", desc:"ag:nasa,jpl;fam:Surveyor;Surveyor Test Flight 3;m:784kg;dim:3.05x3.05x16.2m;sc:0.7", id:"1966-030A", url:"ea:www.astronautix.com/lvs/atlrlv3c.htm;www.spacelaunchreport.com/aclv3cb.html", icon:"surveyor-sd.png"}], 
   events:[
     {pt:"", type:"l", dt:"1966-04-07", loc:"ter:cap:LC-36B", desc:""},
     {pt:"", type:"oi", dt:"1966-04-07", loc:"ter:175x344kmx30.7deg", desc:"fail:Upper stage reignition;eom"}
@@ -5697,7 +5721,7 @@ add: spec. impulse, manufact.
 "Falcon 9": {ctry:"us", m:"506000", pm:"13150/4850/2473",  d:"69.2x3.65", pf:"13.1x5.2", dt:"2010-06-04..", st:"2", th:"5886", fam:"Falcon", desc:"l:cap,van;ag:spx", fuel:"KeroLOX", icon:"falcon-9v11.png"},
 "Falcon 9 v1.1": {syn:"Falcon 9"},
 "Falcon 9 v1.2": {ctry:"us", m:"549100", pm:"22800/8300/4020",  d:"70x3.65", pf:"13.1x5.2", dt:"2015-12-21..", st:"2", th:"7607", fam:"Falcon", desc:"l:cap,van;ag:spx", fuel:"KeroLOX+SRP", icon:"falcon-9v12.png"},
-"Falcon Heavy": {ctry:"us", m:"1420800", pm:"63800/26700/16800",  d:"70.0x3.65", pf:"15.0x5.2", dt:"2018-02-06..", st:"2/2", th:"22819", fam:"Falcon", desc:"l:cap,van;ag:spx", fuel:"KeroLOX+SRP", icon:"falcon-9h.png"},
+"Falcon Heavy": {ctry:"us", m:"1420800", pm:"63800/26700/16800",  d:"70.0x3.65", pf:"15.0x5.2", dt:"2018-02-06..", st:"2/2", th:"22819", fam:"Falcon", desc:"l:cap,van;ag:spx", fuel:"KeroLOX+SRP", icon:"falcon-h.png"},
 //GSLV 2
 "GSLV MkII": {n:"Geosynchronous Satellite Launch Vehicle Mk. II", alt:"भूस्थिर उपग्रह प्रक्षेपण यान", ctry:"ind", m:"402000", pm:"5000/2500/1300",  d:"49x2.8", pf:"", dt:"2010-04-15..", st:"2/4", ust:" CUS12", th:"7420", fam:"GSLV", desc:"l:sri;ag:isro", fuel:"SRP+UDMH/N2O4", icon:"gslv-mk2.png"},
 "GSLV MkIII": {n:"Geosynchronous Satellite Launch Vehicle Mk. III", alt:"भूस्थिर उपग्रह प्रक्षेपण यान-३", ctry:"ind", m:"630000", pm:"10000/5000/3200",  d:"42.4x4", pf:"", dt:"2014-12..", st:"2/2", ust:"C-25", th:"11300", fam:"GSLV", desc:"l:sri;ag:isro", fuel:"UDMH/N2O4+SRP", icon:"gslv-mk3.png"},
@@ -5731,7 +5755,8 @@ add: spec. impulse, manufact.
 //Proton K/Blok-DM3, Proton-K/Blok-D, Proton-K/Blok-D1, Proton-K/Blok-D2, Proton-M/Briz-M
 "Proton-K": {alt:"Протон-К", ctry:"su,ru", m:"691500", pm:"19760/5000/4800",  d:"55.4x7.4", pf:"4.2-7.5x4.1", dt:"1967-03-10..2012-03-30", st:"3", ust:"Blok-D", /*ust:"Blok-D/D1/D2/DM3",*/ th:"9500", fam:"Proton", desc:"l:bai,ple;ag:lav,rosc", fuel:"UDMH/N2O4", icon:"Proton-K.png"},
 "Proton-M": {alt:"Протон-М", ctry:"ru", m:"712800", pm:"21600/6350/5650",  d:"58.2x7.4", pf:"9.5-15.8x4.35", dt:"2001-04-07..", st:"3", ust:"Briz-M", th:"11000", fam:"Proton", desc:"l:bai,ple;ag:rosc", fuel:"UDMH/N2O4", icon:"Proton-M.png"},
-//Saturn IB
+//Saturn I
+"Saturn I": {ctry:"us", m:"510000", pm:"9000/-/2200",  d:"55x6.52", pf:"", dt:"1961-10-27..1965-07-30", st:"2", th:"6700", fam:"Saturn", desc:"l:cc;ag:nasa", fuel:"KeroLOX+LH2/LOX", icon:"Saturn-I.png"},
 "Saturn IB": {ctry:"us", m:"587300", pm:"18600/-/-",  d:"68.1x6.53", pf:"", dt:"1966-02-26..1975-07-15", st:"2", th:"7290", fam:"Saturn", desc:"l:ksc;ag:nasa", fuel:"KeroLOX", icon:"Saturn-IB.png"},
 //Saturn V
 "Saturn V": {ctry:"us", m:"2913000", pm:"118000/-/47000",  d:"110.6x10.1", pf:"", dt:"1967-11-09..1973-05-14", st:"3", th:"34030", fam:"Saturn", desc:"l:ksc;ag:nasa", fuel:"KeroLOX", icon:"Saturn-V.png"},
