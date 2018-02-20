@@ -25,11 +25,11 @@
      url:"",  //Instrument links
      desc:"c:;"}  //desc: c:l r v t b  left right vertical top bottom, cl
 ]},
-Tenma, Hakucho, td-1, isee, oao, oso
+Tenma, Hakucho, td-1, isee, oao-2, oso
 rae-b 25 kHz to 13.1 MHz 
 P78-1/SOLWIND http://heasarc.nasa.gov/docs/heasarc/missions/p78-1.html
   http://www.planetary.org/blogs/guest-blogs/2014/0829-the-pivotal-discovery.html
-
+Nano-jasmine http://www.jasmine-galaxy.org/spec-en.html
 */
 var scopes = {
 ace:{name:"ACE:Advanced Composition Explorer", url:"hp:www.srl.caltech.edu/ACE/", desc:"ag:nasa,gsfc;fam:Explorer;lv:Delta II 7920-8", stat:"o", 
@@ -224,7 +224,7 @@ compton:{name:"Compton:Compton Gamma Ray Observatory", url:"hp:cossc.gsfc.nasa.g
 ]},
 copernicus:{name:"Copernicus", url:"hp:heasarc.nasa.gov/docs/copernicus/copernicus.html", desc:"ag:nasa;Atlas SLV-3C Centaur", stat:"s", 
   parts: [
-    {n:"OAO-3", ctry:"us", type:"uv;x", pur:"", id:"1972-065A", icon:""}
+    {n:"OAO-4", ctry:"us", type:"uv;x", pur:"", id:"1972-065A", icon:""}
   ], ev: [
     {pt:"", dt:"1972-08-21", tp:"l", loc:"ter:cap:LC-36B", desc:""},
     {pt:"", dt:"1972-09-22", tp:"sco", loc:"ter:leo:735x747kmx35deg", desc:""},
@@ -1326,4 +1326,3 @@ name:{name:"", url:"", desc:"", stat:"",
 ]},
 
 */
-//Nano-jasmine http://www.jasmine-galaxy.org/spec-en.html

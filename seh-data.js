@@ -1096,7 +1096,7 @@ luna5: {name:"Luna 5", desc:"lv:Molniya 8K78M/Blok-L",
     {pt:"", type:"td", dt:"1965-05-12", loc:"lun", desc:"fail:Guidance system malfunction;alt:40km"},
     {pt:"", type:"imp", dt:"1965-05-12", loc:"lun:8N,23W", desc:"near Crater Copernicus;show:L5:NW"}
 ]},
-pegasus2: {name:"Pegasus 2", desc:"lv:Saturn 1",
+pegasus2: {name:"Pegasus 2", desc:"lv:Saturn I",
   parts:[
     {names:"Saturn SA-8 Test", type:"obm", dest:"ter", stat:"s", ctry:"us", desc:"ag:nasa;fam:Pegasus;Micrometeorite Research;m0:1451.5kg;m:10460g;dim:29.3x4.3x5.3m;sc:1", id:"1965-039A", url:"ea:www.astronautix.com/p/pegasussatellite.html;hist:history.msfc.nasa.gov/ess/pegasus.html", icon:"pegasus.png"}], 
   events:[
@@ -1123,7 +1123,7 @@ zond3: {name:"Zond 3", desc:"lv:Molniya 8K78/Blok-L", stat:"p",
     {pt:"", type:"fb", dt:"1965-07-20", loc:"lun:9200km", desc:""},
     {pt:"1", type:"los", dt:"1966-03", loc:"so", desc:"fail:Communication system malfunction"}
 ]},
-pegasus3: {name:"Pegasus 3", desc:"lv:Saturn 1",
+pegasus3: {name:"Pegasus 3", desc:"lv:Saturn I",
   parts:[
     {names:"Saturn SA-10 Test", type:"obm", dest:"ter", stat:"s", ctry:"us", desc:"ag:nasa;fam:Pegasus;Micrometeorite Research;m0:1451.5kg;m:10500g;dim:29.3x4.3x5.3m;sc:1", id:"1965-060A", url:"ea:www.astronautix.com/p/pegasussatellite.html;hist:history.msfc.nasa.gov/ess/pegasus.html", icon:"pegasus.png"}], 
   events:[
@@ -5757,9 +5757,9 @@ add: spec. impulse, manufact.
 "Proton-M": {alt:"Протон-М", ctry:"ru", m:"712800", pm:"21600/6350/5650",  d:"58.2x7.4", pf:"9.5-15.8x4.35", dt:"2001-04-07..", st:"3", ust:"Briz-M", th:"11000", fam:"Proton", desc:"l:bai,ple;ag:rosc", fuel:"UDMH/N2O4", icon:"Proton-M.png"},
 //Saturn I
 "Saturn I": {ctry:"us", m:"510000", pm:"9000/-/2200",  d:"55x6.52", pf:"", dt:"1961-10-27..1965-07-30", st:"2", th:"6700", fam:"Saturn", desc:"l:cc;ag:nasa", fuel:"KeroLOX+LH2/LOX", icon:"Saturn-I.png"},
-"Saturn IB": {ctry:"us", m:"587300", pm:"18600/-/-",  d:"68.1x6.53", pf:"", dt:"1966-02-26..1975-07-15", st:"2", th:"7290", fam:"Saturn", desc:"l:ksc;ag:nasa", fuel:"KeroLOX", icon:"Saturn-IB.png"},
+"Saturn IB": {ctry:"us", m:"587300", pm:"18600/-/-",  d:"68.1x6.53", pf:"", dt:"1966-02-26..1975-07-15", st:"2", th:"7290", fam:"Saturn", desc:"l:ksc;ag:nasa", fuel:"KeroLOX+LH2/LOX", icon:"Saturn-IB.png"},
 //Saturn V
-"Saturn V": {ctry:"us", m:"2913000", pm:"118000/-/47000",  d:"110.6x10.1", pf:"", dt:"1967-11-09..1973-05-14", st:"3", th:"34030", fam:"Saturn", desc:"l:ksc;ag:nasa", fuel:"KeroLOX", icon:"Saturn-V.png"},
+"Saturn V": {ctry:"us", m:"2913000", pm:"118000/-/47000",  d:"110.6x10.1", pf:"", dt:"1967-11-09..1973-05-14", st:"3", th:"34030", fam:"Saturn", desc:"l:ksc;ag:nasa", fuel:"KeroLOX+LH2/LOX", icon:"Saturn-V.png"},
 //Scout G1
 "Scout": {syn:"Scout G1"},
 "Scout G1": {n:"Scout G1", ctry:"us", m:"21500", pm:"220/-/-", d:"23x1.1", pf:"", dt:"1979-10-30..1994-05-09", st:"4", ust:"", th:"465", fam:"Scout", desc:"l:van;ag:nasa", fuel:"SRP", icon:"scout.png"},
@@ -5808,6 +5808,7 @@ ksc: {name:"Cape Canaveral:Kennedy Space Center", ctry:"us", desig:"KSC:Kennedy 
 cap: {name:"Cape Canaveral:Cape Canaveral Air Force Station", other:"Eastern Range", ctry:"us", desig:"CCAFS:Cape Canaveral Air Force Station", desc:"url:www.patrick.af.mil/;loc:28.489N,80.578W;show:CCAFS:SW;reg:Florida, USA;x:168;y:96;az:35..120;kml:zgUqCFI4a2eQ.kJnvBYGeXpBY", map:"ccafs.png"},
 van: {name:"Vandenberg:Vandenberg Air Force Base", other:"Western Range", ctry:"us", desig:"VAFB:Vandenberg Air Force Base", desc:"url:www.vandenberg.af.mil/;loc:34.7328N,120.5681W;show:VAFB:SW;shmap:W;reg:California, USA;x:192;y:96;az:147..235;kml:zgUqCFI4a2eQ.kXXtLBJrPZRY", map:"vafb.png"},
 wal: {name:"Wallops Island:Mid-Atlantic Regional Spaceport", other:"Wallops Island Flight Facility", ctry:"us", desig:"MARS:Mid-Atlantic Regional Spaceport", desc:"url:www.marsspaceport.com/;loc:37.8433N,75.4780W;show:MARS:NE;shmap:W;reg:Wallops Island, Virginia, USA;x:216;y:96;az:60..129;kml:zgUqCFI4a2eQ.kHJ6lFxPAwJQ", map:"wff-mars.png"},
+boc: {name:"SpaceX South Texas Launch Site", other:"Boca Chica", ctry:"us", desig:"", desc:"url:;loc:25.996N, 97.154W;show:SpX;shmap:W;reg:Cameron County, Texas, USA;az:93..113;kml:", map:"spacex-tx.png"},
 
 bai: {name:"Baikonur:Baikonur Cosmodrome", other:"космодром Байконур", ctry:"ru;kz", desig:"NIIP-5:Scientific-Research Test Range #5", desc:"url:www.russianspaceweb.com/baikonur.html;loc:45.965N,63.305E;show:Baikonur:NW;shmap:W;reg:Tyura-Tam, Kazakhstan;az:347..65;kml:zgUqCFI4a2eQ.kARtkNjNWyeg", map:"bai.png"},
 ple: {name:"Plesetsk:Plesetsk Cosmodrome", other:"Космодром Плесецк", ctry:"ru", desig:"NIIP-53:Scientific-Research Test Range #53", desc:"url:www.russianspaceweb.com/plesetsk.html;loc:62.9026N,40.6786E;show:Plesetsk:SW;shmap:W;reg:Arkhangelsk, Russia;az:341..90;kml:zgUqCFI4a2eQ.kH9Q9VFiA5M8", map:"ple.png"},

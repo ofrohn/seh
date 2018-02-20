@@ -678,11 +678,11 @@ SOBS.absorp =[
      url:"",  //Instrument links
      desc:"c:;"}  //desc: c:l r v t b  left right vertical top bottom, cl
 ]},
-Tenma, Hakucho, td-1, isee, oao, oso
+Tenma, Hakucho, td-1, isee, oao-2, oso
 rae-b 25 kHz to 13.1 MHz 
 P78-1/SOLWIND http://heasarc.nasa.gov/docs/heasarc/missions/p78-1.html
   http://www.planetary.org/blogs/guest-blogs/2014/0829-the-pivotal-discovery.html
-
+Nano-jasmine http://www.jasmine-galaxy.org/spec-en.html
 */
 var scopes = {
 ace:{name:"ACE:Advanced Composition Explorer", url:"hp:www.srl.caltech.edu/ACE/", desc:"ag:nasa,gsfc;fam:Explorer;lv:Delta II 7920-8", stat:"o", 
@@ -877,7 +877,7 @@ compton:{name:"Compton:Compton Gamma Ray Observatory", url:"hp:cossc.gsfc.nasa.g
 ]},
 copernicus:{name:"Copernicus", url:"hp:heasarc.nasa.gov/docs/copernicus/copernicus.html", desc:"ag:nasa;Atlas SLV-3C Centaur", stat:"s", 
   parts: [
-    {n:"OAO-3", ctry:"us", type:"uv;x", pur:"", id:"1972-065A", icon:""}
+    {n:"OAO-4", ctry:"us", type:"uv;x", pur:"", id:"1972-065A", icon:""}
   ], ev: [
     {pt:"", dt:"1972-08-21", tp:"l", loc:"ter:cap:LC-36B", desc:""},
     {pt:"", dt:"1972-09-22", tp:"sco", loc:"ter:leo:735x747kmx35deg", desc:""},
@@ -1979,7 +1979,7 @@ name:{name:"", url:"", desc:"", stat:"",
 ]},
 
 */
-//Nano-jasmine http://www.jasmine-galaxy.org/spec-en.html
+
 ﻿/* global Common */
 
 Common.lv = {
@@ -2119,9 +2119,9 @@ add: spec. impulse, manufact.
 "Proton-M": {alt:"Протон-М", ctry:"ru", m:"712800", pm:"21600/6350/5650",  d:"58.2x7.4", pf:"9.5-15.8x4.35", dt:"2001-04-07..", st:"3", ust:"Briz-M", th:"11000", fam:"Proton", desc:"l:bai,ple;ag:rosc", fuel:"UDMH/N2O4", icon:"Proton-M.png"},
 //Saturn I
 "Saturn I": {ctry:"us", m:"510000", pm:"9000/-/2200",  d:"55x6.52", pf:"", dt:"1961-10-27..1965-07-30", st:"2", th:"6700", fam:"Saturn", desc:"l:cc;ag:nasa", fuel:"KeroLOX+LH2/LOX", icon:"Saturn-I.png"},
-"Saturn IB": {ctry:"us", m:"587300", pm:"18600/-/-",  d:"68.1x6.53", pf:"", dt:"1966-02-26..1975-07-15", st:"2", th:"7290", fam:"Saturn", desc:"l:ksc;ag:nasa", fuel:"KeroLOX", icon:"Saturn-IB.png"},
+"Saturn IB": {ctry:"us", m:"587300", pm:"18600/-/-",  d:"68.1x6.53", pf:"", dt:"1966-02-26..1975-07-15", st:"2", th:"7290", fam:"Saturn", desc:"l:ksc;ag:nasa", fuel:"KeroLOX+LH2/LOX", icon:"Saturn-IB.png"},
 //Saturn V
-"Saturn V": {ctry:"us", m:"2913000", pm:"118000/-/47000",  d:"110.6x10.1", pf:"", dt:"1967-11-09..1973-05-14", st:"3", th:"34030", fam:"Saturn", desc:"l:ksc;ag:nasa", fuel:"KeroLOX", icon:"Saturn-V.png"},
+"Saturn V": {ctry:"us", m:"2913000", pm:"118000/-/47000",  d:"110.6x10.1", pf:"", dt:"1967-11-09..1973-05-14", st:"3", th:"34030", fam:"Saturn", desc:"l:ksc;ag:nasa", fuel:"KeroLOX+LH2/LOX", icon:"Saturn-V.png"},
 //Scout G1
 "Scout": {syn:"Scout G1"},
 "Scout G1": {n:"Scout G1", ctry:"us", m:"21500", pm:"220/-/-", d:"23x1.1", pf:"", dt:"1979-10-30..1994-05-09", st:"4", ust:"", th:"465", fam:"Scout", desc:"l:van;ag:nasa", fuel:"SRP", icon:"scout.png"},
