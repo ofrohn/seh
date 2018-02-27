@@ -3160,7 +3160,7 @@ lcross: {name:"LCROSS:Lunar Crater Observation and Sensing Satellite", desc:"lv:
 // --- 2010 --- 3 Missions     
 akatsuki: {name:"Akatsuki:Dawn", desc:"lv:H-IIA 202",
   parts:[
-    {names:"あかつき;VCO:Venus Climate Orbiter;Planet-C", type:"om", dest:"ven", stat:"o", ctry:"jp", desc:"ag:jaxa;m:517kg;m0:320kg;dim:7.0x1.7x1.6m;sc:0.4", id:"2010-020D", url:"hp:www.stp.isas.jaxa.jp/venus/top_english.html;jaxa:www.isas.jaxa.jp/en/missions/spacecraft/current/akatsuki.html;tw:twitter.com/Akatsuki_JAXA", icon:"akatsuki.png"},
+    {names:"あかつき;VCO:Venus Climate Orbiter;Planet-C", type:"om", dest:"ven", stat:"o", ctry:"jp", desc:"ag:jaxa;m:517kg;m0:320kg;dim:7.0x1.7x1.6m;sc:0.4", id:"2010-020D", url:"hp:www.stp.isas.jaxa.jp/venus/top_english.html;jaxa:www.isas.jaxa.jp/en/missions/spacecraft/current/akatsuki.html;darts:darts.isas.jaxa.jp/planet/project/akatsuki/;tw:twitter.com/Akatsuki_JAXA", icon:"akatsuki.png"},
 {type:"fbm", dest:"ven", stat:"o", ctry:"jp"}], 
   events:[
     {pt:"", type:"l", dt:"2010-05-20", loc:"ter:tng:YLP-1", desc:""},
@@ -3398,14 +3398,6 @@ dscovr: {name:"DSCOVR:Deep Space Climate Observatory", desc:"lv:Falcon 9 v1.1",
     {pt:"", type:"oi", dt:"2015-06-06", loc:"sol:esl1", desc:"Lissajous Orbit"},
     {pt:"", type:"nom", dt:"2025", loc:"sol:esl1", desc:"?"}    
 ]},
-/*bmt: {name:"BMT:Barcelona Moon Team", desc:"lv:CZ-2C", stat:"pl", 
-  parts:[
-    {names:"", type:"rvm", dest:"lun", ctry:"es", desc:"ag:BMT;fam:glxp;m:?kg;sc:0.2", id:"", url:"hp:www.barcelonamoonteam.com/", icon:"bmt-rv.png"}], 
-  events:[
-    {pt:"", type:"l", dt:"2015-06", loc:"ter:xch", desc:""},
-    {pt:"", type:"td", dt:"l+5dy", loc:"lun", desc:""},
-    {pt:"", type:"nom", dt:"l+2mo", loc:"ter", desc:"eom"}
-]},*/
 // --- 2016 
 exomarstgo: {name:"ExoMars TGO:Exomars Trace Gas Orbiter", desc:"lv:Proton-M/Briz-M",
   parts:[
@@ -3449,7 +3441,7 @@ fh1: {name:"Falcon Heavy Test 1", desc:"lv:Falcon Heavy", stat:"s",
 ]},
 chandrayaan2: {name:"Chandrayaan 2:Moon Craft 2", desc:"lv:GSLV MkII",
   parts:[
-    {names:"चंद्रयान-२", type:"om", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:3250kg;sc:0.5", id:"", url:"hp:isro.gov.in/chandrayaan-2;isp:sites.google.com/site/indianspaceprojects/moon-exploration/chandrayaan---2", icon:"chandrayaan2-o.png"},
+    {names:"चंद्रयान-२", type:"om", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:1400kg;sc:0.5", id:"", url:"hp:isro.gov.in/chandrayaan-2;isp:sites.google.com/site/indianspaceprojects/moon-exploration/chandrayaan---2", icon:"chandrayaan2-o.png"},
 {names:"{Chandrayaan 2 Lander}", type:"slm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:1260kg", icon:"chandrayaan2-l.png"},
 {names:"", type:"rvm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:25kg;sc:0.5", icon:"chandrayaan2-rv.png"}], 
   events:[
@@ -3658,8 +3650,8 @@ em1: {name:"EM-1:Exploration Mission 1", desc:"lv:SLS", stat:"pl",
     {names:"Orion MPCV Test Flight:Multi-Purpose Crew Vehicle", type:"fbm", dest:"lun",ctry:"us;eu", desc:"ag:nasa,jsc,esa;m:21250kg;sc:0.6", id:"", url:"hp:www.nasa.gov/exploration/systems/mpcv/index.html;esa:www.esa.int/Our_Activities/Human_Spaceflight/ATV", icon:"orion.png"},
     {type:"erm", dest:"ter"}], 
   events:[
-    {pt:"", type:"l", dt:"2019-12", loc:"ter:ksc:LC-39B", desc:""},
-    {pt:"", type:"toi", dt:"2019-12", loc:"ter", desc:"lto"},
+    {pt:"", type:"l", dt:"2020.05", loc:"ter:ksc:LC-39B", desc:""},
+    {pt:"", type:"toi", dt:"2020.05", loc:"ter", desc:"lto"},
     {pt:"", type:"fb", dt:"l+9dy", loc:"lun", desc:""},
     {pt:"", type:"oi", dt:"l+9dy", loc:"lun:70000km", desc:"Distant Retrograde Orbit"},
     {pt:"", type:"dep", dt:"l+16dy", loc:"lun", desc:"DRD"},
@@ -3674,9 +3666,9 @@ em1lcube: {name:"EM-1 Lunar Cubesats", desc:"lv:SLS;part:em1;6U CubeSats", stat:
     {names:"LunaH-Map:Lunar Polar Hydrogen Mapper", type:"om", dest:"lun", ctry:"us", desc:"ag:nasa,asu;sc:0.6", id:"", url:"H-Map:www.nasa.gov/feature/lunah-map-university-built-cubesat-to-map-water-ice-on-the-moon;ASU:lunahmap.asu.edu/;tw:twitter.com/lunahmap", icon:"lunahmap.png"},
     {names:"OMOTENASHI:Outstanding Moon exploration Technologies demonstrated by Nano Semi-Hard Impactor", type:"im", dest:"lun", ctry:"jp", desc:"ag:jaxa;sc:0.6", id:"", url:"", icon:"omotenashi.png"}],
   events:[
-    {pt:"", type:"l", dt:"2019-12", loc:"ter:ksc:LC-39B", desc:"EM-1 piggyback"},
-    {pt:"", type:"toi", dt:"2019-12", loc:"ter", desc:"lto"},
-    {pt:"1", type:"toi", dt:"2019-12", loc:"ter", desc:"leto;IceCube"},
+    {pt:"", type:"l", dt:"2020.05", loc:"ter:ksc:LC-39B", desc:"EM-1 piggyback"},
+    {pt:"", type:"toi", dt:"2020.05", loc:"ter", desc:"lto"},
+    {pt:"1", type:"toi", dt:"2020.05", loc:"ter", desc:"leto;IceCube"},
     {pt:"0", type:"fb", dt:"l+3dy", loc:"lun", desc:"op:Flashlight"},
     {pt:"1", type:"fb", dt:"l+4dy", loc:"lun", desc:"IceCube"},
     {pt:"2", type:"fb", dt:"l+4dy", loc:"lun", desc:"H-Map"},
@@ -3703,8 +3695,8 @@ em1cubes: {name:"EM-1 Cubesats", desc:"lv:SLS;part:em1;6U-CubeSat", stat:"pl",
     {names:"EQUULEUS:EQUilibriUm Lunar-Earth point 6U Spacecraft", type:"om", dest:"ter:eml2", ctry:"jp", desc:"ag:jaxa;sc:0.6", id:"", url:"Int:www.nasa.gov/exploration/systems/sls/international-partners-provide-cubesats-for-sls-maiden-flight", icon:"equuleus.png"},
     {names:"Skyfire", type:"om", dest:"ter:geo", ctry:"us", desc:"ag:nasa;sc:0.6", id:"", url:"Skyfire:www.nasa.gov/feature/nasa-selects-lockheed-martin-s-skyfire-cubesat-for-em-1-secondary-payload", icon:"skyfire.png"}],
   events:[
-    {pt:"", type:"l", dt:"2019-12", loc:"ter:ksc:LC-39B", desc:"EM-1 piggyback"},
-    {pt:"", type:"toi", dt:"2019-12", loc:"ter", desc:"lto"},
+    {pt:"", type:"l", dt:"2020.05", loc:"ter:ksc:LC-39B", desc:"EM-1 piggyback"},
+    {pt:"", type:"toi", dt:"2020.05", loc:"ter", desc:"lto"},
     {pt:"0", type:"fb", dt:"l+3dy", loc:"lun", desc:"NEA-Scout"},
     {pt:"1", type:"fb", dt:"l+4dy", loc:"lun", desc:"BioSentinel"},
     {pt:"5", type:"fb", dt:"l+4dy", loc:"lun", desc:"Skyfire"},
