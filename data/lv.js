@@ -145,9 +145,9 @@ add: spec. impulse, manufact.
 "Scout G1": {n:"Scout G1", ctry:"us", m:"21500", pm:"220/-/-", d:"23x1.1", pf:"", dt:"1979-10-30..1994-05-09", st:"4", ust:"", th:"465", fam:"Scout", desc:"l:van;ag:nasa", fuel:"SRP", icon:"scout.png"},
 //SLS
 "SLS": {syn:"SLS 1"},
-"SLS 1": {n:"Space Launch System Block 1", ctry:"us", m:"2750000", pm:"70k/30k/20k", d:"98.1x8.4", pf:"", dt:"2019..", st:"2/2", ust:"iCPS", th:"39400", fam:"SLS", desc:"l:cap;ag:nasa", fuel:"LH2/LOX+SRP", icon:"sls-1.png"},
-"SLS 1B": {n:"Space Launch System Block 1B", ctry:"us", m:"2850000", pm:"105k/46k/33k",  d:"110.9x8.4", pf:"27.4x8.4", dt:"2023..", st:"2/2", ust:"EUS", th:"39400", fam:"SLS", desc:"l:cap;ag:nasa", fuel:"LH2/LOX+SRP", icon:"sls-1b.png"},
-"SLS 2": {n:"Space Launch System Block 2", ctry:"us", m:"2950000", pm:"130k/64k/41k",  d:"111.6x8.4", pf:"27.4x10.0", dt:"2028..", st:"2/2", ust:"EUS", th:"41000", fam:"SLS", desc:"l:cap;ag:nasa", fuel:"LH2/LOX+SRP?", icon:"sls-2.png"},
+"SLS 1": {n:"Space Launch System Block 1", ctry:"us", m:"2750000", pm:"70k/30k/26k", d:"98.1x8.4", pf:"", dt:"2019..", st:"2/2", ust:"iCPS", th:"39150", fam:"SLS", desc:"l:cap;ag:nasa", fuel:"LH2/LOX+SRP", icon:"sls-1.png"},
+"SLS 1B": {n:"Space Launch System Block 1B", ctry:"us", m:"2850000", pm:"105k/46k/34k",  d:"110.9x8.4", pf:"27.4x8.4", dt:"2023..", st:"2/2", ust:"EUS", th:"39150", fam:"SLS", desc:"l:cap;ag:nasa", fuel:"LH2/LOX+SRP", icon:"sls-1b.png"},
+"SLS 2": {n:"Space Launch System Block 2", ctry:"us", m:"2950000", pm:"130k/64k/45k",  d:"111.6x8.4", pf:"27.4x10.0", dt:"2028..", st:"2/2", ust:"EUS", th:"52900", fam:"SLS", desc:"l:cap;ag:nasa", fuel:"LH2/LOX+SRP?", icon:"sls-2.png"},
 //Soyuz 2.1a, Soyuz 2.1b, Soyuz-FG Fregat, Soyuz 2-1A Volga
 "Soyuz 2.1": {alt:"Союз 2.1", ctry:"ru,eu", m:"313000", pm:"7600/3000/1200",  d:"46.3x2.95", pf:"", dt:"2006-10-19..", st:"2/4", ust:"Fregat/Volga", th:"4146", fam:"R-7", desc:"l:bai,ple,kou;ag:rosc,esa", fuel:"KeroLOX", icon:"Soyuz-ST.png"},
 "Soyuz 2.1A": {syn:"Soyuz 2.1"},

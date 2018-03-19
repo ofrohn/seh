@@ -381,23 +381,28 @@ ginga:{name:"Ginga", url:"hp:heasarc.nasa.gov/docs/ginga/ginga.html", desc:"ag:j
 ]},
 goes:{name:"GOES:Geostationary Operational Environmental Satellite", ctry:"us", url:"hp:goespoes.gsfc.nasa.gov/goes/index.html;swpc:swpc.noaa.gov/", desc:"ag:noaa;sc:0.7;x:-18;y:6", stat:"o", 
   parts: [
-    {n:"GOES N", id:"2006-018A", type:"x", pur:"sol;w", desc:"lv:Delta 4M+(4,2)", stat:"s", icon:"goes-nop.png"},
-    {n:"GOES O", id:"2009-033A", type:"x", pur:"sol;w", desc:"lv:Delta 4M+(4,2)", icon:"goes-nop.png"},
-    {n:"GOES P", id:"2010-088A", type:"x", pur:"sol;w", desc:"lv:Delta 4M+(4,2)", icon:"goes-nop.png"},
-    {n:"GOES R", url:"sxi.ngdc.noaa.gov/goesr_looking_ahead.html", id:"", type:"x", pur:"sol;w", stat:"pl", desc:"lv:Atlas V 541"}], 
-    //GOES S, GOES U
+    {n:"GOES 13", id:"2006-018A", type:"x", pur:"sol;w", desc:"lv:Delta 4M+(4,2)", stat:"s", icon:"goes-nop.png"},
+    {n:"GOES 14", id:"2009-033A", type:"x", pur:"sol;w", desc:"lv:Delta 4M+(4,2)", icon:"goes-nop.png"},
+    {n:"GOES 15", id:"2010-088A", type:"x", pur:"sol;w", desc:"lv:Delta 4M+(4,2)", icon:"goes-nop.png"},
+    {n:"GOES 16", url:"www.goesr.gov", id:"2016-071A", type:"uv,x", pur:"sol;w", stat:"o", desc:"lv:Atlas V 541"}, 
+    {n:"GOES S", id:"2018-022A", type:"uv,x", pur:"sol;w", stat:"o", desc:"lv:Atlas V 541"}], 
+    // GOES U
   ev: [
     {pt:"0", dt:"2006-05-24", tp:"l", loc:"ter:cap:SLC-37B", desc:""},
     {pt:"0", dt:"2006-07-26", tp:"sco", loc:"ter:geos:35784x35790kmx0.4deg", desc:""},
     {pt:"1", dt:"2009-06-27", tp:"l", loc:"ter:cap:SLC-37B", desc:""},
     {pt:"1", dt:"2009-08-16", tp:"sco", loc:"ter:geos:35783x35790kmx0.4deg", desc:""},
     {pt:"2", dt:"2010-03-04", tp:"l", loc:"ter:cap:SLC-37B", desc:""},
-    {pt:"2", dt:"2010-03-18", tp:"sco", loc:"ter:geos:35778x35789kmx0.4deg", desc:""},
-    {pt:"3", dt:"2016-10", tp:"l", loc:"ter:cap", desc:""},
-    {pt:"3", dt:"2016-10", tp:"sco", loc:"ter:geos", desc:""}
-    //2017-05 goes-s
+    {pt:"2", dt:"2010-03-18", tp:"sco", loc:"ter:geos:35778x35789kmx0.01deg", desc:""},
+    {pt:"3", dt:"2016-11-19", tp:"l", loc:"ter:cap:SLC-41", desc:""},
+    {pt:"3", dt:"2017-12-11", tp:"sco", loc:"ter:geos:", desc:"GOES East"},
+    {pt:"4", dt:"2018-03-01", tp:"l", loc:"ter:cap:SLC-41", desc:""},
+    {pt:"4", dt:"2018-12", tp:"sco", loc:"ter:geos", desc:"GOES West"}
   ], inst: [
-    {n:"SXI:Soft X-ray Imager", band:"0.6..6nm", res:"7", url:"sxi.ngdc.noaa.gov/", desc:"c:nr;"}
+    {n:"SXI:Soft X-ray Imager", band:"0.6..6nm", res:"7", url:"sxi.ngdc.noaa.gov/", desc:"c:nr;"},
+    {n:"SUVI:Solar Ultraviolet Imager", band:"9.4..30.4nm", res:"", url:"www.goes-r.gov/spacesegment/suvi.html", desc:"c:nr;"},
+    {n:"EUVS:Extreme Ultraviolet Sensor", type:"is", band:"5..304nm", res:"", url:"www.goes-r.gov/spacesegment/exis.html", desc:"c:nr;"},
+    {n:"XRS:X-ray Irradiance Sensor", type:"is", band:"0.05..0.8nm", res:"", url:"www.goes-r.gov/spacesegment/exis.html", desc:"c:nr;"}
 ]},
 granat:{name:"Granat", url:"hp:heasarc.nasa.gov/docs/granat/granat.html", desc:"ag:rosc,iki;lv:Proton-K/Blok-D1", stat:"s", 
   parts: [
@@ -642,7 +647,7 @@ jwst:{name:"JWST:James Webb Space Telescope", url:"hp:www.jwst.nasa.gov/;stsci:w
   parts: [
     {n:"", ctry:"us;eu", type:"nir;opt", pur:"", id:"", desc:"", icon:"jwst.png"}
   ], ev: [
-    {pt:"", dt:"2019-03", tp:"l", loc:"ter:kou:ELA-3", desc:"kou"},
+    {pt:"", dt:"2019-06", tp:"l", loc:"ter:kou:ELA-3", desc:"kou"},
     {pt:"", dt:"l+30d", tp:"sco", loc:"sol:esl2", desc:""}
   ], inst: [
     {n:"MIRI", band:"5..28um", res:"1.13..0.1", d:"6.5", px:"0.1", fov:"1.3x1.7'", sres:"100/3000", url:"ircamera.as.arizona.edu/MIRI/", desc:"c:nv;cl:nly;"},

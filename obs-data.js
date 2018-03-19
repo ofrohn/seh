@@ -1034,23 +1034,28 @@ ginga:{name:"Ginga", url:"hp:heasarc.nasa.gov/docs/ginga/ginga.html", desc:"ag:j
 ]},
 goes:{name:"GOES:Geostationary Operational Environmental Satellite", ctry:"us", url:"hp:goespoes.gsfc.nasa.gov/goes/index.html;swpc:swpc.noaa.gov/", desc:"ag:noaa;sc:0.7;x:-18;y:6", stat:"o", 
   parts: [
-    {n:"GOES N", id:"2006-018A", type:"x", pur:"sol;w", desc:"lv:Delta 4M+(4,2)", stat:"s", icon:"goes-nop.png"},
-    {n:"GOES O", id:"2009-033A", type:"x", pur:"sol;w", desc:"lv:Delta 4M+(4,2)", icon:"goes-nop.png"},
-    {n:"GOES P", id:"2010-088A", type:"x", pur:"sol;w", desc:"lv:Delta 4M+(4,2)", icon:"goes-nop.png"},
-    {n:"GOES R", url:"sxi.ngdc.noaa.gov/goesr_looking_ahead.html", id:"", type:"x", pur:"sol;w", stat:"pl", desc:"lv:Atlas V 541"}], 
-    //GOES S, GOES U
+    {n:"GOES 13", id:"2006-018A", type:"x", pur:"sol;w", desc:"lv:Delta 4M+(4,2)", stat:"s", icon:"goes-nop.png"},
+    {n:"GOES 14", id:"2009-033A", type:"x", pur:"sol;w", desc:"lv:Delta 4M+(4,2)", icon:"goes-nop.png"},
+    {n:"GOES 15", id:"2010-088A", type:"x", pur:"sol;w", desc:"lv:Delta 4M+(4,2)", icon:"goes-nop.png"},
+    {n:"GOES 16", url:"www.goesr.gov", id:"2016-071A", type:"uv,x", pur:"sol;w", stat:"o", desc:"lv:Atlas V 541"}, 
+    {n:"GOES S", id:"2018-022A", type:"uv,x", pur:"sol;w", stat:"o", desc:"lv:Atlas V 541"}], 
+    // GOES U
   ev: [
     {pt:"0", dt:"2006-05-24", tp:"l", loc:"ter:cap:SLC-37B", desc:""},
     {pt:"0", dt:"2006-07-26", tp:"sco", loc:"ter:geos:35784x35790kmx0.4deg", desc:""},
     {pt:"1", dt:"2009-06-27", tp:"l", loc:"ter:cap:SLC-37B", desc:""},
     {pt:"1", dt:"2009-08-16", tp:"sco", loc:"ter:geos:35783x35790kmx0.4deg", desc:""},
     {pt:"2", dt:"2010-03-04", tp:"l", loc:"ter:cap:SLC-37B", desc:""},
-    {pt:"2", dt:"2010-03-18", tp:"sco", loc:"ter:geos:35778x35789kmx0.4deg", desc:""},
-    {pt:"3", dt:"2016-10", tp:"l", loc:"ter:cap", desc:""},
-    {pt:"3", dt:"2016-10", tp:"sco", loc:"ter:geos", desc:""}
-    //2017-05 goes-s
+    {pt:"2", dt:"2010-03-18", tp:"sco", loc:"ter:geos:35778x35789kmx0.01deg", desc:""},
+    {pt:"3", dt:"2016-11-19", tp:"l", loc:"ter:cap:SLC-41", desc:""},
+    {pt:"3", dt:"2017-12-11", tp:"sco", loc:"ter:geos:", desc:"GOES East"},
+    {pt:"4", dt:"2018-03-01", tp:"l", loc:"ter:cap:SLC-41", desc:""},
+    {pt:"4", dt:"2018-12", tp:"sco", loc:"ter:geos", desc:"GOES West"}
   ], inst: [
-    {n:"SXI:Soft X-ray Imager", band:"0.6..6nm", res:"7", url:"sxi.ngdc.noaa.gov/", desc:"c:nr;"}
+    {n:"SXI:Soft X-ray Imager", band:"0.6..6nm", res:"7", url:"sxi.ngdc.noaa.gov/", desc:"c:nr;"},
+    {n:"SUVI:Solar Ultraviolet Imager", band:"9.4..30.4nm", res:"", url:"www.goes-r.gov/spacesegment/suvi.html", desc:"c:nr;"},
+    {n:"EUVS:Extreme Ultraviolet Sensor", type:"is", band:"5..304nm", res:"", url:"www.goes-r.gov/spacesegment/exis.html", desc:"c:nr;"},
+    {n:"XRS:X-ray Irradiance Sensor", type:"is", band:"0.05..0.8nm", res:"", url:"www.goes-r.gov/spacesegment/exis.html", desc:"c:nr;"}
 ]},
 granat:{name:"Granat", url:"hp:heasarc.nasa.gov/docs/granat/granat.html", desc:"ag:rosc,iki;lv:Proton-K/Blok-D1", stat:"s", 
   parts: [
@@ -1295,7 +1300,7 @@ jwst:{name:"JWST:James Webb Space Telescope", url:"hp:www.jwst.nasa.gov/;stsci:w
   parts: [
     {n:"", ctry:"us;eu", type:"nir;opt", pur:"", id:"", desc:"", icon:"jwst.png"}
   ], ev: [
-    {pt:"", dt:"2019-03", tp:"l", loc:"ter:kou:ELA-3", desc:"kou"},
+    {pt:"", dt:"2019-06", tp:"l", loc:"ter:kou:ELA-3", desc:"kou"},
     {pt:"", dt:"l+30d", tp:"sco", loc:"sol:esl2", desc:""}
   ], inst: [
     {n:"MIRI", band:"5..28um", res:"1.13..0.1", d:"6.5", px:"0.1", fov:"1.3x1.7'", sres:"100/3000", url:"ircamera.as.arizona.edu/MIRI/", desc:"c:nv;cl:nly;"},
@@ -2127,9 +2132,9 @@ add: spec. impulse, manufact.
 "Scout G1": {n:"Scout G1", ctry:"us", m:"21500", pm:"220/-/-", d:"23x1.1", pf:"", dt:"1979-10-30..1994-05-09", st:"4", ust:"", th:"465", fam:"Scout", desc:"l:van;ag:nasa", fuel:"SRP", icon:"scout.png"},
 //SLS
 "SLS": {syn:"SLS 1"},
-"SLS 1": {n:"Space Launch System Block 1", ctry:"us", m:"2750000", pm:"70k/30k/20k", d:"98.1x8.4", pf:"", dt:"2019..", st:"2/2", ust:"iCPS", th:"39400", fam:"SLS", desc:"l:cap;ag:nasa", fuel:"LH2/LOX+SRP", icon:"sls-1.png"},
-"SLS 1B": {n:"Space Launch System Block 1B", ctry:"us", m:"2850000", pm:"105k/46k/33k",  d:"110.9x8.4", pf:"27.4x8.4", dt:"2023..", st:"2/2", ust:"EUS", th:"39400", fam:"SLS", desc:"l:cap;ag:nasa", fuel:"LH2/LOX+SRP", icon:"sls-1b.png"},
-"SLS 2": {n:"Space Launch System Block 2", ctry:"us", m:"2950000", pm:"130k/64k/41k",  d:"111.6x8.4", pf:"27.4x10.0", dt:"2028..", st:"2/2", ust:"EUS", th:"41000", fam:"SLS", desc:"l:cap;ag:nasa", fuel:"LH2/LOX+SRP?", icon:"sls-2.png"},
+"SLS 1": {n:"Space Launch System Block 1", ctry:"us", m:"2750000", pm:"70k/30k/26k", d:"98.1x8.4", pf:"", dt:"2019..", st:"2/2", ust:"iCPS", th:"39150", fam:"SLS", desc:"l:cap;ag:nasa", fuel:"LH2/LOX+SRP", icon:"sls-1.png"},
+"SLS 1B": {n:"Space Launch System Block 1B", ctry:"us", m:"2850000", pm:"105k/46k/34k",  d:"110.9x8.4", pf:"27.4x8.4", dt:"2023..", st:"2/2", ust:"EUS", th:"39150", fam:"SLS", desc:"l:cap;ag:nasa", fuel:"LH2/LOX+SRP", icon:"sls-1b.png"},
+"SLS 2": {n:"Space Launch System Block 2", ctry:"us", m:"2950000", pm:"130k/64k/45k",  d:"111.6x8.4", pf:"27.4x10.0", dt:"2028..", st:"2/2", ust:"EUS", th:"52900", fam:"SLS", desc:"l:cap;ag:nasa", fuel:"LH2/LOX+SRP?", icon:"sls-2.png"},
 //Soyuz 2.1a, Soyuz 2.1b, Soyuz-FG Fregat, Soyuz 2-1A Volga
 "Soyuz 2.1": {alt:"Союз 2.1", ctry:"ru,eu", m:"313000", pm:"7600/3000/1200",  d:"46.3x2.95", pf:"", dt:"2006-10-19..", st:"2/4", ust:"Fregat/Volga", th:"4146", fam:"R-7", desc:"l:bai,ple,kou;ag:rosc,esa", fuel:"KeroLOX", icon:"Soyuz-ST.png"},
 "Soyuz 2.1A": {syn:"Soyuz 2.1"},

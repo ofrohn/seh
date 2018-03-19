@@ -599,7 +599,7 @@ function Sbo(type, parent) {
     for (var i=0; i<flds.length; i++) {
       var col = Create.td(row, {n:_dat[key][flds[i]]||"-"}, "");
       col.style.width = px(w[i]);
-      if (((_type != "t" && parseFloat(_dat[key].rad) > 100) || (_type == "t" && _dat[key].type == "d")) && flds[i] === "fname") {
+      if (((_type !== "t" && parseFloat(_dat[key].rad) >= 100) || (_type === "t" && _dat[key].type === "d")) && flds[i] === "fname") {
         col.style.fontWeight = "bold";
       } 
       if (flds[i] === "fname" && _dat[key].type === "m") {

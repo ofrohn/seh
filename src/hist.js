@@ -89,7 +89,7 @@ var Hist = new (function() {
         h = window.innerHeight,
         t = h*0.3,// + parent.scrollTop,
         line = 16, 
-        l = Math.PI/220,
+        l = Math.PI/230,
         w2, i1, i2;
          
     if (prog === 0) {
