@@ -3123,7 +3123,7 @@ emm: {name:"Mars Hope", desc:"lv:H-IIA 202",
 // --- 2021
 lucy: {name:"Lucy", desc:"",
   parts:[
-    {names:"", type:"fbm", dest:"ast", stat:"pl", ctry:"us", desc:"ag:nasa,gsfc,swri;fam:discovery;sc:0.4", id:"", url:"hp:www.nasa.gov/lucy", icon:"lucy.png"}
+    {names:"", type:"fbm", dest:"ast", stat:"pl", ctry:"us", desc:"ag:nasa,gsfc,swri;fam:discovery;sc:0.4", id:"", url:"hp:www.nasa.gov/lucy;tw:twitter.com/NASALucy2Trojan", icon:"lucy.png"}
   ], events:[
     {pt:"", type:"l", dt:"2021-10-16", loc:"ter:cap", desc:""},
     {pt:"", type:"oi", dt:"2021-10-16", loc:"sol:ho:1aux0.16x0.21deg", desc:""},
@@ -3238,18 +3238,18 @@ em2: {name:"EM-2:Exploration Mission 2", desc:"lv:SLS 1B", stat:"pl",
 ]},
 psyche: {name:"Psyche", desc:"",
   parts:[
-    {names:"", type:"om", dest:"ast", stat:"pl", ctry:"us", desc:"ag:nasa,jpl,asu;fam:discovery;sc:0.9;m0:1300kg", id:"", url:"hp:sese.asu.edu/research/psyche;tw:twitter.com/NASAPsyche;jpl:jpl.nasa.gov/missions/psyche/", icon:"psyche.png"}
+    {names:"", type:"om", dest:"ast", stat:"pl", ctry:"us", desc:"ag:nasa,jpl,asu;fam:discovery;sc:0.9;m0:1300kg", id:"", url:"hp:psyche.asu.edu/;jpl:jpl.nasa.gov/missions/psyche/;tw:twitter.com/NASAPsyche", icon:"psyche.png"}
   ], events:[
-    {pt:"", type:"l", dt:"2022", loc:"ter:cap", desc:""},
-    {pt:"", type:"oi", dt:"2022", loc:"sol:ho", desc:""},
+    {pt:"", type:"l", dt:"2022-08", loc:"ter:cap", desc:""},
+    {pt:"", type:"oi", dt:"2022-08", loc:"sol:ho", desc:""},
     //{pt:"", type:"fb", dt:"2024", loc:"ter", desc:"ga"},
-    {pt:"", type:"fb", dt:"2023", loc:"mar", desc:"ga"},
-    {pt:"", type:"oi", dt:"2026", loc:"ast", desc:"ast:16 Psyche"},  
+    {pt:"", type:"fb", dt:"2023-05", loc:"mar", desc:"ga"},
+    {pt:"", type:"oi", dt:"2026-01", loc:"ast", desc:"ast:16 Psyche"},  
     {pt:"", type:"sco", dt:"2026", loc:"ast:806km", desc:"Characterization orbit"},  
     {pt:"", type:"sco", dt:"2026", loc:"ast:399km", desc:"Topography orbit"},  
     {pt:"", type:"sco", dt:"2026", loc:"ast:279km", desc:"Integrated science orbit"},  
     {pt:"", type:"sco", dt:"2027", loc:"ast:192km", desc:"Elemental mapping orbit"},  
-    {pt:"", type:"nom", dt:"2028", loc:"ast", desc:"?"},
+    {pt:"", type:"nom", dt:"2028-08", loc:"ast", desc:"?"},
     {pt:"", type:"pom", dt:"2030", loc:"ast", desc:"?"}
 ]},
 // --- 2024

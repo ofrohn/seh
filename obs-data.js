@@ -736,6 +736,7 @@ akari:{name:"Akari", url:"hp:www.ir.isas.jaxa.jp/ASTRO-F/Outreach/index_e.html;j
     {n:"", band:"1.7..180um", d:"0.685", px:"1.5", fov:"10x10'", desc:"warm:<5.5um;c:nr;"},
     {n:"", band:"50..180um", d:"", px:"", desc:"c:nr;"}
 ]},
+//Ariel
 asca:{name:"ASCA:Advanced Satellite for Cosmology and Astrophysics", url:"hp:www.isas.ac.jp/e/enterp/missions/asca/index.shtml", desc:"ag:jaxa;lv:M-3SII", stat:"s", 
   parts: [
     {n:"Astro-D", ctry:"jp", type:"x", pur:"", id:"1993-011A", icon:"", desc:"m:420kg"}
