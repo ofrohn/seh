@@ -551,7 +551,7 @@ var SOBS = SOBS || {
   STARTDATE: new Date(1957,10,4),  //Begin of shown period
   ENDDATE: new Date(2036,1,1),     //End of shown period
   WIDTH: 1000,                    //Width
-  HEIGHT: 2370,                   //Height
+  HEIGHT: 2400,                   //Height
   BARHEIGHT: 28,
   TEXTFONT: "normal bold 14px Arial, Helvetica, sans-serif",
   SCALEFONT: "normal bold 11px Arial, Helvetica, sans-serif",
@@ -736,7 +736,19 @@ akari:{name:"Akari", url:"hp:www.ir.isas.jaxa.jp/ASTRO-F/Outreach/index_e.html;j
     {n:"", band:"1.7..180um", d:"0.685", px:"1.5", fov:"10x10'", desc:"warm:<5.5um;c:nr;"},
     {n:"", band:"50..180um", d:"", px:"", desc:"c:nr;"}
 ]},
-//Ariel
+ariel:{name:"ARIEL:Atmospheric Remote‐sensing Infrared Exoplanet Large‐survey mission", url:"hp:sci.esa.int/ariel/", desc:"ag:esa;lv:Ariane 62;dim:,m:1200kg;sc:0.6;y:18", stat:"pl", 
+  parts: [
+    {n:"", ctry:"eu", type:"ir", pur:"exo", id:"", icon:"ariel.png", desc:""}
+  ], ev: [
+    {pt:"", dt:"2028", tp:"l", loc:"ter:kou", desc:""},
+    {pt:"", dt:"2028", tp:"sco", loc:"sol:esl2", desc:""},
+    {pt:"", dt:"2030", tp:"nom", loc:"", desc:"eom"}
+  ], inst: [
+    {type:"im", n:"VISPhot", band:"0.5..0.55um", d:"1.1x0.73m", px:"", fov:"", desc:"c:nr;cl:nry;"},
+    {type:"im", n:"FGS", band:"0.8..1.2um", d:"1.1x0.73m", px:"", fov:"", desc:"c:nr;c:nry;"},
+    {type:"is", n:"NIRSpec", band:"1.25..1.95um", d:"1.1x0.73m", px:"", sres:"10", fov:"", desc:"c:nr;cl:nry;"},
+    {type:"is", n:"AIRS", band:"1.95..7.8um", d:"1.1x0.73m", px:"", sres:"30..100", fov:"", desc:"c:nr;cl:nr"}
+]},
 asca:{name:"ASCA:Advanced Satellite for Cosmology and Astrophysics", url:"hp:www.isas.ac.jp/e/enterp/missions/asca/index.shtml", desc:"ag:jaxa;lv:M-3SII", stat:"s", 
   parts: [
     {n:"Astro-D", ctry:"jp", type:"x", pur:"", id:"1993-011A", icon:"", desc:"m:420kg"}
