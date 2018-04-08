@@ -2459,8 +2459,8 @@ dawn: {name:"Dawn", desc:"lv:Delta II 7925H-9.5", stat:"o",
     {pt:"1", type:"sco", dt:"2016-10-16", loc:"ast:1480km", desc:"XMO2:Extended Mission Orbit 2"},
     {pt:"1", type:"sco", dt:"2017-01-27", loc:"ast:7520x9350km", desc:"XMO3:Extended Mission Orbit 3"},
     {pt:"1", type:"sco", dt:"2017-04", loc:"ast:20000km", desc:"XMO4:Extended Mission Orbit 4"},
-    {pt:"1", type:"nom", dt:"2018-07", loc:"ast", desc:"?"},
-    {pt:"1", type:"pom", dt:"2018-08-30", loc:"ast", desc:"?"}
+    {pt:"1", type:"nom", dt:"2018-09", loc:"ast", desc:"?"},
+    {pt:"1", type:"pom", dt:"2018-12-31", loc:"ast", desc:"?"}
 ]},
 change1: {name:"Chang'e 1", desc:"lv:CZ-3A",
   parts:[
@@ -2824,8 +2824,8 @@ chandrayaan2: {name:"Chandrayaan 2:Moon Craft 2", desc:"lv:GSLV MkII",
 bepicolombo: {name:"Bepi Colombo", desc:"lv:Ariane 5ECA",
   parts:[
     {names:"", type:"fbm", dest:"mer", stat:"pl", ctry:"eu;jp", desc:"ag:asi,esa,jaxa;m0:2700kg;m:4100kg;dim:16x4.5x4m;w:0.5", id:"BEPICLMBO", url:"hp:www.esa.int/Our_activities/Space_Science/BepiColombo_overview2;psa:www.sciops.esa.int/index.php?project=PSA&page=bepi;tw:twitter.com/BepiColombo", icon:"bepicolombo.png"},
-{names:"MPO:Mercury Planetary Orbiter", type:"om", dest:"mer", stat:"pl", ctry:"eu", desc:"ag:asi,esa;m:1850kg;sc:0.75", url:"esa:sci.esa.int/home/bepicolombo/", icon:"bepicolombo-mpo.png"},
-{names:"MMO:Mercury Magnetospheric Orbiter", type:"om", dest:"mer", stat:"pl", ctry:"jp", desc:"ag:jaxa;m:285kg", url:"jaxa:www.stp.isas.jaxa.jp/mercury/", icon:"bepicolombo-mmo.png"}], 
+{names:"MPO:Mercury Planetary Orbiter", type:"om", dest:"mer", stat:"pl", ctry:"eu", desc:"ag:asi,esa;m:1850kg;sc:0.75", url:"esa:sci.esa.int/home/bepicolombo/;tw:twitter.com/ESA_Bepi", icon:"bepicolombo-mpo.png"},
+{names:"MMO:Mercury Magnetospheric Orbiter", type:"om", dest:"mer", stat:"pl", ctry:"jp", desc:"ag:jaxa;m:285kg", url:"jaxa:www.stp.isas.jaxa.jp/mercury/;tw:twitter.com/JAXA_MMO", icon:"bepicolombo-mmo.png"}], 
   events:[
     {pt:"", type:"l", dt:"2018-10-05", loc:"ter:kou:ELA-3", desc:""},
     {pt:"", type:"fb", dt:"2020-04", loc:"ter", desc:"ga"},
@@ -2848,8 +2848,8 @@ insight: {name:"InSIGHT:Interior Exploration using Seismic Investigations, Geode
   events:[
     {pt:"", type:"l", dt:"2018-05-05", loc:"ter:van:SLC-3E", desc:""},
     {pt:"", type:"edl", dt:"2018-11-26", loc:"mar:4.46N,136.04E", desc:"Elysium Planitia;show:InSIGHT"},
-    {pt:"", type:"nom", dt:"l+2.6yr", loc:"mar", desc:""},
-    {pt:"", type:"pom", dt:"l+8.5yr", loc:"mar", desc:"?"}
+    {pt:"", type:"nom", dt:"2020-12-31", loc:"mar", desc:"?"},
+    {pt:"", type:"pom", dt:"2026-12-31", loc:"mar", desc:""}
 ]},
 marco: {name:"MarCO:Mars Cube One", desc:"lv:Atlas V 401;part:insight",
   parts:[
