@@ -702,7 +702,7 @@ ace:{name:"ACE:Advanced Composition Explorer", url:"hp:www.srl.caltech.edu/ACE/"
     {n:"SWEPAM:Solar Wind Electron, Proton and Alpha Monitor", tp:"par", band:"1eV..35keV", res:"", fov:"160x30deg", tres:"2min", url:"", desc:"c:"},
     {n:"MAG:Magnetic Field Monitor", tp:"em", band:"4..60000nT", res:"", tres:"0.35s", url:"", desc:"c:"}
 ]},
-aditya:{name:"Aditya-L1", url:"hp:aditya.iiap.res.in/", desc:"Solar Coronograph;ag:isro;lv:PSLV XL;m:400kg;sc:0.8;x:-10;y:5", stat:"pl", 
+aditya:{name:"Aditya-L1", url:"hp:aditya.iiap.res.in/", desc:"Solar Coronograph;ag:isro;lv:PSLV XL;m:400kg;sc:0.6;x:-10;y:16", stat:"pl", 
   parts: [
     {n:"आदित्य", ctry:"ind", type:"opt;ir", pur:"sol", id:"", icon:"aditya-l1.png", desc:""}
   ], ev: [
@@ -1676,7 +1676,7 @@ srg:{name:"Spektr-RG:Spectrum Roentgen Gamma", url:"hp:hea.iki.rssi.ru/SRG/en/in
   parts: [
     {n:"Спектр-РГ", ctry:"ru;de;uk", type:"fuv,sx", pur:"", id:"", icon:"spektr-rg.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2018-09", tp:"l", loc:"ter:bai", desc:""},
+    {pt:"", dt:"2019", tp:"l", loc:"ter:bai", desc:""},
     {pt:"", dt:"l+3mo", tp:"sco", loc:"sol:esl2", desc:""},
     {pt:"", dt:"l+6.5yr", tp:"eom", loc:"sol:esl2", desc:"pend"}
   ], inst: [
@@ -1684,7 +1684,7 @@ srg:{name:"Spektr-RG:Spectrum Roentgen Gamma", url:"hp:hea.iki.rssi.ru/SRG/en/in
     {n:"Lobster", band:"", res:"", desc:"ag:Leicester University;c:nl;"},
     {n:"ART-XC", band:"6..30keV", res:"45", fov:"0.5deg", desc:"ag:iki;c:nl;"}
 ]},
-spektruv:{name:"Spektr-UF", url:"hp:www.wso-uv.org/wso-uv2/index.php?lang=en;Universidad Complutense:www.wso-uv.es/", desc:"ag:rosc;lv:Proton-M/Briz-M;m:2840kg;sc:1.2;x:10;y:6", stat:"pl", 
+spektruv:{name:"Spektr-UF", url:"hp:www.wso-uv.org/wso-uv2/index.php?lang=en;Universidad Complutense:www.wso-uv.es/", desc:"ag:rosc;lv:Proton-M/Briz-M;m:2840kg;sc:1.2;x:10;y:12", stat:"pl", 
   parts: [
     {n:"Спектр-УФ;WSO-UV:World Space Observatory-Ultraviolet", ctry:"ru", type:"uv", pur:"", id:"", icon:"wso-uv.png", desc:""}
   ], ev: [
@@ -1692,7 +1692,7 @@ spektruv:{name:"Spektr-UF", url:"hp:www.wso-uv.org/wso-uv2/index.php?lang=en;Uni
     {pt:"", dt:"", tp:"sco", loc:"ter:geo:51.6deg", desc:""},
     {pt:"", dt:"2028", tp:"nom", loc:"ter:geo", desc:""}
   ], inst: [
-    {n:"FUV", band:"1.5E+15..2.5E+15", res:"0.2", l:5, d:1.7, px:0.2, fov:0.5, foc:"17m", desc:"c:nr;cl:nly;"},
+    {n:"FUV", band:"110..310nm", res:"0.2", l:5, d:1.7, px:0.2, fov:0.5, foc:"17m", desc:"c:nr;cl:nly;"},
     {n:"UVO", band:"5.0E+14..2.0E+15", res:"0.12..0.04", d:1.7, px:0.03, fov:0.5, foc:"17m", desc:"c:nr;"}
 ]},
 step:{name:"STEP:Satellite Test Of the Equivalence Principle", url:"hp:einstein.stanford.edu/STEP/", desc:"", stat:"pr", 
@@ -1774,17 +1774,17 @@ swimsat:{name:"SWIMSat:Space Weather and Impact Monitoring Satellite", url:"", d
     {pt:"", dt:"2019", tp:"sco", loc:"ter:leo", desc:""},
     {pt:"", dt:"2021", tp:"nom", loc:"ter:leo", desc:""}
 ]},
-tess:{name:"TESS:Transiting Exoplanet Survey Satellite", url:"hp:tess.gsfc.nasa.gov;kavli:www.kavlifoundation.org/science-spotlights/searching-best-and-brightest;mit:space.mit.edu/TESS/TESS/TESS_Overview.html;tw:twitter.com/NASA_TESS", desc:"ag:nasa;lv:Falcon 9 v1.2;sc:1;x:10;y:0;m:350kg", stat:"pl", 
+tess:{name:"TESS:Transiting Exoplanet Survey Satellite", url:"hp:tess.gsfc.nasa.gov;mast:archive.stsci.edu/tess/;mit:space.mit.edu/TESS/TESS/TESS_Overview.html;tw:twitter.com/NASA_TESS", desc:"ag:nasa;lv:Falcon 9 v1.2;sc:1;x:10;y:0;m:350kg", stat:"o", 
   parts: [
-    {n:"", ctry:"us", type:"nir", pur:"exo", id:"", icon:"tess.png", desc:""}
+    {n:"", ctry:"us", type:"nir", pur:"exo", id:"2018-038A", icon:"tess.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2018-03", tp:"l", loc:"ter:cap", desc:""},
-    {pt:"", dt:"", tp:"sco", loc:"ter:meo:108000x373000km", desc:""},
-    {pt:"", dt:"2020", tp:"nom", loc:"ter:meo", desc:""}
+    {pt:"", dt:"2018-04-18", tp:"l", loc:"ter:cap:SLC-40", desc:""},
+    {pt:"", dt:"2018-06-17", tp:"sco", loc:"ter:meo:108000x373000kmx40deg", desc:"2:1 Moon resonance"},
+    {pt:"", dt:"2020-09-31", tp:"nom", loc:"ter:meo", desc:"pend"}
   ], inst: [
-    {n:"", band:"0.6..1um", res:"", d:"0.127m", px:"", desc:"cl:nl;"}
+    {n:"", band:"0.6..1um", res:"", d:"0.105m", px:"21", fov:"24x96deg", tres:"120s", desc:"cl:nl;"}
 ]},
-tiangong2:{name:"Tiangong 2:Heavenly Palace 2", ctry:"cn", url:"", desc:"ag:cnsa;lv:CZ-2F/T;sc:1;x:10;y:0;m:20000kg", stat:"pl", id:"", icon:"tiangong2.png",
+tiangong2:{name:"Tiangong 2:Heavenly Palace 2", ctry:"cn", url:"", desc:"ag:cnsa;lv:CZ-2F/T;sc:1;x:10;y:0;m:20000kg", stat:"o", id:"", icon:"tiangong2.png",
   parts: [
     {n:"POLAR:Gamma-ray Burst Polarimeter", ctry:"cn;ch;pl", type:"g", pur:"grb", url:"isdc.unige.ch/polar/", desc:""}
   ], ev: [
@@ -1902,6 +1902,16 @@ xposat:{name:"XPoSat:X-ray Polariation Satellite", url:"hp:", desc:"ag:isro;lv:P
   ], inst: [
     {n:"POLIX", band:"5..30keV", res:"", desc:"c:nr;cl:"}
   ]},
+xuntian:{name:"Xuntian:Sky Survey", url:"hp:", desc:"ag:cnsa;lv:CZ-5B;sc:0.9;y:7", stat:"pl", 
+  parts: [
+    {n:"巡天", ctry:"cn", type:"opt;nir", pur:"sur", id:"", icon:"xuntian.png", desc:""}
+  ], ev: [
+    {pt:"", dt:"2022", tp:"l", loc:"ter:wen", desc:""},
+    {pt:"", dt:"2022", tp:"sco", loc:"ter:leo", desc:""},
+    {pt:"", dt:"2032", tp:"pom", loc:"ter:leo", desc:""}
+  ], inst: [
+    {n:"OS", type:"is", band:"255..1000nm", res:"0.15", px:0.07, d:2, fov:"1.1deg2", desc:"c:nr;cl:"}
+  ]},
 yokoh:{name:"Yohkoh:Sunbeam ", url:"hp:www.isas.jaxa.jp/e/enterp/missions/yohkoh/index.shtml;lmsal:www.lmsal.com/SXT/main2.html", desc:"ag:isas;lv:M-3SII", stat:"s", 
   parts: [
     {n:"ようこう;Solar-A", ctry:"jp", type:"x", pur:"sol", id:"1991-062A", icon:""}
@@ -1944,7 +1954,7 @@ cta: {name:"CTA:Cherenkov Telescope Array", url:"https://www.cta-observatory.org
 lofar: {name:"LOFAR:LOw Frequency ARray", url:"www.lofar.org/", desc:"sc:1.4;x:0;y:10", stat:"g",
   parts: [{n:"", ctry:"", type:"r", icon:"lofar.png", desc:""}],
   ev: [{pt:"", dt:"", tp:"l", loc:"ter", desc:""}
-  ], inst: [{n:"", band:"1.5e+7..2.4e+8", res:"41.3..2.58", px:0.1, d:1.158e6, desc:"c:nv;"}
+  ], inst: [{n:"", band:"30...200MHz", res:"3.3..0.2", px:0.1, d:1.158e6, desc:"c:nv;"}
 ]},
 sofia: {name:"SOFIA:Stratospheric Observatory for Infrared Astronomy", url:"www.sofia.usra.edu/;www.dsi.uni-stuttgart.de/index.en.html;",  desc:"ag:nasa,dlr;sc:2;x:0;y:-6", stat:"g",
   parts: [{n:"", ctry:"us;de", type:"ir", icon:"sofia.png", desc:""}],
@@ -2092,7 +2102,7 @@ add: spec. impulse, manufact.
 "Delta II 7925H": {ctry:"us", m:"283000", pm:"6000/2170/1510",  d:"39.7x2.44", pf:"8.5-9.3x3.0", dt:"2003-07-08..2007-09-27", st:"2/9", ust:"Star-48B", th:"5030", fam:"Delta", desc:"l:cap,van;ag:nasa", fuel:"KeroLOX+SRP", icon:"Delta-7925H.png"},
 "Delta II 7925H-9.5": {syn:"Delta II 7925H"},
 //Delta 4H
-"Delta IV Heavy": {ctry:"us", m:"732000", pm:"23040/13100/9000",  d:"63x5.1", pf:"19.1x5", dt:"2004-12-21..", st:"2/2", ust:"Star-48", th:"9420", fam:"Delta", desc:"l:cap,van;ag:nasa", fuel:"LH2/LOX", icon:"Delta-4H_Orion.png"},
+"Delta IV Heavy": {ctry:"us", m:"732000", pm:"23040/13100/9000",  d:"63x5.1", pf:"19.8x5.1", dt:"2004-12-21..", st:"2/2", ust:"Star-48", th:"9420", fam:"Delta", desc:"l:cap,van;ag:nasa", fuel:"LH2/LOX", icon:"Delta-4H_Orion.png"},
 //Epsilon
 "Epsilon": {ctry:"jp", m:"91000", pm:"1200/-/-",  d:"24.4x2.5", pf:"", dt:"2013-09-14..", st:"3", ust:"CLPS", th:"2271", fam:"Epsilon", desc:"l:uch;ag:jaxa", fuel:"SRP", icon:"epsilon1.png"},
 //Epsilon
@@ -2106,8 +2116,8 @@ add: spec. impulse, manufact.
 "GSLV MkII": {n:"Geosynchronous Satellite Launch Vehicle Mk. II", alt:"भूस्थिर उपग्रह प्रक्षेपण यान", ctry:"ind", m:"402000", pm:"5000/2500/1300",  d:"49x2.8", pf:"", dt:"2010-04-15..", st:"2/4", ust:" CUS12", th:"7420", fam:"GSLV", desc:"l:sri;ag:isro", fuel:"SRP+UDMH/N2O4", icon:"gslv-mk2.png"},
 "GSLV MkIII": {n:"Geosynchronous Satellite Launch Vehicle Mk. III", alt:"भूस्थिर उपग्रह प्रक्षेपण यान-३", ctry:"ind", m:"630000", pm:"10000/5000/3200",  d:"42.4x4", pf:"", dt:"2014-12..", st:"2/2", ust:"C-25", th:"11300", fam:"GSLV", desc:"l:sri;ag:isro", fuel:"UDMH/N2O4+SRP", icon:"gslv-mk3.png"},
 //H-IIA 202, H-IIA 2022
-"H-IIA 202": {ctry:"jp", m:"289000", pm:"10000/4100/1600",  d:"53x4", pf:"10x4", dt:"2001-08-29..", st:"2/2", th:"5600", fam:"H-II", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"H2A-202.png"},
-"H-IIA 2022": {ctry:"jp", m:"348000", pm:"-/5000/2000",  d:"53x4", pf:"10x4", dt:"2005-02-26..2007-09-14", st:"2/4", th:"8580", fam:"H-II", desc:"l:tng;g:jaxa", fuel:"LH2/LOX+SRP", icon:"H2A-2022.png"},
+"H-IIA 202": {ctry:"jp", m:"289000", pm:"10000/4100/1600",  d:"53x4", pf:"12x5.1", dt:"2001-08-29..", st:"2/2", th:"5600", fam:"H-II", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"H2A-202.png"},
+"H-IIA 2022": {ctry:"jp", m:"348000", pm:"-/5000/2000",  d:"53x4", pf:"12x5.1", dt:"2005-02-26..2007-09-14", st:"2/4", th:"8580", fam:"H-II", desc:"l:tng;g:jaxa", fuel:"LH2/LOX+SRP", icon:"H2A-2022.png"},
 "H-IIA": {syn:"H-IIA 202"},
 "H-IIB": {ctry:"jp", m:"531000", pm:"19000/8000/4000",  d:"56.6x5.2", pf:"13x5.2", dt:"2009-09-10..", st:"2/4", th:"11200", fam:"H-II", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"H2B.png"},
 "H-III": {syn:"H-III 24L"},
@@ -2128,6 +2138,9 @@ add: spec. impulse, manufact.
 "Molniya 8K78M": {syn:"Molniya 8K78"},
 //N-1
 "N-1": {alt:"Н-1", ctry:"su", m:"2788000", pm:"70000/-/22000",  d:"105.3x14", pf:"", dt:"1969-02-21..1972-12-23", st:"4", th:"45400", fam:"N-1", desc:"l:bai;ag:tsk", fuel:"KeroLOX", icon:"N1.png"},
+//OmegA
+"OmegA": {syn:"OmegA 500"},
+"OmegA 500": {n:"", alt:"", ctry:"us", m:"", pm:"~30/4900..10100/-",  d:"59.8x3.7", pf:"5.3x15", dt:"2021..", st:"3/2-6", th:"12000", fam:"OmegA", desc:"ag:atk", fuel:"SRP/LH2+LOX", icon:"omega500.png"},
 //Pegasus-XL
 "Pegasus-XL": {n:"", alt:"", ctry:"us", m:"23269", pm:"475/175/-",  d:"17.6x6.7", pf:"2.2x1.1", dt:"1990-04-05..", st:"3/L-1011", th:"726", fam:"Pegasus", desc:"ag:atk", fuel:"SRP", icon:"pegasus-xl.png"},
 //PSLV-XL
@@ -2155,6 +2168,7 @@ add: spec. impulse, manufact.
 "Soyuz STA": {syn:"Soyuz 2.1"},
 "Soyuz STB": {syn:"Soyuz 2.1"},
 "Soyuz-FG": {alt:"Союз-ФГ", ctry:"ru", m:"308000", pm:"7200/2400/1200",  d:"46x2.95", pf:"", dt:"2003-06-02..2012-07-22", st:"2/4", ust:"Fregat", th:"4146", fam:"R-7", desc:"l:bai", fuel:"KeroLOX", icon:"Soyuz-FG.png"},
+"Soyuz-5": {alt:"Союз-5", ctry:"ru", m:"530000", pm:"18000/4500/2300",  d:"65.9x4.1", pf:"", dt:"2024", st:"2", ust:"DM-3", th:"7257", fam:"", desc:"l:bai", fuel:"KeroLOX", icon:"soyuz-5.png"},
 //STS-30 Atlantis/IUS, STS-34 Atlantis/IUS, STS-41 Discovery/PAM-S
 "STS": {n:"Space Shuttle", ctry:"us", m:"2040000", pm:"24400/4944/3550",  d:"56x23.8", pf:"18.3x4.6", dt:"1981-04-12..2011-07-08", st:"1/2", ust:"IUS/PAM-S", th:"28200", fam:"STS", desc:"l:ksc;ag:nasa", fuel:"LH2/LOX+SRP", icon:"STS.png"},
 "STS-30 Atlantis": {syn:"STS"},

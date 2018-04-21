@@ -49,7 +49,7 @@ ace:{name:"ACE:Advanced Composition Explorer", url:"hp:www.srl.caltech.edu/ACE/"
     {n:"SWEPAM:Solar Wind Electron, Proton and Alpha Monitor", tp:"par", band:"1eV..35keV", res:"", fov:"160x30deg", tres:"2min", url:"", desc:"c:"},
     {n:"MAG:Magnetic Field Monitor", tp:"em", band:"4..60000nT", res:"", tres:"0.35s", url:"", desc:"c:"}
 ]},
-aditya:{name:"Aditya-L1", url:"hp:aditya.iiap.res.in/", desc:"Solar Coronograph;ag:isro;lv:PSLV XL;m:400kg;sc:0.8;x:-10;y:5", stat:"pl", 
+aditya:{name:"Aditya-L1", url:"hp:aditya.iiap.res.in/", desc:"Solar Coronograph;ag:isro;lv:PSLV XL;m:400kg;sc:0.6;x:-10;y:16", stat:"pl", 
   parts: [
     {n:"आदित्य", ctry:"ind", type:"opt;ir", pur:"sol", id:"", icon:"aditya-l1.png", desc:""}
   ], ev: [
@@ -1023,7 +1023,7 @@ srg:{name:"Spektr-RG:Spectrum Roentgen Gamma", url:"hp:hea.iki.rssi.ru/SRG/en/in
   parts: [
     {n:"Спектр-РГ", ctry:"ru;de;uk", type:"fuv,sx", pur:"", id:"", icon:"spektr-rg.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2018-09", tp:"l", loc:"ter:bai", desc:""},
+    {pt:"", dt:"2019", tp:"l", loc:"ter:bai", desc:""},
     {pt:"", dt:"l+3mo", tp:"sco", loc:"sol:esl2", desc:""},
     {pt:"", dt:"l+6.5yr", tp:"eom", loc:"sol:esl2", desc:"pend"}
   ], inst: [
@@ -1031,7 +1031,7 @@ srg:{name:"Spektr-RG:Spectrum Roentgen Gamma", url:"hp:hea.iki.rssi.ru/SRG/en/in
     {n:"Lobster", band:"", res:"", desc:"ag:Leicester University;c:nl;"},
     {n:"ART-XC", band:"6..30keV", res:"45", fov:"0.5deg", desc:"ag:iki;c:nl;"}
 ]},
-spektruv:{name:"Spektr-UF", url:"hp:www.wso-uv.org/wso-uv2/index.php?lang=en;Universidad Complutense:www.wso-uv.es/", desc:"ag:rosc;lv:Proton-M/Briz-M;m:2840kg;sc:1.2;x:10;y:6", stat:"pl", 
+spektruv:{name:"Spektr-UF", url:"hp:www.wso-uv.org/wso-uv2/index.php?lang=en;Universidad Complutense:www.wso-uv.es/", desc:"ag:rosc;lv:Proton-M/Briz-M;m:2840kg;sc:1.2;x:10;y:12", stat:"pl", 
   parts: [
     {n:"Спектр-УФ;WSO-UV:World Space Observatory-Ultraviolet", ctry:"ru", type:"uv", pur:"", id:"", icon:"wso-uv.png", desc:""}
   ], ev: [
@@ -1039,7 +1039,7 @@ spektruv:{name:"Spektr-UF", url:"hp:www.wso-uv.org/wso-uv2/index.php?lang=en;Uni
     {pt:"", dt:"", tp:"sco", loc:"ter:geo:51.6deg", desc:""},
     {pt:"", dt:"2028", tp:"nom", loc:"ter:geo", desc:""}
   ], inst: [
-    {n:"FUV", band:"1.5E+15..2.5E+15", res:"0.2", l:5, d:1.7, px:0.2, fov:0.5, foc:"17m", desc:"c:nr;cl:nly;"},
+    {n:"FUV", band:"110..310nm", res:"0.2", l:5, d:1.7, px:0.2, fov:0.5, foc:"17m", desc:"c:nr;cl:nly;"},
     {n:"UVO", band:"5.0E+14..2.0E+15", res:"0.12..0.04", d:1.7, px:0.03, fov:0.5, foc:"17m", desc:"c:nr;"}
 ]},
 step:{name:"STEP:Satellite Test Of the Equivalence Principle", url:"hp:einstein.stanford.edu/STEP/", desc:"", stat:"pr", 
@@ -1121,17 +1121,17 @@ swimsat:{name:"SWIMSat:Space Weather and Impact Monitoring Satellite", url:"", d
     {pt:"", dt:"2019", tp:"sco", loc:"ter:leo", desc:""},
     {pt:"", dt:"2021", tp:"nom", loc:"ter:leo", desc:""}
 ]},
-tess:{name:"TESS:Transiting Exoplanet Survey Satellite", url:"hp:tess.gsfc.nasa.gov;kavli:www.kavlifoundation.org/science-spotlights/searching-best-and-brightest;mit:space.mit.edu/TESS/TESS/TESS_Overview.html;tw:twitter.com/NASA_TESS", desc:"ag:nasa;lv:Falcon 9 v1.2;sc:1;x:10;y:0;m:350kg", stat:"pl", 
+tess:{name:"TESS:Transiting Exoplanet Survey Satellite", url:"hp:tess.gsfc.nasa.gov;mast:archive.stsci.edu/tess/;mit:space.mit.edu/TESS/TESS/TESS_Overview.html;tw:twitter.com/NASA_TESS", desc:"ag:nasa;lv:Falcon 9 v1.2;sc:1;x:10;y:0;m:350kg", stat:"o", 
   parts: [
-    {n:"", ctry:"us", type:"nir", pur:"exo", id:"", icon:"tess.png", desc:""}
+    {n:"", ctry:"us", type:"nir", pur:"exo", id:"2018-038A", icon:"tess.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2018-03", tp:"l", loc:"ter:cap", desc:""},
-    {pt:"", dt:"", tp:"sco", loc:"ter:meo:108000x373000km", desc:""},
-    {pt:"", dt:"2020", tp:"nom", loc:"ter:meo", desc:""}
+    {pt:"", dt:"2018-04-18", tp:"l", loc:"ter:cap:SLC-40", desc:""},
+    {pt:"", dt:"2018-06-17", tp:"sco", loc:"ter:meo:108000x373000kmx40deg", desc:"2:1 Moon resonance"},
+    {pt:"", dt:"2020-09-31", tp:"nom", loc:"ter:meo", desc:"pend"}
   ], inst: [
-    {n:"", band:"0.6..1um", res:"", d:"0.127m", px:"", desc:"cl:nl;"}
+    {n:"", band:"0.6..1um", res:"", d:"0.105m", px:"21", fov:"24x96deg", tres:"120s", desc:"cl:nl;"}
 ]},
-tiangong2:{name:"Tiangong 2:Heavenly Palace 2", ctry:"cn", url:"", desc:"ag:cnsa;lv:CZ-2F/T;sc:1;x:10;y:0;m:20000kg", stat:"pl", id:"", icon:"tiangong2.png",
+tiangong2:{name:"Tiangong 2:Heavenly Palace 2", ctry:"cn", url:"", desc:"ag:cnsa;lv:CZ-2F/T;sc:1;x:10;y:0;m:20000kg", stat:"o", id:"", icon:"tiangong2.png",
   parts: [
     {n:"POLAR:Gamma-ray Burst Polarimeter", ctry:"cn;ch;pl", type:"g", pur:"grb", url:"isdc.unige.ch/polar/", desc:""}
   ], ev: [
@@ -1249,6 +1249,16 @@ xposat:{name:"XPoSat:X-ray Polariation Satellite", url:"hp:", desc:"ag:isro;lv:P
   ], inst: [
     {n:"POLIX", band:"5..30keV", res:"", desc:"c:nr;cl:"}
   ]},
+xuntian:{name:"Xuntian:Sky Survey", url:"hp:", desc:"ag:cnsa;lv:CZ-5B;sc:0.9;y:7", stat:"pl", 
+  parts: [
+    {n:"巡天", ctry:"cn", type:"opt;nir", pur:"sur", id:"", icon:"xuntian.png", desc:""}
+  ], ev: [
+    {pt:"", dt:"2022", tp:"l", loc:"ter:wen", desc:""},
+    {pt:"", dt:"2022", tp:"sco", loc:"ter:leo", desc:""},
+    {pt:"", dt:"2032", tp:"pom", loc:"ter:leo", desc:""}
+  ], inst: [
+    {n:"OS", type:"is", band:"255..1000nm", res:"0.15", px:0.07, d:2, fov:"1.1deg2", desc:"c:nr;cl:"}
+  ]},
 yokoh:{name:"Yohkoh:Sunbeam ", url:"hp:www.isas.jaxa.jp/e/enterp/missions/yohkoh/index.shtml;lmsal:www.lmsal.com/SXT/main2.html", desc:"ag:isas;lv:M-3SII", stat:"s", 
   parts: [
     {n:"ようこう;Solar-A", ctry:"jp", type:"x", pur:"sol", id:"1991-062A", icon:""}
@@ -1291,7 +1301,7 @@ cta: {name:"CTA:Cherenkov Telescope Array", url:"https://www.cta-observatory.org
 lofar: {name:"LOFAR:LOw Frequency ARray", url:"www.lofar.org/", desc:"sc:1.4;x:0;y:10", stat:"g",
   parts: [{n:"", ctry:"", type:"r", icon:"lofar.png", desc:""}],
   ev: [{pt:"", dt:"", tp:"l", loc:"ter", desc:""}
-  ], inst: [{n:"", band:"1.5e+7..2.4e+8", res:"41.3..2.58", px:0.1, d:1.158e6, desc:"c:nv;"}
+  ], inst: [{n:"", band:"30...200MHz", res:"3.3..0.2", px:0.1, d:1.158e6, desc:"c:nv;"}
 ]},
 sofia: {name:"SOFIA:Stratospheric Observatory for Infrared Astronomy", url:"www.sofia.usra.edu/;www.dsi.uni-stuttgart.de/index.en.html;",  desc:"ag:nasa,dlr;sc:2;x:0;y:-6", stat:"g",
   parts: [{n:"", ctry:"us;de", type:"ir", icon:"sofia.png", desc:""}],

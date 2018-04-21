@@ -3413,7 +3413,7 @@ exomarstgo: {name:"ExoMars TGO:Exomars Trace Gas Orbiter", desc:"lv:Proton-M/Bri
     {pt:"1", type:"edl", dt:"2016-10-19", loc:"mar", desc:"Meridiani Planum;dp;fail:Premature engine shutdown"},
     {pt:"1", type:"imp", dt:"2016-10-19", loc:"mar:6.21W,2.07S", desc:"dp;eom:slm;show:Schiaparelli:SW"},
     {pt:"0", type:"ev", dt:"2017-03-15", loc:"mar", desc:"Start of Aerobraking"},
-    {pt:"0", type:"sco", dt:"2018-03", loc:"mar:400kmx74deg", desc:""},
+    {pt:"0", type:"sco", dt:"2018-04", loc:"mar:400kmx74deg", desc:""},
     {pt:"0", type:"nom", dt:"2022-12", loc:"mar", desc:"?"},
     {pt:"0", type:"pom", dt:"2028-12", loc:"mar", desc:"?"}
 ]},
@@ -3490,16 +3490,16 @@ bepicolombo: {name:"Bepi Colombo", desc:"lv:Ariane 5ECA",
 ]},
 insight: {name:"InSIGHT:Interior Exploration using Seismic Investigations, Geodesy and Heat Transport", desc:"lv:Atlas V 401",
   parts:[
-    {names:"", type:"slm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;fam:Discovery;m:350kg;dim:5.5x2.4x1.2m;sc:0.75", id:"", url:"hp:insight.jpl.nasa.gov/;tw:twitter.com/NASAInsight", icon:"insight.png"}], 
+    {names:"", type:"slm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;fam:Discovery;m:694kg;m0:358kg;dim:5.5x2.4x1.2m;sc:0.75", id:"", url:"hp:insight.jpl.nasa.gov/;tw:twitter.com/NASAInsight", icon:"insight.png"}], 
   events:[
     {pt:"", type:"l", dt:"2018-05-05", loc:"ter:van:SLC-3E", desc:""},
     {pt:"", type:"edl", dt:"2018-11-26", loc:"mar:4.46N,136.04E", desc:"Elysium Planitia;show:InSIGHT"},
-    {pt:"", type:"nom", dt:"2020-12-31", loc:"mar", desc:"?"},
+    {pt:"", type:"nom", dt:"2020-11-24", loc:"mar", desc:"?"},
     {pt:"", type:"pom", dt:"2026-12-31", loc:"mar", desc:""}
 ]},
 marco: {name:"MarCO:Mars Cube One", desc:"lv:Atlas V 401;part:insight",
   parts:[
-    {names:"2 Cubesats", type:"fbm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;InSIGHT EDL Communication Relay;dim:0.36x0.72x0.58m;sc:0.5", id:"", url:"hp:www.jpl.nasa.gov/cubesat/missions/marco.php", icon:"marco.png"}], 
+    {names:"2 Cubesats", type:"fbm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;InSIGHT EDL Communication Relay;m:13.5kg;dim:0.36x0.72x0.58m;sc:0.5", id:"", url:"hp:www.jpl.nasa.gov/cubesat/missions/marco.php", icon:"marco.png"}], 
   events:[
     {pt:"", type:"l", dt:"2018-05-05", loc:"ter:van:SLC-3E", desc:""},
     {pt:"", type:"fb", dt:"l+7mo", loc:"mar:3500km", desc:"eom"}
@@ -3852,7 +3852,7 @@ juice: {name:"JUICE:JUpiter ICy moons Explorer", desc:"lv:Ariane 5ECA",
     {names:"", type:"om", dest:"jup", stat:"pl", ctry:"eu", desc:"ag:esa;m:5250kg;m0:2200kg;fam:L-class;dim:28.4x3.9x4.0m;sc:1", id:"", url:"hp:sci.esa.int/juice;tw:twitter.com/ESA_JUICE", icon:"juice.png"},
 {type:"om", dest:"jup:gany", stat:"pl", ctry:"eu"}], 
   events:[
-    {pt:"", type:"l", dt:"2022-05-20", loc:"ter:kou:ELA-3", desc:""},
+    {pt:"", type:"l", dt:"2022-06", loc:"ter:kou:ELA-3", desc:""},
     {pt:"", type:"fb", dt:"2023-05", loc:"ter:12725km", desc:"ga"},
     {pt:"", type:"fb", dt:"2023-10", loc:"ven:9538km", desc:"ga"},
     {pt:"", type:"fb", dt:"2024-09", loc:"ter:1945km", desc:"ga"},
@@ -3937,9 +3937,9 @@ venerad: {name:"Venera-D", desc:"lv:Proton-M/Briz-M",
     {pt:"1", type:"nom", dt:"l+3yr", loc:"ven", desc:""},
     {pt:"1", type:"pom", dt:"l+4yr", loc:"ven", desc:"?"}
 ]},
-ptknp: {name:"Federatsia", desc:"lv:Angara A5V", stat:"pl", 
+ptknp: {name:"Federatsia", desc:"lv:Soyuz-5", stat:"pl", 
   parts:[
-    {names:"Федерация;PTK-NP:Pilotiruemyi Transportny Korabl Novogo Pokoleniya (New Generation Piloted Transport Ship)", type:"fbm", dest:"lun", ctry:"ru", desc:"ag:rosc;m:~20000kg;Uncrewed test flight", id:"", url:"rsw:www.russianspaceweb.com/ptk_flight_testing.html", icon:"federatsia.png"},
+    {names:"Федерация;PTK-NP:Pilotiruemyi Transportny Korabl Novogo Pokoleniya (New Generation Piloted Transport Ship)", type:"fbm", dest:"lun", ctry:"ru", desc:"ag:rosc;m:~20000kg;Uncrewed test flight;sc:0.7", id:"", url:"rsw:www.russianspaceweb.com/ptk_flight_testing.html", icon:"federatsia.png"},
     {type:"erm", dest:"ter"}], 
   events:[
     {pt:"", type:"l", dt:"2027", loc:"ter:vos", desc:"MOB KVTK-1 Tug"},
@@ -5740,7 +5740,7 @@ add: spec. impulse, manufact.
 "Delta II 7925H": {ctry:"us", m:"283000", pm:"6000/2170/1510",  d:"39.7x2.44", pf:"8.5-9.3x3.0", dt:"2003-07-08..2007-09-27", st:"2/9", ust:"Star-48B", th:"5030", fam:"Delta", desc:"l:cap,van;ag:nasa", fuel:"KeroLOX+SRP", icon:"Delta-7925H.png"},
 "Delta II 7925H-9.5": {syn:"Delta II 7925H"},
 //Delta 4H
-"Delta IV Heavy": {ctry:"us", m:"732000", pm:"23040/13100/9000",  d:"63x5.1", pf:"19.1x5", dt:"2004-12-21..", st:"2/2", ust:"Star-48", th:"9420", fam:"Delta", desc:"l:cap,van;ag:nasa", fuel:"LH2/LOX", icon:"Delta-4H_Orion.png"},
+"Delta IV Heavy": {ctry:"us", m:"732000", pm:"23040/13100/9000",  d:"63x5.1", pf:"19.8x5.1", dt:"2004-12-21..", st:"2/2", ust:"Star-48", th:"9420", fam:"Delta", desc:"l:cap,van;ag:nasa", fuel:"LH2/LOX", icon:"Delta-4H_Orion.png"},
 //Epsilon
 "Epsilon": {ctry:"jp", m:"91000", pm:"1200/-/-",  d:"24.4x2.5", pf:"", dt:"2013-09-14..", st:"3", ust:"CLPS", th:"2271", fam:"Epsilon", desc:"l:uch;ag:jaxa", fuel:"SRP", icon:"epsilon1.png"},
 //Epsilon
@@ -5754,8 +5754,8 @@ add: spec. impulse, manufact.
 "GSLV MkII": {n:"Geosynchronous Satellite Launch Vehicle Mk. II", alt:"भूस्थिर उपग्रह प्रक्षेपण यान", ctry:"ind", m:"402000", pm:"5000/2500/1300",  d:"49x2.8", pf:"", dt:"2010-04-15..", st:"2/4", ust:" CUS12", th:"7420", fam:"GSLV", desc:"l:sri;ag:isro", fuel:"SRP+UDMH/N2O4", icon:"gslv-mk2.png"},
 "GSLV MkIII": {n:"Geosynchronous Satellite Launch Vehicle Mk. III", alt:"भूस्थिर उपग्रह प्रक्षेपण यान-३", ctry:"ind", m:"630000", pm:"10000/5000/3200",  d:"42.4x4", pf:"", dt:"2014-12..", st:"2/2", ust:"C-25", th:"11300", fam:"GSLV", desc:"l:sri;ag:isro", fuel:"UDMH/N2O4+SRP", icon:"gslv-mk3.png"},
 //H-IIA 202, H-IIA 2022
-"H-IIA 202": {ctry:"jp", m:"289000", pm:"10000/4100/1600",  d:"53x4", pf:"10x4", dt:"2001-08-29..", st:"2/2", th:"5600", fam:"H-II", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"H2A-202.png"},
-"H-IIA 2022": {ctry:"jp", m:"348000", pm:"-/5000/2000",  d:"53x4", pf:"10x4", dt:"2005-02-26..2007-09-14", st:"2/4", th:"8580", fam:"H-II", desc:"l:tng;g:jaxa", fuel:"LH2/LOX+SRP", icon:"H2A-2022.png"},
+"H-IIA 202": {ctry:"jp", m:"289000", pm:"10000/4100/1600",  d:"53x4", pf:"12x5.1", dt:"2001-08-29..", st:"2/2", th:"5600", fam:"H-II", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"H2A-202.png"},
+"H-IIA 2022": {ctry:"jp", m:"348000", pm:"-/5000/2000",  d:"53x4", pf:"12x5.1", dt:"2005-02-26..2007-09-14", st:"2/4", th:"8580", fam:"H-II", desc:"l:tng;g:jaxa", fuel:"LH2/LOX+SRP", icon:"H2A-2022.png"},
 "H-IIA": {syn:"H-IIA 202"},
 "H-IIB": {ctry:"jp", m:"531000", pm:"19000/8000/4000",  d:"56.6x5.2", pf:"13x5.2", dt:"2009-09-10..", st:"2/4", th:"11200", fam:"H-II", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"H2B.png"},
 "H-III": {syn:"H-III 24L"},
@@ -5776,6 +5776,9 @@ add: spec. impulse, manufact.
 "Molniya 8K78M": {syn:"Molniya 8K78"},
 //N-1
 "N-1": {alt:"Н-1", ctry:"su", m:"2788000", pm:"70000/-/22000",  d:"105.3x14", pf:"", dt:"1969-02-21..1972-12-23", st:"4", th:"45400", fam:"N-1", desc:"l:bai;ag:tsk", fuel:"KeroLOX", icon:"N1.png"},
+//OmegA
+"OmegA": {syn:"OmegA 500"},
+"OmegA 500": {n:"", alt:"", ctry:"us", m:"", pm:"~30/4900..10100/-",  d:"59.8x3.7", pf:"5.3x15", dt:"2021..", st:"3/2-6", th:"12000", fam:"OmegA", desc:"ag:atk", fuel:"SRP/LH2+LOX", icon:"omega500.png"},
 //Pegasus-XL
 "Pegasus-XL": {n:"", alt:"", ctry:"us", m:"23269", pm:"475/175/-",  d:"17.6x6.7", pf:"2.2x1.1", dt:"1990-04-05..", st:"3/L-1011", th:"726", fam:"Pegasus", desc:"ag:atk", fuel:"SRP", icon:"pegasus-xl.png"},
 //PSLV-XL
@@ -5803,6 +5806,7 @@ add: spec. impulse, manufact.
 "Soyuz STA": {syn:"Soyuz 2.1"},
 "Soyuz STB": {syn:"Soyuz 2.1"},
 "Soyuz-FG": {alt:"Союз-ФГ", ctry:"ru", m:"308000", pm:"7200/2400/1200",  d:"46x2.95", pf:"", dt:"2003-06-02..2012-07-22", st:"2/4", ust:"Fregat", th:"4146", fam:"R-7", desc:"l:bai", fuel:"KeroLOX", icon:"Soyuz-FG.png"},
+"Soyuz-5": {alt:"Союз-5", ctry:"ru", m:"530000", pm:"18000/4500/2300",  d:"65.9x4.1", pf:"", dt:"2024", st:"2", ust:"DM-3", th:"7257", fam:"", desc:"l:bai", fuel:"KeroLOX", icon:"soyuz-5.png"},
 //STS-30 Atlantis/IUS, STS-34 Atlantis/IUS, STS-41 Discovery/PAM-S
 "STS": {n:"Space Shuttle", ctry:"us", m:"2040000", pm:"24400/4944/3550",  d:"56x23.8", pf:"18.3x4.6", dt:"1981-04-12..2011-07-08", st:"1/2", ust:"IUS/PAM-S", th:"28200", fam:"STS", desc:"l:ksc;ag:nasa", fuel:"LH2/LOX+SRP", icon:"STS.png"},
 "STS-30 Atlantis": {syn:"STS"},
@@ -5890,14 +5894,14 @@ Common.lpad = [
 {n:"LC-36B", par:"cap", lv:"Atlas Centaur;Atlas II", loc:"28.4753N,80.5396W"},
 {n:"LC-37B", par:"cap", lv:"Saturn IB,Delta IV", loc:"28.531N,80.565W"},
 {n:"LC-39A", par:"ksc", lv:"Saturn V;STS;Falcon 9;Falcon Heavy", loc:"28.608N,80.604W"},
-{n:"LC-39B", par:"ksc", lv:"Saturn V;STS;SLS", loc:"28.627N,80.621W"},
+{n:"LC-39B", par:"ksc", lv:"Saturn V;STS;SLS;OmegA", loc:"28.627N,80.621W"},
 {n:"LC-40", par:"cap", lv:"Titan;Falcon 9", loc:"28.562N,80.577W"},
 {n:"LC-41", par:"cap", lv:"Titan;Atlas V", loc:"28.583N,80.583W"},
 {n:"LC-43/3", par:"ple", lv:"R-7;Molniya;Soyuz", loc:"62.927N,40.450E"},
 {n:"LC-43/4", par:"ple", lv:"R-7;Molniya;Soyuz", loc:"62.929N,40.457E"},
 {n:"LC43/921", par:"jiu", lv:"CZ-2F", loc:"40.958N,100.291E"},
 {n:"LC43/603", par:"jiu", lv:"CZ-2C/D;CZ-4C", loc:"40.960N,100.298E"},
-{n:"LC-45/1", par:"bai", lv:"Zenit", loc:"45.943N,63.653E"},
+{n:"LC-45/1", par:"bai", lv:"Zenit;Soyuz-5", loc:"45.943N,63.653E"},
 {n:"LC-46", par:"cap", lv:"Athena 2", loc:"28.459N,80.528W"},
 {n:"LC-81/23", par:"bai", lv:"Proton-K", loc:"46.074N,62.978E"},
 {n:"LC-81/24", par:"bai", lv:"Proton-K", loc:"46.071N,62.985E"},
@@ -5919,7 +5923,7 @@ Common.lpad = [
 {n:"LP-0B", par:"wal", lv:"Minotaur", loc:"37.831N,75.491W"},
 {n:"M-1", par:"uch", lv:"M-3SII;Epsilon", loc:"31.2504N,131.0821E"},
 {n:"M-5", par:"uch", lv:"M-V", loc:"31.2510N,131.0823E"},
-{n:"SLC-2W", par:"van", lv:"Delta II", loc:"34.755N,120.622W"},
+{n:"SLC-2W", par:"van", lv:"Delta II;OmegA", loc:"34.755N,120.622W"},
 {n:"SLC-3E", par:"van", lv:"Atlas V", loc:"34.640N,120.590W"},
 {n:"SLC-4W", par:"van", lv:"Atlas-Agena;Titan", loc:"34.633N,120.616W"},
 {n:"SLC-4E", par:"van", lv:"Atlas-Agena;Titan;Falcon 9;Falcon Heavy", loc:"34.632N,120.610W"},
@@ -5937,12 +5941,10 @@ Common.lpad = [
 {n:"YLP-1", par:"tng", lv:"H-IIA", loc:"30.401N,130.977E"},
 {n:"YLP-2", par:"tng", lv:"H-IIB", loc:"30.401N, 130.975E"},
 {n:"(LP-1)", par:"vos", lv:"Angara-1.2/A3/A5", loc:"51.8756N,128.3615E"},
-{n:"(LP-2)", par:"vos", lv:"Angara-A5V/A7", loc:"51.8756N,128.3615E"},
+//{n:"(LP-2)", par:"vos", lv:"Angara-A5V/A7", loc:"51.8756N,128.3615E"},
 {n:"(LC)", par:"wen", lv:"CZ-9", loc:""},
 {n:"(LC)", par:"nar", lv:"KSLV-II", loc:"34.4319N,127.5362E"}
 ];
-
-
 /* global UI, SSEH, Common, Parse, Create, Read, Cdraw, Trig, px */
 
 Common.dsn = {

@@ -2767,7 +2767,7 @@ exomarstgo: {name:"ExoMars TGO:Exomars Trace Gas Orbiter", desc:"lv:Proton-M/Bri
     {pt:"1", type:"edl", dt:"2016-10-19", loc:"mar", desc:"Meridiani Planum;dp;fail:Premature engine shutdown"},
     {pt:"1", type:"imp", dt:"2016-10-19", loc:"mar:6.21W,2.07S", desc:"dp;eom:slm;show:Schiaparelli:SW"},
     {pt:"0", type:"ev", dt:"2017-03-15", loc:"mar", desc:"Start of Aerobraking"},
-    {pt:"0", type:"sco", dt:"2018-03", loc:"mar:400kmx74deg", desc:""},
+    {pt:"0", type:"sco", dt:"2018-04", loc:"mar:400kmx74deg", desc:""},
     {pt:"0", type:"nom", dt:"2022-12", loc:"mar", desc:"?"},
     {pt:"0", type:"pom", dt:"2028-12", loc:"mar", desc:"?"}
 ]},
@@ -2844,16 +2844,16 @@ bepicolombo: {name:"Bepi Colombo", desc:"lv:Ariane 5ECA",
 ]},
 insight: {name:"InSIGHT:Interior Exploration using Seismic Investigations, Geodesy and Heat Transport", desc:"lv:Atlas V 401",
   parts:[
-    {names:"", type:"slm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;fam:Discovery;m:350kg;dim:5.5x2.4x1.2m;sc:0.75", id:"", url:"hp:insight.jpl.nasa.gov/;tw:twitter.com/NASAInsight", icon:"insight.png"}], 
+    {names:"", type:"slm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;fam:Discovery;m:694kg;m0:358kg;dim:5.5x2.4x1.2m;sc:0.75", id:"", url:"hp:insight.jpl.nasa.gov/;tw:twitter.com/NASAInsight", icon:"insight.png"}], 
   events:[
     {pt:"", type:"l", dt:"2018-05-05", loc:"ter:van:SLC-3E", desc:""},
     {pt:"", type:"edl", dt:"2018-11-26", loc:"mar:4.46N,136.04E", desc:"Elysium Planitia;show:InSIGHT"},
-    {pt:"", type:"nom", dt:"2020-12-31", loc:"mar", desc:"?"},
+    {pt:"", type:"nom", dt:"2020-11-24", loc:"mar", desc:"?"},
     {pt:"", type:"pom", dt:"2026-12-31", loc:"mar", desc:""}
 ]},
 marco: {name:"MarCO:Mars Cube One", desc:"lv:Atlas V 401;part:insight",
   parts:[
-    {names:"2 Cubesats", type:"fbm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;InSIGHT EDL Communication Relay;dim:0.36x0.72x0.58m;sc:0.5", id:"", url:"hp:www.jpl.nasa.gov/cubesat/missions/marco.php", icon:"marco.png"}], 
+    {names:"2 Cubesats", type:"fbm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;InSIGHT EDL Communication Relay;m:13.5kg;dim:0.36x0.72x0.58m;sc:0.5", id:"", url:"hp:www.jpl.nasa.gov/cubesat/missions/marco.php", icon:"marco.png"}], 
   events:[
     {pt:"", type:"l", dt:"2018-05-05", loc:"ter:van:SLC-3E", desc:""},
     {pt:"", type:"fb", dt:"l+7mo", loc:"mar:3500km", desc:"eom"}
@@ -3206,7 +3206,7 @@ juice: {name:"JUICE:JUpiter ICy moons Explorer", desc:"lv:Ariane 5ECA",
     {names:"", type:"om", dest:"jup", stat:"pl", ctry:"eu", desc:"ag:esa;m:5250kg;m0:2200kg;fam:L-class;dim:28.4x3.9x4.0m;sc:1", id:"", url:"hp:sci.esa.int/juice;tw:twitter.com/ESA_JUICE", icon:"juice.png"},
 {type:"om", dest:"jup:gany", stat:"pl", ctry:"eu"}], 
   events:[
-    {pt:"", type:"l", dt:"2022-05-20", loc:"ter:kou:ELA-3", desc:""},
+    {pt:"", type:"l", dt:"2022-06", loc:"ter:kou:ELA-3", desc:""},
     {pt:"", type:"fb", dt:"2023-05", loc:"ter:12725km", desc:"ga"},
     {pt:"", type:"fb", dt:"2023-10", loc:"ven:9538km", desc:"ga"},
     {pt:"", type:"fb", dt:"2024-09", loc:"ter:1945km", desc:"ga"},
@@ -3291,9 +3291,9 @@ venerad: {name:"Venera-D", desc:"lv:Proton-M/Briz-M",
     {pt:"1", type:"nom", dt:"l+3yr", loc:"ven", desc:""},
     {pt:"1", type:"pom", dt:"l+4yr", loc:"ven", desc:"?"}
 ]},
-ptknp: {name:"Federatsia", desc:"lv:Angara A5V", stat:"pl", 
+ptknp: {name:"Federatsia", desc:"lv:Soyuz-5", stat:"pl", 
   parts:[
-    {names:"Федерация;PTK-NP:Pilotiruemyi Transportny Korabl Novogo Pokoleniya (New Generation Piloted Transport Ship)", type:"fbm", dest:"lun", ctry:"ru", desc:"ag:rosc;m:~20000kg;Uncrewed test flight", id:"", url:"rsw:www.russianspaceweb.com/ptk_flight_testing.html", icon:"federatsia.png"},
+    {names:"Федерация;PTK-NP:Pilotiruemyi Transportny Korabl Novogo Pokoleniya (New Generation Piloted Transport Ship)", type:"fbm", dest:"lun", ctry:"ru", desc:"ag:rosc;m:~20000kg;Uncrewed test flight;sc:0.7", id:"", url:"rsw:www.russianspaceweb.com/ptk_flight_testing.html", icon:"federatsia.png"},
     {type:"erm", dest:"ter"}], 
   events:[
     {pt:"", type:"l", dt:"2027", loc:"ter:vos", desc:"MOB KVTK-1 Tug"},
