@@ -1257,7 +1257,7 @@ xuntian:{name:"Xuntian:Sky Survey", url:"hp:", desc:"ag:cnsa;lv:CZ-5B;sc:0.9;y:7
     {pt:"", dt:"2022", tp:"sco", loc:"ter:leo", desc:""},
     {pt:"", dt:"2032", tp:"pom", loc:"ter:leo", desc:""}
   ], inst: [
-    {n:"OS", type:"is", band:"255..1000nm", res:"0.15", px:0.07, d:2, fov:"1.1deg2", desc:"c:nr;cl:"}
+    {n:"OS", tp:"is", band:"255..1000nm", res:"0.15", px:0.07, d:2, fov:"1.1deg2", desc:"c:nr;cl:nly"}
   ]},
 yokoh:{name:"Yohkoh:Sunbeam ", url:"hp:www.isas.jaxa.jp/e/enterp/missions/yohkoh/index.shtml;lmsal:www.lmsal.com/SXT/main2.html", desc:"ag:isas;lv:M-3SII", stat:"s", 
   parts: [

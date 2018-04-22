@@ -2844,7 +2844,7 @@ bepicolombo: {name:"Bepi Colombo", desc:"lv:Ariane 5ECA",
 ]},
 insight: {name:"InSIGHT:Interior Exploration using Seismic Investigations, Geodesy and Heat Transport", desc:"lv:Atlas V 401",
   parts:[
-    {names:"", type:"slm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;fam:Discovery;m:694kg;m0:358kg;dim:5.5x2.4x1.2m;sc:0.75", id:"", url:"hp:insight.jpl.nasa.gov/;tw:twitter.com/NASAInsight", icon:"insight.png"}], 
+    {names:"", type:"slm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;fam:Discovery;m:694kg;m0:358kg;dim:6x2.7x1.2m;sc:0.75", id:"", url:"hp:insight.jpl.nasa.gov/;tw:twitter.com/NASAInsight", icon:"insight.png"}], 
   events:[
     {pt:"", type:"l", dt:"2018-05-05", loc:"ter:van:SLC-3E", desc:""},
     {pt:"", type:"edl", dt:"2018-11-26", loc:"mar:4.46N,136.04E", desc:"Elysium Planitia;show:InSIGHT"},
