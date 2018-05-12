@@ -8,6 +8,7 @@ om: {name:"Orbiter", col:"#e31a1c"}, //red
 slm: {name:"Lander", col:"#1f78b4"}, //blue
 pm: {name:"Descent Probe", col:"#cab2d6"}, //purpleblue
 bm: {name:"Balloon Probe", col:"#a6cee3"}, //lblue
+dm: {name:"Drone Probe", col:"#a6cee3"}, //lblue
 rvm: {name:"Rover", col:"#33a02c"}, //dgreen 
 hpm: {name:"Hopper", col:"#b2df8a"}, //lgreen
 srm: {name:"Sample Return", col:"#ff7f00"}, //orange

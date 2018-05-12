@@ -2844,7 +2844,7 @@ bepicolombo: {name:"Bepi Colombo", desc:"lv:Ariane 5ECA",
 ]},
 insight: {name:"InSIGHT:Interior Exploration using Seismic Investigations, Geodesy and Heat Transport", desc:"lv:Atlas V 401",
   parts:[
-    {names:"", type:"slm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;fam:Discovery;m:694kg;m0:358kg;dim:6x2.7x1.2m;sc:0.75", id:"", url:"hp:insight.jpl.nasa.gov/;tw:twitter.com/NASAInsight", icon:"insight.png"}], 
+    {names:"", type:"slm", dest:"mar", stat:"o", ctry:"us", desc:"ag:nasa,jpl;fam:Discovery;m:694kg;m0:358kg;dim:6x2.7x1.2m;sc:0.75", id:"2018-042A", url:"hp:insight.jpl.nasa.gov/;tw:twitter.com/NASAInsight", icon:"insight.png"}], 
   events:[
     {pt:"", type:"l", dt:"2018-05-05", loc:"ter:van:SLC-3E", desc:""},
     {pt:"", type:"edl", dt:"2018-11-26", loc:"mar:4.46N,136.04E", desc:"Elysium Planitia;show:InSIGHT"},
@@ -2853,10 +2853,11 @@ insight: {name:"InSIGHT:Interior Exploration using Seismic Investigations, Geode
 ]},
 marco: {name:"MarCO:Mars Cube One", desc:"lv:Atlas V 401;part:insight",
   parts:[
-    {names:"2 Cubesats", type:"fbm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;InSIGHT EDL Communication Relay;m:13.5kg;dim:0.36x0.72x0.58m;sc:0.5", id:"", url:"hp:www.jpl.nasa.gov/cubesat/missions/marco.php", icon:"marco.png"}], 
+    {names:"MarCO A;Wall-E", type:"fbm", dest:"mar", stat:"o", ctry:"us", desc:"ag:nasa,jpl;InSIGHT EDL Communication Relay;m:13.5kg;dim:0.36x0.72x0.58m;sc:0.3", id:"2018-042B", url:"hp:www.jpl.nasa.gov/cubesat/missions/marco.php", icon:"marco.png"},
+    {names:"MarCO B;Eve", type:"fbm", dest:"mar", stat:"o", ctry:"us", desc:"ag:nasa,jpl", id:"2018-042C", url:"", icon:""}], 
   events:[
     {pt:"", type:"l", dt:"2018-05-05", loc:"ter:van:SLC-3E", desc:""},
-    {pt:"", type:"fb", dt:"l+7mo", loc:"mar:3500km", desc:"eom"}
+    {pt:"", type:"fb", dt:"2018-11-26", loc:"mar:3500km", desc:"eom"}
 ]},
 change4relay: {name:"Chang'e 4 LRS:Lunar Relay Satellite", desc:"lv:CZ-4C",
   parts:[
@@ -3076,12 +3077,14 @@ exomarsrv: {name:"ExoMars Rover", desc:"lv:Proton-M/Briz-M",
 ]},
 mars2020rover: {name:"Mars 2020 Rover", desc:"lv:Atlas V 551",
   parts:[
-    {names:"", type:"rvm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;m:1050kg;dim:3.0x2.7x2.2m;sc:0.7;Sample Caching Mission", id:"", url:"hp:mars.jpl.nasa.gov/mars2020", icon:"mars2020.png"}], 
+    {names:"", type:"rvm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;m:1050kg;dim:3.0x2.7x2.2m;sc:0.7;Sample Caching Mission", id:"", url:"hp:mars.jpl.nasa.gov/mars2020", icon:"mars2020.png"},
+    {names:"Mars Helicopter", type:"dm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;m:1.8kg;dim:;sc:0.7;", id:"", url:"", icon:"marshelo.png"}], 
   events:[
     {pt:"", type:"l", dt:"2020-08", loc:"ter:cap:SLC-41", desc:""},
     {pt:"", type:"toi", dt:"l+1dy", loc:"sol:hto", desc:""},
-    {pt:"", type:"edl", dt:"l+0.55yr", loc:"mar", desc:""},
-    {pt:"", type:"nom", dt:"l+2.75yr", loc:"mar", desc:"?"},
+    {pt:"", type:"edl", dt:"2021-02", loc:"mar", desc:""},
+    {pt:"", type:"tos", dt:"2021-03", loc:"mar", desc:"eom:dm;Helicopter probe"},
+    {pt:"", type:"nom", dt:"2023-01", loc:"mar", desc:"?"},
     {pt:"", type:"pom", dt:"l+10yr", loc:"mar", desc:"?"}
 ]},
 change6: {name:"Chang'e 6", desc:"lv:CZ-5",

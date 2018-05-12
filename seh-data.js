@@ -1,6 +1,6 @@
 var SSEH = SSEH || {
   TITLE: "Solar System Exploration History",
-  VERSION: "1.6.14",
+  VERSION: "1.6.15",
   DATE: "2018-04 ",
   AUTHOR: "Olaf Frohn",
   CLICK: "Click on anything for more details",
@@ -68,6 +68,7 @@ om: {name:"Orbiter", col:"#e31a1c"}, //red
 slm: {name:"Lander", col:"#1f78b4"}, //blue
 pm: {name:"Descent Probe", col:"#cab2d6"}, //purpleblue
 bm: {name:"Balloon Probe", col:"#a6cee3"}, //lblue
+dm: {name:"Drone Probe", col:"#a6cee3"}, //lblue
 rvm: {name:"Rover", col:"#33a02c"}, //dgreen 
 hpm: {name:"Hopper", col:"#b2df8a"}, //lgreen
 srm: {name:"Sample Return", col:"#ff7f00"}, //orange
@@ -3490,7 +3491,7 @@ bepicolombo: {name:"Bepi Colombo", desc:"lv:Ariane 5ECA",
 ]},
 insight: {name:"InSIGHT:Interior Exploration using Seismic Investigations, Geodesy and Heat Transport", desc:"lv:Atlas V 401",
   parts:[
-    {names:"", type:"slm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;fam:Discovery;m:694kg;m0:358kg;dim:6x2.7x1.2m;sc:0.75", id:"", url:"hp:insight.jpl.nasa.gov/;tw:twitter.com/NASAInsight", icon:"insight.png"}], 
+    {names:"", type:"slm", dest:"mar", stat:"o", ctry:"us", desc:"ag:nasa,jpl;fam:Discovery;m:694kg;m0:358kg;dim:6x2.7x1.2m;sc:0.75", id:"2018-042A", url:"hp:insight.jpl.nasa.gov/;tw:twitter.com/NASAInsight", icon:"insight.png"}], 
   events:[
     {pt:"", type:"l", dt:"2018-05-05", loc:"ter:van:SLC-3E", desc:""},
     {pt:"", type:"edl", dt:"2018-11-26", loc:"mar:4.46N,136.04E", desc:"Elysium Planitia;show:InSIGHT"},
@@ -3499,10 +3500,11 @@ insight: {name:"InSIGHT:Interior Exploration using Seismic Investigations, Geode
 ]},
 marco: {name:"MarCO:Mars Cube One", desc:"lv:Atlas V 401;part:insight",
   parts:[
-    {names:"2 Cubesats", type:"fbm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;InSIGHT EDL Communication Relay;m:13.5kg;dim:0.36x0.72x0.58m;sc:0.5", id:"", url:"hp:www.jpl.nasa.gov/cubesat/missions/marco.php", icon:"marco.png"}], 
+    {names:"MarCO A;Wall-E", type:"fbm", dest:"mar", stat:"o", ctry:"us", desc:"ag:nasa,jpl;InSIGHT EDL Communication Relay;m:13.5kg;dim:0.36x0.72x0.58m;sc:0.3", id:"2018-042B", url:"hp:www.jpl.nasa.gov/cubesat/missions/marco.php", icon:"marco.png"},
+    {names:"MarCO B;Eve", type:"fbm", dest:"mar", stat:"o", ctry:"us", desc:"ag:nasa,jpl", id:"2018-042C", url:"", icon:""}], 
   events:[
     {pt:"", type:"l", dt:"2018-05-05", loc:"ter:van:SLC-3E", desc:""},
-    {pt:"", type:"fb", dt:"l+7mo", loc:"mar:3500km", desc:"eom"}
+    {pt:"", type:"fb", dt:"2018-11-26", loc:"mar:3500km", desc:"eom"}
 ]},
 change4relay: {name:"Chang'e 4 LRS:Lunar Relay Satellite", desc:"lv:CZ-4C",
   parts:[
@@ -3722,12 +3724,14 @@ exomarsrv: {name:"ExoMars Rover", desc:"lv:Proton-M/Briz-M",
 ]},
 mars2020rover: {name:"Mars 2020 Rover", desc:"lv:Atlas V 551",
   parts:[
-    {names:"", type:"rvm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;m:1050kg;dim:3.0x2.7x2.2m;sc:0.7;Sample Caching Mission", id:"", url:"hp:mars.jpl.nasa.gov/mars2020", icon:"mars2020.png"}], 
+    {names:"", type:"rvm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;m:1050kg;dim:3.0x2.7x2.2m;sc:0.7;Sample Caching Mission", id:"", url:"hp:mars.jpl.nasa.gov/mars2020", icon:"mars2020.png"},
+    {names:"Mars Helicopter", type:"dm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;m:1.8kg;dim:;sc:0.7;", id:"", url:"", icon:"marshelo.png"}], 
   events:[
     {pt:"", type:"l", dt:"2020-08", loc:"ter:cap:SLC-41", desc:""},
     {pt:"", type:"toi", dt:"l+1dy", loc:"sol:hto", desc:""},
-    {pt:"", type:"edl", dt:"l+0.55yr", loc:"mar", desc:""},
-    {pt:"", type:"nom", dt:"l+2.75yr", loc:"mar", desc:"?"},
+    {pt:"", type:"edl", dt:"2021-02", loc:"mar", desc:""},
+    {pt:"", type:"tos", dt:"2021-03", loc:"mar", desc:"eom:dm;Helicopter probe"},
+    {pt:"", type:"nom", dt:"2023-01", loc:"mar", desc:"?"},
     {pt:"", type:"pom", dt:"l+10yr", loc:"mar", desc:"?"}
 ]},
 change6: {name:"Chang'e 6", desc:"lv:CZ-5",
@@ -5662,8 +5666,8 @@ add: spec. impulse, manufact.
 "Ariane 5G+": {syn:"Ariane 5G"},
 "Ariane 5ECA": {ctry:"eu", m:"764000", pm:"21000/9600/5400",  d:"57.7x5.4", pf:"17x5.4", dt:"2002-12-11..", st:"2/2", th:"11400", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"LH2/LOX+SRP", icon:"Ariane-5.png"},
 "Ariane 6": {syn:"Ariane 62"},
-"Ariane 62": {ctry:"eu", m:"500000", pm:"10000/5000/3000",  d:"62x5.4", pf:"20x5.4", dt:"2020-07..", st:"2/2", ust:"ULPM", th:"8350", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"LH2/LOX+SRP", icon:"ariane62.png"},
-"Ariane 64": {ctry:"eu", m:"900000", pm:"20000/10500/7000",  d:"62x5.4", pf:"20x5.4", dt:"2020-07..", st:"2/4", ust:"ULPM", th:"15350", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"LH2/LOX+SRP", icon:"ariane64.png"},
+"Ariane 62": {ctry:"eu", m:"500000", pm:"11300/5000/2600",  d:"62x5.4", pf:"20x5.4", dt:"2020-07..", st:"2/2", ust:"ULPM", th:"8350", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"LH2/LOX+SRP", icon:"ariane62.png"},
+"Ariane 64": {ctry:"eu", m:"900000", pm:"22300/11500/7600",  d:"62x5.4", pf:"20x5.4", dt:"2020-07..", st:"2/4", ust:"ULPM", th:"15350", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"LH2/LOX+SRP", icon:"ariane64.png"},
 //Athena 2
 "Athena 2": {ctry:"us", m:"120700", pm:"2065/593/300",  d:"28.2x2.3", pf:"x2.36", dt:"1998-01-07..1999-09-24", st:"3", th:"1450", fam:"MX", desc:"l:cap;ag:nasa", fuel:"SRP", icon:"Athena-2.png"},
 //Atlas-D Able IV, Atlas-D Able V
