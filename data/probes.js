@@ -2861,22 +2861,24 @@ marco: {name:"MarCO:Mars Cube One", desc:"lv:Atlas V 401;part:insight",
     {pt:"", type:"l", dt:"2018-05-05", loc:"ter:van:SLC-3E", desc:""},
     {pt:"", type:"fb", dt:"2018-11-26", loc:"mar:3500km", desc:"eom"}
 ]},
-change4relay: {name:"Chang'e 4 LRS:Lunar Relay Satellite", desc:"lv:CZ-4C",
+change4relay: {name:"Queqiao:Magpie Bridge", desc:"lv:CZ-4C",
   parts:[
-    {names:"嫦娥四号 中继通信卫星", type:"om", dest:"lun", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:clep;sc:0.4;m:425kg;dim:4.2m", id:"", url:"China Spaceflight:www.chinaspaceflight.com/satellite/Deepspace/CE-4/CE-4.html", icon:"chang-e4-relay.png"}
+    {names:"鹊桥;Chang'e 4 LRS:Lunar Relay Satellite", type:"om", dest:"lun", stat:"o", ctry:"cn", desc:"ag:cnsa;fam:clep;sc:0.4;m:425kg;dim:4.2m", id:"2018-045A", url:"China Spaceflight:www.chinaspaceflight.com/satellite/Deepspace/CE-4/CE-4.html", icon:"chang-e4-relay.png"}
    ], 
   events:[
-    {pt:"", type:"l", dt:"2018-06", loc:"ter:xch:LC-2", desc:""},
-    {pt:"", type:"oi", dt:"l+5dy", loc:"lun:eml2", desc:"Halo orbit"},
+    {pt:"", type:"l", dt:"2018-05-21", loc:"ter:xch:LC-2", desc:""},
+    {pt:"", type:"fb", dt:"l+8dy", loc:"lun", desc:"ga"},
+    {pt:"", type:"oi", dt:"l+9dy", loc:"lun:eml2:13000km", desc:"Halo orbit"},
     {pt:"", type:"nom", dt:"l+5yr", loc:"lun", desc:"?"}
 ]},
-dslwp: {name:"DSLWP-A1/A2", desc:"lv:CZ-4C;part:change4relay",
+dslwp: {name:"Longjiang 1 & 2:Dragon River", desc:"lv:CZ-4C;part:change4relay",
   parts:[
-    {names:"月球轨道超长波天文观测微卫星", type:"om", dest:"lun", stat:"pl", ctry:"cn", desc:"ag:cnsa,HIT;m:45kg;dim:0.5x0.5x0.4m;sc:1", id:"", url:"hp:lilacsat.hit.edu.cn/;China Spaceflight:www.chinaspaceflight.com/satellite/HIT/DSLWP-A1-A2.html", icon:"dslwp.png"}
+    {names:"龙江一号;DSLWP-A1:Discovering the Sky at Longest Wavelengths Pathfinder", type:"obm", dest:"lun", stat:"o", ctry:"cn", desc:"ag:cnsa,HIT;m:45kg;dim:0.5x0.5x0.4m;sc:0.3", id:"2018-045B", url:"hp:lilacsat.hit.edu.cn/;China Spaceflight:www.chinaspaceflight.com/satellite/HIT/DSLWP-A1-A2.html", icon:"dslwp.png"},
+    {names:"龙江二号;DSLWP-A2:Discovering the Sky at Longest Wavelengths Pathfinder", type:"obm", dest:"lun", stat:"o", ctry:"cn", desc:"", id:"2018-045C", url:"", icon:""}
    ], 
   events:[
-    {pt:"", type:"l", dt:"2018-06", loc:"ter:xch:LC-2", desc:"Chang'e 4 LRS piggyback"},
-    {pt:"", type:"oi", dt:"l+5dy", loc:"lun:200x9000km", desc:""},
+    {pt:"", type:"l", dt:"2018-05-21", loc:"ter:xch:LC-2", desc:"Chang'e 4 LRS piggyback"},
+    {pt:"", type:"oi", dt:"l+8dy", loc:"lun:300x3000km", desc:""},
     {pt:"", type:"nom", dt:"l+1yr", loc:"lun", desc:"?"}
 ]},
 /*reddragon: {name:"Red Dragon", desc:"lv:Falcon Heavy",
