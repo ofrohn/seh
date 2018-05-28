@@ -2849,6 +2849,7 @@ insight: {name:"InSIGHT:Interior Exploration using Seismic Investigations, Geode
     {names:"", type:"slm", dest:"mar", stat:"o", ctry:"us", desc:"ag:nasa,jpl;fam:Discovery;m:694kg;m0:358kg;dim:6x2.7x1.2m;sc:0.75", id:"2018-042A", url:"hp:insight.jpl.nasa.gov/;tw:twitter.com/NASAInsight", icon:"insight.png"}], 
   events:[
     {pt:"", type:"l", dt:"2018-05-05", loc:"ter:van:SLC-3E", desc:""},
+    {pt:"", type:"toi", dt:"2018-05-05", loc:"sol:ho:1.0x1.4aux2.3deg", desc:""},
     {pt:"", type:"edl", dt:"2018-11-26", loc:"mar:4.46N,136.04E", desc:"Elysium Planitia;show:InSIGHT"},
     {pt:"", type:"nom", dt:"2020-11-24", loc:"mar", desc:"?"},
     {pt:"", type:"pom", dt:"2026-12-31", loc:"mar", desc:""}
@@ -2867,9 +2868,9 @@ change4relay: {name:"Queqiao:Magpie Bridge", desc:"lv:CZ-4C",
    ], 
   events:[
     {pt:"", type:"l", dt:"2018-05-21", loc:"ter:xch:LC-2", desc:""},
-    {pt:"", type:"fb", dt:"l+8dy", loc:"lun", desc:"ga"},
-    {pt:"", type:"oi", dt:"l+9dy", loc:"lun:eml2:13000km", desc:"Halo orbit"},
-    {pt:"", type:"nom", dt:"l+5yr", loc:"lun", desc:"?"}
+    {pt:"", type:"fb", dt:"2018-05-25", loc:"lun:100km", desc:"ga"},
+    {pt:"", type:"oi", dt:"2018-05-30", loc:"lun:eml2:13000km", desc:"Halo orbit"},
+    {pt:"", type:"nom", dt:"2023-06", loc:"lun", desc:"?"}
 ]},
 dslwp: {name:"Longjiang 1 & 2:Dragon River", desc:"lv:CZ-4C;part:change4relay",
   parts:[
@@ -2878,8 +2879,8 @@ dslwp: {name:"Longjiang 1 & 2:Dragon River", desc:"lv:CZ-4C;part:change4relay",
    ], 
   events:[
     {pt:"", type:"l", dt:"2018-05-21", loc:"ter:xch:LC-2", desc:"Chang'e 4 LRS piggyback"},
-    {pt:"", type:"oi", dt:"l+8dy", loc:"lun:300x3000km", desc:""},
-    {pt:"", type:"nom", dt:"l+1yr", loc:"lun", desc:"?"}
+    {pt:"", type:"oi", dt:"2018-05-25", loc:"lun:300x3000km", desc:""},
+    {pt:"", type:"nom", dt:"2019-06", loc:"lun", desc:"?"}
 ]},
 /*reddragon: {name:"Red Dragon", desc:"lv:Falcon Heavy",
   parts:[
