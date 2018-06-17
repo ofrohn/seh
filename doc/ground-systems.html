@@ -12,7 +12,7 @@
     .ninfoBox * { position:relative; }*/
   </style>
 <script type="text/javascript" src="../seh-data.min.js"></script>
-<script type="text/javascript" src="../seh-app.min.js"></script>
+<script type="text/javascript" src="../seh-app.js"></script>
 <script type="text/javascript" src="countries.geo.json"></script>
 <script type="text/javascript">
 
@@ -119,11 +119,11 @@
     clnm = 0;
     x = 0;
     h1 = 20;
-    cnv.text("Deep Space Exploration Ground Infrastructure (operations)", wc[0], h-h1*13+8, "bold 20px 'Trebuchet MS'");
+    cnv.text("Deep Space Exploration Ground Infrastructure (operations)", wc[0], h-h1*14+8, "bold 20px 'Trebuchet MS'");
     for (var key in Common.heads) {
       if (key === "jp") { 
-        y = h - h1*7+10;
-      } else y = h - h1*12;
+        y = h - h1*8+10;
+      } else y = h - h1*13;
       x += wc[clnm];
       
       var col = convertCol(Common.ctry[key].col);

@@ -559,6 +559,15 @@ ibex:{name:"IBEX:Interstellar Boundary EXplorer", url:"hp:ibex.swri.edu/index.sh
   ], inst: [
     {n:"", band:"", res:"", d:"", px:"", url:"", desc:"c:;"}
 ]},
+imap:{name:"IMAP:Interstellar Mapping and Acceleration Probe", url:"hp:soma.larc.nasa.gov/STP/IMAP/", desc:"ag:nasa,jhuapl;lv:;m:", stat:"pl", 
+  parts: [
+    {n:"", ctry:"us", type:"par", pur:"", id:"", icon:"imap.png", desc:""}
+  ], ev: [
+    {pt:"", dt:"2024", tp:"l", loc:"ter", desc:""},
+    {pt:"", dt:"2024", tp:"sco", loc:"sol:ho:esl1", desc:""}
+  ], inst: [
+    {n:"", band:"", res:"", d:"", px:"", url:"", desc:"c:;"}
+]},
 integral:{name:"Integral:International Gamma Ray Astrophysics Laboratory", url:"hp:sci.esa.int/integral/;tw:twitter.com/ESA_Integral", desc:"ag:esa;lv:Proton-K/Blok-DM2;sc:1;y:20", stat:"o", 
   parts: [
     {n:"", ctry:"eu", type:"x;g", pur:"", id:"2002-048A", icon:"integral.png", desc:""}
@@ -677,6 +686,16 @@ kepler:{name:"Kepler", url:"hp:kepler.nasa.gov/;tw:twitter.com/NASAKepler", desc
     {pt:"", dt:"2018", tp:"eom", loc:"", desc:"Fuel depletion"}
   ], inst: [
     {n:"", band:"423..897nm", d:"1.4", px:"10", tres:"59..1766s", fov:"16deg", desc:"c:n;cl:nl;"}
+]},
+longjiang: {name:"Longjiang 2:Dragon River", url:"hp:www.chinaspaceflight.com/satellite/HIT/DSLWP-A1-A2.html", desc:"ag:cnsa,HIT;m:45kg;dim:0.5x0.5x0.4m;lv:CZ-4C;", stat:"o",
+  parts:[
+    {n:"龙江二号;DSLWP-A2:Discovering the Sky at Longest Wavelengths Pathfinder", type:"r", pur:"lun", ctry:"cn", id:"2018-045B", icon:"dslwp.png"}
+   ],  ev:[
+    {pt:"", type:"l", dt:"2018-05-21", loc:"ter:xch:LC-2", desc:"Chang'e 4 LRS piggyback"},
+    {pt:"", type:"oi", dt:"2018-05-25", loc:"lun:300x3000km", desc:""},
+    {pt:"", type:"nom", dt:"2019-06", loc:"lun", desc:"?"}
+  ], inst: [
+    {n:"", band:"1..30MHz", res:"", desc:"c:nv;"}
 ]},
 qss:{name:"Mozi", url:"", desc:"ag:cnsa;lv:CZ-2D;m:500kg", stat:"o", 
   parts: [

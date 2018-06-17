@@ -1212,6 +1212,15 @@ ibex:{name:"IBEX:Interstellar Boundary EXplorer", url:"hp:ibex.swri.edu/index.sh
   ], inst: [
     {n:"", band:"", res:"", d:"", px:"", url:"", desc:"c:;"}
 ]},
+imap:{name:"IMAP:Interstellar Mapping and Acceleration Probe", url:"hp:soma.larc.nasa.gov/STP/IMAP/", desc:"ag:nasa,jhuapl;lv:;m:", stat:"pl", 
+  parts: [
+    {n:"", ctry:"us", type:"par", pur:"", id:"", icon:"imap.png", desc:""}
+  ], ev: [
+    {pt:"", dt:"2024", tp:"l", loc:"ter", desc:""},
+    {pt:"", dt:"2024", tp:"sco", loc:"sol:ho:esl1", desc:""}
+  ], inst: [
+    {n:"", band:"", res:"", d:"", px:"", url:"", desc:"c:;"}
+]},
 integral:{name:"Integral:International Gamma Ray Astrophysics Laboratory", url:"hp:sci.esa.int/integral/;tw:twitter.com/ESA_Integral", desc:"ag:esa;lv:Proton-K/Blok-DM2;sc:1;y:20", stat:"o", 
   parts: [
     {n:"", ctry:"eu", type:"x;g", pur:"", id:"2002-048A", icon:"integral.png", desc:""}
@@ -1330,6 +1339,16 @@ kepler:{name:"Kepler", url:"hp:kepler.nasa.gov/;tw:twitter.com/NASAKepler", desc
     {pt:"", dt:"2018", tp:"eom", loc:"", desc:"Fuel depletion"}
   ], inst: [
     {n:"", band:"423..897nm", d:"1.4", px:"10", tres:"59..1766s", fov:"16deg", desc:"c:n;cl:nl;"}
+]},
+longjiang: {name:"Longjiang 2:Dragon River", url:"hp:www.chinaspaceflight.com/satellite/HIT/DSLWP-A1-A2.html", desc:"ag:cnsa,HIT;m:45kg;dim:0.5x0.5x0.4m;lv:CZ-4C;", stat:"o",
+  parts:[
+    {n:"龙江二号;DSLWP-A2:Discovering the Sky at Longest Wavelengths Pathfinder", type:"r", pur:"lun", ctry:"cn", id:"2018-045B", icon:"dslwp.png"}
+   ],  ev:[
+    {pt:"", type:"l", dt:"2018-05-21", loc:"ter:xch:LC-2", desc:"Chang'e 4 LRS piggyback"},
+    {pt:"", type:"oi", dt:"2018-05-25", loc:"lun:300x3000km", desc:""},
+    {pt:"", type:"nom", dt:"2019-06", loc:"lun", desc:"?"}
+  ], inst: [
+    {n:"", band:"1..30MHz", res:"", desc:"c:nv;"}
 ]},
 qss:{name:"Mozi", url:"", desc:"ag:cnsa;lv:CZ-2D;m:500kg", stat:"o", 
   parts: [
@@ -2064,8 +2083,8 @@ add: spec. impulse, manufact.
 //CZ-4B
 "CZ-4B": {n:"Long March 4B", alt:"长征四号乙火箭", ctry:"cn", m:"249200", pm:"4200/1500/1000",  d:"45.8x3.35", pf:"x3.35", dt:"1999-05-10..", st:"3", ust:"", th:"2962", fam:"Long March", desc:"l:jiu,tai;ag:cnsa", fuel:"UDMH/N2O4", icon:"CZ-4B.png"},
 //CZ-5
-"CZ-5": {n:"Long March 5", alt:"长征五号运载火箭", ctry:"cn", m:"869000", pm:"25000/14000/10300",  d:"56.97x5", pf:"12x5.2", dt:"2016..", st:"2/4", ust:"AUS", th:"10572", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"CZ-5.png"},
-"CZ-5B": {n:"Long March 5B", alt:"长征五号乙运载火箭", ctry:"cn", m:"837500", pm:"22000/-/-",  d:"53.70x5", pf:"12x5.2", dt:"2020..", st:"1/4", ust:"", th:"10572", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"CZ-5B.png"},
+"CZ-5": {n:"Long March 5", alt:"长征五号运载火箭", ctry:"cn", m:"878560", pm:"25000/14000/8000",  d:"56.97x5", pf:"12x5.2", dt:"2016..", st:"2/4", ust:"YZ-2", th:"10572", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"LH2/LOX+KeroLOX", icon:"CZ-5.png"},
+"CZ-5B": {n:"Long March 5B", alt:"长征五号乙运载火箭", ctry:"cn", m:"837500", pm:"22000/-/-",  d:"53.66x5", pf:"12x5.2", dt:"2020..", st:"1/4", ust:"", th:"10572", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"LH2/LOX+KeroLOX", icon:"CZ-5B.png"},
 //CZ-7
 "CZ-7": {n:"Long March 7", alt:"长征七号运载火箭", ctry:"cn", m:"597000", pm:"13500/5500/-", d:"53x3.35", pf:"12.7x4.2", dt:"2016..", st:"2/4", ust:"YZ-1A", th:"7200", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"CZ-7.png"},
 //Delta E, Delta E1
@@ -2115,7 +2134,7 @@ add: spec. impulse, manufact.
 "Falcon Heavy": {ctry:"us", m:"1420800", pm:"63800/26700/16800",  d:"70.0x3.65", pf:"15.0x5.2", dt:"2018-02-06..", st:"2/2", th:"22819", fam:"Falcon", desc:"l:cap,van;ag:spx", fuel:"KeroLOX+SRP", icon:"falcon-h.png"},
 //GSLV 2
 "GSLV MkII": {n:"Geosynchronous Satellite Launch Vehicle Mk. II", alt:"भूस्थिर उपग्रह प्रक्षेपण यान", ctry:"ind", m:"402000", pm:"5000/2500/1300",  d:"49x2.8", pf:"", dt:"2010-04-15..", st:"2/4", ust:" CUS12", th:"7420", fam:"GSLV", desc:"l:sri;ag:isro", fuel:"SRP+UDMH/N2O4", icon:"gslv-mk2.png"},
-"GSLV MkIII": {n:"Geosynchronous Satellite Launch Vehicle Mk. III", alt:"भूस्थिर उपग्रह प्रक्षेपण यान-३", ctry:"ind", m:"630000", pm:"10000/5000/3200",  d:"42.4x4", pf:"", dt:"2014-12..", st:"2/2", ust:"C-25", th:"11300", fam:"GSLV", desc:"l:sri;ag:isro", fuel:"UDMH/N2O4+SRP", icon:"gslv-mk3.png"},
+"GSLV MkIII": {n:"Geosynchronous Satellite Launch Vehicle Mk. III", alt:"भूस्थिर उपग्रह प्रक्षेपण यान-३", ctry:"ind", m:"630000", pm:"10000/4000/2300",  d:"42.4x4", pf:"4.5", dt:"2014-12..", st:"2/2", ust:"C-25", th:"11300", fam:"GSLV", desc:"l:sri;ag:isro", fuel:"UDMH/N2O4+SRP", icon:"gslv-mk3.png"},
 //H-IIA 202, H-IIA 2022
 "H-IIA 202": {ctry:"jp", m:"289000", pm:"10000/4100/1600",  d:"53x4", pf:"12x5.1", dt:"2001-08-29..", st:"2/2", th:"5600", fam:"H-II", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"H2A-202.png"},
 "H-IIA 2022": {ctry:"jp", m:"348000", pm:"-/5000/2000",  d:"53x4", pf:"12x5.1", dt:"2005-02-26..2007-09-14", st:"2/4", th:"8580", fam:"H-II", desc:"l:tng;g:jaxa", fuel:"LH2/LOX+SRP", icon:"H2A-2022.png"},
@@ -2145,7 +2164,7 @@ add: spec. impulse, manufact.
 //Pegasus-XL
 "Pegasus-XL": {n:"", alt:"", ctry:"us", m:"23269", pm:"475/175/-",  d:"17.6x6.7", pf:"2.2x1.1", dt:"1990-04-05..", st:"3/L-1011", th:"726", fam:"Pegasus", desc:"ag:atk", fuel:"SRP", icon:"pegasus-xl.png"},
 //PSLV-XL
-"PSLV-XL": {n:"Polar Satellite Launch Vehicle", alt:"पी.एस.एल.वी-XL", ctry:"ind", m:"230000", pm:"3800/1300/1000",  d:"44.4x2.8", pf:"", dt:"2008-10-22..", st:"4/6", th:"9230", fam:"PSLV", desc:"l:sri;ag:isro", fuel:"SRP", icon:"PSLV-XL.png"},
+"PSLV-XL": {n:"Polar Satellite Launch Vehicle", alt:"पी.एस.एल.वी-XL", ctry:"ind", m:"230000", pm:"3800/1300/720",  d:"44.4x2.8", pf:"", dt:"2008-10-22..", st:"4/6", th:"9230", fam:"PSLV", desc:"l:sri;ag:isro", fuel:"SRP", icon:"PSLV-XL.png"},
 //Proton K/Blok-DM3, Proton-K/Blok-D, Proton-K/Blok-D1, Proton-K/Blok-D2, Proton-M/Briz-M
 "Proton-K": {alt:"Протон-К", ctry:"su,ru", m:"691500", pm:"19760/5000/4800",  d:"55.4x7.4", pf:"4.2-7.5x4.1", dt:"1967-03-10..2012-03-30", st:"3", ust:"Blok-D", /*ust:"Blok-D/D1/D2/DM3",*/ th:"9500", fam:"Proton", desc:"l:bai,ple;ag:lav,rosc", fuel:"UDMH/N2O4", icon:"Proton-K.png"},
 "Proton-M": {alt:"Протон-М", ctry:"ru", m:"712800", pm:"21600/6350/5650",  d:"58.2x7.4", pf:"9.5-15.8x4.35", dt:"2001-04-07..", st:"3", ust:"Briz-M", th:"11000", fam:"Proton", desc:"l:bai,ple;ag:rosc", fuel:"UDMH/N2O4", icon:"Proton-M.png"},

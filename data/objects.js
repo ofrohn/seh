@@ -14,8 +14,10 @@
    daylen: Day length (days)
    gr:     Group membership (for moons, comests, asteroids, tnos)
    peri:   Next perihelion dist/AU+date (for comets)
-   h:      Abs. magitude (mag)
-   h:"", mass:   Mass (kg|relative to parent body)
+*  h:      Abs. magitude (mag)
+*	 g:      Slope
+   mass:   Mass (kg|relative to parent body)
+	 rad:    radius (km)
    dia:    Diameter (km[x km][x km]|km/flat)
    tilt:   Axis tilt (deg)
    irad:   Solar const (W/m2)
@@ -27,7 +29,8 @@
    comp:   Composition (main components;porosity/%)
    dens:   Mean density (g/cm3)
    temp:   Surface temperature min..mean..max (K)
-   spec:   Spectral class (astreroids) B,C,E,G,M,Q,S,Sq,Sr,V
+*  spec:   Tholen Spectral class (astreroids) A,B,C,D,E,F,G,M,P,Q,R,S,T,V
+*  smass:  SMASS Spectral class (add. to Tholen) Cb,Ch,Cg,Chg,K,L,Ld,O,Sa,Sk,Sl,Sq,Sr,X,Xc,Xe,Xk
    atm:    Atmospheric main components (%)
    atp:    Atm. pressure (g/cm2)
    dip:    Magnetic dipole surface stength min..max (gauss)

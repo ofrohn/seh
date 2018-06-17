@@ -1,7 +1,7 @@
 var SSEH = SSEH || {
   TITLE: "Solar System Exploration History",
-  VERSION: "1.6.15",
-  DATE: "2018-04 ",
+  VERSION: "1.6.16",
+  DATE: "2018-06 ",
   AUTHOR: "Olaf Frohn",
   CLICK: "Click on anything for more details",
   PATH: "images/",  //Relative path to resources
@@ -3105,7 +3105,10 @@ dawn: {name:"Dawn", desc:"lv:Delta II 7925H-9.5", stat:"o",
     {pt:"1", type:"sco", dt:"2015-12-16", loc:"ast:385km", desc:"LAMO/XMO1:Low Altitude Mapping Orbit/Extended Mission Orbit 1"},
     {pt:"1", type:"sco", dt:"2016-10-16", loc:"ast:1480km", desc:"XMO2:Extended Mission Orbit 2"},
     {pt:"1", type:"sco", dt:"2017-01-27", loc:"ast:7520x9350km", desc:"XMO3:Extended Mission Orbit 3"},
-    {pt:"1", type:"sco", dt:"2017-04", loc:"ast:20000km", desc:"XMO4:Extended Mission Orbit 4"},
+    {pt:"1", type:"sco", dt:"2017-04-22", loc:"ast:13830x52800km", desc:"XMO4:Extended Mission Orbit 4"},
+    {pt:"1", type:"sco", dt:"2017-06-30", loc:"ast:4400x39100km", desc:"XMO5:Extended Mission Orbit 5"},
+    {pt:"1", type:"sco", dt:"2018-05-14", loc:"ast:375x4800km", desc:"XMO6:Extended Mission Orbit 6"},
+    {pt:"1", type:"sco", dt:"2018-06-07", loc:"ast:35x4000km", desc:"XMO7:Extended Mission Orbit 7"},
     {pt:"1", type:"nom", dt:"2018-09", loc:"ast", desc:"?"},
     {pt:"1", type:"pom", dt:"2018-12-31", loc:"ast", desc:"?"}
 ]},
@@ -3356,7 +3359,7 @@ hayabusa2: {name:"Hayabusa 2:Peregrine Falcon 2", desc:"lv:H-IIA 202",
     {pt:"", type:"toi", dt:"2014-12-03", loc:"sol:ho:0.915x1.089aux6.8deg", desc:"EDVEGA:Electric Delta-V Earth Gravity Assist"},
     {pt:"", type:"fb", dt:"2015-12-03", loc:"ter:3100km", desc:"GA"},
     {pt:"", type:"tc", dt:"2015-12-03", loc:"sol:ho:0.95x1.30au", desc:""},
-    {pt:"", type:"app", dt:"2018-06", loc:"ast", desc:"ast:(162173) Ryugu"},
+    {pt:"", type:"app", dt:"2018-06-04", loc:"ast:2500km", desc:"ast:(162173) Ryugu"},
     {pt:"", type:"arr", dt:"2018-06-21", loc:"ast", desc:"alt:20km"},
     {pt:"2", type:"td", dt:"2018-09", loc:"ast", desc:"hpp:MINERVA II"},
     {pt:"3", type:"td", dt:"2018-09", loc:"ast", desc:"lp:MASCOT;eom:slm"},
@@ -3428,9 +3431,10 @@ osirisrex: {name:"OSIRIS-REx:Origins-Spectral Interpretation-Resource Identifica
     {pt:"", type:"oi", dt:"2016-09-08", loc:"sol:ho:0.77x1.17aux0.2deg", desc:""},
     {pt:"", type:"fb", dt:"2017-09-23", loc:"ter:17000km", desc:"ga"},
     {pt:"", type:"app", dt:"2018-08", loc:"ast", desc:"ast:(101955) Bennu"},
-    {pt:"", type:"oi", dt:"2018-10", loc:"ast", desc:""},
-    {pt:"", type:"obs", dt:"2019-05", loc:"ast", desc:"Candidate sample sites"},
-    {pt:"", type:"td", dt:"2019-09", loc:"ast", desc:"Sample acquisition"},
+    {pt:"", type:"arr", dt:"2018-11", loc:"ast", desc:"Preliminary survey"},
+    {pt:"", type:"obs", dt:"2019-09", loc:"ast", desc:"Detailed survey of candidate sample sites"},
+    {pt:"", type:"td", dt:"2019-12", loc:"ast", desc:"Sample acquisition rehearsal"},
+    {pt:"", type:"td", dt:"2020-07", loc:"ast", desc:"Sample acquisition"},
     {pt:"", type:"dep", dt:"2021-03", loc:"ast", desc:""},
     {pt:"", type:"edl", dt:"2023-09-24", loc:"ter", desc:"src;UTTR, Utah;"}
 ]},
@@ -3454,7 +3458,7 @@ chandrayaan2: {name:"Chandrayaan 2:Moon Craft 2", desc:"lv:GSLV MkII",
     {pt:"", type:"toi", dt:"2018-10", loc:"ter:170x16980km", desc:"EPO"},
     {pt:"0", type:"oi", dt:"l+1mo", loc:"lun", desc:""},
     {pt:"0", type:"sco", dt:"l+2mo", loc:"lun:100km", desc:""},
-    {pt:"1", type:"td", dt:"l+2mo", loc:"lun:70.8S,22.9E", desc:"Between Manzinus & Simpelius Crater"},
+    {pt:"1", type:"td", dt:"l+2mo", loc:"lun:70.8S,22.9E", desc:"Between Manzinus & Simpelius Crater;show:Ch2"},
     {pt:"1", type:"nom", dt:"l+2.5mo", loc:"lun", desc:"lp"},
     {pt:"2", type:"nom", dt:"l+2.5mo", loc:"lun", desc:"rvp"},
     {pt:"0", type:"nom", dt:"l+1yr", loc:"lun", desc:"?"}
@@ -3516,18 +3520,20 @@ change4relay: {name:"Queqiao:Magpie Bridge", desc:"lv:CZ-4C",
   events:[
     {pt:"", type:"l", dt:"2018-05-21", loc:"ter:xch:LC-2", desc:""},
     {pt:"", type:"fb", dt:"2018-05-25", loc:"lun:100km", desc:"ga"},
-    {pt:"", type:"oi", dt:"2018-05-30", loc:"lun:eml2:13000km", desc:"Halo orbit"},
+    {pt:"", type:"oi", dt:"2018-05-30", loc:"lun:eml2", desc:""},
+    {pt:"", type:"sco", dt:"2018-06-14", loc:"lun:eml2:13000km", desc:"Halo orbit"},
     {pt:"", type:"nom", dt:"2023-06", loc:"lun", desc:"?"}
 ]},
-dslwp: {name:"Longjiang 1 & 2:Dragon River", desc:"lv:CZ-4C;part:change4relay",
+dslwp: {name:"Longjiang 1 & 2:Dragon River", desc:"lv:CZ-4C;part:change4relay", stat:"o",
   parts:[
-    {names:"龙江一号;DSLWP-A1:Discovering the Sky at Longest Wavelengths Pathfinder", type:"obm", dest:"lun", stat:"o", ctry:"cn", desc:"ag:cnsa,HIT;m:45kg;dim:0.5x0.5x0.4m;sc:0.3", id:"2018-045B", url:"hp:lilacsat.hit.edu.cn/;China Spaceflight:www.chinaspaceflight.com/satellite/HIT/DSLWP-A1-A2.html", icon:"dslwp.png"},
+    {names:"龙江一号;DSLWP-A1:Discovering the Sky at Longest Wavelengths Pathfinder", type:"obm", dest:"lun", stat:"f", ctry:"cn", desc:"ag:cnsa,HIT;m:45kg;dim:0.5x0.5x0.4m;sc:0.3", id:"2018-045B", url:"hp:lilacsat.hit.edu.cn/;China Spaceflight:www.chinaspaceflight.com/satellite/HIT/DSLWP-A1-A2.html", icon:"dslwp.png"},
     {names:"龙江二号;DSLWP-A2:Discovering the Sky at Longest Wavelengths Pathfinder", type:"obm", dest:"lun", stat:"o", ctry:"cn", desc:"", id:"2018-045C", url:"", icon:""}
    ], 
   events:[
     {pt:"", type:"l", dt:"2018-05-21", loc:"ter:xch:LC-2", desc:"Chang'e 4 LRS piggyback"},
-    {pt:"", type:"oi", dt:"2018-05-25", loc:"lun:300x3000km", desc:""},
-    {pt:"", type:"nom", dt:"2019-06", loc:"lun", desc:"?"}
+    {pt:"0", type:"los", dt:"2018-05-21", loc:"ter:lto", desc:"eom:op;Longjiang 1"},
+    {pt:"1", type:"oi", dt:"2018-05-25", loc:"lun:350x13700km", desc:""},
+    {pt:"1", type:"nom", dt:"2019-06", loc:"lun", desc:"?"}
 ]},
 /*reddragon: {name:"Red Dragon", desc:"lv:Falcon Heavy",
   parts:[
@@ -5710,8 +5716,8 @@ add: spec. impulse, manufact.
 //CZ-4B
 "CZ-4B": {n:"Long March 4B", alt:"长征四号乙火箭", ctry:"cn", m:"249200", pm:"4200/1500/1000",  d:"45.8x3.35", pf:"x3.35", dt:"1999-05-10..", st:"3", ust:"", th:"2962", fam:"Long March", desc:"l:jiu,tai;ag:cnsa", fuel:"UDMH/N2O4", icon:"CZ-4B.png"},
 //CZ-5
-"CZ-5": {n:"Long March 5", alt:"长征五号运载火箭", ctry:"cn", m:"869000", pm:"25000/14000/10300",  d:"56.97x5", pf:"12x5.2", dt:"2016..", st:"2/4", ust:"AUS", th:"10572", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"CZ-5.png"},
-"CZ-5B": {n:"Long March 5B", alt:"长征五号乙运载火箭", ctry:"cn", m:"837500", pm:"22000/-/-",  d:"53.70x5", pf:"12x5.2", dt:"2020..", st:"1/4", ust:"", th:"10572", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"CZ-5B.png"},
+"CZ-5": {n:"Long March 5", alt:"长征五号运载火箭", ctry:"cn", m:"878560", pm:"25000/14000/8000",  d:"56.97x5", pf:"12x5.2", dt:"2016..", st:"2/4", ust:"YZ-2", th:"10572", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"LH2/LOX+KeroLOX", icon:"CZ-5.png"},
+"CZ-5B": {n:"Long March 5B", alt:"长征五号乙运载火箭", ctry:"cn", m:"837500", pm:"22000/-/-",  d:"53.66x5", pf:"12x5.2", dt:"2020..", st:"1/4", ust:"", th:"10572", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"LH2/LOX+KeroLOX", icon:"CZ-5B.png"},
 //CZ-7
 "CZ-7": {n:"Long March 7", alt:"长征七号运载火箭", ctry:"cn", m:"597000", pm:"13500/5500/-", d:"53x3.35", pf:"12.7x4.2", dt:"2016..", st:"2/4", ust:"YZ-1A", th:"7200", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"CZ-7.png"},
 //Delta E, Delta E1
@@ -5761,7 +5767,7 @@ add: spec. impulse, manufact.
 "Falcon Heavy": {ctry:"us", m:"1420800", pm:"63800/26700/16800",  d:"70.0x3.65", pf:"15.0x5.2", dt:"2018-02-06..", st:"2/2", th:"22819", fam:"Falcon", desc:"l:cap,van;ag:spx", fuel:"KeroLOX+SRP", icon:"falcon-h.png"},
 //GSLV 2
 "GSLV MkII": {n:"Geosynchronous Satellite Launch Vehicle Mk. II", alt:"भूस्थिर उपग्रह प्रक्षेपण यान", ctry:"ind", m:"402000", pm:"5000/2500/1300",  d:"49x2.8", pf:"", dt:"2010-04-15..", st:"2/4", ust:" CUS12", th:"7420", fam:"GSLV", desc:"l:sri;ag:isro", fuel:"SRP+UDMH/N2O4", icon:"gslv-mk2.png"},
-"GSLV MkIII": {n:"Geosynchronous Satellite Launch Vehicle Mk. III", alt:"भूस्थिर उपग्रह प्रक्षेपण यान-३", ctry:"ind", m:"630000", pm:"10000/5000/3200",  d:"42.4x4", pf:"", dt:"2014-12..", st:"2/2", ust:"C-25", th:"11300", fam:"GSLV", desc:"l:sri;ag:isro", fuel:"UDMH/N2O4+SRP", icon:"gslv-mk3.png"},
+"GSLV MkIII": {n:"Geosynchronous Satellite Launch Vehicle Mk. III", alt:"भूस्थिर उपग्रह प्रक्षेपण यान-३", ctry:"ind", m:"630000", pm:"10000/4000/2300",  d:"42.4x4", pf:"4.5", dt:"2014-12..", st:"2/2", ust:"C-25", th:"11300", fam:"GSLV", desc:"l:sri;ag:isro", fuel:"UDMH/N2O4+SRP", icon:"gslv-mk3.png"},
 //H-IIA 202, H-IIA 2022
 "H-IIA 202": {ctry:"jp", m:"289000", pm:"10000/4100/1600",  d:"53x4", pf:"12x5.1", dt:"2001-08-29..", st:"2/2", th:"5600", fam:"H-II", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"H2A-202.png"},
 "H-IIA 2022": {ctry:"jp", m:"348000", pm:"-/5000/2000",  d:"53x4", pf:"12x5.1", dt:"2005-02-26..2007-09-14", st:"2/4", th:"8580", fam:"H-II", desc:"l:tng;g:jaxa", fuel:"LH2/LOX+SRP", icon:"H2A-2022.png"},
@@ -5791,7 +5797,7 @@ add: spec. impulse, manufact.
 //Pegasus-XL
 "Pegasus-XL": {n:"", alt:"", ctry:"us", m:"23269", pm:"475/175/-",  d:"17.6x6.7", pf:"2.2x1.1", dt:"1990-04-05..", st:"3/L-1011", th:"726", fam:"Pegasus", desc:"ag:atk", fuel:"SRP", icon:"pegasus-xl.png"},
 //PSLV-XL
-"PSLV-XL": {n:"Polar Satellite Launch Vehicle", alt:"पी.एस.एल.वी-XL", ctry:"ind", m:"230000", pm:"3800/1300/1000",  d:"44.4x2.8", pf:"", dt:"2008-10-22..", st:"4/6", th:"9230", fam:"PSLV", desc:"l:sri;ag:isro", fuel:"SRP", icon:"PSLV-XL.png"},
+"PSLV-XL": {n:"Polar Satellite Launch Vehicle", alt:"पी.एस.एल.वी-XL", ctry:"ind", m:"230000", pm:"3800/1300/720",  d:"44.4x2.8", pf:"", dt:"2008-10-22..", st:"4/6", th:"9230", fam:"PSLV", desc:"l:sri;ag:isro", fuel:"SRP", icon:"PSLV-XL.png"},
 //Proton K/Blok-DM3, Proton-K/Blok-D, Proton-K/Blok-D1, Proton-K/Blok-D2, Proton-M/Briz-M
 "Proton-K": {alt:"Протон-К", ctry:"su,ru", m:"691500", pm:"19760/5000/4800",  d:"55.4x7.4", pf:"4.2-7.5x4.1", dt:"1967-03-10..2012-03-30", st:"3", ust:"Blok-D", /*ust:"Blok-D/D1/D2/DM3",*/ th:"9500", fam:"Proton", desc:"l:bai,ple;ag:lav,rosc", fuel:"UDMH/N2O4", icon:"Proton-K.png"},
 "Proton-M": {alt:"Протон-М", ctry:"ru", m:"712800", pm:"21600/6350/5650",  d:"58.2x7.4", pf:"9.5-15.8x4.35", dt:"2001-04-07..", st:"3", ust:"Briz-M", th:"11000", fam:"Proton", desc:"l:bai,ple;ag:rosc", fuel:"UDMH/N2O4", icon:"Proton-M.png"},
@@ -5849,7 +5855,7 @@ ksc: {name:"Cape Canaveral:Kennedy Space Center", ctry:"us", desig:"KSC:Kennedy 
 cap: {name:"Cape Canaveral:Cape Canaveral Air Force Station", other:"Eastern Range", ctry:"us", desig:"CCAFS:Cape Canaveral Air Force Station", desc:"url:www.patrick.af.mil/;loc:28.489N,80.578W;show:CCAFS:SW;reg:Florida, USA;x:168;y:96;az:35..120;kml:zgUqCFI4a2eQ.kJnvBYGeXpBY", map:"ccafs.png"},
 van: {name:"Vandenberg:Vandenberg Air Force Base", other:"Western Range", ctry:"us", desig:"VAFB:Vandenberg Air Force Base", desc:"url:www.vandenberg.af.mil/;loc:34.7328N,120.5681W;show:VAFB:SW;shmap:W;reg:California, USA;x:192;y:96;az:147..235;kml:zgUqCFI4a2eQ.kXXtLBJrPZRY", map:"vafb.png"},
 wal: {name:"Wallops Island:Mid-Atlantic Regional Spaceport", other:"Wallops Island Flight Facility", ctry:"us", desig:"MARS:Mid-Atlantic Regional Spaceport", desc:"url:www.marsspaceport.com/;loc:37.8433N,75.4780W;show:MARS:NE;shmap:W;reg:Wallops Island, Virginia, USA;x:216;y:96;az:60..129;kml:zgUqCFI4a2eQ.kHJ6lFxPAwJQ", map:"wff-mars.png"},
-boc: {name:"SpaceX South Texas Launch Site", other:"Boca Chica", ctry:"us", desig:"", desc:"url:;loc:25.996N, 97.154W;show:SpX;shmap:W;reg:Cameron County, Texas, USA;az:93..113;kml:", map:"spacex-tx.png"},
+boc: {name:"SpaceX:SpaceX South Texas Launch Site", other:"Boca Chica", ctry:"us", desig:"SpaceX", desc:"url:;loc:25.996N,97.154W;show:SpX;shmap:W;reg:Cameron County, Texas, USA;az:93..113;kml:", map:"spacex-tx.png"},
 
 bai: {name:"Baikonur:Baikonur Cosmodrome", other:"космодром Байконур", ctry:"ru;kz", desig:"NIIP-5:Scientific-Research Test Range #5", desc:"url:www.russianspaceweb.com/baikonur.html;loc:45.965N,63.305E;show:Baikonur:NW;shmap:W;reg:Tyura-Tam, Kazakhstan;az:347..65;kml:zgUqCFI4a2eQ.kARtkNjNWyeg", map:"bai.png"},
 ple: {name:"Plesetsk:Plesetsk Cosmodrome", other:"Космодром Плесецк", ctry:"ru", desig:"NIIP-53:Scientific-Research Test Range #53", desc:"url:www.russianspaceweb.com/plesetsk.html;loc:62.9026N,40.6786E;show:Plesetsk:SW;shmap:W;reg:Arkhangelsk, Russia;az:341..90;kml:zgUqCFI4a2eQ.kH9Q9VFiA5M8", map:"ple.png"},
