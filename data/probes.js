@@ -2671,14 +2671,6 @@ mangalyaan: {name:"MOM:Mars Orbiter Mission", desc:"lv:PSLV-XL",
     {pt:"", type:"pom", dt:"2017-10-30", loc:"mar", desc:"?"}    
 ]},
 // --- 2014
-/*sunjammer: {name:"Sunjammer", desc:"lv:Falcon 9 v1.1",
-  parts:[
-    {names:"", type:"obm", dest:"sol", stat:"pl", ctry:"us", desc:"ag:nasa,lgarde;m:~120kg;1200 m^2 Solar Sail Demonstrator", id:"", url:"hp:www.lgarde.com/programs/space-propulsion/sunjammer/;nasa:www.nasa.gov/mission_pages/tdm/solarsail/solarsail_overview.html", icon:"sunjammer.png"}], 
-  events:[
-    {pt:"", type:"l", dt:"2015-01-13", loc:"ter:cap", desc:""},
-    {pt:"", type:"oi", dt:"2014-11-15", loc:"sol:ho", desc:""},
-    {pt:"", type:"nom", dt:"l+2yr", loc:"sol", desc:"?"}    
-]},*/
 change5test: {name:"Chang'e 5 T1", desc:"lv:CZ-3C G2", stat:"o", 
   parts:[
     {names:"嫦娥五号 试验器;Xiaofei;Return Reentry Flight Vehicle Service Module", type:"fbm", dest:"lun", ctry:"cn", stat:"s", desc:"ag:cnsa;fam:clep;m:?kg;dim:22x2.2x3.4m;sc:0.75;Re-entry Vehicle Test Mission", id:"2014-065A", url:"China Spaceflight:www.chinaspaceflight.com/satellite/Deepspace/CE5T1/CE5-T1.html;sf101:www.spaceflight101.com/change-5-test-mission-updates.html", icon:"chang-e5t1.png"},
@@ -2801,53 +2793,6 @@ fh1: {name:"Falcon Heavy Test 1", desc:"lv:Falcon Heavy", stat:"s",
     {pt:"", type:"oi", dt:"2018-02-06", loc:"sol:ho:0.99x1.71aux1.1deg", desc:""},
     {pt:"", type:"los", dt:"2018-02-07", loc:"sol:ho", desc:"eom"}
 ]},
-chandrayaan2: {name:"Chandrayaan 2:Moon Craft 2", desc:"lv:GSLV MkII",
-  parts:[
-    {names:"चंद्रयान-२", type:"om", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:1400kg;sc:0.5", id:"", url:"hp:isro.gov.in/chandrayaan-2;isp:sites.google.com/site/indianspaceprojects/moon-exploration/chandrayaan---2", icon:"chandrayaan2-o.png"},
-{names:"{Chandrayaan 2 Lander}", type:"slm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:1260kg", icon:"chandrayaan2-l.png"},
-{names:"ECA:Ek Choti si Asha", type:"rvm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:25kg;sc:0.5", icon:"chandrayaan2-rv.png"}], 
-  events:[
-    {pt:"", type:"l", dt:"2018-10", loc:"ter:sri", desc:""},
-    {pt:"", type:"toi", dt:"2018-10", loc:"ter:170x16980km", desc:"EPO"},
-    {pt:"0", type:"oi", dt:"l+1mo", loc:"lun", desc:""},
-    {pt:"0", type:"sco", dt:"l+2mo", loc:"lun:100km", desc:""},
-    {pt:"1", type:"td", dt:"l+2mo", loc:"lun:70.8S,22.9E", desc:"Between Manzinus & Simpelius Crater;show:Ch2"},
-    {pt:"1", type:"nom", dt:"l+2.5mo", loc:"lun", desc:"lp"},
-    {pt:"2", type:"nom", dt:"l+2.5mo", loc:"lun", desc:"rvp"},
-    {pt:"0", type:"nom", dt:"l+1yr", loc:"lun", desc:"?"}
-]},
-/*hhk1: {name:"HHK1", desc:"lv:PSLV-XL",
-  parts:[
-    {names:"", type:"slm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:Team Indus;m:600kg;sc:0.3;GLXP entry", id:"", url:"hp:www.teamindus.in/", icon:"hhk1.png"},
-    {names:"ECA:Ek Choti si Asha", type:"rvm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:Team Indus;m:;sc:0.5", id:"", url:"", icon:"eca.png"},
-    {names:"HAKUTO", type:"rvm", dest:"lun", stat:"pl", ctry:"jp", desc:"ag:Team Hakuto;m:;sc:0.5", id:"", url:"hp:team-hakuto.jp/en", icon:"hakuto.png"}
-  ], 
-  events:[
-    {pt:"", type:"l", dt:"2018-04", loc:"ter:sri", desc:""},
-    {pt:"", type:"td", dt:"l+10d", loc:"lun:29.87N,324.53E", desc:"Mare Imbrium"},
-    {pt:"", type:"nom", dt:"l+24d", loc:"lun", desc:"?"}
-]},*/
-bepicolombo: {name:"Bepi Colombo", desc:"lv:Ariane 5ECA",
-  parts:[
-    {names:"", type:"fbm", dest:"mer", stat:"pl", ctry:"eu;jp", desc:"ag:asi,esa,jaxa;m0:2700kg;m:4100kg;dim:16x4.5x4m;w:0.5", id:"BEPICLMBO", url:"hp:www.esa.int/Our_activities/Space_Science/BepiColombo_overview2;psa:www.sciops.esa.int/index.php?project=PSA&page=bepi;tw:twitter.com/BepiColombo", icon:"bepicolombo.png"},
-{names:"MPO:Mercury Planetary Orbiter", type:"om", dest:"mer", stat:"pl", ctry:"eu", desc:"ag:asi,esa;m:1850kg;sc:0.75", url:"esa:sci.esa.int/home/bepicolombo/;tw:twitter.com/ESA_Bepi", icon:"bepicolombo-mpo.png"},
-{names:"MMO:Mercury Magnetospheric Orbiter", type:"om", dest:"mer", stat:"pl", ctry:"jp", desc:"ag:jaxa;m:285kg", url:"jaxa:www.stp.isas.jaxa.jp/mercury/;tw:twitter.com/JAXA_MMO", icon:"bepicolombo-mmo.png"}], 
-  events:[
-    {pt:"", type:"l", dt:"2018-10-05", loc:"ter:kou:ELA-3", desc:""},
-    {pt:"", type:"fb", dt:"2020-04", loc:"ter", desc:"ga"},
-    {pt:"", type:"fb", dt:"2020-10", loc:"ven", desc:"ga"},
-    {pt:"", type:"fb", dt:"2021-08", loc:"ven", desc:"ga"},
-    {pt:"", type:"fb", dt:"2021-10", loc:"mer", desc:"ga"},
-    {pt:"", type:"fb", dt:"2022-06", loc:"mer", desc:"ga"},
-    {pt:"", type:"fb", dt:"2023-06", loc:"mer", desc:"ga"},
-    {pt:"", type:"fb", dt:"2024-07", loc:"mer", desc:"ga"},
-    {pt:"", type:"fb", dt:"2024-12", loc:"mer", desc:"ga;eom:fbm"},
-    {pt:"0", type:"oi", dt:"2025-12", loc:"mer:670x178000kmx90deg", desc:""},
-    {pt:"1", type:"sco", dt:"2026-03", loc:"mer:480x1500kmx90deg", desc:"MPO"},
-    {pt:"2", type:"sco", dt:"2026-03", loc:"mer:590x11640kmx90deg", desc:"MMO"},
-    {pt:"", type:"nom", dt:"2027-05", loc:"mer", desc:"pend"},
-    {pt:"", type:"pom", dt:"2028-05", loc:"mer", desc:"?"}
-]},
 insight: {name:"InSIGHT:Interior Exploration using Seismic Investigations, Geodesy and Heat Transport", desc:"lv:Atlas V 401",
   parts:[
     {names:"", type:"slm", dest:"mar", stat:"o", ctry:"us", desc:"ag:nasa,jpl;fam:Discovery;m:694kg;m0:358kg;dim:6x2.7x1.2m;sc:0.75", id:"2018-042A", url:"hp:insight.jpl.nasa.gov/;tw:twitter.com/NASAInsight", icon:"insight.png"}], 
@@ -2888,16 +2833,42 @@ dslwp: {name:"Longjiang 1 & 2:Dragon River", desc:"lv:CZ-4C;part:change4relay", 
     {pt:"1", type:"oi", dt:"2018-05-25", loc:"lun:350x13700km", desc:""},
     {pt:"1", type:"nom", dt:"2019-06", loc:"lun", desc:"?"}
 ]},
-/*reddragon: {name:"Red Dragon", desc:"lv:Falcon Heavy",
+chandrayaan2: {name:"Chandrayaan 2:Moon Craft 2", desc:"lv:GSLV MkII",
   parts:[
-    {names:"", type:"slm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:spx;m:7500kg;dim:3.6x6.1m;fam:Dragon;sc:0.4", id:"", url:"hp:www.spacex.com/dragon", icon:"reddragon.png"}], 
+    {names:"चंद्रयान-२", type:"om", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:1400kg;sc:0.5", id:"", url:"hp:isro.gov.in/chandrayaan-2;isp:sites.google.com/site/indianspaceprojects/moon-exploration/chandrayaan---2", icon:"chandrayaan2-o.png"},
+{names:"{Chandrayaan 2 Lander}", type:"slm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:1260kg", icon:"chandrayaan2-l.png"},
+{names:"ECA:Ek Choti si Asha", type:"rvm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:25kg;sc:0.5", icon:"chandrayaan2-rv.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2020", loc:"ter:cap:LC-39A", desc:"?"},
-    {pt:"", type:"toi", dt:"l+1dy", loc:"sol:hto", desc:""},
-    {pt:"", type:"edl", dt:"l+7mo", loc:"mar", desc:""},
-    //{pt:"", type:"nom", dt:"2019", loc:"mar", desc:"?"},
-    {pt:"", type:"pom", dt:"2022", loc:"mar", desc:"?"}
-]},*/
+    {pt:"", type:"l", dt:"2018-10", loc:"ter:sri", desc:""},
+    {pt:"", type:"toi", dt:"2018-10", loc:"ter:170x16980km", desc:"EPO"},
+    {pt:"0", type:"oi", dt:"l+1mo", loc:"lun", desc:""},
+    {pt:"0", type:"sco", dt:"l+2mo", loc:"lun:100km", desc:""},
+    {pt:"1", type:"td", dt:"l+2mo", loc:"lun:70.8S,22.9E", desc:"Between Manzinus & Simpelius Crater;show:Ch2"},
+    {pt:"1", type:"nom", dt:"l+2.5mo", loc:"lun", desc:"lp"},
+    {pt:"2", type:"nom", dt:"l+2.5mo", loc:"lun", desc:"rvp"},
+    {pt:"0", type:"nom", dt:"l+1yr", loc:"lun", desc:"?"}
+]},
+bepicolombo: {name:"Bepi Colombo", desc:"lv:Ariane 5ECA",
+  parts:[
+    {names:"", type:"fbm", dest:"mer", stat:"pl", ctry:"eu;jp", desc:"ag:asi,esa,jaxa;m0:2700kg;m:4100kg;dim:16x4.5x4m;w:0.5", id:"BEPICLMBO", url:"hp:www.esa.int/Our_activities/Space_Science/BepiColombo_overview2;psa:www.sciops.esa.int/index.php?project=PSA&page=bepi;tw:twitter.com/BepiColombo", icon:"bepicolombo.png"},
+{names:"MPO:Mercury Planetary Orbiter", type:"om", dest:"mer", stat:"pl", ctry:"eu", desc:"ag:asi,esa;m:1850kg;sc:0.75", url:"esa:sci.esa.int/home/bepicolombo/;tw:twitter.com/ESA_Bepi", icon:"bepicolombo-mpo.png"},
+{names:"MMO:Mercury Magnetospheric Orbiter", type:"om", dest:"mer", stat:"pl", ctry:"jp", desc:"ag:jaxa;m:285kg", url:"jaxa:www.stp.isas.jaxa.jp/mercury/;tw:twitter.com/JAXA_MMO", icon:"bepicolombo-mmo.png"}], 
+  events:[
+    {pt:"", type:"l", dt:"2018-10-05", loc:"ter:kou:ELA-3", desc:""},
+    {pt:"", type:"fb", dt:"2020-04", loc:"ter", desc:"ga"},
+    {pt:"", type:"fb", dt:"2020-10", loc:"ven", desc:"ga"},
+    {pt:"", type:"fb", dt:"2021-08", loc:"ven", desc:"ga"},
+    {pt:"", type:"fb", dt:"2021-10", loc:"mer", desc:"ga"},
+    {pt:"", type:"fb", dt:"2022-06", loc:"mer", desc:"ga"},
+    {pt:"", type:"fb", dt:"2023-06", loc:"mer", desc:"ga"},
+    {pt:"", type:"fb", dt:"2024-07", loc:"mer", desc:"ga"},
+    {pt:"", type:"fb", dt:"2024-12", loc:"mer", desc:"ga;eom:fbm"},
+    {pt:"0", type:"oi", dt:"2025-12", loc:"mer:670x178000kmx90deg", desc:""},
+    {pt:"1", type:"sco", dt:"2026-03", loc:"mer:480x1500kmx90deg", desc:"MPO"},
+    {pt:"2", type:"sco", dt:"2026-03", loc:"mer:590x11640kmx90deg", desc:"MMO"},
+    {pt:"", type:"nom", dt:"2027-05", loc:"mer", desc:"pend"},
+    {pt:"", type:"pom", dt:"2028-05", loc:"mer", desc:"?"}
+]},
 spp: {name:"Parker Solar Probe", desc:"lv:Delta IV Heavy",
   parts:[
     {names:"SPP:Solar Probe Plus", type:"obm", dest:"sol", stat:"pl", ctry:"us", desc:"ag:nasa,gsfc,apl;fam:Living With a Star;First flight through solar corona;m:610kg;sc:0.5", id:"", url:"hp:solarprobe.jhuapl.edu/;nasa:lws.gsfc.nasa.gov/missions.html;tw:twitter.com/ParkerSunProbe", icon:"spp.png"}], 
