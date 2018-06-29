@@ -5113,7 +5113,7 @@ s2004n1: {name:"S/2004 N 1", other:"S", desig:"", type:"m", par:"nep", disc:"M.R
       alb:"0.06:", grav:"", comp:"", dens:"", 
       img:"", desc:"sc:3;url:solarsystem.nasa.gov/planets/s2004n1;orb:ec.2013-01-01"},
 tno: {name:"Transneptunian Objects", other:"", desig:"", type:"b", par:"sol", disc:"", dyr:"",
-      tno:"2183", cen:"Neptune Trojans:13;Centaurs:347;Scattered Disk:70;Detatched:9;Plutinos:306;Other Resonant:87;Classical TNOs:1033",
+      tno:"2892", cen:"Neptune Trojans:17;Centaurs/Scattered Disk Objects:764;Detatched:62;Plutinos:332;Other Resonant:201;Classical KBOs:580",
       img:"kb.png", map:"tno.png", col:"#9fc", ind:"11", 
       desc:"sc:30;scmoons:0.05;url:www.minorplanetcenter.net;rsize:1800,200;x:72;y:72"},
 //Pluto system
