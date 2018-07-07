@@ -2902,7 +2902,7 @@ aditya:{name:"Aditya-L1", desc:"lv:PSLV XL", stat:"pl",
   parts: [
     {names:"आदित्य", ctry:"ind", type:"obm", dest:"sol", id:"", icon:"aditya-l1.png", desc:"Solar Coronograph;ag:isro;m:400kg;sc:0.5", url:"hp:aditya.iiap.res.in/"}], 
   events: [
-    {pt:"", dt:"2019", type:"l", loc:"ter:sri", desc:"or 2020"},
+    {pt:"", dt:"2020", type:"l", loc:"ter:sri", desc:""},
     {pt:"", dt:"l+100dy", type:"sco", loc:"sol:esl1", desc:"Halo Orbit"},
     {pt:"", type:"nom", dt:"l+2yr", loc:"sol:esl1", desc:"?"},
     {pt:"", type:"pom", dt:"l+10yr", loc:"sol:esl1", desc:"?"},
@@ -3140,6 +3140,16 @@ dart: {name:"DART:Double Asteroid Redirection Test", desc:"lv:Minotaur V",
     {pt:"", type:"nom", dt:"2022-10", loc:"ast", desc:"eom"}
 ]},
 // --- 2022
+destinyplus:{name:"DESTINY+:Demonstration and Experiment of Space Technology for INterplanetary voYage Phaethon fLyby dUSt science", desc:"lv:Epsilon-2", stat:"pl", 
+  parts: [
+    {names:"深宇宙探査技術実験ミッション", ctry:"jp", type:"fbm", dest:"ast", id:"", icon:"destinyplus.png", desc:"ag:jaxa,isas;Interplanetary dust observation;m:480kg;m0:;sc:0.7", url:"hp:destiny.isas.jaxa.jp/DestinyPlus%202017.html"}], 
+  events: [
+    {pt:"", type:"l", dt:"2022", loc:"ter:uch", desc:""},
+    {pt:"", type:"toi", dt:"l+1mo", loc:"ter:heeo", desc:"Phasing orbits"},
+    {pt:"", type:"fb", dt:"l+6mo", loc:"lun", desc:"GA"},
+    {pt:"", type:"fb", dt:"l+2yr", loc:"ast:500km", desc:"ast:phae"},
+    {pt:"", type:"nom", dt:"l+4yr", loc:"sol:ho", desc:"?"}
+]},
 mom2: {name:"MOM-2:Mars Observation Mission 2", desc:"lv:GSLV MkIII",
   parts:[
     {names:"", type:"om", dest:"mar", stat:"pl", ctry:"ind", desc:"ag:isro,cnes;m:;m0:;dim:", id:"", url:"hp:www.isro.gov.in/;isp:sites.google.com/site/indianspaceprojects/planetary-exploration/mars-orbiter-mission-mom---2", icon:"mobm.png"},
@@ -3173,7 +3183,7 @@ europaclipper: {name:"Europa Clipper", desc:"lv:SLS 1B",
     {pt:"", type:"fb", dt:"", loc:"eur", desc:"45 Flybys planned"},
     {pt:"", type:"pom", dt:"l+10yr", loc:"jup", desc:"?"}
 ]},
-cnast2022: {name:"[Chinese Asteroid Mission]", desc:"lv:CZ-5",
+cnast2022: {name:"Near-Earth Asteroid Multi-Target Detection", desc:"lv:CZ-5",
   parts:[
     {names:"", type:"fbm", dest:"ast", stat:"pl", ctry:"cn", desc:"ag:cnsa", id:"", url:"", icon:"chang-e2.png"},
     {names:"", type:"slm", dest:"ast", stat:"pl", ctry:"cn", desc:"ag:cnsa", id:"", url:"", icon:""}], 

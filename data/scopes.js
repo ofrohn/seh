@@ -53,7 +53,7 @@ aditya:{name:"Aditya-L1", url:"hp:aditya.iiap.res.in/", desc:"Solar Coronograph;
   parts: [
     {n:"आदित्य", ctry:"ind", type:"opt;ir", pur:"sol", id:"", icon:"aditya-l1.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2019", tp:"l", loc:"ter:sri", desc:"or 2020"},
+    {pt:"", dt:"2020", tp:"l", loc:"ter:sri", desc:""},
     {pt:"", dt:"l+100d", tp:"sco", loc:"sol:esl1", desc:""}
   ], inst: [
     {n:"VELC:Visible Emission Line Coronagraph", band:"530..640nm", res:"2", d:"0.2", px:"", url:"", desc:"c:nr;"},
@@ -87,7 +87,7 @@ ariel:{name:"ARIEL:Atmospheric Remote‐sensing Infrared Exoplanet Large‐surve
   parts: [
     {n:"", ctry:"eu", type:"ir", pur:"exo", id:"", icon:"ariel.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2028", tp:"l", loc:"ter:kou", desc:""},
+    {pt:"", dt:"2028", tp:"l", loc:"ter:kou:ELA-4", desc:""},
     {pt:"", dt:"2028", tp:"sco", loc:"sol:esl2", desc:""},
     {pt:"", dt:"2030", tp:"nom", loc:"", desc:"eom"}
   ], inst: [
@@ -158,7 +158,7 @@ athenaplus:{name:"Athena+:Advanced Telescope for High-energy Astrophysics+", url
   parts: [
     {n:"", ctry:"eu", type:"x", pur:"", id:"", icon:"athena.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2028", tp:"l", loc:"ter:kou:ELA-3", desc:""},
+    {pt:"", dt:"2028", tp:"l", loc:"ter:kou:ELA-4", desc:""},
     {pt:"", dt:"", tp:"sco", loc:"sol:esl2", desc:""}
   ], inst: [
     {n:"X-IFU:X-ray Integral Field Unit", tp:"is", band:"0.3..10keV", res:"5", sres:"2.5eV@6keV", fov:"5'", ea:"2@1keV", sens:">1Crab", url:"athena2.irap.omp.eu/spip.php?article15", desc:"c:nbr;cl:nly;"},
@@ -779,7 +779,7 @@ nanojasmine:{name:"Nano-JASMINE", url:"www.jasmine-galaxy.org/index.html", desc:
   parts: [
     {n:"", ctry:"jp", type:"nir", pur:"as", id:"", icon:"nano-jasmine.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2018", tp:"l", loc:"ter:Kourou", desc:""},
+    {pt:"", dt:"2020", tp:"l", loc:"ter:Kourou", desc:""},
     {pt:"", dt:"", tp:"sco", loc:"ter:sseo", desc:""}
   ], inst: [
     {n:"", band:"0.6..1um", res:"", d:"", px:"", desc:"c:;"}
@@ -859,7 +859,7 @@ plato:{name:"PLATO:Planetary Transits and Oscillations of stars", url:"hp:sci.es
   parts: [
     {n:"", ctry:"eu", type:"opt;nir", pur:"exo", id:"", icon:"plato.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2026", tp:"l", loc:"ter:kou:ELS", desc:""},
+    {pt:"", dt:"2026", tp:"l", loc:"ter:kou:ELA-4", desc:""},
     {pt:"", dt:"2026", tp:"sco", loc:"sol:esl2", desc:""},
     {pt:"", dt:"2030", tp:"nom", loc:"sol:esl2", desc:""},
     {pt:"", dt:"2034", tp:"pom", loc:"sol:esl2", desc:""}
@@ -879,7 +879,7 @@ proba3:{name:"Proba-3", url:"hp:www.esa.int/esaMI/Proba/index.html", desc:"ag:es
   parts: [
     {n:"", ctry:"eu", type:"cor", pur:"sol", id:"", icon:"", desc:""}
   ], ev: [
-    {pt:"", dt:"2019", tp:"l", loc:"ter:kou:ZLV", desc:""},
+    {pt:"", dt:"2020-10", tp:"l", loc:"ter:kou:ZLV", desc:""},
     {pt:"", dt:"l+1d", tp:"sco", loc:"ter:heeo:600x60530km", desc:""}
   ], inst: [
     {n:"", band:"", res:"", d:"", px:"", url:"", desc:"c:;"}
