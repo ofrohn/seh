@@ -381,7 +381,8 @@ ar: {name:"Australia", desc:"x:24;y:172"},
 au: {name:"Argentina", desc:"x:48;y:172"},
 gu: {name:"French Guyana", desc:"x:72;y:172"},
 uae: {name:"United Arab Emirates", desc:"x:96;y:172"},
-sk: {name:"South Korea", desc:"x:0;y:146"}
+sk: {name:"South Korea", desc:"x:0;y:146"},
+il: {name:"Israel", desc:"x:0;y:185"}
 };
 
 

@@ -67,22 +67,22 @@ add: spec. impulse, manufact.
 //Delta 2914
 "Delta 2914": {ctry:"us", m:"130400", pm:"2000/724/470",  d:"35x2.44", pf:"", dt:"1974-04-13..1979-08-10", st:"2/9", ust:"Star-37E", th:"2560", fam:"Delta", desc:"l:cap;ag:nasa", fuel:"KeroLOX+SRP", icon:"Delta-2914.png"},
 //Delta II 7326-9.5
-"Delta II 7326": {ctry:"us", m:"155000", pm:"2800/934/630",  d:"38.4x2.44", pf:"8.5-9.3x3.0", dt:"1998-10-24..", st:"2/3", ust:"Star-37FM", th:"2500", fam:"Delta", desc:"l:cap,van;ag:nasa", fuel:"KeroLOX+SRP", icon:"Delta-7326.png"},
+"Delta II 7326": {ctry:"us", m:"155000", pm:"2800/934/630",  d:"38.4x2.44", pf:"8.5-9.3x3.0", dt:"1998-10-24..2001-08-08", st:"2/3", ust:"Star-37FM", th:"2500", fam:"Delta", desc:"l:cap,van;ag:nasa", fuel:"KeroLOX+SRP", icon:"Delta-7326.png"},
 "Delta II 7326-9.5": {syn:"Delta II 7326"},
 //Delta II 7425-9.5
-"Delta II 7425": {ctry:"us", m:"170000", pm:"3150/1110/804",  d:"39x2.44", pf:"8.5-9.3x3.0", dt:"1998-12-11..", st:"2/4", ust:"Star-48B", th:"3020", fam:"Delta", desc:"l:cap;ag:nasa", fuel:"KeroLOX+SRP", icon:"Delta-7425.png"},
+"Delta II 7425": {ctry:"us", m:"170000", pm:"3150/1110/804",  d:"39x2.44", pf:"8.5-9.3x3.0", dt:"1998-12-11..2002-07-03", st:"2/4", ust:"Star-48B", th:"3020", fam:"Delta", desc:"l:cap;ag:nasa", fuel:"KeroLOX+SRP", icon:"Delta-7425.png"},
 "Delta II 7425-9.5": {syn:"Delta II 7425"},
 //Delta II 7426-9.5
-"Delta II 7426": {ctry:"us", m:"170000", pm:"3150/1058/711",  d:"39x2.44", pf:"8.5-9.3x3.0", dt:"1999-02-07..", st:"2/4", ust:"Star-37FM", th:"3020", fam:"Delta", desc:"l:cap,van;ag:nasa", fuel:"KeroLOX+SRP", icon:"Delta-7426.png"},
+"Delta II 7426": {ctry:"us", m:"170000", pm:"3150/1058/711",  d:"39x2.44", pf:"8.5-9.3x3.0", dt:"1999-02-07", st:"2/4", ust:"Star-37FM", th:"3020", fam:"Delta", desc:"l:cap,van;ag:nasa", fuel:"KeroLOX+SRP", icon:"Delta-7426.png"},
 "Delta II 7426-9.5": {syn:"Delta II 7426"},
 //Delta II 7920-8
-"Delta II 7920": {ctry:"us", m:"220000", pm:"4500/1750/790", d:"39x2.44", pf:"8.5-9.3x3.0", dt:"1995-11-04..", st:"2/9", ust:"", th:"4000", fam:"Delta", desc:"l:cap,van;ag:nasa", fuel:"KeroLOX+SRP", icon:"Delta-7925.png"},
+"Delta II 7920": {ctry:"us", m:"220000", pm:"4500/1750/790", d:"39x2.44", pf:"8.5-9.3x3.0", dt:"1995-11-04..2018-09", st:"2/9", ust:"", th:"4000", fam:"Delta", desc:"l:cap,van;ag:nasa", fuel:"KeroLOX+SRP", icon:"Delta-7925.png"},
 "Delta II 7920-8": {syn:"Delta II 7920"},
 //Delta II 7920H-10
 "Delta II 7920H": {ctry:"us", m:"283000", pm:"5500/2100/930",  d:"39x2.44", pf:"8.5-9.3x3.0", dt:"2003-08-25..2011-09-10", st:"2/9", ust:"", th:"5030", fam:"Delta", desc:"l:cap;ag:nasa", fuel:"KeroLOX+SRP", icon:"Delta-7920H.png"},
 "Delta II 7920H-10": {syn:"Delta II 7920H"},
 //Delta II 7925, Delta II 7925-10, Delta II 7925-10C, Delta II 7925-10L, Delta II 7925-8, Delta II 7925-9.5
-"Delta II 7925": {ctry:"us", m:"2300000", pm:"5000/1820/1250",  d:"39x2.44", pf:"8.5-9.3x3.0", dt:"1990-11-26..", st:"2/9", ust:"Star-48B", th:"4000", fam:"Delta", desc:"l:cap,van;ag:nasa", fuel:"KeroLOX+SRP", icon:"Delta-7925.png"},
+"Delta II 7925": {ctry:"us", m:"2300000", pm:"5000/1820/1250",  d:"39x2.44", pf:"8.5-9.3x3.0", dt:"1990-11-26..2009-08-17", st:"2/9", ust:"Star-48B", th:"4000", fam:"Delta", desc:"l:cap,van;ag:nasa", fuel:"KeroLOX+SRP", icon:"Delta-7925.png"},
 "Delta II 7925-10": {syn:"Delta II 7925"},
 "Delta II 7925-10C": {syn:"Delta II 7925"},
 "Delta II 7925-10L": {syn:"Delta II 7925"},
