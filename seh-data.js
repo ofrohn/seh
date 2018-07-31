@@ -3502,7 +3502,7 @@ bepicolombo: {name:"Bepi Colombo", desc:"lv:Ariane 5ECA",
 {names:"MPO:Mercury Planetary Orbiter", type:"om", dest:"mer", stat:"pl", ctry:"eu", desc:"ag:asi,esa;m:1850kg;sc:0.75", url:"esa:sci.esa.int/home/bepicolombo/;tw:twitter.com/ESA_Bepi", icon:"bepicolombo-mpo.png"},
 {names:"MMO:Mercury Magnetospheric Orbiter", type:"om", dest:"mer", stat:"pl", ctry:"jp", desc:"ag:jaxa;m:285kg", url:"jaxa:www.stp.isas.jaxa.jp/mercury/;tw:twitter.com/JAXA_MMO", icon:"bepicolombo-mmo.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2018-10-05", loc:"ter:kou:ELA-3", desc:""},
+    {pt:"", type:"l", dt:"2018-10-19", loc:"ter:kou:ELA-3", desc:""},
     {pt:"", type:"fb", dt:"2020-04", loc:"ter", desc:"ga"},
     {pt:"", type:"fb", dt:"2020-10", loc:"ven", desc:"ga"},
     {pt:"", type:"fb", dt:"2021-08", loc:"ven", desc:"ga"},

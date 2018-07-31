@@ -2854,7 +2854,7 @@ bepicolombo: {name:"Bepi Colombo", desc:"lv:Ariane 5ECA",
 {names:"MPO:Mercury Planetary Orbiter", type:"om", dest:"mer", stat:"pl", ctry:"eu", desc:"ag:asi,esa;m:1850kg;sc:0.75", url:"esa:sci.esa.int/home/bepicolombo/;tw:twitter.com/ESA_Bepi", icon:"bepicolombo-mpo.png"},
 {names:"MMO:Mercury Magnetospheric Orbiter", type:"om", dest:"mer", stat:"pl", ctry:"jp", desc:"ag:jaxa;m:285kg", url:"jaxa:www.stp.isas.jaxa.jp/mercury/;tw:twitter.com/JAXA_MMO", icon:"bepicolombo-mmo.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2018-10-05", loc:"ter:kou:ELA-3", desc:""},
+    {pt:"", type:"l", dt:"2018-10-19", loc:"ter:kou:ELA-3", desc:""},
     {pt:"", type:"fb", dt:"2020-04", loc:"ter", desc:"ga"},
     {pt:"", type:"fb", dt:"2020-10", loc:"ven", desc:"ga"},
     {pt:"", type:"fb", dt:"2021-08", loc:"ven", desc:"ga"},
@@ -2873,7 +2873,7 @@ spp: {name:"Parker Solar Probe", desc:"lv:Delta IV Heavy",
   parts:[
     {names:"SPP:Solar Probe Plus", type:"obm", dest:"sol", stat:"pl", ctry:"us", desc:"ag:nasa,gsfc,apl;fam:Living With a Star;First flight through solar corona;m:610kg;sc:0.5", id:"", url:"hp:solarprobe.jhuapl.edu/;nasa:lws.gsfc.nasa.gov/missions.html;tw:twitter.com/ParkerSunProbe", icon:"spp.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2018-08-04", loc:"ter:cap:SLC-37B", desc:""},
+    {pt:"", type:"l", dt:"2018-08-11", loc:"ter:cap:SLC-37B", desc:""},
     {pt:"", type:"fb", dt:"2018-09-28", loc:"ven", desc:"ga"},
     {pt:"", type:"fb", dt:"2019-12-22", loc:"ven", desc:"ga"},
     {pt:"", type:"fb", dt:"2020-07-06", loc:"ven", desc:"ga"},
