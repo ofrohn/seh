@@ -1,6 +1,6 @@
 var SSEH = SSEH || {
   TITLE: "Solar System Exploration History",
-  VERSION: "1.6.17",
+  VERSION: "1.6.18",
   DATE: "2018-06 ",
   AUTHOR: "Olaf Frohn",
   CLICK: "Click on anything for more details",
@@ -2525,7 +2525,7 @@ hiten: {name:"Hiten:Celestial Maiden", desc:"lv:M-3SII",
 ]},
 ulysses: {name:"Ulysses", desc:"lv:STS-41 Discovery/IUS/PAM-S",
   parts:[
-    {names:"ISPM:International Solar Polar Mission", type:"obm", dest:"sol", stat:"s", ctry:"eu;us", desc:"ag:nasa,jpl,esa;First solar polar orbiter;m:371kg;dim:72x10.5x8m;sc:0.5;w:0.89", id:"1990-090B", url:"hp:www.esa.int/Our_activities/Space_Science/Ulysses_overview;esa:sci.esa.int/science-e/www/area/index.cfm?fareaid=11;jpl:ulysses.jpl.nasa.gov/;sts:science.ksc.nasa.gov/shuttle/missions/sts-41/mission-sts-41.html", icon:"ulysses.png"},
+    {names:"ISPM:International Solar Polar Mission", type:"obm", dest:"sol", stat:"s", ctry:"eu;us", desc:"ag:nasa,jpl,esa;First solar polar orbiter;m:371kg;dim:72x10.5x8m;sc:0.5;w:0.89", id:"1990-090B", url:"hp:www.esa.int/Our_Activities/Space_Science/Ulysses_overview;esa:sci.esa.int/science-e/www/area/index.cfm?fareaid=11;jpl:ulysses.jpl.nasa.gov/;sts:science.ksc.nasa.gov/shuttle/missions/sts-41/mission-sts-41.html", icon:"ulysses.png"},
     {names:"", type:"fbm", dest:"jup", stat:"s", ctry:"eu;us", desc:""}], 
   events:[
     {pt:"", type:"l", dt:"1990-10-06", loc:"ter:ksc:LC-39B", desc:""},
@@ -2583,7 +2583,7 @@ wind: {name:"Wind", desc:"lv:Delta II 7925-10",
 // --- 1995 --- 1 Mission   
 soho: {name:"SOHO:Solar and Heliospheric Observatory", desc:"lv:Atlas IIAS",
   parts:[
-    {names:"", type:"obm", dest:"sol", stat:"o", ctry:"us;eu", desc:"ag:nasa,gsfc,esa;m:1864kg;m0:610kg;dim:9.5x2.7x4.3m;sc:0.75;Heliophysics Observatory", id:"1995-065A", url:"hp:sohowww.nascom.nasa.gov/;esa:www.esa.int/Our_activities/Space_Science/SOHO_overview2;esa:sci.esa.int/science-e/www/area/index.cfm?fareaid=14", icon:"soho.png"}], 
+    {names:"", type:"obm", dest:"sol", stat:"o", ctry:"us;eu", desc:"ag:nasa,gsfc,esa;m:1864kg;m0:610kg;dim:9.5x2.7x4.3m;sc:0.75;Heliophysics Observatory", id:"1995-065A", url:"hp:sohowww.nascom.nasa.gov/;esa:www.esa.int/Our_Activities/Space_Science/SOHO_overview2;esa:sci.esa.int/science-e/www/area/index.cfm?fareaid=14", icon:"soho.png"}], 
   events:[
     {pt:"", type:"l", dt:"1995-12-02", loc:"ter:cap:LC-36B", desc:""},
     {pt:"", type:"toi", dt:"1995-12-02", loc:"ter:leto", desc:""},
@@ -2658,7 +2658,7 @@ cassini: {name:"Cassini-Huygens", desc:"lv:Titan 401B Centaur T", stat:"s",
     {type:"fbm", dest:"ast", stat:"s", desc:"sc:0.5", ctry:"us;it"},
     {type:"fbm", dest:"jup", stat:"s", ctry:"us;it"},
     {names:"Cassini", type:"om", dest:"sat", stat:"o", ctry:"us;it", desc:"ag:nasa,jpl,asi;fam:Flagship;First Saturn orbiter;m:5655kg;m0:2523kg;dim:14.0x4.0x6.7m", id:"1997-061A", url:"hp:saturn.jpl.nasa.gov/;ciclops:www.ciclops.org/;raw:saturn.jpl.nasa.gov/photos/raw/;tps:www.planetary.org/explore/space-topics/space-missions/cassinis-tour.html;pds:pds-imaging.jpl.nasa.gov/portal/cassini_mission.html;hist:history.nasa.gov/SP-533.pdf;tw:twitter.com/CassiniSaturn", icon:"cassini2.png"},
-{names:"Huygens", type:"pm", dest:"sat:tita", stat:"s", ctry:"eu", desc:"ag:esa;First Titan lander;m:319kg;sc:0.75", id:"1997-061C", url:"esa:www.esa.int/Our_activities/Space_Science/Cassini-Huygens;psa:www.sciops.esa.int/index.php?project=PSA&page=huygens", icon:"huygens.png"}], 
+{names:"Huygens", type:"pm", dest:"sat:tita", stat:"s", ctry:"eu", desc:"ag:esa;First Titan lander;m:319kg;sc:0.75", id:"1997-061C", url:"esa:www.esa.int/Our_Activities/Space_Science/Cassini-Huygens;psa:www.sciops.esa.int/index.php?project=PSA&page=huygens", icon:"huygens.png"}], 
   events:[
     {pt:"", type:"l", dt:"1997-10-15", loc:"ter:cap:LC-40", desc:""},
     {pt:"0", type:"fb", dt:"1998-04-26", loc:"ven:234km", desc:"ga"},
@@ -2833,7 +2833,7 @@ hayabusa: {name:"Hayabusa:Peregrine Falcon", desc:"lv:M-V",
 ]},
 mex: {name:"MEX:Mars Express", desc:"lv:Soyuz-FG/Fregat",
   parts:[
-    {names:"", type:"om", dest:"mar", stat:"o", ctry:"eu", desc:"ag:esa;m:1123kg;m0:637kg;dim:12x1.8x1.5m", id:"2003-022A", url:"hp:www.esa.int/Our_activities/Space_Science/Mars_Express;esa:sci.esa.int/science-e/www/area/index.cfm?fareaid=9;vmc:blogs.esa.int/vmc/;psa:www.sciops.esa.int/index.php?project=PSA&page=mex;tw:twitter.com/esamarswebcam", icon:"mars-express.png"},
+    {names:"", type:"om", dest:"mar", stat:"o", ctry:"eu", desc:"ag:esa;m:1123kg;m0:637kg;dim:12x1.8x1.5m", id:"2003-022A", url:"hp:www.esa.int/Our_Activities/Space_Science/Mars_Express;esa:sci.esa.int/science-e/www/area/index.cfm?fareaid=9;vmc:blogs.esa.int/vmc/;psa:www.sciops.esa.int/index.php?project=PSA&page=mex;tw:twitter.com/esamarswebcam", icon:"mars-express.png"},
 {names:"Beagle 2", type:"slm", dest:"mar", stat:"f", ctry:"eu", desc:"ag:esa;m:69kg;m0:33.2kg;sc:0.75", id:"2003-022C", url:"Beagle:beagle2.open.ac.uk/index.htm", icon:"beagle.png"}], 
   events:[
     {pt:"", type:"l", dt:"2003-06-02", loc:"ter:bai:LC-31", desc:""},
@@ -3423,8 +3423,8 @@ osirisrex: {name:"OSIRIS-REx:Origins-Spectral Interpretation-Resource Identifica
     {pt:"", type:"l", dt:"2016-09-08", loc:"ter:cap:SLC-41", desc:""},
     {pt:"", type:"oi", dt:"2016-09-08", loc:"sol:ho:0.77x1.17aux0.2deg", desc:""},
     {pt:"", type:"fb", dt:"2017-09-23", loc:"ter:17000km", desc:"ga"},
-    {pt:"", type:"app", dt:"2018-08", loc:"ast", desc:"ast:(101955) Bennu"},
-    {pt:"", type:"arr", dt:"2018-11", loc:"ast", desc:"Preliminary survey"},
+    {pt:"", type:"app", dt:"2018-08-17", loc:"ast", desc:"ast:(101955) Bennu"},
+    {pt:"", type:"arr", dt:"2018-12", loc:"ast", desc:"Preliminary survey"},
     {pt:"", type:"obs", dt:"2019-09", loc:"ast", desc:"Detailed survey of candidate sample sites"},
     {pt:"", type:"td", dt:"2019-12", loc:"ast", desc:"Sample acquisition rehearsal"},
     {pt:"", type:"td", dt:"2020-07", loc:"ast", desc:"Sample acquisition"},
@@ -3473,7 +3473,7 @@ change4relay: {name:"Queqiao:Magpie Bridge", desc:"lv:CZ-4C",
 dslwp: {name:"Longjiang 1 & 2:Dragon River", desc:"lv:CZ-4C;part:change4relay", stat:"o",
   parts:[
     {names:"龙江一号;DSLWP-A1:Discovering the Sky at Longest Wavelengths Pathfinder", type:"obm", dest:"lun", stat:"f", ctry:"cn", desc:"ag:cnsa,HIT;m:45kg;dim:0.5x0.5x0.4m;sc:0.3", id:"2018-045B", url:"hp:lilacsat.hit.edu.cn/;China Spaceflight:www.chinaspaceflight.com/satellite/HIT/DSLWP-A1-A2.html", icon:"dslwp.png"},
-    {names:"龙江二号;DSLWP-A2:Discovering the Sky at Longest Wavelengths Pathfinder", type:"obm", dest:"lun", stat:"o", ctry:"cn", desc:"", id:"2018-045C", url:"", icon:""}
+    {names:"龙江二号;DSLWP-A2:Discovering the Sky at Longest Wavelengths Pathfinder", type:"obm", dest:"lun", stat:"o", ctry:"cn", desc:"", id:"2018-045C", url:"Longjiang:lilacsat.hit.edu.cn/dashboard/pages/pics-b.html", icon:""}
    ], 
   events:[
     {pt:"", type:"l", dt:"2018-05-21", loc:"ter:xch:LC-2", desc:"Chang'e 4 LRS piggyback"},
@@ -3487,8 +3487,8 @@ chandrayaan2: {name:"Chandrayaan 2:Moon Craft 2", desc:"lv:GSLV MkII",
 {names:"{Chandrayaan 2 Lander}", type:"slm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:1260kg", icon:"chandrayaan2-l.png"},
 {names:"ECA:Ek Choti si Asha", type:"rvm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:25kg;sc:0.5", icon:"chandrayaan2-rv.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2018-10", loc:"ter:sri", desc:""},
-    {pt:"", type:"toi", dt:"2018-10", loc:"ter:170x16980km", desc:"EPO"},
+    {pt:"", type:"l", dt:"2019-01", loc:"ter:sri", desc:""},
+    {pt:"", type:"toi", dt:"2019-01", loc:"ter:170x16980km", desc:"EPO"},
     {pt:"0", type:"oi", dt:"l+1mo", loc:"lun", desc:""},
     {pt:"0", type:"sco", dt:"l+2mo", loc:"lun:100km", desc:""},
     {pt:"1", type:"td", dt:"l+2mo", loc:"lun:70.8S,22.9E", desc:"Between Manzinus & Simpelius Crater;show:Ch2"},
@@ -3498,7 +3498,7 @@ chandrayaan2: {name:"Chandrayaan 2:Moon Craft 2", desc:"lv:GSLV MkII",
 ]},
 bepicolombo: {name:"Bepi Colombo", desc:"lv:Ariane 5ECA",
   parts:[
-    {names:"", type:"fbm", dest:"mer", stat:"pl", ctry:"eu;jp", desc:"ag:asi,esa,jaxa;m0:2700kg;m:4100kg;dim:16x4.5x4m;w:0.5", id:"BEPICLMBO", url:"hp:www.esa.int/Our_activities/Space_Science/BepiColombo_overview2;psa:www.sciops.esa.int/index.php?project=PSA&page=bepi;tw:twitter.com/BepiColombo", icon:"bepicolombo.png"},
+    {names:"", type:"fbm", dest:"mer", stat:"pl", ctry:"eu;jp", desc:"ag:asi,esa,jaxa;m0:2700kg;m:4100kg;dim:16x4.5x4m;w:0.5", id:"BEPICLMBO", url:"hp:www.esa.int/Our_Activities/Space_Science/BepiColombo_overview2;psa:www.sciops.esa.int/index.php?project=PSA&page=bepi;tw:twitter.com/BepiColombo", icon:"bepicolombo.png"},
 {names:"MPO:Mercury Planetary Orbiter", type:"om", dest:"mer", stat:"pl", ctry:"eu", desc:"ag:asi,esa;m:1850kg;sc:0.75", url:"esa:sci.esa.int/home/bepicolombo/;tw:twitter.com/ESA_Bepi", icon:"bepicolombo-mpo.png"},
 {names:"MMO:Mercury Magnetospheric Orbiter", type:"om", dest:"mer", stat:"pl", ctry:"jp", desc:"ag:jaxa;m:285kg", url:"jaxa:www.stp.isas.jaxa.jp/mercury/;tw:twitter.com/JAXA_MMO", icon:"bepicolombo-mmo.png"}], 
   events:[
@@ -3519,9 +3519,9 @@ bepicolombo: {name:"Bepi Colombo", desc:"lv:Ariane 5ECA",
 ]},
 spp: {name:"Parker Solar Probe", desc:"lv:Delta IV Heavy",
   parts:[
-    {names:"SPP:Solar Probe Plus", type:"obm", dest:"sol", stat:"pl", ctry:"us", desc:"ag:nasa,gsfc,apl;fam:Living With a Star;First flight through solar corona;m:610kg;sc:0.5", id:"", url:"hp:solarprobe.jhuapl.edu/;nasa:lws.gsfc.nasa.gov/missions.html;tw:twitter.com/ParkerSunProbe", icon:"spp.png"}], 
+    {names:"SPP:Solar Probe Plus", type:"obm", dest:"sol", stat:"pl", ctry:"us", desc:"ag:nasa,gsfc,apl;fam:Living With a Star;First flight through solar corona;m:685kg;sc:0.5", id:"", url:"hp:solarprobe.jhuapl.edu/;nasa:lws.gsfc.nasa.gov/missions.html;tw:twitter.com/ParkerSunProbe", icon:"spp.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2018-08-04", loc:"ter:cap:SLC-37B", desc:""},
+    {pt:"", type:"l", dt:"2018-08-12", loc:"ter:cap:SLC-37B", desc:""},
     {pt:"", type:"fb", dt:"2018-09-28", loc:"ven", desc:"ga"},
     {pt:"", type:"fb", dt:"2019-12-22", loc:"ven", desc:"ga"},
     {pt:"", type:"fb", dt:"2020-07-06", loc:"ven", desc:"ga"},
@@ -3600,10 +3600,10 @@ sentinel: {name:"Sentinel", desc:"lv:Falcon 9 v1.2",
 ]},
 solarorbiter: {name:"Solar Orbiter", desc:"lv:Atlas V 411",
   parts:[
-    {names:"", type:"obm", dest:"sol", stat:"pl", ctry:"eu", desc:"ag:esa;fam:M-class;m:~1800kg;dim:14x3.0x2.5m;sc:0.75;Heliophysics Observatory", id:"", url:"hp:www.esa.int/Our_activities/Space_Science/Solar_Orbiter;esa:sci.esa.int/solarorbiter/", icon:"solarorbiter.png"}], 
+    {names:"", type:"obm", dest:"sol", stat:"pl", ctry:"eu", desc:"ag:esa;fam:M-class;m:~1800kg;dim:14x3.0x2.5m;sc:0.75;Heliophysics Observatory", id:"", url:"hp:www.esa.int/Our_Activities/Space_Science/Solar_Orbiter;esa:sci.esa.int/solarorbiter/", icon:"solarorbiter.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2019-02", loc:"ter:cap:SLC-41", desc:""},
-    {pt:"", type:"oi", dt:"2019-02", loc:"sol:ho:0.661x1.014aux2.9deg", desc:""},
+    {pt:"", type:"l", dt:"2020", loc:"ter:cap:SLC-41", desc:""},
+    {pt:"", type:"oi", dt:"2020", loc:"sol:ho:0.661x1.014aux2.9deg", desc:""},
     {pt:"", type:"fb", dt:"l+0.35yr", loc:"ven", desc:""},
     {pt:"", type:"fb", dt:"l+1.18yr", loc:"ter", desc:""},
     {pt:"", type:"fb", dt:"l+3.0yr", loc:"ter", desc:""},
@@ -3694,13 +3694,13 @@ em1cubes: {name:"EM-1 Cubesats", desc:"lv:SLS;part:em1;6U-CubeSat", stat:"pl",
     {pt:"5", type:"pom", dt:"l+2yr", loc:"ter:geo", desc:"Skyfire"},
     {pt:"0", type:"pom", dt:"l+2.5yr", loc:"sol:ho", desc:"NEA-Scout"}
 ]},
-slim:{name:"SLIM:Smart Lander for Investigating Moon", desc:"lv:Epsilon-2", stat:"pl", 
+slim:{name:"SLIM:Smart Lander for Investigating Moon", desc:"lv:H-IIA 202", stat:"pl", 
   parts: [
-    {names:"スリム;SPRINT-C", ctry:"jp", type:"slm", dest:"lun", id:"", icon:"slim.png", desc:"ag:jaxa;m:450kg;m0:130kg;sc:0.2", url:"hp:www.isas.jaxa.jp/en/missions/spacecraft/developing/slim.html"}], 
+    {names:"スリム;SPRINT-C", ctry:"jp", type:"slm", dest:"lun", id:"", icon:"slim.png", desc:"ag:jaxa;m:730kg;m0:200kg;sc:0.2", url:"hp:www.isas.jaxa.jp/en/missions/spacecraft/developing/slim.html"}], 
   events: [
-    {pt:"", dt:"2020", type:"l", loc:"ter:uch", desc:""},
+    {pt:"", dt:"2021", type:"l", loc:"ter:uch", desc:""},
     {pt:"", dt:"l+4dy", type:"oi", loc:"lun", desc:""},
-    {pt:"", type:"td", dt:"l+1mo", loc:"lun", desc:"Marius hills"},
+    {pt:"", type:"td", dt:"l+1mo", loc:"lun:13.3S,25.2E", desc:"Mare Nectaris"},
     {pt:"", type:"nom", dt:"l+1.1mo", loc:"lun", desc:"?"}
 ]},
 exomarsrv: {name:"ExoMars Rover", desc:"lv:Proton-M/Briz-M",

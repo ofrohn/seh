@@ -1235,12 +1235,12 @@ wukong:{name:"Wukong:Monkey King", url:"hp:dpnc.unige.ch/dampe/index.html", desc
     {n:"STK:Silicon-Tungsten Tracker", tp:"par", band:"", res:"0.2deg@10GeV", fov:"", url:"", desc:"Cosmic Rays;c:;"},
     {n:"NUD:Neutron Detector", tp:"par", band:"", res:"", fov:"", url:"", desc:"Cosmic Rays;c:;"}
 ]},
-xarm:{name:"XARM:X-ray Astronomy Recovery Mission", url:"hp:astro-h.isas.jaxa.jp/en/;jaxa:global.jaxa.jp/projects/sat/astro_h/;", desc:"ag:jaxa;lv:H-IIA 202;m:2700kg;sc:1.4;x:0;y:15", stat:"pl",
+xarm:{name:"XRISM:X-ray Imaging and Spectroscopy Mission", url:"hp:astro-h.isas.jaxa.jp/en/;jaxa:global.jaxa.jp/projects/sat/astro_h/;", desc:"ag:jaxa;lv:H-IIA 202;m:2700kg;sc:1.4;x:0;y:15", stat:"pl",
   parts: [
     {n:"ASTRO-H2", ctry:"jp", type:"sx", pur:"", id:"", icon:"astro-h.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2020", tp:"l", loc:"ter:tng", desc:""},
-    {pt:"", dt:"2020", tp:"sco", loc:"ter:leo:550kmx31deg", desc:""}
+    {pt:"", dt:"2021-03", tp:"l", loc:"ter:tng", desc:""},
+    {pt:"", dt:"2021-03", tp:"sco", loc:"ter:leo:550kmx31deg", desc:""}
   ], inst: [
     {n:"SXI:Soft X-ray Imaging System", band:"0.3..12keV", res:"78", sres:"150eV@6keV", ea:"360cm2@6keV", fov:"35x35'", desc:"c:nr;cl:nl;"},
     {n:"SGD:Soft Gamma-ray Detector", band:"10..600keV", res:"", sres:"2keV@40keV", ea:"30cm2@100keV", fov:"0.55x0.55deg", desc:"c:;cl:ny;"},
