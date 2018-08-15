@@ -1011,12 +1011,12 @@ solarorbiter:{name:"Solar Orbiter", url:"hp:www.esa.int/Our_activities/Space_Sci
     {n:"SPICE:Spectral Imaging of the Coronal Environment", band:"48.5..105nm", tp:"is", res:"", d:"", px:"", url:"", desc:"c:;"},
     {n:"STIX:X-ray Spectrometer/Telescope", band:"4..150keV", tp:"is", res:"", fov:"1.5deg", url:"", desc:"cl:n;"}
 ]},
-spp:{name:"Parker Solar Probe", url:"hp:solarprobe.jhuapl.edu/;nasa:solarprobe.gsfc.nasa.gov/;tw:twitter.com/SolarProbePlus", desc:"Close Approach;ag:nasa,apl;lv:Delta IV Heavy;sc:1;x:0;y:20", stat:"pl", 
+spp:{name:"Parker Solar Probe", url:"hp:solarprobe.jhuapl.edu/;nasa:solarprobe.gsfc.nasa.gov/;tw:twitter.com/SolarProbePlus", desc:"Close Approach;ag:nasa,apl;lv:Delta IV Heavy;sc:1;x:0;y:20", stat:"o", 
   parts: [
-    {n:"SPP:Solar Probe Plus", ctry:"us", type:"", pur:"sol", id:"", icon:"", desc:""}
+    {n:"SPP:Solar Probe Plus", ctry:"us", type:"", pur:"sol", id:"2018-065A", icon:"spp.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2018-08-11", tp:"l", loc:"ter:cap", desc:""},
-    {pt:"", dt:"2018-08-11", tp:"sco", loc:"sol:ho", desc:""}
+    {pt:"", dt:"2018-08-12", tp:"l", loc:"ter:cap", desc:""},
+    {pt:"", dt:"2018-08-12", tp:"sco", loc:"sol:ho", desc:""}
   ], inst: [
     {n:"FIA:Fast Ion Analyzer", band:"50..20keV", tp:"par", sres:"0.05", tres:"0.1s", fov:"330x90deg", url:"", desc:"c:"},
     {n:"FEA:Fast Electron Analyzer", band:"1eV..5keV", tp:"par", sres:"0.1", tres:"0.1s", fov:"30x30deg", url:"", desc:"c:"},

@@ -1382,9 +1382,9 @@ ixi: {name:"Ixion", other:"2001 KX76", desig:"28978", type:"t", par:"sol", disc:
       img:"", col:"", desc:"sc:3;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=2012+VP113;orb:ec.2014-12-09"},
 //1994 JR1
 "2014mu69": {name:"'Ultima Thule'", other:"2014 MU69", desig:"486958", type:"t", par:"sol", disc:"HST", dyr:"2014",
-      a:"44.52au", e:"0.0482", i:"2.45", per:"297.1a", rot:"", gr:"cube",
+      a:"44.23au", e:"0.0378", i:"2.45", per:"297.1a", rot:"", gr:"cube",
       h:"11.1", mass:"", dia:"44km", rad:"22", tilt:"", alb:"~0.04", grav:"", 
-      comp:"", dens:"", atm:"", atp:"", temp:"",
+      comp:"", dens:"", atm:"", atp:"", temp:"~35K",
       img:"", col:"", desc:"sc:3;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=2014+MU69;orb:ec.2014-12-09"},
 "2014pn70": {name:"2014 PN70", other:"12000JZ", desig:"", type:"t", par:"sol", disc:"HST", dyr:"2014",
       a:"44.42au", e:"0.0514", i:"4.12", per:"296.01a", rot:"", gr:"",
