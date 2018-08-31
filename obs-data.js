@@ -1323,7 +1323,7 @@ jwst:{name:"JWST:James Webb Space Telescope", url:"hp:www.jwst.nasa.gov/;stsci:w
   parts: [
     {n:"", ctry:"us;eu", type:"nir;opt", pur:"", id:"", desc:"", icon:"jwst.png"}
   ], ev: [
-    {pt:"", dt:"2021-03", tp:"l", loc:"ter:kou:ELA-3", desc:"kou"},
+    {pt:"", dt:"2021-03-30", tp:"l", loc:"ter:kou:ELA-3", desc:"kou"},
     {pt:"", dt:"l+30d", tp:"sco", loc:"sol:esl2", desc:""}
   ], inst: [
     {n:"MIRI", band:"5..28um", res:"1.13..0.1", d:"6.5", px:"0.1", fov:"1.3x1.7'", sres:"100/3000", url:"ircamera.as.arizona.edu/MIRI/", desc:"c:nv;cl:nly;"},
@@ -1927,9 +1927,9 @@ xuntian:{name:"Xuntian:Sky Survey", url:"hp:", desc:"ag:cnsa;lv:CZ-5B;sc:0.9;y:7
   parts: [
     {n:"巡天", ctry:"cn", type:"opt;nir", pur:"sur", id:"", icon:"xuntian.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2022", tp:"l", loc:"ter:wen", desc:""},
-    {pt:"", dt:"2022", tp:"sco", loc:"ter:leo", desc:""},
-    {pt:"", dt:"2032", tp:"pom", loc:"ter:leo", desc:""}
+    {pt:"", dt:"2024", tp:"l", loc:"ter:wen", desc:""},
+    {pt:"", dt:"2024", tp:"sco", loc:"ter:leo", desc:""},
+    {pt:"", dt:"2034", tp:"pom", loc:"ter:leo", desc:""}
   ], inst: [
     {n:"OS", tp:"is", band:"255..1000nm", res:"0.15", px:0.07, d:2, fov:"1.1deg2", desc:"c:nr;cl:nly"}
   ]},
