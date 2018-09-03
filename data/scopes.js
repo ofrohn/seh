@@ -481,7 +481,7 @@ hete2:{name:"HETE 2", url:"hp:space.mit.edu/HETE/", desc:"ag:nasa;Pegasus H;fam:
     {pt:"", dt:"2000-10-10", tp:"sco", loc:"ter:leo:595x636kmx1.9deg", desc:""},
     {pt:"", dt:"2007", tp:"tos", loc:"", desc:"eom"}
 ]}, 
-hinode: {name:"Hinode:Sunrise", url:"hp:hinode.nao.ac.jp/index_e.shtml;isas:www.isas.jaxa.jp/e/enterp/missions/hinode/;darts:darts.isas.jaxa.jp/solar/hinode/", desc:"ag:jaxa,isas;lv:M-V;m:900kg;sc:1.2;y:10", stat:"o", 
+hinode: {name:"Hinode:Sunrise", url:"hp:hinode.nao.ac.jp/index_e.shtml;isas:www.isas.jaxa.jp/e/enterp/missions/hinode/;darts:darts.isas.jaxa.jp/solar/hinode/", desc:"ag:jaxa,isas;lv:M-V;m:900kg;sc:1.2;y:20", stat:"o", 
   parts: [
     {n:"ひので;Solar-B", ctry:"jp", type:"opt;euv;x", pur:"sol", id:"2006-041A", icon:"hinode.png", desc:""}
   ], ev: [
@@ -577,10 +577,10 @@ integral:{name:"Integral:International Gamma Ray Astrophysics Laboratory", url:"
     {pt:"", dt:"2018-12-31", tp:"nom", loc:"ter:heeo", desc:"pend"},
     {pt:"", dt:"2023-12-31", tp:"pom", loc:"ter:heeo", desc:"pend"}
   ], inst: [
+    {n:"JEM-X", band:"7.25E+17..8.46E+18", res:"180", sres:"1.3keV@10keV", fov:"4.8deg", desc:"c:nr;cl:nl"},
+    {n:"OMC", band:"5.0E+14..6.0E+14", res:"18", px:17.5, d:0.05, fov:"5x5deg", desc:"c:nr;cl:nly"},
     {n:"SPI", band:"20keV..8MeV", res:"7200", sres:"2.2keV@1.33MeV", fov:"16deg", desc:"c:nr;cl:nly;"},
-    {n:"IBIS", band:"3.63E+18..2.42E+21", res:"720", sres:"9keV@100keV", fov:"9x9deg", desc:"c:nr;cl:ny"},
-    {n:"JEM-X", band:"7.25E+17..8.46E+18", res:"180", sres:"1.3keV@10keV", fov:"4.8deg", desc:"c:nr"},
-    {n:"OMC", band:"5.0E+14..6.0E+14", res:"18", px:17.5, d:0.05, fov:"5x5deg", desc:"c:nr"}
+    {n:"IBIS", band:"3.63E+18..2.42E+21", res:"720", sres:"9keV@100keV", fov:"9x9deg", desc:"c:nr;cl:n"}
 ]},
 interheliozond:{name:"Interhelio-Zond", url:"hp:dec1.sinp.msu.ru/smdc/datasource/interhelios/index.html;rsw:www.russianspaceweb.com/igz.html", desc:"Close Approach", stat:"pl", 
   parts: [
@@ -712,7 +712,7 @@ qss:{name:"Mozi", url:"", desc:"ag:cnsa;lv:CZ-2D;m:500kg", stat:"o",
     {pt:"", dt:"2017", tp:"l", loc:"ter:xch", desc:""},
     {pt:"", dt:"2017", tp:"sco", loc:"sol:esl1", desc:""}
 ]},*/
-lattes:{name:"LATTES", url:"hp:www.dem.inpe.br/projetos.html", desc:"m:430kg;sc:1.1;x:0;y:16", stat:"pl", 
+/*lattes:{name:"LATTES", url:"hp:www.dem.inpe.br/projetos.html", desc:"m:430kg;sc:1.1;x:0;y:16", stat:"pl", 
   parts: [
     {n:"", ctry:"br", type:"x", pur:"tim", id:"", icon:"lattes.png", desc:""}
   ], ev: [
@@ -721,7 +721,7 @@ lattes:{name:"LATTES", url:"hp:www.dem.inpe.br/projetos.html", desc:"m:430kg;sc:
   ], inst: [
     {n:"SXI:Soft X-ray Imager", band:"4.84E+17..4.35E+18", res:"300", desc:"c:nl;cl:nly;"},
     {n:"HXI:Hard X-ray Imager", band:"10..200keV", res:"420", sres:"<5keV@60keV", fov:"58x26deg", desc:"cl:n;"}
-]},
+]},*/
 lisapathfinder:{name:"LISA Pathfinder", url:"hp:www.esa.int/Our_activities/Space_Science/LISA_Pathfinder_overview;esa:sci.esa.int/science-e/www/area/index.cfm?fareaid=40;tw:twitter.com/ESA_LPF", desc:"Gravity Waves;lv:Vega;m:1910kg", stat:"s", 
   parts: [
     {n:"", ctry:"eu", type:"gr", pur:"", id:"2015-70A", icon:"lisapf.png", desc:""}
@@ -1011,13 +1011,14 @@ solarorbiter:{name:"Solar Orbiter", url:"hp:www.esa.int/Our_activities/Space_Sci
     {n:"SPICE:Spectral Imaging of the Coronal Environment", band:"48.5..105nm", tp:"is", res:"", d:"", px:"", url:"", desc:"c:;"},
     {n:"STIX:X-ray Spectrometer/Telescope", band:"4..150keV", tp:"is", res:"", fov:"1.5deg", url:"", desc:"cl:n;"}
 ]},
-spp:{name:"Parker Solar Probe", url:"hp:solarprobe.jhuapl.edu/;nasa:solarprobe.gsfc.nasa.gov/;tw:twitter.com/SolarProbePlus", desc:"Close Approach;ag:nasa,apl;lv:Delta IV Heavy;sc:1;x:0;y:20", stat:"o", 
+spp:{name:"Parker Solar Probe", url:"hp:solarprobe.jhuapl.edu/;nasa:solarprobe.gsfc.nasa.gov/;tw:twitter.com/SolarProbePlus", desc:"Close Approach;ag:nasa,apl;lv:Delta IV Heavy;sc:1;x:-40;y:2", stat:"o", 
   parts: [
     {n:"SPP:Solar Probe Plus", ctry:"us", type:"", pur:"sol", id:"2018-065A", icon:"spp.png", desc:""}
   ], ev: [
     {pt:"", dt:"2018-08-12", tp:"l", loc:"ter:cap", desc:""},
     {pt:"", dt:"2018-08-12", tp:"sco", loc:"sol:ho", desc:""}
   ], inst: [
+    {n:"HI:Heliospheric Imager", band:"500..600nm", res:"720", fov:"160x160deg", url:"", desc:"c:n;cl:nl"},
     {n:"FIA:Fast Ion Analyzer", band:"50..20keV", tp:"par", sres:"0.05", tres:"0.1s", fov:"330x90deg", url:"", desc:"c:"},
     {n:"FEA:Fast Electron Analyzer", band:"1eV..5keV", tp:"par", sres:"0.1", tres:"0.1s", fov:"30x30deg", url:"", desc:"c:"},
     {n:"MAG:Magnetometer", band:"", tp:"em", tres:"0.05s", url:"", desc:"c:"},
@@ -1025,8 +1026,7 @@ spp:{name:"Parker Solar Probe", url:"hp:solarprobe.jhuapl.edu/;nasa:solarprobe.g
     {n:"PWI:Plasma Wave Instrument", band:"10Hz..10MHz", tp:"par", res:"", tres:"0.1s", url:"", desc:"c:"},
     {n:"EPI:Energetic Particle Instrument", band:"0.02..100MeV", tp:"par", res:"", tres:"5s", url:"", desc:"c:"},
     {n:"Neutron Spectrometer", tp:"sp", band:"0.02..10MeV", sres:"0.5", fov:"~360deg", url:"", desc:"c:"},
-    {n:"CD:Coronal Dust", band:"0.05..50um", tp:"msp", tres:"10s", fov:"~360deg", url:"", desc:"c:"},
-    {n:"HI:Heliospheric Imager", band:"500..600nm", tp:"im", res:"720", fov:"160x160deg", url:"", desc:"c:"}
+    {n:"CD:Coronal Dust", band:"0.05..50um", tp:"msp", tres:"10s", fov:"~360deg", url:"", desc:"c:"}
 ]},
 spitzer:{name:"Spitzer", url:"hp:ssc.spitzer.caltech.edu/;ipac:irsa.ipac.caltech.edu/Missions/spitzer.html;tw:twitter.com/NASAspitzer", desc:"ag:nasa,jpl;lv:Delta II 7820H;sc:1.1;y:6", stat:"o", 
   parts: [
