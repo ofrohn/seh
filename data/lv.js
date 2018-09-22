@@ -23,20 +23,20 @@ add: spec. impulse, manufact.
 "Atlas-D Able IV": {syn:"Atlas-D Able"},
 "Atlas-D Able V": {syn:"Atlas-D Able"},
 //Atlas-LV3 Agena-B, Atlas-LV3 Agena-D, , Atlas-SLV3 Agena-D
-"Atlas Agena": {ctry:"us", m:"130000", pm:"-/800/340",  d:"32.1x3.05", pf:"", dt:"1960-02-26..1978-06-27", st:"2", ust:"", th:"1629", fam:"Atlas", desc:"l:cap;ag:nasa", fuel:"KeroLOX", icon:"Atlas-Agena.png"},
+"Atlas Agena": {ctry:"us", m:"130000", pm:"2300/800/340",  d:"32.1x3.05", pf:"", dt:"1960-02-26..1978-06-27", st:"2", ust:"", th:"1629", fam:"Atlas", desc:"l:cap;ag:nasa", fuel:"KeroLOX", icon:"Atlas-Agena.png"},
 "Atlas-LV3 Agena-B": {syn:"Atlas Agena"},
 "Atlas-LV3 Agena-D": {syn:"Atlas Agena"},
 "Atlas-SLV3 Agena-D": {syn:"Atlas Agena"},
 //Atlas-LV3C Centaur-C, Atlas-LV3C Centaur-D, Atlas-SLV3C Centaur-D, Atlas-SLV3D Centaur-D1A, Atlas-SLV3D Centaur-D1AR
-"Atlas-LV3 Centaur": {ctry:"us", m:"136100", pm:"-/1700/1000",  d:"33x3.05", pf:"", dt:"1962-05-09..1967-07-14", st:"2", ust:"", th:"1629", fam:"Atlas", desc:"l:cap;ag:nasa", fuel:"KeroLOX", icon:"Atlas-LV-3C.png"},
+"Atlas-LV3 Centaur": {ctry:"us", m:"136100", pm:"5000/1700/1000",  d:"33x3.05", pf:"10-12x3.3-4.2", dt:"1962-05-09..1967-07-14", st:"2", ust:"", th:"1629", fam:"Atlas", desc:"l:cap;ag:nasa", fuel:"KeroLOX", icon:"Atlas-LV-3C.png"},
 "Atlas-LV3C Centaur-C": {syn:"Atlas-LV3 Centaur"},
 "Atlas-LV3C Centaur-D": {syn:"Atlas-LV3 Centaur"},
-"Atlas-SLV3 Centaur": {ctry:"us", m:"148400", pm:"-/1800/1000",  d:"40.2x3.05", pf:"", dt:"1967-09-08..1983-05-19", st:"2", ust:"Star-37E", th:"1740", fam:"Atlas", desc:"l:cap;ag:nasa", fuel:"KeroLOX", icon:"Atlas-SLV-3C.png"},
+"Atlas-SLV3 Centaur": {ctry:"us", m:"148400", pm:"5200/1800/1000",  d:"40.2x3.05", pf:"10-12x3.3-4.2", dt:"1967-09-08..1983-05-19", st:"2", ust:"Star-37E", th:"1740", fam:"Atlas", desc:"l:cap;ag:nasa", fuel:"KeroLOX", icon:"Atlas-SLV-3C.png"},
 "Atlas-SLV3C Centaur-D": {syn:"Atlas-SLV3 Centaur"},
 "Atlas-SLV3D Centaur-D1A": {syn:"Atlas-SLV3 Centaur"},
 "Atlas-SLV3D Centaur-D1AR": {syn:"Atlas-SLV3 Centaur"},
 //Atlas IIAS
-"Atlas IIAS": {ctry:"us", m:"204300", pm:"8618/3719/2700",  d:"47.54x3.05", pf:"x3.05", dt:"1993-12-16..2004-08-31", st:"2/4", ust:"", th:"3800", fam:"Atlas", desc:"l:cap;ag:nasa", fuel:"KeroLOX+SRP", icon:"Atlas-IIAS.png"},
+"Atlas IIAS": {ctry:"us", m:"204300", pm:"8618/3719/2700",  d:"47.54x3.05", pf:"10-12x3.3-4.2", dt:"1993-12-16..2004-08-31", st:"2/4", ust:"", th:"3800", fam:"Atlas", desc:"l:cap;ag:nasa", fuel:"KeroLOX+SRP", icon:"Atlas-IIAS.png"},
 //Atlas V 401, Atlas V 411, Atlas V 541, Atlas V 551
 "Atlas V 401": {ctry:"us", m:"333320", pm:"9800/4750/3700",  d:"58.3x3.81", pf:"10-12x4.2", dt:"2002-08-21..", st:"2/0", ust:"", th:"4152", fam:"Atlas", desc:"l:cap;van;ag:nasa", fuel:"KeroLOX", icon:"Atlas-V401.png"},
 "Atlas V 411": {ctry:"us", m:"374120", pm:"12030/5950/4500",  d:"58.3x3.81", pf:"10-12x4.2", dt:"2006-04-20..", st:"2/1", ust:"", th:"5422", fam:"Atlas", desc:"l:cap;van;ag:nasa", fuel:"KeroLOX+SRP",  icon:"Atlas-V411.png"},
@@ -172,7 +172,7 @@ add: spec. impulse, manufact.
 "Titan 401B Centaur T": {ctry:"us", m:"939000", pm:"21900/9000/8600",  d:"62.2x3.05", pf:"17-26x4.5", dt:"1997-10-15..2003-09-09", st:"3/2", ust:"", th:"15000", fam:"Titan", desc:"l:cap;ag:nasa", fuel:"A50/N2O4+SRP", icon:"Titan-4B.png"},
 "Titan IIG": {ctry:"us", m:"150000", pm:"3600/-/1000",  d:"32.8x3.05", pf:"", dt:"1988-09-05..2003-10-18", st:"2", ust:"Star-37FM", th:"2090", fam:"Titan", desc:"l:van;ag:nasa,usn", fuel:"A50/N2O4", icon:"Titan-23G.png"},
 "Titan III": {ctry:"us", m:"680000", pm:"14742/4990/4000",  d:"47.3x3.05", pf:"12.4-16x3.6", dt:"1990-01-01..1992-09-25", st:"2/2", ust:"TOS", th:"12450", fam:"Titan", desc:"l:cap;ag:nasa", fuel:"A50/N2O4+SRP", icon:"Titan-3.png"},
-"Titan IIIE Centaur D1T": {ctry:"us", m:"633000", pm:"17000/6800/5000",  d:"48.8x3.05", pf:"12.4-16x3.6", dt:"1974-02-12..1977-09-05", st:"3/2", ust:"Star-37E", th:"10600", fam:"Titan", desc:"l:cap;ag:nasa", fuel:"A50/N2O4+SRP", icon:"Titan-3E.png"},
+"Titan IIIE Centaur D1T": {ctry:"us", m:"633000", pm:"17000/6800/5000",  d:"48.8x3.05", pf:"17.8x3.7", dt:"1974-02-12..1977-09-05", st:"3/2", ust:"Star-37E", th:"10600", fam:"Titan", desc:"l:cap;ag:nasa", fuel:"A50/N2O4+SRP", icon:"Titan-3E.png"},
 //Vega
 "Vega": {alt:"", ctry:"eu", m:"139000", pm:"2300/-/",  d:"30x3", pf:"7.88x2.6", dt:"2012-02-13..", st:"3", ust:"AVUM", th:"2261", fam:"", desc:"l:kou;ag:esa", fuel:"SRP", icon:"vega.png"},
 //Vostok-L 8K72

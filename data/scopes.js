@@ -997,8 +997,8 @@ solarorbiter:{name:"Solar Orbiter", url:"hp:www.esa.int/Our_activities/Space_Sci
   parts: [
     {n:"", ctry:"eu", type:"uv;par", pur:"sol", id:"", icon:"solarorbiter.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2019-02", tp:"l", loc:"ter:kou", desc:""},
-    {pt:"", dt:"2019-02", tp:"sco", loc:"sol:ho", desc:""}
+    {pt:"", dt:"2020", tp:"l", loc:"ter:kou", desc:""},
+    {pt:"", dt:"2020", tp:"sco", loc:"sol:ho", desc:""}
   ], inst: [
     {n:"EUI:Extreme Ultraviolet Imager", band:"17.4..30.4nm", res:"1", d:"", px:"", fov:"5.2deg", url:"", desc:"cl:ny;"},
     {n:"EPD:Energetic Particle Detector", band:"8..700keV", tp:"psp", res:"", url:"", desc:"c:"},
