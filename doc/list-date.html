@@ -42,7 +42,7 @@
     for (var key in probes) {
       var ev = probes[key].Events();
       for (var i=0; i<ev.length; i++) {
-        if (!ev[i].date) continue;
+        if (typeof ev[i] === "undefined" || !ev[i].date) continue;
         dt = ev[i].date[0].n.replace(/\u2026.*/, '');
         if (i === 0) dt0 = Parse.dt(dt);
         dt = Parse.dt(dt, dt0);
