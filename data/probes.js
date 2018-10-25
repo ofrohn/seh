@@ -2851,9 +2851,9 @@ chandrayaan2: {name:"Chandrayaan 2:Moon Craft 2", desc:"lv:GSLV MkIII",
 ]},
 bepicolombo: {name:"Bepi Colombo", desc:"lv:Ariane 5ECA",
   parts:[
-    {names:"", type:"fbm", dest:"mer", stat:"pl", ctry:"eu;jp", desc:"ag:asi,esa,jaxa;m0:2700kg;m:4100kg;dim:16x4.5x4m;w:0.5", id:"2018-080A", url:"hp:www.esa.int/Our_Activities/Space_Science/BepiColombo_overview2;psa:www.sciops.esa.int/index.php?project=PSA&page=bepi;tw:twitter.com/BepiColombo", icon:"bepicolombo.png"},
-{names:"MPO:Mercury Planetary Orbiter", type:"om", dest:"mer", stat:"pl", ctry:"eu", desc:"ag:asi,esa;m:1850kg;sc:0.75", url:"esa:sci.esa.int/home/bepicolombo/;tw:twitter.com/ESA_Bepi", icon:"bepicolombo-mpo.png"},
-{names:"MMO:Mercury Magnetospheric Orbiter", type:"om", dest:"mer", stat:"pl", ctry:"jp", desc:"ag:jaxa;m:285kg", url:"jaxa:www.stp.isas.jaxa.jp/mercury/;tw:twitter.com/JAXA_MMO", icon:"bepicolombo-mmo.png"}], 
+    {names:"", type:"fbm", dest:"mer", stat:"pl", ctry:"eu;jp", desc:"ag:asi,esa,jaxa;m0:2700kg;m:4100kg;dim:30x4.5x4m;sc:0.7;w:0.5", id:"2018-080A", url:"hp:www.esa.int/Our_Activities/Space_Science/BepiColombo_overview2;psa:www.sciops.esa.int/index.php?project=PSA&page=bepi;tw:twitter.com/BepiColombo", icon:"bepicolombo.png"},
+{names:"MPO:Mercury Planetary Orbiter", type:"om", dest:"mer", stat:"pl", ctry:"eu", desc:"ag:asi,esa;m:1838kg;sc:0.75", url:"esa:sci.esa.int/home/bepicolombo/;tw:twitter.com/ESA_Bepi", icon:"bepicolombo-mpo.png"},
+{names:"MMO:Mercury Magnetospheric Orbiter", type:"om", dest:"mer", stat:"pl", ctry:"jp", desc:"ag:jaxa;m:275kg", url:"jaxa:www.stp.isas.jaxa.jp/mercury/;tw:twitter.com/JAXA_MMO", icon:"bepicolombo-mmo.png"}], 
   events:[
     {pt:"", type:"l", dt:"2018-10-20", loc:"ter:kou:ELA-3", desc:""},
     {pt:"", type:"fb", dt:"2020-04-13", loc:"ter", desc:"ga"},
