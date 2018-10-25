@@ -1751,12 +1751,12 @@ suzaku:{name:"Suzaku", url:"hp:www.astro.isas.ac.jp/suzaku/", desc:"ag:jaxa;lv:M
     {n:"XIS", band:"4.84E+16..2.90E+18", res:"108", desc:"c:nl;cl:nl;"},
     {n:"HXD", band:"2.42E+18..1.45E+20", res:"16200..1800", desc:"c:nl;"}
 ]},
-svom:{name:"SVOM:Space-based multi-band astronomical Variable Objects Monitor", url:"hp:www.svom.fr/svom.html;cnes:smsc.cnes.fr/SVOM/index.htm", desc:"ag:cnsa,cnes;lv:CZ-2D;y:20;x:10;m:950kg", stat:"pl", 
+svom:{name:"SVOM:Space-based multi-band astronomical Variable Objects Monitor", url:"hp:www.svom.fr/svom.html;cnes:smsc.cnes.fr/SVOM/index.htm;tw:twitter.com/SVOM_mission", desc:"ag:cnsa,cnes;lv:CZ-2D;y:20;x:10;m:950kg", stat:"pl", 
   parts: [
     {n:"", ctry:"cn;fr", type:"gam;x;opt", pur:"mon", id:"", icon:"svom.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2022", tp:"l", loc:"ter:jiu", desc:""},
-    {pt:"", dt:"2022", tp:"sco", loc:"ter:leo:600kmx30deg", desc:""},
+    {pt:"", dt:"2021", tp:"l", loc:"ter:jiu", desc:""},
+    {pt:"", dt:"2021", tp:"sco", loc:"ter:leo:600kmx30deg", desc:""},
     {pt:"", dt:"2025", tp:"nom", loc:"", desc:""},
     {pt:"", dt:"2026", tp:"pom", loc:"", desc:""}
   ], inst: [
