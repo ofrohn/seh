@@ -677,13 +677,13 @@ jwst:{name:"JWST:James Webb Space Telescope", url:"hp:www.jwst.nasa.gov/;stsci:w
     {n:"NIRSpec", band:"0.6..5um", tp:"sp", res:"", d:"6.5", px:"", fov:"3.4x3.6'", sres:"100/1000/2700", desc:"c:v;"},
     {n:"FGS/NIRISS", band:"1.0..2.5um", tp:"sp", res:"", d:"6.5", px:"", fov:"2.2x2.2'", sres:"100/1000/2700", desc:"c:v;"}
 ]},
-kepler:{name:"Kepler", url:"hp:kepler.nasa.gov/;tw:twitter.com/NASAKepler", desc:"ag:nasa;lv:Delta 7935-10L;sc:0.8", stat:"o", 
+kepler:{name:"Kepler", url:"hp:kepler.nasa.gov/;tw:twitter.com/NASAKepler", desc:"ag:nasa;lv:Delta 7935-10L;sc:0.8", stat:"s", 
   parts: [
     {n:"K2", ctry:"us", type:"opt", pur:"exo;seis", id:"2009-011A", icon:"kepler.png", desc:""}
   ], ev: [
     {pt:"", dt:"2009-03-07", tp:"l", loc:"ter:cap:SLC-17B", desc:""},
     {pt:"", dt:"2009-03-18", tp:"sco", loc:"sol:ef:0.95x1.05aux5.5deg", desc:""},
-    {pt:"", dt:"2018", tp:"eom", loc:"", desc:"Fuel depletion"}
+    {pt:"", dt:"2018-10-23", tp:"eom", loc:"", desc:"Fuel depletion"}
   ], inst: [
     {n:"", band:"423..897nm", d:"1.4", px:"10", tres:"59..1766s", fov:"16deg", desc:"c:n;cl:nl;"}
 ]},
@@ -1102,7 +1102,7 @@ svom:{name:"SVOM:Space-based multi-band astronomical Variable Objects Monitor", 
     {n:"", ctry:"cn;fr", type:"gam;x;opt", pur:"mon", id:"", icon:"svom.png", desc:""}
   ], ev: [
     {pt:"", dt:"2021", tp:"l", loc:"ter:jiu", desc:""},
-    {pt:"", dt:"2021", tp:"sco", loc:"ter:leo:600kmx30deg", desc:""},
+    {pt:"", dt:"2021ffffff", tp:"sco", loc:"ter:leo:600kmx30deg", desc:""},
     {pt:"", dt:"2025", tp:"nom", loc:"", desc:""},
     {pt:"", dt:"2026", tp:"pom", loc:"", desc:""}
   ], inst: [

@@ -2002,7 +2002,7 @@ ace: {name:"ACE:Advanced Composition Explorer", desc:"lv:Delta II 7920-8",
     {pt:"", type:"l", dt:"1997-08-25", loc:"ter:cap:LC-17A", desc:""},
     {pt:"", type:"toi", dt:"1997-08-25", loc:"ter:leto:177x1370000km", desc:""},
     {pt:"", type:"oi", dt:"1997-12-12", loc:"sol:esl1", desc:"Halo Orbit"},
-    {pt:"", type:"nom", dt:"2018-09-30", loc:"esl1", desc:"?"},
+    {pt:"", type:"nom", dt:"2019-09-30", loc:"esl1", desc:"?"},
     {pt:"", type:"pom", dt:"2025-09-30", loc:"esl1", desc:"?;Fuel Depletion"}
 ]},
 cassini: {name:"Cassini-Huygens", desc:"lv:Titan 401B Centaur T", stat:"s",
@@ -2131,7 +2131,7 @@ marsodyssey: {name:"Mars Odyssey", desc:"lv:Delta II 7425-9.5",
     {pt:"", type:"ev", dt:"2001-10-26", loc:"mar", desc:"Start of Aerobraking"},
     {pt:"", type:"sco", dt:"2002-01-30", loc:"mar:387x450kmx93deg", desc:"sso"},
     {pt:"", type:"obs", dt:"2014-10-19..2014-10-20", loc:"mar", desc:"Comet C 2013 A1 Siding Spring"},
-    {pt:"", type:"nom", dt:"2018-09-30", loc:"mar", desc:"pend"},
+    {pt:"", type:"nom", dt:"2019-09-30", loc:"mar", desc:"pend"},
     {pt:"", type:"pom", dt:"2019-09-30", loc:"mar", desc:"Fuel Depletion"}
 ]},
 genesis: {name:"Genesis", desc:"lv:Delta II 7326-9.5",
@@ -2232,7 +2232,7 @@ opportunity: {name:"Opportunity", desc:"lv:Delta II 7925H-9.5",
     {pt:"", type:"arr", dt:"2011-08-09", loc:"mar", desc:"Endeavour Crater"},
     {pt:"", type:"obs", dt:"2014-10-19", loc:"mar", desc:"Comet C 2013 A1 Siding Spring"},
     {pt:"", type:"ex", dt:"", loc:"mar", desc:"rv:45km;and counting"},
-    {pt:"", type:"nom", dt:"2018-09-30", loc:"mar", desc:"pend"},
+    {pt:"", type:"nom", dt:"2019-09-30", loc:"mar", desc:"pend"},
     {pt:"", type:"pom", dt:"2020-12-31", loc:"mar", desc:""}
     
 ]},
@@ -2327,7 +2327,7 @@ mro: {name:"MRO:Mars Reconnaissance Orbiter", desc:"lv:Atlas V 401",
     {pt:"", type:"ev", dt:"2006-03-30..2006-10-01", loc:"mar", desc:"Aerobraking"},
     {pt:"", type:"sco", dt:"2006-11-01", loc:"mar:255x320kmx93deg", desc:"sso"},
     {pt:"", type:"obs", dt:"2014-10-09..2014-10-22", loc:"mar", desc:"Comet C 2013 A1 Siding Spring"},
-    {pt:"", type:"nom", dt:"2018-09-30", loc:"mar", desc:"pend"},
+    {pt:"", type:"nom", dt:"2019-09-30", loc:"mar", desc:"pend"},
     {pt:"", type:"pom", dt:"2022-12-31", loc:"mar", desc:""}
 ]},
 vex: {name:"VEX:Venus Express", desc:"lv:Soyuz-FG/Fregat",
@@ -2377,7 +2377,7 @@ stereoa: {name:"STEREO A:Solar Terrestrial Relations Observatory A", desc:"lv:De
     {pt:"", type:"fb", dt:"2006-12-15", loc:"lun:7340km", desc:"ga"},
     {pt:"", type:"oi", dt:"2006-12-15", loc:"sol:ho:0.956x0.967aux0.13deg", desc:"Earth-leading Orbit"},
     {pt:"", type:"ev", dt:"2011-02-06", loc:"so", desc:"180\u00b0 Separation from Stereo B"},
-    {pt:"", type:"nom", dt:"2018-09-30", loc:"so", desc:""},
+    {pt:"", type:"nom", dt:"2019-09-30", loc:"so", desc:""},
     {pt:"", type:"pom", dt:"2023-10-01", loc:"so", desc:""}
 ]},
 stereob: {name:"STEREO B:Solar Terrestrial Relations Observatory B", desc:"lv:Delta II 7925-10L",
@@ -2391,7 +2391,7 @@ stereob: {name:"STEREO B:Solar Terrestrial Relations Observatory B", desc:"lv:De
     {pt:"", type:"ev", dt:"2011-02-06", loc:"so", desc:"180\u00b0 Separation from Stereo A"},
     {pt:"", type:"los", dt:"2014-10-01", loc:"so", desc:"fail:Attitude control system;hib"},
     {pt:"", type:"ev", dt:"2016-08-21", loc:"so", desc:"Reestablishment of contact;wake"},
-    {pt:"", type:"nom", dt:"2018-09-30", loc:"so", desc:"?"},
+    {pt:"", type:"nom", dt:"2019-09-30", loc:"so", desc:"?"},
     {pt:"", type:"pom", dt:"2023-10-01", loc:"so", desc:""}
 ]},
 // --- 2007 --- 5 Missions     
@@ -2406,8 +2406,8 @@ artemis: {name:"ARTEMIS:Acceleration, Reconnection, Turbulence and Electrodynami
     {pt:"", type:"oi", dt:"2011-07-02", loc:"lun", desc:"ARTEMIS P1"},
     {pt:"", type:"oi", dt:"2011-07-17", loc:"lun", desc:"ARTEMIS P2"},
     {pt:"", type:"sco", dt:"2012-08-15", loc:"lun:3543x27000km", desc:""},
-    {pt:"", type:"nom", dt:"2016-12-31", loc:"lun", desc:"?;Fuel Depletion"},
-    {pt:"", type:"pom", dt:"2018-09-30", loc:"lun", desc:""},
+    {pt:"", type:"nom", dt:"2018-12-31", loc:"lun", desc:"?;Fuel Depletion"},
+    {pt:"", type:"pom", dt:"2020-09-30", loc:"lun", desc:""},
 ]},
 phoenix: {name:"Phoenix", desc:"lv:Delta II 7925-9.5",
   parts:[
@@ -2437,7 +2437,7 @@ kaguya: {name:"Kaguya:Moon Princess", desc:"lv:H-IIA 2022",
     {pt:"0", type:"imp", dt:"2009-06-10", loc:"lun:65.5S,80.4E", desc:"Gill Crater;op;eom;show:0"},
     {pt:"2", type:"imp", dt:"2009-06-29", loc:"lun", desc:"ssp:Ouna;show:0"}
 ]},
-dawn: {name:"Dawn", desc:"lv:Delta II 7925H-9.5", stat:"o",
+dawn: {name:"Dawn", desc:"lv:Delta II 7925H-9.5", stat:"s",
   parts:[
     {names:"", type:"om", dest:"ast:Vesta", stat:"s", ctry:"us", desc:"ag:nasa,jpl;fam:Discovery;First orbiter around two destinations other than Earth;m:1217.7kg;m0:747m;dim:19.7x6.64x1.77m;sc:1", id:"2007-043A", url:"hp:www-ssc.igpp.ucla.edu/dawn/;jpl:dawn.jpl.nasa.gov/;tw:twitter.com/NASA_Dawn", icon:"dawn.png"},
 {names:"", type:"om", dest:"ast:Ceres", stat:"o", ctry:"us", desc:"First dwarf planet orbiter"}], 
@@ -2462,8 +2462,7 @@ dawn: {name:"Dawn", desc:"lv:Delta II 7925H-9.5", stat:"o",
     {pt:"1", type:"sco", dt:"2017-06-30", loc:"ast:4400x39100km", desc:"XMO5:Extended Mission Orbit 5"},
     {pt:"1", type:"sco", dt:"2018-05-14", loc:"ast:375x4800km", desc:"XMO6:Extended Mission Orbit 6"},
     {pt:"1", type:"sco", dt:"2018-06-07", loc:"ast:35x4000km", desc:"XMO7:Extended Mission Orbit 7"},
-    {pt:"1", type:"nom", dt:"2018-09", loc:"ast", desc:"?"},
-    {pt:"1", type:"pom", dt:"2018-12-31", loc:"ast", desc:"?"}
+    {pt:"1", type:"los", dt:"2018-10-31", loc:"ast", desc:"eom"}
 ]},
 change1: {name:"Chang'e 1", desc:"lv:CZ-3A",
   parts:[
@@ -2500,7 +2499,7 @@ lro: {name:"LRO:Lunar Reconnaissance Orbiter", desc:"lv:Atlas V 401",
     {pt:"", type:"oi", dt:"2009-06-23", loc:"lun:220x3100kmx90deg", desc:""},
     {pt:"", type:"sco", dt:"2009-09-18", loc:"lun:50kmx90deg", desc:"Survey Orbit"},
     {pt:"", type:"sco", dt:"2010-09-16", loc:"lun:30x216kmx90deg", desc:""},
-    {pt:"", type:"nom", dt:"2018-09-30", loc:"lun", desc:"pend"},
+    {pt:"", type:"nom", dt:"2019-09-30", loc:"lun", desc:"pend"},
     {pt:"", type:"pom", dt:"2020-12-31", loc:"lun", desc:"?"}
 ]},
 lcross: {name:"LCROSS:Lunar Crater Observation and Sensing Satellite", desc:"lv:Atlas V 401",
@@ -2578,7 +2577,7 @@ juno: {name:"Juno", desc:"lv:Atlas V 551", stat:"o",
     {pt:"", type:"app", dt:"2016-06-06", loc:"jup", desc:"Close approach phase"},
     {pt:"", type:"oi", dt:"2016-07-05", loc:"jup:3900x8029000kmx89.8deg", desc:"per:53.5d"},
     //{pt:"", type:"sco", dt:"2016-12-11", loc:"jup:5000x3500000kmx89.9deg", desc:"per:14d;Polar orbit"},
-    {pt:"", type:"nom", dt:"2018-09-30", loc:"jup", desc:"pend"},
+    //{pt:"", type:"nom", dt:"2018-09-30", loc:"jup", desc:"pend"},
     {pt:"", type:"ae", dt:"2021-07", loc:"jup", desc:"eom"}
 ]},
 grail: {name:"GRAIL:Gravity Recovery And Interior Laboratory", desc:"lv:Delta II 7920H-10",
@@ -2615,7 +2614,7 @@ msl: {name:"Curiosity", desc:"lv:Atlas V 541",
     {pt:"", type:"arr", dt:"2014-09-11", loc:"mar", desc:"Mt. Sharp"},
     {pt:"", type:"obs", dt:"2014-10-19", loc:"mar", desc:"Comet C 2013 A1 Siding Spring"},
     {pt:"", type:"ex", dt:"", loc:"mar", desc:"Drive up Mt. Sharp;rv:18km;and counting"},
-    {pt:"", type:"nom", dt:"2018-09-30", loc:"mar", desc:"pend"},
+    {pt:"", type:"nom", dt:"2019-09-30", loc:"mar", desc:"pend"},
     {pt:"", type:"pom", dt:"2022-11-15", loc:"mar", desc:"?"}
 ]},
 // --- 2013 --- 4 Missions   
@@ -2655,7 +2654,7 @@ maven: {name:"MAVEN:Mars Atmosphere and Volatile Evolution Mission", desc:"lv:At
     {pt:"", type:"obs", dt:"2014-10-17..2014-10-21", loc:"mar", desc:"Comet C 2013 A1 Siding Spring"},
     {pt:"", type:"sco", dt:"2014-11-17", loc:"mar:150x6200kmx75deg", desc:""},
     {pt:"", type:"sco", dt:"2015-02-10..2015-02-18", loc:"mar:125km", desc:"Deep dip campaign"},
-    {pt:"", type:"nom", dt:"2018-09-30", loc:"mar", desc:"pend"},
+    {pt:"", type:"nom", dt:"2019-09-30", loc:"mar", desc:"pend"},
     {pt:"", type:"pom", dt:"2022-01", loc:"mar", desc:"?"}
 ]},
 mangalyaan: {name:"MOM:Mars Orbiter Mission", desc:"lv:PSLV-XL",
@@ -2709,7 +2708,7 @@ hayabusa2: {name:"Hayabusa 2:Peregrine Falcon 2", desc:"lv:H-IIA 202",
     {pt:"2", type:"td", dt:"2018-09-21", loc:"ast", desc:"hpp:MINERVA II1 A&B"},
     {pt:"3", type:"td", dt:"2018-10-03", loc:"ast", desc:"lp:MASCOT"},
     {pt:"3", type:"los", dt:"2018-10-04", loc:"ast", desc:"lp:MASCOT;eom:slm"},
-    {pt:"3", type:"dsc", dt:"2018-10", loc:"ast", desc:"TD1 Maneuver"},
+    {pt:"3", type:"dsc", dt:"2018-10", loc:"ast", desc:"TD1 Practice"},
     {pt:"3", type:"dsc", dt:"2019-02", loc:"ast", desc:"TD2 Maneuver"},
     {pt:"1", type:"imp", dt:"2019-03", loc:"ast", desc:"ip:SCI;Cratering Experiment;eom:im"},
     {pt:"0", type:"dsc", dt:"2019-04", loc:"ast", desc:"Sample acquisition"},
@@ -2907,9 +2906,9 @@ spaceil: {name:"SpaceIL", desc:"lv:Falcon 9",
     {names:"", type:"slm", dest:"lun", stat:"pl", ctry:"il", desc:";m:585kg;sc:0.3", id:"", url:"hp:www.spaceil.com/", icon:"spaceil.png"}
   ], 
   events:[
-    {pt:"", type:"l", dt:"2018-12", loc:"ter:cap", desc:""},
-    {pt:"", type:"td", dt:"2019-02", loc:"lun", desc:""},
-    {pt:"", type:"nom", dt:"2019-03", loc:"lun", desc:"?"}
+    {pt:"", type:"l", dt:"2019", loc:"ter:cap", desc:""},
+    {pt:"", type:"td", dt:"l+3mo", loc:"lun", desc:"Mare Serenitatis"},
+    {pt:"", type:"nom", dt:"l+4mo", loc:"lun", desc:"?"}
 ]},
 // --- 2019
 aditya:{name:"Aditya-L1", desc:"lv:PSLV XL", stat:"pl", 
