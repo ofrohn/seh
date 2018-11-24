@@ -3089,12 +3089,12 @@ exomarsrv: {name:"ExoMars Rover", desc:"lv:Proton-M/Briz-M",
 ]},
 mars2020rover: {name:"Mars 2020 Rover", desc:"lv:Atlas V 551",
   parts:[
-    {names:"", type:"rvm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;m:1050kg;dim:3.0x2.7x2.2m;sc:0.7;Sample Caching Mission", id:"", url:"hp:mars.jpl.nasa.gov/mars2020", icon:"mars2020.png"},
+    {names:"", type:"rvm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;m:1050kg;dim:3.0x2.7x2.2m;sc:0.7;Sample Caching Mission", id:"", url:"hp:www.nasa.gov/mars2020", icon:"mars2020.png"},
     {names:"Mars Helicopter", type:"dm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;m:1.8kg;dim:;sc:0.7;", id:"", url:"", icon:"marshelo.png"}], 
   events:[
     {pt:"", type:"l", dt:"2020-08", loc:"ter:cap:SLC-41", desc:""},
     {pt:"", type:"toi", dt:"l+1dy", loc:"sol:hto", desc:""},
-    {pt:"", type:"edl", dt:"2021-02", loc:"mar", desc:""},
+    {pt:"", type:"edl", dt:"2021-02", loc:"mar:18.5N,77.5E", desc:"Jezero Crater;show:M2020"},
     {pt:"", type:"tos", dt:"2021-03", loc:"mar", desc:"eom:dm;Helicopter probe"},
     {pt:"", type:"nom", dt:"2023-01", loc:"mar", desc:"?"},
     {pt:"", type:"pom", dt:"l+10yr", loc:"mar", desc:"?"}
@@ -3103,12 +3103,12 @@ mgrso: {name:"HX-1", desc:"lv:CZ-5",
   parts:[
     {names:"MGRSO:Mars Global Remote Sensing Orbiter", type:"om", dest:"mar", stat:"pl", ctry:"cn", desc:"ag:cnsa;m:2350kg;sc:1", id:"", url:"China Space Report:chinaspacereport.com/unmanned/planetary/mars-mission/", icon:"mgrso.png"},
     {names:"", type:"slm", dest:"mar", stat:"pl", ctry:"cn", desc:"ag:cnsa", id:"", url:"", icon:"mgrso-l.png"}, 
-    {names:"{MGRSO Rover}", type:"rvm", dest:"mar", stat:"pl", ctry:"cn", desc:"m:200kg;ag:cnsa", id:"", url:"", icon:"mgrso-rv.png"}], 
+    {names:"{MGRSO Rover}", type:"rvm", dest:"mar", stat:"pl", ctry:"cn", desc:"m:240kg;ag:cnsa", id:"", url:"", icon:"mgrso-rv.png"}], 
   events:[
     {pt:"", type:"l", dt:"2020-07", loc:"ter:wen:LC-101", desc:""},
     {pt:"", type:"toi", dt:"2020-07", loc:"sol:hto", desc:""},
     {pt:"", type:"oi", dt:"l+7mo", loc:"mar", desc:"10 day polar orbit"},
-    {pt:"1", type:"edl", dt:"l+10mo", loc:"mar", desc:"lp"},
+    {pt:"1", type:"edl", dt:"l+10mo", loc:"mar", desc:"lp;Chryse Planitia or Isidis Planitia"},
     {pt:"2", type:"nom", dt:"l+13mo", loc:"mar", desc:"rvp;eom:slm;eom:rvm"},
     {pt:"0", type:"sco", dt:"l+13mo", loc:"mar:500x100000kmx85deg", desc:""},
     {pt:"0", type:"nom", dt:"2023", loc:"mar", desc:"op;?"}

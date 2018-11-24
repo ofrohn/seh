@@ -3737,12 +3737,12 @@ exomarsrv: {name:"ExoMars Rover", desc:"lv:Proton-M/Briz-M",
 ]},
 mars2020rover: {name:"Mars 2020 Rover", desc:"lv:Atlas V 551",
   parts:[
-    {names:"", type:"rvm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;m:1050kg;dim:3.0x2.7x2.2m;sc:0.7;Sample Caching Mission", id:"", url:"hp:mars.jpl.nasa.gov/mars2020", icon:"mars2020.png"},
+    {names:"", type:"rvm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;m:1050kg;dim:3.0x2.7x2.2m;sc:0.7;Sample Caching Mission", id:"", url:"hp:www.nasa.gov/mars2020", icon:"mars2020.png"},
     {names:"Mars Helicopter", type:"dm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;m:1.8kg;dim:;sc:0.7;", id:"", url:"", icon:"marshelo.png"}], 
   events:[
     {pt:"", type:"l", dt:"2020-08", loc:"ter:cap:SLC-41", desc:""},
     {pt:"", type:"toi", dt:"l+1dy", loc:"sol:hto", desc:""},
-    {pt:"", type:"edl", dt:"2021-02", loc:"mar", desc:""},
+    {pt:"", type:"edl", dt:"2021-02", loc:"mar:18.5N,77.5E", desc:"Jezero Crater;show:M2020"},
     {pt:"", type:"tos", dt:"2021-03", loc:"mar", desc:"eom:dm;Helicopter probe"},
     {pt:"", type:"nom", dt:"2023-01", loc:"mar", desc:"?"},
     {pt:"", type:"pom", dt:"l+10yr", loc:"mar", desc:"?"}
@@ -3751,12 +3751,12 @@ mgrso: {name:"HX-1", desc:"lv:CZ-5",
   parts:[
     {names:"MGRSO:Mars Global Remote Sensing Orbiter", type:"om", dest:"mar", stat:"pl", ctry:"cn", desc:"ag:cnsa;m:2350kg;sc:1", id:"", url:"China Space Report:chinaspacereport.com/unmanned/planetary/mars-mission/", icon:"mgrso.png"},
     {names:"", type:"slm", dest:"mar", stat:"pl", ctry:"cn", desc:"ag:cnsa", id:"", url:"", icon:"mgrso-l.png"}, 
-    {names:"{MGRSO Rover}", type:"rvm", dest:"mar", stat:"pl", ctry:"cn", desc:"m:200kg;ag:cnsa", id:"", url:"", icon:"mgrso-rv.png"}], 
+    {names:"{MGRSO Rover}", type:"rvm", dest:"mar", stat:"pl", ctry:"cn", desc:"m:240kg;ag:cnsa", id:"", url:"", icon:"mgrso-rv.png"}], 
   events:[
     {pt:"", type:"l", dt:"2020-07", loc:"ter:wen:LC-101", desc:""},
     {pt:"", type:"toi", dt:"2020-07", loc:"sol:hto", desc:""},
     {pt:"", type:"oi", dt:"l+7mo", loc:"mar", desc:"10 day polar orbit"},
-    {pt:"1", type:"edl", dt:"l+10mo", loc:"mar", desc:"lp"},
+    {pt:"1", type:"edl", dt:"l+10mo", loc:"mar", desc:"lp;Chryse Planitia or Isidis Planitia"},
     {pt:"2", type:"nom", dt:"l+13mo", loc:"mar", desc:"rvp;eom:slm;eom:rvm"},
     {pt:"0", type:"sco", dt:"l+13mo", loc:"mar:500x100000kmx85deg", desc:""},
     {pt:"0", type:"nom", dt:"2023", loc:"mar", desc:"op;?"}
@@ -5804,6 +5804,7 @@ add: spec. impulse, manufact.
 "CZ-5B": {n:"Long March 5B", alt:"长征五号乙运载火箭", ctry:"cn", m:"837500", pm:"22000/-/-",  d:"53.66x5", pf:"12x5.2", dt:"2020..", st:"1/4", ust:"", th:"10572", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"LH2/LOX+KeroLOX", icon:"CZ-5B.png"},
 //CZ-7
 "CZ-7": {n:"Long March 7", alt:"长征七号运载火箭", ctry:"cn", m:"597000", pm:"13500/5500/-", d:"53x3.35", pf:"12.7x4.2", dt:"2016..", st:"2/4", ust:"YZ-1A", th:"7200", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"CZ-7.png"},
+//CZ-9 2028
 //Delta E, Delta E1
 "Delta E": {ctry:"us", m:"68000", pm:"530/240/150",  d:"28x2.44", pf:"", dt:"1965-11-06..1971-04-01", st:"3/3", ust:"X-258/FW-4D", th:"1450", fam:"Thor/Delta", desc:"l:cap,van;ag:nasa", fuel:"KeroLOX+SRP", icon:"Delta-E.png"},
 "Delta E1": {syn:"Delta E"},
