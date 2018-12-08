@@ -2891,13 +2891,13 @@ spp: {name:"Parker Solar Probe", desc:"lv:Delta IV Heavy",
 ]},
 change4: {name:"Chang'e 4", desc:"lv:CZ-3B",
   parts:[
-    {names:"嫦娥四号", type:"slm", dest:"lun", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:clep;m:3780kg;m0:1200kg;dim:4.76x3.65x3.45m;First lunar far side landing", id:"", url:"China Spaceflight:www.chinaspaceflight.com/satellite/Deepspace/CE-4/CE-4.html;CCTV:english.cntv.cn/special/lunarmission/index.shtml", icon:"chang-e4-l.png"},
-    {names:"{Chang'e 4 Rover}", type:"rvm", dest:"lun", stat:"pl", ctry:"cn", desc:"m:120kg", icon:"chang-e3-rv.png"}
+    {names:"嫦娥四号", type:"slm", dest:"lun", stat:"o", ctry:"cn", desc:"ag:cnsa;fam:clep;m:3780kg;m0:1200kg;dim:4.76x3.65x3.45m;First lunar far side landing", id:"2018-103A", url:"China Spaceflight:www.chinaspaceflight.com/satellite/Deepspace/CE-4/CE-4.html;CCTV:english.cntv.cn/special/lunarmission/index.shtml", icon:"chang-e4-l.png"},
+    {names:"{Chang'e 4 Rover}", type:"rvm", dest:"lun", stat:"o", ctry:"cn", desc:"m:120kg", icon:"chang-e3-rv.png"}
    ], 
   events:[
-    {pt:"", type:"l", dt:"2018-12", loc:"ter:xch", desc:""},
-    {pt:"", type:"oi", dt:"l+5dy", loc:"lun", desc:""},
-    {pt:"", type:"td", dt:"l+14dy", loc:"lun:45.5S,178E", desc:"South Pole Aitken, Von Karman crater;show:CE4:NW"},
+    {pt:"", type:"l", dt:"2018-12-07", loc:"ter:xch", desc:""},
+    {pt:"", type:"oi", dt:"2018-12-12", loc:"lun", desc:""},
+    {pt:"", type:"td", dt:"2019-01-03", loc:"lun:45.5S,178E", desc:"South Pole Aitken, Von Karman crater;show:CE4:NW"},
     {pt:"1", type:"nom", dt:"l+3mo", loc:"lun", desc:"rvp;?;eom:rvm"},
     {pt:"0", type:"nom", dt:"l+1yr", loc:"lun", desc:"lp;?"}
 ]},
@@ -3099,9 +3099,9 @@ mars2020rover: {name:"Mars 2020 Rover", desc:"lv:Atlas V 551",
     {pt:"", type:"nom", dt:"2023-01", loc:"mar", desc:"?"},
     {pt:"", type:"pom", dt:"l+10yr", loc:"mar", desc:"?"}
 ]},
-mgrso: {name:"HX-1", desc:"lv:CZ-5",
+mgrso: {name:"MGRSO:Mars Global Remote Sensing Orbiter", desc:"lv:CZ-5",
   parts:[
-    {names:"MGRSO:Mars Global Remote Sensing Orbiter", type:"om", dest:"mar", stat:"pl", ctry:"cn", desc:"ag:cnsa;m:2350kg;sc:1", id:"", url:"China Space Report:chinaspacereport.com/unmanned/planetary/mars-mission/", icon:"mgrso.png"},
+    {names:"HX-1", type:"om", dest:"mar", stat:"pl", ctry:"cn", desc:"ag:cnsa;m:2350kg;sc:1", id:"", url:"China Space Report:chinaspacereport.com/unmanned/planetary/mars-mission/", icon:"mgrso.png"},
     {names:"", type:"slm", dest:"mar", stat:"pl", ctry:"cn", desc:"ag:cnsa", id:"", url:"", icon:"mgrso-l.png"}, 
     {names:"{MGRSO Rover}", type:"rvm", dest:"mar", stat:"pl", ctry:"cn", desc:"m:240kg;ag:cnsa", id:"", url:"", icon:"mgrso-rv.png"}], 
   events:[

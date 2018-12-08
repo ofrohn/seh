@@ -2190,7 +2190,7 @@ add: spec. impulse, manufact.
 "Soyuz STA": {syn:"Soyuz 2.1"},
 "Soyuz STB": {syn:"Soyuz 2.1"},
 "Soyuz-FG": {alt:"Союз-ФГ", ctry:"ru", m:"308000", pm:"7200/2400/1200",  d:"46x2.95", pf:"", dt:"2003-06-02..2012-07-22", st:"2/4", ust:"Fregat", th:"4146", fam:"R-7", desc:"l:bai", fuel:"KeroLOX", icon:"Soyuz-FG.png"},
-"Soyuz-5": {alt:"Союз-5", ctry:"ru", m:"530000", pm:"18000/4500/2300",  d:"65.9x4.1", pf:"", dt:"2024", st:"2", ust:"DM-3", th:"7257", fam:"", desc:"l:bai", fuel:"KeroLOX", icon:"soyuz-5.png"},
+"Irtysh": {alt:"Soyuz-5:Союз-5", ctry:"ru", m:"530000", pm:"18000/4500/2300",  d:"65.9x4.1", pf:"", dt:"2024", st:"2", ust:"Korvet", th:"7257", fam:"", desc:"l:bai", fuel:"KeroLOX", icon:"soyuz-5.png"},
 //STS-30 Atlantis/IUS, STS-34 Atlantis/IUS, STS-41 Discovery/PAM-S
 "STS": {n:"Space Shuttle", ctry:"us", m:"2040000", pm:"24400/4944/3550",  d:"56x23.8", pf:"18.3x4.6", dt:"1981-04-12..2011-07-08", st:"1/2", ust:"IUS/PAM-S", th:"28200", fam:"STS", desc:"l:ksc;ag:nasa", fuel:"LH2/LOX+SRP", icon:"STS.png"},
 "STS-30 Atlantis": {syn:"STS"},
