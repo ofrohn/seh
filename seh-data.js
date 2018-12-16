@@ -1,7 +1,7 @@
 var SSEH = SSEH || {
   TITLE: "Solar System Exploration History",
-  VERSION: "1.6.19",
-  DATE: "2018-09 ",
+  VERSION: "1.6.20",
+  DATE: "2018-12 ",
   AUTHOR: "Olaf Frohn",
   CLICK: "Click on anything for more details",
   PATH: "images/",  //Relative path to resources
@@ -2217,7 +2217,7 @@ voyager2: {name:"Voyager 2", desc:"lv:Titan IIIE Centaur D1T", stat:"o",
     {pt:"3", type:"fb", dt:"1989-08-25", loc:"tri:39800km", desc:"eom:fbm:nep;Targeted flyby"},
     {pt:"4", type:"obs", dt:"1990-02-14", loc:"et:32au", desc:"Solar System Family Portrait"},
     {pt:"4", type:"ft", dt:"2007-08", loc:"sol:et:84au", desc:"Termination Shock"},
-    {pt:"4", type:"tr", dt:"2019", loc:"et", desc:"isp"},
+    {pt:"4", type:"tr", dt:"2018-11", loc:"et:119au", desc:"isp"},
     {pt:"4", type:"nom", dt:"2030-12-31", loc:"et", desc:"?;Power depletion"}
 ]},
 voyager1: {name:"Voyager 1", desc:"lv:Titan IIIE Centaur D1T", stat:"o",
@@ -3338,7 +3338,7 @@ change5test: {name:"Chang'e 5 T1", desc:"lv:CZ-3C G2", stat:"o",
     {pt:"1", type:"dep", dt:"2015-01-04", loc:"ter:eml2", desc:""},
     {pt:"1", type:"oi", dt:"2015-01-10", loc:"lun:200x5300kmx43.7deg", desc:""},
     {pt:"1", type:"sco", dt:"2015-01-12", loc:"lun:200kmx43.7deg", desc:""},
-    {pt:"1", type:"nom", dt:"2015-05", loc:"lun", desc:"pend"}
+    {pt:"1", type:"pom", dt:"2020", loc:"lun", desc:"?"}
 ]},
 hayabusa2: {name:"Hayabusa 2:Peregrine Falcon 2", desc:"lv:H-IIA 202",
   parts:[
@@ -3447,7 +3447,7 @@ insight: {name:"InSIGHT:Interior Exploration using Seismic Investigations, Geode
   events:[
     {pt:"", type:"l", dt:"2018-05-05", loc:"ter:van:SLC-3E", desc:""},
     {pt:"", type:"toi", dt:"2018-05-05", loc:"sol:ho:1.0x1.4aux2.3deg", desc:""},
-    {pt:"", type:"edl", dt:"2018-11-26", loc:"mar:4.46N,136.04E", desc:"Elysium Planitia;show:InSIGHT"},
+    {pt:"", type:"edl", dt:"2018-11-26", loc:"mar:4.50N,135.62E", desc:"Elysium Planitia;show:InSIGHT"},
     {pt:"", type:"nom", dt:"2020-11-24", loc:"mar", desc:"?"},
     {pt:"", type:"pom", dt:"2026-12-31", loc:"mar", desc:""}
 ]},
@@ -3539,13 +3539,13 @@ spp: {name:"Parker Solar Probe", desc:"lv:Delta IV Heavy",
 ]},
 change4: {name:"Chang'e 4", desc:"lv:CZ-3B",
   parts:[
-    {names:"嫦娥四号", type:"slm", dest:"lun", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:clep;m:3780kg;m0:1200kg;dim:4.76x3.65x3.45m;First lunar far side landing", id:"", url:"China Spaceflight:www.chinaspaceflight.com/satellite/Deepspace/CE-4/CE-4.html;CCTV:english.cntv.cn/special/lunarmission/index.shtml", icon:"chang-e4-l.png"},
-    {names:"{Chang'e 4 Rover}", type:"rvm", dest:"lun", stat:"pl", ctry:"cn", desc:"m:120kg", icon:"chang-e3-rv.png"}
+    {names:"嫦娥四号", type:"slm", dest:"lun", stat:"o", ctry:"cn", desc:"ag:cnsa;fam:clep;m:3780kg;m0:1200kg;dim:4.76x3.65x3.45m;First lunar far side landing", id:"2018-103A", url:"China Spaceflight:www.chinaspaceflight.com/satellite/Deepspace/CE-4/CE-4.html;CCTV:english.cntv.cn/special/lunarmission/index.shtml", icon:"chang-e4-l.png"},
+    {names:"{Chang'e 4 Rover}", type:"rvm", dest:"lun", stat:"o", ctry:"cn", desc:"m:140kg", icon:"chang-e3-rv.png"}
    ], 
   events:[
-    {pt:"", type:"l", dt:"2018-12", loc:"ter:xch", desc:""},
-    {pt:"", type:"oi", dt:"l+5dy", loc:"lun", desc:""},
-    {pt:"", type:"td", dt:"l+14dy", loc:"lun:45.5S,178E", desc:"South Pole Aitken, Von Karman crater;show:CE4:NW"},
+    {pt:"", type:"l", dt:"2018-12-07", loc:"ter:xch", desc:""},
+    {pt:"", type:"oi", dt:"2018-12-12", loc:"lun:100x400kmx90deg", desc:""},
+    {pt:"", type:"td", dt:"2019-01-03", loc:"lun:45.5S,178E", desc:"South Pole Aitken, Von Karman crater;show:CE4:NW"},
     {pt:"1", type:"nom", dt:"l+3mo", loc:"lun", desc:"rvp;?;eom:rvm"},
     {pt:"0", type:"nom", dt:"l+1yr", loc:"lun", desc:"lp;?"}
 ]},
