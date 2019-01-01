@@ -3013,7 +3013,7 @@ newhorizons: {name:"New Horizons", desc:"lv:Atlas V 551", stat:"o",
     {pt:"1", type:"obs", dt:"2015-11..2016-04", loc:"sol:et", desc:"1994 JR1, 111..280 million km dist."},
     {pt:"1", type:"dep", dt:"2016-01-15", loc:"plu", desc:"End Departure Phase"},
     {pt:"2", type:"ft", dt:"2016..2022", loc:"kui", desc:""},
-    {pt:"2", type:"fb", dt:"2019-01-01", loc:"kbo:PT1", desc:"2014 MU69;eom:fbm"},
+    {pt:"2", type:"fb", dt:"2019-01-01", loc:"kbo:3500km", desc:"2014 MU69;eom:fbm"},
     {pt:"3", type:"tr", dt:"2023", loc:"sol:et", desc:"isp"},
     {pt:"3", type:"nom", dt:"2026", loc:"et", desc:"?"}
 ]},
@@ -3353,7 +3353,7 @@ hayabusa2: {name:"Hayabusa 2:Peregrine Falcon 2", desc:"lv:H-IIA 202",
     {pt:"", type:"tc", dt:"2015-12-03", loc:"sol:ho:0.95x1.30au", desc:""},
     {pt:"", type:"app", dt:"2018-06-04", loc:"ast:2500km", desc:"ast:(162173) Ryugu"},
     {pt:"", type:"arr", dt:"2018-06-21", loc:"ast", desc:"alt:20km"},
-    {pt:"2", type:"td", dt:"2018-09-21", loc:"ast", desc:"hpp:MINERVA II1 A&B"},
+    {pt:"2", type:"td", dt:"2018-09-21", loc:"ast", desc:"hpp:MINERVA II1 A&B;Hibou & Owl"},
     {pt:"3", type:"td", dt:"2018-10-03", loc:"ast", desc:"lp:MASCOT"},
     {pt:"3", type:"los", dt:"2018-10-04", loc:"ast", desc:"lp:MASCOT;eom:slm"},
     {pt:"3", type:"dsc", dt:"2018-10", loc:"ast", desc:"TD1 Practice"},
@@ -3481,21 +3481,6 @@ dslwp: {name:"Longjiang 1 & 2:Dragon River", desc:"lv:CZ-4C;part:change4relay", 
     {pt:"1", type:"oi", dt:"2018-05-25", loc:"lun:350x13700km", desc:"Longjiang 2"},
     {pt:"1", type:"nom", dt:"2019-06", loc:"lun", desc:"?"}
 ]},
-chandrayaan2: {name:"Chandrayaan 2:Moon Craft 2", desc:"lv:GSLV MkIII",
-  parts:[
-    {names:"चंद्रयान-२", type:"om", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:1400kg;sc:0.5", id:"", url:"hp:isro.gov.in/chandrayaan-2;isp:sites.google.com/site/indianspaceprojects/moon-exploration/chandrayaan---2", icon:"chandrayaan2-o.png"},
-{names:"Vikram", type:"slm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:1350kg", icon:"chandrayaan2-l.png"},
-{names:"ECA:Ek Choti si Asha", type:"rvm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:25kg;sc:0.5", icon:"chandrayaan2-rv.png"}], 
-  events:[
-    {pt:"", type:"l", dt:"2019-01-03", loc:"ter:sri", desc:""},
-    {pt:"", type:"toi", dt:"2019-01-03", loc:"ter:170x16980km", desc:"EPO"},
-    {pt:"0", type:"oi", dt:"l+1mo", loc:"lun", desc:""},
-    {pt:"0", type:"sco", dt:"l+2mo", loc:"lun:100km", desc:""},
-    {pt:"1", type:"td", dt:"l+2mo", loc:"lun:70.8S,22.9E", desc:"Between Manzinus & Simpelius Crater;show:Ch2"},
-    {pt:"1", type:"nom", dt:"l+2.5mo", loc:"lun", desc:"lp"},
-    {pt:"2", type:"nom", dt:"l+2.5mo", loc:"lun", desc:"rvp"},
-    {pt:"0", type:"nom", dt:"l+1yr", loc:"lun", desc:"?"}
-]},
 bepicolombo: {name:"Bepi Colombo", desc:"lv:Ariane 5ECA",
   parts:[
     {names:"", type:"fbm", dest:"mer", stat:"o", ctry:"eu;jp", desc:"ag:asi,esa,jaxa;m0:2700kg;m:4100kg;dim:30x4.5x4m;sc:0.7;w:0.5", id:"2018-080A", url:"hp:www.esa.int/Our_Activities/Space_Science/BepiColombo_overview2;psa:www.sciops.esa.int/index.php?project=PSA&page=bepi;tw:twitter.com/BepiColombo", icon:"bepicolombo.png"},
@@ -3545,20 +3530,37 @@ change4: {name:"Chang'e 4", desc:"lv:CZ-3B",
   events:[
     {pt:"", type:"l", dt:"2018-12-07", loc:"ter:xch", desc:""},
     {pt:"", type:"oi", dt:"2018-12-12", loc:"lun:100x400kmx90deg", desc:""},
+    {pt:"", type:"sco", dt:"2018-12-26", loc:"lun:100kmx90deg", desc:""},
+    {pt:"", type:"sco", dt:"2018-12-30", loc:"lun:100x15kmx90deg", desc:""},
     {pt:"", type:"td", dt:"2019-01-03", loc:"lun:45.5S,178E", desc:"South Pole Aitken, Von Karman crater;show:CE4:NW"},
     {pt:"1", type:"nom", dt:"l+3mo", loc:"lun", desc:"rvp;?;eom:rvm"},
     {pt:"0", type:"nom", dt:"l+1yr", loc:"lun", desc:"lp;?"}
+]},
+// --- 2019
+chandrayaan2: {name:"Chandrayaan 2:Moon Craft 2", desc:"lv:GSLV MkIII",
+  parts:[
+    {names:"चंद्रयान-२", type:"om", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:1400kg;sc:0.5", id:"", url:"hp:isro.gov.in/chandrayaan-2;isp:sites.google.com/site/indianspaceprojects/moon-exploration/chandrayaan---2", icon:"chandrayaan2-o.png"},
+{names:"Vikram", type:"slm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:1350kg", icon:"chandrayaan2-l.png"},
+{names:"ECA:Ek Choti si Asha", type:"rvm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:25kg;sc:0.5", icon:"chandrayaan2-rv.png"}], 
+  events:[
+    {pt:"", type:"l", dt:"2019-01-31", loc:"ter:sri", desc:""},
+    {pt:"", type:"toi", dt:"2019-01-03", loc:"ter:170x16980km", desc:"EPO"},
+    {pt:"0", type:"oi", dt:"l+1mo", loc:"lun", desc:""},
+    {pt:"0", type:"sco", dt:"l+2mo", loc:"lun:100km", desc:""},
+    {pt:"1", type:"td", dt:"l+2mo", loc:"lun:70.8S,22.9E", desc:"Between Manzinus & Simpelius Crater;show:Ch2"},
+    {pt:"1", type:"nom", dt:"l+2.5mo", loc:"lun", desc:"lp"},
+    {pt:"2", type:"nom", dt:"l+2.5mo", loc:"lun", desc:"rvp"},
+    {pt:"0", type:"nom", dt:"l+1yr", loc:"lun", desc:"?"}
 ]},
 spaceil: {name:"SpaceIL", desc:"lv:Falcon 9",
   parts:[
     {names:"", type:"slm", dest:"lun", stat:"pl", ctry:"il", desc:";m:585kg;sc:0.3", id:"", url:"hp:www.spaceil.com/", icon:"spaceil.png"}
   ], 
   events:[
-    {pt:"", type:"l", dt:"2019", loc:"ter:cap", desc:""},
+    {pt:"", type:"l", dt:"2019-02", loc:"ter:cap", desc:""},
     {pt:"", type:"td", dt:"l+3mo", loc:"lun", desc:"Mare Serenitatis"},
     {pt:"", type:"nom", dt:"l+4mo", loc:"lun", desc:"?"}
 ]},
-// --- 2019
 aditya:{name:"Aditya-L1", desc:"lv:PSLV XL", stat:"pl", 
   parts: [
     {names:"आदित्य", ctry:"ind", type:"obm", dest:"sol", id:"", icon:"aditya-l1.png", desc:"Solar Coronograph;ag:isro;m:400kg;sc:0.5", url:"hp:aditya.iiap.res.in/"}], 
@@ -3572,7 +3574,7 @@ change5: {name:"Chang'e 5", desc:"lv:CZ-5",
   parts:[
     {names:"嫦娥五号", type:"srm", dest:"lun", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:clep;m:7800kg;sc:0.4;w:0.67", id:"", url:"China Spaceflight:www.chinaspaceflight.com/satellite/Deepspace/CE-5/CE-5.html;sf101:spaceflight101.com/change/change-5/", icon:"chang-e5.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2019", loc:"ter:wen:LC-101", desc:""},
+    {pt:"", type:"l", dt:"2019-12", loc:"ter:wen:LC-101", desc:""},
     {pt:"", type:"toi", dt:"l+1hr", loc:"ter:lto", desc:""},
     {pt:"", type:"oi", dt:"l+5dy", loc:"lun:200km", desc:""},
     {pt:"", type:"sep", dt:"l+?dy", loc:"lun", desc:"op/lp"},
@@ -3652,7 +3654,7 @@ kplo: {name:"KPLO:Korean Pathfinder Lunar Orbiter", desc:"lv:KSLV-II",
 ]},
 em1: {name:"EM-1:Exploration Mission 1", desc:"lv:SLS 1", stat:"pl", 
   parts:[
-    {names:"Orion MPCV Test Flight:Multi-Purpose Crew Vehicle", type:"fbm", dest:"lun",ctry:"us;eu", desc:"ag:nasa,jsc,esa;m:21250kg;sc:0.6", id:"", url:"hp:www.nasa.gov/exploration/systems/mpcv/index.html;esa:www.esa.int/Our_Activities/Human_Spaceflight/ATV", icon:"orion.png"},
+    {names:"Orion MPCV Test Flight:Multi-Purpose Crew Vehicle", type:"fbm", dest:"lun",ctry:"us;eu", desc:"ag:nasa,jsc,esa;m:21250kg;sc:0.6", id:"", url:"hp:www.nasa.gov/exploration/home/index.html;esa:www.esa.int/Our_Activities/Human_Spaceflight/Orion/Exploration_Mission_1", icon:"orion.png"},
     {type:"erm", dest:"ter"}], 
   events:[
     {pt:"", type:"l", dt:"2020-05", loc:"ter:ksc:LC-39B", desc:""},
@@ -3906,13 +3908,10 @@ luna27: {name:"Luna 27", desc:"lv:Soyuz 2.1B",
 ]},
 em2: {name:"EM-2:Exploration Mission 2", desc:"lv:SLS 1", stat:"pl", 
   parts:[
-    {names:"", type:"hm", dest:"lun", ctry:"us;eu", desc:"ag:nasa,jsc,esa;m:21250kg;sc:0.6", id:"", url:"hp:www.nasa.gov/exploration/systems/mpcv/index.html;esa:www.esa.int/Our_Activities/Human_Spaceflight/ATV", icon:"orion.png"}],
-    //{type:"srm", dest:"ast"}], 
+    {names:"", type:"hm", dest:"lun", ctry:"us;eu", desc:"ag:nasa,jsc,esa;m:21250kg;sc:0.6", id:"", url:"hp:www.nasa.gov/exploration/home/index.html;esa:www.esa.int/Our_Activities/Human_Spaceflight/Orion/Exploration_Mission_2", icon:"orion.png"}], 
   events:[
     {pt:"", type:"l", dt:"2023-04", loc:"ter:ksc:LC-39B", desc:""},
-    {pt:"", type:"sep", dt:"2023-04", loc:"ter:lto", desc:"CM-EUS"},
-    {pt:"0", type:"fb", dt:"l+4dy", loc:"lun:8890km", desc:"CM"},
-    //{pt:"1", type:"oi", dt:"2023-04", loc:"lun:nrho", desc:"PPE:Power Prop Element"},
+    {pt:"0", type:"fb", dt:"l+4dy", loc:"lun", desc:"LOP-G"},
     {pt:"0", type:"edl", dt:"l+9dy", loc:"ter", desc:"eom"}
 ]},
 // --- 2024
@@ -3951,6 +3950,14 @@ mmx: {name:"MMX:Martian Moons eXploration", desc:"lv:H-III",
     {pt:"", type:"oi", dt:"2025-08", loc:"mar", desc:""},
     {pt:"", type:"oi", dt:"2028-08", loc:"sol:ho", desc:"ETO"},
     {pt:"", type:"edl", dt:"2029-07", loc:"ter", desc:"eom"}
+]},
+em3: {name:"EM-3:Exploration Mission 3", desc:"lv:SLS 1B", stat:"pl", 
+  parts:[
+    {names:"", type:"hm", dest:"lun", ctry:"us;eu", desc:"ag:nasa,jsc,esa;m:21250kg;sc:0.6;ESPRIT Module", id:"", url:"hp:www.nasa.gov/exploration/home/index.html;esa:www.esa.int/Our_Activities/Human_Spaceflight/Orion", icon:"orion.png"}],
+  events:[
+    {pt:"", type:"l", dt:"2024", loc:"ter:ksc:LC-39B", desc:""},
+    {pt:"", type:"app", dt:"l+4dy", loc:"lun", desc:"LOP-G"},
+    {pt:"0", type:"edl", dt:"l+30dy", loc:"ter", desc:"eom"}
 ]},
 // --- 2025
 interheliozond: {name:"Interhelio-Zond", desc:"lv:Proton-M/Briz-M",
@@ -4047,14 +4054,14 @@ mer: {name:"Mercury", other:"Hermes", desig:"b", type:"p", par:"sol", disc:"(Pre
       a:"0.387au", e:"0.2056", i:"7.004", per:"0.2409a", rot:"58.646d", daylen:"175.94d",
       h:"-0.6", mass:"3.301e23kg", dia:"4861.4km/0", rad:"2430.7/0", tilt:"0",
       irad:"9126.6", alb:"0.142", grav:"0.378", hill:"94.4", 
-      comp:"Rock+Metal+core:82", dens:"5.427", atm:"O2:42+Na:29+H2:22+He:6", atp:"1e-15", temp:"100..340..700K", dip:"2.5e-3..7e-3", dipt:"0x410",
+      comp:"Rock+Metal+core:82", dens:"5.427", atm:"O2:42+Na:29+H2:22+He:6", atp:"1e-15", temp:"90..340..720K", dip:"2.5e-3..7e-3", dipt:"0x410",
       img:"mercury.png", map:"mercury-topo.jpg", col:"#aa9", ind:"1",
       desc:"sc:3;url:nssdc.gsfc.nasa.gov/planetary/planets/mercurypage.html;x:24;y:24"},
 ven: {name:"Venus", other:"", desig:"c", type:"p", par:"sol", disc:"(Prehistoric)", dyr:"",
       a:"0.723au", e:"0.0068", i:"3.395", per:"0.615a", rot:"-243.018d", daylen:"116.749d",
       h:"-4.47", mass:"4.867e24kg", dia:"12103.6km/0", rad:"6051.8/0", tilt:"177.3",
       irad:"2613.9", alb:"0.67", grav:"0.905", hill:"167.1",
-      comp:"Rock+Metal+core:53", dens:"5.243", atm:"CO2:96.5+N2:3.5", atp:"92", temp:"735K",
+      comp:"Rock+Metal+core:53", dens:"5.243", atm:"CO2:96.5+N2:3.5", atp:"92", temp:"738K",
       img:"venus.png", map:"venus-topo.jpg", col:"#ddc", ind:"2",
       desc:"sc:3;url:nssdc.gsfc.nasa.gov/planetary/planets/venuspage.html;x:48;y:24"},
 //Earth system
@@ -4283,7 +4290,7 @@ jup: {name:"Jupiter", other:"", desig:"f", type:"p", par:"sol", disc:"(Prehistor
       a:"5.203au", e:"0.0484", i:"1.304", per:"11.863a", rot:"9.925h", daylen:"9.9259h",
       h:"-9.4", mass:"1.896e27kg", dia:"142984km/0.06487", rad:"71492/0.06487", tilt:"3.12",
       irad:"50.5", alb:"0.52", grav:"2.530", hill:"740", roche:"2.91", rcrit:"32.17",
-      comp:"H+He+Rock+core:17", dens:"1.327", atm:"H2:89.8+He:10.2", atp:">>1000", temp:"~165K", dip:"4..13", dipt:"9.4x8500",
+      comp:"H+He+Rock+core:17", dens:"1.327", atm:"H2:89.8+He:10.2", atp:">>1000", temp:"~120K", dip:"4..13", dipt:"9.4x8500",
       img:"jupiter-l.png", imgo:"jupiter.png", rings:"jupiter-rings.png", map:"", col:"#fc6", ind:"7", 
       desc:"sc:1;scmoons:0.5;url:nssdc.gsfc.nasa.gov/planetary/planets/jupiterpage.html;rsize:463,24;x:48;y:48"},
 io:  {name:"Io", other:"", desig:"I", type:"m", par:"jup", disc:"G. Galilei", dyr:"1610",
@@ -4686,7 +4693,7 @@ sat: {name:"Saturn", other:"", desig:"g", type:"p", par:"sol", disc:"(Prehistori
       a:"9.537au", e:"0.0539", i:"2.486", per:"29.447a", rot:"10.656h", 
       h:"-8.88", mass:"5.685e26kg", dia:"120536km/0.09796", rad:"60268/0.09796", tilt:"26.73",
       irad:"15.05", alb:"0.47", grav:"1.065", hill:"1100", roche:"2.19",  rcrit:"41.48",
-      comp:"H+He+Ice+Rock+core:27", dens:"0.688", atm:"H2:95.3+He:3.25", atp:">>1000", temp:"~134K", dip:"0.18..0.84", dipt:"0x2300",
+      comp:"H+He+Ice+Rock+core:27", dens:"0.688", atm:"H2:95.3+He:3.25", atp:">>1000", temp:"~89K", dip:"0.18..0.84", dipt:"0x2300",
       img:"saturn-l0.png", imgo:"saturn.png", rings:"saturn-rings.png", map:"", col:"#fe6", ind:"8", 
       desc:"scmoons:0.8;url:nssdc.gsfc.nasa.gov/planetary/planets/saturnpage.html;rsize:540,49;x:72;y:48"},
 mima: {name:"Mimas", other:"", desig:"I", type:"m", par:"sat", disc:"W. Herschel", dyr:"1789",
@@ -5148,7 +5155,7 @@ nep: {name:"Neptune", other:"", desig:"i", type:"p", par:"sol", disc:"J.G. Galle
       a:"30.070au", e:"0.0086", i:"1.770", per:"164.791a", rot:"16.11h", 
       h:"-6.87", mass:"1.0244e26kg", dia:"49532km/0.0171", rad:"24766/0.0171", tilt:"29.56",
       irad:"1.47", alb:"0.41", grav:"1.138", hill:"4700", roche:"3.02",  rcrit:"72.68",
-      comp:"NH4+Ice+Rock+core:64", dens:"1.638", atm:"H2:80+He:19+CH4:~1", atp:">>1000",  temp:"~72K",
+      comp:"NH4+Ice+Rock+core:64", dens:"1.638", atm:"H2:80+He:19+CH4:~1", atp:">>1000",  temp:"~50K",
       dip:"0.1..0.9", dipt:"46.9x12000",
       img:"neptune.png", rings:"neptune-rings.png", map:"", col:"#99f", ind:"10", 
       desc:"scmoons:0.9;url:nssdc.gsfc.nasa.gov/planetary/moons/neptune-moons/neptunepage.html;rsize:274,113;x:24;y:72"},
@@ -5390,6 +5397,11 @@ ixi: {name:"Ixion", other:"2001 KX76", desig:"28978", type:"t", par:"sol", disc:
       h:"3.7", mass:"", dia:"700km", rad:"350", tilt:"", alb:"", grav:"", 
       comp:"", dens:"", atm:"", atp:"", temp:"",
       img:"", col:"", desc:"sc:3;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=2015+RR245;orb:ec.2016-07-31"},
+"2018vg18": {name:"2018 VG18", other:"'Farout'", desig:"", type:"t", par:"sol", disc:"S. Sheppard et al. ", dyr:"2018",
+      a:"95.24au", e:"0.7717", i:"31.714", per:"929.43a", rot:"", gr:"sdo",
+      h:"3.24", mass:"", dia:"500km", rad:"250", tilt:"", alb:"", grav:"", 
+      comp:"", dens:"", atm:"", atp:"", temp:"",
+      img:"", col:"", desc:"sc:3;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=2018+VG18;orb:ec.2018-11-25"},
 "2014uz224": {name:"2014 UZ224", other:"'DeeDee'", desig:"", type:"t", par:"sol", disc:"DW. Gerdes et al. ", dyr:"2014",
       a:"108.9au", e:"0.6514", i:"26.785", per:"1136.4a", rot:"", gr:"sdo",
       h:"3.5", mass:"", dia:"635km", rad:"368", tilt:"", alb:"0.13", grav:"", 
@@ -5761,8 +5773,8 @@ add: spec. impulse, manufact.
 "Ariane 5G+": {syn:"Ariane 5G"},
 "Ariane 5ECA": {ctry:"eu", m:"764000", pm:"21000/9600/5400",  d:"57.7x5.4", pf:"17x5.4", dt:"2002-12-11..", st:"2/2", th:"11400", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"LH2/LOX+SRP", icon:"Ariane-5.png"},
 "Ariane 6": {syn:"Ariane 62"},
-"Ariane 62": {ctry:"eu", m:"500000", pm:"11300/5000/2600",  d:"62x5.4", pf:"20x5.4", dt:"2020-07..", st:"2/2", ust:"ULPM", th:"8350", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"LH2/LOX+SRP", icon:"ariane62.png"},
-"Ariane 64": {ctry:"eu", m:"900000", pm:"22300/11500/7600",  d:"62x5.4", pf:"20x5.4", dt:"2020-07..", st:"2/4", ust:"ULPM", th:"15350", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"LH2/LOX+SRP", icon:"ariane64.png"},
+"Ariane 62": {ctry:"eu", m:"500000", pm:"11300/5000/2600",  d:"62x5.4", pf:"21.6-26x5.4", dt:"2020-07..", st:"2/2", ust:"ULPM", th:"8350", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"LH2/LOX+SRP", icon:"ariane62.png"},
+"Ariane 64": {ctry:"eu", m:"900000", pm:"22300/11500/7600",  d:"62x5.4", pf:"21.6-26x5.4", dt:"2020-07..", st:"2/4", ust:"ULPM", th:"15350", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"LH2/LOX+SRP", icon:"ariane64.png"},
 //Athena 2
 "Athena 2": {ctry:"us", m:"120700", pm:"2065/593/300",  d:"28.2x2.3", pf:"x2.36", dt:"1998-01-07..1999-09-24", st:"3", th:"1450", fam:"MX", desc:"l:cap;ag:nasa", fuel:"SRP", icon:"Athena-2.png"},
 //Atlas-D Able IV, Atlas-D Able V

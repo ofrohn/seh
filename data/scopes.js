@@ -304,14 +304,14 @@ elisa:{name:"LISA:Laser Interferometer Space Antenna", url:"hp:www.elisascience.
 ]},
 euclid:{name:"Euclid", url:"hp:www.euclid-ec.org/;esa:sci.esa.int/euclid", desc:"ag:esa;lv:Soyuz-STB/Fregat MT;fam:M-class;sc:0.6;x:10;y:9", stat:"pl", 
   parts: [
-    {n:"", ctry:"eu", type:"nir", pur:"de;sur", id:"", icon:"euclid.png", desc:"m:2100kg"}
+    {n:"", ctry:"eu", type:"nir", pur:"de;sur", id:"", icon:"euclid.png", desc:"m:2100kg;dim:4.5x3.1m"}
   ], ev: [
-    {pt:"", dt:"2021-06", tp:"l", loc:"ter:kou:ELS", desc:""},
+    {pt:"", dt:"2022-06", tp:"l", loc:"ter:kou:ELS", desc:""},
     {pt:"", dt:"l+30d", tp:"sco", loc:"sol:esl2", desc:""},
     {pt:"", dt:"2026", tp:"nom", loc:"sol:esl2", desc:"pend"},
   ], inst: [
-    {n:"VIS", band:"550..920nm", res:"0.1", d:1.2, px:0.1, fov:"0.56deg2", desc:"c:n;cl:nly;"},
-    {n:"NISP", band:"1..2um", res:"0.3", d:1.2, px:0.3, fov:"0.55deg2", desc:"c:nr;cl:nl"}
+    {n:"VIS:Visual Imager", band:"550..920nm", res:"0.1", d:1.2, px:0.1, fov:"0.8deg2", desc:"c:n;cl:nly;"},
+    {n:"NISP:Near-infrared spectrometer and photometer", band:"1..2um", res:"0.3", d:1.2, px:0.3, fov:"0.7deg2", desc:"c:nr;cl:nl"}
 ]},
 euve:{name:"EUVE", url:"hp:www.ssl.berkeley.edu/euve/", desc:"ag:nasa;lv:Delta II 6920-10", stat:"s", 
   parts: [
@@ -1042,7 +1042,7 @@ srg:{name:"Spektr-RG:Spectrum Roentgen Gamma", url:"hp:hea.iki.rssi.ru/SRG/en/in
   parts: [
     {n:"Спектр-РГ", ctry:"ru;de;uk", type:"fuv,sx", pur:"", id:"", icon:"spektr-rg.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2019", tp:"l", loc:"ter:bai", desc:""},
+    {pt:"", dt:"2019-04", tp:"l", loc:"ter:bai", desc:""},
     {pt:"", dt:"l+3mo", tp:"sco", loc:"sol:esl2", desc:""},
     {pt:"", dt:"l+6.5yr", tp:"eom", loc:"sol:esl2", desc:"pend"}
   ], inst: [
@@ -1228,7 +1228,8 @@ wukong:{name:"Wukong:Monkey King", url:"hp:dpnc.unige.ch/dampe/index.html", desc
     {n:"DAMPE:DArk Matter Particle Explorer", ctry:"cn", type:"par;g", pur:"dm;cr", id:"2015-78A", icon:"dampe.png", desc:""}
   ], ev: [
     {pt:"", dt:"2015-12-17", tp:"l", loc:"ter:jiu:LC43/603", desc:""},
-    {pt:"", dt:"2015-12-17", tp:"sco", loc:"ter:sseo:500x500kmx97.4deg", desc:""}
+    {pt:"", dt:"2015-12-17", tp:"sco", loc:"ter:sseo:500x500kmx97.4deg", desc:""},
+    {pt:"", dt:"2020-12-31", tp:"nom", loc:"ter:sseo", desc:""}
   ], inst: [
     {n:"BGO:Bismuth Germanium Oxide Calorimeter", tp:"cal", band:"5GeV..10TeV", res:"360..1800", sres:"1.5%@100GeV", fov:"", url:"", desc:"Cosmic Rays;c:;0.1deg@100GeV,0.5deg@800GeV"},
     {n:"PSD:Plastic Scintillator Strips Detector", tp:"par", band:"", res:"", fov:"", url:"", desc:"Cosmic Rays;c:;"},

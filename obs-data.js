@@ -958,14 +958,14 @@ elisa:{name:"LISA:Laser Interferometer Space Antenna", url:"hp:www.elisascience.
 ]},
 euclid:{name:"Euclid", url:"hp:www.euclid-ec.org/;esa:sci.esa.int/euclid", desc:"ag:esa;lv:Soyuz-STB/Fregat MT;fam:M-class;sc:0.6;x:10;y:9", stat:"pl", 
   parts: [
-    {n:"", ctry:"eu", type:"nir", pur:"de;sur", id:"", icon:"euclid.png", desc:"m:2100kg"}
+    {n:"", ctry:"eu", type:"nir", pur:"de;sur", id:"", icon:"euclid.png", desc:"m:2100kg;dim:4.5x3.1m"}
   ], ev: [
-    {pt:"", dt:"2021-06", tp:"l", loc:"ter:kou:ELS", desc:""},
+    {pt:"", dt:"2022-06", tp:"l", loc:"ter:kou:ELS", desc:""},
     {pt:"", dt:"l+30d", tp:"sco", loc:"sol:esl2", desc:""},
     {pt:"", dt:"2026", tp:"nom", loc:"sol:esl2", desc:"pend"},
   ], inst: [
-    {n:"VIS", band:"550..920nm", res:"0.1", d:1.2, px:0.1, fov:"0.56deg2", desc:"c:n;cl:nly;"},
-    {n:"NISP", band:"1..2um", res:"0.3", d:1.2, px:0.3, fov:"0.55deg2", desc:"c:nr;cl:nl"}
+    {n:"VIS:Visual Imager", band:"550..920nm", res:"0.1", d:1.2, px:0.1, fov:"0.8deg2", desc:"c:n;cl:nly;"},
+    {n:"NISP:Near-infrared spectrometer and photometer", band:"1..2um", res:"0.3", d:1.2, px:0.3, fov:"0.7deg2", desc:"c:nr;cl:nl"}
 ]},
 euve:{name:"EUVE", url:"hp:www.ssl.berkeley.edu/euve/", desc:"ag:nasa;lv:Delta II 6920-10", stat:"s", 
   parts: [
@@ -1696,7 +1696,7 @@ srg:{name:"Spektr-RG:Spectrum Roentgen Gamma", url:"hp:hea.iki.rssi.ru/SRG/en/in
   parts: [
     {n:"Спектр-РГ", ctry:"ru;de;uk", type:"fuv,sx", pur:"", id:"", icon:"spektr-rg.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2019", tp:"l", loc:"ter:bai", desc:""},
+    {pt:"", dt:"2019-04", tp:"l", loc:"ter:bai", desc:""},
     {pt:"", dt:"l+3mo", tp:"sco", loc:"sol:esl2", desc:""},
     {pt:"", dt:"l+6.5yr", tp:"eom", loc:"sol:esl2", desc:"pend"}
   ], inst: [
@@ -1882,7 +1882,8 @@ wukong:{name:"Wukong:Monkey King", url:"hp:dpnc.unige.ch/dampe/index.html", desc
     {n:"DAMPE:DArk Matter Particle Explorer", ctry:"cn", type:"par;g", pur:"dm;cr", id:"2015-78A", icon:"dampe.png", desc:""}
   ], ev: [
     {pt:"", dt:"2015-12-17", tp:"l", loc:"ter:jiu:LC43/603", desc:""},
-    {pt:"", dt:"2015-12-17", tp:"sco", loc:"ter:sseo:500x500kmx97.4deg", desc:""}
+    {pt:"", dt:"2015-12-17", tp:"sco", loc:"ter:sseo:500x500kmx97.4deg", desc:""},
+    {pt:"", dt:"2020-12-31", tp:"nom", loc:"ter:sseo", desc:""}
   ], inst: [
     {n:"BGO:Bismuth Germanium Oxide Calorimeter", tp:"cal", band:"5GeV..10TeV", res:"360..1800", sres:"1.5%@100GeV", fov:"", url:"", desc:"Cosmic Rays;c:;0.1deg@100GeV,0.5deg@800GeV"},
     {n:"PSD:Plastic Scintillator Strips Detector", tp:"par", band:"", res:"", fov:"", url:"", desc:"Cosmic Rays;c:;"},
@@ -2045,8 +2046,8 @@ add: spec. impulse, manufact.
 "Ariane 5G+": {syn:"Ariane 5G"},
 "Ariane 5ECA": {ctry:"eu", m:"764000", pm:"21000/9600/5400",  d:"57.7x5.4", pf:"17x5.4", dt:"2002-12-11..", st:"2/2", th:"11400", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"LH2/LOX+SRP", icon:"Ariane-5.png"},
 "Ariane 6": {syn:"Ariane 62"},
-"Ariane 62": {ctry:"eu", m:"500000", pm:"11300/5000/2600",  d:"62x5.4", pf:"20x5.4", dt:"2020-07..", st:"2/2", ust:"ULPM", th:"8350", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"LH2/LOX+SRP", icon:"ariane62.png"},
-"Ariane 64": {ctry:"eu", m:"900000", pm:"22300/11500/7600",  d:"62x5.4", pf:"20x5.4", dt:"2020-07..", st:"2/4", ust:"ULPM", th:"15350", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"LH2/LOX+SRP", icon:"ariane64.png"},
+"Ariane 62": {ctry:"eu", m:"500000", pm:"11300/5000/2600",  d:"62x5.4", pf:"21.6-26x5.4", dt:"2020-07..", st:"2/2", ust:"ULPM", th:"8350", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"LH2/LOX+SRP", icon:"ariane62.png"},
+"Ariane 64": {ctry:"eu", m:"900000", pm:"22300/11500/7600",  d:"62x5.4", pf:"21.6-26x5.4", dt:"2020-07..", st:"2/4", ust:"ULPM", th:"15350", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"LH2/LOX+SRP", icon:"ariane64.png"},
 //Athena 2
 "Athena 2": {ctry:"us", m:"120700", pm:"2065/593/300",  d:"28.2x2.3", pf:"x2.36", dt:"1998-01-07..1999-09-24", st:"3", th:"1450", fam:"MX", desc:"l:cap;ag:nasa", fuel:"SRP", icon:"Athena-2.png"},
 //Atlas-D Able IV, Atlas-D Able V
