@@ -3522,17 +3522,17 @@ spp: {name:"Parker Solar Probe", desc:"lv:Delta IV Heavy",
     {pt:"", type:"nom", dt:"2025-12-31", loc:"sol:ho:0.04x0.73aux3.4deg", desc:"?"},
     {pt:"", type:"pom", dt:"2026-06", loc:"so", desc:""}
 ]},
-change4: {name:"Chang'e 4", desc:"lv:CZ-3B",
+change4: {name:"Chang'e 4", desc:"lv:CZ-3B/G3Z",
   parts:[
     {names:"嫦娥四号", type:"slm", dest:"lun", stat:"o", ctry:"cn", desc:"ag:cnsa;fam:clep;m:3780kg;m0:1200kg;dim:4.76x3.65x3.45m;First lunar far side landing", id:"2018-103A", url:"China Spaceflight:www.chinaspaceflight.com/satellite/Deepspace/CE-4/CE-4.html;CCTV:english.cntv.cn/special/lunarmission/index.shtml", icon:"chang-e4-l.png"},
-    {names:"{Chang'e 4 Rover}", type:"rvm", dest:"lun", stat:"o", ctry:"cn", desc:"m:140kg", icon:"chang-e3-rv.png"}
+    {names:"Yutu-2", type:"rvm", dest:"lun", stat:"o", ctry:"cn", desc:"m:140kg", icon:"chang-e3-rv.png"}
    ], 
   events:[
     {pt:"", type:"l", dt:"2018-12-07", loc:"ter:xch", desc:""},
     {pt:"", type:"oi", dt:"2018-12-12", loc:"lun:100x400kmx90deg", desc:""},
     {pt:"", type:"sco", dt:"2018-12-26", loc:"lun:100kmx90deg", desc:""},
     {pt:"", type:"sco", dt:"2018-12-30", loc:"lun:100x15kmx90deg", desc:""},
-    {pt:"", type:"td", dt:"2019-01-03", loc:"lun:45.5S,178E", desc:"South Pole Aitken, Von Karman crater;show:CE4:NW"},
+    {pt:"", type:"td", dt:"2019-01-03", loc:"lun:45.471S,177.606E", desc:"South Pole Aitken, Von Karman crater;show:CE4:NW"},
     {pt:"1", type:"nom", dt:"l+3mo", loc:"lun", desc:"rvp;?;eom:rvm"},
     {pt:"0", type:"nom", dt:"l+1yr", loc:"lun", desc:"lp;?"}
 ]},
@@ -3543,8 +3543,8 @@ chandrayaan2: {name:"Chandrayaan 2:Moon Craft 2", desc:"lv:GSLV MkIII",
 {names:"Vikram", type:"slm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:1350kg", icon:"chandrayaan2-l.png"},
 {names:"ECA:Ek Choti si Asha", type:"rvm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:25kg;sc:0.5", icon:"chandrayaan2-rv.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2019-01-31", loc:"ter:sri", desc:""},
-    {pt:"", type:"toi", dt:"2019-01-03", loc:"ter:170x16980km", desc:"EPO"},
+    {pt:"", type:"l", dt:"2019", loc:"ter:sri", desc:""},
+    {pt:"", type:"toi", dt:"2019", loc:"ter:170x16980km", desc:"EPO"},
     {pt:"0", type:"oi", dt:"l+1mo", loc:"lun", desc:""},
     {pt:"0", type:"sco", dt:"l+2mo", loc:"lun:100km", desc:""},
     {pt:"1", type:"td", dt:"l+2mo", loc:"lun:70.8S,22.9E", desc:"Between Manzinus & Simpelius Crater;show:Ch2"},
@@ -3744,7 +3744,7 @@ mars2020rover: {name:"Mars 2020 Rover", desc:"lv:Atlas V 551",
   events:[
     {pt:"", type:"l", dt:"2020-08", loc:"ter:cap:SLC-41", desc:""},
     {pt:"", type:"toi", dt:"l+1dy", loc:"sol:hto", desc:""},
-    {pt:"", type:"edl", dt:"2021-02", loc:"mar:18.5N,77.5E", desc:"Jezero Crater;show:M2020"},
+    {pt:"", type:"edl", dt:"2021-02", loc:"mar:18.5N,77.5E", desc:"Jezero Crater;show:Mars 2020"},
     {pt:"", type:"tos", dt:"2021-03", loc:"mar", desc:"eom:dm;Helicopter probe"},
     {pt:"", type:"nom", dt:"2023-01", loc:"mar", desc:"?"},
     {pt:"", type:"pom", dt:"l+10yr", loc:"mar", desc:"?"}
@@ -5383,10 +5383,10 @@ ixi: {name:"Ixion", other:"2001 KX76", desig:"28978", type:"t", par:"sol", disc:
       img:"", col:"", desc:"sc:3;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=2012+VP113;orb:ec.2014-12-09"},
 //1994 JR1
 "2014mu69": {name:"'Ultima Thule'", other:"2014 MU69", desig:"486958", type:"t", par:"sol", disc:"HST", dyr:"2014",
-      a:"44.23au", e:"0.0378", i:"2.45", per:"297.1a", rot:"", gr:"cube",
-      h:"11.1", mass:"", dia:"44km", rad:"22", tilt:"", alb:"~0.04", grav:"", 
+      a:"44.23au", e:"0.0378", i:"2.45", per:"297.1a", rot:"15h", gr:"cube",
+      h:"11.1", mass:"", dia:"33km", rad:"16.5", tilt:"", alb:"~0.04", grav:"", 
       comp:"", dens:"", atm:"", atp:"", temp:"~35K",
-      img:"", col:"", desc:"sc:3;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=2014+MU69;orb:ec.2014-12-09"},
+      img:"2014mu69.png", col:"", desc:"sc:3;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=2014+MU69;orb:ec.2014-12-09"},
 "2014pn70": {name:"2014 PN70", other:"12000JZ", desig:"", type:"t", par:"sol", disc:"HST", dyr:"2014",
       a:"44.42au", e:"0.0514", i:"4.12", per:"296.01a", rot:"", gr:"",
       h:"10.3", mass:"", dia:"40km", rad:"20", tilt:"", alb:"~0.04", grav:"", 
@@ -5890,7 +5890,7 @@ add: spec. impulse, manufact.
 "N-1": {alt:"Н-1", ctry:"su", m:"2788000", pm:"70000/-/22000",  d:"105.3x14", pf:"", dt:"1969-02-21..1972-12-23", st:"4", th:"45400", fam:"N-1", desc:"l:bai;ag:tsk", fuel:"KeroLOX", icon:"N1.png"},
 //OmegA
 "OmegA": {syn:"OmegA Intermediate"},
-"OmegA Intermediate": {n:"", alt:"", ctry:"us", m:"", pm:"~30/4900..10100/-",  d:"59.8x3.7", pf:"5.3x15", dt:"2021..", st:"3/2-6", th:"12000", fam:"OmegA", desc:"ag:atk", fuel:"SRP/LH2+LOX", icon:"omega500.png"},
+"OmegA Intermediate": {n:"", alt:"", ctry:"us", m:"", pm:"~30/4900..10100/-", d:"59.8x3.7", pf:"5.3x15", dt:"2021..", st:"3/2-6", th:"12000", fam:"OmegA", desc:"ag:atk", fuel:"SRP/LH2+LOX", icon:"omega500.png"},
 //Pegasus-XL
 "Pegasus-XL": {n:"", alt:"", ctry:"us", m:"23269", pm:"475/175/-",  d:"17.6x6.7", pf:"2.2x1.1", dt:"1990-04-05..", st:"3/L-1011", th:"726", fam:"Pegasus", desc:"ag:atk", fuel:"SRP", icon:"pegasus-xl.png"},
 //PSLV-XL
@@ -5908,9 +5908,9 @@ add: spec. impulse, manufact.
 "Scout G1": {n:"Scout G1", ctry:"us", m:"21500", pm:"220/-/-", d:"23x1.1", pf:"", dt:"1979-10-30..1994-05-09", st:"4", ust:"", th:"465", fam:"Scout", desc:"l:van;ag:nasa", fuel:"SRP", icon:"scout.png"},
 //SLS
 "SLS": {syn:"SLS 1"},
-"SLS 1": {n:"Space Launch System Block 1", ctry:"us", m:"2750000", pm:"70k/30k/25k", d:"98.1x8.4", pf:"5.1x14.3", dt:"2020..", st:"2/2", ust:"iCPS", th:"39150", fam:"SLS", desc:"l:cap;ag:nasa", fuel:"LH2/LOX+SRP", icon:"sls-1.png"},
-"SLS 1B": {n:"Space Launch System Block 1B", ctry:"us", m:"2850000", pm:"105k/46k/35k",  d:"110.9x8.4", pf:"19.1x8.4", dt:"2024..", st:"2/2", ust:"EUS", th:"39150", fam:"SLS", desc:"l:cap;ag:nasa", fuel:"LH2/LOX+SRP", icon:"sls-1b.png"},
-"SLS 2": {n:"Space Launch System Block 2", ctry:"us", m:"2950000", pm:"130k/52k/37k", d:"111.6x8.4", pf:"27.4x10.0", dt:"2028..", st:"2/2", ust:"EUS", th:"52900", fam:"SLS", desc:"l:cap;ag:nasa", fuel:"LH2/LOX+SRP?", icon:"sls-2.png"},
+"SLS 1": {n:"Space Launch System Block 1", ctry:"us", m:"2750000", pm:"70k/30k/25k", d:"98.1x8.4", pf:"8.4x10-14.3", dt:"2020..", st:"2/2", ust:"iCPS", th:"39150", fam:"SLS", desc:"l:cap;ag:nasa", fuel:"LH2/LOX+SRP", icon:"sls-1.png"},
+"SLS 1B": {n:"Space Launch System Block 1B", ctry:"us", m:"2850000", pm:"105k/46k/35k",  d:"110.9x8.4", pf:"8.4x19.1-27.4", dt:"2024..", st:"2/2", ust:"EUS", th:"39150", fam:"SLS", desc:"l:cap;ag:nasa", fuel:"LH2/LOX+SRP", icon:"sls-1b.png"},
+"SLS 2": {n:"Space Launch System Block 2", ctry:"us", m:"2950000", pm:"130k/52k/37k", d:"111.6x8.4", pf:"8.4-10x19.1-27.4", dt:"2028..", st:"2/2", ust:"EUS", th:"52900", fam:"SLS", desc:"l:cap;ag:nasa", fuel:"LH2/LOX+SRP?", icon:"sls-2.png"},
 //Soyuz 2.1a, Soyuz 2.1b, Soyuz-FG Fregat, Soyuz 2-1A Volga
 "Soyuz 2.1": {alt:"Союз 2.1", ctry:"ru,eu", m:"313000", pm:"7600/3000/1200",  d:"46.3x2.95", pf:"", dt:"2006-10-19..", st:"2/4", ust:"Fregat/Volga", th:"4146", fam:"R-7", desc:"l:bai,ple,kou;ag:rosc,esa", fuel:"KeroLOX", icon:"Soyuz-ST.png"},
 "Soyuz 2.1A": {syn:"Soyuz 2.1"},
