@@ -213,9 +213,9 @@ cheops:{name:"CHEOPS:CHaracterising ExOPlanets Satellite", url:"hp:cheops.unibe.
   parts: [
     {n:"", ctry:"eu", type:"opt;nir", pur:"exo", id:"", icon:"cheops.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2018-10-15", tp:"l", loc:"ter:kou:ELS", desc:""},
+    {pt:"", dt:"2019-10-15", tp:"l", loc:"ter:kou:ELS", desc:""},
     {pt:"", dt:"", tp:"sco", loc:"ter:sseo:700kmx98deg", desc:""},
-    {pt:"", dt:"2021", tp:"nom", loc:"ter:sseo", desc:""},
+    {pt:"", dt:"2022", tp:"nom", loc:"ter:sseo", desc:""},
   ], inst: [
     {n:"", band:"400..1100nm", res:"", d:"0.33", px:"", desc:"c:;cl:nl;"}
 ]},
@@ -775,11 +775,11 @@ most:{name:"MOST:Microvariability and Oscillations of STars", url:"hp:www.astro.
   ], inst: [
     {n:"", band:"4.28E+14..8.57E+14", res:"0.2", d:"0.15", px:"12", desc:"c:nr;cl:nl;"}
 ]},
-nanojasmine:{name:"Nano-JASMINE", url:"www.jasmine-galaxy.org/index.html", desc:"fam:JASMINE;lv:Vega", stat:"pl", 
+nanojasmine:{name:"Nano-JASMINE", url:"www.jasmine-galaxy.org/index.html", desc:"fam:JASMINE;lv:Vega-C", stat:"pl", 
   parts: [
     {n:"", ctry:"jp", type:"nir", pur:"as", id:"", icon:"nano-jasmine.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2020", tp:"l", loc:"ter:Kourou", desc:""},
+    {pt:"", dt:"2021", tp:"l", loc:"ter:Kourou", desc:""},
     {pt:"", dt:"", tp:"sco", loc:"ter:sseo", desc:""}
   ], inst: [
     {n:"", band:"0.6..1um", res:"", d:"", px:"", desc:"c:;"}
@@ -889,7 +889,8 @@ radioastron:{name:"Spektr-R", url:"hp:www.asc.rssi.ru/radioastron/index.htm", de
     {n:"Спектр-Р;RadioAstron", ctry:"ru", type:"r", pur:"int", id:"2011-037A", icon:"radioastron.png", desc:""}
   ], ev: [
     {pt:"", dt:"2011-07-18", tp:"l", loc:"ter:bai:LC-45/1", desc:""},
-    {pt:"", dt:"2011-07-25", tp:"sco", loc:"ter:heeo:1248x334727kmx51.8deg", desc:""}
+    {pt:"", dt:"2011-07-25", tp:"sco", loc:"ter:heeo:1248x334727kmx51.8deg", desc:""},
+    //{pt:"", dt:"2019-01-11", tp:"los", loc:"ter:heeo", desc:"eom"}
   ], inst: [
     {n:"CRT", band:"3.24E+08..2.5132e10", res:"21960..300", d:10, px:60, w:4e6, desc:"c:nv;"},
     {n:"SVLBI", band:"3.24E+08..2.1750E+10", res:"5.3e-4..7e-6", desc:"c:niv;cl:x;"}

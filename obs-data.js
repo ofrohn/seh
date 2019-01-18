@@ -867,9 +867,9 @@ cheops:{name:"CHEOPS:CHaracterising ExOPlanets Satellite", url:"hp:cheops.unibe.
   parts: [
     {n:"", ctry:"eu", type:"opt;nir", pur:"exo", id:"", icon:"cheops.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2018-10-15", tp:"l", loc:"ter:kou:ELS", desc:""},
+    {pt:"", dt:"2019-10-15", tp:"l", loc:"ter:kou:ELS", desc:""},
     {pt:"", dt:"", tp:"sco", loc:"ter:sseo:700kmx98deg", desc:""},
-    {pt:"", dt:"2021", tp:"nom", loc:"ter:sseo", desc:""},
+    {pt:"", dt:"2022", tp:"nom", loc:"ter:sseo", desc:""},
   ], inst: [
     {n:"", band:"400..1100nm", res:"", d:"0.33", px:"", desc:"c:;cl:nl;"}
 ]},
@@ -1429,11 +1429,11 @@ most:{name:"MOST:Microvariability and Oscillations of STars", url:"hp:www.astro.
   ], inst: [
     {n:"", band:"4.28E+14..8.57E+14", res:"0.2", d:"0.15", px:"12", desc:"c:nr;cl:nl;"}
 ]},
-nanojasmine:{name:"Nano-JASMINE", url:"www.jasmine-galaxy.org/index.html", desc:"fam:JASMINE;lv:Vega", stat:"pl", 
+nanojasmine:{name:"Nano-JASMINE", url:"www.jasmine-galaxy.org/index.html", desc:"fam:JASMINE;lv:Vega-C", stat:"pl", 
   parts: [
     {n:"", ctry:"jp", type:"nir", pur:"as", id:"", icon:"nano-jasmine.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2020", tp:"l", loc:"ter:Kourou", desc:""},
+    {pt:"", dt:"2021", tp:"l", loc:"ter:Kourou", desc:""},
     {pt:"", dt:"", tp:"sco", loc:"ter:sseo", desc:""}
   ], inst: [
     {n:"", band:"0.6..1um", res:"", d:"", px:"", desc:"c:;"}
@@ -2089,7 +2089,8 @@ add: spec. impulse, manufact.
 "CZ-5B": {n:"Long March 5B", alt:"长征五号乙运载火箭", ctry:"cn", m:"837500", pm:"22000/-/-",  d:"53.66x5", pf:"12x5.2", dt:"2020..", st:"1/4", ust:"", th:"10572", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"LH2/LOX+KeroLOX", icon:"CZ-5B.png"},
 //CZ-7
 "CZ-7": {n:"Long March 7", alt:"长征七号运载火箭", ctry:"cn", m:"597000", pm:"13500/5500/-", d:"53x3.35", pf:"12.7x4.2", dt:"2016..", st:"2/4", ust:"YZ-1A", th:"7200", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"CZ-7.png"},
-//CZ-9 2028
+//CZ-9
+"CZ-9": {n:"Long March 9", alt:"长征九号运载火箭", ctry:"cn", m:"4000000", pm:"140000/66000/50000", d:"93x10", pf:"", dt:"2028..", st:"3/4", ust:"", th:"52800", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"CZ-9.png"},
 //Delta E, Delta E1
 "Delta E": {ctry:"us", m:"68000", pm:"530/240/150",  d:"28x2.44", pf:"", dt:"1965-11-06..1971-04-01", st:"3/3", ust:"X-258/FW-4D", th:"1450", fam:"Thor/Delta", desc:"l:cap,van;ag:nasa", fuel:"KeroLOX+SRP", icon:"Delta-E.png"},
 "Delta E1": {syn:"Delta E"},

@@ -2708,8 +2708,8 @@ hayabusa2: {name:"Hayabusa 2:Peregrine Falcon 2", desc:"lv:H-IIA 202",
     {pt:"2", type:"td", dt:"2018-09-21", loc:"ast", desc:"hpp:MINERVA II1 A&B;Hibou & Owl"},
     {pt:"3", type:"td", dt:"2018-10-03", loc:"ast", desc:"lp:MASCOT"},
     {pt:"3", type:"los", dt:"2018-10-04", loc:"ast", desc:"lp:MASCOT;eom:slm"},
-    {pt:"3", type:"dsc", dt:"2018-10", loc:"ast", desc:"TD1 Practice"},
-    {pt:"3", type:"dsc", dt:"2019-02", loc:"ast", desc:"TD2 Maneuver"},
+    {pt:"3", type:"dsc", dt:"2019-02-18", loc:"ast", desc:"Sample Collection Maneuver"},
+    {pt:"3", type:"dsc", dt:"2019-03-04", loc:"ast", desc:"Sample Collection Backup"},
     {pt:"1", type:"imp", dt:"2019-03", loc:"ast", desc:"ip:SCI;Cratering Experiment;eom:im"},
     {pt:"0", type:"dsc", dt:"2019-04", loc:"ast", desc:"Sample acquisition"},
     {pt:"2", type:"td", dt:"2018-09", loc:"ast", desc:"hpp:MINERVA II2;eom:hpm"},
@@ -2885,6 +2885,7 @@ change4: {name:"Chang'e 4", desc:"lv:CZ-3B/G3Z",
     {pt:"", type:"sco", dt:"2018-12-26", loc:"lun:100kmx90deg", desc:""},
     {pt:"", type:"sco", dt:"2018-12-30", loc:"lun:100x15kmx90deg", desc:""},
     {pt:"", type:"td", dt:"2019-01-03", loc:"lun:45.471S,177.606E", desc:"South Pole Aitken, Von Karman crater;show:CE4:NW"},
+    {pt:"", type:"sep", dt:"2019-01-03", loc:"lun", desc:"lp/rvp"},    
     {pt:"1", type:"nom", dt:"l+3mo", loc:"lun", desc:"rvp;?;eom:rvm"},
     {pt:"0", type:"nom", dt:"l+1yr", loc:"lun", desc:"lp;?"}
 ]},
@@ -2895,8 +2896,8 @@ chandrayaan2: {name:"Chandrayaan 2:Moon Craft 2", desc:"lv:GSLV MkIII",
 {names:"Vikram", type:"slm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:1350kg", icon:"chandrayaan2-l.png"},
 {names:"ECA:Ek Choti si Asha", type:"rvm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:25kg;sc:0.5", icon:"chandrayaan2-rv.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2019", loc:"ter:sri", desc:""},
-    {pt:"", type:"toi", dt:"2019", loc:"ter:170x16980km", desc:"EPO"},
+    {pt:"", type:"l", dt:"2019-02-16", loc:"ter:sri", desc:""},
+    {pt:"", type:"toi", dt:"2019-02-16", loc:"ter:170x16980km", desc:"EPO"},
     {pt:"0", type:"oi", dt:"l+1mo", loc:"lun", desc:""},
     {pt:"0", type:"sco", dt:"l+2mo", loc:"lun:100km", desc:""},
     {pt:"1", type:"td", dt:"l+2mo", loc:"lun:70.8S,22.9E", desc:"Between Manzinus & Simpelius Crater;show:Ch2"},
@@ -2913,15 +2914,6 @@ spaceil: {name:"SpaceIL", desc:"lv:Falcon 9",
     {pt:"", type:"td", dt:"l+3mo", loc:"lun", desc:"Mare Serenitatis"},
     {pt:"", type:"nom", dt:"l+4mo", loc:"lun", desc:"?"}
 ]},
-aditya:{name:"Aditya-L1", desc:"lv:PSLV XL", stat:"pl", 
-  parts: [
-    {names:"आदित्य", ctry:"ind", type:"obm", dest:"sol", id:"", icon:"aditya-l1.png", desc:"Solar Coronograph;ag:isro;m:400kg;sc:0.5", url:"hp:aditya.iiap.res.in/"}], 
-  events: [
-    {pt:"", dt:"2020", type:"l", loc:"ter:sri", desc:""},
-    {pt:"", dt:"l+100dy", type:"sco", loc:"sol:esl1", desc:"Halo Orbit"},
-    {pt:"", type:"nom", dt:"l+2yr", loc:"sol:esl1", desc:"?"},
-    {pt:"", type:"pom", dt:"l+10yr", loc:"sol:esl1", desc:"?"},
-]},
 change5: {name:"Chang'e 5", desc:"lv:CZ-5",
   parts:[
     {names:"嫦娥五号", type:"srm", dest:"lun", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:clep;m:7800kg;sc:0.4;w:0.67", id:"", url:"China Spaceflight:www.chinaspaceflight.com/satellite/Deepspace/CE-5/CE-5.html;sf101:spaceflight101.com/change/change-5/", icon:"chang-e5.png"}], 
@@ -2937,6 +2929,16 @@ change5: {name:"Chang'e 5", desc:"lv:CZ-5",
     {pt:"", type:"sep", dt:"l+?dy", loc:"lun", desc:"op/as"},
     {pt:"", type:"toi", dt:"l+25dy", loc:"lun", desc:"op/src"},
     {pt:"", type:"edl", dt:"l+30dy", loc:"ter", desc:"src;Siziwang Banner, Inner Mongolia;eom"}
+]},
+// --- 2020
+aditya:{name:"Aditya-L1", desc:"lv:PSLV XL", stat:"pl", 
+  parts: [
+    {names:"आदित्य", ctry:"ind", type:"obm", dest:"sol", id:"", icon:"aditya-l1.png", desc:"Solar Coronograph;ag:isro;m:400kg;sc:0.5", url:"hp:aditya.iiap.res.in/"}], 
+  events: [
+    {pt:"", dt:"2020", type:"l", loc:"ter:sri", desc:""},
+    {pt:"", dt:"l+100dy", type:"sco", loc:"sol:esl1", desc:"Halo Orbit"},
+    {pt:"", type:"nom", dt:"l+2yr", loc:"sol:esl1", desc:"?"},
+    {pt:"", type:"pom", dt:"l+10yr", loc:"sol:esl1", desc:"?"},
 ]},
 luna25: {name:"Luna 25", desc:"lv:Soyuz 2.1B/Fregat",
   parts:[
@@ -2976,23 +2978,6 @@ solarorbiter: {name:"Solar Orbiter", desc:"lv:Atlas V 411",
     {pt:"", type:"fb", dt:"l+8.8yr", loc:"ven", desc:""},
     {pt:"", type:"nom", dt:"l+8.8yr", loc:"sol:ho:0.334x0.770aux26.7deg", desc:"?"},
     {pt:"", type:"pom", dt:"l+10yr", loc:"so", desc:""}
-]},
-// --- 2020
-change6: {name:"Chang'e 6", desc:"lv:CZ-5",
-  parts:[
-    {names:"嫦娥六号", type:"srm", dest:"lun", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:clep;m:7800kg;sc:0.4;w:0.67", id:"", url:"", icon:"chang-e5.png"}], 
-  events:[
-    {pt:"", type:"l", dt:"2021", loc:"ter:wen:LC-101", desc:""},
-    {pt:"", type:"toi", dt:"l+1hr", loc:"ter:lto", desc:""},
-    {pt:"", type:"oi", dt:"l+5dy", loc:"lun:200km", desc:""},
-    {pt:"", type:"sep", dt:"l+?dy", loc:"lun", desc:"op/lp"},
-    {pt:"", type:"td", dt:"l+?dy", loc:"lun", desc:"lp;SP Aitken;show:CE6"},
-    {pt:"", type:"l", dt:"l+?dy", loc:"lun", desc:"as"},
-    {pt:"", type:"doc", dt:"l+?dy", loc:"lun", desc:"op/as"},
-    {pt:"", type:"ev", dt:"l+?dy", loc:"lun", desc:"as/src;Sample Transfer"},
-    {pt:"", type:"sep", dt:"l+?dy", loc:"lun", desc:"op/as"},
-    {pt:"", type:"toi", dt:"l+25dy", loc:"lun", desc:"op/src"},
-    {pt:"", type:"edl", dt:"l+30dy", loc:"ter", desc:"src;Siziwang Banner, Inner Mongolia;eom"}
 ]},
 kplo: {name:"KPLO:Korean Pathfinder Lunar Orbiter", desc:"lv:KSLV-II",
   parts:[
@@ -3069,15 +3054,6 @@ em1cubes: {name:"EM-1 Cubesats", desc:"lv:SLS;part:em1;6U-CubeSat", stat:"pl",
     {pt:"0", type:"nom", dt:"l+2.5yr", loc:"sol:ho", desc:"NEA-Scout"},
     {pt:"0", type:"pom", dt:"l+4.5yr", loc:"sol:ho", desc:"NEA-Scout"}
 ]},
-slim:{name:"SLIM:Smart Lander for Investigating Moon", desc:"lv:H-IIA 202", stat:"pl", 
-  parts: [
-    {names:"スリム;SPRINT-C", ctry:"jp", type:"slm", dest:"lun", id:"", icon:"slim.png", desc:"ag:jaxa;m:730kg;m0:200kg;sc:0.2", url:"hp:www.isas.jaxa.jp/en/missions/spacecraft/developing/slim.html"}], 
-  events: [
-    {pt:"", dt:"2021", type:"l", loc:"ter:uch", desc:""},
-    {pt:"", dt:"l+4dy", type:"oi", loc:"lun", desc:""},
-    {pt:"", type:"td", dt:"l+1mo", loc:"lun:13.3S,25.2E", desc:"Mare Nectaris"},
-    {pt:"", type:"nom", dt:"l+1.1mo", loc:"lun", desc:"?"}
-]},
 exomarsrv: {name:"ExoMars Rover", desc:"lv:Proton-M/Briz-M",
   parts:[
     {names:"Pasteur", type:"rvm", dest:"mar", stat:"pl", ctry:"eu", desc:"ag:esa;m:296kg;dim:2.0x1.5x1.7m;fam:exom;sc:0.4", id:"", url:"hp:exploration.esa.int/mars/48088-mission-overview/;tw:twitter.com/ESA_Exomars", icon:"exomars-rv.png"},
@@ -3127,6 +3103,22 @@ emm: {name:"Mars Hope", desc:"lv:H-IIA 202",
     {pt:"", type:"pom", dt:"2025", loc:"mar", desc:""}
 ]},
 // --- 2021
+change6: {name:"Chang'e 6", desc:"lv:CZ-5",
+  parts:[
+    {names:"嫦娥六号", type:"srm", dest:"lun", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:clep;m:7800kg;sc:0.4;w:0.67", id:"", url:"", icon:"chang-e5.png"}], 
+  events:[
+    {pt:"", type:"l", dt:"2021", loc:"ter:wen:LC-101", desc:""},
+    {pt:"", type:"toi", dt:"l+1hr", loc:"ter:lto", desc:""},
+    {pt:"", type:"oi", dt:"l+5dy", loc:"lun:200km", desc:""},
+    {pt:"", type:"sep", dt:"l+?dy", loc:"lun", desc:"op/lp"},
+    {pt:"", type:"td", dt:"l+?dy", loc:"lun", desc:"lp;SP Aitken;show:CE6"},
+    {pt:"", type:"l", dt:"l+?dy", loc:"lun", desc:"as"},
+    {pt:"", type:"doc", dt:"l+?dy", loc:"lun", desc:"op/as"},
+    {pt:"", type:"ev", dt:"l+?dy", loc:"lun", desc:"as/src;Sample Transfer"},
+    {pt:"", type:"sep", dt:"l+?dy", loc:"lun", desc:"op/as"},
+    {pt:"", type:"toi", dt:"l+25dy", loc:"lun", desc:"op/src"},
+    {pt:"", type:"edl", dt:"l+30dy", loc:"ter", desc:"src;Siziwang Banner, Inner Mongolia;eom"}
+]},
 lucy: {name:"Lucy", desc:"",
   parts:[
     {names:"", type:"fbm", dest:"ast", stat:"pl", ctry:"us", desc:"ag:nasa,gsfc,swri;fam:discovery;sc:0.4", id:"", url:"hp:www.nasa.gov/lucy;tw:twitter.com/NASALucy2Trojan", icon:"lucy.png"}
@@ -3158,6 +3150,15 @@ dart: {name:"DART:Double Asteroid Redirection Test", desc:"lv:Minotaur V",
     {pt:"", type:"fb", dt:"2022-10", loc:"ast", desc:"ast:didy"},
     {pt:"0", type:"imp", dt:"2022-10", loc:"ast", desc:"ip"},
     {pt:"", type:"nom", dt:"2022-10", loc:"ast", desc:"eom"}
+]},
+slim:{name:"SLIM:Smart Lander for Investigating Moon", desc:"lv:H-IIA 202", stat:"pl", 
+  parts: [
+    {names:"スリム;SPRINT-C", ctry:"jp", type:"slm", dest:"lun", id:"", icon:"slim.png", desc:"ag:jaxa;m:730kg;m0:200kg;sc:0.2", url:"hp:www.isas.jaxa.jp/en/missions/spacecraft/developing/slim.html"}], 
+  events: [
+    {pt:"", dt:"2021", type:"l", loc:"ter:uch", desc:""},
+    {pt:"", dt:"l+4dy", type:"oi", loc:"lun", desc:""},
+    {pt:"", type:"td", dt:"l+1mo", loc:"lun:13.3S,25.2E", desc:"Mare Nectaris"},
+    {pt:"", type:"nom", dt:"l+1.1mo", loc:"lun", desc:"?"}
 ]},
 // --- 2022
 destinyplus:{name:"DESTINY+:Demonstration and Experiment of Space Technology for INterplanetary voYage Phaethon fLyby dUSt science", desc:"lv:Epsilon-2", stat:"pl", 
@@ -3235,6 +3236,15 @@ psyche: {name:"Psyche", desc:"",
     {pt:"", type:"sco", dt:"2027", loc:"ast:192km", desc:"Elemental mapping orbit"},  
     {pt:"", type:"nom", dt:"2028-08", loc:"ast", desc:"?"},
     {pt:"", type:"pom", dt:"2030", loc:"ast", desc:"?"}
+]},
+ptknp: {name:"Federatsiya", desc:"lv:Soyuz-5", stat:"pl", 
+  parts:[
+    {names:"Федерация;PTK-NP:Pilotiruemyi Transportny Korabl Novogo Pokoleniya (New Generation Piloted Transport Ship)", type:"fbm", dest:"lun", ctry:"ru", desc:"ag:rosc;m:~20000kg;Uncrewed test flight;sc:0.7", id:"", url:"rsw:www.russianspaceweb.com/spacecraft_manned_2010s.html", icon:"federatsia.png"},
+    {type:"erm", dest:"ter"}], 
+  events:[
+    {pt:"", type:"l", dt:"2022", loc:"ter:bai", desc:""},
+    {pt:"", type:"fb", dt:"l+4dy", loc:"lun", desc:""},
+    {pt:"", type:"edl", dt:"l+8dy", loc:"ter", desc:"eom"}
 ]},
 // --- 2023
 change7: {name:"Chang'e 7", desc:"lv:CZ-5",
@@ -3336,17 +3346,6 @@ venerad: {name:"Venera-D", desc:"lv:Proton-M/Briz-M",
     {pt:"0", type:"td", dt:"l+?yr", loc:"ven", desc:""},
     {pt:"1", type:"nom", dt:"l+3yr", loc:"ven", desc:""},
     {pt:"1", type:"pom", dt:"l+4yr", loc:"ven", desc:"?"}
-]},
-ptknp: {name:"Federatsia", desc:"lv:Soyuz-5", stat:"pl", 
-  parts:[
-    {names:"Федерация;PTK-NP:Pilotiruemyi Transportny Korabl Novogo Pokoleniya (New Generation Piloted Transport Ship)", type:"fbm", dest:"lun", ctry:"ru", desc:"ag:rosc;m:~20000kg;Uncrewed test flight;sc:0.7", id:"", url:"rsw:www.russianspaceweb.com/ptk_flight_testing.html", icon:"federatsia.png"},
-    {type:"erm", dest:"ter"}], 
-  events:[
-    {pt:"", type:"l", dt:"2027", loc:"ter:vos", desc:"MOB KVTK-1 Tug"},
-    {pt:"", type:"l", dt:"2027", loc:"ter:vos", desc:"PTK-NP"},
-    {pt:"", type:"doc", dt:"l+1dy", loc:"ter:leo", desc:"Tug/PTK-NP"},
-    {pt:"", type:"fb", dt:"l+4dy", loc:"lun", desc:""},
-    {pt:"", type:"edl", dt:"l+8dy", loc:"ter", desc:"eom"}
 ]}
 
 };
