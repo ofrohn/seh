@@ -1543,7 +1543,8 @@ radioastron:{name:"Spektr-R", url:"hp:www.asc.rssi.ru/radioastron/index.htm", de
     {n:"Спектр-Р;RadioAstron", ctry:"ru", type:"r", pur:"int", id:"2011-037A", icon:"radioastron.png", desc:""}
   ], ev: [
     {pt:"", dt:"2011-07-18", tp:"l", loc:"ter:bai:LC-45/1", desc:""},
-    {pt:"", dt:"2011-07-25", tp:"sco", loc:"ter:heeo:1248x334727kmx51.8deg", desc:""}
+    {pt:"", dt:"2011-07-25", tp:"sco", loc:"ter:heeo:1248x334727kmx51.8deg", desc:""},
+    //{pt:"", dt:"2019-01-11", tp:"los", loc:"ter:heeo", desc:"eom"}
   ], inst: [
     {n:"CRT", band:"3.24E+08..2.5132e10", res:"21960..300", d:10, px:60, w:4e6, desc:"c:nv;"},
     {n:"SVLBI", band:"3.24E+08..2.1750E+10", res:"5.3e-4..7e-6", desc:"c:niv;cl:x;"}

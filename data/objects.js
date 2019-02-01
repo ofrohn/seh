@@ -689,7 +689,7 @@ s2018j1: {name:"S/2018 J1", other:"", desig:"", type:"m", par:"jup", disc:"S.S. 
       img:"", desc:"sc:3;url:solarsystem.nasa.gov/moons/jupiter-moons/s-2018-j1/in-depth/;orb:ec.2018-03-23"}, 
 //Saturn system
 sat: {name:"Saturn", other:"", desig:"g", type:"p", par:"sol", disc:"(Prehistoric)", dyr:"",
-      a:"9.537au", e:"0.0539", i:"2.486", per:"29.447a", rot:"10.656h", 
+      a:"9.537au", e:"0.0539", i:"2.486", per:"29.447a", rot:"10.561h", 
       h:"-8.88", mass:"5.685e26kg", dia:"120536km/0.09796", rad:"60268/0.09796", tilt:"26.73",
       irad:"15.05", alb:"0.47", grav:"1.065", hill:"1100", roche:"2.19",  rcrit:"41.48",
       comp:"H+He+Ice+Rock+core:27", dens:"0.688", atm:"H2:95.3+He:3.25", atp:">>1000", temp:"~89K", dip:"0.18..0.84", dipt:"0x2300",

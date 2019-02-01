@@ -1,6 +1,6 @@
 var SSEH = SSEH || {
   TITLE: "Solar System Exploration History",
-  VERSION: "1.6.20",
+  VERSION: "1.6.21",
   DATE: "2018-12 ",
   AUTHOR: "Olaf Frohn",
   CLICK: "Click on anything for more details",
@@ -2217,7 +2217,7 @@ voyager2: {name:"Voyager 2", desc:"lv:Titan IIIE Centaur D1T", stat:"o",
     {pt:"3", type:"fb", dt:"1989-08-25", loc:"trit:39800km", desc:"eom:fbm:nep;Targeted flyby"},
     {pt:"4", type:"obs", dt:"1990-02-14", loc:"et:32au", desc:"Solar System Family Portrait"},
     {pt:"4", type:"ft", dt:"2007-08", loc:"sol:et:84au", desc:"Termination Shock"},
-    {pt:"4", type:"tr", dt:"2018-11", loc:"et:119au", desc:"isp"},
+    {pt:"4", type:"tr", dt:"2018-11-05", loc:"et:119au", desc:"isp"},
     {pt:"4", type:"nom", dt:"2030-12-31", loc:"et", desc:"?;Power depletion"}
 ]},
 voyager1: {name:"Voyager 1", desc:"lv:Titan IIIE Centaur D1T", stat:"o",
@@ -3356,8 +3356,8 @@ hayabusa2: {name:"Hayabusa 2:Peregrine Falcon 2", desc:"lv:H-IIA 202",
     {pt:"2", type:"td", dt:"2018-09-21", loc:"ast", desc:"hpp:MINERVA II1 A&B;Hibou & Owl"},
     {pt:"3", type:"td", dt:"2018-10-03", loc:"ast", desc:"lp:MASCOT"},
     {pt:"3", type:"los", dt:"2018-10-04", loc:"ast", desc:"lp:MASCOT;eom:slm"},
-    {pt:"3", type:"dsc", dt:"2019-02-23", loc:"ast", desc:"TD1 Practice"},
-    {pt:"3", type:"dsc", dt:"2019-03", loc:"ast", desc:"TD2 Maneuver"},
+    {pt:"3", type:"dsc", dt:"2019-02-18", loc:"ast", desc:"Sample Collection Maneuver"},
+    {pt:"3", type:"dsc", dt:"2019-03-04", loc:"ast", desc:"Sample Collection Backup"},
     {pt:"1", type:"imp", dt:"2019-03", loc:"ast", desc:"ip:SCI;Cratering Experiment;eom:im"},
     {pt:"0", type:"dsc", dt:"2019-04", loc:"ast", desc:"Sample acquisition"},
     {pt:"2", type:"td", dt:"2018-09", loc:"ast", desc:"hpp:MINERVA II2;eom:hpm"},
@@ -3553,13 +3553,13 @@ chandrayaan2: {name:"Chandrayaan 2:Moon Craft 2", desc:"lv:GSLV MkIII",
     {pt:"2", type:"nom", dt:"l+2.5mo", loc:"lun", desc:"rvp"},
     {pt:"0", type:"nom", dt:"l+1yr", loc:"lun", desc:"?"}
 ]},
-spaceil: {name:"SpaceIL", desc:"lv:Falcon 9",
+spaceil: {name:"Beresheet", desc:"lv:Falcon 9",
   parts:[
-    {names:"", type:"slm", dest:"lun", stat:"pl", ctry:"il", desc:";m:585kg;sc:0.3", id:"", url:"hp:www.spaceil.com/", icon:"spaceil.png"}
+    {names:"בְּרֵאשִׁית‬", type:"slm", dest:"lun", stat:"pl", ctry:"il", desc:"ag:SpaceIL;m:585kg;sc:0.3", id:"", url:"hp:www.spaceil.com/", icon:"spaceil.png"}
   ], 
   events:[
-    {pt:"", type:"l", dt:"2019-02", loc:"ter:cap", desc:""},
-    {pt:"", type:"td", dt:"l+3mo", loc:"lun", desc:"Mare Serenitatis"},
+    {pt:"", type:"l", dt:"2019-02-19", loc:"ter:cap", desc:""},
+    {pt:"", type:"td", dt:"l+3mo", loc:"lun:33N,17.5E", desc:"Mare Serenitatis"},
     {pt:"", type:"nom", dt:"l+4mo", loc:"lun", desc:"?"}
 ]},
 change5: {name:"Chang'e 5", desc:"lv:CZ-5",
@@ -3930,7 +3930,7 @@ change8: {name:"Chang'e 8", desc:"lv:CZ-5",
     {names:"嫦娥 8", type:"slm", dest:"lun", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:clep;m:7800kg;sc:0.3;w:0.67", id:"", url:"", icon:"chang-e7.png"},
     {names:"{Chang'e 8 Orbiter}", type:"om", dest:"lun", stat:"pl", ctry:"cn", desc:"", icon:""}],
   events:[
-    {pt:"", type:"l", dt:"2024", loc:"ter:wen:LC-101", desc:""},
+    {pt:"", type:"l", dt:"2026", loc:"ter:wen:LC-101", desc:""},
     {pt:"", type:"toi", dt:"l+1hr", loc:"ter:lto", desc:""},
     {pt:"", type:"oi", dt:"l+5dy", loc:"lun:200km", desc:""},
     {pt:"0", type:"td", dt:"l+?dy", loc:"lun", desc:"SP Aitken Basin"},
@@ -4689,7 +4689,7 @@ s2018j1: {name:"S/2018 J1", other:"", desig:"", type:"m", par:"jup", disc:"S.S. 
       img:"", desc:"sc:3;url:solarsystem.nasa.gov/moons/jupiter-moons/s-2018-j1/in-depth/;orb:ec.2018-03-23"}, 
 //Saturn system
 sat: {name:"Saturn", other:"", desig:"g", type:"p", par:"sol", disc:"(Prehistoric)", dyr:"",
-      a:"9.537au", e:"0.0539", i:"2.486", per:"29.447a", rot:"10.656h", 
+      a:"9.537au", e:"0.0539", i:"2.486", per:"29.447a", rot:"10.561h", 
       h:"-8.88", mass:"5.685e26kg", dia:"120536km/0.09796", rad:"60268/0.09796", tilt:"26.73",
       irad:"15.05", alb:"0.47", grav:"1.065", hill:"1100", roche:"2.19",  rcrit:"41.48",
       comp:"H+He+Ice+Rock+core:27", dens:"0.688", atm:"H2:95.3+He:3.25", atp:">>1000", temp:"~89K", dip:"0.18..0.84", dipt:"0x2300",

@@ -1569,7 +1569,7 @@ voyager2: {name:"Voyager 2", desc:"lv:Titan IIIE Centaur D1T", stat:"o",
     {pt:"3", type:"fb", dt:"1989-08-25", loc:"trit:39800km", desc:"eom:fbm:nep;Targeted flyby"},
     {pt:"4", type:"obs", dt:"1990-02-14", loc:"et:32au", desc:"Solar System Family Portrait"},
     {pt:"4", type:"ft", dt:"2007-08", loc:"sol:et:84au", desc:"Termination Shock"},
-    {pt:"4", type:"tr", dt:"2018-11", loc:"et:119au", desc:"isp"},
+    {pt:"4", type:"tr", dt:"2018-11-05", loc:"et:119au", desc:"isp"},
     {pt:"4", type:"nom", dt:"2030-12-31", loc:"et", desc:"?;Power depletion"}
 ]},
 voyager1: {name:"Voyager 1", desc:"lv:Titan IIIE Centaur D1T", stat:"o",
@@ -2905,13 +2905,13 @@ chandrayaan2: {name:"Chandrayaan 2:Moon Craft 2", desc:"lv:GSLV MkIII",
     {pt:"2", type:"nom", dt:"l+2.5mo", loc:"lun", desc:"rvp"},
     {pt:"0", type:"nom", dt:"l+1yr", loc:"lun", desc:"?"}
 ]},
-spaceil: {name:"SpaceIL", desc:"lv:Falcon 9",
+spaceil: {name:"Beresheet", desc:"lv:Falcon 9",
   parts:[
-    {names:"", type:"slm", dest:"lun", stat:"pl", ctry:"il", desc:";m:585kg;sc:0.3", id:"", url:"hp:www.spaceil.com/", icon:"spaceil.png"}
+    {names:"בְּרֵאשִׁית‬", type:"slm", dest:"lun", stat:"pl", ctry:"il", desc:"ag:SpaceIL;m:585kg;sc:0.3", id:"", url:"hp:www.spaceil.com/", icon:"spaceil.png"}
   ], 
   events:[
-    {pt:"", type:"l", dt:"2019-02", loc:"ter:cap", desc:""},
-    {pt:"", type:"td", dt:"l+3mo", loc:"lun", desc:"Mare Serenitatis"},
+    {pt:"", type:"l", dt:"2019-02-19", loc:"ter:cap", desc:""},
+    {pt:"", type:"td", dt:"l+3mo", loc:"lun:33N,17.5E", desc:"Mare Serenitatis"},
     {pt:"", type:"nom", dt:"l+4mo", loc:"lun", desc:"?"}
 ]},
 change5: {name:"Chang'e 5", desc:"lv:CZ-5",
@@ -2979,12 +2979,12 @@ solarorbiter: {name:"Solar Orbiter", desc:"lv:Atlas V 411",
     {pt:"", type:"nom", dt:"l+8.8yr", loc:"sol:ho:0.334x0.770aux26.7deg", desc:"?"},
     {pt:"", type:"pom", dt:"l+10yr", loc:"so", desc:""}
 ]},
-kplo: {name:"KPLO:Korean Pathfinder Lunar Orbiter", desc:"lv:KSLV-II",
+kplo: {name:"KPLO:Korean Pathfinder Lunar Orbiter", desc:"lv:Falcon 9",
   parts:[
     {names:"", type:"om", dest:"lun", stat:"pl", ctry:"sk", desc:"ag:kari;fam:klep;sc:0.6;m:550kg;m0:;dim:", id:"", url:"hp:www.kari.re.kr/eng/sub03_04.do", icon:"kplo.png"}
    ], 
   events:[
-    {pt:"", type:"l", dt:"2020-12", loc:"ter:nar", desc:""},
+    {pt:"", type:"l", dt:"2020-12", loc:"ter:cap", desc:""},
     {pt:"", type:"toi", dt:"2020-12", loc:"ter:heeo", desc:"Phasing Loop Transfer"},
     {pt:"", type:"oi", dt:"l+1mo", loc:"lun:100kmx90deg", desc:""},
     {pt:"", type:"nom", dt:"l+1yr", loc:"lun", desc:"?"}
@@ -3282,7 +3282,7 @@ change8: {name:"Chang'e 8", desc:"lv:CZ-5",
     {names:"嫦娥 8", type:"slm", dest:"lun", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:clep;m:7800kg;sc:0.3;w:0.67", id:"", url:"", icon:"chang-e7.png"},
     {names:"{Chang'e 8 Orbiter}", type:"om", dest:"lun", stat:"pl", ctry:"cn", desc:"", icon:""}],
   events:[
-    {pt:"", type:"l", dt:"2024", loc:"ter:wen:LC-101", desc:""},
+    {pt:"", type:"l", dt:"2026", loc:"ter:wen:LC-101", desc:""},
     {pt:"", type:"toi", dt:"l+1hr", loc:"ter:lto", desc:""},
     {pt:"", type:"oi", dt:"l+5dy", loc:"lun:200km", desc:""},
     {pt:"0", type:"td", dt:"l+?dy", loc:"lun", desc:"SP Aitken Basin"},
