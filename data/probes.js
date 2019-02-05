@@ -2916,7 +2916,9 @@ spaceil: {name:"Beresheet", desc:"lv:Falcon 9",
 ]},
 change5: {name:"Chang'e 5", desc:"lv:CZ-5",
   parts:[
-    {names:"嫦娥五号", type:"srm", dest:"lun", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:clep;m:7800kg;sc:0.4;w:0.67", id:"", url:"China Spaceflight:www.chinaspaceflight.com/satellite/Deepspace/CE-5/CE-5.html;sf101:spaceflight101.com/change/change-5/", icon:"chang-e5.png"}], 
+    {names:"嫦娥五号", type:"srm", dest:"lun", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:clep;m:7800kg;sc:0.75;w:0.67", id:"", url:"China Spaceflight:www.chinaspaceflight.com/satellite/Deepspace/CE-5/CE-5.html;sf101:spaceflight101.com/change/change-5/", icon:"chang-e5.png"},
+    {names:"{Chang'e 5 Lander}", type:"slm", dest:"lun", stat:"pl", ctry:"cn", desc:"", id:"", url:"", icon:"chang-e5l.png"},
+    {names:"{Chang'e 5 Return Stage}", type:"", dest:"ter", stat:"pl", ctry:"cn", desc:"sc:0.6", id:"", url:"", icon:"chang-e5sr.png"}], 
   events:[
     {pt:"", type:"l", dt:"2019-12", loc:"ter:wen:LC-101", desc:""},
     {pt:"", type:"toi", dt:"l+1hr", loc:"ter:lto", desc:""},
@@ -2928,7 +2930,7 @@ change5: {name:"Chang'e 5", desc:"lv:CZ-5",
     {pt:"", type:"ev", dt:"l+?dy", loc:"lun", desc:"as/src;Sample Transfer"},
     {pt:"", type:"sep", dt:"l+?dy", loc:"lun", desc:"op/as"},
     {pt:"", type:"toi", dt:"l+25dy", loc:"lun", desc:"op/src"},
-    {pt:"", type:"edl", dt:"l+30dy", loc:"ter", desc:"src;Siziwang Banner, Inner Mongolia;eom"}
+    {pt:"", type:"edl", dt:"l+30dy", loc:"ter", desc:"eom:srm;src;Siziwang Banner, Inner Mongolia;eom"}
 ]},
 // --- 2020
 aditya:{name:"Aditya-L1", desc:"lv:PSLV XL", stat:"pl", 
@@ -3093,7 +3095,7 @@ mgrso: {name:"MGRSO:Mars Global Remote Sensing Orbiter", desc:"lv:CZ-5",
 ]},
 emm: {name:"Mars Hope", desc:"lv:H-IIA 202",
   parts:[
-    {names:"مسبار الأمل;EMM:Emirates Mars Mission", type:"om", dest:"mar", stat:"pl", ctry:"uae", desc:"ag:uaesa;m:1500kg;dim:7.9x3x3.5m;sc:0.4", id:"", url:"hp:www.emm.ae/;MBRSC:www.mbrsc.ae/en;tw:twitter.com/HopeMarsMission", icon:"emm.png"}], 
+    {names:"مسبار الأمل;EMM:Emirates Mars Mission", type:"om", dest:"mar", stat:"pl", ctry:"ue", desc:"ag:uaesa;m:1500kg;dim:7.9x3x3.5m;sc:0.4", id:"", url:"hp:www.emm.ae/;MBRSC:www.mbrsc.ae/en;tw:twitter.com/HopeMarsMission", icon:"emm.png"}], 
   events:[
     {pt:"", type:"l", dt:"2020-07", loc:"ter:tng", desc:""},
     {pt:"", type:"toi", dt:"2020-07", loc:"sol:hto", desc:""},

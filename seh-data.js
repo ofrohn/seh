@@ -231,7 +231,7 @@ stp: {name:"STP:Solar Terrestrial Probes"},
 exom: {name:"ExoMars:Exobiology on Mars"},
 isro: {name:"ISRO:Indian Space Research Organisation", desc:"url:www.isro.org/index.aspx;ctry:ind"},
 lgarde: {name:"L'Garde", desc:"url:www.lgarde.com;ctry:us;"},
-uaesa: {name:"UAESA:UAE Space Agency", desc:"url:www.space.gov.ae/;ctry:uae;"},
+uaesa: {name:"UAESA:UAE Space Agency", desc:"url:www.space.gov.ae/;ctry:ue;"},
 
 //Spacecraft    
 lv: {name:"Launch Vehicle"},
@@ -483,8 +483,8 @@ ua: {name:"Ukraine", desc:"x:0;y:172"},
 ar: {name:"Australia", desc:"x:24;y:172"},
 au: {name:"Argentina", desc:"x:48;y:172"},
 gu: {name:"French Guyana", desc:"x:72;y:172"},
-uae: {name:"United Arab Emirates", desc:"x:96;y:172"},
-sk: {name:"South Korea", desc:"x:0;y:146"},
+ue: {name:"United Arab Emirates", desc:"x:96;y:172"},
+sk: {name:"South Korea", col:"#666", desc:"x:0;y:146"},
 il: {name:"Israel", desc:"x:0;y:185"}
 };
 
@@ -3564,7 +3564,9 @@ spaceil: {name:"Beresheet", desc:"lv:Falcon 9",
 ]},
 change5: {name:"Chang'e 5", desc:"lv:CZ-5",
   parts:[
-    {names:"嫦娥五号", type:"srm", dest:"lun", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:clep;m:7800kg;sc:0.4;w:0.67", id:"", url:"China Spaceflight:www.chinaspaceflight.com/satellite/Deepspace/CE-5/CE-5.html;sf101:spaceflight101.com/change/change-5/", icon:"chang-e5.png"}], 
+    {names:"嫦娥五号", type:"srm", dest:"lun", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:clep;m:7800kg;sc:0.75;w:0.67", id:"", url:"China Spaceflight:www.chinaspaceflight.com/satellite/Deepspace/CE-5/CE-5.html;sf101:spaceflight101.com/change/change-5/", icon:"chang-e5.png"},
+    {names:"{Chang'e 5 Lander}", type:"slm", dest:"lun", stat:"pl", ctry:"cn", desc:"", id:"", url:"", icon:"chang-e5l.png"},
+    {names:"{Chang'e 5 Return Stage}", type:"", dest:"ter", stat:"pl", ctry:"cn", desc:"sc:0.6", id:"", url:"", icon:"chang-e5sr.png"}], 
   events:[
     {pt:"", type:"l", dt:"2019-12", loc:"ter:wen:LC-101", desc:""},
     {pt:"", type:"toi", dt:"l+1hr", loc:"ter:lto", desc:""},
@@ -3576,7 +3578,7 @@ change5: {name:"Chang'e 5", desc:"lv:CZ-5",
     {pt:"", type:"ev", dt:"l+?dy", loc:"lun", desc:"as/src;Sample Transfer"},
     {pt:"", type:"sep", dt:"l+?dy", loc:"lun", desc:"op/as"},
     {pt:"", type:"toi", dt:"l+25dy", loc:"lun", desc:"op/src"},
-    {pt:"", type:"edl", dt:"l+30dy", loc:"ter", desc:"src;Siziwang Banner, Inner Mongolia;eom"}
+    {pt:"", type:"edl", dt:"l+30dy", loc:"ter", desc:"eom:srm;src;Siziwang Banner, Inner Mongolia;eom"}
 ]},
 // --- 2020
 aditya:{name:"Aditya-L1", desc:"lv:PSLV XL", stat:"pl", 
@@ -3627,12 +3629,12 @@ solarorbiter: {name:"Solar Orbiter", desc:"lv:Atlas V 411",
     {pt:"", type:"nom", dt:"l+8.8yr", loc:"sol:ho:0.334x0.770aux26.7deg", desc:"?"},
     {pt:"", type:"pom", dt:"l+10yr", loc:"so", desc:""}
 ]},
-kplo: {name:"KPLO:Korean Pathfinder Lunar Orbiter", desc:"lv:KSLV-II",
+kplo: {name:"KPLO:Korean Pathfinder Lunar Orbiter", desc:"lv:Falcon 9",
   parts:[
     {names:"", type:"om", dest:"lun", stat:"pl", ctry:"sk", desc:"ag:kari;fam:klep;sc:0.6;m:550kg;m0:;dim:", id:"", url:"hp:www.kari.re.kr/eng/sub03_04.do", icon:"kplo.png"}
    ], 
   events:[
-    {pt:"", type:"l", dt:"2020-12", loc:"ter:nar", desc:""},
+    {pt:"", type:"l", dt:"2020-12", loc:"ter:cap", desc:""},
     {pt:"", type:"toi", dt:"2020-12", loc:"ter:heeo", desc:"Phasing Loop Transfer"},
     {pt:"", type:"oi", dt:"l+1mo", loc:"lun:100kmx90deg", desc:""},
     {pt:"", type:"nom", dt:"l+1yr", loc:"lun", desc:"?"}
@@ -3741,7 +3743,7 @@ mgrso: {name:"MGRSO:Mars Global Remote Sensing Orbiter", desc:"lv:CZ-5",
 ]},
 emm: {name:"Mars Hope", desc:"lv:H-IIA 202",
   parts:[
-    {names:"مسبار الأمل;EMM:Emirates Mars Mission", type:"om", dest:"mar", stat:"pl", ctry:"uae", desc:"ag:uaesa;m:1500kg;dim:7.9x3x3.5m;sc:0.4", id:"", url:"hp:www.emm.ae/;MBRSC:www.mbrsc.ae/en;tw:twitter.com/HopeMarsMission", icon:"emm.png"}], 
+    {names:"مسبار الأمل;EMM:Emirates Mars Mission", type:"om", dest:"mar", stat:"pl", ctry:"ue", desc:"ag:uaesa;m:1500kg;dim:7.9x3x3.5m;sc:0.4", id:"", url:"hp:www.emm.ae/;MBRSC:www.mbrsc.ae/en;tw:twitter.com/HopeMarsMission", icon:"emm.png"}], 
   events:[
     {pt:"", type:"l", dt:"2020-07", loc:"ter:tng", desc:""},
     {pt:"", type:"toi", dt:"2020-07", loc:"sol:hto", desc:""},
@@ -4075,7 +4077,7 @@ ter: {name:"Earth", other:"Terra", desig:"d", type:"p", par:"sol", disc:"(Prehis
 lun: {name:"Moon", other:"Luna", desig:"", type:"m", par:"ter", disc:"(Prehistoric)", dyr:"",
       a:"384400km", e:"0.0549", i:"5.145", per:"27.3217d", rot:"S", 
       h:"0.21", mass:"1.230e-2", dia:"3474.8km/0.00125", rad:"1737.4/0.00125", tilt:"1.542", alb:"0.12", grav:"0.165", 
-      comp:"Rock+Metal+core:19", dens:"3.3464", atm:"Ne:28+He:25+H2:23+Ar:20", atp:"3e-15", temp:"100..220..390K",
+      comp:"Rock+Metal+core:19", dens:"3.3464", atm:"Ne:28+He:25+H2:23+Ar:20", atp:"3e-15", temp:"80..220..390K",
       img:"moon.png", map:"moon-topo.jpg", col:"#888", ind:"4", 
       desc:"sc:3;url:nssdc.gsfc.nasa.gov/planetary/planets/moonpage.html;orb:ec.2000-01-01;x:0;y:96"},
 //Mars system
@@ -5961,7 +5963,7 @@ yas: {name:"Yasny:Yasny Cosmodrome", other:"космодром Я́сный;Domb
 
 kou: {name:"Kourou:Guiana Space Centre", ctry:"eu;gu", desig:"CSG:Centre Spatial Guyanais", desc:"url:www.esa.int/Our_Activities/Launchers/Europe_s_Spaceport/Europe_s_Spaceport2;loc:5.170N,52.688W;show:CSG:SW;shmap:W;reg:Kourou, French Guiana;az:349..90;kml:zgUqCFI4a2eQ.kynamq0ZiCjg", map:"csg.png"},
 
-uch: {name:"Uchinoura:Uchinoura Space Center", other:"内之浦宇宙空間観測所", ctry:"jp", desig:"USC:Uchinoura Space Center", desc:"url:www.jaxa.jp/about/centers/usc/index_e.html;loc:31.2513N,131.0761E;show:USC:NE;shmap:NW;reg:Kagoshima, Japan;az:25..155;kml:zgUqCFI4a2eQ.kN24hi4lP3wE", map:"usc.png"},
+uch: {name:"Uchinoura:Uchinoura Space Center", other:"内之浦宇宙空間観測所", ctry:"jp", desig:"USC:Uchinoura Space Center", desc:"url:www.jaxa.jp/about/centers/usc/index_e.html;loc:31.2513N,131.0761E;show:USC:NE;shmap:SE;reg:Kagoshima, Japan;az:25..155;kml:zgUqCFI4a2eQ.kN24hi4lP3wE", map:"usc.png"},
 tng: {name:"Tanegashima:Tanegashima Space Center", other:"種子島宇宙センター", ctry:"jp", desig:"TNSC:Tanegashima Space Center", desc:"url:www.jaxa.jp/about/centers/tnsc/index_e.html;loc:30.4037N,130.9733E;show:TNSC:SE;shmap:SW;reg:Kagoshima, Japan;az:0..180;kml:zgUqCFI4a2eQ.kFVhciYdMtnQ", map:"tnsc.png"},
 
 jiu: {name:"Jiuquan:Jiuquan Satellite Launch Center", other:"酒泉卫星发射中心", ctry:"cn", desig:"JSLC:Jiuquan Satellite Launch Center", desc:"url:www.spaceflight101.com/jiquan-satellite-launch-center.html;loc:40.985N,100.220E;show:JSLC:NW;shmap:W;reg:Alxa, Inner Mongolia, China;az:134..153;kml:zgUqCFI4a2eQ.kWktCQxSnO-Y", map:"jslc.png"},
@@ -5973,7 +5975,7 @@ sri: {name:"Sriharikota:Satish Dhawan Space Centre, Sriharikota", other:"सत�
 
 //alc: {name:"Alcântara:Alcântara Launch Center", other:"", ctry:"br", desig:"CLA:Centro de Lançamento de Alcântara", desc:"url:www.cla.aer.mil.br/index.php;loc:2.3730S,44.3964W;show:CLA;reg:Maranhão, Brazil;az:343..90;kml:zgUqCFI4a2eQ.kS2NlNk7_hfQ", map:"cla.png"},
 
-nar: {name:"Naro:Naro Space Center", other:"나로우주센터", ctry:"sk", desig:"NSC:Naro Space Center", desc:"url:http://www.kari.re.kr/eng.do;loc:34.4318N,127.5350E;show:NARO;reg:Kohung, Jeollanam-do;az:90..190;kml:12u04inPCpIFUtNWaYrlz__A7IwI", map:"naro.png"}
+nar: {name:"Naro:Naro Space Center", other:"나로우주센터", ctry:"sk", desig:"NSC:Naro Space Center", desc:"url:http://www.kari.re.kr/eng.do;loc:34.4318N,127.5350E;show:NARO:W;reg:Kohung, Jeollanam-do;az:90..190;kml:12u04inPCpIFUtNWaYrlz__A7IwI", map:"naro.png"}
 
 };
 
@@ -6072,17 +6074,18 @@ cdsnmi: {name:"CDSN Miyun:Chinese DSN Station Miyun", other:"密云区", ctry:"c
 cdsnkun: {name:"CDSN Kunming:Chinese DSN Station Kunming", other:"昆明", ctry:"cn", desig:"", desc:"url:;loc:24.84N,102.58E;ag:cnsa;show:Kunming:S;reg:Yunnan, China;dish:1x40m"},
 idsn: {name:"IDSN Byalalu:Indian DSN Station Byalalu", other:"பயலாலு", ctry:"ind", desig:"", desc:"url:http://www.isro.gov.in/about-isro/isro-telemetry-tracking-and-command-network-istrac;loc:12.901631N,77.368619E;ag:isro;show:IDSN:S;reg:Karnataka, India;dish:1x32m,1x18m"},
 evpat: {name:"Yevpatoria:Yevpatoria RT-70 Radio Telescope\n", other:"Евпатория", ctry:"ru;ua", desig:"NIP-16", desc:"url:;loc:45.189028N,33.187361E;ag:rosc;show:NIP-16:S;reg:Crimea, Ukraine;dish:1x70m,1x32m"},
-galen: {name:"Ussuriysk:Eastern Deep Space Communication Center\n", other:"Уссури́йск", ctry:"ru", desig:"NIP-15", desc:"url:;loc:44.0161N,131.757E;ag:rosc;show:NIP-15:S;reg:Primorsky Krai, Russia;dish:1x70m,1x32m,1x25m"},
+galen: {name:"Ussuriysk:Eastern Deep Space Communication Center\n", other:"Уссури́йск", ctry:"ru", desig:"NIP-15", desc:"url:;loc:44.0161N,131.757E;ag:rosc;show:NIP-15:NE;reg:Primorsky Krai, Russia;dish:1x70m,1x32m,1x25m"},
 bear: {name:"Medvezhi Ozera:Bear Lakes complex", other:"Медвежьи озёра", ctry:"ru", desig:"NIP-14", desc:"url:;loc:55.867886N,37.951804E;ag:rosc;show:NIP-14:SW;reg:Moscow, Russia;dish:1x64m"},
 //kalya: {name:"Kalyazin:Kalyazin Radio Astronomy Observatory", other:"Калязин", ctry:"ru", desig:"", desc:"url:;loc:57.2231N,37.9004E;ag:rosc;show:Kalyazin:NE;reg:Tver, Russia;dish:1x64m"},
-udsc: {name:"Usuda DSC:Usuda Deep Space Center", other:"臼田宇宙空間観測所", ctry:"jp", desig:"UDSC", desc:"url:global.jaxa.jp/about/centers/udsc/index.html;loc:36.133056N,138.362222E;ag:jaxa;show:UDSC:S;reg:Nagano, Japan;dish:1x64m"}
+udsc: {name:"Usuda DSC:Usuda Deep Space Center", other:"臼田宇宙空間観測所", ctry:"jp", desig:"UDSC", desc:"url:global.jaxa.jp/about/centers/udsc/index.html;loc:36.133056N,138.362222E;ag:jaxa;show:UDSC:S;reg:Nagano, Japan;dish:1x64m"},
 //Uchinoura USC34
+ktsat: {name:"KTSat:KTSat Satellite communication Center", other:"", ctry:"sk", desig:"KTSat", desc:"url:www.kari.re.kr/eng.do;loc:36.1N,127.5E;ag:kari;show:KTSat:NE;reg:Keumsan, South Korea;dish:1x27.7m"}
 };
     
   
 Common.ctrl = {
-  gsfc: {name:"GSFC:Goddard Space Flight Center, Greenbelt, Md", other:"", ctry:"us", desc:"url:www.nasa.gov/centers/goddard/home;loc:38.996944N,76.848333W;show:GSFC:NW;ag:nasa;reg:Maryland,USA"},
-  jpl: {name:"JPL SFOF:Space Flight Operations Facility (JPL), Pasadena, Ca", other:"", ctry:"us", desc:"url:www.jpl.nasa.gov/;loc:34.201086N,118.173614W;show:SFOF:S;ag:masa;reg:California,USA"},
+  gsfc: {name:"GSFC:Goddard Space Flight Center,\nGreenbelt, Md", other:"", ctry:"us", desc:"url:www.nasa.gov/centers/goddard/home;loc:38.996944N,76.848333W;show:GSFC:NW;ag:nasa;reg:Maryland,USA"},
+  jpl: {name:"JPL SFOF:Space Flight Operations Facility (JPL),\nPasadena, Ca", other:"", ctry:"us", desc:"url:www.jpl.nasa.gov/;loc:34.201086N,118.173614W;show:SFOF:S;ag:masa;reg:California,USA"},
   esoc: {name:"ESOC:European Space Operations Centre, Darmstadt", other:"", ctry:"eu;de", desc:"url:www.esa.int/esoc;loc:49.871111N,8.622778E;show:ESOC:S;ag:esa;reg:Darmstadt,Germany"},
   tsup: {name:"TsUP:RKA Mission Control Center, Korolev", other:"Центр управления полётами", ctry:"ru", desc:"url:www.mcc.rsa.ru/cup.htm;loc:55.912636N,37.810267E;show:TsUP:SE;ag:rosc;reg:Korolyov,Moscow"},
   bacc: {name:"BACC:Beijing Aerospace Command and Control Center", other:"北京航天指挥控制中心", ctry:"cn", desc:"url:;loc:40.071989N,116.257092E;show:BACC:E;ag:cnsa;reg:Beijing,China"},
@@ -6106,7 +6109,8 @@ Common.heads = {
   ru: {name:"Russian Deep Space Antennas", ag:"rosc"},
   ind: {name:"IDSN:Indian Deep Space Network", ag:"isro"},
   cn: {name:"Chinese Deep Space Network", ag:"cnsa"},
-  jp: {name:"Japanese Deep Space Network", ag:"jaxa"}
+  jp: {name:"Japanese Deep Space Network", ag:"jaxa"},
+  sk: {name:"KTSat", ag:"kari"}
 };
 
 

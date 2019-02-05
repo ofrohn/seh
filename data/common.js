@@ -128,7 +128,7 @@ stp: {name:"STP:Solar Terrestrial Probes"},
 exom: {name:"ExoMars:Exobiology on Mars"},
 isro: {name:"ISRO:Indian Space Research Organisation", desc:"url:www.isro.org/index.aspx;ctry:ind"},
 lgarde: {name:"L'Garde", desc:"url:www.lgarde.com;ctry:us;"},
-uaesa: {name:"UAESA:UAE Space Agency", desc:"url:www.space.gov.ae/;ctry:uae;"},
+uaesa: {name:"UAESA:UAE Space Agency", desc:"url:www.space.gov.ae/;ctry:ue;"},
 
 //Spacecraft    
 lv: {name:"Launch Vehicle"},
@@ -380,8 +380,8 @@ ua: {name:"Ukraine", desc:"x:0;y:172"},
 ar: {name:"Australia", desc:"x:24;y:172"},
 au: {name:"Argentina", desc:"x:48;y:172"},
 gu: {name:"French Guyana", desc:"x:72;y:172"},
-uae: {name:"United Arab Emirates", desc:"x:96;y:172"},
-sk: {name:"South Korea", desc:"x:0;y:146"},
+ue: {name:"United Arab Emirates", desc:"x:96;y:172"},
+sk: {name:"South Korea", col:"#666", desc:"x:0;y:146"},
 il: {name:"Israel", desc:"x:0;y:185"}
 };
 

@@ -16,7 +16,7 @@
 <script type="text/javascript" src="countries.geo.json"></script>
 <script type="text/javascript">
 
-  var w = 2048, h = w/2, qw = w/360, qh = h/180,
+  var w = 2048, h = 1048, qw = w/360, qh = h/180,
       water   = "#ecf5f9",
       country = "#fff7e0",
       border  = "#666",
@@ -47,7 +47,7 @@
         brdrs = JSON.parse(geo);
   
 
-    var ctrys = ["cn","eu","ind","jp","ru","us"];
+    var ctrys = ["cn","eu","ind","jp","ru","us","sk"];
     rkt = {}; dsh = {}; tdn = {}; ccc = {};
 
     for (var i=0; i<ctrys.length; i++) {
@@ -85,7 +85,7 @@
     //cnv.image(img,0,0);
 
     for (key in Common.lc) {
-      if (key.search(/alc|nar/) != -1) continue;
+      if (key.search(/alc/) != -1) continue;
       lcs[key] = new LC(key);
       t = lcs[key].drawAzimuth(cnv,w,h,0);
       names.push(t);
@@ -115,15 +115,15 @@
     var ulist = document.getElementById("urls");
     var col_len = 0;
     w1 = (w-20)/5 - 10;
-    wc = [10, w1-30, w1+40, w1+10, w1+0, -w1-0];
+    wc = [10, w1-30, w1+40, w1+10, w1+0, -w1-0, -w1*2-54];
     clnm = 0;
     x = 0;
     h1 = 20;
-    cnv.text("Deep Space Exploration Ground Infrastructure (operations)", wc[0], h-h1*14+8, "bold 20px 'Trebuchet MS'");
+    cnv.text("Deep Space Exploration Ground Infrastructure (operations)", wc[0], h-h1*15+8, "bold 20px 'Trebuchet MS'");
     for (var key in Common.heads) {
-      if (key === "jp") { 
-        y = h - h1*8+10;
-      } else y = h - h1*13;
+      if (key === "jp" || key === "sk") { 
+        y = h - h1*8+11;
+      } else y = h - h1*14;
       x += wc[clnm];
       
       var col = convertCol(Common.ctry[key].col);
@@ -177,7 +177,7 @@
       };
       clnm++;
     }
-    cnv.text("Red Slices: Launch azimuths (directions)   Hilighted: Countries or member countries of organizations that launched missions beyond Earth orbit", 10, h-4, italic, "left", "#666");
+    cnv.text("Red Slices: Launch azimuths (directions)   Hilighted: Countries or member countries of organizations that launched missions beyond Earth orbit", w-1240, h-4, italic, "left", "#666");
     cnv.image(cc, w-88, h-16);
     cnv.text("Olaf Frohn", w-94, h-4, bold, "right");
   };
@@ -746,7 +746,7 @@ SSEH.showDSN = function(e, nd) {
 </head>
 
 <body onload="load()">
-<canvas id="lcmap" width="2048" height="1024"></canvas>
+<canvas id="lcmap" width="2048" height="1052"></canvas>
 <div id="urls"></div>
 </body>
 </html>

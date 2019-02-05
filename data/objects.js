@@ -75,7 +75,7 @@ ter: {name:"Earth", other:"Terra", desig:"d", type:"p", par:"sol", disc:"(Prehis
 lun: {name:"Moon", other:"Luna", desig:"", type:"m", par:"ter", disc:"(Prehistoric)", dyr:"",
       a:"384400km", e:"0.0549", i:"5.145", per:"27.3217d", rot:"S", 
       h:"0.21", mass:"1.230e-2", dia:"3474.8km/0.00125", rad:"1737.4/0.00125", tilt:"1.542", alb:"0.12", grav:"0.165", 
-      comp:"Rock+Metal+core:19", dens:"3.3464", atm:"Ne:28+He:25+H2:23+Ar:20", atp:"3e-15", temp:"100..220..390K",
+      comp:"Rock+Metal+core:19", dens:"3.3464", atm:"Ne:28+He:25+H2:23+Ar:20", atp:"3e-15", temp:"80..220..390K",
       img:"moon.png", map:"moon-topo.jpg", col:"#888", ind:"4", 
       desc:"sc:3;url:nssdc.gsfc.nasa.gov/planetary/planets/moonpage.html;orb:ec.2000-01-01;x:0;y:96"},
 //Mars system

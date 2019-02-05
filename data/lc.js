@@ -14,7 +14,7 @@ yas: {name:"Yasny:Yasny Cosmodrome", other:"космодром Я́сный;Domb
 
 kou: {name:"Kourou:Guiana Space Centre", ctry:"eu;gu", desig:"CSG:Centre Spatial Guyanais", desc:"url:www.esa.int/Our_Activities/Launchers/Europe_s_Spaceport/Europe_s_Spaceport2;loc:5.170N,52.688W;show:CSG:SW;shmap:W;reg:Kourou, French Guiana;az:349..90;kml:zgUqCFI4a2eQ.kynamq0ZiCjg", map:"csg.png"},
 
-uch: {name:"Uchinoura:Uchinoura Space Center", other:"内之浦宇宙空間観測所", ctry:"jp", desig:"USC:Uchinoura Space Center", desc:"url:www.jaxa.jp/about/centers/usc/index_e.html;loc:31.2513N,131.0761E;show:USC:NE;shmap:NW;reg:Kagoshima, Japan;az:25..155;kml:zgUqCFI4a2eQ.kN24hi4lP3wE", map:"usc.png"},
+uch: {name:"Uchinoura:Uchinoura Space Center", other:"内之浦宇宙空間観測所", ctry:"jp", desig:"USC:Uchinoura Space Center", desc:"url:www.jaxa.jp/about/centers/usc/index_e.html;loc:31.2513N,131.0761E;show:USC:NE;shmap:SE;reg:Kagoshima, Japan;az:25..155;kml:zgUqCFI4a2eQ.kN24hi4lP3wE", map:"usc.png"},
 tng: {name:"Tanegashima:Tanegashima Space Center", other:"種子島宇宙センター", ctry:"jp", desig:"TNSC:Tanegashima Space Center", desc:"url:www.jaxa.jp/about/centers/tnsc/index_e.html;loc:30.4037N,130.9733E;show:TNSC:SE;shmap:SW;reg:Kagoshima, Japan;az:0..180;kml:zgUqCFI4a2eQ.kFVhciYdMtnQ", map:"tnsc.png"},
 
 jiu: {name:"Jiuquan:Jiuquan Satellite Launch Center", other:"酒泉卫星发射中心", ctry:"cn", desig:"JSLC:Jiuquan Satellite Launch Center", desc:"url:www.spaceflight101.com/jiquan-satellite-launch-center.html;loc:40.985N,100.220E;show:JSLC:NW;shmap:W;reg:Alxa, Inner Mongolia, China;az:134..153;kml:zgUqCFI4a2eQ.kWktCQxSnO-Y", map:"jslc.png"},
@@ -26,7 +26,7 @@ sri: {name:"Sriharikota:Satish Dhawan Space Centre, Sriharikota", other:"सत�
 
 //alc: {name:"Alcântara:Alcântara Launch Center", other:"", ctry:"br", desig:"CLA:Centro de Lançamento de Alcântara", desc:"url:www.cla.aer.mil.br/index.php;loc:2.3730S,44.3964W;show:CLA;reg:Maranhão, Brazil;az:343..90;kml:zgUqCFI4a2eQ.kS2NlNk7_hfQ", map:"cla.png"},
 
-nar: {name:"Naro:Naro Space Center", other:"나로우주센터", ctry:"sk", desig:"NSC:Naro Space Center", desc:"url:http://www.kari.re.kr/eng.do;loc:34.4318N,127.5350E;show:NARO;reg:Kohung, Jeollanam-do;az:90..190;kml:12u04inPCpIFUtNWaYrlz__A7IwI", map:"naro.png"}
+nar: {name:"Naro:Naro Space Center", other:"나로우주센터", ctry:"sk", desig:"NSC:Naro Space Center", desc:"url:http://www.kari.re.kr/eng.do;loc:34.4318N,127.5350E;show:NARO:W;reg:Kohung, Jeollanam-do;az:90..190;kml:12u04inPCpIFUtNWaYrlz__A7IwI", map:"naro.png"}
 
 };
 

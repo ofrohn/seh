@@ -13,17 +13,18 @@ cdsnmi: {name:"CDSN Miyun:Chinese DSN Station Miyun", other:"密云区", ctry:"c
 cdsnkun: {name:"CDSN Kunming:Chinese DSN Station Kunming", other:"昆明", ctry:"cn", desig:"", desc:"url:;loc:24.84N,102.58E;ag:cnsa;show:Kunming:S;reg:Yunnan, China;dish:1x40m"},
 idsn: {name:"IDSN Byalalu:Indian DSN Station Byalalu", other:"பயலாலு", ctry:"ind", desig:"", desc:"url:http://www.isro.gov.in/about-isro/isro-telemetry-tracking-and-command-network-istrac;loc:12.901631N,77.368619E;ag:isro;show:IDSN:S;reg:Karnataka, India;dish:1x32m,1x18m"},
 evpat: {name:"Yevpatoria:Yevpatoria RT-70 Radio Telescope\n", other:"Евпатория", ctry:"ru;ua", desig:"NIP-16", desc:"url:;loc:45.189028N,33.187361E;ag:rosc;show:NIP-16:S;reg:Crimea, Ukraine;dish:1x70m,1x32m"},
-galen: {name:"Ussuriysk:Eastern Deep Space Communication Center\n", other:"Уссури́йск", ctry:"ru", desig:"NIP-15", desc:"url:;loc:44.0161N,131.757E;ag:rosc;show:NIP-15:S;reg:Primorsky Krai, Russia;dish:1x70m,1x32m,1x25m"},
+galen: {name:"Ussuriysk:Eastern Deep Space Communication Center\n", other:"Уссури́йск", ctry:"ru", desig:"NIP-15", desc:"url:;loc:44.0161N,131.757E;ag:rosc;show:NIP-15:NE;reg:Primorsky Krai, Russia;dish:1x70m,1x32m,1x25m"},
 bear: {name:"Medvezhi Ozera:Bear Lakes complex", other:"Медвежьи озёра", ctry:"ru", desig:"NIP-14", desc:"url:;loc:55.867886N,37.951804E;ag:rosc;show:NIP-14:SW;reg:Moscow, Russia;dish:1x64m"},
 //kalya: {name:"Kalyazin:Kalyazin Radio Astronomy Observatory", other:"Калязин", ctry:"ru", desig:"", desc:"url:;loc:57.2231N,37.9004E;ag:rosc;show:Kalyazin:NE;reg:Tver, Russia;dish:1x64m"},
-udsc: {name:"Usuda DSC:Usuda Deep Space Center", other:"臼田宇宙空間観測所", ctry:"jp", desig:"UDSC", desc:"url:global.jaxa.jp/about/centers/udsc/index.html;loc:36.133056N,138.362222E;ag:jaxa;show:UDSC:S;reg:Nagano, Japan;dish:1x64m"}
+udsc: {name:"Usuda DSC:Usuda Deep Space Center", other:"臼田宇宙空間観測所", ctry:"jp", desig:"UDSC", desc:"url:global.jaxa.jp/about/centers/udsc/index.html;loc:36.133056N,138.362222E;ag:jaxa;show:UDSC:S;reg:Nagano, Japan;dish:1x64m"},
 //Uchinoura USC34
+ktsat: {name:"KTSat:KTSat Satellite communication Center", other:"", ctry:"sk", desig:"KTSat", desc:"url:www.kari.re.kr/eng.do;loc:36.1N,127.5E;ag:kari;show:KTSat:NE;reg:Keumsan, South Korea;dish:1x27.7m"}
 };
     
   
 Common.ctrl = {
-  gsfc: {name:"GSFC:Goddard Space Flight Center, Greenbelt, Md", other:"", ctry:"us", desc:"url:www.nasa.gov/centers/goddard/home;loc:38.996944N,76.848333W;show:GSFC:NW;ag:nasa;reg:Maryland,USA"},
-  jpl: {name:"JPL SFOF:Space Flight Operations Facility (JPL), Pasadena, Ca", other:"", ctry:"us", desc:"url:www.jpl.nasa.gov/;loc:34.201086N,118.173614W;show:SFOF:S;ag:masa;reg:California,USA"},
+  gsfc: {name:"GSFC:Goddard Space Flight Center,\nGreenbelt, Md", other:"", ctry:"us", desc:"url:www.nasa.gov/centers/goddard/home;loc:38.996944N,76.848333W;show:GSFC:NW;ag:nasa;reg:Maryland,USA"},
+  jpl: {name:"JPL SFOF:Space Flight Operations Facility (JPL),\nPasadena, Ca", other:"", ctry:"us", desc:"url:www.jpl.nasa.gov/;loc:34.201086N,118.173614W;show:SFOF:S;ag:masa;reg:California,USA"},
   esoc: {name:"ESOC:European Space Operations Centre, Darmstadt", other:"", ctry:"eu;de", desc:"url:www.esa.int/esoc;loc:49.871111N,8.622778E;show:ESOC:S;ag:esa;reg:Darmstadt,Germany"},
   tsup: {name:"TsUP:RKA Mission Control Center, Korolev", other:"Центр управления полётами", ctry:"ru", desc:"url:www.mcc.rsa.ru/cup.htm;loc:55.912636N,37.810267E;show:TsUP:SE;ag:rosc;reg:Korolyov,Moscow"},
   bacc: {name:"BACC:Beijing Aerospace Command and Control Center", other:"北京航天指挥控制中心", ctry:"cn", desc:"url:;loc:40.071989N,116.257092E;show:BACC:E;ag:cnsa;reg:Beijing,China"},
@@ -47,6 +48,7 @@ Common.heads = {
   ru: {name:"Russian Deep Space Antennas", ag:"rosc"},
   ind: {name:"IDSN:Indian Deep Space Network", ag:"isro"},
   cn: {name:"Chinese Deep Space Network", ag:"cnsa"},
-  jp: {name:"Japanese Deep Space Network", ag:"jaxa"}
+  jp: {name:"Japanese Deep Space Network", ag:"jaxa"},
+  sk: {name:"KTSat", ag:"kari"}
 };
 
