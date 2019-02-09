@@ -3453,11 +3453,13 @@ insight: {name:"InSIGHT:Interior Exploration using Seismic Investigations, Geode
 ]},
 marco: {name:"MarCO:Mars Cube One", desc:"lv:Atlas V 401;part:insight",
   parts:[
-    {names:"MarCO A;Wall-E", type:"fbm", dest:"mar", stat:"o", ctry:"us", desc:"ag:nasa,jpl;InSIGHT EDL Communication Relay;m:13.5kg;dim:0.36x0.72x0.58m;sc:0.3", id:"2018-042B", url:"hp:www.jpl.nasa.gov/cubesat/missions/marco.php", icon:"marco.png"},
-    {names:"MarCO B;Eve", type:"fbm", dest:"mar", stat:"o", ctry:"us", desc:"ag:nasa,jpl", id:"2018-042C", url:"", icon:""}], 
+    {names:"MarCO A;Wall-E", type:"fbm", dest:"mar", stat:"s", ctry:"us", desc:"ag:nasa,jpl;InSIGHT EDL Communication Relay;m:13.5kg;dim:0.36x0.72x0.58m;sc:0.3", id:"2018-042B", url:"hp:www.jpl.nasa.gov/cubesat/missions/marco.php", icon:"marco.png"},
+    {names:"MarCO B;Eve", type:"fbm", dest:"mar", stat:"s", ctry:"us", desc:"ag:nasa,jpl", id:"2018-042C", url:"", icon:""}], 
   events:[
     {pt:"", type:"l", dt:"2018-05-05", loc:"ter:van:SLC-3E", desc:""},
-    {pt:"", type:"fb", dt:"2018-11-26", loc:"mar:3500km", desc:"eom"}
+    {pt:"", type:"fb", dt:"2018-11-26", loc:"mar:3500km", desc:""},
+    {pt:"1", type:"los", dt:"2018-12-29", loc:"sol:ho", desc:"fbp:MarCO B"},
+    {pt:"0", type:"los", dt:"2019-01-04", loc:"sol:ho", desc:"fbp:MarCO A;eom"}
 ]},
 change4relay: {name:"Queqiao:Magpie Bridge", desc:"lv:CZ-4C",
   parts:[
@@ -6090,7 +6092,8 @@ Common.ctrl = {
   tsup: {name:"TsUP:RKA Mission Control Center, Korolev", other:"Центр управления полётами", ctry:"ru", desc:"url:www.mcc.rsa.ru/cup.htm;loc:55.912636N,37.810267E;show:TsUP:SE;ag:rosc;reg:Korolyov,Moscow"},
   bacc: {name:"BACC:Beijing Aerospace Command and Control Center", other:"北京航天指挥控制中心", ctry:"cn", desc:"url:;loc:40.071989N,116.257092E;show:BACC:E;ag:cnsa;reg:Beijing,China"},
   tksc: {name:"TKSC:Tsukuba Space Center", other:"筑波宇宙センター", ctry:"jp", desc:"url:www.jaxa.jp/about/centers/tksc/index_e.html;loc:36.065778N,140.129806E;show:TKSC:E;ag:jaxa;reg:Ibaraki,Japan"},
-  istrac: {name:"ISTRAC:ISRO Telemetry, Tracking and Command\nNetwork, Bangalore", other:"इस्रो टेलिमेट्री, ट्रॅकिंग अॅन्ड कमांड नेटवर्क", ctry:"ind", desc:"url:istrac.vsnl.net.in;loc:12.966667N,77.566667E;show:ISTRAC:W;ag:isro;reg:Bangalore,India"}
+  istrac: {name:"ISTRAC:ISRO Telemetry, Tracking and Command\nNetwork, Bangalore", other:"इस्रो टेलिमेट्री, ट्रॅकिंग अॅन्ड कमांड नेटवर्क", ctry:"ind", desc:"url:istrac.vsnl.net.in;loc:12.966667N,77.566667E;show:ISTRAC:W;ag:isro;reg:Bangalore,India"},
+  kari: {name:"KARI:Korea Aerospace Research Institute, Daejeon", other:"한국항공우주연구원", ctry:"sk", desc:"url:www.kari.re.kr/eng.do;loc:36.375686N,127.353892E;show:KARI:W;ag:kari;reg:nDaejeon,South Korea"}
 }
 
 Common.tdz = {
