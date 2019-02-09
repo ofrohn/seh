@@ -3526,7 +3526,7 @@ spp: {name:"Parker Solar Probe", desc:"lv:Delta IV Heavy",
 ]},
 change4: {name:"Chang'e 4", desc:"lv:CZ-3B/G3Z",
   parts:[
-    {names:"嫦娥四号", type:"slm", dest:"lun", stat:"o", ctry:"cn", desc:"ag:cnsa;fam:clep;m:3780kg;m0:1200kg;dim:4.76x3.65x3.45m;First lunar far side landing", id:"2018-103A", url:"China Spaceflight:www.chinaspaceflight.com/satellite/Deepspace/CE-4/CE-4.html;CCTV:english.cntv.cn/special/lunarmission/index.shtml", icon:"chang-e4-l.png"},
+    {names:"嫦娥四号", type:"slm", dest:"lun", stat:"o", ctry:"cn", desc:"ag:cnsa;fam:clep;m:3780kg;m0:1200kg;dim:4.76x3.65x3.45m;First lunar far side landing", id:"2018-103A", url:"China Spaceflight:www.chinaspaceflight.com/satellite/Deepspace/CE-4/CE-4.html;CCTV:english.cntv.cn/special/lunarmission/index.shtml;data:202.106.152.98:8081/moondata/", icon:"chang-e4-l.png"},
     {names:"Yutu-2", type:"rvm", dest:"lun", stat:"o", ctry:"cn", desc:"m:140kg", icon:"chang-e3-rv.png"}
    ], 
   events:[
@@ -3596,7 +3596,7 @@ luna25: {name:"Luna 25", desc:"lv:Soyuz 2.1B/Fregat",
   parts:[
     {names:"Луна-Глоб посадочный;Luna Glob Lander:Lunar Sphere Lander", type:"slm", dest:"lun", stat:"pl", ctry:"ru", desc:"ag:rosc,iki;m:1750kg;m0:780kg;sc:0.45", id:"", url:"rsw:www.russianspaceweb.com/luna_glob.html", icon:"luna25.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2020", loc:"ter:bai", desc:""},
+    {pt:"", type:"l", dt:"2021", loc:"ter:bai", desc:""},
     {pt:"", type:"oi", dt:"l+4dy", loc:"lun:100x100kmx90deg", desc:""},
     {pt:"", type:"td", dt:"l+8dy", loc:"lun:69.545S,43.44E", desc:"Near South Pole, Hagecius Crater"},
     {pt:"", type:"nom", dt:"l+3mo", loc:"lun", desc:"?"},
@@ -3708,7 +3708,7 @@ em1cubes: {name:"EM-1 Cubesats", desc:"lv:SLS;part:em1;6U-CubeSat", stat:"pl",
 ]},
 exomarsrv: {name:"ExoMars Rover", desc:"lv:Proton-M/Briz-M",
   parts:[
-    {names:"Pasteur", type:"rvm", dest:"mar", stat:"pl", ctry:"eu", desc:"ag:esa;m:296kg;dim:2.0x1.5x1.7m;fam:exom;sc:0.4", id:"", url:"hp:exploration.esa.int/mars/48088-mission-overview/;tw:twitter.com/ESA_Exomars", icon:"exomars-rv.png"},
+    {names:"Rosalind Franklin", type:"rvm", dest:"mar", stat:"pl", ctry:"eu", desc:"ag:esa;m:296kg;dim:2.0x1.5x1.7m;fam:exom;sc:0.4", id:"", url:"hp:exploration.esa.int/mars/48088-mission-overview/;tw:twitter.com/ESA_Exomars", icon:"exomars-rv.png"},
 {names:"Surface Platform;DM:Descent Module", type:"slm", dest:"mar", stat:"pl", ctry:"eu;ru", desc:"ag:rosc,esa;m:2600kg", id:"", url:"rsw:www.russianspaceweb.com/exomars2018.html", icon:"exomars-dm.png"}], 
   events:[
     {pt:"", type:"l", dt:"2020-07", loc:"ter:bai", desc:""},
@@ -3771,11 +3771,11 @@ change6: {name:"Chang'e 6", desc:"lv:CZ-5",
     {pt:"", type:"toi", dt:"l+25dy", loc:"lun", desc:"op/src"},
     {pt:"", type:"edl", dt:"l+30dy", loc:"ter", desc:"src;Siziwang Banner, Inner Mongolia;eom"}
 ]},
-lucy: {name:"Lucy", desc:"",
+lucy: {name:"Lucy", desc:"lv:Atlas V 401",
   parts:[
     {names:"", type:"fbm", dest:"ast", stat:"pl", ctry:"us", desc:"ag:nasa,gsfc,swri;fam:discovery;sc:0.4", id:"", url:"hp:www.nasa.gov/lucy;tw:twitter.com/NASALucy2Trojan", icon:"lucy.png"}
   ], events:[
-    {pt:"", type:"l", dt:"2021-10-16", loc:"ter:cap", desc:""},
+    {pt:"", type:"l", dt:"2021-10-16", loc:"ter:cap:SLC-41", desc:""},
     {pt:"", type:"oi", dt:"2021-10-16", loc:"sol:ho:1aux0.16x0.21deg", desc:""},
     {pt:"", type:"fb", dt:"2022-10", loc:"ter:298km", desc:"ga"},
     {pt:"", type:"tc", dt:"2022-10", loc:"sol:ho:1.63aux0.39x0.02deg", desc:""},
@@ -3839,7 +3839,7 @@ luna26: {name:"Luna 26", desc:"lv:Soyuz 2.1B/Fregat",
   parts:[
     {names:"Луна-Ресурс орбитальный;Luna Resurs Orbiter:Lunar Resource Orbiter", type:"om", dest:"lun", stat:"pl", ctry:"ru", desc:"ag:rosc,iki;m:2200kg;sc:0.75", id:"", url:"rsw:www.russianspaceweb.com/luna_glob.html", icon:"luna26.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2022", loc:"ter:bai", desc:""},
+    {pt:"", type:"l", dt:"2023", loc:"ter:bai", desc:""},
     {pt:"", type:"oi", dt:"l+4dy", loc:"lun", desc:""},
     {pt:"", type:"sco", dt:"l+?dy", loc:"lun:100kmx90deg", desc:"Working Orbit"},
     {pt:"", type:"sco", dt:"l+1yr", loc:"lun:500kmx90deg", desc:"Final Operation Orbit"},
@@ -3916,7 +3916,7 @@ luna27: {name:"Luna 27", desc:"lv:Soyuz 2.1B",
   parts:[
     {names:"Луна-Ресурс посадочный;Luna Resurs Lander", type:"slm", dest:"lun", stat:"pl", ctry:"ru;eu", desc:"ag:rosc,iki,esa;m:2150kg;sc:0.4", id:"", url:"hp:ofo.ikiweb.ru/en/p_luna_resurs.php;rsw:www.russianspaceweb.com/luna_resurs.html", icon:"lunaresurs.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2023", loc:"ter:bai", desc:""},
+    {pt:"", type:"l", dt:"2024", loc:"ter:bai", desc:""},
     {pt:"", type:"td", dt:"l+4dy", loc:"lun:87.2S,68E", desc:"Near South Pole; Shoemaker Crater;show:0"},
     {pt:"", type:"nom", dt:"l+1yr", loc:"lun", desc:"?"}
 ]},
