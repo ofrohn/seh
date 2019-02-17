@@ -2867,7 +2867,7 @@ spirit: {name:"Spirit", desc:"lv:Delta II 7925-9.5",
 ]},
 opportunity: {name:"Opportunity", desc:"lv:Delta II 7925H-9.5",
   parts:[
-    {names:"MER-B:Mars Exploration Rover B", type:"rvm", dest:"mar", stat:"o", ctry:"us", desc:"ag:nasa,jpl;fam:MER;m:1062kg;m0:174kg;dim:2.3x1.6x1.5m;sc:0.5", id:"2003-032A", url:"hp:marsrovers.jpl.nasa.gov/home/index.html;raw:marsrovers.jpl.nasa.gov/gallery/all/opportunity.html;tps:www.planetary.org/explore/space-topics/space-missions/mer-updates/;pds:an.rsl.wustl.edu/mer/merbrowser/default.aspx?m=MERB;tw:twitter.com/MarsRovers", icon:"mer.png"}], 
+    {names:"MER-B:Mars Exploration Rover B", type:"rvm", dest:"mar", stat:"s", ctry:"us", desc:"ag:nasa,jpl;fam:MER;m:1062kg;m0:174kg;dim:2.3x1.6x1.5m;sc:0.5", id:"2003-032A", url:"hp:marsrovers.jpl.nasa.gov/home/index.html;raw:marsrovers.jpl.nasa.gov/gallery/all/opportunity.html;tps:www.planetary.org/explore/space-topics/space-missions/mer-updates/;pds:an.rsl.wustl.edu/mer/merbrowser/default.aspx?m=MERB;tw:twitter.com/MarsRovers", icon:"mer.png"}], 
   events:[
     {pt:"", type:"l", dt:"2003-07-08", loc:"ter:cap:SLC-17B", desc:""},
     {pt:"", type:"toi", dt:"2003-07-08", loc:"sol:hto:1.00x1.52aux7.23deg", desc:""},
@@ -2879,10 +2879,8 @@ opportunity: {name:"Opportunity", desc:"lv:Delta II 7925H-9.5",
     {pt:"", type:"arr", dt:"2006-09-27", loc:"mar", desc:"Victoria Crater"},
     {pt:"", type:"arr", dt:"2011-08-09", loc:"mar", desc:"Endeavour Crater"},
     {pt:"", type:"obs", dt:"2014-10-19", loc:"mar", desc:"Comet C 2013 A1 Siding Spring"},
-    {pt:"", type:"ex", dt:"", loc:"mar", desc:"rv:45km;and counting"},
-    {pt:"", type:"nom", dt:"2019-09-30", loc:"mar", desc:"pend"},
-    {pt:"", type:"pom", dt:"2020-12-31", loc:"mar", desc:""}
-    
+    {pt:"", type:"ex", dt:"", loc:"mar", desc:"rv:45.2km"},
+    {pt:"", type:"los", dt:"2018-06-10", loc:"mar", desc:"eom"}    
 ]},
 smart1: {name:"SMART 1:Small Missions for Advanced Research in Technology 1", desc:"lv:Ariane 5G",
   parts:[
@@ -3560,7 +3558,7 @@ spaceil: {name:"Beresheet", desc:"lv:Falcon 9",
     {names:"בְּרֵאשִׁית‬", type:"slm", dest:"lun", stat:"pl", ctry:"il", desc:"ag:SpaceIL;m:585kg;sc:0.3", id:"", url:"hp:www.spaceil.com/", icon:"spaceil.png"}
   ], 
   events:[
-    {pt:"", type:"l", dt:"2019-02-19", loc:"ter:cap", desc:""},
+    {pt:"", type:"l", dt:"2019-02-22", loc:"ter:cap", desc:""},
     {pt:"", type:"td", dt:"l+3mo", loc:"lun:33N,17.5E", desc:"Mare Serenitatis"},
     {pt:"", type:"nom", dt:"l+4mo", loc:"lun", desc:"?"}
 ]},
