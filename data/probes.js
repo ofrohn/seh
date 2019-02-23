@@ -2706,7 +2706,7 @@ hayabusa2: {name:"Hayabusa 2:Peregrine Falcon 2", desc:"lv:H-IIA 202",
     {pt:"2", type:"td", dt:"2018-09-21", loc:"ast", desc:"hpp:MINERVA II1 A&B;Hibou & Owl"},
     {pt:"3", type:"td", dt:"2018-10-03", loc:"ast", desc:"lp:MASCOT"},
     {pt:"3", type:"los", dt:"2018-10-04", loc:"ast", desc:"lp:MASCOT;eom:slm"},
-    {pt:"3", type:"dsc", dt:"2019-02-18", loc:"ast", desc:"Sample Collection Maneuver"},
+    {pt:"3", type:"dsc", dt:"2019-02-21", loc:"ast", desc:"Sample Collection Maneuver"},
     {pt:"3", type:"dsc", dt:"2019-03-04", loc:"ast", desc:"Sample Collection Backup"},
     {pt:"1", type:"imp", dt:"2019-03", loc:"ast", desc:"ip:SCI;Cratering Experiment;eom:im"},
     {pt:"0", type:"dsc", dt:"2019-04", loc:"ast", desc:"Sample acquisition"},
@@ -2884,10 +2884,10 @@ change4: {name:"Chang'e 4", desc:"lv:CZ-3B/G3Z",
     {pt:"", type:"oi", dt:"2018-12-12", loc:"lun:100x400kmx90deg", desc:""},
     {pt:"", type:"sco", dt:"2018-12-26", loc:"lun:100kmx90deg", desc:""},
     {pt:"", type:"sco", dt:"2018-12-30", loc:"lun:100x15kmx90deg", desc:""},
-    {pt:"", type:"td", dt:"2019-01-03", loc:"lun:45.471S,177.606E", desc:"South Pole Aitken, Von Karman crater;show:CE4:NW"},
+    {pt:"", type:"td", dt:"2019-01-03", loc:"lun:45.471S,177.606E", desc:"Statio Tianhe, Von Karman crater, SPA;show:CE4:NW"},
     {pt:"", type:"sep", dt:"2019-01-03", loc:"lun", desc:"lp/rvp"},    
-    {pt:"1", type:"nom", dt:"l+3mo", loc:"lun", desc:"rvp;?;eom:rvm"},
-    {pt:"0", type:"nom", dt:"l+1yr", loc:"lun", desc:"lp;?"}
+    {pt:"1", type:"nom", dt:"2019-03", loc:"lun", desc:"rvp;?;eom:rvm"},
+    {pt:"0", type:"nom", dt:"2019-12", loc:"lun", desc:"lp;?"}
 ]},
 // --- 2019
 chandrayaan2: {name:"Chandrayaan 2:Moon Craft 2", desc:"lv:GSLV MkIII",
@@ -2896,8 +2896,8 @@ chandrayaan2: {name:"Chandrayaan 2:Moon Craft 2", desc:"lv:GSLV MkIII",
 {names:"Vikram", type:"slm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:1350kg", icon:"chandrayaan2-l.png"},
 {names:"ECA:Ek Choti si Asha", type:"rvm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:25kg;sc:0.5", icon:"chandrayaan2-rv.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2019-02-16", loc:"ter:sri", desc:""},
-    {pt:"", type:"toi", dt:"2019-02-16", loc:"ter:170x16980km", desc:"EPO"},
+    {pt:"", type:"l", dt:"2019-04", loc:"ter:sri", desc:""},
+    {pt:"", type:"toi", dt:"2019-04", loc:"ter:170x16980km", desc:"EPO"},
     {pt:"0", type:"oi", dt:"l+1mo", loc:"lun", desc:""},
     {pt:"0", type:"sco", dt:"l+2mo", loc:"lun:100km", desc:""},
     {pt:"1", type:"td", dt:"l+2mo", loc:"lun:70.8S,22.9E", desc:"Between Manzinus & Simpelius Crater;show:Ch2"},
@@ -2907,12 +2907,15 @@ chandrayaan2: {name:"Chandrayaan 2:Moon Craft 2", desc:"lv:GSLV MkIII",
 ]},
 spaceil: {name:"Beresheet", desc:"lv:Falcon 9",
   parts:[
-    {names:"בְּרֵאשִׁית‬", type:"slm", dest:"lun", stat:"pl", ctry:"il", desc:"ag:SpaceIL;m:585kg;sc:0.3", id:"", url:"hp:www.spaceil.com/", icon:"spaceil.png"}
+    {names:"בְּרֵאשִׁית‬", type:"slm", dest:"lun", stat:"o", ctry:"il", desc:"ag:SpaceIL;m:585kg;sc:0.3", id:"2019-009B", url:"hp:www.spaceil.com/", icon:"spaceil.png"}
   ], 
   events:[
     {pt:"", type:"l", dt:"2019-02-22", loc:"ter:cap", desc:""},
-    {pt:"", type:"td", dt:"l+3mo", loc:"lun:33N,17.5E", desc:"Mare Serenitatis"},
-    {pt:"", type:"nom", dt:"l+4mo", loc:"lun", desc:"?"}
+    {pt:"", type:"toi", dt:"2019-02-22", loc:"ter:heeo:242x68845km", desc:"Phasing loops"},
+    {pt:"", type:"oi", dt:"2019-04-04", loc:"lun:10000x300km", desc:""},
+    {pt:"", type:"dsc", dt:"2019-04-10", loc:"lun:10x15km", desc:""},
+    {pt:"", type:"td", dt:"2019-04-11", loc:"lun:33N,17.5E", desc:"Mare Serenitatis"},
+    {pt:"", type:"nom", dt:"2019-04-14", loc:"lun", desc:"?"}
 ]},
 change5: {name:"Chang'e 5", desc:"lv:CZ-5",
   parts:[

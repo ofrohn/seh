@@ -1281,7 +1281,8 @@ iss:{name:"ISS:International Space Station", ctry:"us;ru;eu;jp;ca", id:"1998-067
     {n:"CALET:CALorimetric Electron Telescope", ctry:"jp", type:"par", pur:"cr", url:"hp:calet.phys.lsu.edu/", stat:"o", id:"", icon:"", desc:"lv:H-IIB;ag:jaxa"},
     {n:"NICER:Neutron Star Interior Composition Explorer", ctry:"us", type:"x", pur:"tim", url:"hp:heasarc.gsfc.nasa.gov/docs/nicer/", stat:"o", id:"", icon:"", desc:"ag:nasa;lv:Falcon 9 v1.2"},
     {n:"JEM-EUSO:Japanese Experiment Module-Extreme Universe Space Observatory", ctry:"jp", type:"par", pur:"cr", url:"hp:jemeuso.riken.jp/en/", stat:"pl", id:"", icon:"", desc:"lv:H-IIB;ag:jaxa"},
-    {n:"ACES:Atomic Clock Ensemble in Space", ctry:"EU", type:"Gr", pur:"", url:"hp:pharao.cnes.fr/en/PHARAO/GP_platform_aces.htm", stat:"pl", id:"", icon:"", desc:"ag:esa"}
+    {n:"ACES:Atomic Clock Ensemble in Space", ctry:"eu", type:"Gr", pur:"", url:"hp:pharao.cnes.fr/en/PHARAO/GP_platform_aces.htm", stat:"pl", id:"", icon:"", desc:"ag:esa"},
+    {n:"Sun-THz", ctry:"br", type:"", pur:"", url:"hp:fapesp.br/week2019/london/news/technology-developed-in-brazil-will-be-part-of-the-international-space-station", stat:"pl", id:"", icon:"", desc:"ag:FAPESP"}
   ], ev: [
     {pt:"", dt:"1998-11-20", tp:"sco", loc:"ter:leo:350x350kmx51.8deg", desc:""},
     {pt:"1", dt:"2009-07-15", tp:"l", loc:"ter:cap:LC-39A", desc:"STS-127"},
@@ -1289,15 +1290,17 @@ iss:{name:"ISS:International Space Station", ctry:"us;ru;eu;jp;ca", id:"1998-067
     {pt:"0", dt:"2011-05-16", tp:"l", loc:"ter:cap:LC-39A", desc:"STS-134"},
     {pt:"2", dt:"2015-08-19", tp:"l", loc:"ter:tng:YLP-2", desc:"HTV-5"},
     {pt:"3", dt:"2017-06-03", tp:"l", loc:"ter:ksc:LC-39A", desc:""},
-    {pt:"4", dt:"2018", tp:"l", loc:"ter:tng", desc:"HTV-7"},
-    {pt:"5", dt:"2018", tp:"l", loc:"", desc:""}
+    {pt:"4", dt:"2020", tp:"l", loc:"ter:tng", desc:""},
+    {pt:"5", dt:"2019", tp:"l", loc:"", desc:"HTV-8"},
+    {pt:"6", dt:"2022", tp:"l", loc:"", desc:""}
   ], inst: [
     {pt:"0", tp:"par", n:"", band:"0.5..359GeV", sres:"2..4%", desc:"cl:nlp;"},
     {pt:"1", n:"SSC:Solid-state Slit Camera", band:"1.21E+17..2.42E+18", res:"5400", desc:"c:nlp;cl:nlpy;"},
     {pt:"1", n:"GSC:Gas Slit Camera", band:"4.84E+17..7.25E+18", res:"5400", desc:"cl:ny;"},
     {pt:"2", n:"", tp:"par", band:"1..10000GeV", sres:"2.5%", fov:"", url:"", desc:"c:;"},
     {pt:"3", n:"", band:"0.2..12keV", res:"5", sres:"85eV@1keV;137eV@6keV", tres:"100ns", ea:"2200cm2@2keV;600cm2@6keV", sens:"3e-14erg", url:"", desc:"c:np;cl:nlp;"},
-    {pt:"4", n:"", tp:"par", band:">3e10GeV", tres:"2.5ms", fov:"60deg", url:"", desc:"c:;"}
+    {pt:"4", n:"", tp:"par", band:">3e10GeV", tres:"2.5ms", fov:"60deg", url:"", desc:"c:;"},
+    {pt:"6", n:"", tp:"", band:"0.2..15THz", tres:"", fov:"", url:"", desc:"c:;"}
 ]},
 iue:{name:"IUE:International Ultraviolet Explorer", url:"hp:www.esa.int/Our_activities/Space_Science/IUE_overview;MAST:archive.stsci.edu/iue", desc:"ag:nasa,esa;lv:Delta 2914;m:669kg", stat:"s", 
   parts: [
@@ -1319,7 +1322,7 @@ ixpe:{name:"IXPE:Imaging X-Ray Polarimetry Explorer", url:"hp:wwwastro.msfc.nasa
   ], inst: [
     {n:"", band:"2..8keV", res:"30", fov:"11'", desc:"c:nr;cl:"}
   ]},
-jwst:{name:"JWST:James Webb Space Telescope", url:"hp:www.jwst.nasa.gov/;stsci:www.stsci.edu/jwst/;esa:www.esa.int/Our_activities/Space_Science/JWST;tw:twitter.com/JWSTObserver", desc:"lv:Ariane 5 ECA;sc:1.8;x:12;y:-8", stat:"pl", 
+jwst:{name:"JWST:James Webb Space Telescope", url:"hp:www.jwst.nasa.gov/;stsci:www.stsci.edu/jwst/;esa:www.esa.int/Our_activities/Space_Science/JWST;tw:twitter.com/JWSTObserver", desc:"lv:Ariane 5 ECA;sc:1.8;x:12;y:-0", stat:"pl", 
   parts: [
     {n:"", ctry:"us;eu", type:"nir;opt", pur:"", id:"", desc:"", icon:"jwst.png"}
   ], ev: [
@@ -1666,6 +1669,16 @@ solarorbiter:{name:"Solar Orbiter", url:"hp:www.esa.int/Our_activities/Space_Sci
     {n:"SPICE:Spectral Imaging of the Coronal Environment", band:"48.5..105nm", tp:"is", res:"", d:"", px:"", url:"", desc:"c:;"},
     {n:"STIX:X-ray Spectrometer/Telescope", band:"4..150keV", tp:"is", res:"", fov:"1.5deg", url:"", desc:"cl:n;"}
 ]},
+spherex:{name:"SPHEREx:Spectro-Photometer for the History of the Universe, Epoch of Reionization, and Ices Explorer,", url:"hp:caltech:spherex.caltech.edu/;jpl:www.jpl.nasa.gov/missions/spherex/", desc:"ag:nasa,caltech;lv:;m:kg;fam:Explorer;sc:0.6;x:0;y:10", stat:"pl", 
+  parts: [
+    {n:"Explorer", ctry:"us", type:"ir", pur:"sur", id:"", icon:"spherex.png"}
+  ], ev: [
+    {pt:"", dt:"2023", tp:"l", loc:"ter:cap", desc:""},
+    {pt:"", dt:"2023", tp:"sco", loc:"", desc:""},
+    {pt:"", dt:"2025", tp:"nom", loc:"", desc:""}
+], inst: [
+    {n:"", tp:"is", band:"0.75..5um", sres:"41..130", d:"0.2", px:"6.2", sens:"", fov:"3.5x11.3deg", desc:"c:;cl:n;"}
+]}, 
 spp:{name:"Parker Solar Probe", url:"hp:solarprobe.jhuapl.edu/;nasa:solarprobe.gsfc.nasa.gov/;tw:twitter.com/SolarProbePlus", desc:"Close Approach;ag:nasa,apl;lv:Delta IV Heavy;sc:1;x:-40;y:2", stat:"o", 
   parts: [
     {n:"SPP:Solar Probe Plus", ctry:"us", type:"", pur:"sol", id:"2018-065A", icon:"spp.png", desc:""}
