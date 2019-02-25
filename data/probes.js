@@ -2907,11 +2907,11 @@ chandrayaan2: {name:"Chandrayaan 2:Moon Craft 2", desc:"lv:GSLV MkIII",
 ]},
 spaceil: {name:"Beresheet", desc:"lv:Falcon 9",
   parts:[
-    {names:"בְּרֵאשִׁית‬", type:"slm", dest:"lun", stat:"o", ctry:"il", desc:"ag:SpaceIL;m:585kg;sc:0.3", id:"2019-009B", url:"hp:www.spaceil.com/", icon:"spaceil.png"}
+    {names:"בְּרֵאשִׁית‬", type:"slm", dest:"lun", stat:"o", ctry:"il", desc:"ag:SpaceIL;m:585kg;dim:2.29x2.29x1.54m;sc:0.3", id:"2019-009B", url:"hp:www.spaceil.com/", icon:"spaceil.png"}
   ], 
   events:[
     {pt:"", type:"l", dt:"2019-02-22", loc:"ter:cap", desc:""},
-    {pt:"", type:"toi", dt:"2019-02-22", loc:"ter:heeo:242x68845km", desc:"Phasing loops"},
+    {pt:"", type:"toi", dt:"2019-02-22", loc:"ter:heeo:242x68845kmx27.6deg", desc:"Phasing loops"},
     {pt:"", type:"oi", dt:"2019-04-04", loc:"lun:10000x300km", desc:""},
     {pt:"", type:"dsc", dt:"2019-04-10", loc:"lun:10x15km", desc:""},
     {pt:"", type:"td", dt:"2019-04-11", loc:"lun:33N,17.5E", desc:"Mare Serenitatis"},
