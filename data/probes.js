@@ -2706,10 +2706,10 @@ hayabusa2: {name:"Hayabusa 2:Peregrine Falcon 2", desc:"lv:H-IIA 202",
     {pt:"2", type:"td", dt:"2018-09-21", loc:"ast", desc:"hpp:MINERVA II1 A&B;Hibou & Owl"},
     {pt:"3", type:"td", dt:"2018-10-03", loc:"ast", desc:"lp:MASCOT"},
     {pt:"3", type:"los", dt:"2018-10-04", loc:"ast", desc:"lp:MASCOT;eom:slm"},
-    {pt:"3", type:"dsc", dt:"2019-02-21", loc:"ast", desc:"Sample Collection Maneuver"},
-    {pt:"3", type:"dsc", dt:"2019-03-04", loc:"ast", desc:"Sample Collection Backup"},
+    {pt:"0", type:"dsc", dt:"2019-02-21", loc:"ast", desc:"Sample Collection Maneuver"},
+    //{pt:"0", type:"dsc", dt:"2019-03-04", loc:"ast", desc:"Sample Collection Backup"},
     {pt:"1", type:"imp", dt:"2019-03", loc:"ast", desc:"ip:SCI;Cratering Experiment;eom:im"},
-    {pt:"0", type:"dsc", dt:"2019-04", loc:"ast", desc:"Sample acquisition"},
+    //{pt:"0", type:"dsc", dt:"2019-04", loc:"ast", desc:"Sample acquisition"},
     {pt:"2", type:"td", dt:"2018-09", loc:"ast", desc:"hpp:MINERVA II2;eom:hpm"},
     {pt:"0", type:"dep", dt:"2019-11", loc:"ast", desc:""},
     {pt:"0", type:"edl", dt:"2020-11", loc:"ter", desc:"eom"}
@@ -2907,7 +2907,7 @@ chandrayaan2: {name:"Chandrayaan 2:Moon Craft 2", desc:"lv:GSLV MkIII",
 ]},
 spaceil: {name:"Beresheet", desc:"lv:Falcon 9",
   parts:[
-    {names:"בְּרֵאשִׁית‬", type:"slm", dest:"lun", stat:"o", ctry:"il", desc:"ag:SpaceIL;m:585kg;dim:2.29x2.29x1.54m;sc:0.3", id:"2019-009B", url:"hp:www.spaceil.com/", icon:"spaceil.png"}
+    {names:"בְּרֵאשִׁית‬", type:"slm", dest:"lun", stat:"o", ctry:"il", desc:"ag:SpaceIL;m:585kg;dim:2.29x2.29x1.54m;sc:0.3", id:"2019-009B", url:"hp:beresheet.space;SpaceIL:www.spaceil.com/", icon:"spaceil.png"}
   ], 
   events:[
     {pt:"", type:"l", dt:"2019-02-22", loc:"ter:cap", desc:""},
