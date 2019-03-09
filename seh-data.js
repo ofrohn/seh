@@ -1650,7 +1650,7 @@ apollo11: {name:"Apollo 11", desc:"lv:Saturn V",
     {pt:"", type:"oi", dt:"1969-07-19", loc:"lun:111x314kmx0deg", desc:""},
     {pt:"", type:"sco", dt:"1969-07-19", loc:"lun:101x122kmx0deg", desc:""},
     {pt:"", type:"sep", dt:"1969-07-20", loc:"lun", desc:"csm/lm"},
-    {pt:"", type:"td", dt:"1969-07-20", loc:"lun:0.674N,23.473E", desc:"Mare Tranquilitatis;show:A11:E;lm"},
+    {pt:"", type:"td", dt:"1969-07-20", loc:"lun:0.674N,23.473E", desc:"Statio Tranquilitatis;show:A11:E;lm"},
     {pt:"", type:"eva", dt:"1969-07-21", loc:"lun", desc:"1 Walk;tm:2.53hr;rv:800m"},
     {pt:"0", type:"l", dt:"1969-07-21", loc:"lun", desc:"lm;mat:21.55kg"},
     {pt:"0", type:"doc", dt:"1969-07-21", loc:"lun", desc:"csm/lm"},
@@ -2879,7 +2879,7 @@ opportunity: {name:"Opportunity", desc:"lv:Delta II 7925H-9.5",
     {pt:"", type:"arr", dt:"2006-09-27", loc:"mar", desc:"Victoria Crater"},
     {pt:"", type:"arr", dt:"2011-08-09", loc:"mar", desc:"Endeavour Crater"},
     {pt:"", type:"obs", dt:"2014-10-19", loc:"mar", desc:"Comet C 2013 A1 Siding Spring"},
-    {pt:"", type:"ex", dt:"", loc:"mar", desc:"rv:45.2km"},
+    {pt:"", type:"ex", dt:"", loc:"mar", desc:"rv:45.16km"},
     {pt:"", type:"los", dt:"2018-06-10", loc:"mar", desc:"eom"}    
 ]},
 smart1: {name:"SMART 1:Small Missions for Advanced Research in Technology 1", desc:"lv:Ariane 5G",
@@ -3315,7 +3315,7 @@ mangalyaan: {name:"MOM:Mars Orbiter Mission", desc:"lv:PSLV-XL",
     {pt:"", type:"nom", dt:"2015-10-30", loc:"mar", desc:"pend"},
     {pt:"", type:"pom", dt:"2017-10-30", loc:"mar", desc:"?"}    
 ]},
-// --- 2014
+// --- 2014  4 Missions
 change5test: {name:"Chang'e 5 T1", desc:"lv:CZ-3C G2", stat:"o", 
   parts:[
     {names:"嫦娥五号 试验器;Xiaofei;Return Reentry Flight Vehicle Service Module", type:"fbm", dest:"lun", ctry:"cn", stat:"s", desc:"ag:cnsa;fam:clep;m:?kg;dim:22x2.2x3.4m;sc:0.75;Re-entry Vehicle Test Mission", id:"2014-065A", url:"China Spaceflight:www.chinaspaceflight.com/satellite/Deepspace/CE5T1/CE5-T1.html;sf101:www.spaceflight101.com/change-5-test-mission-updates.html", icon:"chang-e5t1.png"},
@@ -3354,11 +3354,11 @@ hayabusa2: {name:"Hayabusa 2:Peregrine Falcon 2", desc:"lv:H-IIA 202",
     {pt:"2", type:"td", dt:"2018-09-21", loc:"ast", desc:"hpp:MINERVA II1 A&B;Hibou & Owl"},
     {pt:"3", type:"td", dt:"2018-10-03", loc:"ast", desc:"lp:MASCOT"},
     {pt:"3", type:"los", dt:"2018-10-04", loc:"ast", desc:"lp:MASCOT;eom:slm"},
-    {pt:"0", type:"dsc", dt:"2019-02-21", loc:"ast", desc:"Sample Collection Maneuver"},
-    //{pt:"0", type:"dsc", dt:"2019-03-04", loc:"ast", desc:"Sample Collection Backup"},
-    {pt:"1", type:"imp", dt:"2019-03", loc:"ast", desc:"ip:SCI;Cratering Experiment;eom:im"},
-    //{pt:"0", type:"dsc", dt:"2019-04", loc:"ast", desc:"Sample acquisition"},
-    {pt:"2", type:"td", dt:"2018-09", loc:"ast", desc:"hpp:MINERVA II2;eom:hpm"},
+    {pt:"0", type:"dsc", dt:"2019-02-21", loc:"ast", desc:"1. Sample Collection"},
+    {pt:"1", type:"imp", dt:"2019-04", loc:"ast", desc:"ip:SCI;Cratering Experiment;eom:im"},
+    {pt:"0", type:"dsc", dt:"2019-05", loc:"ast", desc:"2. Sample Collection"},
+    //{pt:"0", type:"dsc", dt:"2019-04", loc:"ast", desc:"3. Sample Collection"},
+    {pt:"2", type:"td", dt:"2019-08", loc:"ast", desc:"hpp:MINERVA II2;eom:hpm"},
     {pt:"0", type:"dep", dt:"2019-11", loc:"ast", desc:""},
     {pt:"0", type:"edl", dt:"2020-11", loc:"ter", desc:"eom"}
 ]},
@@ -3387,7 +3387,7 @@ eft1: {name:"EFT-1:Exploration Flight Test 1", desc:"lv:Delta IV Heavy", stat:"s
     {pt:"", type:"oi", dt:"2014-12-05", loc:"ter:-20x5808kmx28.7deg", desc:""},
     {pt:"", type:"edl", dt:"2014-12-05", loc:"ter:23.61N,114.46W", desc:"965km SW of San Diego;show:EFT1:SW;eom"}
 ]},
-// --- 2015
+// --- 2015  1 Mission
 dscovr: {name:"DSCOVR:Deep Space Climate Observatory", desc:"lv:Falcon 9 v1.1",
   parts:[
     {names:"Tirana", type:"obm", dest:"sol", stat:"o", ctry:"us", desc:"ag:nasa,noaa,usaf;m:570kg;dim:4.0x1.0x1.85m;Earth and Space Weather Monitor", id:"2015-007A", url:"hp:www.nesdis.noaa.gov/DSCOVR/;epic:epic.gsfc.nasa.gov/;nasa:www-pm.larc.nasa.gov/triana.html", icon:"dscovr.png"}], 
@@ -3397,7 +3397,7 @@ dscovr: {name:"DSCOVR:Deep Space Climate Observatory", desc:"lv:Falcon 9 v1.1",
     {pt:"", type:"oi", dt:"2015-06-06", loc:"sol:esl1", desc:"Lissajous Orbit"},
     {pt:"", type:"nom", dt:"2025", loc:"sol:esl1", desc:"?"}    
 ]},
-// --- 2016 
+// --- 2016   2 Missions
 exomarstgo: {name:"ExoMars TGO:Exomars Trace Gas Orbiter", desc:"lv:Proton-M/Briz-M",
   parts:[
     {names:"", type:"om", dest:"mar", stat:"o", ctry:"eu;ru", desc:"ag:esa,rosc;m:4332kg;m0:1365kg;dim:17.5x5.0x5.5m;sc:0.8;fam:exom", id:"2016-017A", url:"hp:exploration.esa.int/science-e/www/object/index.cfm?fobjectid=46124;rsw:www.russianspaceweb.com/exomars_2016.html;tw:twitter.com/ESA_TGO", icon:"exomars-tgo.png"},
@@ -3430,7 +3430,7 @@ osirisrex: {name:"OSIRIS-REx:Origins-Spectral Interpretation-Resource Identifica
     {pt:"", type:"edl", dt:"2023-09-24", loc:"ter", desc:"src;UTTR, Utah;"}
 ]},
 // --- 2017  
-// --- 2018
+// --- 2018  7 Missions
 fh1: {name:"Falcon Heavy Test 1", desc:"lv:Falcon Heavy", stat:"s", 
   parts:[
     {names:"Tesla Roadster", type:"test", dest:"sol:ho",ctry:"us", desc:"ag:spacex;m:1250kg;sc:0.5", id:"2018-017A", url:"hp:www.spacex.com/falcon-heavy", icon:"tesla.png"}], 
@@ -3479,7 +3479,7 @@ dslwp: {name:"Longjiang 1 & 2:Dragon River", desc:"lv:CZ-4C;part:change4relay", 
     {pt:"", type:"l", dt:"2018-05-21", loc:"ter:xch:LC-2", desc:"Chang'e 4 LRS piggyback"},
     {pt:"0", type:"los", dt:"2018-05-21", loc:"ter:lto", desc:"Longjiang 1"},
     {pt:"1", type:"oi", dt:"2018-05-25", loc:"lun:350x13700km", desc:"Longjiang 2"},
-    {pt:"1", type:"nom", dt:"2019-06", loc:"lun", desc:"?"}
+    {pt:"1", type:"imp", dt:"2019-08", loc:"lun", desc:"eom"}
 ]},
 bepicolombo: {name:"Bepi Colombo", desc:"lv:Ariane 5ECA",
   parts:[
@@ -3533,8 +3533,9 @@ change4: {name:"Chang'e 4", desc:"lv:CZ-3B/G3Z",
     {pt:"", type:"sco", dt:"2018-12-26", loc:"lun:100kmx90deg", desc:""},
     {pt:"", type:"sco", dt:"2018-12-30", loc:"lun:100x15kmx90deg", desc:""},
     {pt:"", type:"td", dt:"2019-01-03", loc:"lun:45.471S,177.606E", desc:"Statio Tianhe, Von Karman crater, SPA;show:CE4:NW"},
-    {pt:"", type:"sep", dt:"2019-01-03", loc:"lun", desc:"lp/rvp"},    
-    {pt:"1", type:"nom", dt:"2019-03", loc:"lun", desc:"rvp;?;eom:rvm"},
+    {pt:"", type:"sep", dt:"2019-01-03", loc:"lun", desc:"lp/rvp"}, 
+    {pt:"1", type:"ex", dt:"", loc:"lun", desc:"rvp;rv:127m"},    
+    {pt:"1", type:"nom", dt:"2019-04", loc:"lun", desc:"rvp;?;eom:rvm"},
     {pt:"0", type:"nom", dt:"2019-12", loc:"lun", desc:"lp;?"}
 ]},
 // --- 2019

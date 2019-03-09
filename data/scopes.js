@@ -735,13 +735,13 @@ lisapathfinder:{name:"LISA Pathfinder", url:"hp:www.esa.int/Our_activities/Space
   ], inst: [
     {n:"", band:"", res:"", d:"", px:"", url:"", desc:"c:;"}
 ]},
-lomonosow:{name:"Lomonosov", url:"hp:lomonosov.sinp.msu.ru/en/", desc:"lv:Soyuz 2.1A/Volga;sc:1.2;x:0;y:20", stat:"o", 
+lomonosow:{name:"Lomonosov", url:"hp:lomonosov.sinp.msu.ru/en/", desc:"lv:Soyuz 2.1A/Volga;sc:1.2;x:0;y:20", stat:"p", 
   parts: [
     {n:"", ctry:"ru", type:"uv,x,g,par", pur:"grb;cr", id:"2016-026A", icon:"lomonosov.png", desc:""}
   ], ev: [
     {pt:"", dt:"2016-04-27", tp:"l", loc:"ter:vos:LC-1C", desc:""},
     {pt:"", dt:"2016-04-27", tp:"sco", loc:"ter:sseo:471x486kmx97.3deg", desc:""},
-    {pt:"", dt:"2021", tp:"nom", loc:"ter:sseo", desc:"pend"}
+    {pt:"", dt:"2018-06-30", tp:"los", loc:"ter:sseo", desc:"eom"}
   ], inst: [
     {n:"BRDG", band:"10..3000keV", res:"3600..10800", d:"", px:"", url:"", desc:"c:nl;cl:nl;"},
     {n:"TUS", band:"300..400nm", res:"", d:"1.4m", px:"", foc:"1.5m", url:"", desc:"c:;cl:ny;"},
@@ -887,6 +887,16 @@ proba3:{name:"Proba-3", url:"hp:www.esa.int/esaMI/Proba/index.html", desc:"ag:es
   ], inst: [
     {n:"", band:"", res:"", d:"", px:"", url:"", desc:"c:;"}
 ]},
+queqiao:{name:"Queqiao", url:"China Spaceflight:www.chinaspaceflight.com/satellite/Deepspace/CE-4/CE-4.html", desc:"ag:cnsa;lv:CZ-4C", stat:"o", 
+  parts: [
+    {n:"", ctry:"cn", type:"r", pur:"", id:"", icon:"chang-e4-relay.png", desc:""}
+  ], ev: [
+    {pt:"", dt:"2018-05-21", tp:"l", loc:"ter:xch:LC-2", desc:""},
+    {pt:"", dt:"2018-06-14", tp:"sco", loc:"lun:eml2:13000km", desc:"Halo orbit"},
+    {pt:"", tp:"nom", dt:"2023-06", loc:"lun", desc:"?"}
+  ], inst: [
+    {n:"NCLE:Netherlands Chinese Low-Frequency Explorer", band:"1..30MHz", res:"", d:"5", px:"", url:"www.astron.nl/r-d-laboratory/ncle/netherlands-china-low-frequency-explorer-ncle", desc:"c:;cl:n;"}
+]},
 radioastron:{name:"Spektr-R", url:"hp:www.asc.rssi.ru/radioastron/index.htm", desc:"ag:rosc;lv:Zenit-3SLBF/Fregat SB;sc:1.4;3850kg", stat:"o", 
   parts: [
     {n:"Спектр-Р;RadioAstron", ctry:"ru", type:"r", pur:"int", id:"2011-037A", icon:"radioastron.png", desc:""}
@@ -975,6 +985,18 @@ smalljasmine:{name:"Small-JASMINE", url:"hp:www.jasmine-galaxy.org/index.html", 
     {pt:"", dt:"", tp:"sco", loc:"", desc:""}
   ], inst: [
     {n:"", band:"", res:"", d:"", px:"", desc:"c:;"}
+]},
+smile:{name:"SMILE:Solar wind Magnetosphere Ionosphere Link Explorer", url:"hp:sci.esa.int/smile", desc:"ag:CAS,esa;lv:", stat:"pl", 
+  parts: [
+    {n:"", ctry:"cn;eu", type:"sol", pur:"", id:"", icon:"smile.png", desc:""}
+  ], ev: [
+    {pt:"", dt:"2021", tp:"l", loc:"ter:kou", desc:""},
+    {pt:"", dt:"", tp:"sco", loc:"ter:heeo:5000x120000kmx90deg", desc:""}
+  ], inst: [
+    {n:"SXI:Soft X-ray Imager", band:"0.2..2.5keV", res:"", d:"", px:"", fov:"15.5x26.5deg", desc:"c:;cl:n;"},
+    {n:"UVI:UltraViolet Imager", band:"160..180nm", res:"", d:"", px:"", fov:"10deg", desc:"c:;cl:n;"},
+    {n:"LIA:Light Ion Analyser", tp:"par", band:"0.2..20keV", tres:"0.5s", d:"", px:"", desc:"c:;"},
+    {n:"MAG:Magnetometer", tp:"mag", band:"", res:"", d:"", px:"", desc:"c:;"}
 ]},
 soho:{name:"SOHO:Solar & Heliospheric Observatory", url:"hp:sohowww.nascom.nasa.gov/;arch:sohowww.nascom.nasa.gov/data/archive/index_ssa.html;esa:www.esa.int/Our_activities/Space_Science/SOHO_overview2", desc:"ag:nasa,esa;lv:Atlas II AS;sc:1;y:26", stat:"o", 
   parts: [
