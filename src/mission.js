@@ -643,15 +643,16 @@ function Mission(id, parid) {
     var s, t, res = [];
     if (_in.events.length < n+1 || !_in.events[n].type) return; 
     s = _in.events[n].type;
-    if (s == "ev") return; 
+    if (s === "ev") return; 
+    t = _in.events[n].loc.split(":");
 
-    if (s.search(/\boi|fb|f|app|ae|imp|edl|td|enc\b/) != -1) {
-      t = _in.events[n].loc.split(":");
+    if (s.search(/\boi|fb|f|app|ae|imp|edl|td|enc\b/) !== -1) {
       if (t[0] != "sol") { res.push(Common.names.find(t[0])); }
       //else if (t[0].length > 2) res.push(Common.names.find(t[1]));
     }
     res.push(Common.names.find(s));
-    
+    res[0].abbr = t[0];
+
     return res;      
   },  
   //Event location {n,l}
@@ -668,6 +669,8 @@ function Mission(id, parid) {
       else { res.push({n:Parse.distance(t[i], p)});  }
     }
     
+    //if (res.length > 0) res[0].abbr = p;
+
     if (_in.events[n].type == "l") {
       s = t[1];
       if (res.length>0) { res[0].id = "lnk"+s; }
@@ -1218,13 +1221,18 @@ function Mission(id, parid) {
     return false;
   };
   
-  this.Height = function() {
+  this.Destinations = function() {
     var i, dest = [];
     for (i=0; i<_data.stats.length; i++) {
       dest.push(_data.stats[i].d1);
       if (_data.stats[i].t.search(/^(hm|srm)$/) != -1) { dest.push("ter"); }
     }
-    dest = dest.unique();
+    return dest.unique();
+  };
+
+  this.Height = function() {
+    var dest;
+    dest = this.Destinations();
     return dest.length * (_step); 
   };
   

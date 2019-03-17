@@ -4,7 +4,7 @@
   <link rel="stylesheet" media="screen" href="../seh.css" type="text/css">
   <style type="text/css">
     body { margin: 12px; }
-    #select { float:right; }
+    #select, #selectd { float:right; margin-left: 12px; }
     #list { white-space: pre-wrap; font-family: monospace; width: 100%; }
     #list  b { font-size: larger; line-height: 1.6; }
   </style>
@@ -15,8 +15,10 @@
   var dat = [], probes = {},
       now = new Date(), 
       yr = now.getFullYear(),
+      dest = 'all',
       start = SSEH.STARTDATE.getFullYear(), 
-      end = SSEH.ENDDATE.getFullYear();
+      end = SSEH.ENDDATE.getFullYear(),
+      allDest = [];
 
 
   function init() {
@@ -26,28 +28,35 @@
   
     for (key in missions) {
       probes[key] = new Mission(key);
+      // fill allDest
+      Array.prototype.push.apply(allDest, probes[key].Destinations());
     };
-
-    document.body.appendChild(select(yr));
+    allDest = allDest.unique();
+    allDest.sort();
+    
+    document.body.appendChild(select());
+    document.body.appendChild(select_dest());
     Create.div(document.body, null, "list")
     
     
-    write(list(yr));
+    write(list());
     
 
   }
 
-  function list(yr) {
+  function list() {
     var dat = [], dt0;
     for (var key in probes) {
+      //if (dest && dest !== 'all' && !probes[key].hasDest(dest)) continue;
       var ev = probes[key].Events();
       for (var i=0; i<ev.length; i++) {
         if (typeof ev[i] === "undefined" || !ev[i].date) continue;
+        if (dest && dest !== 'all' && !hasLoc(ev[i], dest)) continue;
         dt = ev[i].date[0].n.replace(/\u2026.*/, '');
         if (i === 0) dt0 = Parse.dt(dt);
         dt = Parse.dt(dt, dt0);
         if (isNaN(dt)) continue;
-        if (dt && (yr == "all" || dt.getFullYear() == yr)) {
+        if (dt && (yr === "all" || dt.getFullYear() === yr)) {
           var type = "";
           if (ev[i].type) {
             for (var j=0; j<ev[i].type.length; j++)
@@ -101,7 +110,7 @@
     node.innerHTML = s;  
   }
   
-  function select(yr) { 
+  function select() { 
     var node = document.createElement("select");
     node.id = "selectyear";
     
@@ -114,28 +123,28 @@
       var op = document.createElement("option");
       op.value = i;
       op.innerHTML = i;
-      if (yr == i) op.selected = "true";
+      if (yr === i) op.selected = "true";
       node.appendChild(op);
     }
     node.onchange = function() {
       yr = this.value;
-      write(list(yr));
+      write(list());
     }
     var lnode = document.createElement("button");
     lnode.innerHTML = "<";
     lnode.onclick = function() {
-      if (yr == "all" || yr <= start) return;
+      if (yr === "all" || yr <= start) return;
       yr--;
       document.getElementById("selectyear").value = yr;
-      write(list(yr));
+      write(list());
     }
     var rnode = document.createElement("button");
     rnode.innerHTML = ">";
     rnode.onclick = function() {
-      if (yr == "all" || yr >= end) return;
+      if (yr === "all" || yr >= end) return;
       yr++;
       document.getElementById("selectyear").value = yr;
-      write(list(yr));
+      write(list());
     }
 
     var div = document.createElement("div");
@@ -147,6 +156,42 @@
     return div;  
   }
 
+  function select_dest() { 
+    var name, node = document.createElement("select");
+    node.id = "selectdest";
+    
+    var op = document.createElement("option");
+    op.value = "all";
+    op.innerHTML = "All";
+    node.appendChild(op);
+
+    for (var i = 0; i < allDest.length; i++) {
+      name = Common.names.find(allDest[i]);
+      var op = document.createElement("option");
+      op.value = allDest[i];
+      op.innerHTML = name.n;
+      if (dest === allDest[i]) op.selected = "true";
+      node.appendChild(op);
+    }
+    node.onchange = function() {
+      dest = this.value;
+      write(list());
+    }
+    var div = document.createElement("div");
+    div.id = "selectd";
+    div.appendChild(document.createTextNode("Select destination: "));
+    div.appendChild(node);
+    return div;  
+
+  }
+  
+  function hasLoc(ev, dest) {
+    if (!ev.type || ev.type.length < 1) return false;
+    //for (var j=0; j<ev.loc.length; j++) {
+      if (ev.type[0].abbr === dest) return true;
+    //}
+    return false;
+  }
   
   function pad(s, n) { 
     while (s.length < n) s += " "; 
