@@ -283,9 +283,9 @@ apop:
    img:"", desc:"sc:6;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=apophis;orb:ec.2007-10-12"},
 benn:
   {name:"Bennu", other:"1999 RQ36", desig:"101955", type:"a", par:"sol", disc:"LINEAR", dyr:"1999",
-   a:"1.126au", e:"0.204", i:"6.035", per:"1.20a", rot:"4.297h", gr:"nea:Apollo",
-   h:"20.9", mass:"7.8e10kg", dia:"0.5km", rad:"0.25", tilt:"176",
-   alb:"0.03..0.06", grav:"", comp:"CHON+poro:40", dens:"1.26", spec:"B", temp:"<371K",
+   a:"1.126au", e:"0.204", i:"6.035", per:"1.20a", rot:"4.276h", gr:"nea:Apollo",
+   h:"20.9", mass:"7.329e10kg", dia:"0.49km", rad:"0.25", tilt:"176",
+   alb:"0.044", grav:"", comp:"CHON+poro:50", dens:"1.19", spec:"B", temp:"<371K",
    img:"bennu.png", desc:"sc:6;url:solarsystem.nasa.gov/small-bodies/asteroids/101955-bennu/in-depth/;orb:ec.2011-01-01"},
 a2006jf56:
   {name:"APL", other:"2006 JF56", desig:"132524", type:"a", par:"sol", disc:"LINEAR", dyr:"2006",
@@ -297,7 +297,7 @@ ryug:
   {name:"Ryugu", other:"1999 JU3", desig:"162173", type:"a", par:"sol", disc:"LINEAR", dyr:"1999",
    a:"1.19au", e:"0.1903", i:"5.884", per:"1.30a", rot:"7.63h", gr:"nea:Apollo",
    h:"19.3", mass:"4.5e11kg", dia:"1x0.88km", rad:"0.45", tilt:"",
-   alb:"0.02", grav:"", comp:"CHON", dens:"1.2", spec:"C", temp:"",
+   alb:"0.016", grav:"", comp:"CHON", dens:"1.2", spec:"C", temp:"",
    img:"ryugu.png", desc:"sc:6;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=ryugu;orb:ec.2000-01-01"},
 a2002gt:
   {name:"2002 GT", other:"", desig:"163249", type:"a", par:"sol", disc:"Spacewatch", dyr:"2002",
@@ -1642,8 +1642,8 @@ ixi:
 //1994 JR1
 "2014mu69":
   {name:"'Ultima Thule'", other:"2014 MU69", desig:"486958", type:"t", par:"sol", disc:"HST", dyr:"2014",
-   a:"44.23au", e:"0.0378", i:"2.45", per:"297.1a", rot:"15h", gr:"cube",
-   h:"11.1", mass:"", dia:"33km", rad:"16.5", tilt:"", alb:"~0.04", grav:"", 
+   a:"44.23au", e:"0.0378", i:"2.45", per:"297.1a", rot:"16h", gr:"cube",
+   h:"11.1", mass:"", dia:"33km", rad:"16.5", tilt:"98", alb:"~0.04", grav:"", 
    comp:"", dens:"", atm:"", atp:"", temp:"~35K",
    img:"2014mu69.png", col:"", desc:"sc:3;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=2014+MU69;orb:ec.2014-12-09"},
 "2014pn70":

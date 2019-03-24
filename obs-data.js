@@ -1732,7 +1732,7 @@ srg:{name:"Spektr-RG:Spectrum Roentgen Gamma", url:"hp:hea.iki.rssi.ru/SRG/en/in
   parts: [
     {n:"Спектр-РГ", ctry:"ru;de;uk", type:"fuv,sx", pur:"", id:"", icon:"spektr-rg.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2019-04", tp:"l", loc:"ter:bai", desc:""},
+    {pt:"", dt:"2019-06-21", tp:"l", loc:"ter:bai", desc:""},
     {pt:"", dt:"l+3mo", tp:"sco", loc:"sol:esl2", desc:""},
     {pt:"", dt:"l+6.5yr", tp:"eom", loc:"sol:esl2", desc:"pend"}
   ], inst: [
