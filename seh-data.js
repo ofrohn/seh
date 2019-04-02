@@ -1,6 +1,6 @@
 var SSEH = SSEH || {
   TITLE: "Solar System Exploration History",
-  VERSION: "1.6.21",
+  VERSION: "1.6.22",
   DATE: "2018-12 ",
   AUTHOR: "Olaf Frohn",
   CLICK: "Click on anything for more details",
@@ -3426,7 +3426,7 @@ osirisrex: {name:"OSIRIS-REx:Origins-Spectral Interpretation-Resource Identifica
     {pt:"", type:"obs", dt:"2019-09", loc:"ast", desc:"Detailed survey of candidate sample sites"},
     {pt:"", type:"td", dt:"2019-12", loc:"ast", desc:"Sample acquisition rehearsal"},
     {pt:"", type:"td", dt:"2020-07", loc:"ast", desc:"Sample acquisition"},
-    {pt:"", type:"dep", dt:"2021-03", loc:"ast", desc:""},
+    {pt:"", type:"dep", dt:"2021-03-03", loc:"ast", desc:""},
     {pt:"", type:"edl", dt:"2023-09-24", loc:"ter", desc:"src;UTTR, Utah;"}
 ]},
 // --- 2017  
@@ -4301,9 +4301,9 @@ a2006jf56:
    img:"", desc:"sc:6;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=132524;orb:ec.2014-12-09"},
 ryug:
   {name:"Ryugu", other:"1999 JU3", desig:"162173", type:"a", par:"sol", disc:"LINEAR", dyr:"1999",
-   a:"1.19au", e:"0.1903", i:"5.884", per:"1.30a", rot:"7.63h", gr:"nea:Apollo",
-   h:"19.3", mass:"4.5e11kg", dia:"1x0.88km", rad:"0.45", tilt:"",
-   alb:"0.016", grav:"", comp:"CHON", dens:"1.2", spec:"C", temp:"",
+   a:"1.19au", e:"0.1903", i:"5.884", per:"1.30a", rot:"7.633h", gr:"nea:Apollo",
+   h:"19.3", mass:"4.5e11kg", dia:"1.004x0.875km", rad:"0.45", tilt:"171.64",
+   alb:"0.016", grav:"", comp:"CHON+poro:50", dens:"1.19", spec:"C", temp:"",
    img:"ryugu.png", desc:"sc:6;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=ryugu;orb:ec.2000-01-01"},
 a2002gt:
   {name:"2002 GT", other:"", desig:"163249", type:"a", par:"sol", disc:"Spacewatch", dyr:"2002",

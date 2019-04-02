@@ -2778,7 +2778,7 @@ osirisrex: {name:"OSIRIS-REx:Origins-Spectral Interpretation-Resource Identifica
     {pt:"", type:"obs", dt:"2019-09", loc:"ast", desc:"Detailed survey of candidate sample sites"},
     {pt:"", type:"td", dt:"2019-12", loc:"ast", desc:"Sample acquisition rehearsal"},
     {pt:"", type:"td", dt:"2020-07", loc:"ast", desc:"Sample acquisition"},
-    {pt:"", type:"dep", dt:"2021-03", loc:"ast", desc:""},
+    {pt:"", type:"dep", dt:"2021-03-03", loc:"ast", desc:""},
     {pt:"", type:"edl", dt:"2023-09-24", loc:"ter", desc:"src;UTTR, Utah;"}
 ]},
 // --- 2017  
