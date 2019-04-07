@@ -18,8 +18,8 @@ bear: {name:"Medvezhi Ozera:Bear Lakes complex", other:"Медвежьи озё�
 //kalya: {name:"Kalyazin:Kalyazin Radio Astronomy Observatory", other:"Калязин", ctry:"ru", desig:"", desc:"url:;loc:57.2231N,37.9004E;ag:rosc;show:Kalyazin:NE;reg:Tver, Russia;dish:1x64m"},
 udsc: {name:"Usuda DSC:Usuda Deep Space Center", other:"臼田宇宙空間観測所", ctry:"jp", desig:"UDSC", desc:"url:global.jaxa.jp/about/centers/udsc/index.html;loc:36.133056N,138.362222E;ag:jaxa;show:UDSC:S;reg:Nagano, Japan;dish:1x64m"},
 //Uchinoura USC34
-ktsat: {name:"KTSat:KTSat Satellite communication Center", other:"", ctry:"sk", desig:"KTSat", desc:"url:www.kari.re.kr/eng.do;loc:36.1N,127.5E;ag:kari;show:KTSat:NE;reg:Keumsan, South Korea;dish:1x27.7m"}
-};
+//ktsat: {name:"KTSat:KTSat Satellite communication Center", other:"", ctry:"sk", desig:"KTSat", desc:"url:www.kari.re.kr/eng.do;loc:36.1N,127.5E;ag:kari;show:KTSat:NE;reg:Keumsan, South Korea;dish:1x27.7m"},
+dsa4: {name:"Weilheim:Weilheim Deep Space Antenna", ctry:"eu;de", desig:"", desc:"url:www.dlr.de/rb/desktopdefault.aspx/tabid-6856/4253_read-6299/;loc:47.881159N,11.078194E;ag:esa;show:Weilheim:S;reg:Oberbayern, Germaby;dish:1x30m"},};
     
   
 Common.ctrl = {
