@@ -3556,15 +3556,14 @@ chandrayaan2: {name:"Chandrayaan 2:Moon Craft 2", desc:"lv:GSLV MkIII",
 ]},
 spaceil: {name:"Beresheet", desc:"lv:Falcon 9",
   parts:[
-    {names:"בְּרֵאשִׁית‬", type:"slm", dest:"lun", stat:"o", ctry:"il", desc:"ag:SpaceIL;m:585kg;dim:2.29x2.29x1.54m;sc:0.3", id:"2019-009B", url:"hp:beresheet.space;SpaceIL:www.spaceil.com/", icon:"spaceil.png"}
+    {names:"בְּרֵאשִׁית‬", type:"slm", dest:"lun", stat:"p", ctry:"il", desc:"ag:SpaceIL;m:585kg;m0:160kg;dim:2.29x2.29x1.54m;sc:0.3", id:"2019-009B", url:"hp:beresheet.space;SpaceIL:www.spaceil.com/", icon:"spaceil.png"}
   ], 
   events:[
     {pt:"", type:"l", dt:"2019-02-22", loc:"ter:cap", desc:""},
     {pt:"", type:"toi", dt:"2019-02-22", loc:"ter:heeo:242x68845kmx27.6deg", desc:"Phasing loops"},
     {pt:"", type:"oi", dt:"2019-04-04", loc:"lun:10000x500km", desc:""},
     {pt:"", type:"sco", dt:"2019-04-10", loc:"lun:10x15km", desc:""},
-    {pt:"", type:"td", dt:"2019-04-11", loc:"lun:33N,17.5E", desc:"Mare Serenitatis"},
-    {pt:"", type:"nom", dt:"2019-04-14", loc:"lun", desc:"?"}
+    {pt:"", type:"imp", dt:"2019-04-11", loc:"lun:33N,17.5E", desc:"Mare Serenitatis;fail:Main Engine;eom"}
 ]},
 change5: {name:"Chang'e 5", desc:"lv:CZ-5",
   parts:[
@@ -5588,7 +5587,7 @@ sed:
 "2007or10":
   {name:"2007 OR10", other:"'Snowwhite'", desig:"225088", type:"t", par:"sol", disc:"M.E. Schwamb al.", dyr:"2007",
    a:"66.84au", e:"0.505", i:"30.91", per:"550.98a", rot:"44.81h", gr:"sdo",
-   h:"2.5", mass:"3.76e21kg", dia:"1535km", rad:"750", tilt:"", alb:"0.089", grav:"", 
+   h:"2.5", mass:"3.76e21kg", dia:"1250km", rad:"625", tilt:"", alb:"0.089", grav:"", 
    comp:"", dens:"1.6", atm:"", atp:"", temp:"~42K",
    img:"2007or10.png", col:"", desc:"sc:3;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=225088;orb:ec.2014-01-13"},
 "s20162250881":
@@ -6193,8 +6192,8 @@ add: spec. impulse, manufact.
 //Falcon 9
 "Falcon 9": {ctry:"us", m:"506000", pm:"13150/4850/2473",  d:"69.2x3.65", pf:"13.1x5.2", dt:"2010-06-04..", st:"2", th:"5886", fam:"Falcon", desc:"l:cap,van;ag:spx", fuel:"KeroLOX", icon:"falcon-9v11.png"},
 "Falcon 9 v1.1": {syn:"Falcon 9"},
-"Falcon 9 v1.2": {ctry:"us", m:"549100", pm:"22800/8300/4020",  d:"70x3.65", pf:"13.1x5.2", dt:"2015-12-21..", st:"2", th:"7607", fam:"Falcon", desc:"l:cap,van;ag:spx", fuel:"KeroLOX+SRP", icon:"falcon-9v12.png"},
-"Falcon Heavy": {ctry:"us", m:"1420800", pm:"63800/26700/16800",  d:"70.0x3.65", pf:"15.0x5.2", dt:"2018-02-06..", st:"2/2", th:"22819", fam:"Falcon", desc:"l:cap,van;ag:spx", fuel:"KeroLOX+SRP", icon:"falcon-h.png"},
+"Falcon 9 v1.2": {ctry:"us", m:"549100", pm:"22800/8300/4020",  d:"70x3.65", pf:"13.1x5.2", dt:"2015-12-21..", st:"2", th:"7686", fam:"Falcon", desc:"l:cap,van;ag:spx", fuel:"KeroLOX+SRP", icon:"falcon-9v12.png"},
+"Falcon Heavy": {ctry:"us", m:"1420800", pm:"63800/26700/16800",  d:"70.0x3.65", pf:"15.0x5.2", dt:"2018-02-06..", st:"2/2", th:"2358", fam:"Falcon", desc:"l:cap,van;ag:spx", fuel:"KeroLOX+SRP", icon:"falcon-h.png"},
 //GSLV 2
 "GSLV MkII": {n:"Geosynchronous Satellite Launch Vehicle Mk. II", alt:"भूस्थिर उपग्रह प्रक्षेपण यान", ctry:"ind", m:"402000", pm:"5000/2500/1300",  d:"49x2.8", pf:"", dt:"2010-04-15..", st:"2/4", ust:" CUS12", th:"7420", fam:"GSLV", desc:"l:sri;ag:isro", fuel:"SRP+UDMH/N2O4", icon:"gslv-mk2.png"},
 "GSLV MkIII": {n:"Geosynchronous Satellite Launch Vehicle Mk. III", alt:"भूस्थिर उपग्रह प्रक्षेपण यान-३", ctry:"ind", m:"630000", pm:"10000/4000/2300",  d:"42.4x4", pf:"4.5", dt:"2014-12..", st:"2/2", ust:"C-25", th:"11300", fam:"GSLV", desc:"l:sri;ag:isro", fuel:"UDMH/N2O4+SRP", icon:"gslv-mk3.png"},

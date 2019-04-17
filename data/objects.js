@@ -1582,7 +1582,7 @@ sed:
 "2007or10":
   {name:"2007 OR10", other:"'Snowwhite'", desig:"225088", type:"t", par:"sol", disc:"M.E. Schwamb al.", dyr:"2007",
    a:"66.84au", e:"0.505", i:"30.91", per:"550.98a", rot:"44.81h", gr:"sdo",
-   h:"2.5", mass:"3.76e21kg", dia:"1535km", rad:"750", tilt:"", alb:"0.089", grav:"", 
+   h:"2.5", mass:"3.76e21kg", dia:"1250km", rad:"625", tilt:"", alb:"0.089", grav:"", 
    comp:"", dens:"1.6", atm:"", atp:"", temp:"~42K",
    img:"2007or10.png", col:"", desc:"sc:3;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=225088;orb:ec.2014-01-13"},
 "s20162250881":

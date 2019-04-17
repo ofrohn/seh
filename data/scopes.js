@@ -1343,7 +1343,7 @@ eelt: {name:"EELT:European Extremely Large Telescope", url:"www.eso.org/public/t
 emt: {name:"EHT:Event Horizon Telescope", url:"eventhorizontelescope.org/index.html", desc:"", stat:"g",
   parts: [{n:"", ctry:"", type:"mw", icon:"", desc:""}],
   ev: [{pt:"", dt:"", tp:"l", loc:"ter", desc:""}
-  ], inst: [{n:"", band:"2.3e+11..3.45e+11", res:"23e-6..16e-6", desc:"c:nv;"}
+  ], inst: [{n:"", band:"2.3e+11..3.45e+11", res:"2.3e-7..1.6e-7", desc:"c:nv;"}
 ]},
 evla: {name:"EVLA:Expanded Very Large Array", url:"www.vla.nrao.edu/", desc:"sc:2;x:26;y:0", stat:"g",
   parts: [{n:"", ctry:"", type:"r", icon:"vla.png", desc:""}],

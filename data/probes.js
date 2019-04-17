@@ -2908,15 +2908,14 @@ chandrayaan2: {name:"Chandrayaan 2:Moon Craft 2", desc:"lv:GSLV MkIII",
 ]},
 spaceil: {name:"Beresheet", desc:"lv:Falcon 9",
   parts:[
-    {names:"בְּרֵאשִׁית‬", type:"slm", dest:"lun", stat:"o", ctry:"il", desc:"ag:SpaceIL;m:585kg;dim:2.29x2.29x1.54m;sc:0.3", id:"2019-009B", url:"hp:beresheet.space;SpaceIL:www.spaceil.com/", icon:"spaceil.png"}
+    {names:"בְּרֵאשִׁית‬", type:"slm", dest:"lun", stat:"p", ctry:"il", desc:"ag:SpaceIL;m:585kg;m0:160kg;dim:2.29x2.29x1.54m;sc:0.3", id:"2019-009B", url:"hp:beresheet.space;SpaceIL:www.spaceil.com/", icon:"spaceil.png"}
   ], 
   events:[
     {pt:"", type:"l", dt:"2019-02-22", loc:"ter:cap", desc:""},
     {pt:"", type:"toi", dt:"2019-02-22", loc:"ter:heeo:242x68845kmx27.6deg", desc:"Phasing loops"},
     {pt:"", type:"oi", dt:"2019-04-04", loc:"lun:10000x500km", desc:""},
     {pt:"", type:"sco", dt:"2019-04-10", loc:"lun:10x15km", desc:""},
-    {pt:"", type:"td", dt:"2019-04-11", loc:"lun:33N,17.5E", desc:"Mare Serenitatis"},
-    {pt:"", type:"nom", dt:"2019-04-14", loc:"lun", desc:"?"}
+    {pt:"", type:"imp", dt:"2019-04-11", loc:"lun:33N,17.5E", desc:"Mare Serenitatis;fail:Main Engine;eom"}
 ]},
 change5: {name:"Chang'e 5", desc:"lv:CZ-5",
   parts:[
@@ -3145,13 +3144,13 @@ lucy: {name:"Lucy", desc:"lv:Atlas V 401",
     {pt:"", type:"fb", dt:"2033-03", loc:"ast", desc:"ast:617 Patroclus/Menoetius"},  
     {pt:"", type:"nom", dt:"2033-03", loc:"sol:ho", desc:"?"}
 ]},
-dart: {name:"DART:Double Asteroid Redirection Test", desc:"lv:Minotaur V",
+dart: {name:"DART:Double Asteroid Redirection Test", desc:"lv:Falcon 9",
   parts:[
     {names:"", type:"im", dest:"ast", stat:"pl", ctry:"us", desc:"ag:nasa,apl;m:640kg;sc:0.7", id:"", url:"hp:dart.jhuapl.edu/;nasa:www.nasa.gov/planetarydefense/dart", icon:"dart.png"},
     {names:"Selfie-Sat", type:"fbm", dest:"ast", stat:"pl", ctry:"us", desc:"ag:nasa,apl;fam:;sc:0.4", id:"", url:"", icon:"selfiesat.png"}
   ], events:[
-    {pt:"", type:"l", dt:"2021-01", loc:"ter:cap", desc:""},
-    {pt:"", type:"oi", dt:"2021-01", loc:"sol:ho", desc:""},
+    {pt:"", type:"l", dt:"2021-06", loc:"ter:van:SLC-4E", desc:""},
+    {pt:"", type:"oi", dt:"2021-06", loc:"sol:ho", desc:""},
     {pt:"", type:"fb", dt:"2022-03", loc:"ast", desc:"ast:2001 CB21;?"},
     {pt:"", type:"fb", dt:"2022-10", loc:"ast", desc:"ast:didy"},
     {pt:"0", type:"imp", dt:"2022-10", loc:"ast", desc:"ip"},
