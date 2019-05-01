@@ -1551,13 +1551,13 @@ queqiao:{name:"Queqiao", url:"China Spaceflight:www.chinaspaceflight.com/satelli
   ], inst: [
     {n:"NCLE:Netherlands Chinese Low-Frequency Explorer", band:"1..30MHz", res:"", d:"5", px:"", url:"www.astron.nl/r-d-laboratory/ncle/netherlands-china-low-frequency-explorer-ncle", desc:"c:;cl:n;"}
 ]},
-radioastron:{name:"Spektr-R", url:"hp:www.asc.rssi.ru/radioastron/index.htm", desc:"ag:rosc;lv:Zenit-3SLBF/Fregat SB;sc:1.4;3850kg", stat:"o", 
+radioastron:{name:"Spektr-R", url:"hp:www.asc.rssi.ru/radioastron/index.htm", desc:"ag:rosc;lv:Zenit-3SLBF/Fregat SB;sc:1.4;3850kg", stat:"s", 
   parts: [
     {n:"Спектр-Р;RadioAstron", ctry:"ru", type:"r", pur:"int", id:"2011-037A", icon:"radioastron.png", desc:""}
   ], ev: [
     {pt:"", dt:"2011-07-18", tp:"l", loc:"ter:bai:LC-45/1", desc:""},
     {pt:"", dt:"2011-07-25", tp:"sco", loc:"ter:heeo:1248x334727kmx51.8deg", desc:""},
-    //{pt:"", dt:"2019-01-11", tp:"los", loc:"ter:heeo", desc:"eom"}
+    {pt:"", dt:"2019-01-11", tp:"los", loc:"ter:heeo", desc:"eom"}
   ], inst: [
     {n:"CRT", band:"3.24E+08..2.5132e10", res:"21960..300", d:10, px:60, w:4e6, desc:"c:nv;"},
     {n:"SVLBI", band:"3.24E+08..2.1750E+10", res:"5.3e-4..7e-6", desc:"c:niv;cl:x;"}
@@ -1787,19 +1787,19 @@ suzaku:{name:"Suzaku", url:"hp:www.astro.isas.ac.jp/suzaku/", desc:"ag:jaxa;lv:M
     {n:"XIS", band:"4.84E+16..2.90E+18", res:"108", desc:"c:nl;cl:nl;"},
     {n:"HXD", band:"2.42E+18..1.45E+20", res:"16200..1800", desc:"c:nl;"}
 ]},
-svom:{name:"SVOM:Space-based multi-band astronomical Variable Objects Monitor", url:"hp:www.svom.fr/svom.html;cnes:smsc.cnes.fr/SVOM/index.htm;tw:twitter.com/SVOM_mission", desc:"ag:cnsa,cnes;lv:CZ-2D;y:20;x:10;m:950kg", stat:"pl", 
+svom:{name:"SVOM:Space-based multi-band astronomical Variable Objects Monitor", url:"hp:www.svom.fr/en;cnes:smsc.cnes.fr/SVOM/index.htm;tw:twitter.com/SVOM_mission", desc:"ag:cnsa,cnes;lv:CZ-2D;y:20;x:10;m:950kg", stat:"pl", 
   parts: [
     {n:"", ctry:"cn;fr", type:"gam;x;opt", pur:"mon", id:"", icon:"svom.png", desc:""}
   ], ev: [
     {pt:"", dt:"2021", tp:"l", loc:"ter:jiu", desc:""},
-    {pt:"", dt:"2021ffffff", tp:"sco", loc:"ter:leo:600kmx30deg", desc:""},
+    {pt:"", dt:"2021", tp:"sco", loc:"ter:leo:650kmx30deg", desc:""},
     {pt:"", dt:"2025", tp:"nom", loc:"", desc:""},
     {pt:"", dt:"2026", tp:"pom", loc:"", desc:""}
   ], inst: [
     {n:"GRM:Gamma-Ray Monitor", band:"50..5000keV", res:"", ea:"0.056", url:"", desc:"c:nr;cl:nl;"},
-    {n:"MXT:Microchannel X-ray Telescope", band:"0.3..7keV", res:"120", fov:"1.1deg", ea:"0.005@1keV", url:"", desc:"c:nr;cl:ny;"},
+    {n:"MXT:Microchannel X-ray Telescope", band:"0.3..7keV", res:"120", fov:"57'", ea:"0.005@1keV", url:"", desc:"c:nr;cl:ny;"},
     {n:"ECLAIRs", band:"4..250keV", res:"600", fov:"80x80deg", ea:"0.1024", url:"", desc:"c:nt;"},
-    {n:"VT:Visible Telescope", band:"400..950nm", res:"", d:0.45, px:0.5, fov:"21x21'", url:"", desc:"c:nt;"}
+    {n:"VT:Visible Telescope", band:"400..950nm", res:"", d:0.45, px:0.77, fov:"21x21'", url:"", desc:"c:nt;"}
 ]},
 swas:{name:"SWAS:Submillimeter Wave Astronomy Satellite", url:"hp:www.cfa.harvard.edu/swas/", desc:"ag:nasa;lv:Pegasus XL;fam:smex", stat:"s", 
   parts: [
@@ -2168,9 +2168,9 @@ add: spec. impulse, manufact.
 //Epsilon
 "Epsilon-2": {ctry:"jp", m:"96100", pm:"1500/-/500",  d:"26.0x2.5", pf:"", dt:"2016-12-20..", st:"3", ust:"CLPS", th:"2271", fam:"Epsilon", desc:"l:uch;ag:jaxa", fuel:"SRP", icon:"epsilon2.png"},
 //Falcon 9
-"Falcon 9": {ctry:"us", m:"506000", pm:"13150/4850/2473",  d:"69.2x3.65", pf:"13.1x5.2", dt:"2010-06-04..", st:"2", th:"5886", fam:"Falcon", desc:"l:cap,van;ag:spx", fuel:"KeroLOX", icon:"falcon-9v11.png"},
-"Falcon 9 v1.1": {syn:"Falcon 9"},
+"Falcon 9 v1.1": {ctry:"us", m:"506000", pm:"13150/4850/2473",  d:"69.2x3.65", pf:"13.1x5.2", dt:"2010-06-04..", st:"2", th:"5886", fam:"Falcon", desc:"l:cap,van;ag:spx", fuel:"KeroLOX", icon:"falcon-9v11.png"},
 "Falcon 9 v1.2": {ctry:"us", m:"549100", pm:"22800/8300/4020",  d:"70x3.65", pf:"13.1x5.2", dt:"2015-12-21..", st:"2", th:"7686", fam:"Falcon", desc:"l:cap,van;ag:spx", fuel:"KeroLOX+SRP", icon:"falcon-9v12.png"},
+"Falcon 9": {syn:"Falcon 9 v1.2"},
 "Falcon Heavy": {ctry:"us", m:"1420800", pm:"63800/26700/16800",  d:"70.0x3.65", pf:"15.0x5.2", dt:"2018-02-06..", st:"2/2", th:"2358", fam:"Falcon", desc:"l:cap,van;ag:spx", fuel:"KeroLOX+SRP", icon:"falcon-h.png"},
 //GSLV 2
 "GSLV MkII": {n:"Geosynchronous Satellite Launch Vehicle Mk. II", alt:"भूस्थिर उपग्रह प्रक्षेपण यान", ctry:"ind", m:"402000", pm:"5000/2500/1300",  d:"49x2.8", pf:"", dt:"2010-04-15..", st:"2/4", ust:" CUS12", th:"7420", fam:"GSLV", desc:"l:sri;ag:isro", fuel:"SRP+UDMH/N2O4", icon:"gslv-mk2.png"},

@@ -2708,7 +2708,7 @@ var Sobs = new function() {
 
 function Diag(type, params) {
   var xrange = {lo:1e6, hi:3e26, off:6, r:20}, 
-      yrange = {lo:5e-7, hi:5e5, off:6.5, r:12.5},
+      yrange = {lo:5e-8, hi:5e5, off:7.5, r:12.5},
       bevel = {x:160, y:54},
       ypos = SOBS.LEGEND, 
       expfont =  "14px 'Trebuchet MS'", 
@@ -2834,7 +2834,7 @@ function Diag(type, params) {
     x0 = l;
     c.line(x0, y0, x0, y1, col, 1);
     
-    for (i=-6; i<6; i++) {
+    for (i=-7; i<6; i++) {
       c.hline(x0, yscale("1e"+i), 5*oline, col, 1);
       c.number("1e"+i, x0+(7*oline), yscale("1e"+i)+6, scalefont, otext);      
     }

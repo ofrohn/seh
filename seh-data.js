@@ -3534,8 +3534,8 @@ change4: {name:"Chang'e 4", desc:"lv:CZ-3B/G3Z",
     {pt:"", type:"sco", dt:"2018-12-30", loc:"lun:100x15kmx90deg", desc:""},
     {pt:"", type:"td", dt:"2019-01-03", loc:"lun:45.471S,177.606E", desc:"Statio Tianhe, Von Karman crater, SPA;show:CE4:NW"},
     {pt:"", type:"sep", dt:"2019-01-03", loc:"lun", desc:"lp/rvp"}, 
-    {pt:"1", type:"ex", dt:"", loc:"lun", desc:"rvp;rv:127m"},    
-    {pt:"1", type:"nom", dt:"2019-04", loc:"lun", desc:"rvp;?;eom:rvm"},
+    {pt:"1", type:"ex", dt:"", loc:"lun", desc:"rvp;rv:180m"},    
+    {pt:"1", type:"nom", dt:"2019-05", loc:"lun", desc:"rvp;?;eom:rvm"},
     {pt:"0", type:"nom", dt:"2019-12", loc:"lun", desc:"lp;?"}
 ]},
 // --- 2019
@@ -3760,7 +3760,7 @@ change6: {name:"Chang'e 6", desc:"lv:CZ-5",
   parts:[
     {names:"嫦娥六号", type:"srm", dest:"lun", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:clep;m:7800kg;sc:0.4;w:0.67", id:"", url:"", icon:"chang-e5.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2021", loc:"ter:wen:LC-101", desc:""},
+    {pt:"", type:"l", dt:"2023", loc:"ter:wen:LC-101", desc:""},
     {pt:"", type:"toi", dt:"l+1hr", loc:"ter:lto", desc:""},
     {pt:"", type:"oi", dt:"l+5dy", loc:"lun:200km", desc:""},
     {pt:"", type:"sep", dt:"l+?dy", loc:"lun", desc:"op/lp"},
@@ -3792,13 +3792,13 @@ lucy: {name:"Lucy", desc:"lv:Atlas V 401",
     {pt:"", type:"fb", dt:"2033-03", loc:"ast", desc:"ast:617 Patroclus/Menoetius"},  
     {pt:"", type:"nom", dt:"2033-03", loc:"sol:ho", desc:"?"}
 ]},
-dart: {name:"DART:Double Asteroid Redirection Test", desc:"lv:Minotaur V",
+dart: {name:"DART:Double Asteroid Redirection Test", desc:"lv:Falcon 9",
   parts:[
     {names:"", type:"im", dest:"ast", stat:"pl", ctry:"us", desc:"ag:nasa,apl;m:640kg;sc:0.7", id:"", url:"hp:dart.jhuapl.edu/;nasa:www.nasa.gov/planetarydefense/dart", icon:"dart.png"},
     {names:"Selfie-Sat", type:"fbm", dest:"ast", stat:"pl", ctry:"us", desc:"ag:nasa,apl;fam:;sc:0.4", id:"", url:"", icon:"selfiesat.png"}
   ], events:[
-    {pt:"", type:"l", dt:"2021-01", loc:"ter:cap", desc:""},
-    {pt:"", type:"oi", dt:"2021-01", loc:"sol:ho", desc:""},
+    {pt:"", type:"l", dt:"2021-06", loc:"ter:van:SLC-4E", desc:""},
+    {pt:"", type:"oi", dt:"2021-06", loc:"sol:ho", desc:""},
     {pt:"", type:"fb", dt:"2022-03", loc:"ast", desc:"ast:2001 CB21;?"},
     {pt:"", type:"fb", dt:"2022-10", loc:"ast", desc:"ast:didy"},
     {pt:"0", type:"imp", dt:"2022-10", loc:"ast", desc:"ip"},
@@ -3935,7 +3935,7 @@ change8: {name:"Chang'e 8", desc:"lv:CZ-5",
     {names:"嫦娥 8", type:"slm", dest:"lun", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:clep;m:7800kg;sc:0.3;w:0.67", id:"", url:"", icon:"chang-e7.png"},
     {names:"{Chang'e 8 Orbiter}", type:"om", dest:"lun", stat:"pl", ctry:"cn", desc:"", icon:""}],
   events:[
-    {pt:"", type:"l", dt:"2026", loc:"ter:wen:LC-101", desc:""},
+    {pt:"", type:"l", dt:"2027", loc:"ter:wen:LC-101", desc:""},
     {pt:"", type:"toi", dt:"l+1hr", loc:"ter:lto", desc:""},
     {pt:"", type:"oi", dt:"l+5dy", loc:"lun:200km", desc:""},
     {pt:"0", type:"td", dt:"l+?dy", loc:"lun", desc:"SP Aitken Basin"},
@@ -3943,18 +3943,21 @@ change8: {name:"Chang'e 8", desc:"lv:CZ-5",
     {pt:"0", type:"nom", dt:"l+1yr", loc:"lun", desc:"lp;?"},
     {pt:"1", type:"nom", dt:"l+2yr", loc:"lun", desc:"op;?"}
 ]},
-cnast2024: {name:"Near-Earth Asteroid Sample Return", desc:"lv:CZ-5",  
+cnast2024: {name:"Zheng He", desc:"lv:CZ-3B",  
   parts:[
-    {names:"", type:"fbm", dest:"ast", stat:"pl", ctry:"cn", desc:"ag:cnsa;sc:0.6", id:"", url:"", icon:"cnast.png"},
-    {names:"", type:"srm", dest:"ast", stat:"pl", ctry:"cn", desc:"ag:cnsa", id:"", url:"", icon:""}], 
+    {names:" 鄭和;Near-Earth Asteroid Sample Return", type:"srm", dest:"ast", stat:"pl", ctry:"cn", desc:"ag:cnsa;sc:0.6", id:"", url:"", icon:"cnast.png"},
+    {names:"", type:"om", dest:"com", stat:"pl", ctry:"cn", desc:"ag:cnsa", id:"", url:"", icon:""}], 
   events:[
-    {pt:"", type:"l", dt:"2024", loc:"ter:wen", desc:""},
-    {pt:"", type:"toi", dt:"2024", loc:"sol:ho", desc:""},
-    {pt:"", type:"fb", dt:"2024-08", loc:"ast", desc:"ast:1996 FG3"},
-    {pt:"", type:"fb", dt:"2025", loc:"ast", desc:"ast:2002 EX11;eom:fbm"},
-    {pt:"", type:"app", dt:"2028", loc:"ast", desc:"ast:99942 Apophis"},
-    {pt:"", type:"td", dt:"2028", loc:"ast", desc:""},
-    {pt:"", type:"edl", dt:"2030", loc:"ter", desc:""}
+    {pt:"", type:"l", dt:"2022", loc:"ter:wen", desc:""},
+    {pt:"", type:"toi", dt:"2022", loc:"sol:ho", desc:""},
+    {pt:"", type:"app", dt:"2023", loc:"ast", desc:"ast:2016 HO3"},
+    {pt:"", type:"dep", dt:"2024", loc:"ast", desc:"ast:2016 HO3"},
+    {pt:"0", type:"edl", dt:"2024", loc:"ter", desc:"eom:srm"},
+    {pt:"1", type:"fb", dt:"2024", loc:"ter", desc:"ga"},
+    {pt:"1", type:"fb", dt:"2025", loc:"mar", desc:"ga"},
+    {pt:"1", type:"app", dt:"2030", loc:"com", desc:"com:133P/Elst-Pizarro"},
+    {pt:"1", type:"nom", dt:"2031", loc:"com", desc:""},
+    {pt:"1", type:"pom", dt:"2033", loc:"com", desc:""}
 ]},
 mmx: {name:"MMX:Martian Moons eXploration", desc:"lv:H-III",
   parts:[
@@ -4334,6 +4337,13 @@ a1991vg:
    h:"28.3", mass:"", dia:"0.007km", rad:"0.0035", tilt:"",
    alb:"", grav:"", comp:"", dens:"", spec:"", temp:"",
    img:"", desc:"sc:6;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=1991+VG;orb:ec.2017-09-04"},
+//2016 HO3
+kamo:
+  {name:"Kamo`oalewa", other:"2016 HO3", desig:"469219", type:"a", par:"sol", disc:"Pan-STARRS", dyr:"2016",
+   a:"1.0011au", e:"0.1036", i:"7.781", per:"1.00a", rot:"0.467h", gr:"nea:Apollo",
+   h:"24.2", mass:"", dia:"0.041km", rad:"0.02", tilt:"",
+   alb:"0.2", grav:"", comp:"", dens:"", spec:"", temp:"",
+   img:"", desc:"sc:6;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=469219;orb:ec.2019-04-27"},
 //Jupiter system
 jup:
   {name:"Jupiter", other:"", desig:"f", type:"p", par:"sol", disc:"(Prehistoric)", dyr:"",
@@ -5748,6 +5758,13 @@ sids:
    h:"8.2", mass:"", dia:"~2km", rad:"~1", tilt:"",
    alb:"", grav:"", comp:"", dens:"", temp:"",
    img:"", desc:"sc:6;url:solarsystem.nasa.gov/small-bodies/comets/c-2013-a1-siding-spring/in-depth/;orb:ec.2014-10-30"},
+//133P/Elst-Pizarro
+"elst":
+  {name:"Elst-Pizarro", other:"7968", desig:"133P", type:"c", par:"sol", disc:"EW. Elst, G. Pizarro", dyr:"1996",
+   a:"3.16au", e:"0.1606", i:"1.387", per:"5.62a", rot:"3.471h", gr:"Main Belt",
+   h:"15.7", mass:"", dia:"3.8km", rad:"1.9", tilt:"", alb:"0.06", grav:"", 
+   comp:"", dens:"", atm:"", atp:"", temp:"160K",
+   img:"", col:"", desc:"sc:3;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=7968;orb:ec.2016-01-13"},
 //Jupiter Rings
 halo:
   {name:"Halo", other:"1979 J1R", desig:"", type:"r", par:"jup", disc:"Voyager", dyr:"1979",
@@ -6190,9 +6207,9 @@ add: spec. impulse, manufact.
 //Epsilon
 "Epsilon-2": {ctry:"jp", m:"96100", pm:"1500/-/500",  d:"26.0x2.5", pf:"", dt:"2016-12-20..", st:"3", ust:"CLPS", th:"2271", fam:"Epsilon", desc:"l:uch;ag:jaxa", fuel:"SRP", icon:"epsilon2.png"},
 //Falcon 9
-"Falcon 9": {ctry:"us", m:"506000", pm:"13150/4850/2473",  d:"69.2x3.65", pf:"13.1x5.2", dt:"2010-06-04..", st:"2", th:"5886", fam:"Falcon", desc:"l:cap,van;ag:spx", fuel:"KeroLOX", icon:"falcon-9v11.png"},
-"Falcon 9 v1.1": {syn:"Falcon 9"},
+"Falcon 9 v1.1": {ctry:"us", m:"506000", pm:"13150/4850/2473",  d:"69.2x3.65", pf:"13.1x5.2", dt:"2010-06-04..", st:"2", th:"5886", fam:"Falcon", desc:"l:cap,van;ag:spx", fuel:"KeroLOX", icon:"falcon-9v11.png"},
 "Falcon 9 v1.2": {ctry:"us", m:"549100", pm:"22800/8300/4020",  d:"70x3.65", pf:"13.1x5.2", dt:"2015-12-21..", st:"2", th:"7686", fam:"Falcon", desc:"l:cap,van;ag:spx", fuel:"KeroLOX+SRP", icon:"falcon-9v12.png"},
+"Falcon 9": {syn:"Falcon 9 v1.2"},
 "Falcon Heavy": {ctry:"us", m:"1420800", pm:"63800/26700/16800",  d:"70.0x3.65", pf:"15.0x5.2", dt:"2018-02-06..", st:"2/2", th:"2358", fam:"Falcon", desc:"l:cap,van;ag:spx", fuel:"KeroLOX+SRP", icon:"falcon-h.png"},
 //GSLV 2
 "GSLV MkII": {n:"Geosynchronous Satellite Launch Vehicle Mk. II", alt:"भूस्थिर उपग्रह प्रक्षेपण यान", ctry:"ind", m:"402000", pm:"5000/2500/1300",  d:"49x2.8", pf:"", dt:"2010-04-15..", st:"2/4", ust:" CUS12", th:"7420", fam:"GSLV", desc:"l:sri;ag:isro", fuel:"SRP+UDMH/N2O4", icon:"gslv-mk2.png"},
@@ -6326,7 +6343,7 @@ Common.lpad = [
 {n:"LC-7", par:"tai", lv:"CZ-2C;CZ-4A/B/C", loc:"38.849N,111.608E"},  
 {n:"LC-9", par:"tai", lv:"CZ-2C;CZ-4B/C", loc:"38.863N,111.590E"},  
 {n:"LC-12", par:"cap", lv:"Atlas Able;Atlas Agena", loc:"28.481N,80.542W"},
-{n:"LC-13", par:"cap", lv:"Atlas Able;Atlas Agena;Falcon 9R Landing Pad", loc:"28.486N,80.544W"},
+{n:"LC-13", par:"cap", lv:"Atlas Able;Atlas Agena;Falcon 9 LZ-1/LC-2", loc:"28.486N,80.544W"},
 {n:"LC-16", par:"tai", lv:"CZ-6", loc:"38.8682N,111.5802E"},  
 {n:"LC-16/2", par:"ple", lv:"R-7;Molniya;Soyuz", loc:"62.960N,40.683E"},
 {n:"LC-17A", par:"cap", lv:"Delta;Delta II", loc:"28.446N,80.566W"},

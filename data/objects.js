@@ -329,6 +329,13 @@ a1991vg:
    h:"28.3", mass:"", dia:"0.007km", rad:"0.0035", tilt:"",
    alb:"", grav:"", comp:"", dens:"", spec:"", temp:"",
    img:"", desc:"sc:6;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=1991+VG;orb:ec.2017-09-04"},
+//2016 HO3
+kamo:
+  {name:"Kamo`oalewa", other:"2016 HO3", desig:"469219", type:"a", par:"sol", disc:"Pan-STARRS", dyr:"2016",
+   a:"1.0011au", e:"0.1036", i:"7.781", per:"1.00a", rot:"0.467h", gr:"nea:Apollo",
+   h:"24.2", mass:"", dia:"0.041km", rad:"0.02", tilt:"",
+   alb:"0.2", grav:"", comp:"", dens:"", spec:"", temp:"",
+   img:"", desc:"sc:6;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=469219;orb:ec.2019-04-27"},
 //Jupiter system
 jup:
   {name:"Jupiter", other:"", desig:"f", type:"p", par:"sol", disc:"(Prehistoric)", dyr:"",
@@ -1743,6 +1750,13 @@ sids:
    h:"8.2", mass:"", dia:"~2km", rad:"~1", tilt:"",
    alb:"", grav:"", comp:"", dens:"", temp:"",
    img:"", desc:"sc:6;url:solarsystem.nasa.gov/small-bodies/comets/c-2013-a1-siding-spring/in-depth/;orb:ec.2014-10-30"},
+//133P/Elst-Pizarro
+"elst":
+  {name:"Elst-Pizarro", other:"7968", desig:"133P", type:"c", par:"sol", disc:"EW. Elst, G. Pizarro", dyr:"1996",
+   a:"3.16au", e:"0.1606", i:"1.387", per:"5.62a", rot:"3.471h", gr:"Main Belt",
+   h:"15.7", mass:"", dia:"3.8km", rad:"1.9", tilt:"", alb:"0.06", grav:"", 
+   comp:"", dens:"", atm:"", atp:"", temp:"160K",
+   img:"", col:"", desc:"sc:3;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=7968;orb:ec.2016-01-13"},
 //Jupiter Rings
 halo:
   {name:"Halo", other:"1979 J1R", desig:"", type:"r", par:"jup", disc:"Voyager", dyr:"1979",

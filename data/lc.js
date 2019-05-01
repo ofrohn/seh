@@ -47,7 +47,7 @@ Common.lpad = [
 {n:"LC-7", par:"tai", lv:"CZ-2C;CZ-4A/B/C", loc:"38.849N,111.608E"},  
 {n:"LC-9", par:"tai", lv:"CZ-2C;CZ-4B/C", loc:"38.863N,111.590E"},  
 {n:"LC-12", par:"cap", lv:"Atlas Able;Atlas Agena", loc:"28.481N,80.542W"},
-{n:"LC-13", par:"cap", lv:"Atlas Able;Atlas Agena;Falcon 9R Landing Pad", loc:"28.486N,80.544W"},
+{n:"LC-13", par:"cap", lv:"Atlas Able;Atlas Agena;Falcon 9 LZ-1/LC-2", loc:"28.486N,80.544W"},
 {n:"LC-16", par:"tai", lv:"CZ-6", loc:"38.8682N,111.5802E"},  
 {n:"LC-16/2", par:"ple", lv:"R-7;Molniya;Soyuz", loc:"62.960N,40.683E"},
 {n:"LC-17A", par:"cap", lv:"Delta;Delta II", loc:"28.446N,80.566W"},
