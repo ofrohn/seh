@@ -3541,15 +3541,15 @@ change4: {name:"Chang'e 4", desc:"lv:CZ-3B/G3Z",
 // --- 2019
 chandrayaan2: {name:"Chandrayaan 2:Moon Craft 2", desc:"lv:GSLV MkIII",
   parts:[
-    {names:"चंद्रयान-२", type:"om", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:1400kg;sc:0.5", id:"", url:"hp:isro.gov.in/chandrayaan-2;indianspaceprojects:sites.google.com/site/indianspaceprojects/moon-exploration/chandrayaan---2", icon:"chandrayaan2-o.png"},
-{names:"Vikram", type:"slm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:1350kg", icon:"chandrayaan2-l.png"},
-{names:"ECA:Ek Choti si Asha", type:"rvm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:25kg;sc:0.5", icon:"chandrayaan2-rv.png"}], 
+    {names:"चंद्रयान-२", type:"om", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:2379kg;sc:0.5", id:"", url:"hp:isro.gov.in/chandrayaan-2;indianspaceprojects:sites.google.com/site/indianspaceprojects/moon-exploration/chandrayaan---2", icon:"chandrayaan2-o.png"},
+{names:"Vikram", type:"slm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:1471kg", icon:"chandrayaan2-l.png"},
+{names:"Pragyan", type:"rvm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:27kg;sc:0.5", icon:"chandrayaan2-rv.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2019-05", loc:"ter:sri", desc:""},
-    {pt:"", type:"toi", dt:"2019-05", loc:"ter:170x16980km", desc:"EPO"},
-    {pt:"0", type:"oi", dt:"l+1mo", loc:"lun", desc:""},
-    {pt:"0", type:"sco", dt:"l+2mo", loc:"lun:100km", desc:""},
-    {pt:"1", type:"td", dt:"l+2mo", loc:"lun:70.8S,22.9E", desc:"Between Manzinus & Simpelius Crater;show:Ch2"},
+    {pt:"", type:"l", dt:"2019-07-09", loc:"ter:sri", desc:""},
+    {pt:"", type:"toi", dt:"2019-07-09", loc:"ter:170x16980km", desc:"EPO"},
+    {pt:"0", type:"oi", dt:"2019-08", loc:"lun", desc:""},
+    {pt:"0", type:"sco", dt:"2019-09", loc:"lun:100km", desc:""},
+    {pt:"1", type:"td", dt:"2019-09-06", loc:"lun:70.8S,22.9E", desc:"Between Manzinus & Simpelius Crater;show:Ch2"},
     {pt:"1", type:"nom", dt:"l+2.5mo", loc:"lun", desc:"lp"},
     {pt:"2", type:"nom", dt:"l+2.5mo", loc:"lun", desc:"rvp"},
     {pt:"0", type:"nom", dt:"l+1yr", loc:"lun", desc:"?"}
