@@ -1740,12 +1740,12 @@ srg:{name:"Spektr-RG:Spectrum Roentgen Gamma", url:"hp:hea.iki.rssi.ru/SRG/en/in
     {n:"Lobster", band:"", res:"", desc:"ag:Leicester University;c:nl;"},
     {n:"ART-XC", band:"6..30keV", res:"45", fov:"0.5deg", desc:"ag:iki;c:nl;"}
 ]},
-spektruv:{name:"Spektr-UF", url:"hp:www.wso-uv.org/wso-uv2/index.php?lang=en;Universidad Complutense:www.wso-uv.es/", desc:"ag:rosc;lv:Proton-M/Briz-M;m:2840kg;sc:1.2;x:10;y:12", stat:"pl", 
+spektruv:{name:"Spektr-UV", url:"hp:www.wso-uv.org/wso-uv2/index.php?lang=en;Universidad Complutense:www.wso-uv.es/", desc:"ag:rosc;lv:Proton-M/Briz-M;m:2840kg;sc:1.2;x:10;y:12", stat:"pl", 
   parts: [
     {n:"Спектр-УФ;WSO-UV:World Space Observatory-Ultraviolet", ctry:"ru", type:"uv", pur:"", id:"", icon:"wso-uv.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2021", tp:"l", loc:"ter:bai", desc:""},
-    {pt:"", dt:"", tp:"sco", loc:"ter:geo:51.6deg", desc:""},
+    {pt:"", dt:"2025-10", tp:"l", loc:"ter:bai", desc:""},
+    {pt:"", dt:"", tp:"sco", loc:"ter:geo:40deg", desc:""},
     {pt:"", dt:"2028", tp:"nom", loc:"ter:geo", desc:""}
   ], inst: [
     {n:"FUV", band:"110..310nm", res:"0.2", l:5, d:1.7, px:0.2, fov:0.5, foc:"17m", desc:"c:nr;cl:nly;"},

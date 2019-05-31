@@ -2831,7 +2831,7 @@ dslwp: {name:"Longjiang 1 & 2:Dragon River", desc:"lv:CZ-4C;part:change4relay", 
     {pt:"", type:"l", dt:"2018-05-21", loc:"ter:xch:LC-2", desc:"Chang'e 4 LRS piggyback"},
     {pt:"0", type:"los", dt:"2018-05-21", loc:"ter:lto", desc:"Longjiang 1"},
     {pt:"1", type:"oi", dt:"2018-05-25", loc:"lun:350x13700km", desc:"Longjiang 2"},
-    {pt:"1", type:"imp", dt:"2019-08", loc:"lun", desc:"eom"}
+    {pt:"1", type:"imp", dt:"2019-07-31", loc:"lun", desc:"eom"}
 ]},
 bepicolombo: {name:"Bepi Colombo", desc:"lv:Ariane 5ECA",
   parts:[
@@ -2886,8 +2886,8 @@ change4: {name:"Chang'e 4", desc:"lv:CZ-3B/G3Z",
     {pt:"", type:"sco", dt:"2018-12-30", loc:"lun:100x15kmx90deg", desc:""},
     {pt:"", type:"td", dt:"2019-01-03", loc:"lun:45.471S,177.606E", desc:"Statio Tianhe, Von Karman crater, SPA;show:CE4:NW"},
     {pt:"", type:"sep", dt:"2019-01-03", loc:"lun", desc:"lp/rvp"}, 
-    {pt:"1", type:"ex", dt:"", loc:"lun", desc:"rvp;rv:180m"},    
-    {pt:"1", type:"nom", dt:"2019-05", loc:"lun", desc:"rvp;?;eom:rvm"},
+    {pt:"1", type:"ex", dt:"", loc:"lun", desc:"rvp;rv:190m"},    
+    {pt:"1", type:"nom", dt:"2019-06", loc:"lun", desc:"rvp;?;eom:rvm"},
     {pt:"0", type:"nom", dt:"2019-12", loc:"lun", desc:"lp;?"}
 ]},
 // --- 2019
@@ -2915,7 +2915,7 @@ spaceil: {name:"Beresheet", desc:"lv:Falcon 9",
     {pt:"", type:"toi", dt:"2019-02-22", loc:"ter:heeo:242x68845kmx27.6deg", desc:"Phasing loops"},
     {pt:"", type:"oi", dt:"2019-04-04", loc:"lun:10000x500km", desc:""},
     {pt:"", type:"sco", dt:"2019-04-10", loc:"lun:10x15km", desc:""},
-    {pt:"", type:"imp", dt:"2019-04-11", loc:"lun:33N,17.5E", desc:"Mare Serenitatis;fail:Main Engine;eom"}
+    {pt:"", type:"imp", dt:"2019-04-11", loc:"lun:32.5956N,19.3496E", desc:"Mare Serenitatis;fail:Main Engine;eom"}
 ]},
 change5: {name:"Chang'e 5", desc:"lv:CZ-5",
   parts:[
@@ -3149,12 +3149,12 @@ dart: {name:"DART:Double Asteroid Redirection Test", desc:"lv:Falcon 9",
     {names:"", type:"im", dest:"ast", stat:"pl", ctry:"us", desc:"ag:nasa,apl;m:640kg;sc:0.7", id:"", url:"hp:dart.jhuapl.edu/;nasa:www.nasa.gov/planetarydefense/dart", icon:"dart.png"},
     {names:"Selfie-Sat", type:"fbm", dest:"ast", stat:"pl", ctry:"us", desc:"ag:nasa,apl;fam:;sc:0.4", id:"", url:"", icon:"selfiesat.png"}
   ], events:[
-    {pt:"", type:"l", dt:"2021-06", loc:"ter:van:SLC-4E", desc:""},
-    {pt:"", type:"oi", dt:"2021-06", loc:"sol:ho", desc:""},
+    {pt:"", type:"l", dt:"2021-07", loc:"ter:van:SLC-4E", desc:""},
+    {pt:"", type:"oi", dt:"2021-07", loc:"sol:ho", desc:""},
     {pt:"", type:"fb", dt:"2022-03", loc:"ast", desc:"ast:2001 CB21;?"},
-    {pt:"", type:"fb", dt:"2022-10", loc:"ast", desc:"ast:didy"},
-    {pt:"0", type:"imp", dt:"2022-10", loc:"ast", desc:"ip"},
-    {pt:"", type:"nom", dt:"2022-10", loc:"ast", desc:"eom"}
+    {pt:"", type:"fb", dt:"2022-09", loc:"ast", desc:"ast:didy"},
+    {pt:"0", type:"imp", dt:"2022-09", loc:"ast", desc:"ip"},
+    {pt:"", type:"nom", dt:"2022-09", loc:"ast", desc:"eom"}
 ]},
 slim:{name:"SLIM:Smart Lander for Investigating Moon", desc:"lv:H-IIA 202", stat:"pl", 
   parts: [
@@ -3201,9 +3201,9 @@ luna26: {name:"Luna 26", desc:"lv:Soyuz 2.1B/Fregat",
 ]},
 europaclipper: {name:"Europa Clipper", desc:"lv:SLS 1",
   parts:[
-    {names:"EMFM:Europa Multi-Flyby Mission", type:"om", dest:"jup", stat:"pl", ctry:"us", desc:"ag:nasa,jpl,apl;dim.26.9x3x6.3m;sc:1.0", id:"", url:"hp:www.nasa.gov/europa;tw:twitter.com/NASAEuropa", icon:"europaclipper.png"}
+    {names:"EMFM:Europa Multi-Flyby Mission", type:"om", dest:"jup", stat:"pl", ctry:"us", desc:"ag:nasa,jpl,apl;m:6000kg;m0:2616kg;dim.26.9x3x6.3m;sc:1.0", id:"", url:"hp:www.nasa.gov/europa;tw:twitter.com/NASAEuropa", icon:"europaclipper.png"}
   ], events:[
-    {pt:"", type:"l", dt:"2022", loc:"ter:ksc:LC-39B", desc:"or later"},
+    {pt:"", type:"l", dt:"2023", loc:"ter:ksc:LC-39B", desc:"or later"},
     {pt:"", type:"toi", dt:"l+1dy", loc:"sol:hto", desc:""},
     {pt:"", type:"oi", dt:"l+1.9yr", loc:"jup", desc:""}, //2024 (SLS)/2028 (Atlas V)
     {pt:"", type:"fb", dt:"", loc:"euro", desc:"45 Flybys planned"},
@@ -3239,8 +3239,8 @@ psyche: {name:"Psyche", desc:"",
     {pt:"", type:"sco", dt:"2026", loc:"ast:399km", desc:"Topography orbit"},  
     {pt:"", type:"sco", dt:"2026", loc:"ast:279km", desc:"Integrated science orbit"},  
     {pt:"", type:"sco", dt:"2027", loc:"ast:192km", desc:"Elemental mapping orbit"},  
-    {pt:"", type:"nom", dt:"2028-08", loc:"ast", desc:"?"},
-    {pt:"", type:"pom", dt:"2030", loc:"ast", desc:"?"}
+    {pt:"", type:"nom", dt:"2027-10", loc:"ast", desc:"?"},
+    {pt:"", type:"pom", dt:"2029-10", loc:"ast", desc:"?"}
 ]},
 ptknp: {name:"Federatsiya", desc:"lv:Soyuz-5", stat:"pl", 
   parts:[
