@@ -3642,7 +3642,7 @@ kplo: {name:"KPLO:Korean Pathfinder Lunar Orbiter", desc:"lv:Falcon 9",
     {pt:"", type:"oi", dt:"l+1mo", loc:"lun:100kmx90deg", desc:""},
     {pt:"", type:"nom", dt:"l+1yr", loc:"lun", desc:"?"}
 ]},
-em1: {name:"Artemis 1", desc:"lv:SLS 1", stat:"pl", 
+em1: {name:"Artemis-1", desc:"lv:SLS 1", stat:"pl", 
   parts:[
     {names:"EM-1:Exploration Mission 1;Orion MPCV Test Flight:Multi-Purpose Crew Vehicle", type:"fbm", dest:"lun",ctry:"us;eu", desc:"ag:nasa,jsc,esa;m:21250kg;sc:0.6", id:"", url:"hp:www.nasa.gov/exploration/home/index.html;esa:www.esa.int/Our_Activities/Human_Spaceflight/Orion/Exploration_Mission_1", icon:"orion.png"},
     {type:"erm", dest:"ter"}], 
@@ -3922,7 +3922,7 @@ luna27: {name:"Luna 27", desc:"lv:Soyuz 2.1B",
     {pt:"", type:"td", dt:"l+4dy", loc:"lun:87.2S,68E", desc:"Near South Pole; Shoemaker Crater;show:0"},
     {pt:"", type:"nom", dt:"l+1yr", loc:"lun", desc:"?"}
 ]},
-em2: {name:"Artemis 2", desc:"lv:SLS 1", stat:"pl", 
+em2: {name:"Artemis-2", desc:"lv:SLS 1", stat:"pl", 
   parts:[
     {names:"EM-2:Exploration Mission 2", type:"hm", dest:"lun", ctry:"us;eu", desc:"ag:nasa,jsc,esa;m:21250kg;sc:0.6", id:"", url:"hp:www.nasa.gov/exploration/home/index.html;esa:www.esa.int/Our_Activities/Human_Spaceflight/Orion/Exploration_Mission_2", icon:"orion.png"}], 
   events:[
@@ -3971,9 +3971,9 @@ mmx: {name:"MMX:Martian Moons eXploration", desc:"lv:H-III",
     {pt:"", type:"oi", dt:"2028-08", loc:"sol:ho", desc:"ETO"},
     {pt:"", type:"edl", dt:"2029-07", loc:"ter", desc:"eom"}
 ]},
-em3: {name:"EM-3:Exploration Mission 3", desc:"lv:SLS 1B", stat:"pl", 
+em3: {name:"Artemis-3", desc:"lv:SLS 1B", stat:"pl", 
   parts:[
-    {names:"", type:"hm", dest:"lun", ctry:"us;eu", desc:"ag:nasa,jsc,esa;m:21250kg;sc:0.6;ESPRIT Module", id:"", url:"hp:www.nasa.gov/exploration/home/index.html;esa:www.esa.int/Our_Activities/Human_Spaceflight/Orion", icon:"orion.png"}],
+    {names:"EM-3:Exploration Mission 3", type:"hm", dest:"lun", ctry:"us;eu", desc:"ag:nasa,jsc,esa;m:21250kg;sc:0.6;ESPRIT Module", id:"", url:"hp:www.nasa.gov/exploration/home/index.html;esa:www.esa.int/Our_Activities/Human_Spaceflight/Orion", icon:"orion.png"}],
   events:[
     {pt:"", type:"l", dt:"2024", loc:"ter:ksc:LC-39B", desc:""},
     {pt:"", type:"app", dt:"l+4dy", loc:"lun", desc:"LOP-G"},
