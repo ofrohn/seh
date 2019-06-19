@@ -115,7 +115,7 @@ add: spec. impulse, manufact.
 "H-III": {syn:"H-III 24L"},
 "H-III 24L": {ctry:"jp", m:"574000", pm:"/6500/",  d:"63x5.27", pf:"13x5.3", dt:"2021..", st:"2/0..4", th:"11500", fam:"H-III", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"h3-24l.png"},
 //Juno II
-"Juno II": {ctry:"us", m:"55300", pm:"50/-/6",  d:"23.4x2.67", pf:"", dt:"1958-12-06..1961-05-24", st:"4", th:"667", fam:"Jupiter", desc:"l:cap;ag:nasa", fuel:"KeroLOX", icon:"Juno-2.png"},
+"Juno II": {ctry:"us", m:"55300", pm:"50/-/6",  d:"23.4x2.67", pf:"", dt:"1958-12-06..1961-05-24", st:"4", th:"667", fam:"Jupiter", desc:"l:cap;ag:nasa", fuel:"KeroLOX+SRP", icon:"Juno-2.png"},
 //KSLV-II
 "KSLV-II": {ctry:"sk", m:"200000", pm:"2600/-/500",  d:"47.5x3.3", pf:"", dt:"2018..", st:"3", th:"2275", fam:"KSLV", desc:"l:nar;ag:kari", fuel:"KeroLOX", icon:"kslv-2.png"},
 //M-3SII
@@ -167,7 +167,7 @@ add: spec. impulse, manufact.
 "STS-34 Atlantis": {syn:"STS"},
 "STS-41 Discovery": {syn:"STS"},
 //Thor-Able I, Thor-Able IV
-"Thor-Able": {ctry:"us", m:"52000", pm:"100/-/40",  d:"27x2.44", pf:"", dt:"1958-04-24..1960-04-01", st:"3", th:"700", fam:"Thor/Delta", desc:"l:cap;ag:nasa", fuel:"KeroLOX", icon:"Thor-Able.png"},
+"Thor-Able": {ctry:"us", m:"52000", pm:"100/-/40",  d:"27x2.44", pf:"", dt:"1958-04-24..1960-04-01", st:"3", th:"700", fam:"Thor/Delta", desc:"l:cap;ag:nasa", fuel:"KeroLOX+SRP", icon:"Thor-Able.png"},
 "Thor-Able I": {syn:"Thor-Able"},
 "Thor-Able IV": {syn:"Thor-Able"},
 //Titan 401B-Centaur T, Titan IIG, Titan III/TOS, Titan IIIE-Centaur D1T

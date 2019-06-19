@@ -679,7 +679,7 @@ SOBS.absorp =[
      url:"",  //Instrument links
      desc:"c:;"}  //desc: c:l r v t b  left right vertical top bottom, cl
 ]},
-Tenma, Hakucho, td-1, isee, oao-2, oso
+Tenma, Hakucho, td-1, isee, oao-2, oso 2..7, ariel1
 rae-b 25 kHz to 13.1 MHz 
 P78-1/SOLWIND http://heasarc.nasa.gov/docs/heasarc/missions/p78-1.html
   http://www.planetary.org/blogs/guest-blogs/2014/0829-the-pivotal-discovery.html
@@ -1481,6 +1481,18 @@ odin:{name:"Odin", url:"hp:www.ssc.se/?id=7700", desc:"sg:ssc;lv:Start-1", stat:
     {n:"", band:"1.07E+15..4.61E+14", res:"", desc:"c:n"},
     {n:"", band:"1.18E+11..5.8E+11", res:"540..120", desc:"c:n"}
 ]},
+oso1:{name:"OSO 1:Orbiting Solar Observatory", url:"hp:", desc:"ag:nasa,gsfc;lv:Delta", stat:"s", 
+  parts: [
+    {n:"", ctry:"us", type:"uv,x,gam", pur:"sol", id:"1962-006A", icon:"oso.png", desc:"m:207.7kg"}
+  ], ev: [
+    {pt:"", dt:"1962-03-07", tp:"l", loc:"cap:LC-17A", desc:""},
+    {pt:"", dt:"1962-03-07", tp:"sco", loc:"ter:sseo:510x530kmx32.8deg", desc:""},
+    {pt:"", dt:"1964-05", tp:"eom", loc:"", desc:""}
+  ], inst: [
+    {n:"", tp:"sp", band:"1..40nm", res:"", desc:"c:n"},
+    {n:"", tp:"ctr",  band:"20..100keV", res:"", desc:"c:n"},
+    {n:"", tp:"ctr",  band:"0.05..3MeV", res:"", desc:"c:n"}
+]},
 pamela:{name:"PAMELA:Payload for Antimatter Matter Exploration and Light-nuclei Astrophysics", url:"pamela.roma2.infn.it/index.php", desc:"on Resurs-DK1 satellite;lv:Soyuz-U-PVB", stat:"o", 
   parts: [
     {n:"", ctry:"it;ru", type:"par", pur:"cr", id:"2006-021A", icon:"", desc:""}
@@ -2183,7 +2195,7 @@ add: spec. impulse, manufact.
 "H-III": {syn:"H-III 24L"},
 "H-III 24L": {ctry:"jp", m:"574000", pm:"/6500/",  d:"63x5.27", pf:"13x5.3", dt:"2021..", st:"2/0..4", th:"11500", fam:"H-III", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"h3-24l.png"},
 //Juno II
-"Juno II": {ctry:"us", m:"55300", pm:"50/-/6",  d:"23.4x2.67", pf:"", dt:"1958-12-06..1961-05-24", st:"4", th:"667", fam:"Jupiter", desc:"l:cap;ag:nasa", fuel:"KeroLOX", icon:"Juno-2.png"},
+"Juno II": {ctry:"us", m:"55300", pm:"50/-/6",  d:"23.4x2.67", pf:"", dt:"1958-12-06..1961-05-24", st:"4", th:"667", fam:"Jupiter", desc:"l:cap;ag:nasa", fuel:"KeroLOX+SRP", icon:"Juno-2.png"},
 //KSLV-II
 "KSLV-II": {ctry:"sk", m:"200000", pm:"2600/-/500",  d:"47.5x3.3", pf:"", dt:"2018..", st:"3", th:"2275", fam:"KSLV", desc:"l:nar;ag:kari", fuel:"KeroLOX", icon:"kslv-2.png"},
 //M-3SII
@@ -2235,7 +2247,7 @@ add: spec. impulse, manufact.
 "STS-34 Atlantis": {syn:"STS"},
 "STS-41 Discovery": {syn:"STS"},
 //Thor-Able I, Thor-Able IV
-"Thor-Able": {ctry:"us", m:"52000", pm:"100/-/40",  d:"27x2.44", pf:"", dt:"1958-04-24..1960-04-01", st:"3", th:"700", fam:"Thor/Delta", desc:"l:cap;ag:nasa", fuel:"KeroLOX", icon:"Thor-Able.png"},
+"Thor-Able": {ctry:"us", m:"52000", pm:"100/-/40",  d:"27x2.44", pf:"", dt:"1958-04-24..1960-04-01", st:"3", th:"700", fam:"Thor/Delta", desc:"l:cap;ag:nasa", fuel:"KeroLOX+SRP", icon:"Thor-Able.png"},
 "Thor-Able I": {syn:"Thor-Able"},
 "Thor-Able IV": {syn:"Thor-Able"},
 //Titan 401B-Centaur T, Titan IIG, Titan III/TOS, Titan IIIE-Centaur D1T

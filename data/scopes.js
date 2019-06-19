@@ -25,7 +25,7 @@
      url:"",  //Instrument links
      desc:"c:;"}  //desc: c:l r v t b  left right vertical top bottom, cl
 ]},
-Tenma, Hakucho, td-1, isee, oao-2, oso
+Tenma, Hakucho, td-1, isee, oao-2, oso 2..7, ariel1
 rae-b 25 kHz to 13.1 MHz 
 P78-1/SOLWIND http://heasarc.nasa.gov/docs/heasarc/missions/p78-1.html
   http://www.planetary.org/blogs/guest-blogs/2014/0829-the-pivotal-discovery.html
@@ -826,6 +826,18 @@ odin:{name:"Odin", url:"hp:www.ssc.se/?id=7700", desc:"sg:ssc;lv:Start-1", stat:
   ], inst: [
     {n:"", band:"1.07E+15..4.61E+14", res:"", desc:"c:n"},
     {n:"", band:"1.18E+11..5.8E+11", res:"540..120", desc:"c:n"}
+]},
+oso1:{name:"OSO 1:Orbiting Solar Observatory", url:"hp:", desc:"ag:nasa,gsfc;lv:Delta", stat:"s", 
+  parts: [
+    {n:"", ctry:"us", type:"uv,x,gam", pur:"sol", id:"1962-006A", icon:"oso.png", desc:"m:207.7kg"}
+  ], ev: [
+    {pt:"", dt:"1962-03-07", tp:"l", loc:"cap:LC-17A", desc:""},
+    {pt:"", dt:"1962-03-07", tp:"sco", loc:"ter:sseo:510x530kmx32.8deg", desc:""},
+    {pt:"", dt:"1964-05", tp:"eom", loc:"", desc:""}
+  ], inst: [
+    {n:"", tp:"sp", band:"1..40nm", res:"", desc:"c:n"},
+    {n:"", tp:"ctr",  band:"20..100keV", res:"", desc:"c:n"},
+    {n:"", tp:"ctr",  band:"0.05..3MeV", res:"", desc:"c:n"}
 ]},
 pamela:{name:"PAMELA:Payload for Antimatter Matter Exploration and Light-nuclei Astrophysics", url:"pamela.roma2.infn.it/index.php", desc:"on Resurs-DK1 satellite;lv:Soyuz-U-PVB", stat:"o", 
   parts: [

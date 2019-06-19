@@ -50,7 +50,7 @@ luna1958b: {name:"Luna E-1 #2", desc:"lv:Vostok-L 8K72",
 ]},
 pioneer2: {name:"Pioneer 2", desc:"lv:Thor-Able I",
   parts:[
-    {names:"Able 3", type:"om", dest:"lun", stat:"f", ctry:"us", desc:"ag:nasa,usaf,bmd;fam:Pioneer-Able;m:39.6kg;dim:0.74x0.74x1.1m;sc:0.2", id:"PION2", url:"ql:space.jpl.nasa.gov/msl/QuickLooks/pioneer0QL.html", icon:"pioneer-able.png"}], 
+    {names:"Able 3", type:"om", dest:"lun", stat:"f", ctry:"us", desc:"ag:nasa,usaf,bmd;fam:Pioneer-Able;m:42.6kg;dim:0.74x0.74x1.1m;sc:0.2", id:"PION2", url:"ql:space.jpl.nasa.gov/msl/QuickLooks/pioneer0QL.html", icon:"pioneer-able.png"}], 
   events:[
     {pt:"", type:"l", dt:"1958-11-08", loc:"ter:cap:LC-17A", desc:"fail:Third stage ignition"}
 ]},
@@ -120,7 +120,7 @@ pioneerp3: {name:"Pioneer P-3", desc:"lv:Atlas-D Able IV",
 // --- 1960 --- 7 Missions
 pioneer5: {name:"Pioneer 5", desc:"lv:Thor-Able IV",
   parts:[
-    {names:"Pioneer P-2;Able 6", type:"obm", dest:"sol", stat:"s", ctry:"us", desc:"ag:nasa,gsfc;fam:Pioneer-Able;First solar orbiter probe;m:43.2kg;dim:1.4x1.4x0.66m;sc:0.2", id:"1960-001A", url:"ql:space.jpl.nasa.gov/msl/QuickLooks/pioneer5QL.html", icon:"pioneer5.png"}], 
+    {names:"Pioneer P-2;Able 6", type:"obm", dest:"sol", stat:"s", ctry:"us", desc:"ag:nasa,gsfc;fam:Pioneer-Able;First solar orbiter probe;m:47.4kg;dim:1.4x1.4x0.66m;sc:0.2", id:"1960-001A", url:"ql:space.jpl.nasa.gov/msl/QuickLooks/pioneer5QL.html", icon:"pioneer5.png"}], 
   events:[
     {pt:"", type:"l", dt:"1960-03-11", loc:"ter:cap:LC-17A", desc:""},
     {pt:"", type:"oi", dt:"1960-03-11", loc:"sol:ho:0.806x0.995aux3.35deg", desc:""},
@@ -2774,7 +2774,9 @@ osirisrex: {name:"OSIRIS-REx:Origins-Spectral Interpretation-Resource Identifica
     {pt:"", type:"oi", dt:"2016-09-08", loc:"sol:ho:0.77x1.17aux0.2deg", desc:""},
     {pt:"", type:"fb", dt:"2017-09-23", loc:"ter:17000km", desc:"ga"},
     {pt:"", type:"app", dt:"2018-08-17", loc:"ast", desc:"ast:(101955) Bennu"},
-    {pt:"", type:"arr", dt:"2018-12", loc:"ast", desc:"Preliminary survey"},
+    {pt:"", type:"arr", dt:"2018-12-03", loc:"ast", desc:"Preliminary survey"},
+    {pt:"", type:"sco", dt:"2018-12-31", loc:"ast:1.75km", desc:"Mapping phase Orbital A"},
+    {pt:"", type:"sco", dt:"2019-06-12", loc:"ast:0.68km", desc:"Orbital B"},
     {pt:"", type:"obs", dt:"2019-09", loc:"ast", desc:"Detailed survey of candidate sample sites"},
     {pt:"", type:"td", dt:"2019-12", loc:"ast", desc:"Sample acquisition rehearsal"},
     {pt:"", type:"td", dt:"2020-07", loc:"ast", desc:"Sample acquisition"},
@@ -2886,14 +2888,14 @@ change4: {name:"Chang'e 4", desc:"lv:CZ-3B/G3Z",
     {pt:"", type:"sco", dt:"2018-12-30", loc:"lun:100x15kmx90deg", desc:""},
     {pt:"", type:"td", dt:"2019-01-03", loc:"lun:45.471S,177.606E", desc:"Statio Tianhe, Von Karman crater, SPA;show:CE4:NW"},
     {pt:"", type:"sep", dt:"2019-01-03", loc:"lun", desc:"lp/rvp"}, 
-    {pt:"1", type:"ex", dt:"", loc:"lun", desc:"rvp;rv:190m"},    
+    {pt:"1", type:"ex", dt:"", loc:"lun", desc:"rvp;rv:212m"},    
     {pt:"1", type:"nom", dt:"2019-06", loc:"lun", desc:"rvp;?;eom:rvm"},
     {pt:"0", type:"nom", dt:"2019-12", loc:"lun", desc:"lp;?"}
 ]},
 // --- 2019
 chandrayaan2: {name:"Chandrayaan 2:Moon Craft 2", desc:"lv:GSLV MkIII",
   parts:[
-    {names:"चंद्रयान-२", type:"om", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:2379kg;sc:0.5", id:"", url:"hp:isro.gov.in/chandrayaan-2;indianspaceprojects:sites.google.com/site/indianspaceprojects/moon-exploration/chandrayaan---2", icon:"chandrayaan2-o.png"},
+    {names:"चंद्रयान-२", type:"om", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:2379kg;sc:0.5", id:"", url:"hp:isro.gov.in/chandrayaan2-home;indianspaceprojects:sites.google.com/site/indianspaceprojects/moon-exploration/chandrayaan---2", icon:"chandrayaan2-o.png"},
 {names:"Vikram", type:"slm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:1471kg", icon:"chandrayaan2-l.png"},
 {names:"Pragyan", type:"rvm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:27kg;sc:0.5", icon:"chandrayaan2-rv.png"}], 
   events:[
@@ -2901,7 +2903,7 @@ chandrayaan2: {name:"Chandrayaan 2:Moon Craft 2", desc:"lv:GSLV MkIII",
     {pt:"", type:"toi", dt:"2019-07-09", loc:"ter:170x16980km", desc:"EPO"},
     {pt:"0", type:"oi", dt:"2019-08", loc:"lun", desc:""},
     {pt:"0", type:"sco", dt:"2019-09", loc:"lun:100km", desc:""},
-    {pt:"1", type:"td", dt:"2019-09-06", loc:"lun:70.8S,22.9E", desc:"Between Manzinus & Simpelius Crater;show:Ch2"},
+    {pt:"1", type:"td", dt:"2019-09-06", loc:"lun:70.9S,22.78E", desc:"Between Manzinus & Simpelius Crater;show:Ch2"},
     {pt:"1", type:"nom", dt:"l+2.5mo", loc:"lun", desc:"lp"},
     {pt:"2", type:"nom", dt:"l+2.5mo", loc:"lun", desc:"rvp"},
     {pt:"0", type:"nom", dt:"l+1yr", loc:"lun", desc:"?"}
