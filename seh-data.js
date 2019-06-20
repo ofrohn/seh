@@ -4006,6 +4006,18 @@ venerad: {name:"Venera-D", desc:"lv:Proton-M/Briz-M",
     {pt:"0", type:"td", dt:"l+?yr", loc:"ven", desc:""},
     {pt:"1", type:"nom", dt:"l+3yr", loc:"ven", desc:""},
     {pt:"1", type:"pom", dt:"l+4yr", loc:"ven", desc:"?"}
+]},
+// --- 2028
+cometinterceptor: {name:"Comet Interceptor", desc:"lv:Ariane 62", 
+  parts: [
+    {names:"A", type:"fbm", dest:"com", stat:"pl", ctry:"eu", desc:"ag:esa;dim:;m:900kg;sc:0.4;fam:F-Class", id:"", url:"hp:www.cometinterceptor.space/;tw:twitter.com/CometIntercept",  icon:"comint-a.png"},
+    {names:"B1", type:"fbm", dest:"com", stat:"pl", ctry:"jp", desc:"ag:jaxa;dim:;m:;sc:0.5", id:"", url:"", icon:"comint-b1.png"},
+    {names:"B2", type:"", dest:"com", stat:"pl", ctry:"eu", desc:"ag:esa;dim:;m:;sc:0.3", id:"", url:"",  icon:"comint-b2.png"}
+  ], events: [
+    {pt:"", dt:"2028", type:"l", loc:"ter:kou:ELA-4", desc:""},
+    {pt:"", dt:"2028", type:"oi", loc:"sol:esl2", desc:""},
+    {pt:"", dt:"2030", type:"fb", loc:"com", desc:"?"},
+    {pt:"", dt:"2032", type:"nom", loc:"sol:ho", desc:"eom"}
 ]}
 
 };
