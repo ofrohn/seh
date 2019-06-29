@@ -1949,7 +1949,7 @@ epsr:
   {name:"ε", other:"", desig:"", type:"r", par:"ura", disc:"J.L. Elliot et al.", dyr:"1977",
    a:"51149km", e:"0.0079", i:"", per:"",
    mass:"", dia:"19.7..96.4km", rad:"19.7..96.4", thick:"15", opt:"0.5..2.3",
-   alb:"0.018", comp:"dust:~0", sdens:"", desc:"opa:0.9;moon:cord,ophe"},
+   alb:"0.018", comp:"dust:~0", temp:"77K", sdens:"", desc:"opa:0.9;moon:cord,ophe"},
 nur:
   {name:"ν", other:"R/2003 U2", desig:"", type:"r", par:"ura", disc:"M.R. Showalter et al.", dyr:"2003",
    a:"68000km", e:"", i:"", per:"",

@@ -219,7 +219,7 @@ mariner1: {name:"Mariner 1", desc:"lv:Atlas-LV3 Agena-B",
   parts:[
     {names:"P-37", type:"fbm", dest:"ven", stat:"f", ctry:"us", desc:"ag:nasa,jpl;fam:Mariner-R;m:202.8kg;dim:5.05x3.66x1.04m", id:"MARIN1", url:"ql:space.jpl.nasa.gov/msl/QuickLooks/mariner12QL.html", icon:"mariner1-2.png"}], 
   events:[
-    {pt:"", type:"l", dt:"1962-07-22", loc:"ter:cap:LC-12", desc:"fail:Trajectory deviation"}
+    {pt:"", type:"l", dt:"1962-07-22", loc:"ter:cap:LC-12", desc:"fail:Navigation error"}
 ]},
 sputnik19: {name:"Sputnik 19", desc:"lv:Molniya 8K78/Blok-L",
   parts:[
@@ -2708,8 +2708,7 @@ hayabusa2: {name:"Hayabusa 2:Peregrine Falcon 2", desc:"lv:H-IIA 202",
     {pt:"3", type:"los", dt:"2018-10-04", loc:"ast", desc:"lp:MASCOT;eom:slm"},
     {pt:"0", type:"dsc", dt:"2019-02-21", loc:"ast", desc:"1. Sample Collection"},
     {pt:"1", type:"imp", dt:"2019-04-05", loc:"ast", desc:"ip:SCI;Cratering Experiment;eom:im"},
-    {pt:"0", type:"dsc", dt:"2019-05", loc:"ast", desc:"2. Sample Collection"},
-    //{pt:"0", type:"dsc", dt:"2019-04", loc:"ast", desc:"3. Sample Collection"},
+    {pt:"0", type:"dsc", dt:"2019-07-11", loc:"ast", desc:"2. Sample Collection"},
     {pt:"2", type:"td", dt:"2019-08", loc:"ast", desc:"hpp:MINERVA II2;eom:hpm"},
     {pt:"0", type:"dep", dt:"2019-11", loc:"ast", desc:""},
     {pt:"0", type:"edl", dt:"2020-11", loc:"ter", desc:"eom"}
@@ -2776,6 +2775,8 @@ osirisrex: {name:"OSIRIS-REx:Origins-Spectral Interpretation-Resource Identifica
     {pt:"", type:"app", dt:"2018-08-17", loc:"ast", desc:"ast:(101955) Bennu"},
     {pt:"", type:"arr", dt:"2018-12-03", loc:"ast", desc:"Preliminary survey"},
     {pt:"", type:"sco", dt:"2018-12-31", loc:"ast:1.75km", desc:"Mapping phase Orbital A"},
+    {pt:"", type:"sco", dt:"2019-02", loc:"ast", desc:"Detailed survey, Baseball diamond"},
+    {pt:"", type:"sco", dt:"2019-04", loc:"ast", desc:"Detailed survey, Equatorial stations"},
     {pt:"", type:"sco", dt:"2019-06-12", loc:"ast:0.68km", desc:"Orbital B"},
     {pt:"", type:"obs", dt:"2019-09", loc:"ast", desc:"Detailed survey of candidate sample sites"},
     {pt:"", type:"td", dt:"2019-12", loc:"ast", desc:"Sample acquisition rehearsal"},
@@ -3074,7 +3075,7 @@ exomarsrv: {name:"ExoMars 2020", desc:"lv:Proton-M/Briz-M;m:2900kg",
 ]},
 mars2020rover: {name:"Mars 2020 Rover", desc:"lv:Atlas V 551",
   parts:[
-    {names:"", type:"rvm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;m:1050kg;dim:3.0x2.7x2.2m;sc:0.7;Sample Caching Mission", id:"", url:"hp:www.nasa.gov/mars2020", icon:"mars2020.png"},
+    {names:"", type:"rvm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;m:1050kg;dim:3.0x2.7x2.2m;sc:0.5;Sample Caching Mission", id:"", url:"hp:www.nasa.gov/mars2020", icon:"mars2020.png"},
     {names:"Mars Helicopter", type:"dm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;m:1.8kg;dim:;sc:0.7;", id:"", url:"", icon:"marshelo.png"}], 
   events:[
     {pt:"", type:"l", dt:"2020-07-17", loc:"ter:cap:SLC-41", desc:""},
@@ -3100,7 +3101,7 @@ mgrso: {name:"MGRSO:Mars Global Remote Sensing Orbiter", desc:"lv:CZ-5",
 ]},
 emm: {name:"Mars Hope", desc:"lv:H-IIA 202",
   parts:[
-    {names:"مسبار الأمل;EMM:Emirates Mars Mission", type:"om", dest:"mar", stat:"pl", ctry:"ue", desc:"ag:uaesa;m:1500kg;dim:7.9x3x3.5m;sc:0.4", id:"", url:"hp:www.emm.ae/;MBRSC:www.mbrsc.ae/en;tw:twitter.com/HopeMarsMission", icon:"emm.png"}], 
+    {names:"مسبار الأمل;EMM:Emirates Mars Mission", type:"om", dest:"mar", stat:"pl", ctry:"ue", desc:"ag:uaesa;m:1500kg;dim:7.9x3x3.5m;sc:0.5", id:"", url:"hp:www.emm.ae/;MBRSC:www.mbrsc.ae/en;tw:twitter.com/HopeMarsMission", icon:"emm.png"}], 
   events:[
     {pt:"", type:"l", dt:"2020-07", loc:"ter:tng", desc:""},
     {pt:"", type:"toi", dt:"2020-07", loc:"sol:hto", desc:""},
@@ -3281,7 +3282,8 @@ em2: {name:"Artemis-2", desc:"lv:SLS 1", stat:"pl",
     {names:"EM-2:Exploration Mission 2", type:"hm", dest:"lun", ctry:"us;eu", desc:"ag:nasa,jsc,esa;m:21250kg;sc:0.6", id:"", url:"hp:www.nasa.gov/exploration/home/index.html;esa:www.esa.int/Our_Activities/Human_Spaceflight/Orion/Exploration_Mission_2", icon:"orion.png"}], 
   events:[
     {pt:"", type:"l", dt:"2022-04", loc:"ter:ksc:LC-39B", desc:""},
-    {pt:"0", type:"fb", dt:"l+4dy", loc:"lun", desc:"LOP-G"},
+    {pt:"", type:"toi", dt:"2022-04", loc:"ter", desc:"lto"},
+    {pt:"0", type:"fb", dt:"l+4dy", loc:"lun", desc:"Free return trajectory"},
     {pt:"0", type:"edl", dt:"l+9dy", loc:"ter", desc:"eom"}
 ]},
 
@@ -3317,11 +3319,13 @@ cnast2024: {name:"Zheng He", desc:"lv:CZ-3B",
 ]},
 mmx: {name:"MMX:Martian Moons eXploration", desc:"lv:H-III",
   parts:[
-    {names:"", type:"srm", dest:"mar:Phobos", stat:"pl", ctry:"jp", desc:"ag:jaxa;m:3400kg;m0:;dim:14x2.1x4.5m;sc:0.75", id:"", url:"hp:mmx.isas.jaxa.jp/en/index.html;tw:twitter.com/mmx_jaxa_en", icon:"mmx.png"},
-    {names:"{MMX Sample Return Module}", desc:"m:1300kg;sc:1.0", icon:""}], 
+    {names:"", type:"srm", dest:"mar:Phobos", stat:"pl", ctry:"jp", desc:"ag:jaxa,isas;m:3400kg;m0:;dim:14x2.1x4.5m;sc:0.75", id:"", url:"hp:mmx.isas.jaxa.jp/en/index.html;tw:twitter.com/mmx_jaxa_en", icon:"mmx.png"},
+    {names:"{MMX Sample Return Module}", desc:"m:1300kg;sc:1.0", icon:""},
+    {names:"{DLR/CNES Rover}", type:"rvm", dest:"mar:Phobos", stat:"pl", ctry:"de;fr", desc:"ag:dlr,cnes", id:"", url:"", icon:"mmx-rv.png"}], 
   events:[
     {pt:"", type:"l", dt:"2024-09", loc:"ter:tng", desc:""},
     {pt:"", type:"oi", dt:"2025-08", loc:"mar", desc:""},
+    {pt:"", type:"td", dt:"2027", loc:"mar:Phobos", desc:"Sample collection"},
     {pt:"", type:"oi", dt:"2028-08", loc:"sol:ho", desc:"ETO"},
     {pt:"", type:"edl", dt:"2029-07", loc:"ter", desc:"eom"}
 ]},
@@ -3347,6 +3351,14 @@ interheliozond: {name:"Interhelio-Zond", desc:"lv:Proton-M/Briz-M",
     {pt:"", type:"pom", dt:"l+9yr", loc:"lun", desc:"?"}
 ]},
 // --- 2026
+dragonfly: {name:"Dragonfly", desc:"", stat:"pl", 
+  parts:[
+    {names:"", type:"dm", dest:"sat:Titan", ctry:"us", desc:"ag:nasa,apl;fam:New Frontiers;m:420kg;sc:0.4", id:"", url:"hp:dragonfly.jhuapl.edu", icon:"dragonfly.png"}],
+  events:[
+    {pt:"", type:"l", dt:"2026", loc:"ter:ksc", desc:""},
+    {pt:"", type:"edl", dt:"2034", loc:"tita", desc:"Shangri-La"},
+    {pt:"", type:"nom", dt:"2037", loc:"tita", desc:"rv:175km;?"}
+]},
 venerad: {name:"Venera-D", desc:"lv:Proton-M/Briz-M",
   parts:[
     {names:"Венера-Д", type:"om", dest:"ven", stat:"pl", ctry:"ru", desc:"ag:rosc,iki;m:3600kg;sc:0.5", id:"", url:"hp:venera-d.cosmos.ru/index.php?id=658&L=2", icon:"venera-d.png"},
@@ -3369,7 +3381,7 @@ cometinterceptor: {name:"Comet Interceptor", desc:"lv:Ariane 62",
     {pt:"", dt:"2028", type:"l", loc:"ter:kou:ELA-4", desc:""},
     {pt:"", dt:"2028", type:"oi", loc:"sol:esl2", desc:""},
     {pt:"", dt:"2030", type:"fb", loc:"com", desc:"?"},
-    {pt:"", dt:"2032", type:"nom", loc:"sol:ho", desc:"eom"}
+    {pt:"", dt:"2032", type:"nom", loc:"sol:ho", desc:""}
 ]}
 
 };
