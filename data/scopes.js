@@ -53,7 +53,7 @@ aditya:{name:"Aditya-L1", url:"hp:aditya.iiap.res.in/", desc:"Solar Coronograph;
   parts: [
     {n:"आदित्य", ctry:"ind", type:"opt;ir", pur:"sol", id:"", icon:"aditya-l1.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2020", tp:"l", loc:"ter:sri", desc:""},
+    {pt:"", dt:"2021", tp:"l", loc:"ter:sri", desc:""},
     {pt:"", dt:"l+100d", tp:"sco", loc:"sol:esl1", desc:""}
   ], inst: [
     {n:"VELC:Visible Emission Line Coronagraph", band:"530..640nm", res:"2", d:"0.2", px:"", url:"", desc:"c:nr;"},
@@ -154,7 +154,7 @@ astrosat:{name:"Astrosat", url:"hp:astrosat.iucaa.in/;isro:www.isro.gov.in/Space
     {n:"SSM:Scanning Sky Monitor", tp:"ctr", band:"2.5..10keV", res:"300..600", sres:"25%@6keV", tres:"1ms", fov:"10x90deg", sens:"28mCrab@600s", desc:"c:nl;"},
     {n:"LAXPC:Large Area X-ray Proportional Counters", tp:"ctr", band:"3..80keV", res:"300", sres:"22%@22keV", tres:"10us", ea:"8000@5..20keV", fov:"1x1deg", sens:"1mCrab@100s", desc:"c:nl;"}
 ]},
-athenaplus:{name:"Athena+:Advanced Telescope for High-energy Astrophysics+", url:"hp:www.the-athena-x-ray-observatory.eu/;mpe:www.mpe.mpg.de/Athena", desc:"ag:esa;lv:Ariane 6;fam:L-class;sc:1.2;x:0;y:10", stat:"pl", 
+athenaplus:{name:"Athena+:Advanced Telescope for High-energy Astrophysics+", url:"hp:www.the-athena-x-ray-observatory.eu/;mpe:www.mpe.mpg.de/Athena;tw:twitter.com/AthenaXobs", desc:"ag:esa;lv:Ariane 6;fam:L-class;sc:1.2;x:0;y:10", stat:"pl", 
   parts: [
     {n:"", ctry:"eu", type:"x", pur:"", id:"", icon:"athena.png", desc:""}
   ], ev: [
@@ -284,6 +284,16 @@ dscovr:{name:"DSCOVR:Deep Space Climate Observatory", url:"hp:www.nesdis.noaa.go
     {n:"EPIC:Earth Polychromatic Imaging Camera", band:"", res:"", d:"", px:"", url:"", desc:"c:;"},
     {n:"ES:Electron Spectrometer", tp:"psp", band:"", res:"", d:"", px:"", url:"", desc:"c:;"},
     {n:"PHA:Pulse Height Analyzer", tp:"par", band:"", res:"", d:"", px:"", url:"", desc:"c:;"}
+]},
+einsteinprobe:{name:"Einstein Probe", url:"", desc:"ag:cnsa;m:380kg;lv:", stat:"pl", 
+  parts: [
+    {n:"", ctry:"cn", type:"x", pur:"grb", id:"", icon:""}
+  ], ev: [
+    {pt:"", dt:"2022", tp:"l", loc:"ter", desc:""},
+    {pt:"", dt:"2022", tp:"sco", loc:"ter:leo", desc:""}
+  ], inst: [
+    {n:"WXT:Wide-field X-ray Telescope", tp:"", band:"0.5..4keV", res:"300", fov:"60x60deg", ea:"3cm2€0.7keV", tres:"100us", eres:"50%@4keV", url:"", desc:"c:;"},
+    {n:"FXT:Follow-up X-ray Telescope", tp:"", band:"0.5..4keV", res:"300", fov:"1deg", ea:"60cm2€1keV", tres:"1s", eres:"100ev@1keV", url:"", desc:"c:;"}
 ]},
 einstein:{name:"Einstein", url:"hp:heasarc.gsfc.nasa.gov/docs/einstein/heao2.html", desc:"ag:nasa;lv:Atlas SLV-3D Centaur", stat:"s", 
   parts: [
@@ -578,7 +588,7 @@ integral:{name:"Integral:International Gamma Ray Astrophysics Laboratory", url:"
     {pt:"", dt:"2023-12-31", tp:"pom", loc:"ter:heeo", desc:"pend"}
   ], inst: [
     {n:"JEM-X", band:"7.25E+17..8.46E+18", res:"180", sres:"1.3keV@10keV", fov:"4.8deg", desc:"c:nr;cl:nl"},
-    {n:"OMC", band:"5.0E+14..6.0E+14", res:"18", px:17.5, d:0.05, fov:"5x5deg", desc:"c:nr;cl:nly"},
+    {n:"OMC", band:"5.0E+14..6.0E+14", res:"18", px:17.5, d:0.05, fov:"5x5deg", desc:"c:nl;cl:nly"},
     {n:"SPI", band:"20keV..8MeV", res:"7200", sres:"2.2keV@1.33MeV", fov:"16deg", desc:"c:nr;cl:nly;"},
     {n:"IBIS", band:"3.63E+18..2.42E+21", res:"720", sres:"9keV@100keV", fov:"9x9deg", desc:"c:nr;cl:n"}
 ]},
@@ -658,13 +668,13 @@ iue:{name:"IUE:International Ultraviolet Explorer", url:"hp:www.esa.int/Our_acti
 ], inst: [
     {n:"", tp:"is", band:"115..325nm", res:"", sres:"", d:"0.45", sens:"", fov:"", desc:"c:;cl:;"}
 ]}, 
-ixpe:{name:"IXPE:Imaging X-Ray Polarimetry Explorer", url:"hp:wwwastro.msfc.nasa.gov/ixpe/", desc:"ag:nasa,msfc;lv:Pegasus;m:292kg;sc:1.0;y:10", stat:"pl", 
+ixpe:{name:"IXPE:Imaging X-Ray Polarimetry Explorer", url:"hp:wwwastro.msfc.nasa.gov/ixpe/", desc:"ag:nasa,msfc;lv:Falcon 9;m:292kg;sc:1.0;y:10", stat:"pl", 
   parts: [
     {n:"", ctry:"ind", type:"x", pur:"", id:"", icon:"ixpe.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2020-10", tp:"l", loc:"ter:Kwajalein", desc:""},
-    {pt:"", dt:"2020", tp:"sco", loc:"ter:leo:540kmx0deg", desc:""},
-    {pt:"", dt:"2023", tp:"pom", loc:"ter:leo", desc:""}
+    {pt:"", dt:"2021-04", tp:"l", loc:"ter:ksa:LC-39A", desc:""},
+    {pt:"", dt:"2021-04", tp:"sco", loc:"ter:leo:540kmx0deg", desc:""},
+    {pt:"", dt:"2024", tp:"pom", loc:"ter:leo", desc:""}
   ], inst: [
     {n:"", band:"2..8keV", res:"30", fov:"11'", desc:"c:nr;cl:"}
   ]},
@@ -776,7 +786,7 @@ most:{name:"MOST:Microvariability and Oscillations of STars", url:"hp:www.astro.
     {pt:"", dt:"2003-06-30", tp:"l", loc:"ter:ple:LC-133/3", desc:""},
     {pt:"", dt:"2003-07-07", tp:"sco", loc:"ter:sseo:818x832kmx98.7deg", desc:""}
   ], inst: [
-    {n:"", band:"4.28E+14..8.57E+14", res:"0.2", d:"0.15", px:"12", desc:"c:nr;cl:nl;"}
+    {n:"", band:"4.28E+14..8.57E+14", res:"0.2", d:"0.15", px:"12", desc:"c:nl;cl:nl;"}
 ]},
 nanojasmine:{name:"Nano-JASMINE", url:"www.jasmine-galaxy.org/index.html", desc:"fam:JASMINE;lv:Vega-C", stat:"pl", 
   parts: [
@@ -1003,12 +1013,12 @@ sdo:{name:"SDO:Solar Dynamics Observatory", url:"hp:sdo.gsfc.nasa.gov/;tw:twitte
     {n:"HMI:Helioseismic and Magnetic Imager", band:"1.76E+15..6.00E+16", d:0.2, px:0.6, url:"hmi.stanford.edu/", desc:"c:n;"},
     {n:"EVE:Extreme Ultraviolet Variability Experiment", band:"", url:"lasp.colorado.edu/eve/", desc:"c:n;"}
 ]},
-smalljasmine:{name:"Small-JASMINE", url:"hp:www.jasmine-galaxy.org/index.html", desc:"fam:Jasmine", stat:"pl", 
+smalljasmine:{name:"Small-JASMINE", url:"hp:www.jasmine-galaxy.org/index.html", desc:"fam:Jasmine;lv:Epsilon", stat:"pl", 
   parts: [
     {n:"", ctry:"jp", type:"nir", pur:"as;sur", id:"", icon:"", desc:""}
   ], ev: [
-    {pt:"", dt:"2019", tp:"l", loc:"ter:tng", desc:""},
-    {pt:"", dt:"", tp:"sco", loc:"", desc:""}
+    {pt:"", dt:"2023", tp:"l", loc:"ter:tng", desc:""},
+    {pt:"", dt:"2023", tp:"sco", loc:"ter:sseo", desc:""}
   ], inst: [
     {n:"", band:"", res:"", d:"", px:"", desc:"c:;"}
 ]},
@@ -1049,8 +1059,8 @@ solarorbiter:{name:"Solar Orbiter", url:"hp:www.esa.int/Our_activities/Space_Sci
   parts: [
     {n:"", ctry:"eu", type:"uv;par", pur:"sol", id:"", icon:"solarorbiter.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2020", tp:"l", loc:"ter:kou", desc:""},
-    {pt:"", dt:"2020", tp:"sco", loc:"sol:ho", desc:""}
+    {pt:"", dt:"2020-02", tp:"l", loc:"ter:kou", desc:""},
+    {pt:"", dt:"2020-02", tp:"sco", loc:"sol:ho", desc:""}
   ], inst: [
     {n:"EUI:Extreme Ultraviolet Imager", band:"17.4..30.4nm", res:"1", d:"", px:"", fov:"5.2deg", url:"", desc:"cl:ny;"},
     {n:"EPD:Energetic Particle Detector", band:"8..700keV", tp:"psp", res:"", url:"", desc:"c:"},
@@ -1080,7 +1090,7 @@ spp:{name:"Parker Solar Probe", url:"hp:solarprobe.jhuapl.edu/;nasa:solarprobe.g
     {pt:"", dt:"2018-08-12", tp:"l", loc:"ter:cap", desc:""},
     {pt:"", dt:"2018-08-12", tp:"sco", loc:"sol:ho", desc:""}
   ], inst: [
-    {n:"HI:Heliospheric Imager", band:"500..600nm", res:"720", fov:"160x160deg", url:"", desc:"c:n;cl:nl"},
+    {n:"HI:Heliospheric Imager", band:"500..600nm", res:"720", fov:"160x160deg", url:"", desc:"c:nl;cl:nl"},
     {n:"FIA:Fast Ion Analyzer", band:"50..20keV", tp:"par", sres:"0.05", tres:"0.1s", fov:"330x90deg", url:"", desc:"c:"},
     {n:"FEA:Fast Electron Analyzer", band:"1eV..5keV", tp:"par", sres:"0.1", tres:"0.1s", fov:"30x30deg", url:"", desc:"c:"},
     {n:"MAG:Magnetometer", band:"", tp:"em", tres:"0.05s", url:"", desc:"c:"},
@@ -1100,17 +1110,17 @@ spitzer:{name:"Spitzer", url:"hp:ssc.spitzer.caltech.edu/;ipac:irsa.ipac.caltech
     {n:"IRAC", band:"3.6..10um", res:"2.7..1.6", d:0.85, px:1.2, fov:"5.2x5.2'", desc:"warm:<8um;c:nv;"},
     {n:"MIPS", band:"24..160um", res:"57..7.0", d:0.85, px:1.2, desc:"c:nv;", stat:"s"}
 ]},
-srg:{name:"Spektr-RG:Spectrum Roentgen Gamma", url:"hp:hea.iki.rssi.ru/SRG/en/index.php;tw:twitter.com/eROSITA_SRG", desc:"ag:rosc;lv:Proton-M/DM-3;m:2385kg;sc:1.4;x:5;y:20", stat:"pl", 
+srg:{name:"Spektr-RG:Spectrum Roentgen Gamma", url:"hp:hea.iki.rssi.ru/SRG/en/index.php;tw:twitter.com/eROSITA_SRG", desc:"ag:rosc;lv:Proton-M/DM-3;m:2712.5kg;sc:1.4;x:5;y:-2", stat:"o", 
   parts: [
-    {n:"Спектр-РГ", ctry:"ru;de;uk", type:"fuv,sx", pur:"", id:"", icon:"spektr-rg.png", desc:""}
+    {n:"Спектр-РГ", ctry:"ru;de;uk", type:"fuv,sx", pur:"", id:"2019-040A", icon:"srg.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2019-07-12", tp:"l", loc:"ter:bai:LC-81/24", desc:""},
-    {pt:"", dt:"l+3mo", tp:"sco", loc:"sol:esl2", desc:""},
-    {pt:"", dt:"l+6.5yr", tp:"eom", loc:"sol:esl2", desc:"pend"}
+    {pt:"", dt:"2019-07-13", tp:"l", loc:"ter:bai:LC-81/24", desc:""},
+    {pt:"", dt:"2019-10", tp:"sco", loc:"sol:esl2", desc:""},
+    {pt:"", dt:"2026", tp:"eom", loc:"sol:esl2", desc:"pend"}
   ], inst: [
-    {n:"eROSITA", band:"0.3..10keV", res:"15", fov:"50''", desc:"ag:mpg;c:nl;cl:nly;"},
-    {n:"Lobster", band:"", res:"", desc:"ag:Leicester University;c:nl;"},
-    {n:"ART-XC", band:"6..30keV", res:"45", fov:"0.5deg", desc:"ag:iki;c:nl;"}
+    {n:"eROSITA", band:"0.3..11keV", res:"15", fov:"0.81deg2", desc:"ag:mpe;c:nl;cl:nly;"},
+//    {n:"Lobster", band:"", res:"", desc:"ag:Leicester University;c:nl;"},
+    {n:"ART-XC", band:"6..30keV", res:"45", fov:"0.3deg2", desc:"ag:iki;c:nl;"}
 ]},
 spektruv:{name:"Spektr-UV", url:"hp:www.wso-uv.org/wso-uv2/index.php?lang=en;Universidad Complutense:www.wso-uv.es/", desc:"ag:rosc;lv:Proton-M/Briz-M;m:2840kg;sc:1.2;x:10;y:12", stat:"pl", 
   parts: [
@@ -1142,7 +1152,7 @@ stereo:{name:"Stereo:Solar Terrestrial Relations Observatory", url:"hp:stereo.gs
     {pt:"1", dt:"2006-10-26", tp:"sco", loc:"sol:ef", desc:""}
   ], inst: [
     {n:"EUVI", band:"9.99E+15..1.67E+16", d:0.105, px:1.6, desc:"c:nr;cl:ny;"},
-    {n:"COR", band:"6.51E+15..6.00E+15", res:"7.5", desc:"c:nr;"},
+    {n:"COR", band:"6.51E+15..6.00E+15", res:"7.5", desc:"c:nl;"},
     {n:"SECCHI", band:"", url:"secchi.nrl.navy.mil/", desc:"c:n;"},
     {n:"SWAVES", band:"", url:"swaves.gsfc.nasa.gov/", desc:"c:n;"},
     {n:"IMPACT", band:"", url:"sprg.ssl.berkeley.edu/impact/", desc:"c:n;"},
@@ -1198,9 +1208,9 @@ swimsat:{name:"SWIMSat:Space Weather and Impact Monitoring Satellite", url:"", d
   parts: [
     {n:"", ctry:"us", type:"", pur:"sol;neo", id:"", icon:"", desc:""}
   ], ev: [
-    {pt:"", dt:"2019", tp:"l", loc:"ter", desc:""},
-    {pt:"", dt:"2019", tp:"sco", loc:"ter:leo", desc:""},
-    {pt:"", dt:"2021", tp:"nom", loc:"ter:leo", desc:""}
+    {pt:"", dt:"2021", tp:"l", loc:"ter", desc:""},
+    {pt:"", dt:"2021", tp:"sco", loc:"ter:leo", desc:""},
+    {pt:"", dt:"2023", tp:"nom", loc:"ter:leo", desc:""}
 ]},
 tess:{name:"TESS:Transiting Exoplanet Survey Satellite", url:"hp:tess.gsfc.nasa.gov;mast:archive.stsci.edu/tess/;mit:space.mit.edu/TESS/TESS/TESS_Overview.html;tw:twitter.com/NASA_TESS", desc:"ag:nasa;lv:Falcon 9 v1.2;sc:1;x:10;y:0;m:350kg", stat:"o", 
   parts: [
@@ -1209,7 +1219,7 @@ tess:{name:"TESS:Transiting Exoplanet Survey Satellite", url:"hp:tess.gsfc.nasa.
     {pt:"", dt:"2018-04-18", tp:"l", loc:"ter:cap:SLC-40", desc:""},
     {pt:"", dt:"2018-05-17", tp:"fb", loc:"lun:8000km", desc:"ga"},
     {pt:"", dt:"2018-06-17", tp:"sco", loc:"ter:meo:108000x373000kmx40deg", desc:"2:1 Moon resonance"},
-    {pt:"", dt:"2020-09-31", tp:"nom", loc:"ter:meo", desc:"pend"}
+    {pt:"", dt:"2022-09-31", tp:"nom", loc:"ter:meo", desc:"pend"}
   ], inst: [
     {n:"", band:"0.6..1um", res:"", d:"0.105m", px:"21", fov:"24x96deg", tres:"120s", desc:"cl:nl;"}
 ]},

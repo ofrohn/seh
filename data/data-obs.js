@@ -1,8 +1,8 @@
 ﻿SOBS.legend = {
-  en:{freq:"Frequency [Hz]", wav:"Wavelength/\nEnergy", tel:"Space Telescopes\n& Observatories", fut:"Future Missions", abs:"Atmospheric\nAbsorption [%]", grnd:"Some Ground/Air Based Telescopes", ion:"Ionosph.", h2o:"H2O/CO2", o23:"O2 + O3 + Raleigh Scattering", bnd:"Band"},
-  de:{freq:"Frequenz [Hz]", wav:"Wellenlänge/Energie", tel:"Weltraumteleskope", fut:"Zukünftige Missionen", abs:"Atmosphärische\nAbsorption [%}", grnd:"Boden/Luftbasierte\nTeleskope", ion:"Ionosph.", h2o:"H2O/CO2", o23:"O2 + O3 + Raleighstreuung", bnd:"Band"},
-  es:{freq:"Frecuencia [Hz]", wav:"Longitud de Onda/\nEnergia", tel:"Telescopio Espacial", fut:"Misión Futuro", abs:"Absorción\nAtmosférica [%]", grnd:"Telescopios\nTerestres/Volantes", ion:"Ionosf.", h2o:"H2O/CO2", o23:"O2 + O3 + Dispersión Raleigh", bnd:"Banda"},
-  ru:{freq:"Частота [Гц]", wav:"Длина волны/Энергия", tel:"Космические\nтелескопы", fut:"Будущие миссии", abs:"Поглощение\nатмосферы [%]", grnd:"Наземные/воздушные\nнаблюдения", ion:"Ионосф.", h2o:"H2O/CO2", o23:"O2 + O3 + рэлеевское рассеяние", bnd:"Band"}
+  en:{freq:"Frequency [Hz]", wav:"Wavelength/\nEnergy Band", tel:"Space Telescopes\n& Observatories", fut:"Future Missions", abs:"Atmospheric\nAbsorption [%]", grnd:"Some Ground/Air Based Telescopes", ion:"Ionosph.", h2o:"H2O/CO2", o23:"O2 + O3 + Raleigh Scattering", bnd:""},
+  de:{freq:"Frequenz [Hz]", wav:"Wellenlänge/Energieband", tel:"Weltraumteleskope", fut:"Zukünftige Missionen", abs:"Atmosphärische\nAbsorption [%}", grnd:"Boden/Luftbasierte\nTeleskope", ion:"Ionosph.", h2o:"H2O/CO2", o23:"O2 + O3 + Raleighstreuung", bnd:""},
+  es:{freq:"Frecuencia [Hz]", wav:"Longitud de Onda/\nEnergia", tel:"Telescopio Espacial", fut:"Misión Futuro", abs:"Absorción\nAtmosférica [%]", grnd:"Telescopios\nTerestres/Volantes", ion:"Ionosf.", h2o:"H2O/CO2", o23:"O2 + O3 + Dispersión Raleigh", bnd:""},
+  ru:{freq:"Частота [Гц]", wav:"Длина волны/Энергия", tel:"Космические\nтелескопы", fut:"Будущие миссии", abs:"Поглощение\nатмосферы [%]", grnd:"Наземные/воздушные\nнаблюдения", ion:"Ионосф.", h2o:"H2O/CO2", o23:"O2 + O3 + рэлеевское рассеяние", bnd:""}
 };
 
 SOBS.units = [

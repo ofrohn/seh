@@ -1467,7 +1467,7 @@ s2004n1:
    img:"", desc:"sc:3;url:solarsystem.nasa.gov/moons/neptune-moons/s-2004-n1/in-depth/;orb:ec.2013-01-01"},
 tno:
   {name:"Transneptunian Objects", other:"", desig:"", type:"b", par:"sol", disc:"", dyr:"", m:"1.17e23kg",
-   tno:"3321", cen:"Neptune Trojans:22;Centaurs/Scattered Disk Objects:857;Detatched:62;Plutinos:332;Other Resonant:201;Classical KBOs:580",
+   tno:"3442", cen:"Neptune Trojans:22;Centaurs/Scattered Disk Objects:921;Detatched:62;Plutinos:332;Other Resonant:201;Classical KBOs:580",
    img:"kb.png", map:"tno.png", col:"#9fc", ind:"11", 
    desc:"sc:30;scmoons:0.05;url:www.minorplanetcenter.net;rsize:1800,200;x:72;y:72"},
 //Pluto system

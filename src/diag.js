@@ -1,7 +1,7 @@
 function Diag(type, params) {
-  var xrange = {lo:1e6, hi:3e26, off:6, r:20}, 
+  var xrange = {lo:1e6, hi:3e26, off:6, r:20.2}, 
       yrange = {lo:5e-8, hi:5e5, off:7.5, r:12.5},
-      bevel = {x:160, y:54},
+      bevel = {x:180, y:43},
       ypos = SOBS.LEGEND, 
       expfont =  "14px 'Trebuchet MS'", 
       lblfont =  "bold 20px 'Trebuchet MS'", 
@@ -57,7 +57,7 @@ function Diag(type, params) {
       
       c.text(SOBS.range[i].s, (x1+x0)/2, t+off, titlefont, "center", tcol);
     };
-    c.text(SOBS.legend[lang]["bnd"], ori[ypos].l+10*ori[ypos].o, t+off, SOBS.TEXTFONT, ori[ypos].t, SOBS.TEXTCOL);      
+    c.text(SOBS.legend[lang]["bnd"], ori[ypos].l+30*ori[ypos].o, t+off, SOBS.TEXTFONT, ori[ypos].t, SOBS.TEXTCOL);      
     gradient = c.makegradient(l0, 0, l0+len, 0, stops);
   },
   drawXAxis = function(c, top, span, notitles) {
@@ -88,7 +88,7 @@ function Diag(type, params) {
     };
     
     if (!notitles)
-      c.text(SOBS.legend[lang]["wav"], ori[ypos].l+10*ori[ypos].o, h-18, SOBS.TEXTFONT, ori[ypos].t, SOBS.TEXTCOL);      
+      c.text(SOBS.legend[lang]["wav"], ori[ypos].l+25*ori[ypos].o, h-18, SOBS.TEXTFONT, ori[ypos].t, SOBS.TEXTCOL);      
 
     if (span) h += span;
     //h += height+SOBS.BARHEIGHT+2;
