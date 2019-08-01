@@ -1520,8 +1520,8 @@ eri:
 dysn:
   {name:"Dysnomia", other:"S/2005 (2003 UB313) 1", desig:"I", type:"m", par:"eri", disc:"M.E. Brown et al.", dyr:"2005",
    a:"37350km", e:"0.013", i:"142", per:"15.774d", rot:"",
-   h:"3.2", mass:"2e20kg", dia:"342km", rad:"100:", tilt:"",
-   alb:"", grav:"", comp:"", dens:"1.0", 
+   h:"5.6", mass:"2e20kg", dia:"700km", rad:"350:", tilt:"",
+   alb:"0.04", grav:"", comp:"", dens:"1.0", 
    img:"", desc:"sc:3;url:solarsystem.nasa.gov/planets/dwarf-planets/eris/in-depth/;orb:eq.2000-01-01"},
 hau:
   {name:"Haumea", other:"2003 EL61", desig:"136108", type:"d", par:"sol", disc:"M.E. Brown et al.", dyr:"2004",
@@ -1571,14 +1571,14 @@ weyw:
 orc:
   {name:"Orcus", other:"2004 DW", desig:"90482", type:"t", par:"sol", disc:"M.E. Brown et al.", dyr:"2004",
    a:"39.173au", e:"0.22718", i:"20.573", per:"245.18a", rot:"13.188h", gr:"plut",
-   h:"2.2", mass:"6.41e20kg", dia:"800km", rad:"400", tilt:"", alb:"0.27", grav:"0.25", 
+   h:"2.3", mass:"6.41e20kg", dia:"910km", rad:"455", tilt:"", alb:"0.25", grav:"0.25", 
    comp:"", dens:"2.3", atm:"", atp:"", temp:"~44K",
    img:"orcus.png", col:"", desc:"moon:vant;sc:3;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=90482;orb:ec.2010-07-23"},
 vant:
   {name:"Vanth", other:"S/2005 (90482) 1", desig:"I", type:"m", par:"orc", disc:"M.E. Brown et al.", dyr:"2005",
    a:"9030km", e:"0.007", i:"21", per:"9.5406d", rot:"S",
-   h:"", mass:"3e19kg", dia:"360km:", rad:"180", tilt:"",
-   alb:"0.12", grav:"0.1", comp:"", dens:"1.5", temp:"",
+   h:"4.88", mass:"3e19kg", dia:"475km", rad:"237.5", tilt:"",
+   alb:"0.08", grav:"0.1", comp:"", dens:"1.5", temp:"",
    img:"", desc:"sc:3;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=90482;orb:eq.2000-01-01"},
 sed:
   {name:"Sedna", other:"2003 VB12", desig:"90377", type:"t", par:"sol", disc:"M.E. Brown et al.", dyr:"2003",
