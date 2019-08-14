@@ -42,6 +42,8 @@ add: spec. impulse, manufact.
 "Atlas V 411": {ctry:"us", m:"374120", pm:"12030/5950/4500",  d:"58.3x3.81", pf:"10-12x4.2", dt:"2006-04-20..", st:"2/1", ust:"", th:"5422", fam:"Atlas", desc:"l:cap;van;ag:nasa", fuel:"KeroLOX+SRP",  icon:"Atlas-V411.png"},
 "Atlas V 541": {ctry:"us", m:"522330", pm:"17410/8290/6300",  d:"62.2x3.81", pf:"20-26x5.4", dt:"2011-11-26..", st:"2/4", ust:"", th:"9232", fam:"Atlas", desc:"l:cap;van;ag:nasa", fuel:"KeroLOX+SRP",  icon:"Atlas-V500.png"},
 "Atlas V 551": {ctry:"us", m:"568590", pm:"18850/8900/6700",  d:"62.2x3.81", pf:"20-26x5.4", dt:"2006-01-19..", st:"2/5", ust:"Star-48B", th:"10502", fam:"Atlas", desc:"l:cap;van;ag:nasa", fuel:"KeroLOX+SRP",  icon:"Atlas-V500.png"},
+//BFR
+"BFR": {n:"Big Falcon Rocket", ctry:"us", m:"5000000", pm:"100000",  d:"118x9", pf:"", dt:"2020", st:"2", ust:"", th:"61800", fam:"Falcon", desc:"l:ksc,boc;ag:SpX", fuel:"LCH4/LOX", icon:"bfr.png"},
 //CZ-2C
 "CZ-2C": {n:"Long March 2C", alt:"长征二号丙", ctry:"cn", m:"245000", pm:"3850/1440/500",  d:"43.0x3.35", pf:"x3.35", dt:"1975-11-26..", st:"2", ust:"SM/SMA", th:"2962", fam:"Long March", desc:"l:xch,jiu,tai;ag:cnsa", fuel:"UDMH/N2O4", icon:"CZ-2C.png"},
 //CZ-3A, CZ-3B, CZ-3C
@@ -106,7 +108,7 @@ add: spec. impulse, manufact.
 "Falcon Heavy": {ctry:"us", m:"1420800", pm:"63800/26700/16800",  d:"70.0x3.65", pf:"15.0x5.2", dt:"2018-02-06..", st:"2/2", th:"2358", fam:"Falcon", desc:"l:cap,van;ag:spx", fuel:"KeroLOX+SRP", icon:"falcon-h.png"},
 //GSLV 2
 "GSLV MkII": {n:"Geosynchronous Satellite Launch Vehicle Mk. II", alt:"भूस्थिर उपग्रह प्रक्षेपण यान", ctry:"ind", m:"402000", pm:"5000/2500/1300",  d:"49x2.8", pf:"", dt:"2010-04-15..", st:"2/4", ust:" CUS12", th:"7420", fam:"GSLV", desc:"l:sri;ag:isro", fuel:"SRP+UDMH/N2O4", icon:"gslv-mk2.png"},
-"GSLV MkIII": {n:"Geosynchronous Satellite Launch Vehicle Mk. III", alt:"भूस्थिर उपग्रह प्रक्षेपण यान-३", ctry:"ind", m:"630000", pm:"10000/4000/2300",  d:"42.4x4", pf:"4.5", dt:"2014-12..", st:"2/2", ust:"C-25", th:"11300", fam:"GSLV", desc:"l:sri;ag:isro", fuel:"UDMH/N2O4+SRP", icon:"gslv-mk3.png"},
+"GSLV MkIII": {n:"Geosynchronous Satellite Launch Vehicle Mk. III", alt:"भूस्थिर उपग्रह प्रक्षेपण यान-३", ctry:"ind", m:"640000", pm:"10000/4000/2300",  d:"43.4x4", pf:"4.5", dt:"2014-12..", st:"2/2", ust:"C-25", th:"11300", fam:"GSLV", desc:"l:sri;ag:isro", fuel:"UDMH/N2O4+SRP", icon:"gslv-mk3.png"},
 //H-IIA 202, H-IIA 2022
 "H-IIA 202": {ctry:"jp", m:"289000", pm:"10000/4100/1600",  d:"53x4", pf:"12x5.1", dt:"2001-08-29..", st:"2/2", th:"5600", fam:"H-II", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"H2A-202.png"},
 "H-IIA 2022": {ctry:"jp", m:"348000", pm:"-/5000/2000",  d:"53x4", pf:"12x5.1", dt:"2005-02-26..2007-09-14", st:"2/4", th:"8580", fam:"H-II", desc:"l:tng;g:jaxa", fuel:"LH2/LOX+SRP", icon:"H2A-2022.png"},

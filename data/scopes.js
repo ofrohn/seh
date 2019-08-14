@@ -104,6 +104,17 @@ asca:{name:"ASCA:Advanced Satellite for Cosmology and Astrophysics", url:"hp:www
     {pt:"", dt:"", tp:"sco", loc:"ter:leo:525x615kmx31deg", desc:""},
     {pt:"", dt:"2000-07-14", tp:"los", loc:"", desc:"eom"}
 ]},
+asos:{name:"ASO-S:Advanced Space-based Solar Observatory", url:"", desc:"ag:cnsa;m:600kg;lv:CZ-2D", stat:"pl", 
+  parts: [
+    {n:"", ctry:"cn", type:"x", pur:"sol;w", id:"", icon:"asps.png", desc:""}
+  ], ev: [
+    {pt:"", dt:"2021", tp:"l", loc:"ter:xch", desc:""},
+    {pt:"", dt:"2021", tp:"sco", loc:"ter:sseo:620kmx98.2deg", desc:""}
+  ], inst: [
+    {n:"FMG:Full-disk Magnetograph", tp:"is", band:"532nm", res:"0.5", tres:"120", sens:"", fov:"33´", desc:"c:;cl:;"},
+    {n:"LST:Lyman-alpha Solar Telescope", tp:"is", band:"121.6nm", res:"4.6", tres:"1..10s", fov:"2.5rsol", foc:"", sens:"", desc:"c:;cl:;"},
+    {n:"HXI:Hard X-ray Imager", tp:"is", band:"30..300keV", res:"6", sres:"3%@662keV", tres:"0.5", ea:"100cm2", fov:"1deg", foc:"", sens:"", desc:"c:;cl:;"}
+]},
 astro1:{name:"ASTRO-1", url:"hp:nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=ASTRO-1;MAST:archive.stsci.edu/astro/", desc:"ag:nasa;lv:STS-35 Columbia", stat:"s", 
   parts: [
     {n:"", ctry:"us", type:"uv;x", pur:"", id:"1990-106A", icon:"", desc:"m:12453kg"}
@@ -1242,11 +1253,13 @@ trace:{name:"TRACE:Transition Region And Coronal Explorer", url:"hp:trace.lmsal.
 ]}, 
 uhuru:{name:"Uhuru", url:"hp:heasarc.gsfc.nasa.gov/docs/uhuru/uhuru.html", desc:"ag:nasa;lv:Scout B;fam:Explorer", stat:"s", 
   parts: [
-    {n:"SAS-1", ctry:"", type:"x", pur:"", id:"1970-107A", icon:""}
+    {n:"SAS-1", ctry:"us", type:"x", pur:"", id:"1970-107A", icon:""}
   ], ev: [
     {pt:"", dt:"1970-12-12", tp:"l", loc:"ter:smp", desc:""},
     {pt:"", dt:"1971-01-15", tp:"sco", loc:"ter:leo:534x573kmx3deg", desc:""},
     {pt:"", dt:"1973", tp:"tos", loc:"", desc:"eom"}
+  ], inst: [
+    {n:"", band:"2..20keV", res:"60", fov:"1deg", desc:"c:"}
 ]}, 
 vsop2:{name:"VSOP-2", url:"hp:www.vsop.isas.jaxa.jp/vsop2/;nrao:www.vsop2.nrao.edu/", desc:"Suspended", stat:"pr", 
   parts: [

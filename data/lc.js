@@ -58,7 +58,7 @@ Common.lpad = [
 {n:"LC-36A", par:"cap", lv:"Atlas Centaur;New Glenn", loc:"28.4714N,80.5376W"},
 {n:"LC-36B", par:"cap", lv:"Atlas Centaur;Atlas II", loc:"28.4753N,80.5396W"},
 {n:"LC-37B", par:"cap", lv:"Saturn IB,Delta IV", loc:"28.531N,80.565W"},
-{n:"LC-39A", par:"ksc", lv:"Saturn V;STS;Falcon 9;Falcon Heavy", loc:"28.608N,80.604W"},
+{n:"LC-39A", par:"ksc", lv:"Saturn V;STS;Falcon 9;Falcon Heavy;BFR", loc:"28.608N,80.604W"},
 {n:"LC-39B", par:"ksc", lv:"Saturn V;STS;SLS;OmegA", loc:"28.627N,80.621W"},
 {n:"LC-40", par:"cap", lv:"Titan;Falcon 9", loc:"28.562N,80.577W"},
 {n:"LC-41", par:"cap", lv:"Titan;Atlas V", loc:"28.583N,80.583W"},

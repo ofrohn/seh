@@ -1519,10 +1519,10 @@ eri:
    img:"eris.png", col:"", desc:"moon:dys;sc:3;url:solarsystem.nasa.gov/planets/dwarf-planets/eris/in-depth/;orb:ec.2000-01-01"},
 dysn:
   {name:"Dysnomia", other:"S/2005 (2003 UB313) 1", desig:"I", type:"m", par:"eri", disc:"M.E. Brown et al.", dyr:"2005",
-   a:"37350km", e:"0.013", i:"142", per:"15.774d", rot:"",
+   a:"37460km", e:"0.004", i:"61.1", per:"15.786d", rot:"",
    h:"5.6", mass:"2e20kg", dia:"700km", rad:"350:", tilt:"",
    alb:"0.04", grav:"", comp:"", dens:"1.0", 
-   img:"", desc:"sc:3;url:solarsystem.nasa.gov/planets/dwarf-planets/eris/in-depth/;orb:eq.2000-01-01"},
+   img:"", desc:"sc:3;url:solarsystem.nasa.gov/planets/dwarf-planets/eris/in-depth/;orb:ec.2015-02-01"},
 hau:
   {name:"Haumea", other:"2003 EL61", desig:"136108", type:"d", par:"sol", disc:"M.E. Brown et al.", dyr:"2004",
    a:"43.132au", e:"0.1950", i:"28.22", per:"283.28a", rot:"3.916h", gr:"cube",

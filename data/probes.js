@@ -2712,9 +2712,9 @@ hayabusa2: {name:"Hayabusa 2:Peregrine Falcon 2", desc:"lv:H-IIA 202",
     {pt:"2", type:"td", dt:"2018-09-21", loc:"ast", desc:"hpp:MINERVA II1 A&B;Hibou & Owl"},
     {pt:"3", type:"td", dt:"2018-10-03", loc:"ast", desc:"lp:MASCOT"},
     {pt:"3", type:"los", dt:"2018-10-04", loc:"ast", desc:"lp:MASCOT;eom:slm"},
-    {pt:"0", type:"dsc", dt:"2019-02-21", loc:"ast", desc:"1. Sample Collection"},
+    {pt:"0", type:"dsc", dt:"2019-02-21", loc:"ast", desc:"1. Sample Collection;Tamatebako"},
     {pt:"1", type:"imp", dt:"2019-04-05", loc:"ast", desc:"ip:SCI;Cratering Experiment;eom:im"},
-    {pt:"0", type:"dsc", dt:"2019-07-11", loc:"ast", desc:"2. Sample Collection"},
+    {pt:"0", type:"dsc", dt:"2019-07-11", loc:"ast", desc:"2. Sample Collection;Uchide-no-kozuchi"},
     {pt:"2", type:"td", dt:"2019-08", loc:"ast", desc:"hpp:MINERVA II2;eom:hpm"},
     {pt:"0", type:"dep", dt:"2019-11", loc:"ast", desc:""},
     {pt:"0", type:"edl", dt:"2020-11", loc:"ter", desc:"eom"}
@@ -2831,16 +2831,16 @@ change4relay: {name:"Queqiao:Magpie Bridge", desc:"lv:CZ-4C",
     {pt:"", type:"sco", dt:"2018-06-14", loc:"lun:eml2:13000km", desc:"Halo orbit"},
     {pt:"", type:"nom", dt:"2023-06", loc:"lun", desc:"?"}
 ]},
-dslwp: {name:"Longjiang 1 & 2:Dragon River", desc:"lv:CZ-4C;part:change4relay", stat:"o",
+dslwp: {name:"Longjiang 1 & 2:Dragon River", desc:"lv:CZ-4C;part:change4relay", stat:"p",
   parts:[
     {names:"龙江一号;DSLWP-A1:Discovering the Sky at Longest Wavelengths Pathfinder", type:"obm", dest:"lun", stat:"f", ctry:"cn", desc:"ag:cnsa,HIT;m:45kg;dim:0.5x0.5x0.4m;sc:0.3", id:"2018-045B", url:"hp:lilacsat.hit.edu.cn/;China Spaceflight:www.chinaspaceflight.com/satellite/HIT/DSLWP-A1-A2.html", icon:"dslwp.png"},
-    {names:"龙江二号;DSLWP-A2:Discovering the Sky at Longest Wavelengths Pathfinder", type:"obm", dest:"lun", stat:"o", ctry:"cn", desc:"", id:"2018-045C", url:"Longjiang:lilacsat.hit.edu.cn/dashboard/pages/pics-b.html", icon:""}
+    {names:"龙江二号;DSLWP-A2:Discovering the Sky at Longest Wavelengths Pathfinder", type:"obm", dest:"lun", stat:"s", ctry:"cn", desc:"", id:"2018-045C", url:"Longjiang:lilacsat.hit.edu.cn/dashboard/pages/pics-b.html", icon:""}
    ], 
   events:[
     {pt:"", type:"l", dt:"2018-05-21", loc:"ter:xch:LC-2", desc:"Chang'e 4 LRS piggyback"},
-    {pt:"0", type:"los", dt:"2018-05-21", loc:"ter:lto", desc:"Longjiang 1"},
+    {pt:"0", type:"los", dt:"2018-05-21", loc:"ter:lto", desc:"eom;Longjiang 1"},
     {pt:"1", type:"oi", dt:"2018-05-25", loc:"lun:350x13700km", desc:"Longjiang 2"},
-    {pt:"1", type:"imp", dt:"2019-07-31", loc:"lun", desc:"eom"}
+    {pt:"1", type:"imp", dt:"2019-07-31", loc:"lun:15.5N,157.5E", desc:"eom;show:0"}
 ]},
 bepicolombo: {name:"Bepi Colombo", desc:"lv:Ariane 5ECA",
   parts:[
@@ -2903,15 +2903,16 @@ change4: {name:"Chang'e 4", desc:"lv:CZ-3B/G3Z",
 chandrayaan2: {name:"Chandrayaan 2:Moon Craft 2", desc:"lv:GSLV MkIII",
   parts:[
     {names:"चंद्रयान-२", type:"om", dest:"lun", stat:"o", ctry:"ind", desc:"ag:isro;m:2379kg;dim:3.2x5.8x2.1m;sc:0.5", id:"2019-042A", url:"hp:www.isro.gov.in/chandrayaan2-home-0", icon:"chandrayaan2-o.png"},
-{names:"Vikram", type:"slm", dest:"lun", stat:"o", ctry:"ind", desc:"ag:isro;m:1471kg", icon:"chandrayaan2-l.png"},
+{names:"Vikram", type:"slm", dest:"lun", stat:"o", ctry:"ind", desc:"ag:isro;m:1471kg;dim:2.5x2x1.2m", icon:"chandrayaan2-l.png"},
 {names:"Pragyan", type:"rvm", dest:"lun", stat:"o", ctry:"ind", desc:"ag:isro;m:27kg;dim:0.9x0.75x0.85m;sc:0.5", icon:"chandrayaan2-rv.png"}], 
   events:[
     {pt:"", type:"l", dt:"2019-07-22", loc:"ter:sri:SLP", desc:""},
-    {pt:"", type:"toi", dt:"2019-07-22", loc:"ter:170x40400km", desc:"Phasing Orbits"},
-    {pt:"0", type:"oi", dt:"2019-08-14", loc:"lun", desc:""},
-    {pt:"0", type:"sco", dt:"2019-08-21", loc:"lun:100km", desc:""},
-    {pt:"0", type:"sep", dt:"2019-09-10", loc:"lun", desc:"op/lp"},
-    {pt:"1", type:"td", dt:"2019-09-14", loc:"lun:70.9S,22.78E", desc:"Between Manzinus & Simpelius Crater;show:Ch2-Vikram"},
+    {pt:"", type:"oi", dt:"2019-07-22", loc:"ter:170x40400km", desc:"Phasing Orbits"},
+    {pt:"", type:"toi", dt:"2019-08-13", loc:"ter:lto", desc:"tli"},
+    {pt:"0", type:"oi", dt:"2019-08-20", loc:"lun:118x18078km", desc:""},
+    {pt:"0", type:"sco", dt:"2019-09-01", loc:"lun:114x128km", desc:""},
+    {pt:"0", type:"sep", dt:"2019-09-02", loc:"lun", desc:"op/lp"},
+    {pt:"1", type:"td", dt:"2019-09-07", loc:"lun:70.9S,22.78E", desc:"Between Manzinus & Simpelius Crater;show:Ch2-Vikram"},
     {pt:"1", type:"nom", dt:"2019-10-01", loc:"lun", desc:"lp"},
     {pt:"2", type:"nom", dt:"2019-10-01", loc:"lun", desc:"rvp"},
     {pt:"0", type:"nom", dt:"2020-08", loc:"lun", desc:"?"}

@@ -3361,9 +3361,9 @@ hayabusa2: {name:"Hayabusa 2:Peregrine Falcon 2", desc:"lv:H-IIA 202",
     {pt:"2", type:"td", dt:"2018-09-21", loc:"ast", desc:"hpp:MINERVA II1 A&B;Hibou & Owl"},
     {pt:"3", type:"td", dt:"2018-10-03", loc:"ast", desc:"lp:MASCOT"},
     {pt:"3", type:"los", dt:"2018-10-04", loc:"ast", desc:"lp:MASCOT;eom:slm"},
-    {pt:"0", type:"dsc", dt:"2019-02-21", loc:"ast", desc:"1. Sample Collection"},
+    {pt:"0", type:"dsc", dt:"2019-02-21", loc:"ast", desc:"1. Sample Collection;Tamatebako"},
     {pt:"1", type:"imp", dt:"2019-04-05", loc:"ast", desc:"ip:SCI;Cratering Experiment;eom:im"},
-    {pt:"0", type:"dsc", dt:"2019-07-11", loc:"ast", desc:"2. Sample Collection"},
+    {pt:"0", type:"dsc", dt:"2019-07-11", loc:"ast", desc:"2. Sample Collection;Uchide-no-kozuchi"},
     {pt:"2", type:"td", dt:"2019-08", loc:"ast", desc:"hpp:MINERVA II2;eom:hpm"},
     {pt:"0", type:"dep", dt:"2019-11", loc:"ast", desc:""},
     {pt:"0", type:"edl", dt:"2020-11", loc:"ter", desc:"eom"}
@@ -3480,16 +3480,16 @@ change4relay: {name:"Queqiao:Magpie Bridge", desc:"lv:CZ-4C",
     {pt:"", type:"sco", dt:"2018-06-14", loc:"lun:eml2:13000km", desc:"Halo orbit"},
     {pt:"", type:"nom", dt:"2023-06", loc:"lun", desc:"?"}
 ]},
-dslwp: {name:"Longjiang 1 & 2:Dragon River", desc:"lv:CZ-4C;part:change4relay", stat:"o",
+dslwp: {name:"Longjiang 1 & 2:Dragon River", desc:"lv:CZ-4C;part:change4relay", stat:"p",
   parts:[
     {names:"龙江一号;DSLWP-A1:Discovering the Sky at Longest Wavelengths Pathfinder", type:"obm", dest:"lun", stat:"f", ctry:"cn", desc:"ag:cnsa,HIT;m:45kg;dim:0.5x0.5x0.4m;sc:0.3", id:"2018-045B", url:"hp:lilacsat.hit.edu.cn/;China Spaceflight:www.chinaspaceflight.com/satellite/HIT/DSLWP-A1-A2.html", icon:"dslwp.png"},
-    {names:"龙江二号;DSLWP-A2:Discovering the Sky at Longest Wavelengths Pathfinder", type:"obm", dest:"lun", stat:"o", ctry:"cn", desc:"", id:"2018-045C", url:"Longjiang:lilacsat.hit.edu.cn/dashboard/pages/pics-b.html", icon:""}
+    {names:"龙江二号;DSLWP-A2:Discovering the Sky at Longest Wavelengths Pathfinder", type:"obm", dest:"lun", stat:"s", ctry:"cn", desc:"", id:"2018-045C", url:"Longjiang:lilacsat.hit.edu.cn/dashboard/pages/pics-b.html", icon:""}
    ], 
   events:[
     {pt:"", type:"l", dt:"2018-05-21", loc:"ter:xch:LC-2", desc:"Chang'e 4 LRS piggyback"},
-    {pt:"0", type:"los", dt:"2018-05-21", loc:"ter:lto", desc:"Longjiang 1"},
+    {pt:"0", type:"los", dt:"2018-05-21", loc:"ter:lto", desc:"eom;Longjiang 1"},
     {pt:"1", type:"oi", dt:"2018-05-25", loc:"lun:350x13700km", desc:"Longjiang 2"},
-    {pt:"1", type:"imp", dt:"2019-07-31", loc:"lun", desc:"eom"}
+    {pt:"1", type:"imp", dt:"2019-07-31", loc:"lun:15.5N,157.5E", desc:"eom;show:0"}
 ]},
 bepicolombo: {name:"Bepi Colombo", desc:"lv:Ariane 5ECA",
   parts:[
@@ -3552,15 +3552,16 @@ change4: {name:"Chang'e 4", desc:"lv:CZ-3B/G3Z",
 chandrayaan2: {name:"Chandrayaan 2:Moon Craft 2", desc:"lv:GSLV MkIII",
   parts:[
     {names:"चंद्रयान-२", type:"om", dest:"lun", stat:"o", ctry:"ind", desc:"ag:isro;m:2379kg;dim:3.2x5.8x2.1m;sc:0.5", id:"2019-042A", url:"hp:www.isro.gov.in/chandrayaan2-home-0", icon:"chandrayaan2-o.png"},
-{names:"Vikram", type:"slm", dest:"lun", stat:"o", ctry:"ind", desc:"ag:isro;m:1471kg", icon:"chandrayaan2-l.png"},
+{names:"Vikram", type:"slm", dest:"lun", stat:"o", ctry:"ind", desc:"ag:isro;m:1471kg;dim:2.5x2x1.2m", icon:"chandrayaan2-l.png"},
 {names:"Pragyan", type:"rvm", dest:"lun", stat:"o", ctry:"ind", desc:"ag:isro;m:27kg;dim:0.9x0.75x0.85m;sc:0.5", icon:"chandrayaan2-rv.png"}], 
   events:[
     {pt:"", type:"l", dt:"2019-07-22", loc:"ter:sri:SLP", desc:""},
-    {pt:"", type:"toi", dt:"2019-07-22", loc:"ter:170x40400km", desc:"Phasing Orbits"},
-    {pt:"0", type:"oi", dt:"2019-08-14", loc:"lun", desc:""},
-    {pt:"0", type:"sco", dt:"2019-08-21", loc:"lun:100km", desc:""},
-    {pt:"0", type:"sep", dt:"2019-09-10", loc:"lun", desc:"op/lp"},
-    {pt:"1", type:"td", dt:"2019-09-14", loc:"lun:70.9S,22.78E", desc:"Between Manzinus & Simpelius Crater;show:Ch2-Vikram"},
+    {pt:"", type:"oi", dt:"2019-07-22", loc:"ter:170x40400km", desc:"Phasing Orbits"},
+    {pt:"", type:"toi", dt:"2019-08-13", loc:"ter:lto", desc:"tli"},
+    {pt:"0", type:"oi", dt:"2019-08-20", loc:"lun:118x18078km", desc:""},
+    {pt:"0", type:"sco", dt:"2019-09-01", loc:"lun:114x128km", desc:""},
+    {pt:"0", type:"sep", dt:"2019-09-02", loc:"lun", desc:"op/lp"},
+    {pt:"1", type:"td", dt:"2019-09-07", loc:"lun:70.9S,22.78E", desc:"Between Manzinus & Simpelius Crater;show:Ch2-Vikram"},
     {pt:"1", type:"nom", dt:"2019-10-01", loc:"lun", desc:"lp"},
     {pt:"2", type:"nom", dt:"2019-10-01", loc:"lun", desc:"rvp"},
     {pt:"0", type:"nom", dt:"2020-08", loc:"lun", desc:"?"}
@@ -5564,10 +5565,10 @@ eri:
    img:"eris.png", col:"", desc:"moon:dys;sc:3;url:solarsystem.nasa.gov/planets/dwarf-planets/eris/in-depth/;orb:ec.2000-01-01"},
 dysn:
   {name:"Dysnomia", other:"S/2005 (2003 UB313) 1", desig:"I", type:"m", par:"eri", disc:"M.E. Brown et al.", dyr:"2005",
-   a:"37350km", e:"0.013", i:"142", per:"15.774d", rot:"",
+   a:"37460km", e:"0.004", i:"61.1", per:"15.786d", rot:"",
    h:"5.6", mass:"2e20kg", dia:"700km", rad:"350:", tilt:"",
    alb:"0.04", grav:"", comp:"", dens:"1.0", 
-   img:"", desc:"sc:3;url:solarsystem.nasa.gov/planets/dwarf-planets/eris/in-depth/;orb:eq.2000-01-01"},
+   img:"", desc:"sc:3;url:solarsystem.nasa.gov/planets/dwarf-planets/eris/in-depth/;orb:ec.2015-02-01"},
 hau:
   {name:"Haumea", other:"2003 EL61", desig:"136108", type:"d", par:"sol", disc:"M.E. Brown et al.", dyr:"2004",
    a:"43.132au", e:"0.1950", i:"28.22", per:"283.28a", rot:"3.916h", gr:"cube",
@@ -6186,6 +6187,8 @@ add: spec. impulse, manufact.
 "Atlas V 411": {ctry:"us", m:"374120", pm:"12030/5950/4500",  d:"58.3x3.81", pf:"10-12x4.2", dt:"2006-04-20..", st:"2/1", ust:"", th:"5422", fam:"Atlas", desc:"l:cap;van;ag:nasa", fuel:"KeroLOX+SRP",  icon:"Atlas-V411.png"},
 "Atlas V 541": {ctry:"us", m:"522330", pm:"17410/8290/6300",  d:"62.2x3.81", pf:"20-26x5.4", dt:"2011-11-26..", st:"2/4", ust:"", th:"9232", fam:"Atlas", desc:"l:cap;van;ag:nasa", fuel:"KeroLOX+SRP",  icon:"Atlas-V500.png"},
 "Atlas V 551": {ctry:"us", m:"568590", pm:"18850/8900/6700",  d:"62.2x3.81", pf:"20-26x5.4", dt:"2006-01-19..", st:"2/5", ust:"Star-48B", th:"10502", fam:"Atlas", desc:"l:cap;van;ag:nasa", fuel:"KeroLOX+SRP",  icon:"Atlas-V500.png"},
+//BFR
+"BFR": {n:"Big Falcon Rocket", ctry:"us", m:"5000000", pm:"100000",  d:"118x9", pf:"", dt:"2020", st:"2", ust:"", th:"61800", fam:"Falcon", desc:"l:ksc,boc;ag:SpX", fuel:"LCH4/LOX", icon:"bfr.png"},
 //CZ-2C
 "CZ-2C": {n:"Long March 2C", alt:"长征二号丙", ctry:"cn", m:"245000", pm:"3850/1440/500",  d:"43.0x3.35", pf:"x3.35", dt:"1975-11-26..", st:"2", ust:"SM/SMA", th:"2962", fam:"Long March", desc:"l:xch,jiu,tai;ag:cnsa", fuel:"UDMH/N2O4", icon:"CZ-2C.png"},
 //CZ-3A, CZ-3B, CZ-3C
@@ -6250,7 +6253,7 @@ add: spec. impulse, manufact.
 "Falcon Heavy": {ctry:"us", m:"1420800", pm:"63800/26700/16800",  d:"70.0x3.65", pf:"15.0x5.2", dt:"2018-02-06..", st:"2/2", th:"2358", fam:"Falcon", desc:"l:cap,van;ag:spx", fuel:"KeroLOX+SRP", icon:"falcon-h.png"},
 //GSLV 2
 "GSLV MkII": {n:"Geosynchronous Satellite Launch Vehicle Mk. II", alt:"भूस्थिर उपग्रह प्रक्षेपण यान", ctry:"ind", m:"402000", pm:"5000/2500/1300",  d:"49x2.8", pf:"", dt:"2010-04-15..", st:"2/4", ust:" CUS12", th:"7420", fam:"GSLV", desc:"l:sri;ag:isro", fuel:"SRP+UDMH/N2O4", icon:"gslv-mk2.png"},
-"GSLV MkIII": {n:"Geosynchronous Satellite Launch Vehicle Mk. III", alt:"भूस्थिर उपग्रह प्रक्षेपण यान-३", ctry:"ind", m:"630000", pm:"10000/4000/2300",  d:"42.4x4", pf:"4.5", dt:"2014-12..", st:"2/2", ust:"C-25", th:"11300", fam:"GSLV", desc:"l:sri;ag:isro", fuel:"UDMH/N2O4+SRP", icon:"gslv-mk3.png"},
+"GSLV MkIII": {n:"Geosynchronous Satellite Launch Vehicle Mk. III", alt:"भूस्थिर उपग्रह प्रक्षेपण यान-३", ctry:"ind", m:"640000", pm:"10000/4000/2300",  d:"43.4x4", pf:"4.5", dt:"2014-12..", st:"2/2", ust:"C-25", th:"11300", fam:"GSLV", desc:"l:sri;ag:isro", fuel:"UDMH/N2O4+SRP", icon:"gslv-mk3.png"},
 //H-IIA 202, H-IIA 2022
 "H-IIA 202": {ctry:"jp", m:"289000", pm:"10000/4100/1600",  d:"53x4", pf:"12x5.1", dt:"2001-08-29..", st:"2/2", th:"5600", fam:"H-II", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"H2A-202.png"},
 "H-IIA 2022": {ctry:"jp", m:"348000", pm:"-/5000/2000",  d:"53x4", pf:"12x5.1", dt:"2005-02-26..2007-09-14", st:"2/4", th:"8580", fam:"H-II", desc:"l:tng;g:jaxa", fuel:"LH2/LOX+SRP", icon:"H2A-2022.png"},
@@ -6391,7 +6394,7 @@ Common.lpad = [
 {n:"LC-36A", par:"cap", lv:"Atlas Centaur;New Glenn", loc:"28.4714N,80.5376W"},
 {n:"LC-36B", par:"cap", lv:"Atlas Centaur;Atlas II", loc:"28.4753N,80.5396W"},
 {n:"LC-37B", par:"cap", lv:"Saturn IB,Delta IV", loc:"28.531N,80.565W"},
-{n:"LC-39A", par:"ksc", lv:"Saturn V;STS;Falcon 9;Falcon Heavy", loc:"28.608N,80.604W"},
+{n:"LC-39A", par:"ksc", lv:"Saturn V;STS;Falcon 9;Falcon Heavy;BFR", loc:"28.608N,80.604W"},
 {n:"LC-39B", par:"ksc", lv:"Saturn V;STS;SLS;OmegA", loc:"28.627N,80.621W"},
 {n:"LC-40", par:"cap", lv:"Titan;Falcon 9", loc:"28.562N,80.577W"},
 {n:"LC-41", par:"cap", lv:"Titan;Atlas V", loc:"28.583N,80.583W"},
