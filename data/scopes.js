@@ -356,6 +356,18 @@ exosat:{name:"Exosat", url:"hp:www.cosmos.esa.int/web/exosat/;esa:sci.esa.int/ex
     {n:"ME", tp:"sp", band:"1..50keV", res:"", fov:"0.75x0.75deg", url:"", desc:"c:;"},
     {n:"GSPC", tp:"ctr", band:"2..32keV", res:"", url:"", desc:"c:;"}
 ]},
+/*extp:{name:"eXTP:enhanced X-ray Timing and Polarization", url:"hp:www.isdc.unige.ch/extp/", desc:"ag:cnsa,esa;lv:CZ-7;m:4500kg;sc:1.0;x:-1;y:0", stat:"pl", 
+  parts: [
+    {n:"", ctry:"cn;eu", type:"x", pur:"", id:"", icon:"extp.png", desc:""}
+  ], ev: [
+    {pt:"", dt:"2025", tp:"l", loc:"ter:wen", desc:""},
+    {pt:"", dt:"2025", tp:"sco", loc:"ter:leo:550km", desc:""}
+  ], inst: [
+    {n:"SFA:Spectroscopic Focusing Array", band:"0.5..20keV", res:"60", sres:"3%@6keV", ea:"0.9m2@1keV", fov:"12'", url:"", desc:"c:nl;cl:nl;"},
+    {n:"PFA:Polarimetry Focusing Array", band:"2..10keV", res:"30", sres:"18%@6keV", ea:"0.9m2@2keV", fov:"12'", url:"", desc:"c:nl;cl:nl;"},
+    {n:"WFM:Wide Field Monitor", band:"2..50keV", res:"300", sres:"5%@6keV", ea:"0.9m2@1keV", fov:"70deg", url:"", desc:"c:nl;cl:nl;"},
+    {n:"LAD:Large Area Detector", band:"1..30keV", res:"", sres:"4%@6keV", ea:"3.4m2@6keV", fov:"1deg", url:"", desc:"c:nl;"}
+]},*/
 fermi:{name:"Fermi", url:"hp:fermi.gsfc.nasa.gov/", desc:"ag:nasa;lv:Delta 7920H;sc:1.4;x:-60;y:38", stat:"o", 
   parts: [
     {n:"GLAST:Gamma-ray Large Area Space Telescope", ctry:"us", type:"g", pur:"sur", id:"2008-29A", icon:"fermi.png", desc:""}
