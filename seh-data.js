@@ -3562,7 +3562,7 @@ chandrayaan2: {name:"Chandrayaan 2:Moon Craft 2", desc:"lv:GSLV MkIII",
     {pt:"0", type:"oi", dt:"2019-08-20", loc:"lun:114x18072kmx87.8deg", desc:""},
     {pt:"0", type:"sco", dt:"2019-09-01", loc:"lun:114x128km", desc:""},
     {pt:"0", type:"sep", dt:"2019-09-02", loc:"lun", desc:"op/lp"},
-    {pt:"1", type:"td", dt:"2019-09-07", loc:"lun:70.9S,22.78E", desc:"Between Manzinus & Simpelius Crater;show:Ch2-Vikram"},
+    {pt:"1", type:"td", dt:"2019-09-07", loc:"lun:70.9S,22.78E", desc:"Between Manzinus & Simpelius Crater;show:Ch2-Vikram:NW"},
     {pt:"1", type:"nom", dt:"2019-10-01", loc:"lun", desc:"lp"},
     {pt:"2", type:"nom", dt:"2019-10-01", loc:"lun", desc:"rvp"},
     {pt:"0", type:"nom", dt:"2020-08", loc:"lun", desc:"?"}
