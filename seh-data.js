@@ -201,6 +201,7 @@ swri: {name:"SwRI:Southwest Research Institute", desc:"url:www.swri.org/"},
 noaa: {name:"NOAA:National Oceanic and Atmospheric Administration", desc:"url:www.noaa.gov/"},
 b612: {name:"B612:B612 Foundation", desc:"url:b612foundation.org"},
 glxp: {name:"GLXP:Google Lunar X-Prize", desc:"url:www.googlelunarxprize.org/"},
+clps: {name:"CLSP: Commercial Lunar Payload Services", desc:"url:nasa.gov/content/commercial-lunar-payload-services"},
 
 rosc: {name:"Roscosmos:Russian State Corporation", desc:"url:en.federalspace.ru;ctry:ru"},
 rsf: {name:"Russian Space Forces", desc:"ctry:ru"},
@@ -3364,7 +3365,7 @@ hayabusa2: {name:"Hayabusa 2:Peregrine Falcon 2", desc:"lv:H-IIA 202",
     {pt:"0", type:"dsc", dt:"2019-02-21", loc:"ast", desc:"1. Sample Collection;Tamatebako"},
     {pt:"1", type:"imp", dt:"2019-04-05", loc:"ast", desc:"ip:SCI;Cratering Experiment;eom:im"},
     {pt:"0", type:"dsc", dt:"2019-07-11", loc:"ast", desc:"2. Sample Collection;Uchide-no-kozuchi"},
-    {pt:"2", type:"td", dt:"2019-08", loc:"ast", desc:"hpp:MINERVA II2;eom:hpm"},
+    {pt:"2", type:"td", dt:"2019-09-24", loc:"ast", desc:"hpp:MINERVA II2;eom:hpm"},
     {pt:"0", type:"dep", dt:"2019-11", loc:"ast", desc:""},
     {pt:"0", type:"edl", dt:"2020-11", loc:"ter", desc:"eom"}
 ]},
@@ -3544,8 +3545,8 @@ change4: {name:"Chang'e 4", desc:"lv:CZ-3B/G3Z",
     {pt:"", type:"sco", dt:"2018-12-30", loc:"lun:100x15kmx90deg", desc:""},
     {pt:"", type:"td", dt:"2019-01-03", loc:"lun:45.471S,177.606E", desc:"Statio Tianhe, Von Karman crater, SPA;show:CE4:NW"},
     {pt:"", type:"sep", dt:"2019-01-03", loc:"lun", desc:"lp/rvp"}, 
-    {pt:"1", type:"ex", dt:"", loc:"lun", desc:"rvp;rv:212m"},    
-    {pt:"1", type:"nom", dt:"2019-06", loc:"lun", desc:"rvp;?;eom:rvm"},
+    {pt:"1", type:"ex", dt:"", loc:"lun", desc:"rvp;rv:271m"},    
+    {pt:"1", type:"nom", dt:"2019-10", loc:"lun", desc:"rvp;?;eom:rvm"},
     {pt:"0", type:"nom", dt:"2019-12", loc:"lun", desc:"lp;?"}
 ]},
 // --- 2019
@@ -3767,6 +3768,14 @@ emm: {name:"Mars Hope", desc:"lv:H-IIA 202",
     {pt:"", type:"nom", dt:"2023", loc:"mar", desc:""},
     {pt:"", type:"pom", dt:"2025", loc:"mar", desc:""}
 ]},
+/*z01: {name:"Z-01", desc:"lv:Falcon 9",
+  parts:[
+    {names:"", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Orbit Beyond;fam:CLPS;sc:0.5", id:"", url:"orbitbeyond.com", icon:"z01.png"}], 
+  events:[
+    {pt:"", type:"l", dt:"2020-09", loc:"ter:cap", desc:""},
+    {pt:"", type:"td", dt:"l+4d", loc:"lun:29.52N,25.68W", desc:"Mare Imbrium"},
+    {pt:"", type:"nom", dt:"2021", loc:"lun", desc:""}
+]},*/
 // --- 2021
 change6: {name:"Chang'e 6", desc:"lv:CZ-5",
   parts:[
@@ -3818,12 +3827,29 @@ dart: {name:"DART:Double Asteroid Redirection Test", desc:"lv:Falcon 9",
 ]},
 slim:{name:"SLIM:Smart Lander for Investigating Moon", desc:"lv:H-IIA 202", stat:"pl", 
   parts: [
-    {names:"スリム;SPRINT-C", ctry:"jp", type:"slm", dest:"lun", id:"", icon:"slim.png", desc:"ag:jaxa;m:730kg;m0:200kg;sc:0.2", url:"hp:www.isas.jaxa.jp/en/missions/spacecraft/developing/slim.html"}], 
+    {names:"スリム;SPRINT-C", ctry:"jp", type:"slm", dest:"lun", id:"", icon:"slim.png", desc:"ag:jaxa;m:730kg;m0:200kg;sc:0.3", url:"hp:www.isas.jaxa.jp/en/missions/spacecraft/developing/slim.html"}], 
   events: [
     {pt:"", dt:"2021", type:"l", loc:"ter:uch", desc:""},
     {pt:"", dt:"l+4dy", type:"oi", loc:"lun", desc:""},
     {pt:"", type:"td", dt:"l+1mo", loc:"lun:13.3S,25.2E", desc:"Mare Nectaris"},
     {pt:"", type:"nom", dt:"l+1.1mo", loc:"lun", desc:"?"}
+]},
+peregrine: {name:"Peregrine", desc:"lv:Vulcan",
+  parts:[
+    {names:"M1:Mission 1", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Astrobotic;fam:clps;dim:1.9x1.9x2.5m;m:1313kg;sc:0.3", id:"", url:"hp:www.astrobotic.com/peregrine;clps:nasa.gov/content/commercial-lunar-payload-services", icon:"peregrin.png"}], 
+  events:[
+    {pt:"", type:"l", dt:"2021-07", loc:"ter:cap", desc:""},
+    {pt:"", type:"oi", dt:"l+4d", loc:"lun:100x8700kmx56deg", desc:""},
+    {pt:"", type:"td", dt:"l+18d", loc:"lun:43.914N,25.148E", desc:"Lacus Mortis"},
+    {pt:"", type:"nom", dt:"l+2mo", loc:"lun", desc:""}
+]},
+novac: {name:"NOVA-C", desc:"lv:Falcon 9",
+  parts:[
+    {names:"", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Intuitive Machines;fam:clps;sc:0.3", id:"", url:"hp:intuitivemachines.com/lunarlander;clps:nasa.gov/content/commercial-lunar-payload-services", icon:"novac.png"}], 
+  events:[
+    {pt:"", type:"l", dt:"2021-07", loc:"ter:cap", desc:""},
+    {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:"Oceanus Procellarum"},
+    {pt:"", type:"nom", dt:"l+2mo", loc:"lun", desc:""}
 ]},
 // --- 2022
 // Gateway PPE nrho
@@ -3977,7 +4003,7 @@ cnast2024: {name:"Zheng He", desc:"lv:CZ-3B",
 ]},
 mmx: {name:"MMX:Martian Moons eXploration", desc:"lv:H-III",
   parts:[
-    {names:"", type:"srm", dest:"mar:Phobos", stat:"pl", ctry:"jp", desc:"ag:jaxa,isas;m:3400kg;m0:;dim:14x2.1x4.5m;sc:0.75", id:"", url:"hp:mmx.isas.jaxa.jp/en/index.html;tw:twitter.com/mmx_jaxa_en", icon:"mmx.png"},
+    {names:"", type:"srm", dest:"mar:Phobos", stat:"pl", ctry:"jp", desc:"ag:jaxa,isas;m:4000kg;m0:;dim:14x2.1x4.5m;sc:0.75", id:"", url:"hp:mmx.isas.jaxa.jp/en/index.html;tw:twitter.com/mmx_jaxa_en", icon:"mmx.png"},
     {names:"{MMX Sample Return Module}", desc:"m:1300kg;sc:1.0", icon:""},
     {names:"{DLR/CNES Rover}", type:"rvm", dest:"mar:Phobos", stat:"pl", ctry:"de;fr", desc:"ag:dlr,cnes", id:"", url:"", icon:""}], 
   events:[

@@ -98,6 +98,7 @@ swri: {name:"SwRI:Southwest Research Institute", desc:"url:www.swri.org/"},
 noaa: {name:"NOAA:National Oceanic and Atmospheric Administration", desc:"url:www.noaa.gov/"},
 b612: {name:"B612:B612 Foundation", desc:"url:b612foundation.org"},
 glxp: {name:"GLXP:Google Lunar X-Prize", desc:"url:www.googlelunarxprize.org/"},
+clps: {name:"CLSP: Commercial Lunar Payload Services", desc:"url:nasa.gov/content/commercial-lunar-payload-services"},
 
 rosc: {name:"Roscosmos:Russian State Corporation", desc:"url:en.federalspace.ru;ctry:ru"},
 rsf: {name:"Russian Space Forces", desc:"ctry:ru"},
