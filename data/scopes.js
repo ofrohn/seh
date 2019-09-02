@@ -25,7 +25,7 @@
      url:"",  //Instrument links
      desc:"c:;"}  //desc: c:l r v t b  left right vertical top bottom, cl
 ]},
-Tenma, Hakucho, td-1, isee, oao-2, oso 2..7, ariel1
+Tenma, Hakucho, td-1, isee, oao-2, oso 2..7, ariel1-5, rass
 rae-b 25 kHz to 13.1 MHz 
 P78-1/SOLWIND http://heasarc.nasa.gov/docs/heasarc/missions/p78-1.html
   http://www.planetary.org/blogs/guest-blogs/2014/0829-the-pivotal-discovery.html
@@ -174,7 +174,7 @@ athenaplus:{name:"Athena:Advanced Telescope for High-energy Astrophysics", url:"
     {pt:"", dt:"2035", tp:"nom", loc:"sol:esl2", desc:"pend"}
   ], inst: [
     {n:"X-IFU:X-ray Integral Field Unit", tp:"is", band:"0.3..10keV", res:"5", sres:"2.5eV@6keV", fov:"5'", ea:"1.4@1keV", sens:">1Crab", url:"athena2.irap.omp.eu/spip.php?article15", desc:"c:nbr;cl:nly;"},
-    {n:"WFI:Wide Field Imager", tp:"im", band:"0.1..12keV", res:"5", sres:"150eV@6keV", fov:"40'", ea:"", sens:"10mCrab", url:"athena2.irap.omp.eu/spip.php?article18", desc:"c:br;cl:n;"}
+    {n:"WFI:Wide Field Imager", tp:"im", band:"0.1..12keV", res:"5", sres:"8%@1keV;2.5%@6keV", fov:"40'", ea:"1.33@1keV", sens:"10mCrab", url:"athena2.irap.omp.eu/spip.php?article18", desc:"c:br;cl:n;"}
 ]},
 bepposax:{name:"Beppo-SAX", url:"hp:www.asdc.asi.it/bepposax/", desc:"ag:asi;lv:Atlas I Centaur", stat:"s", 
   parts: [
@@ -1129,7 +1129,8 @@ spitzer:{name:"Spitzer", url:"hp:ssc.spitzer.caltech.edu/;ipac:irsa.ipac.caltech
     {n:"SST:Spitzer Space Telescope;SIRTF", ctry:"us", type:"nir", pur:"", id:"2003-038A", icon:"spitzer.png", desc:"Earth Following"}
   ], ev: [
     {pt:"", dt:"2003-08-25", tp:"l", loc:"ter:cap:LC-17B", desc:""},
-    {pt:"", dt:"2003-08-25", tp:"sco", loc:"sol:ef", desc:""}
+    {pt:"", dt:"2003-08-25", tp:"sco", loc:"sol:ef", desc:""},
+    {pt:"", dt:"2020-01-30", tp:"eom", loc:"sol:ef", desc:""}
   ], inst: [
     {n:"IRAC", band:"3.6..10um", res:"2.7..1.6", d:0.85, px:1.2, fov:"5.2x5.2'", desc:"warm:<8um;c:nv;"},
     {n:"MIPS", band:"24..160um", res:"57..7.0", d:0.85, px:1.2, desc:"c:nv;", stat:"s"}
@@ -1142,7 +1143,7 @@ srg:{name:"Spektr-RG:Spectrum Roentgen Gamma", url:"hp:hea.iki.rssi.ru/SRG/en/in
     {pt:"", dt:"2019-10", tp:"sco", loc:"sol:esl2", desc:""},
     {pt:"", dt:"2026", tp:"eom", loc:"sol:esl2", desc:"pend"}
   ], inst: [
-    {n:"eROSITA", band:"0.3..11keV", res:"15", fov:"0.81deg2", desc:"ag:mpe;c:nl;cl:nly;"},
+    {n:"eROSITA", band:"0.3..7keV", res:"18", fov:"0.81deg2", ea:"0.35m2@1.5keV", sres:"7%@1keV", desc:"ag:mpe;c:nl;cl:nly;"},
 //    {n:"Lobster", band:"", res:"", desc:"ag:Leicester University;c:nl;"},
     {n:"ART-XC", band:"6..30keV", res:"45", fov:"0.3deg2", desc:"ag:iki;c:nl;"}
 ]},
@@ -1447,11 +1448,16 @@ evn: {name:"EVN:European VLBI Network", url:"", desc:"", stat:"g",
   ev: [{pt:"", dt:"", tp:"l", loc:"ter", desc:""}
   ], inst: [{n:"", band:"1.6..22GHz", res:"0.021..0.000028", px:3e-4, d:1e7, desc:"c:nv;cl:nl;"}
 ]},
-vlti: {name:"VLTi:Very Large Telescope interferometer", url:"www.eso.org/paranal/", desc:"sc:2;x:0;y:0", stat:"g",
+vlti: {name:"VLTi:Very Large Telescope interferometer", url:"eso.org/paranal/", desc:"sc:2;x:0;y:0", stat:"g",
   parts: [{n:"", ctry:"", type:"opt,nir", icon:"vlti.png", desc:""}],
   ev: [{pt:"", dt:"", tp:"l", loc:"ter", desc:""}
   ], inst: [{n:"", band:"1.25e+13..9.99e+14", d:202, px:0.001, desc:"c:nr;cl:nl;"}
-]}
+]}/*,
+ska: {name:"SKA:Square Kilometre Array", url:"skatelescope.org/", desc:"sc:2;x:0;y:0", stat:"g",
+  parts: [{n:"", ctry:"", type:"r", icon:"ska.png", desc:""}],
+  ev: [{pt:"", dt:"", tp:"l", loc:"ter", desc:""}
+  ], inst: [{n:"", band:"50..24000MHz", d:3000000, px:0.001, desc:"c:nr;cl:nl;"}
+]}*/
 //ska 10m..10mm, cta 50..300000GeV, 900..72 https://www.cta-observatory.org 2021
 };
 /*

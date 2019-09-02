@@ -3816,13 +3816,14 @@ lucy: {name:"Lucy", desc:"lv:Atlas V 401",
 dart: {name:"DART:Double Asteroid Redirection Test", desc:"lv:Falcon 9",
   parts:[
     {names:"", type:"im", dest:"ast", stat:"pl", ctry:"us", desc:"ag:nasa,apl;m:640kg;sc:0.7", id:"", url:"hp:dart.jhuapl.edu/;nasa:www.nasa.gov/planetarydefense/dart", icon:"dart.png"},
-    {names:"Selfie-Sat", type:"fbm", dest:"ast", stat:"pl", ctry:"us", desc:"ag:nasa,apl;fam:;sc:0.4", id:"", url:"", icon:"selfiesat.png"}
+    {names:"LICIACube:Light Italian Cubesat for Imaging of Asteroids", type:"fbm", dest:"ast", stat:"pl", ctry:"it", desc:"ag:asi,Argotec;sc:0.4", id:"", url:"LISIACube:argotec.it/online/2019/01/23/liciacube-nasa-choose-again-an-argotec-smallsat/", icon:"licia.png"}
   ], events:[
     {pt:"", type:"l", dt:"2021-07", loc:"ter:van:SLC-4E", desc:""},
     {pt:"", type:"oi", dt:"2021-07", loc:"sol:ho", desc:""},
     {pt:"", type:"fb", dt:"2022-03", loc:"ast", desc:"ast:2001 CB21;?"},
     {pt:"", type:"fb", dt:"2022-09", loc:"ast", desc:"ast:didy"},
     {pt:"0", type:"imp", dt:"2022-09", loc:"ast", desc:"ip"},
+    {pt:"1", type:"fb", dt:"2022-09", loc:"ast", desc:"fbp:LICIACube"},
     {pt:"", type:"nom", dt:"2022-09", loc:"ast", desc:"eom"}
 ]},
 slim:{name:"SLIM:Smart Lander for Investigating Moon", desc:"lv:H-IIA 202", stat:"pl", 
