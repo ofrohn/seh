@@ -2903,19 +2903,19 @@ change4: {name:"Chang'e 4", desc:"lv:CZ-3B/G3Z",
 chandrayaan2: {name:"Chandrayaan 2:Moon Craft 2", desc:"lv:GSLV MkIII",
   parts:[
     {names:"चंद्रयान-२", type:"om", dest:"lun", stat:"o", ctry:"ind", desc:"ag:isro;m:2379kg;dim:3.2x5.8x2.1m;sc:0.5", id:"2019-042A", url:"hp:www.isro.gov.in/chandrayaan2-home-0", icon:"chandrayaan2-o.png"},
-{names:"Vikram", type:"slm", dest:"lun", stat:"o", ctry:"ind", desc:"ag:isro;m:1471kg;dim:2.5x2x1.2m", icon:"chandrayaan2-l.png"},
-{names:"Pragyan", type:"rvm", dest:"lun", stat:"o", ctry:"ind", desc:"ag:isro;m:27kg;dim:0.9x0.75x0.85m;sc:0.5", icon:"chandrayaan2-rv.png"}], 
+{names:"Vikram", type:"slm", dest:"lun", stat:"f", ctry:"ind", desc:"ag:isro;m:1471kg;dim:2.5x2x1.2m", icon:"chandrayaan2-l.png"},
+{names:"Pragyan", type:"rvm", dest:"lun", stat:"f", ctry:"ind", desc:"ag:isro;m:27kg;dim:0.9x0.75x0.85m;sc:0.5", icon:"chandrayaan2-rv.png"}], 
   events:[
     {pt:"", type:"l", dt:"2019-07-22", loc:"ter:sri:SLP", desc:""},
-    {pt:"", type:"oi", dt:"2019-07-22", loc:"ter:170x40400km", desc:"Phasing Orbits"},
+    {pt:"", type:"oi", dt:"2019-07-22", loc:"ter:170x40400km", desc:"5 Phasing Orbits"},
     {pt:"", type:"toi", dt:"2019-08-13", loc:"ter:lto", desc:"tli"},
     {pt:"0", type:"oi", dt:"2019-08-20", loc:"lun:114x18072kmx87.8deg", desc:""},
     {pt:"0", type:"sco", dt:"2019-09-01", loc:"lun:114x128km", desc:""},
     {pt:"0", type:"sep", dt:"2019-09-02", loc:"lun", desc:"op/lp"},
-    {pt:"1", type:"td", dt:"2019-09-07", loc:"lun:70.9S,22.78E", desc:"Between Manzinus & Simpelius Crater;show:Ch2-Vikram:NW"},
-    {pt:"1", type:"nom", dt:"2019-10-01", loc:"lun", desc:"lp"},
-    {pt:"2", type:"nom", dt:"2019-10-01", loc:"lun", desc:"rvp"},
-    {pt:"0", type:"nom", dt:"2020-08", loc:"lun", desc:"?"}
+    {pt:"1", type:"td", dt:"2019-09-06", loc:"lun:70.9S,22.78E", desc:"fail;Between Manzinus C & Simpelius N Crater;show:Ch2-Vikram:NW;eom:slm;eom:rvm"},
+    //{pt:"0", type:"sco", dt:"2019-09-08", loc:"lun:90km", desc:"Sun Synchronous"},
+    {pt:"0", type:"nom", dt:"2020-08", loc:"lun", desc:"?"},
+    {pt:"0", type:"pom", dt:"2027", loc:"lun", desc:"?"}
 ]},
 spaceil: {name:"Beresheet", desc:"lv:Falcon 9",
   parts:[
@@ -3281,12 +3281,12 @@ psyche: {name:"Psyche", desc:"",
     {pt:"", type:"nom", dt:"2027-10", loc:"ast", desc:"?"},
     {pt:"", type:"pom", dt:"2029-10", loc:"ast", desc:"?"}
 ]},
-ptknp: {name:"Federatsiya", desc:"lv:Soyuz-5", stat:"pl", 
+ptknp: {name:"Oryol ", desc:"lv:Angara-A5V", stat:"pl", 
   parts:[
-    {names:"Федерация;PTK-NP:Pilotiruemyi Transportny Korabl Novogo Pokoleniya (New Generation Piloted Transport Ship)", type:"fbm", dest:"lun", ctry:"ru", desc:"ag:rosc;m:~20000kg;Uncrewed test flight;sc:0.7", id:"", url:"rsw:www.russianspaceweb.com/spacecraft_manned_2010s.html", icon:"federatsia.png"},
+    {names:"Орёл;PTK-NP:Pilotiruemyi Transportny Korabl Novogo Pokoleniya (New Generation Piloted Transport Ship)", type:"fbm", dest:"lun", ctry:"ru", desc:"ag:rosc;m:~20000kg;Uncrewed test flight;sc:0.7", id:"", url:"rsw:www.russianspaceweb.com/spacecraft_manned_2010s.html", icon:"federatsia.png"},
     {type:"erm", dest:"ter"}], 
   events:[
-    {pt:"", type:"l", dt:"2022", loc:"ter:bai", desc:""},
+    {pt:"", type:"l", dt:"2024", loc:"ter:bai", desc:""},
     {pt:"", type:"fb", dt:"l+4dy", loc:"lun", desc:""},
     {pt:"", type:"edl", dt:"l+8dy", loc:"ter", desc:"eom"}
 ]},

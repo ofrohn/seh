@@ -25,7 +25,7 @@
      url:"",  //Instrument links
      desc:"c:;"}  //desc: c:l r v t b  left right vertical top bottom, cl
 ]},
-Tenma, Hakucho, td-1, isee, oao-2, oso 2..7, ariel1-5, rass
+Tenma, Hakucho, td-1, isee, oao-2, oso 2..7, ariel1-5
 rae-b 25 kHz to 13.1 MHz 
 P78-1/SOLWIND http://heasarc.nasa.gov/docs/heasarc/missions/p78-1.html
   http://www.planetary.org/blogs/guest-blogs/2014/0829-the-pivotal-discovery.html
@@ -1335,17 +1335,16 @@ wukong:{name:"Wukong:Monkey King", url:"hp:dpnc.unige.ch/dampe/index.html", desc
     {n:"STK:Silicon-Tungsten Tracker", tp:"par", band:"", res:"0.2deg@10GeV", fov:"", url:"", desc:"Cosmic Rays;c:;"},
     {n:"NUD:Neutron Detector", tp:"par", band:"", res:"", fov:"", url:"", desc:"Cosmic Rays;c:;"}
 ]},
-xarm:{name:"XRISM:X-ray Imaging and Spectroscopy Mission", url:"hp:astro-h.isas.jaxa.jp/en/;jaxa:global.jaxa.jp/projects/sat/astro_h/;", desc:"ag:jaxa;lv:H-IIA 202;m:2700kg;sc:1.4;x:0;y:15", stat:"pl",
+xarm:{name:"XRISM:X-ray Imaging and Spectroscopy Mission", url:"hp:astro-h.isas.jaxa.jp/en/;jaxa:global.jaxa.jp/projects/sat/astro_h/;", desc:"ag:jaxa;lv:H-IIA 202;m:2300kg;sc:1.4;x:0;y:15", stat:"pl",
   parts: [
     {n:"ASTRO-H2", ctry:"jp", type:"sx", pur:"", id:"", icon:"astro-h.png", desc:""}
   ], ev: [
     {pt:"", dt:"2021-03", tp:"l", loc:"ter:tng", desc:""},
-    {pt:"", dt:"2021-03", tp:"sco", loc:"ter:leo:550kmx31deg", desc:""}
+    {pt:"", dt:"2021-03", tp:"sco", loc:"ter:leo:550kmx31deg", desc:""},
+    {pt:"", dt:"2025", tp:"nom", loc:"ter:leo", desc:""}
   ], inst: [
-    {n:"SXI:Soft X-ray Imaging System", band:"0.3..12keV", res:"78", sres:"150eV@6keV", ea:"360cm2@6keV", fov:"35x35'", desc:"c:nr;cl:nl;"},
-    {n:"SGD:Soft Gamma-ray Detector", band:"10..600keV", res:"", sres:"2keV@40keV", ea:"30cm2@100keV", fov:"0.55x0.55deg", desc:"c:;cl:ny;"},
-    {n:"HXI:Hard X-ray Imaging System", band:"5..80keV", res:"102", sres:"1.5keV@60keV", ea:"1000cm2@10keV;300cm2@30keV", fov:"9x9'", desc:"c:;cl:n;"},
-    {n:"SXS:Soft X-ray Spectrometer", tp:"sp", band:"0.3..12keV", res:"78", sres:"7eV@7keV", fov:"3x3'", ea:"160cm2@1keV;310cm2@6keV", desc:"c:;cl:n;"},
+    {n:"Xtend;SXI:Soft X-ray Imaging System", band:"0.4..13keV", res:"72", sres:"150eV@6keV", ea:"360cm2@6keV", fov:"38x38'", desc:"c:nr;cl:nl;"},
+    {n:"Resolve;SXS:Soft X-ray Spectrometer", tp:"sp", band:"0.3..12keV", res:"72", sres:"5eV@7keV", fov:"2.9x2.9'", ea:"250cm2@1keV;310cm2@6keV", desc:"c:;cl:n;"},
 ]},
 xmm:{name:"XMM:XMM-Newton", url:"hp:www.esa.int/Our_activities/Space_Science/XMM-Newton_overview;esa:xmm.esac.esa.int/;tw:twitter.com/ESA_XMM", desc:"ag:esa;lv:Ariane 5G;sc:1.6;y:10", stat:"o", 
   parts: [
