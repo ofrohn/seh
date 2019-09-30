@@ -2008,7 +2008,7 @@ ace: {name:"ACE:Advanced Composition Explorer", desc:"lv:Delta II 7920-8",
     {pt:"", type:"l", dt:"1997-08-25", loc:"ter:cap:LC-17A", desc:""},
     {pt:"", type:"toi", dt:"1997-08-25", loc:"ter:leto:177x1370000km", desc:""},
     {pt:"", type:"oi", dt:"1997-12-12", loc:"sol:esl1", desc:"Halo Orbit"},
-    {pt:"", type:"nom", dt:"2019-09-30", loc:"esl1", desc:"?"},
+    {pt:"", type:"nom", dt:"2020-09-30", loc:"esl1", desc:"?"},
     {pt:"", type:"pom", dt:"2025-09-30", loc:"esl1", desc:"?;Fuel Depletion"}
 ]},
 cassini: {name:"Cassini-Huygens", desc:"lv:Titan 401B Centaur T", stat:"s",
@@ -2137,8 +2137,8 @@ marsodyssey: {name:"Mars Odyssey", desc:"lv:Delta II 7425-9.5",
     {pt:"", type:"ev", dt:"2001-10-26", loc:"mar", desc:"Start of Aerobraking"},
     {pt:"", type:"sco", dt:"2002-01-30", loc:"mar:387x450kmx93deg", desc:"sso"},
     {pt:"", type:"obs", dt:"2014-10-19..2014-10-20", loc:"mar", desc:"Comet C 2013 A1 Siding Spring"},
-    {pt:"", type:"nom", dt:"2019-09-30", loc:"mar", desc:"pend"},
-    {pt:"", type:"pom", dt:"2019-09-30", loc:"mar", desc:"Fuel Depletion"}
+    {pt:"", type:"nom", dt:"2020-09-30", loc:"mar", desc:"pend"},
+    {pt:"", type:"pom", dt:"2020-12", loc:"mar", desc:"Fuel Depletion"}
 ]},
 genesis: {name:"Genesis", desc:"lv:Delta II 7326-9.5",
   parts:[
@@ -2331,7 +2331,7 @@ mro: {name:"MRO:Mars Reconnaissance Orbiter", desc:"lv:Atlas V 401",
     {pt:"", type:"ev", dt:"2006-03-30..2006-10-01", loc:"mar", desc:"Aerobraking"},
     {pt:"", type:"sco", dt:"2006-11-01", loc:"mar:255x320kmx93deg", desc:"sso"},
     {pt:"", type:"obs", dt:"2014-10-09..2014-10-22", loc:"mar", desc:"Comet C 2013 A1 Siding Spring"},
-    {pt:"", type:"nom", dt:"2019-09-30", loc:"mar", desc:"pend"},
+    {pt:"", type:"nom", dt:"2020-09-30", loc:"mar", desc:"pend"},
     {pt:"", type:"pom", dt:"2022-12-31", loc:"mar", desc:""}
 ]},
 vex: {name:"VEX:Venus Express", desc:"lv:Soyuz-FG/Fregat",
@@ -2381,7 +2381,7 @@ stereoa: {name:"STEREO A:Solar Terrestrial Relations Observatory A", desc:"lv:De
     {pt:"", type:"fb", dt:"2006-12-15", loc:"lun:7340km", desc:"ga"},
     {pt:"", type:"oi", dt:"2006-12-15", loc:"sol:ho:0.956x0.967aux0.13deg", desc:"Earth-leading Orbit"},
     {pt:"", type:"ev", dt:"2011-02-06", loc:"so", desc:"180\u00b0 Separation from Stereo B"},
-    {pt:"", type:"nom", dt:"2019-09-30", loc:"so", desc:""},
+    {pt:"", type:"nom", dt:"2020-09-30", loc:"so", desc:""},
     {pt:"", type:"pom", dt:"2023-10-01", loc:"so", desc:""}
 ]},
 stereob: {name:"STEREO B:Solar Terrestrial Relations Observatory B", desc:"lv:Delta II 7925-10L",
@@ -2395,7 +2395,7 @@ stereob: {name:"STEREO B:Solar Terrestrial Relations Observatory B", desc:"lv:De
     {pt:"", type:"ev", dt:"2011-02-06", loc:"so", desc:"180\u00b0 Separation from Stereo A"},
     {pt:"", type:"los", dt:"2014-10-01", loc:"so", desc:"fail:Attitude control system;hib"},
     {pt:"", type:"ev", dt:"2016-08-21", loc:"so", desc:"Reestablishment of contact;wake"},
-    {pt:"", type:"nom", dt:"2019-09-30", loc:"so", desc:"?"},
+    {pt:"", type:"nom", dt:"2020-09-30", loc:"so", desc:"?"},
     {pt:"", type:"pom", dt:"2023-10-01", loc:"so", desc:""}
 ]},
 // --- 2007 --- 5 Missions     
@@ -2503,7 +2503,7 @@ lro: {name:"LRO:Lunar Reconnaissance Orbiter", desc:"lv:Atlas V 401",
     {pt:"", type:"oi", dt:"2009-06-23", loc:"lun:220x3100kmx90deg", desc:""},
     {pt:"", type:"sco", dt:"2009-09-18", loc:"lun:50kmx90deg", desc:"Survey Orbit"},
     {pt:"", type:"sco", dt:"2010-09-16", loc:"lun:30x216kmx90deg", desc:""},
-    {pt:"", type:"nom", dt:"2019-09-30", loc:"lun", desc:"pend"},
+    {pt:"", type:"nom", dt:"2020-09-30", loc:"lun", desc:"pend"},
     {pt:"", type:"pom", dt:"2020-12-31", loc:"lun", desc:"?"}
 ]},
 lcross: {name:"LCROSS:Lunar Crater Observation and Sensing Satellite", desc:"lv:Atlas V 401",
@@ -2618,7 +2618,7 @@ msl: {name:"Curiosity", desc:"lv:Atlas V 541",
     {pt:"", type:"arr", dt:"2014-09-11", loc:"mar", desc:"Mt. Sharp"},
     {pt:"", type:"obs", dt:"2014-10-19", loc:"mar", desc:"Comet C 2013 A1 Siding Spring"},
     {pt:"", type:"ex", dt:"", loc:"mar", desc:"Drive up Mt. Sharp;rv:18km;and counting"},
-    {pt:"", type:"nom", dt:"2019-09-30", loc:"mar", desc:"pend"},
+    {pt:"", type:"nom", dt:"2020-09-30", loc:"mar", desc:"pend"},
     {pt:"", type:"pom", dt:"2022-11-15", loc:"mar", desc:"?"}
 ]},
 // --- 2013 --- 4 Missions   
@@ -2658,7 +2658,7 @@ maven: {name:"MAVEN:Mars Atmosphere and Volatile Evolution Mission", desc:"lv:At
     {pt:"", type:"obs", dt:"2014-10-17..2014-10-21", loc:"mar", desc:"Comet C 2013 A1 Siding Spring"},
     {pt:"", type:"sco", dt:"2014-11-17", loc:"mar:150x6200kmx75deg", desc:""},
     {pt:"", type:"sco", dt:"2015-02-10..2015-02-18", loc:"mar:125km", desc:"Deep dip campaign"},
-    {pt:"", type:"nom", dt:"2019-09-30", loc:"mar", desc:"pend"},
+    {pt:"", type:"nom", dt:"2020-09-30", loc:"mar", desc:"pend"},
     {pt:"", type:"pom", dt:"2022-01", loc:"mar", desc:"?"}
 ]},
 mangalyaan: {name:"MOM:Mars Orbiter Mission", desc:"lv:PSLV-XL",
@@ -2715,7 +2715,7 @@ hayabusa2: {name:"Hayabusa 2:Peregrine Falcon 2", desc:"lv:H-IIA 202",
     {pt:"0", type:"dsc", dt:"2019-02-21", loc:"ast", desc:"1. Sample Collection;Tamatebako"},
     {pt:"1", type:"imp", dt:"2019-04-05", loc:"ast", desc:"ip:SCI;Cratering Experiment;eom:im"},
     {pt:"0", type:"dsc", dt:"2019-07-11", loc:"ast", desc:"2. Sample Collection;Uchide-no-kozuchi"},
-    {pt:"2", type:"td", dt:"2019-09-24", loc:"ast", desc:"hpp:MINERVA II2;eom:hpm"},
+    {pt:"2", type:"td", dt:"2019-10", loc:"ast", desc:"hpp:MINERVA II2;eom:hpm"},
     {pt:"0", type:"dep", dt:"2019-11", loc:"ast", desc:""},
     {pt:"0", type:"edl", dt:"2020-11", loc:"ter", desc:"eom"}
 ]},
@@ -2997,10 +2997,10 @@ solarorbiter: {name:"Solar Orbiter", desc:"lv:Atlas V 411",
 ]},
 kplo: {name:"KPLO:Korean Pathfinder Lunar Orbiter", desc:"lv:Falcon 9",
   parts:[
-    {names:"", type:"om", dest:"lun", stat:"pl", ctry:"sk", desc:"ag:kari;fam:klep;sc:0.6;m:550kg;m0:;dim:", id:"", url:"hp:www.kari.re.kr/eng/sub03_04.do", icon:"kplo.png"}
+    {names:"", type:"om", dest:"lun", stat:"pl", ctry:"sk", desc:"ag:kari;fam:klep;sc:0.6;m:678kg;m0:;dim:", id:"", url:"hp:www.kari.re.kr/eng/sub03_04.do", icon:"kplo.png"}
    ], 
   events:[
-    {pt:"", type:"l", dt:"2020-12", loc:"ter:cap", desc:""},
+    {pt:"", type:"l", dt:"2022-07", loc:"ter:cap", desc:""},
     {pt:"", type:"toi", dt:"2020-12", loc:"ter:heeo", desc:"Phasing Loop Transfer"},
     {pt:"", type:"oi", dt:"l+1mo", loc:"lun:100kmx90deg", desc:""},
     {pt:"", type:"nom", dt:"l+1yr", loc:"lun", desc:"?"}
@@ -3373,6 +3373,14 @@ em3: {name:"Artemis-3", desc:"lv:SLS 1B", stat:"pl",
     {pt:"0", type:"edl", dt:"l+30dy", loc:"ter", desc:"eom"}
 ]},
 // --- 2025
+neosm: {name:"NEOSM:NEO Surveillance Mission", desc:"",
+  parts: [
+    {names:"", type:"obm", dest:"ast", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;m:1300kg;sc:0.5", id:"", url:"hp:neocam.ipac.caltech.edu/", icon:"neosm.png"}], 
+  events: [
+    {pt:"", dt:"2025", type:"l", loc:"ter:cap", desc:""},
+    {pt:"", dt:"2025", type:"sco", loc:"sol:esl1", desc:"Halo Orbit"},
+    {pt:"", dt:"2037", type:"nom", loc:"sol:esl1", desc:""}
+]},
 interheliozond: {name:"Interhelio-Zond", desc:"lv:Proton-M/Briz-M",
   parts:[
     {names:"Интергелиозонд", type:"obm", dest:"sol", stat:"pl", ctry:"ru", desc:"ag:rosc,iki;m:8120kg;sc:0.7;w:0.7", id:"", url:"hp:www.izmiran.ru/projects/space/INTERHELIOPROBE/;rsw:www.russianspaceweb.com/igz.html", icon:"interhelio-zond.png"}], 

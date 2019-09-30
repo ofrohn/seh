@@ -56,8 +56,8 @@ aditya:{name:"Aditya-L1", url:"hp:aditya.iiap.res.in/", desc:"Solar Coronograph;
     {pt:"", dt:"2021", tp:"l", loc:"ter:sri", desc:""},
     {pt:"", dt:"l+100d", tp:"sco", loc:"sol:esl1", desc:""}
   ], inst: [
-    {n:"VELC:Visible Emission Line Coronagraph", band:"530..640nm", res:"2", d:"0.2", px:"", url:"", desc:"c:nr;"},
-    {n:"SUIT:Solar Ultraviolet Imaging Telescope", band:"200..400nm", res:"", d:"", px:"", url:"", desc:"c:;"},
+    {n:"VELC:Visible Emission Line Coronagraph", band:"530..640nm", res:"2", d:"0.2", px:"", url:"", desc:"c:nl;cl:nly"},
+    {n:"SUIT:Solar Ultraviolet Imaging Telescope", band:"200..400nm", res:"", d:"", px:"", url:"", desc:"c:;cl:n"},
     {n:"SoLEXS:Solar Low Energy X-ray Spectrometer", band:"", res:"", d:"", px:"", url:"", desc:"c:;"},
     {n:"ASPEX:Aditya Solar wind Particle Experiment", band:"", res:"", d:"", px:"", url:"", desc:"c:;"},
     {n:"PAPA:Plasma Analyser Package For Aditya", band:"", res:"", d:"", px:"", url:"", desc:"c:;"},
@@ -83,7 +83,7 @@ akari:{name:"Akari", url:"hp:www.ir.isas.jaxa.jp/ASTRO-F/Outreach/index_e.html;j
     {n:"", band:"1.7..180um", d:"0.685", px:"1.5", fov:"10x10'", desc:"warm:<5.5um;c:nr;"},
     {n:"", band:"50..180um", d:"", px:"", desc:"c:nr;"}
 ]},
-ariel:{name:"ARIEL:Atmospheric Remote‐sensing Infrared Exoplanet Large‐survey mission", url:"hp:sci.esa.int/ariel/", desc:"ag:esa;lv:Ariane 62;dim:,m:1200kg;sc:0.6;y:18", stat:"pl", 
+ariel:{name:"ARIEL:Atmospheric Remote‐sensing Infrared Exoplanet Large‐survey mission", url:"hp:sci.esa.int/ariel/", desc:"ag:esa;lv:Ariane 62;dim:,m:1200kg;sc:0.6;y:48", stat:"pl", 
   parts: [
     {n:"", ctry:"eu", type:"ir", pur:"exo", id:"", icon:"ariel.png", desc:""}
   ], ev: [
@@ -91,10 +91,10 @@ ariel:{name:"ARIEL:Atmospheric Remote‐sensing Infrared Exoplanet Large‐surve
     {pt:"", dt:"2028", tp:"sco", loc:"sol:esl2", desc:""},
     {pt:"", dt:"2030", tp:"nom", loc:"", desc:"eom"}
   ], inst: [
-    {type:"im", n:"VISPhot", band:"0.5..0.55um", d:"1.1x0.73m", px:"", fov:"", desc:"c:nr;cl:nry;"},
-    {type:"im", n:"FGS", band:"0.8..1.2um", d:"1.1x0.73m", px:"", fov:"", desc:"c:nr;c:nry;"},
+    {type:"is", n:"AIRS", band:"1.95..7.8um", d:"1.1x0.73m", px:"", sres:"30..100", fov:"", desc:"c:nl;cl:nly"},
     {type:"is", n:"NIRSpec", band:"1.25..1.95um", d:"1.1x0.73m", px:"", sres:"10", fov:"", desc:"c:nr;cl:nry;"},
-    {type:"is", n:"AIRS", band:"1.95..7.8um", d:"1.1x0.73m", px:"", sres:"30..100", fov:"", desc:"c:nr;cl:nr"}
+    {type:"im", n:"FGS", band:"0.8..1.2um", d:"1.1x0.73m", px:"", fov:"", desc:"c:nr;c:nry;"},
+    {type:"im", n:"VISPhot", band:"0.5..0.55um", d:"1.1x0.73m", px:"", fov:"", desc:"c:nr;cl:nr;"}
 ]},
 asca:{name:"ASCA:Advanced Satellite for Cosmology and Astrophysics", url:"hp:www.isas.ac.jp/e/enterp/missions/asca/index.shtml", desc:"ag:jaxa;lv:M-3SII", stat:"s", 
   parts: [
@@ -700,7 +700,7 @@ ixpe:{name:"IXPE:Imaging X-Ray Polarimetry Explorer", url:"hp:wwwastro.msfc.nasa
     {pt:"", dt:"2021-04", tp:"sco", loc:"ter:leo:540kmx0deg", desc:""},
     {pt:"", dt:"2024", tp:"pom", loc:"ter:leo", desc:""}
   ], inst: [
-    {n:"", band:"2..8keV", res:"30", fov:"11'", desc:"c:nr;cl:"}
+    {n:"", band:"2..8keV", res:"30", fov:"11'", desc:"c:nr;cl:nl"}
   ]},
 jwst:{name:"JWST:James Webb Space Telescope", url:"hp:www.jwst.nasa.gov/;stsci:www.stsci.edu/jwst/;esa:www.esa.int/Our_activities/Space_Science/JWST;tw:twitter.com/JWSTObserver", desc:"lv:Ariane 5 ECA;sc:1.8;x:12;y:-0", stat:"pl", 
   parts: [
@@ -820,6 +820,15 @@ nanojasmine:{name:"Nano-JASMINE", url:"www.jasmine-galaxy.org/index.html", desc:
     {pt:"", dt:"", tp:"sco", loc:"ter:sseo", desc:""}
   ], inst: [
     {n:"", band:"0.6..1um", res:"", d:"", px:"", desc:"c:;"}
+]},
+neosm:{name:"NEOSM:NEO Surveillance Mission", url:"hp:neocam.ipac.caltech.edu/", desc:"ag:nasa,jpl;lv:;sc:1;x:0;y:10", stat:"pl", 
+  parts: [
+    {n:"", ctry:"us", type:"ir", pur:"neo", id:"", icon:"neosm.png", desc:""}
+  ], ev: [
+    {pt:"", dt:"2025", tp:"l", loc:"ter:cap", desc:""},
+    {pt:"", dt:"2025", tp:"sco", loc:"sol:esl1", desc:""}
+  ], inst: [
+    {n:"", band:"4..10um", d:0.5, px:1, fov:"12.7deg2", desc:"c:n;cl:nl;"}
 ]},
 neossat:{name:"NEOSSat:Near-Earth Object Surveillance Satellite", url:"hp:www.neossat.ca/;csa:www.asc-csa.gc.ca/eng/satellites/neossat/", desc:"ag:csa;lv:PSLV;sc:0.8;x:0;y:10", stat:"o", 
   parts: [
@@ -945,7 +954,7 @@ punch:{name:"PUNCH:Polarimeter to Unify the Corona and Heliosphere", url:"hp:pun
     {pt:"", dt:"2024", tp:"nom", loc:"ter:sseo", desc:""}
   ], inst: [
     {n:"NFI:Narrow Field Imager", band:"300..650nm", res:"", d:"", px:"", desc:"c:;cl:nl;"},
-    {n:"WFI:Wide Field Imagers", band:"300..650nm", res:"", d:"", px:"", desc:"c:;cl:nl;"}
+    {n:"WFI:Wide Field Imagers", band:"300..650nm", res:"", d:"", px:"", desc:"c:;cl:;"}
 ]},
 queqiao:{name:"Queqiao", url:"China Spaceflight:www.chinaspaceflight.com/satellite/Deepspace/CE-4/CE-4.html", desc:"ag:cnsa;lv:CZ-4C", stat:"o", 
   parts: [
@@ -1046,14 +1055,14 @@ smalljasmine:{name:"Small-JASMINE", url:"hp:www.jasmine-galaxy.org/index.html", 
   ], inst: [
     {n:"", band:"", res:"", d:"", px:"", desc:"c:;"}
 ]},
-smile:{name:"SMILE:Solar wind Magnetosphere Ionosphere Link Explorer", url:"hp:sci.esa.int/smile", desc:"ag:CAS,esa;lv:", stat:"pl", 
+smile:{name:"SMILE:Solar wind Magnetosphere Ionosphere Link Explorer", url:"hp:sci.esa.int/smile", desc:"ag:CAS,esa;lv:;y:-12", stat:"pl", 
   parts: [
     {n:"", ctry:"cn;eu", type:"sol", pur:"", id:"", icon:"smile.png", desc:""}
   ], ev: [
     {pt:"", dt:"2021", tp:"l", loc:"ter:kou", desc:""},
     {pt:"", dt:"", tp:"sco", loc:"ter:heeo:5000x120000kmx90deg", desc:""}
   ], inst: [
-    {n:"SXI:Soft X-ray Imager", band:"0.2..2.5keV", res:"", d:"", px:"", fov:"15.5x26.5deg", desc:"c:;cl:n;"},
+    {n:"SXI:Soft X-ray Imager", band:"0.2..2.5keV", res:"", d:"", px:"", fov:"15.5x26.5deg", desc:"c:;cl:nl;"},
     {n:"UVI:UltraViolet Imager", band:"160..180nm", res:"", d:"", px:"", fov:"10deg", desc:"c:;cl:n;"},
     {n:"LIA:Light Ion Analyser", tp:"par", band:"0.2..20keV", tres:"0.5s", d:"", px:"", desc:"c:;"},
     {n:"MAG:Magnetometer", tp:"mag", band:"", res:"", d:"", px:"", desc:"c:;"}
@@ -1079,14 +1088,14 @@ soho:{name:"SOHO:Solar & Heliospheric Observatory", url:"hp:sohowww.nascom.nasa.
     {n:"UVCS:Ultraviolet Coronagraph Spectrometer", band:"", res:"", url:"www.cfa.harvard.edu/uvcs/", desc:""},
     {n:"VIRGO:Variability of Solar Irradiance and Gravity Oscillations", band:"", res:"", url:"www.ias.u-psud.fr/virgo/", desc:""}
 ]},
-solarorbiter:{name:"Solar Orbiter", url:"hp:www.esa.int/Our_activities/Space_Science/Solar_Orbiter;esa:sci.esa.int/solarorbiter", desc:"High Inclination;ag:esa;fam:M-class;lv:Atlas V 411;sc:1;x:0;y:20", stat:"pl", 
+solarorbiter:{name:"Solar Orbiter", url:"hp:www.esa.int/Our_activities/Space_Science/Solar_Orbiter;esa:sci.esa.int/solarorbiter", desc:"High Inclination;ag:esa;fam:M-class;lv:Atlas V 411;sc:1;x:0;y:16", stat:"pl", 
   parts: [
     {n:"", ctry:"eu", type:"uv;par", pur:"sol", id:"", icon:"solarorbiter.png", desc:""}
   ], ev: [
     {pt:"", dt:"2020-02", tp:"l", loc:"ter:kou", desc:""},
     {pt:"", dt:"2020-02", tp:"sco", loc:"sol:ho", desc:""}
   ], inst: [
-    {n:"EUI:Extreme Ultraviolet Imager", band:"17.4..30.4nm", res:"1", d:"", px:"", fov:"5.2deg", url:"", desc:"cl:ny;"},
+    {n:"EUI:Extreme Ultraviolet Imager", band:"17.4..30.4nm", res:"1", d:"", px:"", fov:"5.2deg", url:"", desc:"cl:nly;"},
     {n:"EPD:Energetic Particle Detector", band:"8..700keV", tp:"psp", res:"", url:"", desc:"c:"},
     {n:"MAG:Magnetometer", band:"0..64Hz", tp:"em", res:"", url:"", desc:"c:;"},
     {n:"RPW:Radio and Plasma Waves", band:"", tp:"em", res:"", url:"", desc:"c:;"},
@@ -1335,7 +1344,7 @@ wukong:{name:"Wukong:Monkey King", url:"hp:dpnc.unige.ch/dampe/index.html", desc
     {n:"STK:Silicon-Tungsten Tracker", tp:"par", band:"", res:"0.2deg@10GeV", fov:"", url:"", desc:"Cosmic Rays;c:;"},
     {n:"NUD:Neutron Detector", tp:"par", band:"", res:"", fov:"", url:"", desc:"Cosmic Rays;c:;"}
 ]},
-xarm:{name:"XRISM:X-ray Imaging and Spectroscopy Mission", url:"hp:astro-h.isas.jaxa.jp/en/;jaxa:global.jaxa.jp/projects/sat/astro_h/;", desc:"ag:jaxa;lv:H-IIA 202;m:2300kg;sc:1.4;x:0;y:15", stat:"pl",
+xarm:{name:"XRISM:X-ray Imaging and Spectroscopy Mission", url:"hp:astro-h.isas.jaxa.jp/en/;jaxa:global.jaxa.jp/projects/sat/astro_h/;", desc:"ag:jaxa;lv:H-IIA 202;m:2300kg;sc:1.4;x:0;y:-5", stat:"pl",
   parts: [
     {n:"ASTRO-H2", ctry:"jp", type:"sx", pur:"", id:"", icon:"astro-h.png", desc:""}
   ], ev: [
@@ -1366,7 +1375,7 @@ xposat:{name:"XPoSat:X-ray Polariation Satellite", url:"hp:", desc:"ag:isro;lv:P
     {pt:"", dt:"2021", tp:"sco", loc:"ter:leo:600kmx30deg", desc:""},
     {pt:"", dt:"2026", tp:"pom", loc:"ter:leo", desc:""}
   ], inst: [
-    {n:"POLIX", band:"5..30keV", res:"", desc:"c:nr;cl:"}
+    {n:"POLIX", band:"5..30keV", res:"", desc:"c:nr;cl:nl"}
   ]},
 xuntian:{name:"Xuntian:Sky Survey", url:"hp:", desc:"ag:cnsa;lv:CZ-5B;sc:0.9;y:7", stat:"pl", 
   parts: [
@@ -1376,7 +1385,7 @@ xuntian:{name:"Xuntian:Sky Survey", url:"hp:", desc:"ag:cnsa;lv:CZ-5B;sc:0.9;y:7
     {pt:"", dt:"2024", tp:"sco", loc:"ter:leo", desc:""},
     {pt:"", dt:"2034", tp:"pom", loc:"ter:leo", desc:""}
   ], inst: [
-    {n:"OS", tp:"is", band:"255..1000nm", res:"0.15", px:0.07, d:2, fov:"1.1deg2", desc:"c:nr;cl:nly"}
+    {n:"OS", tp:"is", band:"255..1000nm", res:"0.15", px:0.07, d:2, fov:"1.1deg2", desc:"c:nr;cl:nl"}
   ]},
 yokoh:{name:"Yohkoh:Sunbeam ", url:"hp:www.isas.jaxa.jp/e/enterp/missions/yohkoh/index.shtml;lmsal:www.lmsal.com/SXT/main2.html", desc:"ag:isas;lv:M-3SII", stat:"s", 
   parts: [
