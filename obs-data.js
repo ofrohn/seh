@@ -2184,10 +2184,10 @@ add: spec. impulse, manufact.
 //Atlas IIAS
 "Atlas IIAS": {ctry:"us", m:"204300", pm:"8618/3719/2700",  d:"47.54x3.05", pf:"10-12x3.3-4.2", dt:"1993-12-16..2004-08-31", st:"2/4", ust:"", th:"3800", fam:"Atlas", desc:"l:cap;ag:nasa", fuel:"KeroLOX+SRP", icon:"Atlas-IIAS.png"},
 //Atlas V 401, Atlas V 411, Atlas V 541, Atlas V 551
-"Atlas V 401": {ctry:"us", m:"333320", pm:"9800/4750/3700",  d:"58.3x3.81", pf:"10-12x4.2", dt:"2002-08-21..", st:"2/0", ust:"", th:"4152", fam:"Atlas", desc:"l:cap;van;ag:nasa", fuel:"KeroLOX", icon:"Atlas-V401.png"},
-"Atlas V 411": {ctry:"us", m:"374120", pm:"12030/5950/4500",  d:"58.3x3.81", pf:"10-12x4.2", dt:"2006-04-20..", st:"2/1", ust:"", th:"5422", fam:"Atlas", desc:"l:cap;van;ag:nasa", fuel:"KeroLOX+SRP",  icon:"Atlas-V411.png"},
-"Atlas V 541": {ctry:"us", m:"522330", pm:"17410/8290/6300",  d:"62.2x3.81", pf:"20-26x5.4", dt:"2011-11-26..", st:"2/4", ust:"", th:"9232", fam:"Atlas", desc:"l:cap;van;ag:nasa", fuel:"KeroLOX+SRP",  icon:"Atlas-V500.png"},
-"Atlas V 551": {ctry:"us", m:"568590", pm:"18850/8900/6700",  d:"62.2x3.81", pf:"20-26x5.4", dt:"2006-01-19..", st:"2/5", ust:"Star-48B", th:"10502", fam:"Atlas", desc:"l:cap;van;ag:nasa", fuel:"KeroLOX+SRP",  icon:"Atlas-V500.png"},
+"Atlas V 401": {ctry:"us", m:"333320", pm:"9800/4750/3700",  d:"58.3x3.81", pf:"12-13.8x4.2", dt:"2002-08-21..", st:"2/0", ust:"", th:"4152", fam:"Atlas", desc:"l:cap;van;ag:nasa", fuel:"KeroLOX", icon:"Atlas-V401.png"},
+"Atlas V 411": {ctry:"us", m:"374120", pm:"12030/5950/4500",  d:"58.3x3.81", pf:"12-13.8x4.2", dt:"2006-04-20..", st:"2/1", ust:"", th:"5422", fam:"Atlas", desc:"l:cap;van;ag:nasa", fuel:"KeroLOX+SRP",  icon:"Atlas-V411.png"},
+"Atlas V 541": {ctry:"us", m:"522330", pm:"17410/8290/6300",  d:"62.2x3.81", pf:"20.7-23.5x5.4", dt:"2011-11-26..", st:"2/4", ust:"", th:"9232", fam:"Atlas", desc:"l:cap;van;ag:nasa", fuel:"KeroLOX+SRP",  icon:"Atlas-V500.png"},
+"Atlas V 551": {ctry:"us", m:"568590", pm:"18850/8900/6700",  d:"62.2x3.81", pf:"20.7-23.5x5.4", dt:"2006-01-19..", st:"2/5", ust:"Star-48B", th:"10502", fam:"Atlas", desc:"l:cap;van;ag:nasa", fuel:"KeroLOX+SRP",  icon:"Atlas-V500.png"},
 //BFR
 "BFR": {n:"Big Falcon Rocket", ctry:"us", m:"5000000", pm:"150000",  d:"118x9", pf:"", dt:"2020", st:"2", ust:"", th:"62900", fam:"Falcon", desc:"l:ksc,boc;ag:SpX", fuel:"LCH4/LOX", icon:"bfr.png"},
 //CZ-2C
@@ -2282,7 +2282,7 @@ add: spec. impulse, manufact.
 "OmegA": {syn:"OmegA Intermediate"},
 "OmegA Intermediate": {n:"", alt:"", ctry:"us", m:"", pm:"~30/4900..10100/-", d:"59.8x3.7", pf:"5.3x15", dt:"2021..", st:"3/2-6", th:"12000", fam:"OmegA", desc:"ag:atk", fuel:"SRP/LH2+LOX", icon:"omega500.png"},
 //Pegasus-XL
-"Pegasus-XL": {n:"", alt:"", ctry:"us", m:"23269", pm:"475/175/-",  d:"17.6x6.7", pf:"2.2x1.1", dt:"1990-04-05..", st:"3/L-1011", th:"726", fam:"Pegasus", desc:"ag:atk", fuel:"SRP", icon:"pegasus-xl.png"},
+"Pegasus-XL": {n:"", alt:"", ctry:"us", m:"23269", pm:"475/175/-",  d:"17.6x6.7", pf:"2.2x1.27", dt:"1990-04-05..", st:"3/L-1011", th:"726", fam:"Pegasus", desc:"ag:atk", fuel:"SRP", icon:"pegasus-xl.png"},
 //PSLV-XL
 "PSLV-XL": {n:"Polar Satellite Launch Vehicle", alt:"पी.एस.एल.वी-XL", ctry:"ind", m:"230000", pm:"3800/1300/720",  d:"44.4x2.8", pf:"", dt:"2008-10-22..", st:"4/6", th:"9230", fam:"PSLV", desc:"l:sri;ag:isro", fuel:"SRP", icon:"PSLV-XL.png"},
 //Proton K/Blok-DM3, Proton-K/Blok-D, Proton-K/Blok-D1, Proton-K/Blok-D2, Proton-M/Briz-M
@@ -2331,7 +2331,8 @@ add: spec. impulse, manufact.
 "Vostok-L 8K72": {alt:"Восток-Л", ctry:"su", m:"279100", pm:"4000/-/400",  d:"33.5x2.95", pf:"", dt:"1958-09-23..1960-04-16", st:"1/4", ust:"Blok-E", th:"3998", fam:"R-7", desc:"l:bai;ag:okb", fuel:"KeroLOX", icon:"Luna.png"},
 // Vulcan
 "Vulcan": {syn:"Vulcan-Centaur"},
-"Vulcan-Centaur": {ctry:"us", m:"546700", pm:"18850/15100/",  d:"58.3x5.4", pf:"x5.4", dt:"2021..", st:"2/0-6", ust:"", th:"12520", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"CH4/Lox+SRP",  icon:"Vulcan1.png"},
+"Vulcan-Centaur": {ctry:"us", m:"546700", pm:"30300/15000/11000",  d:"67.3x5.4", pf:"16-23x5.4", dt:"2021-07..", st:"2/0-6", ust:"Centaur V", th:"18110", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"CH4/Lox+SRP",  icon:"Vulcan1.png"},
+"Vulcan-Centaur Heavy": {ctry:"us", m:"560000", pm:"34900/16300/13000",  d:"69.2x5.4", pf:"23x5.4", dt:"2021..", st:"2/6", ust:"Centaur V", th:"18110", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"CH4/Lox+SRP",  icon:"Vulcan1.png"},
 //Zenit 2SB
 "Zenit 2SB": {alt:"Зенит-2SLБ", ctry:"ru", m:"459000", pm:"13500/5200/2000",  d:"57x3.9", pf:"", dt:"2007-06-29..", st:"2", ust:"Fregat-SB", th:"7259", fam:"Zenit", desc:"l:bai", fuel:"KeroLOX", icon:"Zenit-2.png"},
 "Zenit 2M": {syn:"Zenit 2SB"}
