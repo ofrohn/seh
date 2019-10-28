@@ -3131,7 +3131,7 @@ change6: {name:"Chang'e 6", desc:"lv:CZ-5",
   parts:[
     {names:"嫦娥六号", type:"srm", dest:"lun", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:clep;m:7800kg;sc:0.4;w:0.67", id:"", url:"", icon:"chang-e5.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2023", loc:"ter:wen:LC-101", desc:""},
+    {pt:"", type:"l", dt:"2024", loc:"ter:wen:LC-101", desc:""},
     {pt:"", type:"toi", dt:"l+1hr", loc:"ter:lto", desc:""},
     {pt:"", type:"oi", dt:"l+5dy", loc:"lun:200km", desc:""},
     {pt:"", type:"sep", dt:"l+?dy", loc:"lun", desc:"op/lp"},
@@ -3230,7 +3230,7 @@ luna26: {name:"Luna 26", desc:"lv:Soyuz 2.1B/Fregat",
   parts:[
     {names:"Луна-Ресурс орбитальный;Luna Resurs Orbiter:Lunar Resource Orbiter", type:"om", dest:"lun", stat:"pl", ctry:"ru", desc:"ag:rosc,iki;m:2200kg;sc:0.75", id:"", url:"rsw:www.russianspaceweb.com/luna_glob.html", icon:"luna26.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2023", loc:"ter:bai", desc:""},
+    {pt:"", type:"l", dt:"2024", loc:"ter:bai", desc:""},
     {pt:"", type:"oi", dt:"l+4dy", loc:"lun", desc:""},
     {pt:"", type:"sco", dt:"l+?dy", loc:"lun:100kmx90deg", desc:"Working Orbit"},
     {pt:"", type:"sco", dt:"l+1yr", loc:"lun:500kmx90deg", desc:"Final Operation Orbit"},
@@ -3308,7 +3308,7 @@ luna27: {name:"Luna 27", desc:"lv:Soyuz 2.1B",
   parts:[
     {names:"Луна-Ресурс посадочный;Luna Resurs Lander", type:"slm", dest:"lun", stat:"pl", ctry:"ru;eu", desc:"ag:rosc,iki,esa;m:2150kg;sc:0.4", id:"", url:"hp:ofo.ikiweb.ru/en/p_luna_resurs.php;rsw:www.russianspaceweb.com/luna_resurs.html", icon:"lunaresurs.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2024", loc:"ter:bai", desc:""},
+    {pt:"", type:"l", dt:"2025", loc:"ter:bai", desc:""},
     {pt:"", type:"td", dt:"l+4dy", loc:"lun:87.2S,68E", desc:"Near South Pole; Shoemaker Crater;show:0"},
     {pt:"", type:"nom", dt:"l+1yr", loc:"lun", desc:"?"}
 ]},

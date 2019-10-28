@@ -638,7 +638,7 @@ function Sbo(type, parent) {
     dx = 12;
     dy = 100;
     switch (_type) {
-      case "a": scale = 14; break;
+      case "a": scale = 12; break;
       case "c": scale = 640; break;
       case "t": scale = 7; dx = 10; break;
       default:  scale = 14; 
@@ -692,10 +692,10 @@ function Sbo(type, parent) {
     
     if (_type == "a") {
       w = 100;
-      h = 70;
+      h = 80;
       for (key in _data) {
         if  (_data[key].dodraw) {
-          dist = (parseFloat(_data[key].a)-2.1)*h;
+          dist = (parseFloat(_data[key].a) - 2.1) * (h-10);
           dim = UI.Scale.image(_data[key], 1);
           x = loc.x - w/3 + dim.w*10;
           y = loc.y + dist;
@@ -775,7 +775,7 @@ function Sbo(type, parent) {
   
 }
 
-/*Dwarf planet systems */
+/* Dwarf planet systems */
 function Dwarf(dest, parent) {
   var key, _planet = dest, _box, _overlay, _mapbox,
       _scale = 0,

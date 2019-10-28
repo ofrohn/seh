@@ -4275,9 +4275,9 @@ function Destination(dest, parid) {
   this.drawImage = function(c, top, width) {
     var dim, x, y, h, t, pos, redge, sc;
 
-    sc = _dest.search(/jup|sat/) != -1?240:120;
+    sc = _dest.search(/jup|sat/) !== -1 ? 240 : 120;
     dim = scaleImage();
-    y = (_dest == "sol")?0:top + 26;
+    y = (_dest === "sol") ? 0 : top + 26;
     x =  Math.round((width - dim.w + SSEH.BEVEL) / 2);
     //c.image(_data.img, x, y, w, h);
     if (!_img) {
@@ -4285,13 +4285,13 @@ function Destination(dest, parid) {
     } else {
       _img.style.left = px(x);
     }
-    if (!_overlay && _dest .search(/ura|nep/) == -1) { _overlay = createOverlay({t:y-1, w:dim.w, h:dim.h}); }
+    if (!_overlay && _dest .search(/ura|nep/) === -1) { _overlay = createOverlay({t:y-1, w:dim.w, h:dim.h}); }
     if (_data.nrings > 0) { pos = _rings.draw(c, {x:(width+SSEH.BEVEL)/2, y:y+(dim.h/2), w:dim.w/sc, h:dim.h/sc});  }
-    redge = pos?pos.x-5:x-5;
+    redge = pos ? pos.x - 5 : x - 5;
     if (_data.nmoons > 0 && _dest != "ter") { _moons.draw(c, {x:redge, y:y+(dim.h/2), sc:_data.scmoons}); }
-    if (_dest == "sbo") { 
+    if (_dest === "sbo") { 
       _com.draw(c, {x:(width+SSEH.BEVEL)/5*3, y:y-15, sc:_data.scmoons}); 
-      _ast.draw(c, {x:(width+SSEH.BEVEL)/4, y:y+50, sc:_data.scmoons}); 
+      _ast.draw(c, {x:(width+SSEH.BEVEL)/4, y:y+40, sc:_data.scmoons}); 
     }
     if (_dest == "tno") { 
       _ast.draw(c, {x:(width+SSEH.BEVEL)/5, y:y+40, sc:_data.scmoons}); 
@@ -5030,7 +5030,7 @@ function Sbo(type, parent) {
     dx = 12;
     dy = 100;
     switch (_type) {
-      case "a": scale = 14; break;
+      case "a": scale = 12; break;
       case "c": scale = 640; break;
       case "t": scale = 7; dx = 10; break;
       default:  scale = 14; 
@@ -5084,10 +5084,10 @@ function Sbo(type, parent) {
     
     if (_type == "a") {
       w = 100;
-      h = 70;
+      h = 80;
       for (key in _data) {
         if  (_data[key].dodraw) {
-          dist = (parseFloat(_data[key].a)-2.1)*h;
+          dist = (parseFloat(_data[key].a) - 2.1) * (h-10);
           dim = UI.Scale.image(_data[key], 1);
           x = loc.x - w/3 + dim.w*10;
           y = loc.y + dist;
@@ -5167,7 +5167,7 @@ function Sbo(type, parent) {
   
 }
 
-/*Dwarf planet systems */
+/* Dwarf planet systems */
 function Dwarf(dest, parent) {
   var key, _planet = dest, _box, _overlay, _mapbox,
       _scale = 0,
