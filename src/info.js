@@ -484,6 +484,7 @@ function Info(parent) {
                   "Lutetia, Šteins, Churyumov-Gerasimenko<i>: ESA/Rosetta/NAVCAM</i><br>" +
                   "Ceres, Vesta:<i> NASA/JPL-Caltech/UCLA/MPS/DLR/IDA</i><br>" +
                   "Pallas:<i> NASA/ESA/STScI</i><br>" +
+                  "Hygiea:<i> ESO/P. Vernazza et al.</i><br>" +
                   "Jupiter & Moons:<i> NASA/JPL/DLR</i><br>" +
                   "Galilean Moons:<i> NASA/ESA/A. Simon (GSFC)</i><br>" +
                   "Saturn & Moons:<i> NASA/JPL-Caltech/SSI/LPI</i><br>" +

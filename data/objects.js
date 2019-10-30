@@ -133,9 +133,9 @@ vest:
    img:"vesta.png", desc:"sc:6;url:solarsystem.nasa.gov/small-bodies/asteroids/4-vesta/in-depth/;orb:pr"},
 hygi:
   {name:"Hygiea", other:"", desig:"10", type:"a", par:"sol", disc:"A. de Gasparis", dyr:"1849",
-   a:"3.142au", e:"0.1356", i:"5.104", per:"5.571a", rot:"1.15d", gr:"mba",
-   h:"5.43", mass:"8.67e19kg", dia:"530x408x370km", rad:"265x204x185", tilt:"~60",
-   alb:"0.0717", grav:"0.0093", comp:"Rock+Ice", dens:"2.08", spec:"C", temp:"?..164..247K",
+   a:"3.142au", e:"0.1356", i:"5.104", per:"5.571a", rot:"13.8h", gr:"mba",
+   h:"5.43", mass:"8.6e19kg", dia:"540x408x370km", rad:"215.5", tilt:"~60",
+   alb:"0.0717", grav:"0.0093", comp:"Rock+Ice", dens:"1.944", spec:"C", temp:"?..164..247K",
    img:"hygiea.png", desc:"sc:6;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=hygiea;orb:pr"},
 psyc:
   {name:"Psyche", other:"", desig:"16", type:"a", par:"sol", disc:"A. de Gasparis", dyr:"1852",

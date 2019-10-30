@@ -27,7 +27,6 @@ These sites (and books) helped me greatly to gather all the data represented her
 [NASA History](http://history.nasa.gov/series95.html) Astronautics and Aeronautics Chronology Series  
 [Solar System Exploration](http://solarsystem.nasa.gov/missions/index.cfm) Mission Profiles  
 [JPL Mission and Spacecraft Library](http://space.jpl.nasa.gov/msl/)  
-[GSFC Mission Set Database](http://msdb.gsfc.nasa.gov/index.shtml)  
 [Encyclopedia Astronautica](http://www.astronautix.com/), Mark Wade   
 [Jonathan's Space Report](http://planet4589.org/space/), Johnathan McDowell  
 [Spaceflight Realtime Simulations and Information](http://www.dmuller.net/spaceflight/index.php), Daniel Muller  
