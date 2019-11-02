@@ -1088,7 +1088,7 @@ soho:{name:"SOHO:Solar & Heliospheric Observatory", url:"hp:sohowww.nascom.nasa.
     {n:"UVCS:Ultraviolet Coronagraph Spectrometer", band:"", res:"", url:"www.cfa.harvard.edu/uvcs/", desc:""},
     {n:"VIRGO:Variability of Solar Irradiance and Gravity Oscillations", band:"", res:"", url:"www.ias.u-psud.fr/virgo/", desc:""}
 ]},
-solarorbiter:{name:"Solar Orbiter", url:"hp:www.esa.int/Our_activities/Space_Science/Solar_Orbiter;esa:sci.esa.int/solarorbiter", desc:"High Inclination;ag:esa;fam:M-class;lv:Atlas V 411;sc:1;x:0;y:16", stat:"pl", 
+solarorbiter:{name:"Solar Orbiter", url:"hp:www.esa.int/Our_activities/Space_Science/Solar_Orbiter;esa:sci.esa.int/solarorbiter;tw:twitter.com/ESASolarOrbiter", desc:"High Inclination;ag:esa;fam:M-class;lv:Atlas V 411;sc:1;x:0;y:16", stat:"pl", 
   parts: [
     {n:"", ctry:"eu", type:"uv;par", pur:"sol", id:"", icon:"solarorbiter.png", desc:""}
   ], ev: [

@@ -3607,7 +3607,7 @@ change5: {name:"Chang'e 5", desc:"lv:CZ-5",
 ]},*/
 solarorbiter: {name:"Solar Orbiter", desc:"lv:Atlas V 411",
   parts:[
-    {names:"", type:"obm", dest:"sol", stat:"pl", ctry:"eu", desc:"ag:esa;fam:M-class;m:~1800kg;dim:14x3.0x2.5m;sc:0.75;Heliophysics Observatory", id:"", url:"hp:www.esa.int/Our_Activities/Space_Science/Solar_Orbiter;esa:sci.esa.int/solarorbiter/", icon:"solarorbiter.png"}], 
+    {names:"", type:"obm", dest:"sol", stat:"pl", ctry:"eu", desc:"ag:esa;fam:M-class;m:~1800kg;dim:14x3.0x2.5m;sc:0.75;Heliophysics Observatory", id:"", url:"hp:www.esa.int/Our_Activities/Space_Science/Solar_Orbiter;esa:sci.esa.int/solarorbiter/;tw:twitter.com/ESASolarOrbiter", icon:"solarorbiter.png"}], 
   events:[
     {pt:"", type:"l", dt:"2020-02", loc:"ter:cap:SLC-41", desc:""},
     {pt:"", type:"oi", dt:"2020-02", loc:"sol:ho:0.661x1.014aux2.9deg", desc:""},
@@ -6423,7 +6423,7 @@ add: spec. impulse, manufact.
 "H-IIA": {syn:"H-IIA 202"},
 "H-IIB": {ctry:"jp", m:"531000", pm:"19000/8000/4000",  d:"56.6x5.2", pf:"13x5.2", dt:"2009-09-10..", st:"2/4", th:"11200", fam:"H-II", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"H2B.png"},
 "H-III": {syn:"H-III 24L"},
-"H-III 24L": {ctry:"jp", m:"574000", pm:"/6500/",  d:"63x5.27", pf:"13x5.3", dt:"2021..", st:"2/0..4", th:"11500", fam:"H-III", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"h3-24l.png"},
+"H-III 24L": {ctry:"jp", m:"574000", pm:"/7900/",  d:"63x5.27", pf:"13x5.3", dt:"2021..", st:"2/0..4", th:"11500", fam:"H-III", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"h3-24l.png"},
 //Juno II
 "Juno II": {ctry:"us", m:"55300", pm:"50/-/6",  d:"23.4x2.67", pf:"", dt:"1958-12-06..1961-05-24", st:"4", th:"667", fam:"Jupiter", desc:"l:cap;ag:nasa", fuel:"KeroLOX+SRP", icon:"Juno-2.png"},
 //KSLV-II
