@@ -2225,7 +2225,7 @@ voyager2: {name:"Voyager 2", desc:"lv:Titan IIIE Centaur D1T", stat:"o",
     {pt:"3", type:"fb", dt:"1989-08-25", loc:"trit:39800km", desc:"eom:fbm:nep;Targeted flyby"},
     {pt:"4", type:"obs", dt:"1990-02-14", loc:"et:32au", desc:"Solar System Family Portrait"},
     {pt:"4", type:"ft", dt:"2007-08", loc:"sol:et:84au", desc:"Termination Shock"},
-    {pt:"4", type:"tr", dt:"2018-11-05", loc:"et:119au", desc:"isp"},
+    {pt:"4", type:"tr", dt:"2018-11-05", loc:"et:119.7au", desc:"isp"},
     {pt:"4", type:"nom", dt:"2030-12-31", loc:"et", desc:"?;Power depletion"}
 ]},
 voyager1: {name:"Voyager 1", desc:"lv:Titan IIIE Centaur D1T", stat:"o",
@@ -2244,7 +2244,7 @@ voyager1: {name:"Voyager 1", desc:"lv:Titan IIIE Centaur D1T", stat:"o",
     {pt:"2", type:"tc", dt:"1980-11-12", loc:"sol:et:9.54aux3.72ex35deg", desc:""},
     {pt:"2", type:"ev", dt:"1998-02-17", loc:"et:69.4au", desc:"Farthest human-made object"},
     {pt:"2", type:"ft", dt:"2004-12", loc:"sol:et:94au", desc:"Termination shock"},
-    {pt:"2", type:"tr", dt:"2012-08", loc:"et:121au", desc:"isp;Leaves Heliosphere"},
+    {pt:"2", type:"tr", dt:"2012-08", loc:"et:122.6au", desc:"isp;Leaves Heliosphere"},
     {pt:"2", type:"nom", dt:"2030-12-31", loc:"et", desc:"?;Power Depletion"}
 ]},
 // --- 1978 --- 5 Missions   
@@ -4060,9 +4060,9 @@ change8: {name:"Chang'e 8", desc:"lv:CZ-5",
     {pt:"0", type:"nom", dt:"l+1yr", loc:"lun", desc:"lp;?"},
     {pt:"1", type:"nom", dt:"l+2yr", loc:"lun", desc:"op;?"}
 ]},
-venerad: {name:"Venera-D", desc:"lv:Proton-M/Briz-M",
+venerad: {name:"Venera-D", desc:"lv:Angara-A5/Briz-M",
   parts:[
-    {names:"Венера-Д", type:"om", dest:"ven", stat:"pl", ctry:"ru", desc:"ag:rosc,iki;m:3600kg;sc:0.5", id:"", url:"hp:venera-d.cosmos.ru/index.php?id=658&L=2", icon:"venera-d.png"},
+    {names:"Венера-Д", type:"om", dest:"ven", stat:"pl", ctry:"ru", desc:"ag:rosc,iki;m:3600kg;sc:0.7", id:"", url:"hp:venera-d.cosmos.ru/index.php?id=658&L=2", icon:"venera-d.png"},
     {names:"", type:"slm", dest:"ven", stat:"pl", ctry:"ru", desc:"", id:"", url:"", icon:""}], 
   events:[
     {pt:"", type:"l", dt:"2027", loc:"ter:bai", desc:""},
@@ -6315,6 +6315,7 @@ add: spec. impulse, manufact.
 */
 //Angara 5V
 "Angara A5V": {ctry:"ru", m:"821000", pm:"37500/13300/10000",  d:"73.3x2.9", pf:"19.6x5.1", dt:"2025..", st:"2/4", ust:"KVTK/Blok-DM", th:"9600", fam:"Angara", desc:"l:vos;ag:rosc", fuel:"KeroLOX", icon:"angara-a5v.png"},
+"Angara A5": {syn:"Angara A5V"},
 //Ariane 1
 "Ariane 1": {ctry:"eu", m:"207200", pm:"-/1850/1000",  d:"50x3.8", pf:"x3.8", dt:"1979-12-24..1986-02-22", st:"3", th:"2462", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"UDMH/N2O4", icon:"Ariane-1.png"},
 //Ariane 5, Ariane 5ECA, Ariane 5G, Ariane 5G+
@@ -6626,10 +6627,10 @@ cdsnkash: {name:"CDSN Kashgar:Chinese DSN Station Kashgar", other:"喀什市", c
 cdsnmi: {name:"CDSN Miyun:Chinese DSN Station Miyun", other:"密云区", ctry:"cn", desig:"", desc:"url:;loc:40.51N,116.89E;ag:cnsa;show:Miyun:S;reg:Beijing, China;dish:1x50m"},
 cdsnkun: {name:"CDSN Kunming:Chinese DSN Station Kunming", other:"昆明", ctry:"cn", desig:"", desc:"url:;loc:24.84N,102.58E;ag:cnsa;show:Kunming:S;reg:Yunnan, China;dish:1x40m"},
 idsn: {name:"IDSN Byalalu:Indian DSN Station Byalalu", other:"பயலாலு", ctry:"ind", desig:"", desc:"url:http://www.isro.gov.in/about-isro/isro-telemetry-tracking-and-command-network-istrac;loc:12.901631N,77.368619E;ag:isro;show:IDSN:S;reg:Karnataka, India;dish:1x32m,1x18m"},
-evpat: {name:"Yevpatoria:Yevpatoria RT-70 Radio Telescope\n", other:"Евпатория", ctry:"ru;ua", desig:"NIP-16", desc:"url:;loc:45.189028N,33.187361E;ag:rosc;show:NIP-16:S;reg:Crimea, Ukraine;dish:1x70m,1x32m"},
-galen: {name:"Ussuriysk:Eastern Deep Space Communication Center\n", other:"Уссури́йск", ctry:"ru", desig:"NIP-15", desc:"url:;loc:44.0161N,131.757E;ag:rosc;show:NIP-15:NE;reg:Primorsky Krai, Russia;dish:1x70m,1x32m,1x25m"},
-bear: {name:"Medvezhi Ozera:Bear Lakes complex", other:"Медвежьи озёра", ctry:"ru", desig:"NIP-14", desc:"url:;loc:55.867886N,37.951804E;ag:rosc;show:NIP-14:SW;reg:Moscow, Russia;dish:1x64m"},
-//kalya: {name:"Kalyazin:Kalyazin Radio Astronomy Observatory", other:"Калязин", ctry:"ru", desig:"", desc:"url:;loc:57.2231N,37.9004E;ag:rosc;show:Kalyazin:NE;reg:Tver, Russia;dish:1x64m"},
+bear: {name:"CCSDS Medvezhi Ozera:Bear Lakes complex", other:"Медвежьи озёра", ctry:"ru", desig:"", desc:"url:;loc:55.867886N,37.951804E;ag:rosc;show:Bear Lakes:SW;reg:Moscow, Russia;dish:1x64m"},
+galen: {name:"CCSDS Ussuriysk:Eastern Deep Space Communication Center\n", other:"Уссури́йск", ctry:"ru", desig:"", desc:"url:;loc:44.0161N,131.757E;ag:rosc;show:Ussuriysk:NE;reg:Primorsky Krai, Russia;dish:1x70m,1x32m,1x25m"},
+evpat: {name:"CCSDS Yevpatoria:Yevpatoria RT-70 Radio Telescope\n", other:"Евпатория", ctry:"ru;ua", desig:"", desc:"url:;loc:45.189028N,33.187361E;ag:rosc;show:Yevpatoria:S;reg:Crimea, Ukraine;dish:1x70m,1x32m"},
+kalya: {name:"CCSDS Kalyazin:Kalyazin Radio Observatory", other:"Калязин", ctry:"ru", desig:"", desc:"url:;loc:57.2231N,37.9004E;ag:rosc;show:Kalyazin:NE;reg:Tver, Russia;dish:1x64m"},
 udsc: {name:"Usuda DSC:Usuda Deep Space Center", other:"臼田宇宙空間観測所", ctry:"jp", desig:"UDSC", desc:"url:global.jaxa.jp/about/centers/udsc/index.html;loc:36.133056N,138.362222E;ag:jaxa;show:UDSC:S;reg:Nagano, Japan;dish:1x64m"},
 //Uchinoura USC34
 //ktsat: {name:"KTSat:KTSat Satellite communication Center", other:"", ctry:"sk", desig:"KTSat", desc:"url:www.kari.re.kr/eng.do;loc:36.1N,127.5E;ag:kari;show:KTSat:NE;reg:Keumsan, South Korea;dish:1x27.7m"},

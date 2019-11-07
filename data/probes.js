@@ -1575,7 +1575,7 @@ voyager2: {name:"Voyager 2", desc:"lv:Titan IIIE Centaur D1T", stat:"o",
     {pt:"3", type:"fb", dt:"1989-08-25", loc:"trit:39800km", desc:"eom:fbm:nep;Targeted flyby"},
     {pt:"4", type:"obs", dt:"1990-02-14", loc:"et:32au", desc:"Solar System Family Portrait"},
     {pt:"4", type:"ft", dt:"2007-08", loc:"sol:et:84au", desc:"Termination Shock"},
-    {pt:"4", type:"tr", dt:"2018-11-05", loc:"et:119au", desc:"isp"},
+    {pt:"4", type:"tr", dt:"2018-11-05", loc:"et:119.7au", desc:"isp"},
     {pt:"4", type:"nom", dt:"2030-12-31", loc:"et", desc:"?;Power depletion"}
 ]},
 voyager1: {name:"Voyager 1", desc:"lv:Titan IIIE Centaur D1T", stat:"o",
@@ -1594,7 +1594,7 @@ voyager1: {name:"Voyager 1", desc:"lv:Titan IIIE Centaur D1T", stat:"o",
     {pt:"2", type:"tc", dt:"1980-11-12", loc:"sol:et:9.54aux3.72ex35deg", desc:""},
     {pt:"2", type:"ev", dt:"1998-02-17", loc:"et:69.4au", desc:"Farthest human-made object"},
     {pt:"2", type:"ft", dt:"2004-12", loc:"sol:et:94au", desc:"Termination shock"},
-    {pt:"2", type:"tr", dt:"2012-08", loc:"et:121au", desc:"isp;Leaves Heliosphere"},
+    {pt:"2", type:"tr", dt:"2012-08", loc:"et:122.6au", desc:"isp;Leaves Heliosphere"},
     {pt:"2", type:"nom", dt:"2030-12-31", loc:"et", desc:"?;Power Depletion"}
 ]},
 // --- 1978 --- 5 Missions   
@@ -3410,9 +3410,9 @@ change8: {name:"Chang'e 8", desc:"lv:CZ-5",
     {pt:"0", type:"nom", dt:"l+1yr", loc:"lun", desc:"lp;?"},
     {pt:"1", type:"nom", dt:"l+2yr", loc:"lun", desc:"op;?"}
 ]},
-venerad: {name:"Venera-D", desc:"lv:Proton-M/Briz-M",
+venerad: {name:"Venera-D", desc:"lv:Angara-A5/Briz-M",
   parts:[
-    {names:"Венера-Д", type:"om", dest:"ven", stat:"pl", ctry:"ru", desc:"ag:rosc,iki;m:3600kg;sc:0.5", id:"", url:"hp:venera-d.cosmos.ru/index.php?id=658&L=2", icon:"venera-d.png"},
+    {names:"Венера-Д", type:"om", dest:"ven", stat:"pl", ctry:"ru", desc:"ag:rosc,iki;m:3600kg;sc:0.7", id:"", url:"hp:venera-d.cosmos.ru/index.php?id=658&L=2", icon:"venera-d.png"},
     {names:"", type:"slm", dest:"ven", stat:"pl", ctry:"ru", desc:"", id:"", url:"", icon:""}], 
   events:[
     {pt:"", type:"l", dt:"2027", loc:"ter:bai", desc:""},
