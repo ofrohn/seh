@@ -1768,7 +1768,7 @@ ixi:
    img:"", col:"", desc:"sc:3;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=2012+VP113;orb:ec.2014-12-09"},
 //1994 JR1
 "2014mu69":
-  {name:"'Ultima Thule'", other:"2014 MU69", desig:"486958", type:"t", par:"sol", disc:"HST", dyr:"2014",
+  {name:"Arrokoth", other:"2014 MU69", desig:"486958", type:"t", par:"sol", disc:"HST", dyr:"2014",
    a:"44.23au", e:"0.0378", i:"2.45", per:"297.1a", rot:"16h", gr:"cube",
    h:"11.1", mass:"", dia:"33km", rad:"16.5", tilt:"98", alb:"~0.04", grav:"", 
    comp:"", dens:"", atm:"", atp:"", temp:"~35K",

@@ -3365,8 +3365,8 @@ hayabusa2: {name:"Hayabusa 2:Peregrine Falcon 2", desc:"lv:H-IIA 202",
     {pt:"0", type:"dsc", dt:"2019-02-21", loc:"ast", desc:"1. Sample Collection;Tamatebako"},
     {pt:"1", type:"imp", dt:"2019-04-05", loc:"ast", desc:"ip:SCI;Cratering Experiment;eom:im"},
     {pt:"0", type:"dsc", dt:"2019-07-11", loc:"ast", desc:"2. Sample Collection;Uchide-no-kozuchi"},
-    {pt:"2", type:"td", dt:"2019-10", loc:"ast", desc:"hpp:MINERVA II2;eom:hpm"},
-    {pt:"0", type:"dep", dt:"2019-11", loc:"ast", desc:""},
+    {pt:"2", type:"td", dt:"2019-10-08", loc:"ast", desc:"hpp:MINERVA II2;eom:hpm"},
+    {pt:"0", type:"dep", dt:"2019-11-13", loc:"ast", desc:""},
     {pt:"0", type:"edl", dt:"2020-11", loc:"ter", desc:"eom"}
 ]},
 procyon: {name:"PROCYON:PRoximate Object Close flYby with Optical Navigation", desc:"lv:H-IIA 202",
@@ -5857,7 +5857,7 @@ ixi:
    img:"", col:"", desc:"sc:3;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=2012+VP113;orb:ec.2014-12-09"},
 //1994 JR1
 "2014mu69":
-  {name:"'Ultima Thule'", other:"2014 MU69", desig:"486958", type:"t", par:"sol", disc:"HST", dyr:"2014",
+  {name:"Arrokoth", other:"2014 MU69", desig:"486958", type:"t", par:"sol", disc:"HST", dyr:"2014",
    a:"44.23au", e:"0.0378", i:"2.45", per:"297.1a", rot:"16h", gr:"cube",
    h:"11.1", mass:"", dia:"33km", rad:"16.5", tilt:"98", alb:"~0.04", grav:"", 
    comp:"", dens:"", atm:"", atp:"", temp:"~35K",
