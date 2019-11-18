@@ -305,6 +305,7 @@ a2002gt:
    h:"18.5", mass:"", dia:"", rad:"", tilt:"",
    alb:"", grav:"", comp:"", dens:"", spec:"", temp:"",
    img:"", desc:"sc:6;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=163249;orb:ec.2000-01-01"},
+// 2001 WR1
 a1996fg3:
   {name:"1996 FG3", other:"", desig:"175706", type:"a", par:"sol", disc:"R.H. McNaught", dyr:"1996",
    a:"1.05au", e:"0.350", i:"1.992", per:"1.08a", rot:"3.594h", gr:"nea:Apollo",
@@ -1766,7 +1767,7 @@ ixi:
    h:"4.0", mass:"", dia:"~500km", rad:"~250", tilt:"", alb:"~0.15", grav:"", 
    comp:"", dens:"", atm:"", atp:"", temp:"",
    img:"", col:"", desc:"sc:3;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=2012+VP113;orb:ec.2014-12-09"},
-//1994 JR1
+//1994 JR1, 
 "2014mu69":
   {name:"Arrokoth", other:"2014 MU69", desig:"486958", type:"t", par:"sol", disc:"HST", dyr:"2014",
    a:"44.23au", e:"0.0378", i:"2.45", per:"297.1a", rot:"16h", gr:"cube",

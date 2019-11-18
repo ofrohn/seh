@@ -3490,7 +3490,7 @@ dslwp: {name:"Longjiang 1 & 2:Dragon River", desc:"lv:CZ-4C;part:change4relay", 
     {pt:"", type:"l", dt:"2018-05-21", loc:"ter:xch:LC-2", desc:"Chang'e 4 LRS piggyback"},
     {pt:"0", type:"los", dt:"2018-05-21", loc:"ter:lto", desc:"eom;Longjiang 1"},
     {pt:"1", type:"oi", dt:"2018-05-25", loc:"lun:350x13700km", desc:"Longjiang 2"},
-    {pt:"1", type:"imp", dt:"2019-07-31", loc:"lun:15.5N,157.5E", desc:"eom;show:0"}
+    {pt:"1", type:"imp", dt:"2019-07-31", loc:"lun:16.6956N,159.517°E", desc:"eom;show:0"}
 ]},
 bepicolombo: {name:"Bepi Colombo", desc:"lv:Ariane 5ECA",
   parts:[
@@ -4394,6 +4394,7 @@ a2002gt:
    h:"18.5", mass:"", dia:"", rad:"", tilt:"",
    alb:"", grav:"", comp:"", dens:"", spec:"", temp:"",
    img:"", desc:"sc:6;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=163249;orb:ec.2000-01-01"},
+// 2001 WR1
 a1996fg3:
   {name:"1996 FG3", other:"", desig:"175706", type:"a", par:"sol", disc:"R.H. McNaught", dyr:"1996",
    a:"1.05au", e:"0.350", i:"1.992", per:"1.08a", rot:"3.594h", gr:"nea:Apollo",
@@ -5855,7 +5856,7 @@ ixi:
    h:"4.0", mass:"", dia:"~500km", rad:"~250", tilt:"", alb:"~0.15", grav:"", 
    comp:"", dens:"", atm:"", atp:"", temp:"",
    img:"", col:"", desc:"sc:3;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=2012+VP113;orb:ec.2014-12-09"},
-//1994 JR1
+//1994 JR1, 
 "2014mu69":
   {name:"Arrokoth", other:"2014 MU69", desig:"486958", type:"t", par:"sol", disc:"HST", dyr:"2014",
    a:"44.23au", e:"0.0378", i:"2.45", per:"297.1a", rot:"16h", gr:"cube",
@@ -6314,7 +6315,7 @@ Common.lv = {
 add: spec. impulse, manufact.
 */
 //Angara 5V
-"Angara A5V": {ctry:"ru", m:"821000", pm:"37500/13300/10000",  d:"73.3x2.9", pf:"19.6x5.1", dt:"2025..", st:"2/4", ust:"KVTK/Blok-DM", th:"9600", fam:"Angara", desc:"l:vos;ag:rosc", fuel:"KeroLOX", icon:"angara-a5v.png"},
+"Angara A5V": {ctry:"ru", m:"821000", pm:"37500/13300/10000",  d:"73.3x2.9", pf:"19.6x5.1", dt:"2025..", st:"2/4", ust:"KVTK/Blok-DM", th:"9600", fam:"Angara", desc:"l:vos;ag:rosc", fuel:"KeroLOX", icon:"Angara-5V.png"},
 "Angara A5": {syn:"Angara A5V"},
 //Ariane 1
 "Ariane 1": {ctry:"eu", m:"207200", pm:"-/1850/1000",  d:"50x3.8", pf:"x3.8", dt:"1979-12-24..1986-02-22", st:"3", th:"2462", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"UDMH/N2O4", icon:"Ariane-1.png"},
@@ -6364,8 +6365,8 @@ add: spec. impulse, manufact.
 //CZ-4B
 "CZ-4B": {n:"Long March 4B", alt:"长征四号乙火箭", ctry:"cn", m:"249200", pm:"4200/1500/1000",  d:"45.8x3.35", pf:"x3.35", dt:"1999-05-10..", st:"3", ust:"", th:"2962", fam:"Long March", desc:"l:jiu,tai;ag:cnsa", fuel:"UDMH/N2O4", icon:"CZ-4B.png"},
 //CZ-5
-"CZ-5": {n:"Long March 5", alt:"长征五号运载火箭", ctry:"cn", m:"878560", pm:"25000/14000/8000",  d:"56.97x5", pf:"12x5.2", dt:"2016..", st:"2/4", ust:"YZ-2", th:"10572", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"LH2/LOX+KeroLOX", icon:"CZ-5.png"},
-"CZ-5B": {n:"Long March 5B", alt:"长征五号乙运载火箭", ctry:"cn", m:"837500", pm:"22000/-/-",  d:"53.66x5", pf:"12x5.2", dt:"2020..", st:"1/4", ust:"", th:"10572", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"LH2/LOX+KeroLOX", icon:"CZ-5B.png"},
+"CZ-5": {n:"Long March 5", alt:"长征五号运载火箭", ctry:"cn", m:"867000", pm:"25000/13000/8000",  d:"62x5", pf:"12x5.2", dt:"2016..", st:"2/4", ust:"Yuanzheng", th:"10565", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"LH2/LOX+KeroLOX", icon:"CZ-5.png"},
+"CZ-5B": {n:"Long March 5B", alt:"长征五号乙运载火箭", ctry:"cn", m:"837500", pm:"23000/-/-",  d:"53.66x5", pf:"12x5.2", dt:"2020..", st:"1/4", ust:"", th:"10565", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"LH2/LOX+KeroLOX", icon:"CZ-5B.png"},
 //CZ-7
 "CZ-7": {n:"Long March 7", alt:"长征七号运载火箭", ctry:"cn", m:"597000", pm:"13500/5500/-", d:"53x3.35", pf:"12.7x4.2", dt:"2016..", st:"2/4", ust:"YZ-1A", th:"7200", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"cz-7.png"},
 //CZ-9

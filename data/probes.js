@@ -2840,7 +2840,7 @@ dslwp: {name:"Longjiang 1 & 2:Dragon River", desc:"lv:CZ-4C;part:change4relay", 
     {pt:"", type:"l", dt:"2018-05-21", loc:"ter:xch:LC-2", desc:"Chang'e 4 LRS piggyback"},
     {pt:"0", type:"los", dt:"2018-05-21", loc:"ter:lto", desc:"eom;Longjiang 1"},
     {pt:"1", type:"oi", dt:"2018-05-25", loc:"lun:350x13700km", desc:"Longjiang 2"},
-    {pt:"1", type:"imp", dt:"2019-07-31", loc:"lun:15.5N,157.5E", desc:"eom;show:0"}
+    {pt:"1", type:"imp", dt:"2019-07-31", loc:"lun:16.6956N,159.517°E", desc:"eom;show:0"}
 ]},
 bepicolombo: {name:"Bepi Colombo", desc:"lv:Ariane 5ECA",
   parts:[
