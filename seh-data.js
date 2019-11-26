@@ -3545,7 +3545,7 @@ change4: {name:"Chang'e 4", desc:"lv:CZ-3B/G3Z",
     {pt:"", type:"sco", dt:"2018-12-30", loc:"lun:100x15kmx90deg", desc:""},
     {pt:"", type:"td", dt:"2019-01-03", loc:"lun:45.471S,177.606E", desc:"Statio Tianhe, Von Karman crater, SPA;show:CE4:NW"},
     {pt:"", type:"sep", dt:"2019-01-03", loc:"lun", desc:"lp/rvp"}, 
-    {pt:"1", type:"ex", dt:"", loc:"lun", desc:"rvp;rv:271m"},    
+    {pt:"1", type:"ex", dt:"", loc:"lun", desc:"rvp;rv:318m"},    
     {pt:"1", type:"nom", dt:"2019-10", loc:"lun", desc:"rvp;?;eom:rvm"},
     {pt:"0", type:"nom", dt:"2019-12", loc:"lun", desc:"lp;?"}
 ]},
@@ -3921,8 +3921,10 @@ viper: {name:"VIPER:Volatiles Investigating Polar Exploration Rover", desc:"lv:T
 // --- 2023
 change7: {name:"Chang'e 7", desc:"lv:CZ-5",
   parts:[
-    {names:"嫦娥 7", type:"slm", dest:"lun", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:clep;m:7800kg;sc:0.3;w:0.67", id:"", url:"", icon:"chang-e7.png"},
-    {names:"{Chang'e 7 Orbiter}", type:"om", dest:"lun", stat:"pl", ctry:"cn", desc:"", icon:""}], 
+    {names:"嫦娥 7", type:"slm", dest:"lun", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:clep;m:8200kg;sc:0.3;w:0.67", id:"", url:"", icon:"chang-e7.png"},
+    {names:"{Chang'e 7 Orbiter}", type:"om", dest:"lun", stat:"pl", ctry:"cn", desc:"", icon:""}
+    //relay, hopper, rover
+    ], 
   events:[
     {pt:"", type:"l", dt:"2023", loc:"ter:wen:LC-101", desc:""},
     {pt:"", type:"toi", dt:"l+1hr", loc:"ter:lto", desc:""},
@@ -4049,7 +4051,7 @@ dragonfly: {name:"Dragonfly", desc:"", stat:"pl",
 // --- 2027
 change8: {name:"Chang'e 8", desc:"lv:CZ-5",
   parts:[
-    {names:"嫦娥 8", type:"slm", dest:"lun", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:clep;m:7800kg;sc:0.3;w:0.67", id:"", url:"", icon:"chang-e7.png"},
+    {names:"嫦娥 8", type:"slm", dest:"lun", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:clep;m:8200kg;sc:0.3;w:0.67", id:"", url:"", icon:"chang-e7.png"},
     {names:"{Chang'e 8 Orbiter}", type:"om", dest:"lun", stat:"pl", ctry:"cn", desc:"", icon:""}],
   events:[
     {pt:"", type:"l", dt:"2027", loc:"ter:wen:LC-101", desc:""},
@@ -5605,38 +5607,38 @@ nere:
    img:"nereid.png", desc:"sc:5;url:solarsystem.nasa.gov/moons/neptune-moons/nereid/in-depth/;orb:lp.2000-01-01"},
 naia:
   {name:"Naiad", other:"S/1989 N6", desig:"III", type:"m", par:"nep", disc:"Voyager 2", dyr:"1989",
-   a:"48227km", e:"0.0003", i:"4.691", per:"0.294d", rot:"", gr:"Regular",
-   h:"10.0", mass:"1.901e-9", dia:"96x60x52km", rad:"33", tilt:"0.448",
-   alb:"0.072", grav:"0.0012", comp:"", dens:"1.3:", temp:"~51K",
+   a:"48227km", e:"0.00014", i:"4.728", per:"0.294d", rot:"", gr:"Regular",
+   h:"10.0", mass:"7.527e15kg", dia:"96x60x52km", rad:"33", tilt:"0.448",
+   alb:"0.072", grav:"0.0012", comp:"", dens:"0.8", temp:"~51K",
    img:"naiad.png", desc:"sc:3;url:solarsystem.nasa.gov/moons/neptune-moons/naiad/in-depth/;orb:lp.2000-01-01"},
 thal:
   {name:"Thalassa", other:"S/1989 N5", desig:"IV", type:"m", par:"nep", disc:"Voyager 2", dyr:"1989",
-   a:"50074km", e:"0.0002", i:"0.135", per:"0.311d", rot:"", gr:"Regular",
-   h:"9.1", mass:"3.65e-9", dia:"108x100x52km", rad:"41", tilt:"0.449",
-   alb:"0.091", grav:"0.002", comp:"", dens:"1.2:", temp:"~51K",
+   a:"50074km", e:"0.00019", i:"0.168", per:"0.311d", rot:"", gr:"Regular",
+   h:"9.1", mass:"1.443e16kg", dia:"108x100x52km", rad:"41", tilt:"0.449",
+   alb:"0.091", grav:"0.002", comp:"", dens:"1.23", temp:"~51K",
    img:"", desc:"sc:3;url:solarsystem.nasa.gov/moons/neptune-moons/thalassa/in-depth/;orb:lp.2000-01-01"},
 desp:
   {name:"Despina", other:"S/1989 N3", desig:"V", type:"m", par:"nep", disc:"Voyager 2", dyr:"1989",
-   a:"52526km", e:"0.0002", i:"0.068", per:"0.335d", rot:"", gr:"Regular",
-   h:"7.9", mass:"2.05e-8", dia:"180x148x128km", rad:"75", tilt:"0.451",
+   a:"52526km", e:"0.00027", i:"0.039", per:"0.335d", rot:"", gr:"Regular",
+   h:"7.9", mass:"8.836e16kg", dia:"180x148x128km", rad:"75", tilt:"0.451",
    alb:"0.090", grav:"0.0026", comp:"", dens:"1.2:", temp:"~51K",
    img:"despina.png", desc:"sc:3;url:solarsystem.nasa.gov/moons/neptune-moons/despina/in-depth/;orb:lp.2000-01-01"},
 gala:
   {name:"Galatea", other:"S/1989 N4", desig:"VI", type:"m", par:"nep", disc:"Voyager 2", dyr:"1989",
-   a:"61953km", e:"0.0001", i:"0.034", per:"0.429d", rot:"", gr:"Regular",
-   h:"7.6", mass:"3.66e-8", dia:"204x184x144km", rad:"88", tilt:"0.462",
+   a:"61953km", e:"0.0002", i:"0.010", per:"0.429d", rot:"", gr:"Regular",
+   h:"7.6", mass:"1.427e17kg", dia:"204x184x144km", rad:"88", tilt:"0.462",
    alb:"0.079", grav:"0.0018", comp:"", dens:"0.75:", temp:"~51K",
    img:"galatea.png", desc:"sc:3;url:solarsystem.nasa.gov/moons/neptune-moons/galatea/in-depth/;orb:lp.2000-01-01"},
 lari:
   {name:"Larissa", other:"S/1989 N2", desig:"VII", type:"m", par:"nep", disc:"Voyager 2", dyr:"1989",
-   a:"73548km", e:"0.0014", i:"0.205", per:"0.555d", rot:"", gr:"Regular",
-   h:"7.3", mass:"4.83e-8", dia:"216x204x168km", rad:"97", tilt:"0.490",
+   a:"73548km", e:"0.00121", i:"0.214", per:"0.555d", rot:"", gr:"Regular",
+   h:"7.3", mass:"1.911e17kg", dia:"216x204x168km", rad:"97", tilt:"0.490",
    alb:"0.091", grav:"0.003", comp:"", dens:"1.2:", temp:"~50K",
    img:"larissa.png", desc:"sc:3;url:solarsystem.nasa.gov/moons/neptune-moons/larissa/in-depth/;orb:lp.2000-01-01"},
 prot:
   {name:"Proteus", other:"S/1989 N1", desig:"VIII", type:"m", par:"nep", disc:"Voyager 2", dyr:"1989",
-   a:"117646km", e:"0.0005", i:"0.075", per:"1.122d", rot:"S", gr:"Regular",
-   h:"5.6", mass:"4.914e-7", dia:"436x416x402km", rad:"210", tilt:"0.974",
+   a:"117646km", e:"0.00047", i:"0.042", per:"1.122d", rot:"S", gr:"Regular",
+   h:"5.6", mass:"1.940e18kg", dia:"436x416x402km", rad:"210", tilt:"0.974",
    alb:"0.096", grav:"0.007", comp:"", dens:"1.3:", temp:"~51K",
    img:"proteus.png", desc:"sc:3;url:solarsystem.nasa.gov/moons/neptune-moons/proteus/in-depth/;orb:lp.2000-01-01"},
 hali:
@@ -5671,8 +5673,8 @@ neso:
    img:"", desc:"sc:3;url:solarsystem.nasa.gov/moons/neptune-moons/neso/in-depth/;orb:ec.2003-06-10"},
 s2004n1:
   {name:"Hippocamp", other:"S/2004 N 1", desig:"XIV", type:"m", par:"nep", disc:"M.R. Showalter et al.", dyr:"2013",
-   a:"105283km", e:"0:", i:"0", per:"0.9362d", rot:"", gr:"Regular",
-   h:"", mass:"", dia:"34km:", rad:"17", tilt:"",
+   a:"105283km", e:"0.00001", i:"0.002", per:"0.9362d", rot:"", gr:"Regular",
+   h:"", mass:"1.029e15kg", dia:"34km", rad:"17", tilt:"",
    alb:"0.06:", grav:"", comp:"", dens:"", 
    img:"", desc:"sc:3;url:solarsystem.nasa.gov/moons/neptune-moons/s-2004-n1/in-depth/;orb:ec.2013-01-01"},
 tno:
@@ -6324,8 +6326,8 @@ add: spec. impulse, manufact.
 "Ariane 5G+": {syn:"Ariane 5G"},
 "Ariane 5ECA": {ctry:"eu", m:"764000", pm:"21000/9600/5400",  d:"57.7x5.4", pf:"17x5.4", dt:"2002-12-11..", st:"2/2", th:"11400", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"LH2/LOX+SRP", icon:"Ariane-5.png"},
 "Ariane 6": {syn:"Ariane 62"},
-"Ariane 62": {ctry:"eu", m:"500000", pm:"11300/5000/2600",  d:"62x5.4", pf:"21.6-26x5.4", dt:"2020-07..", st:"2/2", ust:"ULPM", th:"8350", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"LH2/LOX+SRP", icon:"ariane62.png"},
-"Ariane 64": {ctry:"eu", m:"900000", pm:"22300/11500/7600",  d:"62x5.4", pf:"21.6-26x5.4", dt:"2021..", st:"2/4", ust:"ULPM", th:"15350", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"LH2/LOX+SRP", icon:"ariane64.png"},
+"Ariane 62": {ctry:"eu", m:"500000", pm:"11300/5000/2600",  d:"62x5.4", pf:"14-20x5.4", dt:"2020-07..", st:"2/2", ust:"ULPM", th:"8350", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"LH2/LOX+SRP", icon:"ariane62.png"},
+"Ariane 64": {ctry:"eu", m:"860000", pm:"22300/11500/7600",  d:"62x5.4", pf:"20x5.4", dt:"2021..", st:"2/4", ust:"ULPM", th:"15350", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"LH2/LOX+SRP", icon:"ariane64.png"},
 //Athena 2
 "Athena 2": {ctry:"us", m:"120700", pm:"2065/593/300",  d:"28.2x2.3", pf:"x2.36", dt:"1998-01-07..1999-09-24", st:"3", th:"1450", fam:"MX", desc:"l:cap;ag:nasa", fuel:"SRP", icon:"Athena-2.png"},
 //Atlas-D Able IV, Atlas-D Able V
