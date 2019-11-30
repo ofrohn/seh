@@ -130,6 +130,7 @@ exom: {name:"ExoMars:Exobiology on Mars"},
 isro: {name:"ISRO:Indian Space Research Organisation", desc:"url:www.isro.org/index.aspx;ctry:ind"},
 lgarde: {name:"L'Garde", desc:"url:www.lgarde.com;ctry:us;"},
 uaesa: {name:"UAESA:UAE Space Agency", desc:"url:www.space.gov.ae/;ctry:ue;"},
+csa: {name:"CSA:Canadian Space Agency", desc:"url:www.asc-csa.gc.ca/eng/;ctry:ca"},
 
 //Spacecraft    
 lv: {name:"Launch Vehicle"},

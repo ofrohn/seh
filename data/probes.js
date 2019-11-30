@@ -2982,7 +2982,7 @@ kplo: {name:"KPLO:Korean Pathfinder Lunar Orbiter", desc:"lv:Falcon 9",
    ], 
   events:[
     {pt:"", type:"l", dt:"2022-07", loc:"ter:cap", desc:""},
-    {pt:"", type:"toi", dt:"2020-12", loc:"ter:heeo", desc:"Phasing Loop Transfer"},
+    {pt:"", type:"toi", dt:"2022-07", loc:"ter:heeo", desc:"Phasing Loop Transfer"},
     {pt:"", type:"oi", dt:"l+1mo", loc:"lun:100kmx90deg", desc:""},
     {pt:"", type:"nom", dt:"l+1yr", loc:"lun", desc:"?"}
 ]},
@@ -3149,7 +3149,7 @@ lucy: {name:"Lucy", desc:"lv:Atlas V 401",
 ]},
 dart: {name:"DART:Double Asteroid Redirection Test", desc:"lv:Falcon 9",
   parts:[
-    {names:"", type:"im", dest:"ast", stat:"pl", ctry:"us", desc:"ag:nasa,apl;m:640kg;sc:0.7", id:"", url:"hp:dart.jhuapl.edu/;nasa:www.nasa.gov/planetarydefense/dart", icon:"dart.png"},
+    {names:"", type:"im", dest:"ast", stat:"pl", ctry:"us", desc:"ag:nasa,apl;fam:AIDA;m:640kg;sc:0.7", id:"", url:"hp:dart.jhuapl.edu/;nasa:www.nasa.gov/planetarydefense/dart", icon:"dart.png"},
     {names:"LICIACube:Light Italian Cubesat for Imaging of Asteroids", type:"fbm", dest:"ast", stat:"pl", ctry:"it", desc:"ag:asi,Argotec;sc:0.4", id:"", url:"LICIACube:argotec.it/online/2019/01/23/liciacube-nasa-choose-again-an-argotec-smallsat/", icon:"licia.png"}
   ], events:[
     {pt:"", type:"l", dt:"2021-07", loc:"ter:van:SLC-4E", desc:""},
@@ -3320,6 +3320,17 @@ change6: {name:"Chang'e 6", desc:"lv:CZ-5",
     {pt:"", type:"toi", dt:"l+25dy", loc:"lun", desc:"op/src"},
     {pt:"", type:"edl", dt:"l+30dy", loc:"ter", desc:"src;Siziwang Banner, Inner Mongolia;eom"}
 ]},
+hera: {name:"Hera", desc:"lv:Soyuz 2.1B",
+  parts:[
+    {names:"", type:"om", dest:"ast", stat:"pl", ctry:"eu", desc:"ag:esa;fam:AIDA;m:870kg;sc:0.7", id:"", url:"hp:www.esa.int/Safety_Security/Hera", icon:"hera.png"},
+    {names:"APEX:Asteroid Prospection Explorer", type:"om", dest:"ast", stat:"pl", ctry:"eu", desc:"ag:esa;sc:0.5", id:"", url:"APEX:www.esa.int/Safety_Security/Hera/Deep_space_CubeSats", icon:"apex.png"},
+    {names:"Juventas", type:"om", dest:"ast", stat:"pl", ctry:"eu", desc:"ag:GomSpace,GMV;sc:0.6", id:"", url:"Juventas:www.esa.int/Safety_Security/Hera/Deep_space_CubeSats", icon:"juventas.png"}
+  ], events:[
+    {pt:"", type:"l", dt:"2024-10", loc:"ter:kou", desc:""},
+    {pt:"", type:"oi", dt:"2024-10", loc:"sol:ho", desc:""},
+    {pt:"", type:"oi", dt:"2026-12", loc:"ast", desc:"ast:didy"},
+    {pt:"", type:"nom", dt:"2028-12", loc:"ast", desc:"?"}
+]},
 mmx: {name:"MMX:Martian Moons eXploration", desc:"lv:H-III",
   parts:[
     {names:"", type:"srm", dest:"mar:Phobos", stat:"pl", ctry:"jp", desc:"ag:jaxa,isas;m:4000kg;m0:;dim:14x2.1x4.5m;sc:0.75", id:"", url:"hp:mmx.isas.jaxa.jp/en/index.html;tw:twitter.com/mmx_jaxa_en", icon:"mmx.png"},
@@ -3397,6 +3408,17 @@ dragonfly: {name:"Dragonfly", desc:"", stat:"pl",
     {pt:"", type:"l", dt:"2026", loc:"ter:ksc", desc:""},
     {pt:"", type:"edl", dt:"2034", loc:"tita", desc:"Shangri-La"},
     {pt:"", type:"nom", dt:"2037", loc:"tita", desc:"rv:175km;?"}
+]},
+heracles: {name:"Heracles", desc:"lv:Ariane 6",
+  parts:[
+    {names:"ELLL:European Large Lunar Lander", type:"srm", dest:"lun", stat:"pl", ctry:"eu", desc:"ag:esa;sc:0.3", id:"", url:"hp:www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Exploration/Landing_on_the_Moon_and_returning_home_Heracles", icon:"heracles.png"},
+    {names:"{LDE:Lunar Descent Element", type:"slm", dest:"lun", stat:"pl", ctry:"jp", desc:"ag:jaxa", icon:""},
+    {names:"{Heracles Rover}", type:"rvm", dest:"lun", stat:"pl", ctry:"ca", desc:"ag:csa", icon:""}],
+  events:[
+    {pt:"", type:"l", dt:"2026", loc:"ter:kou", desc:""},
+    {pt:"", type:"td", dt:"2026", loc:"lun", desc:"Schrödinger crater"},
+    {pt:"", type:"l", dt:"2026", loc:"lun", desc:""},
+    {pt:"0", type:"doc", dt:"2026", loc:"lun:nrho", desc:"Gateway station"}
 ]},
 // --- 2027
 change8: {name:"Chang'e 8", desc:"lv:CZ-5",
