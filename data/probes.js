@@ -2912,7 +2912,7 @@ chandrayaan2: {name:"Chandrayaan 2:Moon Craft 2", desc:"lv:GSLV MkIII",
     {pt:"0", type:"oi", dt:"2019-08-20", loc:"lun:114x18072kmx87.8deg", desc:""},
     {pt:"0", type:"sco", dt:"2019-09-01", loc:"lun:114x128km", desc:""},
     {pt:"0", type:"sep", dt:"2019-09-02", loc:"lun", desc:"op/lp"},
-    {pt:"1", type:"td", dt:"2019-09-06", loc:"lun:70.9S,22.78E", desc:"fail;Between Manzinus C & Simpelius N Crater;show:Ch2-Vikram:NW;eom:slm;eom:rvm"},
+    {pt:"1", type:"td", dt:"2019-09-06", loc:"lun:70.881S,22.784E", desc:"fail;Between Manzinus C & Simpelius N Crater;show:Ch2-Vikram:NW;eom:slm;eom:rvm"},
     //{pt:"0", type:"sco", dt:"2019-09-08", loc:"lun:90km", desc:"Sun Synchronous"},
     {pt:"0", type:"nom", dt:"2020-08", loc:"lun", desc:"?"},
     {pt:"0", type:"pom", dt:"2027", loc:"lun", desc:"?"}
@@ -3023,13 +3023,13 @@ mgrso: {name:"Huoxing-1:Mars-1", desc:"lv:CZ-5",
     {pt:"0", type:"sco", dt:"l+13mo", loc:"mar:500x100000kmx85deg", desc:""},
     {pt:"0", type:"nom", dt:"2023", loc:"mar", desc:"op;?"}
 ]},
-emm: {name:"Mars Hope", desc:"lv:H-IIA 202",
+emm: {name:"Al Amal:Hope", desc:"lv:H-IIA 202",
   parts:[
-    {names:"مسبار الأمل;EMM:Emirates Mars Mission", type:"om", dest:"mar", stat:"pl", ctry:"ue", desc:"ag:uaesa;m:1500kg;dim:7.9x3x3.5m;sc:0.5", id:"", url:"hp:www.emm.ae/;MBRSC:www.mbrsc.ae/en;tw:twitter.com/HopeMarsMission", icon:"emm.png"}], 
+    {names:"مسبار الأمل;EMM:Emirates Mars Mission", type:"om", dest:"mar", stat:"pl", ctry:"ue", desc:"ag:uaesa;m:1500kg;dim:7.9x3x3.5m;sc:0.5", id:"", url:"hp:www.emiratesmarsmission.ae/;MBRSC:www.mbrsc.ae/en;tw:twitter.com/HopeMarsMission", icon:"emm.png"}], 
   events:[
     {pt:"", type:"l", dt:"2020-07", loc:"ter:tng", desc:""},
     {pt:"", type:"toi", dt:"2020-07", loc:"sol:hto", desc:""},
-    {pt:"", type:"oi", dt:"l+7mo", loc:"mar:500x44000kmx20deg", desc:""},
+    {pt:"", type:"oi", dt:"l+7mo", loc:"mar:1000x49380kmx20deg", desc:""},
     {pt:"", type:"sco", dt:"l+10mo", loc:"mar:20000x43000kmx25deg", desc:""},
     {pt:"", type:"nom", dt:"2023", loc:"mar", desc:""},
     {pt:"", type:"pom", dt:"2025", loc:"mar", desc:""}
