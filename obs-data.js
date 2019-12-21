@@ -741,7 +741,7 @@ akari:{name:"Akari", url:"hp:www.ir.isas.jaxa.jp/ASTRO-F/Outreach/index_e.html;j
     {n:"", band:"1.7..180um", d:"0.685", px:"1.5", fov:"10x10'", desc:"warm:<5.5um;c:nr;"},
     {n:"", band:"50..180um", d:"", px:"", desc:"c:nr;"}
 ]},
-ariel:{name:"ARIEL:Atmospheric Remote‐sensing Infrared Exoplanet Large‐survey mission", url:"hp:sci.esa.int/ariel/", desc:"ag:esa;lv:Ariane 62;dim:,m:1200kg;sc:0.6;y:48", stat:"pl", 
+ariel:{name:"ARIEL:Atmospheric Remote‐sensing Infrared Exoplanet Large‐survey mission", url:"hp:arielmission.space;esa:sci.esa.int/ariel/;tw:twitter.com/ArielTelescope", desc:"ag:esa;lv:Ariane 62;dim:,m:1200kg;sc:0.6;y:48", stat:"pl", 
   parts: [
     {n:"", ctry:"eu", type:"ir", pur:"exo", id:"", icon:"ariel.png", desc:""}
   ], ev: [
@@ -879,15 +879,15 @@ chandra:{name:"Chandra", url:"hp:chandra.harvard.edu/;Map:chandra.harvard.edu/ph
     {n:"LETG 1", band:"", res:"", url:"www.mpe.mpg.de/xray/home.php", desc:"c:;"},
     {n:"LETG 2", band:"", res:"", url:"www.sron.nl/divisions/hea/chandra/short.html", desc:"c:n;"}
 ]},
-cheops:{name:"CHEOPS:CHaracterising ExOPlanets Satellite", url:"hp:cheops.unibe.ch/;esa:sci.esa.int/cheops/", desc:"ag:esa;fam:S-class;lv:Soyuz STB/Fregat-MT;m:250kg;sc:0.7;x:0;y:0", stat:"pl", 
+cheops:{name:"CHEOPS:CHaracterising ExOPlanets Satellite", url:"hp:cheops.unibe.ch/;esa:sci.esa.int/cheops/;tw:twitter.com/ESA_CHEOPS", desc:"ag:esa;fam:S-class;lv:Soyuz STB/Fregat-MT;m:250kg;sc:0.7;x:0;y:0", stat:"o", 
   parts: [
-    {n:"", ctry:"eu", type:"opt;nir", pur:"exo", id:"", icon:"cheops.png", desc:""}
+    {n:"", ctry:"eu", type:"opt;nir", pur:"exo", id:"2019-092B", icon:"cheops.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2019-10-15", tp:"l", loc:"ter:kou:ELS", desc:""},
-    {pt:"", dt:"", tp:"sco", loc:"ter:sseo:700kmx98deg", desc:""},
-    {pt:"", dt:"2022", tp:"nom", loc:"ter:sseo", desc:""},
+    {pt:"", dt:"2019-12-18", tp:"l", loc:"ter:kou:ELS", desc:""},
+    {pt:"", dt:"2019-12-18", tp:"sco", loc:"ter:sseo:598x709kmx98.2deg", desc:""},
+    {pt:"", dt:"2023-06", tp:"nom", loc:"ter:sseo", desc:""},
   ], inst: [
-    {n:"", band:"400..1100nm", res:"", d:"0.33", px:"", desc:"c:;cl:nl;"}
+    {n:"", band:"330..1100nm", res:"", d:"0.32", px:"1.125", fov:"0.32x0.32deg", desc:"c:nb;cl:nl;"}
 ]},
 cobe:{name:"COBE", url:"hp:lambda.gsfc.nasa.gov/product/cobe/", desc:"ag:nasa;lv:Delta 5920-8", stat:"s", 
   parts: [
@@ -1571,7 +1571,7 @@ planck:{name:"Planck", url:"hp:www.esa.int/Our_activities/Space_Science/Planck",
     {n:"LFI", band:"2.30E+10..8.4E+10", res:"2980..840", d:1.5, px:640, desc:"c:;"},
     {n:"HFI", band:"6.6E+10..8.57E+11", res:"300", d:1.5, px:300, desc:"c:;"}
 ]},
-plato:{name:"PLATO:Planetary Transits and Oscillations of stars", url:"hp:sci.esa.int/plato/", desc:"ag:esa;lv:Ariane 62;fam:M-class;sc:0.7;x:28;y:0", stat:"pl", 
+plato:{name:"PLATO:Planetary Transits and Oscillations of stars", url:"hp:sci.esa.int/plato/;tw:twitter.com/PLATOMissionCon", desc:"ag:esa;lv:Ariane 62;fam:M-class;sc:0.7;x:28;y:0", stat:"pl", 
   parts: [
     {n:"", ctry:"eu", type:"opt;nir", pur:"exo", id:"", icon:"plato.png", desc:""}
   ], ev: [
@@ -1892,7 +1892,7 @@ swift:{name:"Swift", url:"hp:swift.gsfc.nasa.gov/;asi:swift.asdc.asi.it/;psu:www
     {pt:"", dt:"2004-11-20", tp:"l", loc:"ter:cap:SLC-17A", desc:""},
     {pt:"", dt:"2004-11-21", tp:"sco", loc:"ter:leo:584x604kmx20.5deg", desc:""}
   ], inst: [
-    {n:"UVOT:UV/Optical Telescope", band:"4.61E+14..1.76E+15", res:"0.5", d:0.3, px:0.5, url:"swift.gsfc.nasa.gov/docs/swift/about_swift/uvot_desc.html", desc:"c:nt;cl:nl"},
+    {n:"UVOT:UV/Optical Telescope", band:"4.61E+14..1.76E+15", res:"0.5", d:0.3, px:0.5, url:"swift.gsfc.nasa.gov/docs/swift/about_swift/uvot_desc.html", desc:"c:nb;cl:nl"},
     {n:"XRT:X-ray Telescope", band:"7.25E+16..2.42E+18", res:"18", url:"swift.gsfc.nasa.gov/docs/swift/about_swift/xrt_desc.html", desc:"c:nr;cl:ny;"},
     {n:"BAT:Burst Alert Telescope", band:"3.63E+18..3.63E+19", res:"120", url:"swift.gsfc.nasa.gov/docs/swift/about_swift/bat_desc.html", desc:"c:nr;cl:nl;"}
 ]},
@@ -2163,7 +2163,7 @@ add: spec. impulse, manufact.
 "Ariane 5G+": {syn:"Ariane 5G"},
 "Ariane 5ECA": {ctry:"eu", m:"764000", pm:"21000/9600/5400",  d:"57.7x5.4", pf:"17x5.4", dt:"2002-12-11..", st:"2/2", th:"11400", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"LH2/LOX+SRP", icon:"Ariane-5.png"},
 "Ariane 6": {syn:"Ariane 62"},
-"Ariane 62": {ctry:"eu", m:"500000", pm:"11300/5000/2600",  d:"62x5.4", pf:"14-20x5.4", dt:"2020-07..", st:"2/2", ust:"ULPM", th:"8350", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"LH2/LOX+SRP", icon:"ariane62.png"},
+"Ariane 62": {ctry:"eu", m:"530000", pm:"11300/5000/2600",  d:"62x5.4", pf:"14-20x5.4", dt:"2020-07..", st:"2/2", ust:"ULPM", th:"8350", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"LH2/LOX+SRP", icon:"ariane62.png"},
 "Ariane 64": {ctry:"eu", m:"860000", pm:"22300/11500/7600",  d:"62x5.4", pf:"20x5.4", dt:"2021..", st:"2/4", ust:"ULPM", th:"15350", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"LH2/LOX+SRP", icon:"ariane64.png"},
 //Athena 2
 "Athena 2": {ctry:"us", m:"120700", pm:"2065/593/300",  d:"28.2x2.3", pf:"x2.36", dt:"1998-01-07..1999-09-24", st:"3", th:"1450", fam:"MX", desc:"l:cap;ag:nasa", fuel:"SRP", icon:"Athena-2.png"},
@@ -2281,6 +2281,8 @@ add: spec. impulse, manufact.
 "Molniya 8K78M": {syn:"Molniya 8K78"},
 //N-1
 "N-1": {alt:"Н-1", ctry:"su", m:"2788000", pm:"70000/-/22000",  d:"105.3x14", pf:"", dt:"1969-02-21..1972-12-23", st:"4", th:"45400", fam:"N-1", desc:"l:bai;ag:tsk", fuel:"KeroLOX", icon:"N1.png"},
+//New Glenn
+"New Glenn": {alt:"", ctry:"us", m:"", pm:"45000/13000/-",  d:"95x7", pf:"", dt:"2021", st:"2", th:"17100", fam:"", desc:"l:cap,van;ag:Blue Origin", fuel:"LCH4/LOX", icon:"newglenn.png"},
 //OmegA
 "OmegA": {syn:"OmegA Intermediate"},
 "OmegA Intermediate": {n:"", alt:"", ctry:"us", m:"", pm:"~30/4900..10100/-", d:"59.8x3.7", pf:"5.3x15", dt:"2021..", st:"3/2-6", th:"12000", fam:"OmegA", desc:"ag:atk", fuel:"SRP/LH2+LOX", icon:"omega500.png"},
@@ -2334,8 +2336,8 @@ add: spec. impulse, manufact.
 "Vostok-L 8K72": {alt:"Восток-Л", ctry:"su", m:"279100", pm:"4000/-/400",  d:"33.5x2.95", pf:"", dt:"1958-09-23..1960-04-16", st:"1/4", ust:"Blok-E", th:"3998", fam:"R-7", desc:"l:bai;ag:okb", fuel:"KeroLOX", icon:"Luna.png"},
 // Vulcan
 "Vulcan": {syn:"Vulcan-Centaur"},
-"Vulcan-Centaur": {ctry:"us", m:"546700", pm:"30300/15000/11000",  d:"67.3x5.4", pf:"16-23x5.4", dt:"2021-07..", st:"2/0-6", ust:"Centaur V", th:"18110", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"CH4/Lox+SRP",  icon:"Vulcan1.png"},
-"Vulcan-Centaur Heavy": {ctry:"us", m:"560000", pm:"34900/16300/13000",  d:"69.2x5.4", pf:"23x5.4", dt:"2021..", st:"2/6", ust:"Centaur V", th:"18110", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"CH4/Lox+SRP",  icon:"Vulcan1.png"},
+"Vulcan-Centaur": {ctry:"us", m:"546700", pm:"30300/15000/11000",  d:"67.3x5.4", pf:"16-23x5.4", dt:"2021-07..", st:"2/0-6", ust:"Centaur V", th:"18110", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"LCH4/LOX+SRP",  icon:"Vulcan1.png"},
+"Vulcan-Centaur Heavy": {ctry:"us", m:"560000", pm:"34900/16300/13000",  d:"69.2x5.4", pf:"23x5.4", dt:"2021..", st:"2/6", ust:"Centaur V", th:"18110", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"LCH4/LOX+SRP",  icon:"Vulcan1.png"},
 //Zenit 2SB
 "Zenit 2SB": {alt:"Зенит-2SLБ", ctry:"ru", m:"459000", pm:"13500/5200/2000",  d:"57x3.9", pf:"", dt:"2007-06-29..", st:"2", ust:"Fregat-SB", th:"7259", fam:"Zenit", desc:"l:bai", fuel:"KeroLOX", icon:"Zenit-2.png"},
 "Zenit 2M": {syn:"Zenit 2SB"}

@@ -2186,7 +2186,7 @@ luna1975A: {name:"Luna E-8-5M #412", desc:"lv:Proton-K/Blok-D",
 // --- 1976 --- 2 Missions
 helios2: {name:"Helios 2", desc:"lv:Titan IIIE Centaur D1T",
   parts:[
-    {names:"Helios B", type:"obm", dest:"sol", stat:"s", ctry:"us;de", desc:"ag:nasa,dfvlr;Closest Solar Approach;m:370kg;dim:2.77x2.77x2.18m", id:"1976-003A", url:"hp:www.mps.mpg.de/en/projekte/helios/", icon:"helios.png"}], 
+    {names:"Helios B", type:"obm", dest:"sol", stat:"s", ctry:"us;de", desc:"ag:nasa,dfvlr;First close solar approach;m:370kg;dim:2.77x2.77x2.18m", id:"1976-003A", url:"hp:www.mps.mpg.de/en/projekte/helios/", icon:"helios.png"}], 
   events:[
     {pt:"", type:"l", dt:"1976-01-15", loc:"ter:cap:LC-41", desc:""},
     {pt:"", type:"oi", dt:"1976-01-15", loc:"sol:ho:0.280x0.995aux0deg", desc:""},
@@ -2889,7 +2889,7 @@ opportunity: {name:"Opportunity", desc:"lv:Delta II 7925H-9.5",
     {pt:"", type:"arr", dt:"2006-09-27", loc:"mar", desc:"Victoria Crater"},
     {pt:"", type:"arr", dt:"2011-08-09", loc:"mar", desc:"Endeavour Crater"},
     {pt:"", type:"obs", dt:"2014-10-19", loc:"mar", desc:"Comet C 2013 A1 Siding Spring"},
-    {pt:"", type:"ex", dt:"", loc:"mar", desc:"rv:45.16km"},
+    {pt:"", type:"ex", dt:"", loc:"mar", desc:"rv:45.161km"},
     {pt:"", type:"los", dt:"2018-06-10", loc:"mar", desc:"eom"}    
 ]},
 smart1: {name:"SMART 1:Small Missions for Advanced Research in Technology 1", desc:"lv:Ariane 5G",
@@ -3438,7 +3438,7 @@ osirisrex: {name:"OSIRIS-REx:Origins-Spectral Interpretation-Resource Identifica
     {pt:"", type:"sco", dt:"2019-06-12", loc:"ast:0.68km", desc:"Orbital B"},
     {pt:"", type:"obs", dt:"2019-09", loc:"ast", desc:"Detailed survey of candidate sample sites"},
     {pt:"", type:"td", dt:"2019-12", loc:"ast", desc:"Sample acquisition rehearsal"},
-    {pt:"", type:"td", dt:"2020-07", loc:"ast", desc:"Sample acquisition"},
+    {pt:"", type:"td", dt:"2020-08", loc:"ast", desc:"Sample acquisition;Nightingale crater"},
     {pt:"", type:"dep", dt:"2021-03-03", loc:"ast", desc:""},
     {pt:"", type:"edl", dt:"2023-09-24", loc:"ter", desc:"src;UTTR, Utah;"}
 ]},
@@ -3525,7 +3525,7 @@ spp: {name:"Parker Solar Probe", desc:"lv:Delta IV Heavy",
     {pt:"", type:"l", dt:"2018-08-12", loc:"ter:cap:SLC-37B", desc:""},
     {pt:"", type:"toi", dt:"2018-08-12", loc:"sol:ho:0.21x1.01aux5.6deg", desc:""},
     {pt:"", type:"fb", dt:"2018-10-03", loc:"ven:2428km", desc:"ga"},
-    {pt:"", type:"fb", dt:"2019-12-26", loc:"ven", desc:"ga"},
+    {pt:"", type:"fb", dt:"2019-12-26", loc:"ven:3000km", desc:"ga"},
     {pt:"", type:"fb", dt:"2020-07-11", loc:"ven", desc:"ga"},
     {pt:"", type:"fb", dt:"2021-02-20", loc:"ven", desc:"ga"},
     {pt:"", type:"fb", dt:"2021-10-16", loc:"ven", desc:"ga"},
@@ -3670,7 +3670,7 @@ mgrso: {name:"Huoxing-1:Mars-1", desc:"lv:CZ-5",
     {pt:"", type:"l", dt:"2020-07-23", loc:"ter:wen:LC-101", desc:""},
     {pt:"", type:"toi", dt:"2020-07-23", loc:"sol:hto", desc:""},
     {pt:"", type:"oi", dt:"l+7mo", loc:"mar", desc:"10 day polar orbit"},
-    {pt:"1", type:"edl", dt:"l+10mo", loc:"mar", desc:"lp;Chryse Planitia or Isidis Planitia"},
+    {pt:"1", type:"edl", dt:"l+10mo", loc:"mar:26.9N,135.7E", desc:"lp;Utopia Planitia"},
     {pt:"2", type:"nom", dt:"l+13mo", loc:"mar", desc:"rvp;eom:slm;eom:rvm"},
     {pt:"0", type:"sco", dt:"l+13mo", loc:"mar:500x100000kmx85deg", desc:""},
     {pt:"0", type:"nom", dt:"2023", loc:"mar", desc:"op;?"}
@@ -4398,9 +4398,9 @@ apop:
    img:"", desc:"sc:6;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=apophis;orb:ec.2007-10-12"},
 benn:
   {name:"Bennu", other:"1999 RQ36", desig:"101955", type:"a", par:"sol", disc:"LINEAR", dyr:"1999",
-   a:"1.126au", e:"0.204", i:"6.035", per:"1.20a", rot:"4.276h", gr:"nea:Apollo",
-   h:"20.9", mass:"7.329e10kg", dia:"0.49km", rad:"0.25", tilt:"176",
-   alb:"0.044", grav:"", comp:"CHON+poro:50", dens:"1.19", spec:"B", temp:"<371K",
+   a:"1.126au", e:"0.204", i:"6.035", per:"1.20a", rot:"4.297h", gr:"nea:Apollo",
+   h:"20.6", mass:"7.8e10kg", dia:"0.508x0.565x0.535km", rad:"0.25", tilt:"176",
+   alb:"0.044", grav:"", comp:"CHON+poro:50", dens:"1.26", spec:"B", temp:"<371K",
    img:"bennu.png", desc:"sc:6;url:solarsystem.nasa.gov/small-bodies/asteroids/101955-bennu/in-depth/;orb:ec.2011-01-01"},
 a2006jf56:
   {name:"APL", other:"2006 JF56", desig:"132524", type:"a", par:"sol", disc:"LINEAR", dyr:"2006",
@@ -6350,7 +6350,7 @@ add: spec. impulse, manufact.
 "Ariane 5G+": {syn:"Ariane 5G"},
 "Ariane 5ECA": {ctry:"eu", m:"764000", pm:"21000/9600/5400",  d:"57.7x5.4", pf:"17x5.4", dt:"2002-12-11..", st:"2/2", th:"11400", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"LH2/LOX+SRP", icon:"Ariane-5.png"},
 "Ariane 6": {syn:"Ariane 62"},
-"Ariane 62": {ctry:"eu", m:"500000", pm:"11300/5000/2600",  d:"62x5.4", pf:"14-20x5.4", dt:"2020-07..", st:"2/2", ust:"ULPM", th:"8350", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"LH2/LOX+SRP", icon:"ariane62.png"},
+"Ariane 62": {ctry:"eu", m:"530000", pm:"11300/5000/2600",  d:"62x5.4", pf:"14-20x5.4", dt:"2020-07..", st:"2/2", ust:"ULPM", th:"8350", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"LH2/LOX+SRP", icon:"ariane62.png"},
 "Ariane 64": {ctry:"eu", m:"860000", pm:"22300/11500/7600",  d:"62x5.4", pf:"20x5.4", dt:"2021..", st:"2/4", ust:"ULPM", th:"15350", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"LH2/LOX+SRP", icon:"ariane64.png"},
 //Athena 2
 "Athena 2": {ctry:"us", m:"120700", pm:"2065/593/300",  d:"28.2x2.3", pf:"x2.36", dt:"1998-01-07..1999-09-24", st:"3", th:"1450", fam:"MX", desc:"l:cap;ag:nasa", fuel:"SRP", icon:"Athena-2.png"},
@@ -6468,6 +6468,8 @@ add: spec. impulse, manufact.
 "Molniya 8K78M": {syn:"Molniya 8K78"},
 //N-1
 "N-1": {alt:"Н-1", ctry:"su", m:"2788000", pm:"70000/-/22000",  d:"105.3x14", pf:"", dt:"1969-02-21..1972-12-23", st:"4", th:"45400", fam:"N-1", desc:"l:bai;ag:tsk", fuel:"KeroLOX", icon:"N1.png"},
+//New Glenn
+"New Glenn": {alt:"", ctry:"us", m:"", pm:"45000/13000/-",  d:"95x7", pf:"", dt:"2021", st:"2", th:"17100", fam:"", desc:"l:cap,van;ag:Blue Origin", fuel:"LCH4/LOX", icon:"newglenn.png"},
 //OmegA
 "OmegA": {syn:"OmegA Intermediate"},
 "OmegA Intermediate": {n:"", alt:"", ctry:"us", m:"", pm:"~30/4900..10100/-", d:"59.8x3.7", pf:"5.3x15", dt:"2021..", st:"3/2-6", th:"12000", fam:"OmegA", desc:"ag:atk", fuel:"SRP/LH2+LOX", icon:"omega500.png"},
@@ -6521,8 +6523,8 @@ add: spec. impulse, manufact.
 "Vostok-L 8K72": {alt:"Восток-Л", ctry:"su", m:"279100", pm:"4000/-/400",  d:"33.5x2.95", pf:"", dt:"1958-09-23..1960-04-16", st:"1/4", ust:"Blok-E", th:"3998", fam:"R-7", desc:"l:bai;ag:okb", fuel:"KeroLOX", icon:"Luna.png"},
 // Vulcan
 "Vulcan": {syn:"Vulcan-Centaur"},
-"Vulcan-Centaur": {ctry:"us", m:"546700", pm:"30300/15000/11000",  d:"67.3x5.4", pf:"16-23x5.4", dt:"2021-07..", st:"2/0-6", ust:"Centaur V", th:"18110", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"CH4/Lox+SRP",  icon:"Vulcan1.png"},
-"Vulcan-Centaur Heavy": {ctry:"us", m:"560000", pm:"34900/16300/13000",  d:"69.2x5.4", pf:"23x5.4", dt:"2021..", st:"2/6", ust:"Centaur V", th:"18110", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"CH4/Lox+SRP",  icon:"Vulcan1.png"},
+"Vulcan-Centaur": {ctry:"us", m:"546700", pm:"30300/15000/11000",  d:"67.3x5.4", pf:"16-23x5.4", dt:"2021-07..", st:"2/0-6", ust:"Centaur V", th:"18110", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"LCH4/LOX+SRP",  icon:"Vulcan1.png"},
+"Vulcan-Centaur Heavy": {ctry:"us", m:"560000", pm:"34900/16300/13000",  d:"69.2x5.4", pf:"23x5.4", dt:"2021..", st:"2/6", ust:"Centaur V", th:"18110", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"LCH4/LOX+SRP",  icon:"Vulcan1.png"},
 //Zenit 2SB
 "Zenit 2SB": {alt:"Зенит-2SLБ", ctry:"ru", m:"459000", pm:"13500/5200/2000",  d:"57x3.9", pf:"", dt:"2007-06-29..", st:"2", ust:"Fregat-SB", th:"7259", fam:"Zenit", desc:"l:bai", fuel:"KeroLOX", icon:"Zenit-2.png"},
 "Zenit 2M": {syn:"Zenit 2SB"}

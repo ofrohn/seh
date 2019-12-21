@@ -83,7 +83,7 @@ akari:{name:"Akari", url:"hp:www.ir.isas.jaxa.jp/ASTRO-F/Outreach/index_e.html;j
     {n:"", band:"1.7..180um", d:"0.685", px:"1.5", fov:"10x10'", desc:"warm:<5.5um;c:nr;"},
     {n:"", band:"50..180um", d:"", px:"", desc:"c:nr;"}
 ]},
-ariel:{name:"ARIEL:Atmospheric Remote‐sensing Infrared Exoplanet Large‐survey mission", url:"hp:sci.esa.int/ariel/", desc:"ag:esa;lv:Ariane 62;dim:,m:1200kg;sc:0.6;y:48", stat:"pl", 
+ariel:{name:"ARIEL:Atmospheric Remote‐sensing Infrared Exoplanet Large‐survey mission", url:"hp:arielmission.space;esa:sci.esa.int/ariel/;tw:twitter.com/ArielTelescope", desc:"ag:esa;lv:Ariane 62;dim:,m:1200kg;sc:0.6;y:48", stat:"pl", 
   parts: [
     {n:"", ctry:"eu", type:"ir", pur:"exo", id:"", icon:"ariel.png", desc:""}
   ], ev: [
@@ -221,15 +221,15 @@ chandra:{name:"Chandra", url:"hp:chandra.harvard.edu/;Map:chandra.harvard.edu/ph
     {n:"LETG 1", band:"", res:"", url:"www.mpe.mpg.de/xray/home.php", desc:"c:;"},
     {n:"LETG 2", band:"", res:"", url:"www.sron.nl/divisions/hea/chandra/short.html", desc:"c:n;"}
 ]},
-cheops:{name:"CHEOPS:CHaracterising ExOPlanets Satellite", url:"hp:cheops.unibe.ch/;esa:sci.esa.int/cheops/", desc:"ag:esa;fam:S-class;lv:Soyuz STB/Fregat-MT;m:250kg;sc:0.7;x:0;y:0", stat:"pl", 
+cheops:{name:"CHEOPS:CHaracterising ExOPlanets Satellite", url:"hp:cheops.unibe.ch/;esa:sci.esa.int/cheops/;tw:twitter.com/ESA_CHEOPS", desc:"ag:esa;fam:S-class;lv:Soyuz STB/Fregat-MT;m:250kg;sc:0.7;x:0;y:0", stat:"o", 
   parts: [
-    {n:"", ctry:"eu", type:"opt;nir", pur:"exo", id:"", icon:"cheops.png", desc:""}
+    {n:"", ctry:"eu", type:"opt;nir", pur:"exo", id:"2019-092B", icon:"cheops.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2019-10-15", tp:"l", loc:"ter:kou:ELS", desc:""},
-    {pt:"", dt:"", tp:"sco", loc:"ter:sseo:700kmx98deg", desc:""},
-    {pt:"", dt:"2022", tp:"nom", loc:"ter:sseo", desc:""},
+    {pt:"", dt:"2019-12-18", tp:"l", loc:"ter:kou:ELS", desc:""},
+    {pt:"", dt:"2019-12-18", tp:"sco", loc:"ter:sseo:598x709kmx98.2deg", desc:""},
+    {pt:"", dt:"2023-06", tp:"nom", loc:"ter:sseo", desc:""},
   ], inst: [
-    {n:"", band:"400..1100nm", res:"", d:"0.33", px:"", desc:"c:;cl:nl;"}
+    {n:"", band:"330..1100nm", res:"", d:"0.32", px:"1.125", fov:"0.32x0.32deg", desc:"c:nb;cl:nl;"}
 ]},
 cobe:{name:"COBE", url:"hp:lambda.gsfc.nasa.gov/product/cobe/", desc:"ag:nasa;lv:Delta 5920-8", stat:"s", 
   parts: [
@@ -913,7 +913,7 @@ planck:{name:"Planck", url:"hp:www.esa.int/Our_activities/Space_Science/Planck",
     {n:"LFI", band:"2.30E+10..8.4E+10", res:"2980..840", d:1.5, px:640, desc:"c:;"},
     {n:"HFI", band:"6.6E+10..8.57E+11", res:"300", d:1.5, px:300, desc:"c:;"}
 ]},
-plato:{name:"PLATO:Planetary Transits and Oscillations of stars", url:"hp:sci.esa.int/plato/", desc:"ag:esa;lv:Ariane 62;fam:M-class;sc:0.7;x:28;y:0", stat:"pl", 
+plato:{name:"PLATO:Planetary Transits and Oscillations of stars", url:"hp:sci.esa.int/plato/;tw:twitter.com/PLATOMissionCon", desc:"ag:esa;lv:Ariane 62;fam:M-class;sc:0.7;x:28;y:0", stat:"pl", 
   parts: [
     {n:"", ctry:"eu", type:"opt;nir", pur:"exo", id:"", icon:"plato.png", desc:""}
   ], ev: [
@@ -1234,7 +1234,7 @@ swift:{name:"Swift", url:"hp:swift.gsfc.nasa.gov/;asi:swift.asdc.asi.it/;psu:www
     {pt:"", dt:"2004-11-20", tp:"l", loc:"ter:cap:SLC-17A", desc:""},
     {pt:"", dt:"2004-11-21", tp:"sco", loc:"ter:leo:584x604kmx20.5deg", desc:""}
   ], inst: [
-    {n:"UVOT:UV/Optical Telescope", band:"4.61E+14..1.76E+15", res:"0.5", d:0.3, px:0.5, url:"swift.gsfc.nasa.gov/docs/swift/about_swift/uvot_desc.html", desc:"c:nt;cl:nl"},
+    {n:"UVOT:UV/Optical Telescope", band:"4.61E+14..1.76E+15", res:"0.5", d:0.3, px:0.5, url:"swift.gsfc.nasa.gov/docs/swift/about_swift/uvot_desc.html", desc:"c:nb;cl:nl"},
     {n:"XRT:X-ray Telescope", band:"7.25E+16..2.42E+18", res:"18", url:"swift.gsfc.nasa.gov/docs/swift/about_swift/xrt_desc.html", desc:"c:nr;cl:ny;"},
     {n:"BAT:Burst Alert Telescope", band:"3.63E+18..3.63E+19", res:"120", url:"swift.gsfc.nasa.gov/docs/swift/about_swift/bat_desc.html", desc:"c:nr;cl:nl;"}
 ]},

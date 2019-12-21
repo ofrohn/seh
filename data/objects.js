@@ -283,9 +283,9 @@ apop:
    img:"", desc:"sc:6;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=apophis;orb:ec.2007-10-12"},
 benn:
   {name:"Bennu", other:"1999 RQ36", desig:"101955", type:"a", par:"sol", disc:"LINEAR", dyr:"1999",
-   a:"1.126au", e:"0.204", i:"6.035", per:"1.20a", rot:"4.276h", gr:"nea:Apollo",
-   h:"20.9", mass:"7.329e10kg", dia:"0.49km", rad:"0.25", tilt:"176",
-   alb:"0.044", grav:"", comp:"CHON+poro:50", dens:"1.19", spec:"B", temp:"<371K",
+   a:"1.126au", e:"0.204", i:"6.035", per:"1.20a", rot:"4.297h", gr:"nea:Apollo",
+   h:"20.6", mass:"7.8e10kg", dia:"0.508x0.565x0.535km", rad:"0.25", tilt:"176",
+   alb:"0.044", grav:"", comp:"CHON+poro:50", dens:"1.26", spec:"B", temp:"<371K",
    img:"bennu.png", desc:"sc:6;url:solarsystem.nasa.gov/small-bodies/asteroids/101955-bennu/in-depth/;orb:ec.2011-01-01"},
 a2006jf56:
   {name:"APL", other:"2006 JF56", desig:"132524", type:"a", par:"sol", disc:"LINEAR", dyr:"2006",
