@@ -3,10 +3,10 @@
 Common.dsn = {
 gdscc: {name:"DSN Goldstone:Goldstone Deep Space Communications Complex", ctry:"us", desig:"GDSCC", desc:"url:eyes.nasa.gov/dsn/dsn.html;loc:35.426667N,116.89W;ag:nasa;show:GDSCC:E;reg:California, USA;dish:1x70m,4x34m,1x26m"},
 cdscc: {name:"DSN Canberra:Canberra Deep Space Communications Complex", ctry:"us;au", desig:"CDSCC", desc:"url:eyes.nasa.gov/dsn/dsn.html;loc:35.401389S,148.981667E;ag:nasa;show:CDSCC:S;reg:Australia;dish:1x70m,4x34m,1x26m"},
-dsa1: {name:"ESTRACK New Norica:Deep Space Antenna 1, New Norica", ctry:"eu;au", desig:"DSA 1", desc:"url:www.esa.int/Our_Activities/Operations/Estrack/New_Norcia_-_DSA_1;loc:31.0482S,116.1914E;ag:esa;show:DSA 1:S;reg:Western Australia;dish:1x35m"},
-dsa2: {name:"ESTRACK Cebreros:Deep Space Antenna 2, Cebreros", ctry:"eu;es", desig:"DSA 2", desc:"url:www.esa.int/Our_Activities/Operations/Estrack/Cebreros_-_DSA_2;loc:40.4528N,4.3676W;ag:esa;show:DSA 2:SE;reg:Castila y León, Spain;dish:1x35m"},
+dsa1: {name:"ESTRACK New Norica:Deep Space Antenna 1, New Norica", ctry:"eu;au", desig:"DSA 1", desc:"url:estracknow.esa.int;loc:31.0482S,116.1914E;ag:esa;show:DSA 1:S;reg:Western Australia;dish:1x35m"},
+dsa2: {name:"ESTRACK Cebreros:Deep Space Antenna 2, Cebreros", ctry:"eu;es", desig:"DSA 2", desc:"url:estracknow.esa.int;loc:40.4528N,4.3676W;ag:esa;show:DSA 2:SE;reg:Castila y León, Spain;dish:1x35m"},
 mdscc: {name:"DSN Madrid:Madrid Deep Space Communications Complex", ctry:"us;es", desig:"MDSCC", desc:"url:eyes.nasa.gov/dsn/dsn.html;loc:40.431389N,4.248056W;ag:nasa;show:MDSCC:SW;reg:Spain;dish:1x70m,3x34m,1x26m"},
-dsa3: {name:"ESTRACK Malargüe:Deep Space Antenna 3, Malagüe", ctry:"eu;ar", desig:"DSA 3", desc:"url:www.esa.int/Our_Activities/Operations/Estrack/Malarguee_-_DSA_3;loc:35.776S,69.3982W;ag:esa;show:DSA 3:S;reg:Mendoza, Argentina;dish:1x35m"},
+dsa3: {name:"ESTRACK Malargüe:Deep Space Antenna 3, Malagüe", ctry:"eu;ar", desig:"DSA 3", desc:"url:estracknow.esa.int;loc:35.776S,69.3982W;ag:esa;show:DSA 3:S;reg:Mendoza, Argentina;dish:1x35m"},
 cdsnjia: {name:"CDSN Jiamusi:Chinese DSN Station Jiamusi", other:"佳木斯", ctry:"cn", desig:"", desc:"url:;loc:46.8N,130.317E;ag:cnsa;show:Jiamusi:W;reg:Jiamusi, China;dish:1x64m"},
 cdsnkash: {name:"CDSN Kashgar:Chinese DSN Station Kashgar", other:"喀什市", ctry:"cn", desig:"", desc:"url:;loc:39.5N,75.0E;ag:cnsa;show:Kashgar:S;reg:Xinjiang, China;dish:1x35m,1x18m"},
 cdsnmi: {name:"CDSN Miyun:Chinese DSN Station Miyun", other:"密云区", ctry:"cn", desig:"", desc:"url:;loc:40.51N,116.89E;ag:cnsa;show:Miyun:S;reg:Beijing, China;dish:1x50m"},
@@ -19,13 +19,14 @@ kalya: {name:"CCSDS Kalyazin:Kalyazin Radio Observatory", other:"Калязин"
 udsc: {name:"Usuda DSC:Usuda Deep Space Center", other:"臼田宇宙空間観測所", ctry:"jp", desig:"UDSC", desc:"url:global.jaxa.jp/about/centers/udsc/index.html;loc:36.133056N,138.362222E;ag:jaxa;show:UDSC:S;reg:Nagano, Japan;dish:1x64m"},
 //Uchinoura USC34
 //ktsat: {name:"KTSat:KTSat Satellite communication Center", other:"", ctry:"sk", desig:"KTSat", desc:"url:www.kari.re.kr/eng.do;loc:36.1N,127.5E;ag:kari;show:KTSat:NE;reg:Keumsan, South Korea;dish:1x27.7m"},
-dsa4: {name:"Weilheim:Weilheim Deep Space Antenna", ctry:"eu;de", desig:"", desc:"url:www.dlr.de/rb/desktopdefault.aspx/tabid-6856/4253_read-6299/;loc:47.881159N,11.078194E;ag:esa;show:Weilheim:S;reg:Oberbayern, Germaby;dish:1x30m"},};
+dsa4: {name:"Weilheim:Weilheim Deep Space Antenna", ctry:"eu;de", desig:"", desc:"url:www.dlr.de/rb/desktopdefault.aspx/tabid-6856/4253_read-6299/;loc:47.881159N,11.078194E;ag:esa;show:Weilheim:NE;reg:Oberbayern, Germaby;dish:1x30m"},};
     
   
 Common.ctrl = {
   gsfc: {name:"GSFC:Goddard Space Flight Center,\nGreenbelt, Md", other:"", ctry:"us", desc:"url:www.nasa.gov/centers/goddard/home;loc:38.996944N,76.848333W;show:GSFC:NW;ag:nasa;reg:Maryland,USA"},
   jpl: {name:"JPL SFOF:Space Flight Operations Facility (JPL),\nPasadena, Ca", other:"", ctry:"us", desc:"url:www.jpl.nasa.gov/;loc:34.201086N,118.173614W;show:SFOF:S;ag:masa;reg:California,USA"},
-  esoc: {name:"ESOC:European Space Operations Centre, Darmstadt", other:"", ctry:"eu;de", desc:"url:www.esa.int/esoc;loc:49.871111N,8.622778E;show:ESOC:S;ag:esa;reg:Darmstadt,Germany"},
+  esoc: {name:"ESOC:European Space Operations Centre, Darmstadt", other:"", ctry:"eu;de", desc:"url:www.esa.int/esoc;loc:49.871111N,8.622778E;show:ESOC:N;ag:esa;reg:Darmstadt,Germany"},
+  rocc: {name:"ROCC:Rover Operations Control Centre, Turin", other:"", ctry:"eu;it", desc:"url:www.altecspace.it/en;loc:45.080350N,7.612482E;show:ROCC:S;ag:esa;reg:Turin,Italy"},
   tsup: {name:"TsUP:RKA Mission Control Center, Korolev", other:"Центр управления полётами", ctry:"ru", desc:"url:www.mcc.rsa.ru/cup.htm;loc:55.912636N,37.810267E;show:TsUP:SE;ag:rosc;reg:Korolyov,Moscow"},
   bacc: {name:"BACC:Beijing Aerospace Command and Control Center", other:"北京航天指挥控制中心", ctry:"cn", desc:"url:;loc:40.071989N,116.257092E;show:BACC:E;ag:cnsa;reg:Beijing,China"},
   tksc: {name:"TKSC:Tsukuba Space Center", other:"筑波宇宙センター", ctry:"jp", desc:"url:www.jaxa.jp/about/centers/tksc/index_e.html;loc:36.065778N,140.129806E;show:TKSC:E;ag:jaxa;reg:Ibaraki,Japan"},

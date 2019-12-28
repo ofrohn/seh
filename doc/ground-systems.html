@@ -121,8 +121,10 @@
     h1 = 20;
     cnv.text("Deep Space Exploration Ground Infrastructure (operations)", wc[0], h-h1*15+8, "bold 20px 'Trebuchet MS'");
     for (var key in Common.heads) {
-      if (key === "jp" || key === "sk") { 
-        y = h - h1*8+11;
+      if (key === "jp") { 
+        y = h - h1*8;
+      } else if (key === "sk") { 
+        y = h - h1*6+4;
       } else y = h - h1*14;
       x += wc[clnm];
       

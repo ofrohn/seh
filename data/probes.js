@@ -2959,8 +2959,8 @@ solarorbiter: {name:"Solar Orbiter", desc:"lv:Atlas V 411",
   parts:[
     {names:"", type:"obm", dest:"sol", stat:"pl", ctry:"eu", desc:"ag:esa;fam:M-class;m:~1800kg;dim:14x3.0x2.5m;sc:0.75;Heliophysics Observatory", id:"", url:"hp:www.esa.int/Our_Activities/Space_Science/Solar_Orbiter;esa:sci.esa.int/solarorbiter/;tw:twitter.com/ESASolarOrbiter", icon:"solarorbiter.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2020-02", loc:"ter:cap:SLC-41", desc:""},
-    {pt:"", type:"oi", dt:"2020-02", loc:"sol:ho:0.661x1.014aux2.9deg", desc:""},
+    {pt:"", type:"l", dt:"2020-02-06", loc:"ter:cap:SLC-41", desc:""},
+    {pt:"", type:"oi", dt:"2020-02-06", loc:"sol:ho:0.661x1.014aux2.9deg", desc:""},
     {pt:"", type:"fb", dt:"l+0.35yr", loc:"ven", desc:""},
     {pt:"", type:"fb", dt:"l+1.18yr", loc:"ter", desc:""},
     {pt:"", type:"fb", dt:"l+3.0yr", loc:"ter", desc:""},

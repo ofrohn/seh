@@ -2152,6 +2152,7 @@ Common.lv = {
 /*ctry: country, m:launch mass (kg), pm:payload leo/gto/ho (kg), d:height x diam (m), pf:payload h x d (m), dt:service period,
   st:stages, ust;upper stages, th:thrust (kN), fuel: fuel type, fam:lv family, desc:l:launch sites;ag;agency, icon:image
 add: spec. impulse, manufact.
+cz-8
 */
 //Angara 5V
 "Angara A5V": {ctry:"ru", m:"821000", pm:"37500/13300/10000",  d:"73.3x2.9", pf:"19.6x5.1", dt:"2025..", st:"2/4", ust:"KVTK/Blok-DM", th:"9600", fam:"Angara", desc:"l:vos;ag:rosc", fuel:"KeroLOX", icon:"Angara-5V.png"},
