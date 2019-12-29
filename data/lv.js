@@ -47,18 +47,18 @@ cz-8
 //BFR
 "BFR": {n:"Big Falcon Rocket", ctry:"us", m:"5000000", pm:"150000",  d:"118x9", pf:"", dt:"2020", st:"2", ust:"", th:"62900", fam:"Falcon", desc:"l:ksc,boc;ag:SpX", fuel:"LCH4/LOX", icon:"bfr.png"},
 //CZ-2C
-"CZ-2C": {n:"Long March 2C", alt:"长征二号丙", ctry:"cn", m:"245000", pm:"3850/1440/500",  d:"43.0x3.35", pf:"x3.35", dt:"1975-11-26..", st:"2", ust:"SM/SMA", th:"2962", fam:"Long March", desc:"l:xch,jiu,tai;ag:cnsa", fuel:"UDMH/N2O4", icon:"CZ-2C.png"},
+"CZ-2C": {n:"Long March 2C", alt:"长征二号丙", ctry:"cn", m:"245000", pm:"3850/1250/500",  d:"43.0x3.35", pf:"x3.35", dt:"1975-11-26..", st:"2", ust:"SM/SMA", th:"2962", fam:"Long March", desc:"l:xch,jiu,tai;ag:cnsa", fuel:"UDMH/N2O4", icon:"CZ-2C.png"},
 //CZ-3A, CZ-3B, CZ-3C
 "CZ-3A": {n:"Long March 3A", alt:"长征三号甲", ctry:"cn", m:"241000", pm:"7200/2650/1420",  d:"52.5x3.35", pf:"8.9x3.35", dt:"1994-02-08..", st:"3", th:"2962", fam:"Long March", desc:"l:xch;ag:cnsa", fuel:"UDMH/N2O4", icon:"CZ-3A.png"},
 "CZ-3B": {n:"Long March 3B", alt:"长征三号乙", ctry:"cn", m:"425800", pm:"13500/5100/3300",  d:"54.8x3.35", pf:"9.6x4.0", dt:"1996-02-14..", st:"3/4", th:"5923", fam:"Long March", desc:"l:xch;ag:cnsa", fuel:"UDMH/N2O4", icon:"CZ-3B.png"},
-"CZ-3B G3Z": {n:"Long March 3B/G3Z", alt:"长征三号乙", ctry:"cn", m:"458000", pm:"14000/5500/3400",  d:"56.3x3.35", pf:"9.6x4.0", dt:"2013-12-01..", st:"3/4", th:"5923", fam:"Long March", desc:"l:xch;ag:cnsa", fuel:"UDMH/N2O4", icon:"CZ-3B.png"},
+"CZ-3B G3Z": {n:"Long March 3B/G3Z", alt:"长征三号乙", ctry:"cn", m:"458000", pm:"14000/5500/3400",  d:"56.3x3.35", pf:"9.6x4.2", dt:"2013-12-01..", st:"3/4", th:"5923", fam:"Long March", desc:"l:xch;ag:cnsa", fuel:"UDMH/N2O4", icon:"CZ-3B.png"},
 "CZ-3C": {n:"Long March 3C", alt:"长征三号丙", ctry:"cn", m:"345000", pm:"9100/3800/2300",  d:"54.8x3.35", pf:"9.6x4.0", dt:"2008-04-25..", st:"3/2", th:"4443", fam:"Long March", desc:"l:xch;ag:cnsa", fuel:"UDMH/N2O4", icon:"CZ-3C.png"},
-"CZ-3C G2": {n:"Long March 3C/G3", alt:"长征三号丙", ctry:"cn", m:"377000", pm:"9400/3900/2400",  d:"56.3x3.35", pf:"9.6x4.0", dt:"2014-10-23..", st:"3/2", th:"4443", fam:"Long March", desc:"l:xch;ag:cnsa", fuel:"UDMH/N2O4", icon:"CZ-3C.png"},
+"CZ-3C G2": {n:"Long March 3C/G3", alt:"长征三号丙", ctry:"cn", m:"377000", pm:"9400/3900/2400",  d:"56.3x3.35", pf:"9.6x4.2", dt:"2014-10-23..", st:"3/2", th:"4443", fam:"Long March", desc:"l:xch;ag:cnsa", fuel:"UDMH/N2O4", icon:"CZ-3C.png"},
 //CZ-4B
 "CZ-4B": {n:"Long March 4B", alt:"长征四号乙火箭", ctry:"cn", m:"249200", pm:"4200/1500/1000",  d:"45.8x3.35", pf:"x3.35", dt:"1999-05-10..", st:"3", ust:"", th:"2962", fam:"Long March", desc:"l:jiu,tai;ag:cnsa", fuel:"UDMH/N2O4", icon:"CZ-4B.png"},
 //CZ-5
-"CZ-5": {n:"Long March 5", alt:"长征五号运载火箭", ctry:"cn", m:"867000", pm:"25000/13000/8000",  d:"62x5", pf:"12x5.2", dt:"2016..", st:"2/4", ust:"Yuanzheng", th:"10565", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"LH2/LOX+KeroLOX", icon:"CZ-5.png"},
-"CZ-5B": {n:"Long March 5B", alt:"长征五号乙运载火箭", ctry:"cn", m:"837500", pm:"23000/-/-",  d:"53.66x5", pf:"12x5.2", dt:"2020..", st:"1/4", ust:"", th:"10565", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"LH2/LOX+KeroLOX", icon:"CZ-5B.png"},
+"CZ-5": {n:"Long March 5", alt:"长征五号运载火箭", ctry:"cn", m:"867000", pm:"25000/13000/8000",  d:"57x5", pf:"12x5.2", dt:"2016..", st:"2/4", ust:"Yuanzheng", th:"12116", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"LH2/LOX+KeroLOX", icon:"CZ-5.png"},
+"CZ-5B": {n:"Long March 5B", alt:"长征五号乙运载火箭", ctry:"cn", m:"837500", pm:"23000/-/-",  d:"45x5", pf:"12x5.2", dt:"2020..", st:"1/4", ust:"", th:"12116", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"LH2/LOX+KeroLOX", icon:"CZ-5B.png"},
 //CZ-7
 "CZ-7": {n:"Long March 7", alt:"长征七号运载火箭", ctry:"cn", m:"597000", pm:"13500/5500/-", d:"53x3.35", pf:"12.7x4.2", dt:"2016..", st:"2/4", ust:"YZ-1A", th:"7200", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"cz-7.png"},
 //CZ-9
