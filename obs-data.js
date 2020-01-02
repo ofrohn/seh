@@ -1090,7 +1090,8 @@ goes:{name:"GOES:Geostationary Operational Environmental Satellite", ctry:"us", 
     {n:"GOES 14", id:"2009-033A", type:"x", pur:"sol;w", desc:"lv:Delta 4M+(4,2)", icon:"goes-nop.png"},
     {n:"GOES 15", id:"2010-088A", type:"x", pur:"sol;w", desc:"lv:Delta 4M+(4,2)", icon:"goes-nop.png"},
     {n:"GOES 16", url:"www.goesr.gov", id:"2016-071A", type:"uv,x", pur:"sol;w", stat:"o", desc:"lv:Atlas V 541"}, 
-    {n:"GOES S", id:"2018-022A", type:"uv,x", pur:"sol;w", stat:"o", desc:"lv:Atlas V 541"}], 
+    {n:"GOES 17", id:"2018-022A", type:"uv,x", pur:"sol;w", stat:"o", desc:"lv:Atlas V 541"}, 
+    {n:"GOES-T", id:"", type:"uv,x", pur:"sol;w", stat:"pl", desc:"lv:Atlas V 541"}], 
     // GOES U
   ev: [
     {pt:"0", dt:"2006-05-24", tp:"l", loc:"ter:cap:SLC-37B", desc:""},
@@ -1328,7 +1329,7 @@ iss:{name:"ISS:International Space Station", ctry:"us;ru;eu;jp;ca", id:"1998-067
     {pt:"0", dt:"2011-05-16", tp:"l", loc:"ter:cap:LC-39A", desc:"STS-134"},
     {pt:"2", dt:"2015-08-19", tp:"l", loc:"ter:tng:YLP-2", desc:"HTV-5"},
     {pt:"3", dt:"2017-06-03", tp:"l", loc:"ter:ksc:LC-39A", desc:""},
-    {pt:"4", dt:"2020", tp:"l", loc:"ter:tng", desc:""},
+    {pt:"4", dt:"2021", tp:"l", loc:"ter:tng", desc:""},
     {pt:"5", dt:"2019", tp:"l", loc:"", desc:"HTV-8"},
     {pt:"6", dt:"2022", tp:"l", loc:"", desc:""}
   ], inst: [
@@ -1591,11 +1592,11 @@ proba2:{name:"Proba-2", url:"hp:www.esa.int/Our_activities/Technology/Proba_Miss
   ], inst: [
     {n:"", band:"", res:"", d:"", px:"", url:"", desc:"c:;"}
 ]},
-proba3:{name:"Proba-3", url:"hp:www.esa.int/esaMI/Proba/index.html", desc:"ag:esa;lv:Vega;2 spacecraft external coronagraph", stat:"pl", 
+proba3:{name:"Proba-3", url:"hp:www.esa.int/Enabling_Support/Space_Engineering_Technology/Proba_Missions/About_Proba-3", desc:"ag:esa;lv:Vega;2 spacecraft external coronagraph", stat:"pl", 
   parts: [
     {n:"", ctry:"eu", type:"cor", pur:"sol", id:"", icon:"", desc:""}
   ], ev: [
-    {pt:"", dt:"2020-10", tp:"l", loc:"ter:kou:ZLV", desc:""},
+    {pt:"", dt:"2021.03", tp:"l", loc:"ter:kou:ZLV", desc:""},
     {pt:"", dt:"l+1d", tp:"sco", loc:"ter:heeo:600x60530km", desc:""}
   ], inst: [
     {n:"", band:"", res:"", d:"", px:"", url:"", desc:"c:;"}

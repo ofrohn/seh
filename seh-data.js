@@ -3547,7 +3547,7 @@ change4: {name:"Chang'e 4", desc:"lv:CZ-3B/G3Z",
     {pt:"", type:"sco", dt:"2018-12-30", loc:"lun:100x15kmx90deg", desc:""},
     {pt:"", type:"td", dt:"2019-01-03", loc:"lun:45.471S,177.606E", desc:"Statio Tianhe, Von Karman crater, SPA;show:CE4:NW"},
     {pt:"", type:"sep", dt:"2019-01-03", loc:"lun", desc:"lp/rvp"}, 
-    {pt:"1", type:"ex", dt:"", loc:"lun", desc:"rvp;rv:318m"},    
+    {pt:"1", type:"ex", dt:"", loc:"lun", desc:"rvp;rv:358m"},    
     {pt:"1", type:"nom", dt:"2019-10", loc:"lun", desc:"rvp;?;eom:rvm"},
     {pt:"0", type:"nom", dt:"2019-12", loc:"lun", desc:"lp;?"}
 ]},
@@ -3685,6 +3685,15 @@ emm: {name:"Al Amal:Hope", desc:"lv:H-IIA 202",
     {pt:"", type:"sco", dt:"l+10mo", loc:"mar:20000x43000kmx25deg", desc:""},
     {pt:"", type:"nom", dt:"2023", loc:"mar", desc:""},
     {pt:"", type:"pom", dt:"2025", loc:"mar", desc:""}
+]},
+chandrayaan3: {name:"Chandrayaan 3:Moon Craft 3", desc:"lv:GSLV MkIII",
+  parts:[
+{names:"Vikram", type:"slm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:1471kg;dim:2.5x2x1.2m", icon:"chandrayaan2-l.png"},
+{names:"Pragyan", type:"rvm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:27kg;dim:0.9x0.75x0.85m;sc:0.5", icon:"chandrayaan2-rv.png"}], 
+  events:[
+    {pt:"", type:"l", dt:"2020-11", loc:"ter:sri:SLP", desc:""},
+    {pt:"1", type:"td", dt:"2020-11", loc:"lun", desc:""},
+    {pt:"0", type:"nom", dt:"2021-11", loc:"lun", desc:"?"}
 ]},
 /*z01: {name:"Z-01", desc:"lv:Falcon 9",
   parts:[
@@ -3878,7 +3887,7 @@ juice: {name:"JUICE:JUpiter ICy moons Explorer", desc:"lv:Ariane 5ECA",
     {pt:"0", type:"sco", dt:"", loc:"jup", desc:"28 Galilean moon flybys"},
     {pt:"1", type:"oi", dt:"2032-08", loc:"gany", desc:""},
     {pt:"0", type:"sco", dt:"2033-01", loc:"gany:500km", desc:""},
-    {pt:"1", type:"nom", dt:"2033-06", loc:"jup", desc:"?"}    
+    {pt:"1", type:"nom", dt:"2033-09", loc:"jup", desc:"?"}    
 ]},
 psyche: {name:"Psyche", desc:"",
   parts:[
