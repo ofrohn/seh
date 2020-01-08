@@ -823,7 +823,7 @@ astrosat:{name:"Astrosat", url:"hp:astrosat.iucaa.in/;isro:www.isro.gov.in/Space
     {n:"SSM:Scanning Sky Monitor", tp:"ctr", band:"2.5..10keV", res:"300..600", sres:"25%@6keV", tres:"1ms", fov:"10x90deg", sens:"28mCrab@600s", desc:"c:nl;"},
     {n:"LAXPC:Large Area X-ray Proportional Counters", tp:"ctr", band:"3..80keV", res:"300", sres:"22%@22keV", tres:"10us", ea:"8000@5..20keV", fov:"1x1deg", sens:"1mCrab@100s", desc:"c:nl;"}
 ]},
-athenaplus:{name:"Athena:Advanced Telescope for High-energy Astrophysics", url:"hp:www.the-athena-x-ray-observatory.eu/;mpe:www.mpe.mpg.de/Athena;tw:twitter.com/AthenaXobs", desc:"ag:esa;lv:Ariane 64;m:7100kg;fam:L-class;sc:1.2;x:0;y:10", stat:"pl", 
+athenaplus:{name:"Athena:Advanced Telescope for High-energy Astrophysics", url:"hp:www.the-athena-x-ray-observatory.eu/;mpe:www.mpe.mpg.de/Athena;tw:twitter.com/AthenaXobs", desc:"ag:esa;lv:Ariane 64;m:7100kg;fam:L-class;sc:1.6;x:0;y:0", stat:"pl", 
   parts: [
     {n:"", ctry:"eu", type:"x", pur:"", id:"", icon:"athena.png", desc:""}
   ], ev: [
@@ -1015,18 +1015,18 @@ exosat:{name:"Exosat", url:"hp:www.cosmos.esa.int/web/exosat/;esa:sci.esa.int/ex
     {n:"ME", tp:"sp", band:"1..50keV", res:"", fov:"0.75x0.75deg", url:"", desc:"c:;"},
     {n:"GSPC", tp:"ctr", band:"2..32keV", res:"", url:"", desc:"c:;"}
 ]},
-/*extp:{name:"eXTP:enhanced X-ray Timing and Polarization", url:"hp:www.isdc.unige.ch/extp/", desc:"ag:cnsa,esa;lv:CZ-7;m:4500kg;sc:1.0;x:-1;y:0", stat:"pl", 
+extp:{name:"eXTP:enhanced X-ray Timing and Polarization", url:"hp:www.isdc.unige.ch/extp/", desc:"ag:cnsa,esa;lv:CZ-7;m:4500kg;sc:1.0;x:-1;y:30", stat:"pl", 
   parts: [
     {n:"", ctry:"cn;eu", type:"x", pur:"", id:"", icon:"extp.png", desc:""}
   ], ev: [
     {pt:"", dt:"2025", tp:"l", loc:"ter:wen", desc:""},
     {pt:"", dt:"2025", tp:"sco", loc:"ter:leo:550km", desc:""}
   ], inst: [
-    {n:"SFA:Spectroscopic Focusing Array", band:"0.5..20keV", res:"60", sres:"3%@6keV", ea:"0.9m2@1keV", fov:"12'", url:"", desc:"c:nl;cl:nl;"},
-    {n:"PFA:Polarimetry Focusing Array", band:"2..10keV", res:"30", sres:"18%@6keV", ea:"0.9m2@2keV", fov:"12'", url:"", desc:"c:nl;cl:nl;"},
-    {n:"WFM:Wide Field Monitor", band:"2..50keV", res:"300", sres:"5%@6keV", ea:"0.9m2@1keV", fov:"70deg", url:"", desc:"c:nl;cl:nl;"},
-    {n:"LAD:Large Area Detector", band:"1..30keV", res:"", sres:"4%@6keV", ea:"3.4m2@6keV", fov:"1deg", url:"", desc:"c:nl;"}
-]},*/
+    {n:"SFA:Spectroscopic Focusing Array", band:"0.5..20keV", res:"60", sres:"3%@6keV", ea:"0.9m2@1keV", fov:"12'", url:"", desc:"c:nl;cl:nly;"},
+    {n:"PFA:Polarimetry Focusing Array", band:"2..10keV", res:"30", sres:"18%@6keV", ea:"0.9m2@2keV", fov:"12'", url:"", desc:"c:nl;cl:ny;"},
+    {n:"WFM:Wide Field Monitor", band:"2..50keV", res:"300", sres:"5%@6keV", ea:"0.9m2@1keV", fov:"70deg", url:"", desc:"c:nl;cl:n;"},
+    {n:"LAD:Large Area Detector", band:"1..30keV", res:"", sres:"4%@6keV", ea:"3.4m2@6keV", fov:"1deg", url:"", desc:"c:;"}
+]},
 fermi:{name:"Fermi", url:"hp:fermi.gsfc.nasa.gov/", desc:"ag:nasa;lv:Delta 7920H;sc:1.4;x:-60;y:38", stat:"o", 
   parts: [
     {n:"GLAST:Gamma-ray Large Area Space Telescope", ctry:"us", type:"g", pur:"sur", id:"2008-29A", icon:"fermi.png", desc:""}

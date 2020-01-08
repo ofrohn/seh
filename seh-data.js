@@ -3652,7 +3652,7 @@ exomarsrv: {name:"ExoMars 2020", desc:"lv:Proton-M/Briz-M;m:2900kg",
 mars2020rover: {name:"Mars 2020 Rover", desc:"lv:Atlas V 551",
   parts:[
     {names:"", type:"rvm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;m:1050kg;dim:3.0x2.7x2.2m;sc:0.5;Sample Caching Mission", id:"", url:"hp:www.nasa.gov/mars2020", icon:"mars2020.png"},
-    {names:"Mars Helicopter", type:"dm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;m:1.8kg;dim:;sc:0.7;", id:"", url:"", icon:"marshelo.png"}], 
+    {names:"MHS:Mars Helicopter Scout", type:"dm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;m:1.8kg;dim:;sc:0.7;", id:"", url:"", icon:"marshelo.png"}], 
   events:[
     {pt:"", type:"l", dt:"2020-07-17", loc:"ter:cap:SLC-41", desc:""},
     {pt:"", type:"toi", dt:"l+1dy", loc:"sol:hto", desc:""},
@@ -4232,7 +4232,7 @@ deim:
 //Asteroid belt & NEOs
 sbo:
   {name:"Small Bodies", other:"", desig:"", type:"b", par:"sol", disc:"", dyr:"",
-   com:"4147", ast:"800501", cen:"Atiras:36;Atens:1555;Apollos:10532;Amors:8904;Hungarias:20006;Mars-Crossers:14769;Main Belt:755178;Hildas:4079;Jupiter Trojans:7345;Comets:4020;Damocloids:96",
+   com:"4147", ast:"857692", cen:"Atiras:39;Atens:1619;Apollos:10950;Amors:9165;Hungarias:22381;Mars-Crossers:15840;Main Belt:856978;Hildas:4288;Jupiter Trojans:7737;Comets:4131;Damocloids:157",
    img:"mab.png", map:"sbo.png", col:"#9f9", ind:"6", 
    url:"haz:neo.jpl.nasa.gov/risk/",
    desc:"sc:30;scmoons:0.25;url:www.minorplanetcenter.net;rsize:1800,140;x:24;y:48"},
