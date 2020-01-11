@@ -209,6 +209,12 @@ euryb:
    h:"9.7", mass:"3.9e17", dia:"63.885km", rad:"31.943", tilt:"",
    alb:"0.052", grav:"0.002", comp:"Carbonaceous", dens:"2.0", spec:"C", temp:"~122K",
    img:"", desc:"sc:6;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=eurybates;orb:ec.2017-02-16"},
+euryb1:
+  {name:"S/2018 (3548) 1", other:"", desig:"", type:"m", par:"euryb", disc:"M. Brown et al.", dyr:"2018",
+   a:"1928km", e:"", i:"", per:"", rot:"", gr:"",
+   h:"", mass:"", dia:"1km", rad:"0.5", tilt:"",
+   alb:"", grav:"", comp:"", dens:"", spec:"", temp:"",
+   img:"", desc:"sc:6;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=eurybates;orb:"},
 tout:
   {name:"Toutatis", other:"1989 AC", desig:"4179", type:"a", par:"sol", disc:"C. Pollas", dyr:"1989",
    a:"2.529au", e:"0.6294", i:"0.446", per:"4.02a", rot:"5.41..7.33d", gr:"nea:Apollo;Mars-crossing",
@@ -1588,7 +1594,7 @@ s2004n1:
    img:"", desc:"sc:3;url:solarsystem.nasa.gov/moons/neptune-moons/s-2004-n1/in-depth/;orb:ec.2013-01-01"},
 tno:
   {name:"Transneptunian Objects", other:"", desig:"", type:"b", par:"sol", disc:"", dyr:"", m:"1.17e23kg",
-   tno:"3442", cen:"Neptune Trojans:22;Centaurs/Scattered Disk Objects:921;Detatched:62;Plutinos:332;Other Resonant:201;Classical KBOs:580",
+   tno:"3605", cen:"Neptune Trojans:22;Centaurs/Scattered Disk Objects:1092;Detached:79;Plutinos:~600;Other Resonant:~400;Classical KBOs:~1000",
    img:"kb.png", map:"tno.png", col:"#9fc", ind:"11", 
    desc:"sc:30;scmoons:0.05;url:www.minorplanetcenter.net;rsize:1800,200;x:72;y:72"},
 //Pluto system
