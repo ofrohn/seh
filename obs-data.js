@@ -1383,6 +1383,18 @@ kepler:{name:"Kepler", url:"hp:kepler.nasa.gov/;tw:twitter.com/NASAKepler", desc
   ], inst: [
     {n:"", band:"423..897nm", d:"1.4", px:"10", tres:"59..1766s", fov:"16deg", desc:"c:n;cl:nl;"}
 ]},
+litebird:{name:"LiteBIRD:Lite satellite for the studies of B-mode polarization and Inflation from cosmic background Radiation Detection", url:"hp:litebird.jp/eng/", desc:"ag:jaxa,isas;lv:HIII;m:2600kg;sc:0.8", stat:"pl", 
+  parts: [
+    {n:"ライトバード", ctry:"jp", type:"mw", pur:"cmb", id:"", icon:"litebird.png", desc:""}
+  ], ev: [
+    {pt:"", dt:"2027", tp:"l", loc:"ter:tng", desc:""},
+    {pt:"", dt:"2027", tp:"sco", loc:"sol:esl2", desc:"Lissajous orbit"},
+    {pt:"", dt:"2030", tp:"nom", loc:"", desc:"?"}
+  ], inst: [
+    {n:"LFT", band:"34..161GHz", d:"0.42", px:"", res:"4200..1440", fov:"20x10deg", desc:"c:n;cl:nly;"},
+    {n:"MFT", band:"89..224GHz", d:"0.32", px:"", res:"2280..1680", fov:"28deg", desc:"c:n;cl:nly;"},
+    {n:"HFT", band:"166..448GHz", d:"0.19", px:"", res:"1740..1080", fov:"28deg", desc:"c:n;cl:nl;"}
+]},
 longjiang: {name:"Longjiang 2:Dragon River", url:"hp:www.chinaspaceflight.com/satellite/HIT/DSLWP-A1-A2.html", desc:"ag:cnsa,HIT;m:45kg;dim:0.5x0.5x0.4m;lv:CZ-4C;", stat:"o",
   parts:[
     {n:"龙江二号;DSLWP-A2:Discovering the Sky at Longest Wavelengths Pathfinder", type:"r", pur:"lun", ctry:"cn", id:"2018-045B", icon:"dslwp.png"}
@@ -1811,7 +1823,7 @@ srg:{name:"Spektr-RG:Spectrum Roentgen Gamma", url:"hp:hea.iki.rssi.ru/SRG/en/in
     {pt:"", dt:"2019-10", tp:"sco", loc:"sol:esl2", desc:""},
     {pt:"", dt:"2026", tp:"eom", loc:"sol:esl2", desc:"pend"}
   ], inst: [
-    {n:"eROSITA", band:"0.3..7keV", res:"18", fov:"0.81deg2", ea:"0.35m2@1.5keV", sres:"7%@1keV", desc:"ag:mpe;c:nl;cl:nly;"},
+    {n:"eROSITA", band:"0.3..10keV", res:"15", fov:"0.81deg2", ea:"0.35m2@1.5keV", sres:"7%@1keV", desc:"ag:mpe;c:nl;cl:nly;"},
 //    {n:"Lobster", band:"", res:"", desc:"ag:Leicester University;c:nl;"},
     {n:"ART-XC", band:"6..30keV", res:"45", fov:"0.3deg2", desc:"ag:iki;c:nl;"}
 ]},

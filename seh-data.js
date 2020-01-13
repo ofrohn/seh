@@ -3677,7 +3677,7 @@ mgrso: {name:"Huoxing-1:Mars-1", desc:"lv:CZ-5",
 ]},
 emm: {name:"Al Amal:Hope", desc:"lv:H-IIA 202",
   parts:[
-    {names:"مسبار الأمل;EMM:Emirates Mars Mission", type:"om", dest:"mar", stat:"pl", ctry:"ue", desc:"ag:uaesa;m:1500kg;dim:7.9x3x3.5m;sc:0.5", id:"", url:"hp:www.emiratesmarsmission.ae/;MBRSC:www.mbrsc.ae/en;tw:twitter.com/HopeMarsMission", icon:"emm.png"}], 
+    {names:"مسبار الأمل;EMM:Emirates Mars Mission", type:"om", dest:"mar", stat:"pl", ctry:"ue", desc:"ag:uaesa;m:1500kg;dim:7.9x3x3.5m;sc:0.5", id:"", url:"hp:www.emiratesmarsmission.ae/;MBRSC:www.mbrsc.ae/emirates-mars-mission;tw:twitter.com/HopeMarsMission", icon:"emm.png"}], 
   events:[
     {pt:"", type:"l", dt:"2020-07", loc:"ter:tng", desc:""},
     {pt:"", type:"toi", dt:"2020-07", loc:"sol:hto", desc:""},
