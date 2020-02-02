@@ -2885,7 +2885,7 @@ spp: {name:"Parker Solar Probe", desc:"lv:Delta IV Heavy",
 ]},
 change4: {name:"Chang'e 4", desc:"lv:CZ-3B/G3Z",
   parts:[
-    {names:"嫦娥四号", type:"slm", dest:"lun", stat:"o", ctry:"cn", desc:"ag:cnsa;fam:clep;m:3780kg;m0:1200kg;dim:4.76x3.65x3.45m;First lunar far side landing", id:"2018-103A", url:"China Spaceflight:www.chinaspaceflight.com/satellite/Deepspace/CE-4/CE-4.html;CCTV:english.cntv.cn/special/lunarmission/index.shtml;data:202.106.152.98:8081/moondata/", icon:"chang-e4-l.png"},
+    {names:"嫦娥四号", type:"slm", dest:"lun", stat:"o", ctry:"cn", desc:"ag:cnsa;fam:clep;m:3780kg;m0:1200kg;dim:4.76x3.65x3.45m;First lunar far side landing", id:"2018-103A", url:"China Spaceflight:www.chinaspaceflight.com/satellite/Deepspace/CE-4/CE-4.html;CCTV:english.cntv.cn/special/lunarmission/index.shtml;data:http://moon.bao.ac.cn/index_en.jsp", icon:"chang-e4-l.png"},
     {names:"Yutu-2", type:"rvm", dest:"lun", stat:"o", ctry:"cn", desc:"m:140kg", icon:"chang-e3-rv.png"}
    ], 
   events:[
@@ -2935,11 +2935,11 @@ change5: {name:"Chang'e 5", desc:"lv:CZ-5",
     {names:"{Chang'e 5 Lander}", type:"slm", dest:"lun", stat:"pl", ctry:"cn", desc:"", id:"", url:"", icon:"chang-e5l.png"},
     {names:"{Chang'e 5 Return Stage}", type:"", dest:"ter", stat:"pl", ctry:"cn", desc:"sc:0.6", id:"", url:"", icon:"chang-e5sr.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2020-12-04", loc:"ter:wen:LC-101", desc:""},
+    {pt:"", type:"l", dt:"2020-10", loc:"ter:wen:LC-101", desc:""},
     {pt:"", type:"toi", dt:"l+1hr", loc:"ter:lto", desc:""},
     {pt:"", type:"oi", dt:"l+5dy", loc:"lun:200km", desc:""},
-    {pt:"", type:"sep", dt:"l+?dy", loc:"lun", desc:"op/lp"},
-    {pt:"", type:"td", dt:"l+?dy", loc:"lun:55W,43N", desc:"lp;NW Oceanus Procellarum?;show:CE5"},
+    {pt:"", type:"sep", dt:"l+22dy", loc:"lun", desc:"op/lp"},
+    {pt:"", type:"td", dt:"l+22dy", loc:"lun:55W,43N", desc:"lp;NW Oceanus Procellarum?;show:CE5"},
     {pt:"", type:"l", dt:"l+?dy", loc:"lun", desc:"as"},
     {pt:"", type:"doc", dt:"l+?dy", loc:"lun", desc:"op/as"},
     {pt:"", type:"ev", dt:"l+?dy", loc:"lun", desc:"as/src;Sample Transfer"},
@@ -2959,8 +2959,8 @@ solarorbiter: {name:"Solar Orbiter", desc:"lv:Atlas V 411",
   parts:[
     {names:"", type:"obm", dest:"sol", stat:"pl", ctry:"eu", desc:"ag:esa;fam:M-class;m:~1800kg;dim:14x3.0x2.5m;sc:0.75;Heliophysics Observatory", id:"", url:"hp:www.esa.int/Our_Activities/Space_Science/Solar_Orbiter;esa:sci.esa.int/solarorbiter/;tw:twitter.com/ESASolarOrbiter", icon:"solarorbiter.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2020-02-06", loc:"ter:cap:SLC-41", desc:""},
-    {pt:"", type:"oi", dt:"2020-02-06", loc:"sol:ho:0.661x1.014aux2.9deg", desc:""},
+    {pt:"", type:"l", dt:"2020-02-10", loc:"ter:cap:SLC-41", desc:""},
+    {pt:"", type:"oi", dt:"2020-02-10", loc:"sol:ho:0.661x1.014aux2.9deg", desc:""},
     {pt:"", type:"fb", dt:"l+0.35yr", loc:"ven", desc:""},
     {pt:"", type:"fb", dt:"l+1.18yr", loc:"ter", desc:""},
     {pt:"", type:"fb", dt:"l+3.0yr", loc:"ter", desc:""},
@@ -3039,9 +3039,9 @@ chandrayaan3: {name:"Chandrayaan 3:Moon Craft 3", desc:"lv:GSLV MkIII",
 {names:"Vikram", type:"slm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:1471kg;dim:2.5x2x1.2m", icon:"chandrayaan2-l.png"},
 {names:"Pragyan", type:"rvm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:27kg;dim:0.9x0.75x0.85m;sc:0.5", icon:"chandrayaan2-rv.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2020-11", loc:"ter:sri:SLP", desc:""},
-    {pt:"1", type:"td", dt:"2020-11", loc:"lun", desc:""},
-    {pt:"0", type:"nom", dt:"2021-11", loc:"lun", desc:"?"}
+    {pt:"", type:"l", dt:"2021-04", loc:"ter:sri:SLP", desc:""},
+    {pt:"1", type:"td", dt:"2021-04", loc:"lun", desc:""},
+    {pt:"0", type:"nom", dt:"2022-04", loc:"lun", desc:"?"}
 ]},
 /*z01: {name:"Z-01", desc:"lv:Falcon 9",
   parts:[

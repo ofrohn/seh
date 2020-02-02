@@ -24,6 +24,8 @@
    grav:   Equatorial surface gravity (g)
    hill:   Hill sphere (planet radii)
    roche:  Roche limit (planet radii)
+   rrl:    Rigid Roche limit (planet radii)
+   frl:    Fluid Roche limit (planet radii)
    rcrit:  Critical radius (planet radii)
    comp:   Composition (main components;porosity/%)
    dens:   Mean density (g/cm3)
@@ -44,7 +46,8 @@ var objects = {
 sol:
   {name:"Sun", other:"Sol", desig:"a", type:"s", par:"gc", disc:"(Prehistoric)", dyr:"",
    a:"2.5e17km", e:"", i:"", per:"230Ma", rot:"24.47..38d", 
-   h:"4.83", mass:"1.9891e30kg", dia:"1392684km/9e-6", rad:"696342/9e-6", tilt:"7.25", roche:"2.73",
+   h:"4.83", mass:"1.9891e30kg", dia:"1392684km/9e-6", rad:"696342/9e-6", tilt:"7.25", 
+   roche:"2.73", rrl:"0.80..1.41", frl:"1.54..2.72",
    alb:"", grav:"27.94", comp:"H:91.2+He:8.7", dens:"1.408", atm:"Plasma", atp:"1e-8..1e-18", temp:"5777K", dip:"1..3000", dipt:"0",
    img:"sun-l.png", imgo:"sun.png", map:"", col:"#ff0", ind:"0", 
    url:"weather:www.swpc.noaa.gov/SWN/",
@@ -54,7 +57,7 @@ mer:
   {name:"Mercury", other:"Hermes", desig:"b", type:"p", par:"sol", disc:"(Prehistoric)", dyr:"",
    a:"0.387au", e:"0.2056", i:"7.004", per:"0.2409a", rot:"58.646d", daylen:"175.94d",
    h:"-0.6", mass:"3.301e23kg", dia:"4861.4km/0", rad:"2430.7/0", tilt:"0",
-   irad:"9126.6", alb:"0.142", grav:"0.378", hill:"94.4", 
+   irad:"9126.6", alb:"0.142", grav:"0.378", hill:"94.4", rrl:"2.21", frl:"4.26",
    comp:"Rock+Metal+core:82", dens:"5.427", atm:"O2:42+Na:29+H2:22+He:6", atp:"1e-15", temp:"90..340..720K", dip:"2.5e-3..7e-3", dipt:"0x410",
    img:"mercury.png", map:"mercury-topo.jpg", col:"#aa9", ind:"1",
    desc:"sc:3;url:nssdc.gsfc.nasa.gov/planetary/planets/mercurypage.html;x:24;y:24"},
@@ -62,7 +65,7 @@ ven:
   {name:"Venus", other:"", desig:"c", type:"p", par:"sol", disc:"(Prehistoric)", dyr:"",
    a:"0.723au", e:"0.0068", i:"3.395", per:"0.615a", rot:"-243.018d", daylen:"116.749d",
    h:"-4.47", mass:"4.867e24kg", dia:"12103.6km/0", rad:"6051.8/0", tilt:"177.3",
-   irad:"2613.9", alb:"0.67", grav:"0.905", hill:"167.1",
+   irad:"2613.9", alb:"0.67", grav:"0.905", hill:"167.1", rrl:"2.19", frl:"4.21",
    comp:"Rock+Metal+core:53", dens:"5.243", atm:"CO2:96.5+N2:3.5", atp:"92", temp:"738K",
    img:"venus.png", map:"venus-topo.jpg", col:"#ddc", ind:"2",
    desc:"sc:3;url:nssdc.gsfc.nasa.gov/planetary/planets/venuspage.html;x:48;y:24"},
@@ -71,7 +74,7 @@ ter:
   {name:"Earth", other:"Terra", desig:"d", type:"p", par:"sol", disc:"(Prehistoric)", dyr:"",
    a:"1.000au", e:"0.0167", i:"0", per:"1.000a", rot:"23.9345h", daylen:"24.000h",
    h:"-3.86", mass:"5.972e24kg", dia:"12756.24km/0.00335", rad:"6378.14/0.00335", tilt:"23.45",
-   irad:"1367.6", alb:"0.367", grav:"1.0", hill:"234.9",
+   irad:"1367.6", alb:"0.367", grav:"1.0", hill:"234.9", rrl:"1.49..2.22", frl:"2.86..4.28",
    comp:"Rock+Metal+core:56", dens:"5.513", atm:"N2:78+O2:21+Ar:~1", atp:"1", temp:"184..288..330K", dip:"0.24..0.66", dipt:"11.5x480",
    img:"earth.png", map:"earth-topo.jpg", col:"#00f", ind:"3", 
    url:"weather:earth.nullschool.net/",
@@ -88,7 +91,7 @@ mar:
   {name:"Mars", other:"Ares", desig:"e", type:"p", par:"sol", disc:"(Prehistoric)", dyr:"",
    a:"1.524au", e:"0.0933", i:"1.850", per:"1.881a", rot:"24.6229h", daylen:"24.6597h",
    h:"-1.52", mass:"6.417e23kg", dia:"6792.38km/0.00589", rad:"3396.19/0.00589", tilt:"25.19",
-   irad:"589.2", alb:"0.170", grav:"0.377", hill:"319.8",
+   irad:"589.2", alb:"0.170", grav:"0.377", hill:"319.8", roche:"3.2", rrl:"1.62..1.74", frl:"3.11..3.34",
    comp:"Rock+Metal+core:48", dens:"3.934", atm:"CO2:95.32+N2:2.7+Ar:1.6", atp:"4..8.7e-3", temp:"130..210..308K",
    img:"mars.png", map:"mars-topo.jpg", col:"#f68", ind:"5", 
    url:"weather:www.msss.com/msss_images/latest_weather.html",
@@ -348,7 +351,7 @@ jup:
   {name:"Jupiter", other:"", desig:"f", type:"p", par:"sol", disc:"(Prehistoric)", dyr:"",
    a:"5.203au", e:"0.0484", i:"1.304", per:"11.863a", rot:"9.925h", daylen:"9.9259h",
    h:"-9.4", mass:"1.896e27kg", dia:"142984km/0.06487", rad:"71492/0.06487", tilt:"3.12",
-   irad:"50.5", alb:"0.52", grav:"2.530", hill:"740", roche:"2.91", rcrit:"32.17",
+   irad:"50.5", alb:"0.52", grav:"2.530", hill:"740", roche:"2.91", rcrit:"32.17", rrl:"0.93..1.46", frl:"1.78..2.80",
    comp:"H+He+Rock+core:17", dens:"1.327", atm:"H2:89.8+He:10.2", atp:">>1000", temp:"~120K", dip:"4..13", dipt:"9.4x8500",
    img:"jupiter-l.png", imgo:"jupiter.png", rings:"jupiter-rings.png", map:"", col:"#fc6", ind:"7", 
    desc:"sc:1;scmoons:0.5;url:nssdc.gsfc.nasa.gov/planetary/planets/jupiterpage.html;rsize:463,24;x:48;y:48"},
@@ -830,7 +833,7 @@ sat:
   {name:"Saturn", other:"", desig:"g", type:"p", par:"sol", disc:"(Prehistoric)", dyr:"",
    a:"9.537au", e:"0.0539", i:"2.486", per:"29.447a", rot:"10.561h", 
    h:"-8.88", mass:"5.685e26kg", dia:"120536km/0.09796", rad:"60268/0.09796", tilt:"26.73",
-   irad:"15.05", alb:"0.47", grav:"1.065", hill:"1100", roche:"2.19",  rcrit:"41.48",
+   irad:"15.05", alb:"0.47", grav:"1.065", hill:"1100", roche:"2.19", rcrit:"41.48", rrl:"0.90..1.37", frl:"1.73..2.63",
    comp:"H+He+Ice+Rock+core:27", dens:"0.688", atm:"H2:95.3+He:3.25", atp:">>1000", temp:"~89K", dip:"0.18..0.84", dipt:"0x2300",
    img:"saturn-l0.png", imgo:"saturn.png", rings:"saturn-rings.png", map:"", col:"#fe6", ind:"8", 
    desc:"scmoons:0.8;url:nssdc.gsfc.nasa.gov/planetary/planets/saturnpage.html;rsize:540,49;x:72;y:48"},
@@ -1331,7 +1334,7 @@ ura:
   {name:"Uranus", other:"", desig:"h", type:"p", par:"sol", disc:"W. Herschel", dyr:"1781",
    a:"19.189au", e:"0.0473", i:"0.773", per:"84.017a", rot:"-17.24h",
    h:"-7.19", mass:"8.683e25kg", dia:"51118km/0.02293", rad:"25559/0.02293", tilt:"97.86",
-   irad:"3.71", alb:"0.51", grav:"0.905", hill:"2700", roche:"2.77",  rcrit:"54.78",
+   irad:"3.71", alb:"0.51", grav:"0.905", hill:"2700", roche:"2.77",  rcrit:"54.78", rrl:"1.14..1.23", frl:"2.19..2.76",
    comp:"NH4+Ice+Rock+core:58", dens:"1.270", atm:"H2:82.5+He:15.2+CH4:2.3", atp:">>1000", temp:"~76K",
    dip:"0.1..1", dipt:"53.6x9000",
    img:"uranus.png", rings:"uranus-rings.png", map:"", col:"#9df", ind:"9", 
@@ -1503,7 +1506,7 @@ nep:
   {name:"Neptune", other:"", desig:"i", type:"p", par:"sol", disc:"J.G. Galle", dyr:"1846",
    a:"30.070au", e:"0.0086", i:"1.770", per:"164.791a", rot:"16.11h", 
    h:"-6.87", mass:"1.0244e26kg", dia:"49532km/0.0171", rad:"24766/0.0171", tilt:"29.56",
-   irad:"1.47", alb:"0.41", grav:"1.138", hill:"4700", roche:"3.02",  rcrit:"72.68",
+   irad:"1.47", alb:"0.41", grav:"1.138", hill:"4700", roche:"3.02",  rcrit:"72.68", rrl:"1.17..1.63", frl:"2.25..3.14",
    comp:"NH4+Ice+Rock+core:64", dens:"1.638", atm:"H2:80+He:19+CH4:~1", atp:">>1000",  temp:"~50K",
    dip:"0.1..0.9", dipt:"46.9x12000",
    img:"neptune.png", rings:"neptune-rings.png", map:"", col:"#99f", ind:"10", 
@@ -1602,7 +1605,7 @@ plu:
   {name:"Pluto", other:"", desig:"134340", type:"d", par:"sol", disc:"C. Tombaugh", dyr:"1930",
    a:"39.482au", e:"0.2488", i:"17.140", per:"247.921a", rot:"-6.387d", gr:"plut",
    h:"-1.0", mass:"1.309e22kg", dia:"2374km/0", rad:"1187/0", tilt:"122.53",
-   irad:"0.89", alb:"0.49..0.66", grav:"0.067", hill:"6508",
+   irad:"0.89", alb:"0.49..0.66", grav:"0.067", hill:"6508", rrl:"1.30..1.55", frl:"2.50..2.98",
    comp:"N2+Ice+Rock+core:77", dens:"1.86", atm:"N2:97+CH4:2.5+CO", atp:"10e-6", temp:"33..44..55K",
    img:"pluto.png", map:"pluto-sys.png", col:"#f9f", 
    desc:"sc:3;scmoons:0.01;url:nssdc.gsfc.nasa.gov/planetary/planets/plutopage.html;;x:48;y:72"},

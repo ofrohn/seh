@@ -372,7 +372,7 @@ jp: {name:"Japan", col:"#0cc", desc:"x:96;y:133"},
 ind: {name:"India", col:"#e90", desc:"x:48;y:133"},
 de: {name:"Germany", col:"#fe0", desc:"x:96;y:120"},
 it: {name:"Italy", col:"#0c0", desc:"x:72;y:133"},
-eu: {name:"Europe", col:"#009", desc:"x:0;y:133"},
+eu: {name:"Europe", col:"#009", desc:"x:24;y:185"},
 cn: {name:"China", col:"#c00", desc:"x:72;y:120"},
 es: {name:"Spain", col:"#cc0", desc:"x:72;y:159"},
 kz: {name:"Khazakstan", desc:"x:96;y:159"},
@@ -1252,7 +1252,7 @@ ibex:{name:"IBEX:Interstellar Boundary EXplorer", url:"hp:ibex.swri.edu/index.sh
   ], inst: [
     {n:"", band:"", res:"", d:"", px:"", url:"", desc:"c:;"}
 ]},
-imap:{name:"IMAP:Interstellar Mapping and Acceleration Probe", url:"hp:soma.larc.nasa.gov/STP/IMAP/", desc:"ag:nasa,jhuapl;lv:;m:", stat:"pl", 
+imap:{name:"IMAP:Interstellar Mapping and Acceleration Probe", url:"hp:imap.princeton.edu;nasa:soma.larc.nasa.gov/STP/IMAP/", desc:"ag:nasa,jhuapl;lv:;m:", stat:"pl", 
   parts: [
     {n:"", ctry:"us", type:"par", pur:"", id:"", icon:"imap.png", desc:""}
   ], ev: [
@@ -1763,8 +1763,8 @@ solarorbiter:{name:"Solar Orbiter", url:"hp:www.esa.int/Our_activities/Space_Sci
   parts: [
     {n:"", ctry:"eu", type:"uv;par", pur:"sol", id:"", icon:"solarorbiter.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2020-02", tp:"l", loc:"ter:kou", desc:""},
-    {pt:"", dt:"2020-02", tp:"sco", loc:"sol:ho", desc:""}
+    {pt:"", dt:"2020-02-10", tp:"l", loc:"ter:kou", desc:""},
+    {pt:"", dt:"2020-02-10", tp:"sco", loc:"sol:ho", desc:""}
   ], inst: [
     {n:"EUI:Extreme Ultraviolet Imager", band:"17.4..30.4nm", res:"1", d:"", px:"", fov:"5.2deg", url:"", desc:"cl:nly;"},
     {n:"EPD:Energetic Particle Detector", band:"8..700keV", tp:"psp", res:"", url:"", desc:"c:"},
@@ -1804,7 +1804,7 @@ spp:{name:"Parker Solar Probe", url:"hp:solarprobe.jhuapl.edu/;nasa:solarprobe.g
     {n:"Neutron Spectrometer", tp:"sp", band:"0.02..10MeV", sres:"0.5", fov:"~360deg", url:"", desc:"c:"},
     {n:"CD:Coronal Dust", band:"0.05..50um", tp:"msp", tres:"10s", fov:"~360deg", url:"", desc:"c:"}
 ]},
-spitzer:{name:"Spitzer", url:"hp:ssc.spitzer.caltech.edu/;ipac:irsa.ipac.caltech.edu/Missions/spitzer.html;tw:twitter.com/NASAspitzer", desc:"ag:nasa,jpl;lv:Delta II 7820H;sc:1.1;y:6", stat:"o", 
+spitzer:{name:"Spitzer", url:"hp:ssc.spitzer.caltech.edu/;ipac:irsa.ipac.caltech.edu/Missions/spitzer.html;tw:twitter.com/NASAspitzer", desc:"ag:nasa,jpl;lv:Delta II 7820H;sc:1.1;y:6", stat:"s", 
   parts: [
     {n:"SST:Spitzer Space Telescope;SIRTF", ctry:"us", type:"nir", pur:"", id:"2003-038A", icon:"spitzer.png", desc:"Earth Following"}
   ], ev: [
