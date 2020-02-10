@@ -1259,7 +1259,17 @@ imap:{name:"IMAP:Interstellar Mapping and Acceleration Probe", url:"hp:imap.prin
     {pt:"", dt:"2024", tp:"l", loc:"ter", desc:""},
     {pt:"", dt:"2024", tp:"sco", loc:"sol:ho:esl1", desc:""}
   ], inst: [
-    {n:"", band:"", res:"", d:"", px:"", url:"", desc:"c:;"}
+    {n:"IMAP-Lo", band:"10..1000eV", tp:"par", res:"9deg", fov:"9x9deg", url:"", desc:"ISN/ENA:Interstellar/Energetic Neutral Atoms;c:;"},
+    {n:"IMAP-Hi", band:"0.4..15.6keV", tp:"par", mres:"4", fov:"4deg", eres:"0.45", url:"", desc:"ENA:Energetic Neutral Atoms;c:;"},
+    {n:"IMAP-Ultra", band:"3..5000keV", tp:"par", res:"2..10deg", eres:"14%", fov:"90x120deg", url:"", desc:"ENA:Energetic Neutral Atoms;c:;"},
+    {n:"MAG:Magnetometer", band:"", tp:"mag", sres:"10pT", url:"", desc:"c:;"},
+    {n:"SWE:Solar Wind Electrons", band:"1..5000eV", tp:"par", fov:"12%", tres:"15s", url:"", desc:"c:;"},
+    {n:"SWAPI:Solar Wind and Pickup Ion", band:"0.1..20keV", tp:"par", eres:"8.5%", tres:"15s", url:"", desc:"PUI:Interstellar Pickup Ions;c:;"},
+    {n:"CoDICE-Lo:Compact Dual Ion Composition Experiment", band:"0.5..80keV", tp:"msp", res:"15x5deg", mres:"2..19", url:"", desc:"ST/EP:Suprathermal Ions/Energetic Particles;c:;"},
+    {n:"CoDICE-Hi:Compact Dual Ion Composition Experiment", band:"0.03..5MeV", tp:"msp", res:"", mres:"7", url:"", desc:"ST/EP:Suprathermal Ions/Energetic Particles;c:;"},
+    {n:"HIT:High-energy Ion Telescope", band:"2..40MeV", tp:"msp", mres:"7", url:"", desc:"EP:Energetic Particles;c:;"},
+    {n:"IDEX:Interstellar Dust Experiment", band:"", tp:"msp", mres:"200", url:"", desc:"ISD:Interstellar Dust;c:;"},
+    {n:"GLOWS:Global Solar Wind Structure", band:"58.4..121.6nm", tp:"im", res:"", url:"", desc:"UV glow;c:;"}
 ]},
 integral:{name:"Integral:International Gamma Ray Astrophysics Laboratory", url:"hp:sci.esa.int/integral/;tw:twitter.com/ESA_Integral", desc:"ag:esa;lv:Proton-K/Blok-DM2;sc:1;y:20", stat:"o", 
   parts: [
@@ -1608,7 +1618,7 @@ proba3:{name:"Proba-3", url:"hp:www.esa.int/Enabling_Support/Space_Engineering_T
   parts: [
     {n:"", ctry:"eu", type:"cor", pur:"sol", id:"", icon:"", desc:""}
   ], ev: [
-    {pt:"", dt:"2021.03", tp:"l", loc:"ter:kou:ZLV", desc:""},
+    {pt:"", dt:"2022-06", tp:"l", loc:"ter:kou:ZLV", desc:""},
     {pt:"", dt:"l+1d", tp:"sco", loc:"ter:heeo:600x60530km", desc:""}
   ], inst: [
     {n:"", band:"", res:"", d:"", px:"", url:"", desc:"c:;"}
@@ -1759,7 +1769,7 @@ soho:{name:"SOHO:Solar & Heliospheric Observatory", url:"hp:sohowww.nascom.nasa.
     {n:"UVCS:Ultraviolet Coronagraph Spectrometer", band:"", res:"", url:"www.cfa.harvard.edu/uvcs/", desc:""},
     {n:"VIRGO:Variability of Solar Irradiance and Gravity Oscillations", band:"", res:"", url:"www.ias.u-psud.fr/virgo/", desc:""}
 ]},
-solarorbiter:{name:"Solar Orbiter", url:"hp:www.esa.int/Our_activities/Space_Science/Solar_Orbiter;esa:sci.esa.int/solarorbiter;tw:twitter.com/ESASolarOrbiter", desc:"High Inclination;ag:esa;fam:M-class;lv:Atlas V 411;sc:1;x:0;y:16", stat:"pl", 
+solarorbiter:{name:"Solar Orbiter", url:"hp:www.esa.int/Our_activities/Space_Science/Solar_Orbiter;esa:sci.esa.int/solarorbiter;tw:twitter.com/ESASolarOrbiter", desc:"High Inclination;ag:esa;fam:M-class;lv:Atlas V 411;sc:1;x:0;y:16", stat:"o", 
   parts: [
     {n:"", ctry:"eu", type:"uv;par", pur:"sol", id:"", icon:"solarorbiter.png", desc:""}
   ], ev: [
