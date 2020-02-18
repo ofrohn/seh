@@ -2896,10 +2896,10 @@ change4: {name:"Chang'e 4", desc:"lv:CZ-3B/G3Z",
     {pt:"", type:"td", dt:"2019-01-03", loc:"lun:45.471S,177.606E", desc:"Statio Tianhe, Von Karman crater, SPA;show:CE4:NW"},
     {pt:"", type:"sep", dt:"2019-01-03", loc:"lun", desc:"lp/rvp"}, 
     {pt:"1", type:"ex", dt:"", loc:"lun", desc:"rvp;rv:358m"},    
-    {pt:"1", type:"nom", dt:"2019-10", loc:"lun", desc:"rvp;?;eom:rvm"},
-    {pt:"0", type:"nom", dt:"2019-12", loc:"lun", desc:"lp;?"}
+    {pt:"1", type:"nom", dt:"2020-10", loc:"lun", desc:"rvp;?;eom:rvm"},
+    {pt:"0", type:"nom", dt:"2021-12", loc:"lun", desc:"lp;?"}
 ]},
-// --- 2019
+// --- 2019  - 2 missions
 chandrayaan2: {name:"Chandrayaan 2:Moon Craft 2", desc:"lv:GSLV MkIII",
   parts:[
     {names:"चंद्रयान-२", type:"om", dest:"lun", stat:"o", ctry:"ind", desc:"ag:isro;m:2379kg;dim:3.2x5.8x2.1m;sc:0.5", id:"2019-042A", url:"hp:www.isro.gov.in/chandrayaan2-home-0", icon:"chandrayaan2-o.png"},
@@ -2947,17 +2947,9 @@ change5: {name:"Chang'e 5", desc:"lv:CZ-5",
     {pt:"", type:"toi", dt:"l+25dy", loc:"lun", desc:"op/src"},
     {pt:"", type:"edl", dt:"l+30dy", loc:"ter", desc:"eom:srm;src;Siziwang Banner, Inner Mongolia;eom"}
 ]},
-/*sentinel: {name:"Sentinel", desc:"lv:Falcon 9 v1.2",
-  parts:[
-    {names:"", type:"obm", dest:"ast", stat:"pl", ctry:"us", desc:"ag:b612;m:?kg;sc:0.25;w:0.7;NEO Observatory", id:"", url:"hp:b612foundation.org/sentinel/", icon:"sentinel.png"}], 
-  events:[
-    {pt:"", type:"l", dt:"2019", loc:"ter:cap", desc:"or 2019"},
-    {pt:"", type:"oi", dt:"l+4mo", loc:"sol:ho:0.6x0.8au", desc:""},
-    {pt:"", type:"nom", dt:"l+7yr", loc:"so", desc:""}
-]},*/
 solarorbiter: {name:"Solar Orbiter", desc:"lv:Atlas V 411",
   parts:[
-    {names:"", type:"obm", dest:"sol", stat:"o", ctry:"eu", desc:"ag:esa;fam:M-class;m:1800kg;dim:18x3.0x2.5m;sc:0.75;Heliophysics Observatory", id:"2020-010A", url:"hp:www.esa.int/Our_Activities/Space_Science/Solar_Orbiter;esa:sci.esa.int/solarorbiter/;tw:twitter.com/ESASolarOrbiter", icon:"solarorbiter.png"}], 
+    {names:"", type:"obm", dest:"sol", stat:"o", ctry:"eu", desc:"ag:esa;fam:M-class;m0:1500kg;m:1750kg;dim:18x3.0x2.5m;sc:0.75;Heliophysics Observatory", id:"2020-010A", url:"hp:www.esa.int/Our_Activities/Space_Science/Solar_Orbiter;esa:sci.esa.int/solarorbiter/;tw:twitter.com/ESASolarOrbiter", icon:"solarorbiter.png"}], 
   events:[
     {pt:"", type:"l", dt:"2020-02-10", loc:"ter:cap:SLC-41", desc:""},
     {pt:"", type:"oi", dt:"2020-02-10", loc:"sol:ho:0.661x1.014aux2.9deg", desc:""},
@@ -3032,6 +3024,7 @@ emm: {name:"Al Amal:Hope", desc:"lv:H-IIA 202",
     {pt:"", type:"nom", dt:"2023", loc:"mar", desc:""},
     {pt:"", type:"pom", dt:"2025", loc:"mar", desc:""}
 ]},
+// --- 2021
 chandrayaan3: {name:"Chandrayaan 3:Moon Craft 3", desc:"lv:GSLV MkIII",
   parts:[
 {names:"Vikram", type:"slm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:1471kg;dim:2.5x2x1.2m", icon:"chandrayaan2-l.png"},
@@ -3049,7 +3042,6 @@ chandrayaan3: {name:"Chandrayaan 3:Moon Craft 3", desc:"lv:GSLV MkIII",
     {pt:"", type:"td", dt:"l+4d", loc:"lun:29.52N,25.68W", desc:"Mare Imbrium"},
     {pt:"", type:"nom", dt:"2021", loc:"lun", desc:""}
 ]},*/
-// --- 2021
 em1: {name:"Artemis-1", desc:"lv:SLS 1", stat:"pl", 
   parts:[
     {names:"EM-1:Exploration Mission 1;Orion MPCV Test Flight:Multi-Purpose Crew Vehicle", type:"fbm", dest:"lun",ctry:"us;eu", desc:"ag:nasa,jsc,esa;m:21250kg;sc:0.6", id:"", url:"hp:www.nasa.gov/exploration/home/index.html;esa:www.esa.int/Our_Activities/Human_Spaceflight/Orion/Exploration_Mission_1", icon:"orion.png"},

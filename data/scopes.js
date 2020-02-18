@@ -747,7 +747,7 @@ litebird:{name:"LiteBIRD:Lite satellite for the studies of B-mode polarization a
     {n:"MFT", band:"89..224GHz", d:"0.32", px:"", res:"2280..1680", fov:"28deg", desc:"c:n;cl:nly;"},
     {n:"HFT", band:"166..448GHz", d:"0.19", px:"", res:"1740..1080", fov:"28deg", desc:"c:n;cl:nl;"}
 ]},
-longjiang: {name:"Longjiang 2:Dragon River", url:"hp:www.chinaspaceflight.com/satellite/HIT/DSLWP-A1-A2.html", desc:"ag:cnsa,HIT;m:45kg;dim:0.5x0.5x0.4m;lv:CZ-4C;", stat:"o",
+longjiang: {name:"Longjiang 2:Dragon River", url:"hp:www.chinaspaceflight.com/satellite/HIT/DSLWP-A1-A2.html", desc:"ag:cnsa,HIT;m:45kg;dim:0.5x0.5x0.4m;lv:CZ-4C;", stat:"s",
   parts:[
     {n:"龙江二号;DSLWP-A2:Discovering the Sky at Longest Wavelengths Pathfinder", type:"r", pur:"lun", ctry:"cn", id:"2018-045B", icon:"dslwp.png"}
    ],  ev:[
@@ -1111,19 +1111,19 @@ soho:{name:"SOHO:Solar & Heliospheric Observatory", url:"hp:sohowww.nascom.nasa.
     {n:"UVCS:Ultraviolet Coronagraph Spectrometer", band:"", res:"", url:"www.cfa.harvard.edu/uvcs/", desc:""},
     {n:"VIRGO:Variability of Solar Irradiance and Gravity Oscillations", band:"", res:"", url:"www.ias.u-psud.fr/virgo/", desc:""}
 ]},
-solarorbiter:{name:"Solar Orbiter", url:"hp:www.esa.int/Our_activities/Space_Science/Solar_Orbiter;esa:sci.esa.int/solarorbiter;tw:twitter.com/ESASolarOrbiter", desc:"High Inclination;ag:esa;fam:M-class;lv:Atlas V 411;sc:1;x:0;y:16", stat:"o", 
+solarorbiter:{name:"SolO:Solar Orbiter", url:"hp:www.esa.int/Our_activities/Space_Science/Solar_Orbiter;esa:sci.esa.int/solarorbiter;tw:twitter.com/ESASolarOrbiter", desc:"High Inclination;ag:esa;fam:M-class;lv:Atlas V 411;sc:1.8;x:0;y:1", stat:"o", 
   parts: [
-    {n:"", ctry:"eu", type:"uv;par", pur:"sol", id:"", icon:"solarorbiter.png", desc:""}
+    {n:"", ctry:"eu", type:"uv;par", pur:"sol", id:"2020-010A", icon:"solarorbiter.png", desc:""}
   ], ev: [
     {pt:"", dt:"2020-02-10", tp:"l", loc:"ter:kou", desc:""},
     {pt:"", dt:"2020-02-10", tp:"sco", loc:"sol:ho", desc:""}
   ], inst: [
-    {n:"EUI:Extreme Ultraviolet Imager", band:"17.4..30.4nm", res:"1", d:"", px:"", fov:"5.2deg", url:"", desc:"cl:nly;"},
+    {n:"EUI:Extreme Ultraviolet Imager", band:"17.4..30.4nm", res:"1", d:"", px:"", fov:"5.2deg", url:"", desc:"cl:nly;c:nr"},
     {n:"EPD:Energetic Particle Detector", band:"8..700keV", tp:"psp", res:"", url:"", desc:"c:"},
     {n:"MAG:Magnetometer", band:"0..64Hz", tp:"em", res:"", url:"", desc:"c:;"},
     {n:"RPW:Radio and Plasma Waves", band:"", tp:"em", res:"", url:"", desc:"c:;"},
     {n:"SWA:Solar Wind Plasma Analyser", band:"1eV..100keV", tp:"psp", res:"", url:"", desc:"c:;"},
-    {n:"METIS/COR:Multi-Element Telescope for Imaging and Spectroscopy/Coronagraph", band:"30.4..600nm", res:"", d:"", px:"5.3", fov:"3deg", url:"", desc:"cl:n"},
+    {n:"METIS/COR:Multi-Element Telescope for Imaging and Spectroscopy/Coronagraph", band:"30.4..600nm", res:"20", d:"0.04", px:"5.3", fov:"2.9deg", url:"", desc:"cl:n;c:nl"},
     {n:"PHI:Polarimetric and Helioseismic Imager", band:"", res:"", d:"", px:"", fov:"16.8'", url:"", desc:"c:;"},
     {n:"SoloHI:Heliospheric Imager", band:"", res:"", d:"", px:"", fov:"40deg", url:"", desc:"c:;"},
     {n:"SPICE:Spectral Imaging of the Coronal Environment", band:"48.5..105nm", tp:"is", res:"", d:"", px:"", url:"", desc:"c:;"},
