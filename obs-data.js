@@ -2270,6 +2270,8 @@ cz-8
 "Delta II 7925H-9.5": {syn:"Delta II 7925H"},
 //Delta 4H
 "Delta IV Heavy": {ctry:"us", m:"732000", pm:"23040/13100/9000",  d:"63x5.1", pf:"19.8x5.1", dt:"2004-12-21..", st:"2/2", ust:"Star-48", th:"9420", fam:"Delta", desc:"l:cap,van;ag:nasa", fuel:"LH2/LOX", icon:"Delta-4H_Orion.png"},
+//Electron
+"Electron": {ctry:"us", m:"12500", pm:"225/-/-",  d:"17x1.2", pf:"2.5x1.2", dt:"2017-05-26..", st:"2", ust:"Curie", th:"162", fam:"Electron", desc:"l:mah,wal;ag:Rocket Lab", fuel:"KeroLOX", icon:"electron.png"},
 //Epsilon
 "Epsilon": {ctry:"jp", m:"91000", pm:"1200/-/-",  d:"24.4x2.5", pf:"", dt:"2013-09-14..", st:"3", ust:"CLPS", th:"2271", fam:"Epsilon", desc:"l:uch;ag:jaxa", fuel:"SRP", icon:"epsilon1.png"},
 //Epsilon

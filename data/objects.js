@@ -1717,13 +1717,13 @@ sed:
    comp:"", dens:"2.0", atm:"", atp:"", temp:"~12K",
    img:"sedna.png", col:"", desc:"sc:3;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=90377;orb:ec.2010-07-23"},
 "2007or10":
-  {name:"2007 OR10", other:"'Snowwhite'", desig:"225088", type:"t", par:"sol", disc:"M.E. Schwamb al.", dyr:"2007",
+  {name:"Gonggong", other:"2007 OR10", desig:"225088", type:"t", par:"sol", disc:"M.E. Schwamb al.", dyr:"2007",
    a:"66.84au", e:"0.505", i:"30.91", per:"550.98a", rot:"44.81h", gr:"sdo",
    h:"2.5", mass:"3.76e21kg", dia:"1250km", rad:"625", tilt:"", alb:"0.089", grav:"", 
    comp:"", dens:"1.6", atm:"", atp:"", temp:"~42K",
    img:"2007or10.png", col:"", desc:"sc:3;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=225088;orb:ec.2014-01-13"},
-"s20162250881":
-  {name:"S/2016 (225088) 1", other:"", desig:"I", type:"m", par:"2007or10", disc:"G. Marton et al.", dyr:"2010",
+"xiangliu":
+  {name:"Xiangliu", other:"S/2016 (225088) 1", desig:"I", type:"m", par:"2007or10", disc:"G. Marton et al.", dyr:"2010",
    a:"15000km", e:"", i:"", per:"6d", rot:"",
    h:"", mass:"", dia:"240km", rad:"120", tilt:"",
    alb:"0.089", grav:"", comp:"", dens:"", temp:"",
@@ -1780,7 +1780,7 @@ ixi:
 "2014mu69":
   {name:"Arrokoth", other:"2014 MU69", desig:"486958", type:"t", par:"sol", disc:"HST", dyr:"2014",
    a:"44.23au", e:"0.0378", i:"2.45", per:"297.1a", rot:"16h", gr:"cube",
-   h:"11.1", mass:"", dia:"33km", rad:"16.5", tilt:"98", alb:"~0.04", grav:"", 
+   h:"11.1", mass:"", dia:"36x19.9x9.8km", rad:"16.5", tilt:"98", alb:"~0.04", grav:"", 
    comp:"", dens:"", atm:"", atp:"", temp:"~35K",
    img:"2014mu69.png", col:"", desc:"sc:3;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=2014+MU69;orb:ec.2014-12-09"},
 "2014pn70":

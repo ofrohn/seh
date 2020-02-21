@@ -26,7 +26,9 @@ sri: {name:"Sriharikota:Satish Dhawan Space Centre, Sriharikota", other:"सत�
 
 //alc: {name:"Alcântara:Alcântara Launch Center", other:"", ctry:"br", desig:"CLA:Centro de Lançamento de Alcântara", desc:"url:www.cla.aer.mil.br/index.php;loc:2.3730S,44.3964W;show:CLA;reg:Maranhão, Brazil;az:343..90;kml:zgUqCFI4a2eQ.kS2NlNk7_hfQ", map:"cla.png"},
 
-nar: {name:"Naro:Naro Space Center", other:"나로우주센터", ctry:"sk", desig:"NSC:Naro Space Center", desc:"url:http://www.kari.re.kr/eng.do;loc:34.4318N,127.5350E;show:NARO:W;reg:Kohung, Jeollanam-do;az:90..190;kml:12u04inPCpIFUtNWaYrlz__A7IwI", map:"naro.png"}
+nar: {name:"Naro:Naro Space Center", other:"나로우주센터", ctry:"sk", desig:"NSC:Naro Space Center", desc:"url:http://www.kari.re.kr/eng.do;loc:34.4318N,127.5350E;show:NARO:W;reg:Kohung, Jeollanam-do;az:90..190;kml:12u04inPCpIFUtNWaYrlz__A7IwI", map:"naro.png"},
+
+mah: {name:"Mahia:Mahia Launch Complex", other:"", ctry:"nz", desig:"RLLC1:Rocket Lab Launch Complex 1", desc:"url:http://www.kari.re.kr/eng.do;loc:39.2615S,177.8649E;show:RLLC1:W;reg:Hawke's Bay, North Island;az:90..225;kml:12u04inPCpIFUtNWaYrlz__A7IwI", map:"mahia.png"}
 
 };
 
@@ -38,6 +40,7 @@ Common.lpad = [
 {n:"ELS", par:"kou", lv:"Soyuz", loc:"5.305N,52.834W"},
 {n:"SLV", par:"kou", syn:"ELA-1"},
 {n:"FLP", par:"sri", lv:"PSLV;GSLV", loc:"13.733N,80.235E"},
+{n:"LC-1", par:"mah", lv:"Electron", loc:"39.2615S,177.8649E"},
 {n:"LC-1/5", par:"bai", lv:"R-7;Molniya;Soyuz", loc:"45.920N,63.342E"},
 {n:"LC-1S", par:"vos", lv:"Soyuz 2", loc:"51.884N,128.334E"},
 {n:"LC-2", par:"xch", lv:"CZ-2E;CZ-3B/C", loc:"28.246N,102.027E"},
@@ -88,6 +91,7 @@ Common.lpad = [
 {n:"LP-0B", par:"wal", lv:"Minotaur", loc:"37.831N,75.491W"},
 {n:"M-1", par:"uch", lv:"M-3SII;Epsilon", loc:"31.2504N,131.0821E"},
 {n:"M-5", par:"uch", lv:"M-V", loc:"31.2510N,131.0823E"},
+{n:"RLLC-2", par:"wal", lv:"Electron", loc:"37.8348N,75.4864W"},
 {n:"SLC-2W", par:"van", lv:"Delta II;OmegA", loc:"34.755N,120.622W"},
 {n:"SLC-3E", par:"van", lv:"Atlas V", loc:"34.640N,120.590W"},
 {n:"SLC-4W", par:"van", lv:"Atlas-Agena;Titan", loc:"34.633N,120.616W"},

@@ -3034,14 +3034,14 @@ chandrayaan3: {name:"Chandrayaan 3:Moon Craft 3", desc:"lv:GSLV MkIII",
     {pt:"1", type:"td", dt:"2021-04", loc:"lun", desc:""},
     {pt:"0", type:"nom", dt:"2022-04", loc:"lun", desc:"?"}
 ]},
-/*z01: {name:"Z-01", desc:"lv:Falcon 9",
+capstone: {name:"CAPSTONE:Cislunar Autonomous Positioning System Technology Operations and Navigation Experiment", desc:"lv:Electron",
   parts:[
-    {names:"", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Orbit Beyond;fam:CLPS;sc:0.5", id:"", url:"orbitbeyond.com", icon:"z01.png"}], 
+    {names:"", type:"om", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Advanced Space;fam:SBIR;12U Cubesat;sc:0.5", id:"", url:"hp:www.nasa.gov/press-release/nasa-funds-cubesat-pathfinder-mission-to-unique-lunar-orbit", icon:"capstone.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2020-09", loc:"ter:cap", desc:""},
-    {pt:"", type:"td", dt:"l+4d", loc:"lun:29.52N,25.68W", desc:"Mare Imbrium"},
-    {pt:"", type:"nom", dt:"2021", loc:"lun", desc:""}
-]},*/
+    {pt:"", type:"l", dt:"2021", loc:"ter:wal", desc:""},
+    {pt:"", type:"oi", dt:"l+4m", loc:"lun:nrho", desc:""},
+    {pt:"", type:"nom", dt:"2023", loc:"lun", desc:""}
+]},
 em1: {name:"Artemis-1", desc:"lv:SLS 1", stat:"pl", 
   parts:[
     {names:"EM-1:Exploration Mission 1;Orion MPCV Test Flight:Multi-Purpose Crew Vehicle", type:"fbm", dest:"lun",ctry:"us;eu", desc:"ag:nasa,jsc,esa;m:21250kg;sc:0.6", id:"", url:"hp:www.nasa.gov/exploration/home/index.html;esa:www.esa.int/Our_Activities/Human_Spaceflight/Orion/Exploration_Mission_1", icon:"orion.png"},
