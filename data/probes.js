@@ -3340,7 +3340,7 @@ mmx: {name:"MMX:Martian Moons eXploration", desc:"lv:H-III",
     {pt:"", type:"oi", dt:"2025-08", loc:"mar", desc:""},
     {pt:"", type:"td", dt:"2027", loc:"mar:Phobos", desc:"Sample collection;show:0"},
     {pt:"", type:"oi", dt:"2028-08", loc:"sol:ho", desc:"ETO"},
-    {pt:"", type:"edl", dt:"2029-07", loc:"ter", desc:"eom"}
+    {pt:"", type:"edl", dt:"2029-09", loc:"ter", desc:"eom"}
 ]},
 em3: {name:"Artemis-3", desc:"lv:SLS 1B", stat:"pl", 
   parts:[

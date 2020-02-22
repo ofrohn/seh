@@ -28,8 +28,7 @@ sri: {name:"Sriharikota:Satish Dhawan Space Centre, Sriharikota", other:"सत�
 
 nar: {name:"Naro:Naro Space Center", other:"나로우주센터", ctry:"sk", desig:"NSC:Naro Space Center", desc:"url:http://www.kari.re.kr/eng.do;loc:34.4318N,127.5350E;show:NARO:W;reg:Kohung, Jeollanam-do;az:90..190;kml:12u04inPCpIFUtNWaYrlz__A7IwI", map:"naro.png"},
 
-mah: {name:"Mahia:Mahia Launch Complex", other:"", ctry:"nz", desig:"RLLC1:Rocket Lab Launch Complex 1", desc:"url:http://www.kari.re.kr/eng.do;loc:39.2615S,177.8649E;show:RLLC1:W;reg:Hawke's Bay, North Island;az:90..225;kml:12u04inPCpIFUtNWaYrlz__A7IwI", map:"mahia.png"}
-
+mah: {name:"Mahia:Mahia Launch Complex", other:"", ctry:"nz", desig:"RLLC1:Rocket Lab Launch Complex 1", desc:"url:http://www.kari.re.kr/eng.do;loc:39.2615S,177.8649E;show:RLLC1:W;reg:Hawke's Bay, North Island;az:90..225;kml:159O6gE8h_4jgMo6HTvirp-1o_vnPMirL", map:"mahia.png"}
 };
 
 Common.lpad = [

@@ -3992,7 +3992,7 @@ mmx: {name:"MMX:Martian Moons eXploration", desc:"lv:H-III",
     {pt:"", type:"oi", dt:"2025-08", loc:"mar", desc:""},
     {pt:"", type:"td", dt:"2027", loc:"mar:Phobos", desc:"Sample collection;show:0"},
     {pt:"", type:"oi", dt:"2028-08", loc:"sol:ho", desc:"ETO"},
-    {pt:"", type:"edl", dt:"2029-07", loc:"ter", desc:"eom"}
+    {pt:"", type:"edl", dt:"2029-09", loc:"ter", desc:"eom"}
 ]},
 em3: {name:"Artemis-3", desc:"lv:SLS 1B", stat:"pl", 
   parts:[
@@ -4181,7 +4181,7 @@ ven:
    h:"-4.47", mass:"4.867e24kg", dia:"12103.6km/0", rad:"6051.8/0", tilt:"177.3",
    irad:"2613.9", alb:"0.67", grav:"0.905", hill:"167.1", rrl:"2.19", frl:"4.21",
    comp:"Rock+Metal+core:53", dens:"5.243", atm:"CO2:96.5+N2:3.5", atp:"92", temp:"738K",
-   img:"venus.png", map:"venus-topo.jpg", col:"#ddc", ind:"2",
+   img:"venus2.png", map:"venus-topo.jpg", col:"#ddc", ind:"2",
    desc:"sc:3;url:nssdc.gsfc.nasa.gov/planetary/planets/venuspage.html;x:48;y:24"},
 //Earth system
 ter:
@@ -6571,8 +6571,7 @@ sri: {name:"Sriharikota:Satish Dhawan Space Centre, Sriharikota", other:"सत�
 
 nar: {name:"Naro:Naro Space Center", other:"나로우주센터", ctry:"sk", desig:"NSC:Naro Space Center", desc:"url:http://www.kari.re.kr/eng.do;loc:34.4318N,127.5350E;show:NARO:W;reg:Kohung, Jeollanam-do;az:90..190;kml:12u04inPCpIFUtNWaYrlz__A7IwI", map:"naro.png"},
 
-mah: {name:"Mahia:Mahia Launch Complex", other:"", ctry:"nz", desig:"RLLC1:Rocket Lab Launch Complex 1", desc:"url:http://www.kari.re.kr/eng.do;loc:39.2615S,177.8649E;show:RLLC1:W;reg:Hawke's Bay, North Island;az:90..225;kml:12u04inPCpIFUtNWaYrlz__A7IwI", map:"mahia.png"}
-
+mah: {name:"Mahia:Mahia Launch Complex", other:"", ctry:"nz", desig:"RLLC1:Rocket Lab Launch Complex 1", desc:"url:http://www.kari.re.kr/eng.do;loc:39.2615S,177.8649E;show:RLLC1:W;reg:Hawke's Bay, North Island;az:90..225;kml:159O6gE8h_4jgMo6HTvirp-1o_vnPMirL", map:"mahia.png"}
 };
 
 Common.lpad = [

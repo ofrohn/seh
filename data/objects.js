@@ -67,7 +67,7 @@ ven:
    h:"-4.47", mass:"4.867e24kg", dia:"12103.6km/0", rad:"6051.8/0", tilt:"177.3",
    irad:"2613.9", alb:"0.67", grav:"0.905", hill:"167.1", rrl:"2.19", frl:"4.21",
    comp:"Rock+Metal+core:53", dens:"5.243", atm:"CO2:96.5+N2:3.5", atp:"92", temp:"738K",
-   img:"venus.png", map:"venus-topo.jpg", col:"#ddc", ind:"2",
+   img:"venus2.png", map:"venus-topo.jpg", col:"#ddc", ind:"2",
    desc:"sc:3;url:nssdc.gsfc.nasa.gov/planetary/planets/venuspage.html;x:48;y:24"},
 //Earth system
 ter:
