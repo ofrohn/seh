@@ -2255,9 +2255,9 @@ var Hist = new (function() {
         fnt = "bold 16px sans-serif",
         w = cnv.textwidth(txt,fnt),
         h = window.innerHeight,
-        t = h*0.3,// + parent.scrollTop,
+        t = 220, //h*0.3,// + parent.scrollTop,
         line = 16, 
-        l = Math.PI/230,
+        l = Math.PI/240,
         w2, i1, i2;
          
     if (prog === 0) {
@@ -2269,8 +2269,8 @@ var Hist = new (function() {
       cw.style.cursor = "progress";
       i1 = Create.img(parent, {i:SSEH.PATH + "lo.png"}, "loadImg");
       i1.style.top = px(h-width/2.84);
-      cnv.text(SSEH.TITLE, width/2, h*0.16, tfnt, "center", "#fff", "bottom");
-      cnv.text(SSEH.CLICK, width/2, h*0.176, fnt, "center", "#fff", "top");
+      cnv.text(SSEH.TITLE, width/2, 140, tfnt, "center", "#fff", "bottom");
+      cnv.text(SSEH.CLICK, width/2, 155, fnt, "center", "#fff", "top");
       cnv.text(txt, width/2, t, fnt, "center", "#000", "middle");
       
       cnv.text("Version " + SSEH.VERSION, width-270, h-2, fnt, "right", "#fff", "bottom");
