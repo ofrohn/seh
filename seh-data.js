@@ -6462,7 +6462,10 @@ cz-8
 "H-IIA": {syn:"H-IIA 202"},
 "H-IIB": {ctry:"jp", m:"531000", pm:"19000/8000/4000",  d:"56.6x5.2", pf:"13x5.2", dt:"2009-09-10..", st:"2/4", th:"11200", fam:"H-II", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"H2B.png"},
 "H-III": {syn:"H-III 24L"},
-"H-III 24L": {ctry:"jp", m:"574000", pm:"/7900/",  d:"63x5.27", pf:"13x5.3", dt:"2021..", st:"2/0..4", th:"11500", fam:"H-III", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"h3-24l.png"},
+"H-III 30S": {ctry:"jp", m:"353000", pm:"3000/2100/",  d:"58x5.27", pf:"11x5.3", dt:"2022..", st:"2", th:"4416", fam:"H-III", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"h3-30s.png"},
+"H-III 22S": {ctry:"jp", m:"440000", pm:"5000/4000/",  d:"58x5.27", pf:"11x5.3", dt:"2020..", st:"2/2", th:"7260", fam:"H-III", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"h3-22s.png"},
+"H-III 32L": {ctry:"jp", m:"497000", pm:"/4200/",  d:"63x5.27", pf:"16x5.3", dt:"2022..", st:"2/2", th:"8732", fam:"H-III", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"h3-32l.png"},
+"H-III 24L": {ctry:"jp", m:"574000", pm:"/6500/",  d:"63x5.27", pf:"16x5.3", dt:"2021..", st:"2/4", th:"11576", fam:"H-III", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"h3-24l.png"},
 //Juno II
 "Juno II": {ctry:"us", m:"55300", pm:"50/-/6",  d:"23.4x2.67", pf:"", dt:"1958-12-06..1961-05-24", st:"4", th:"667", fam:"Jupiter", desc:"l:cap;ag:nasa", fuel:"KeroLOX+SRP", icon:"Juno-2.png"},
 //KSLV-II
@@ -6649,8 +6652,8 @@ Common.lpad = [
 {n:"SLC-41", par:"cap", syn:"LC-41"},
 {n:"SLP", par:"sri", lv:"PSLV;GSLV", loc:"13.720N,80.230E"},
 //{n:"VLS", par:"alc", lv:"VLS", loc:"2.3177S,44.3678W"},
-{n:"YLP-1", par:"tng", lv:"H-IIA", loc:"30.401N,130.977E"},
-{n:"YLP-2", par:"tng", lv:"H-IIB", loc:"30.401N, 130.975E"},
+{n:"YLP-1", par:"tng", lv:"H-IIA;H-III", loc:"30.401N,130.977E"},
+{n:"YLP-2", par:"tng", lv:"H-IIB;H-III", loc:"30.401N, 130.975E"},
 {n:"LC-1A", par:"vos", lv:"Angara-1.2/A3/A5", loc:"51.8756N,128.3615E"},
 //{n:"(LP-2)", par:"vos", lv:"Angara-A5V/A7", loc:"51.8756N,128.3615E"},
 {n:"(LC)", par:"wen", lv:"CZ-9", loc:""},
