@@ -2895,7 +2895,7 @@ change4: {name:"Chang'e 4", desc:"lv:CZ-3B/G3Z",
     {pt:"", type:"sco", dt:"2018-12-30", loc:"lun:100x15kmx90deg", desc:""},
     {pt:"", type:"td", dt:"2019-01-03", loc:"lun:45.471S,177.606E", desc:"Statio Tianhe, Von Karman crater, SPA;show:CE4:NW"},
     {pt:"", type:"sep", dt:"2019-01-03", loc:"lun", desc:"lp/rvp"}, 
-    {pt:"1", type:"ex", dt:"", loc:"lun", desc:"rvp;rv:358m"},    
+    {pt:"1", type:"ex", dt:"", loc:"lun", desc:"rvp;rv:400m"},    
     {pt:"1", type:"nom", dt:"2020-10", loc:"lun", desc:"rvp;?;eom:rvm"},
     {pt:"0", type:"nom", dt:"2021-12", loc:"lun", desc:"lp;?"}
 ]},
@@ -3120,7 +3120,7 @@ luna25: {name:"Luna 25", desc:"lv:Soyuz 2.1B/Fregat",
   parts:[
     {names:"Луна-Глоб посадочный;Luna Glob Lander:Lunar Sphere Lander", type:"slm", dest:"lun", stat:"pl", ctry:"ru", desc:"ag:rosc,iki;m:1750kg;m0:780kg;sc:0.45", id:"", url:"rsw:www.russianspaceweb.com/luna_glob.html", icon:"luna25.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2021", loc:"ter:bai", desc:""},
+    {pt:"", type:"l", dt:"2021-07", loc:"ter:bai", desc:""},
     {pt:"", type:"oi", dt:"l+4dy", loc:"lun:100x100kmx90deg", desc:""},
     {pt:"", type:"td", dt:"l+8dy", loc:"lun:69.545S,43.44E", desc:"Near South Pole, Hagecius Crater"},
     {pt:"", type:"nom", dt:"l+3mo", loc:"lun", desc:"?"},

@@ -3,7 +3,7 @@
     {n:"",  ctry:"us|ru|eu|jp|cn|ind..", 
     type:"r|mw|nir|fir|ir|opt|uv|nuv|fuv|x|sx|hx|g|par|gr|emf",  //Spectral type
     pur:"sol|neo|exo|as|sur|cmb|cxb|grb|seis|de|dm|tim|w",       //Special purpose
-    id:"copsar-id", 
+    id:"cospar-id", 
     url:"acr:url[;acr:url]..", 
     icon:"", 
     desc:"(see main)"}
@@ -426,6 +426,16 @@ ginga:{name:"Ginga", url:"hp:heasarc.nasa.gov/docs/ginga/ginga.html", desc:"ag:j
     {pt:"", dt:"1987-03-09", tp:"sco", loc:"ter:leo:509x673kmx31deg", desc:""},
     {pt:"", dt:"1991-11-01", tp:"ae", loc:"", desc:"eom"}
 ]},
+gecam:{name:"GECAM:Gravitational wave high-energy Electromagnetic Counterpart All-sky Monitor", url:"hp:", desc:"ag:cnsa;lv:CZ-11;m:149kgx2", stat:"pl", 
+  parts: [
+    {n:"", ctry:"cn", type:"x;g", pur:"", id:"", icon:"gecam.png"}
+  ], ev: [
+    {pt:"", dt:"2020", tp:"l", loc:"ter:jiu", desc:""},
+    {pt:"", dt:"", tp:"sco", loc:"ter:leo:550x600km29deg", desc:""},
+    {pt:"", dt:"2024", tp:"pom", loc:"", desc:""}
+  ], inst: [
+    {n:"", band:"6keV..5MeV", res:"1deg", p:"", ea:"500cm2@10keV", desc:"c:nvt;"}
+]},
 goes:{name:"GOES:Geostationary Operational Environmental Satellite", ctry:"us", url:"hp:goespoes.gsfc.nasa.gov/goes/index.html;swpc:swpc.noaa.gov/", desc:"ag:noaa;sc:0.7;x:-18;y:6", stat:"o", 
   parts: [
     {n:"GOES 13", id:"2006-018A", type:"x", pur:"sol;w", desc:"lv:Delta 4M+(4,2)", stat:"s", icon:"goes-nop.png"},
@@ -735,7 +745,7 @@ kepler:{name:"Kepler", url:"hp:kepler.nasa.gov/;tw:twitter.com/NASAKepler", desc
   ], inst: [
     {n:"", band:"423..897nm", d:"1.4", px:"10", tres:"59..1766s", fov:"16deg", desc:"c:n;cl:nl;"}
 ]},
-litebird:{name:"LiteBIRD:Lite satellite for the studies of B-mode polarization and Inflation from cosmic background Radiation Detection", url:"hp:litebird.jp/eng/", desc:"ag:jaxa,isas;lv:HIII;m:2600kg;sc:0.8", stat:"pl", 
+litebird:{name:"LiteBIRD:Lite satellite for the studies of B-mode polarization and Inflation from cosmic background Radiation Detection", url:"hp:litebird.jp/eng/", desc:"ag:jaxa,isas;lv:H-III;m:2600kg;sc:0.8", stat:"pl", 
   parts: [
     {n:"ライトバード", ctry:"jp", type:"mw", pur:"cmb", id:"", icon:"litebird.png", desc:""}
   ], ev: [

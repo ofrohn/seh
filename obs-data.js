@@ -661,7 +661,7 @@ SOBS.absorp =[
     {n:"",  ctry:"us|ru|eu|jp|cn|ind..", 
     type:"r|mw|nir|fir|ir|opt|uv|nuv|fuv|x|sx|hx|g|par|gr|emf",  //Spectral type
     pur:"sol|neo|exo|as|sur|cmb|cxb|grb|seis|de|dm|tim|w",       //Special purpose
-    id:"copsar-id", 
+    id:"cospar-id", 
     url:"acr:url[;acr:url]..", 
     icon:"", 
     desc:"(see main)"}
@@ -1084,6 +1084,16 @@ ginga:{name:"Ginga", url:"hp:heasarc.nasa.gov/docs/ginga/ginga.html", desc:"ag:j
     {pt:"", dt:"1987-03-09", tp:"sco", loc:"ter:leo:509x673kmx31deg", desc:""},
     {pt:"", dt:"1991-11-01", tp:"ae", loc:"", desc:"eom"}
 ]},
+gecam:{name:"GECAM:Gravitational wave high-energy Electromagnetic Counterpart All-sky Monitor", url:"hp:", desc:"ag:cnsa;lv:CZ-11;m:149kgx2", stat:"pl", 
+  parts: [
+    {n:"", ctry:"cn", type:"x;g", pur:"", id:"", icon:"gecam.png"}
+  ], ev: [
+    {pt:"", dt:"2020", tp:"l", loc:"ter:jiu", desc:""},
+    {pt:"", dt:"", tp:"sco", loc:"ter:leo:550x600km29deg", desc:""},
+    {pt:"", dt:"2024", tp:"pom", loc:"", desc:""}
+  ], inst: [
+    {n:"", band:"6keV..5MeV", res:"1deg", p:"", ea:"500cm2@10keV", desc:"c:nvt;"}
+]},
 goes:{name:"GOES:Geostationary Operational Environmental Satellite", ctry:"us", url:"hp:goespoes.gsfc.nasa.gov/goes/index.html;swpc:swpc.noaa.gov/", desc:"ag:noaa;sc:0.7;x:-18;y:6", stat:"o", 
   parts: [
     {n:"GOES 13", id:"2006-018A", type:"x", pur:"sol;w", desc:"lv:Delta 4M+(4,2)", stat:"s", icon:"goes-nop.png"},
@@ -1393,7 +1403,7 @@ kepler:{name:"Kepler", url:"hp:kepler.nasa.gov/;tw:twitter.com/NASAKepler", desc
   ], inst: [
     {n:"", band:"423..897nm", d:"1.4", px:"10", tres:"59..1766s", fov:"16deg", desc:"c:n;cl:nl;"}
 ]},
-litebird:{name:"LiteBIRD:Lite satellite for the studies of B-mode polarization and Inflation from cosmic background Radiation Detection", url:"hp:litebird.jp/eng/", desc:"ag:jaxa,isas;lv:HIII;m:2600kg;sc:0.8", stat:"pl", 
+litebird:{name:"LiteBIRD:Lite satellite for the studies of B-mode polarization and Inflation from cosmic background Radiation Detection", url:"hp:litebird.jp/eng/", desc:"ag:jaxa,isas;lv:H-III;m:2600kg;sc:0.8", stat:"pl", 
   parts: [
     {n:"ライトバード", ctry:"jp", type:"mw", pur:"cmb", id:"", icon:"litebird.png", desc:""}
   ], ev: [
@@ -2234,6 +2244,8 @@ cz-8
 "CZ-7": {n:"Long March 7", alt:"长征七号运载火箭", ctry:"cn", m:"597000", pm:"13500/5500/-", d:"53x3.35", pf:"12.7x4.2", dt:"2016..", st:"2/4", ust:"YZ-1A", th:"7200", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"cz-7.png"},
 //CZ-9
 "CZ-9": {n:"Long March 9", alt:"长征九号运载火箭", ctry:"cn", m:"4000000", pm:"140000/66000/50000", d:"93x10", pf:"", dt:"2028..", st:"3/4", ust:"", th:"52800", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"cz-9.png"},
+//CZ-11
+"CZ-11": {n:"Long March 11", alt:"长征十一号运载火箭", ctry:"cn", m:"58000", pm:"700/-/-", d:"20.8x2", pf:"", dt:"2015-09-25..", st:"4", ust:"", th:"1188", fam:"Long March", desc:"l:jiu;ag:cnsa", fuel:"SRP", icon:"cz-11.png"},
 //Delta E, Delta E1
 "Delta E": {ctry:"us", m:"68000", pm:"530/240/150",  d:"28x2.44", pf:"", dt:"1965-11-06..1971-04-01", st:"3/3", ust:"X-258/FW-4D", th:"1450", fam:"Thor/Delta", desc:"l:cap,van;ag:nasa", fuel:"KeroLOX+SRP", icon:"Delta-E.png"},
 "Delta E1": {syn:"Delta E"},
@@ -2290,10 +2302,10 @@ cz-8
 "H-IIA": {syn:"H-IIA 202"},
 "H-IIB": {ctry:"jp", m:"531000", pm:"19000/8000/4000",  d:"56.6x5.2", pf:"13x5.2", dt:"2009-09-10..", st:"2/4", th:"11200", fam:"H-II", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"H2B.png"},
 "H-III": {syn:"H-III 24L"},
-"H-III 30S": {ctry:"jp", m:"353000", pm:"3000/2100/",  d:"58x5.27", pf:"11x5.3", dt:"2022..", st:"2", th:"4416", fam:"H-III", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"h3-30s.png"},
-"H-III 22S": {ctry:"jp", m:"440000", pm:"5000/4000/",  d:"58x5.27", pf:"11x5.3", dt:"2020..", st:"2/2", th:"7260", fam:"H-III", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"h3-22s.png"},
-"H-III 32L": {ctry:"jp", m:"497000", pm:"/4200/",  d:"63x5.27", pf:"16x5.3", dt:"2022..", st:"2/2", th:"8732", fam:"H-III", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"h3-32l.png"},
-"H-III 24L": {ctry:"jp", m:"574000", pm:"/6500/",  d:"63x5.27", pf:"16x5.3", dt:"2021..", st:"2/4", th:"11576", fam:"H-III", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"h3-24l.png"},
+"H-III 30S": {ctry:"jp", m:"353000", pm:"3000/2100/-",  d:"58x5.27", pf:"11x5.3", dt:"2022..", st:"2", th:"4413", fam:"H-III", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"h3-30s.png"},
+"H-III 22S": {ctry:"jp", m:"440000", pm:"5000/4000/-",  d:"58x5.27", pf:"11x5.3", dt:"2020..", st:"2/2", th:"7260", fam:"H-III", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"h3-22s.png"},
+"H-III 32L": {ctry:"jp", m:"497000", pm:"-/4200/-",  d:"63x5.27", pf:"16x5.3", dt:"2022..", st:"2/2", th:"8732", fam:"H-III", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"h3-32l.png"},
+"H-III 24L": {ctry:"jp", m:"574000", pm:"-/6500/-",  d:"63x5.27", pf:"16x5.3", dt:"2021..", st:"2/4", th:"11576", fam:"H-III", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"h3-24l.png"},
 //Juno II
 "Juno II": {ctry:"us", m:"55300", pm:"50/-/6",  d:"23.4x2.67", pf:"", dt:"1958-12-06..1961-05-24", st:"4", th:"667", fam:"Jupiter", desc:"l:cap;ag:nasa", fuel:"KeroLOX+SRP", icon:"Juno-2.png"},
 //KSLV-II

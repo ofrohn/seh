@@ -3547,7 +3547,7 @@ change4: {name:"Chang'e 4", desc:"lv:CZ-3B/G3Z",
     {pt:"", type:"sco", dt:"2018-12-30", loc:"lun:100x15kmx90deg", desc:""},
     {pt:"", type:"td", dt:"2019-01-03", loc:"lun:45.471S,177.606E", desc:"Statio Tianhe, Von Karman crater, SPA;show:CE4:NW"},
     {pt:"", type:"sep", dt:"2019-01-03", loc:"lun", desc:"lp/rvp"}, 
-    {pt:"1", type:"ex", dt:"", loc:"lun", desc:"rvp;rv:358m"},    
+    {pt:"1", type:"ex", dt:"", loc:"lun", desc:"rvp;rv:400m"},    
     {pt:"1", type:"nom", dt:"2020-10", loc:"lun", desc:"rvp;?;eom:rvm"},
     {pt:"0", type:"nom", dt:"2021-12", loc:"lun", desc:"lp;?"}
 ]},
@@ -3772,7 +3772,7 @@ luna25: {name:"Luna 25", desc:"lv:Soyuz 2.1B/Fregat",
   parts:[
     {names:"Луна-Глоб посадочный;Luna Glob Lander:Lunar Sphere Lander", type:"slm", dest:"lun", stat:"pl", ctry:"ru", desc:"ag:rosc,iki;m:1750kg;m0:780kg;sc:0.45", id:"", url:"rsw:www.russianspaceweb.com/luna_glob.html", icon:"luna25.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2021", loc:"ter:bai", desc:""},
+    {pt:"", type:"l", dt:"2021-07", loc:"ter:bai", desc:""},
     {pt:"", type:"oi", dt:"l+4dy", loc:"lun:100x100kmx90deg", desc:""},
     {pt:"", type:"td", dt:"l+8dy", loc:"lun:69.545S,43.44E", desc:"Near South Pole, Hagecius Crater"},
     {pt:"", type:"nom", dt:"l+3mo", loc:"lun", desc:"?"},
@@ -6406,6 +6406,8 @@ cz-8
 "CZ-7": {n:"Long March 7", alt:"长征七号运载火箭", ctry:"cn", m:"597000", pm:"13500/5500/-", d:"53x3.35", pf:"12.7x4.2", dt:"2016..", st:"2/4", ust:"YZ-1A", th:"7200", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"cz-7.png"},
 //CZ-9
 "CZ-9": {n:"Long March 9", alt:"长征九号运载火箭", ctry:"cn", m:"4000000", pm:"140000/66000/50000", d:"93x10", pf:"", dt:"2028..", st:"3/4", ust:"", th:"52800", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"cz-9.png"},
+//CZ-11
+"CZ-11": {n:"Long March 11", alt:"长征十一号运载火箭", ctry:"cn", m:"58000", pm:"700/-/-", d:"20.8x2", pf:"", dt:"2015-09-25..", st:"4", ust:"", th:"1188", fam:"Long March", desc:"l:jiu;ag:cnsa", fuel:"SRP", icon:"cz-11.png"},
 //Delta E, Delta E1
 "Delta E": {ctry:"us", m:"68000", pm:"530/240/150",  d:"28x2.44", pf:"", dt:"1965-11-06..1971-04-01", st:"3/3", ust:"X-258/FW-4D", th:"1450", fam:"Thor/Delta", desc:"l:cap,van;ag:nasa", fuel:"KeroLOX+SRP", icon:"Delta-E.png"},
 "Delta E1": {syn:"Delta E"},
@@ -6462,10 +6464,10 @@ cz-8
 "H-IIA": {syn:"H-IIA 202"},
 "H-IIB": {ctry:"jp", m:"531000", pm:"19000/8000/4000",  d:"56.6x5.2", pf:"13x5.2", dt:"2009-09-10..", st:"2/4", th:"11200", fam:"H-II", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"H2B.png"},
 "H-III": {syn:"H-III 24L"},
-"H-III 30S": {ctry:"jp", m:"353000", pm:"3000/2100/",  d:"58x5.27", pf:"11x5.3", dt:"2022..", st:"2", th:"4416", fam:"H-III", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"h3-30s.png"},
-"H-III 22S": {ctry:"jp", m:"440000", pm:"5000/4000/",  d:"58x5.27", pf:"11x5.3", dt:"2020..", st:"2/2", th:"7260", fam:"H-III", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"h3-22s.png"},
-"H-III 32L": {ctry:"jp", m:"497000", pm:"/4200/",  d:"63x5.27", pf:"16x5.3", dt:"2022..", st:"2/2", th:"8732", fam:"H-III", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"h3-32l.png"},
-"H-III 24L": {ctry:"jp", m:"574000", pm:"/6500/",  d:"63x5.27", pf:"16x5.3", dt:"2021..", st:"2/4", th:"11576", fam:"H-III", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"h3-24l.png"},
+"H-III 30S": {ctry:"jp", m:"353000", pm:"3000/2100/-",  d:"58x5.27", pf:"11x5.3", dt:"2022..", st:"2", th:"4413", fam:"H-III", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"h3-30s.png"},
+"H-III 22S": {ctry:"jp", m:"440000", pm:"5000/4000/-",  d:"58x5.27", pf:"11x5.3", dt:"2020..", st:"2/2", th:"7260", fam:"H-III", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"h3-22s.png"},
+"H-III 32L": {ctry:"jp", m:"497000", pm:"-/4200/-",  d:"63x5.27", pf:"16x5.3", dt:"2022..", st:"2/2", th:"8732", fam:"H-III", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"h3-32l.png"},
+"H-III 24L": {ctry:"jp", m:"574000", pm:"-/6500/-",  d:"63x5.27", pf:"16x5.3", dt:"2021..", st:"2/4", th:"11576", fam:"H-III", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"h3-24l.png"},
 //Juno II
 "Juno II": {ctry:"us", m:"55300", pm:"50/-/6",  d:"23.4x2.67", pf:"", dt:"1958-12-06..1961-05-24", st:"4", th:"667", fam:"Jupiter", desc:"l:cap;ag:nasa", fuel:"KeroLOX+SRP", icon:"Juno-2.png"},
 //KSLV-II
@@ -6572,9 +6574,9 @@ sri: {name:"Sriharikota:Satish Dhawan Space Centre, Sriharikota", other:"सत�
 
 //alc: {name:"Alcântara:Alcântara Launch Center", other:"", ctry:"br", desig:"CLA:Centro de Lançamento de Alcântara", desc:"url:www.cla.aer.mil.br/index.php;loc:2.3730S,44.3964W;show:CLA;reg:Maranhão, Brazil;az:343..90;kml:zgUqCFI4a2eQ.kS2NlNk7_hfQ", map:"cla.png"},
 
-nar: {name:"Naro:Naro Space Center", other:"나로우주센터", ctry:"sk", desig:"NSC:Naro Space Center", desc:"url:http://www.kari.re.kr/eng.do;loc:34.4318N,127.5350E;show:NARO:W;reg:Kohung, Jeollanam-do;az:90..190;kml:12u04inPCpIFUtNWaYrlz__A7IwI", map:"naro.png"},
+nar: {name:"Naro:Naro Space Center", other:"나로우주센터", ctry:"sk", desig:"NSC:Naro Space Center", desc:"url:http://www.kari.re.kr/eng.do;loc:34.4318N,127.5350E;show:NARO:W;reg:Kohung, Jeollanam-do;az:90..190;kml:12u04inPCpIFUtNWaYrlz__A7IwI", map:"naro.png"}
 
-mah: {name:"Mahia:Mahia Launch Complex", other:"", ctry:"nz", desig:"RLLC1:Rocket Lab Launch Complex 1", desc:"url:http://www.kari.re.kr/eng.do;loc:39.2615S,177.8649E;show:RLLC1:W;reg:Hawke's Bay, North Island;az:90..225;kml:159O6gE8h_4jgMo6HTvirp-1o_vnPMirL", map:"mahia.png"}
+//mah: {name:"Mahia:Mahia Launch Complex", other:"", ctry:"nz", desig:"RLLC1:Rocket Lab Launch Complex 1", desc:"url:http://www.kari.re.kr/eng.do;loc:39.2615S,177.8649E;show:RLLC1:W;reg:Hawke's Bay, North Island;az:90..225;kml:159O6gE8h_4jgMo6HTvirp-1o_vnPMirL", map:"mahia.png"}
 };
 
 Common.lpad = [
@@ -6612,8 +6614,6 @@ Common.lpad = [
 {n:"LC-41", par:"cap", lv:"Titan;Atlas V", loc:"28.583N,80.583W"},
 {n:"LC-43/3", par:"ple", lv:"R-7;Molniya;Soyuz", loc:"62.927N,40.450E"},
 {n:"LC-43/4", par:"ple", lv:"R-7;Molniya;Soyuz", loc:"62.929N,40.457E"},
-{n:"LC43/921", par:"jiu", lv:"CZ-2F", loc:"40.958N,100.291E"},
-{n:"LC43/603", par:"jiu", lv:"CZ-2C/D;CZ-4C", loc:"40.960N,100.298E"},
 {n:"LC-45/1", par:"bai", lv:"Zenit;Soyuz-5", loc:"45.943N,63.653E"},
 {n:"LC-46", par:"cap", lv:"Athena 2", loc:"28.459N,80.528W"},
 {n:"LC-81/23", par:"bai", lv:"Proton-K", loc:"46.074N,62.978E"},
@@ -6651,6 +6651,8 @@ Common.lpad = [
 {n:"SLC-40", par:"cap", syn:"LC-40"},
 {n:"SLC-41", par:"cap", syn:"LC-41"},
 {n:"SLP", par:"sri", lv:"PSLV;GSLV", loc:"13.720N,80.230E"},
+{n:"SLS-1", par:"jiu", lv:"CZ-2F", loc:"40.958N,100.291E"},
+{n:"SLS-2", par:"jiu", lv:"CZ-2C/D;CZ-4C;CZ-11", loc:"40.960N,100.298E"},
 //{n:"VLS", par:"alc", lv:"VLS", loc:"2.3177S,44.3678W"},
 {n:"YLP-1", par:"tng", lv:"H-IIA;H-III", loc:"30.401N,130.977E"},
 {n:"YLP-2", par:"tng", lv:"H-IIB;H-III", loc:"30.401N, 130.975E"},

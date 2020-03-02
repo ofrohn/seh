@@ -63,6 +63,8 @@ cz-8
 "CZ-7": {n:"Long March 7", alt:"长征七号运载火箭", ctry:"cn", m:"597000", pm:"13500/5500/-", d:"53x3.35", pf:"12.7x4.2", dt:"2016..", st:"2/4", ust:"YZ-1A", th:"7200", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"cz-7.png"},
 //CZ-9
 "CZ-9": {n:"Long March 9", alt:"长征九号运载火箭", ctry:"cn", m:"4000000", pm:"140000/66000/50000", d:"93x10", pf:"", dt:"2028..", st:"3/4", ust:"", th:"52800", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"cz-9.png"},
+//CZ-11
+"CZ-11": {n:"Long March 11", alt:"长征十一号运载火箭", ctry:"cn", m:"58000", pm:"700/-/-", d:"20.8x2", pf:"", dt:"2015-09-25..", st:"4", ust:"", th:"1188", fam:"Long March", desc:"l:jiu;ag:cnsa", fuel:"SRP", icon:"cz-11.png"},
 //Delta E, Delta E1
 "Delta E": {ctry:"us", m:"68000", pm:"530/240/150",  d:"28x2.44", pf:"", dt:"1965-11-06..1971-04-01", st:"3/3", ust:"X-258/FW-4D", th:"1450", fam:"Thor/Delta", desc:"l:cap,van;ag:nasa", fuel:"KeroLOX+SRP", icon:"Delta-E.png"},
 "Delta E1": {syn:"Delta E"},
@@ -119,10 +121,10 @@ cz-8
 "H-IIA": {syn:"H-IIA 202"},
 "H-IIB": {ctry:"jp", m:"531000", pm:"19000/8000/4000",  d:"56.6x5.2", pf:"13x5.2", dt:"2009-09-10..", st:"2/4", th:"11200", fam:"H-II", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"H2B.png"},
 "H-III": {syn:"H-III 24L"},
-"H-III 30S": {ctry:"jp", m:"353000", pm:"3000/2100/",  d:"58x5.27", pf:"11x5.3", dt:"2022..", st:"2", th:"4416", fam:"H-III", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"h3-30s.png"},
-"H-III 22S": {ctry:"jp", m:"440000", pm:"5000/4000/",  d:"58x5.27", pf:"11x5.3", dt:"2020..", st:"2/2", th:"7260", fam:"H-III", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"h3-22s.png"},
-"H-III 32L": {ctry:"jp", m:"497000", pm:"/4200/",  d:"63x5.27", pf:"16x5.3", dt:"2022..", st:"2/2", th:"8732", fam:"H-III", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"h3-32l.png"},
-"H-III 24L": {ctry:"jp", m:"574000", pm:"/6500/",  d:"63x5.27", pf:"16x5.3", dt:"2021..", st:"2/4", th:"11576", fam:"H-III", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"h3-24l.png"},
+"H-III 30S": {ctry:"jp", m:"353000", pm:"3000/2100/-",  d:"58x5.27", pf:"11x5.3", dt:"2022..", st:"2", th:"4413", fam:"H-III", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"h3-30s.png"},
+"H-III 22S": {ctry:"jp", m:"440000", pm:"5000/4000/-",  d:"58x5.27", pf:"11x5.3", dt:"2020..", st:"2/2", th:"7260", fam:"H-III", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"h3-22s.png"},
+"H-III 32L": {ctry:"jp", m:"497000", pm:"-/4200/-",  d:"63x5.27", pf:"16x5.3", dt:"2022..", st:"2/2", th:"8732", fam:"H-III", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"h3-32l.png"},
+"H-III 24L": {ctry:"jp", m:"574000", pm:"-/6500/-",  d:"63x5.27", pf:"16x5.3", dt:"2021..", st:"2/4", th:"11576", fam:"H-III", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"h3-24l.png"},
 //Juno II
 "Juno II": {ctry:"us", m:"55300", pm:"50/-/6",  d:"23.4x2.67", pf:"", dt:"1958-12-06..1961-05-24", st:"4", th:"667", fam:"Jupiter", desc:"l:cap;ag:nasa", fuel:"KeroLOX+SRP", icon:"Juno-2.png"},
 //KSLV-II
