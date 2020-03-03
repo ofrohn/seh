@@ -1245,7 +1245,7 @@ hxmt:{name:"Huì​yǎn:Insight", url:"hp:www.hxmt.org/;uk:www.integral.soton.ac
   parts: [
     {n:"HXMT:Hard X-ray Modulation Telescope", ctry:"cn", type:"hx", pur:"sur", id:"2017-034A", icon:"hxmt.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2017-06-15", tp:"l", loc:"ter:jiu:LC43/603", desc:""},
+    {pt:"", dt:"2017-06-15", tp:"l", loc:"ter:jiu:SLS-2", desc:""},
     {pt:"", dt:"2017-06-15", tp:"sco", loc:"leo:534x546kmx43deg", desc:""},
     {pt:"", dt:"2021", tp:"nom", loc:"leo", desc:""}
   ], inst: [
@@ -2026,7 +2026,7 @@ wukong:{name:"Wukong:Monkey King", url:"hp:dpnc.unige.ch/dampe/index.html", desc
   parts: [
     {n:"DAMPE:DArk Matter Particle Explorer", ctry:"cn", type:"par;g", pur:"dm;cr", id:"2015-78A", icon:"dampe.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2015-12-17", tp:"l", loc:"ter:jiu:LC43/603", desc:""},
+    {pt:"", dt:"2015-12-17", tp:"l", loc:"ter:jiu:SLS-2", desc:""},
     {pt:"", dt:"2015-12-17", tp:"sco", loc:"ter:sseo:500x500kmx97.4deg", desc:""},
     {pt:"", dt:"2020-12-31", tp:"nom", loc:"ter:sseo", desc:""}
   ], inst: [
