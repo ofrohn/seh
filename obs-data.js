@@ -1084,7 +1084,7 @@ ginga:{name:"Ginga", url:"hp:heasarc.nasa.gov/docs/ginga/ginga.html", desc:"ag:j
     {pt:"", dt:"1987-03-09", tp:"sco", loc:"ter:leo:509x673kmx31deg", desc:""},
     {pt:"", dt:"1991-11-01", tp:"ae", loc:"", desc:"eom"}
 ]},
-gecam:{name:"GECAM:Gravitational wave high-energy Electromagnetic Counterpart All-sky Monitor", url:"hp:", desc:"ag:cnsa;lv:CZ-11;m:149kgx2", stat:"pl", 
+gecam:{name:"GECAM:Gravitational wave high-energy Electromagnetic Counterpart All-sky Monitor", url:"hp:", desc:"ag:cnsa;lv:CZ-11;m:149kgx2;y:16;sc:1.2", stat:"pl", 
   parts: [
     {n:"", ctry:"cn", type:"x;g", pur:"", id:"", icon:"gecam.png"}
   ], ev: [
