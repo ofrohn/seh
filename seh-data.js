@@ -3639,9 +3639,9 @@ exomarsrv: {name:"ExoMars 2020", desc:"lv:Proton-M/Briz-M;m:2900kg",
     {pt:"", type:"nom", dt:"2021-09", loc:"mar", desc:"?"},
     {pt:"", type:"pom", dt:"2027", loc:"mar", desc:"?"}
 ]},
-mars2020rover: {name:"Mars 2020 Rover", desc:"lv:Atlas V 551",
+mars2020rover: {name:"Perseverance", desc:"lv:Atlas V 541",
   parts:[
-    {names:"", type:"rvm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;m:1050kg;dim:3.0x2.7x2.2m;sc:0.5;Sample Caching Mission", id:"", url:"hp:www.nasa.gov/mars2020", icon:"mars2020.png"},
+    {names:"Mars 2020 Rover", type:"rvm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;m:1050kg;dim:3.0x2.7x2.2m;sc:0.5;Sample Caching Mission", id:"", url:"hp:www.nasa.gov/mars2020;tw:twitter.com/NASAPersevere", icon:"mars2020.png"},
     {names:"MHS:Mars Helicopter Scout", type:"dm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;m:1.8kg;dim:;sc:0.7;", id:"", url:"", icon:"marshelo.png"}], 
   events:[
     {pt:"", type:"l", dt:"2020-07-17", loc:"ter:cap:SLC-41", desc:""},
@@ -3820,7 +3820,7 @@ slim:{name:"SLIM:Smart Lander for Investigating Moon", desc:"lv:H-IIA 202", stat
     {pt:"", type:"td", dt:"l+1mo", loc:"lun:13.3S,25.2E", desc:"Mare Nectaris"},
     {pt:"", type:"nom", dt:"l+1.1mo", loc:"lun", desc:"?"}
 ]},
-peregrine: {name:"Peregrine", desc:"lv:Vulcan",
+peregrine: {name:"Peregrine", desc:"lv:Vulcan Centaur-522",
   parts:[
     {names:"M1:Mission 1", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Astrobotic;fam:clps;dim:1.9x1.9x2.5m;m:1313kg;sc:0.3", id:"", url:"hp:www.astrobotic.com/peregrine;clps:nasa.gov/content/commercial-lunar-payload-services", icon:"peregrin.png"}], 
   events:[
@@ -3879,11 +3879,11 @@ juice: {name:"JUICE:JUpiter ICy moons Explorer", desc:"lv:Ariane 5ECA",
     {pt:"0", type:"sco", dt:"2033-01", loc:"gany:500km", desc:""},
     {pt:"1", type:"nom", dt:"2033-09", loc:"jup", desc:"?"}    
 ]},
-psyche: {name:"Psyche", desc:"",
+psyche: {name:"Psyche", desc:"lv:Falcon Heavy",
   parts:[
     {names:"", type:"om", dest:"ast", stat:"pl", ctry:"us", desc:"ag:nasa,jpl,asu;fam:discovery;sc:0.9;m0:1300kg", id:"", url:"hp:psyche.asu.edu/;jpl:jpl.nasa.gov/missions/psyche/;tw:twitter.com/NASAPsyche", icon:"psyche.png"}
   ], events:[
-    {pt:"", type:"l", dt:"2022-08", loc:"ter:cap", desc:""},
+    {pt:"", type:"l", dt:"2022-08", loc:"ter:cap:LC-39A", desc:""},
     {pt:"", type:"oi", dt:"2022-08", loc:"sol:ho", desc:""},
     //{pt:"", type:"fb", dt:"2024", loc:"ter", desc:"ga"},
     {pt:"", type:"fb", dt:"2023-05", loc:"mar", desc:"ga"},
@@ -4257,8 +4257,8 @@ hygi:
 psyc:
   {name:"Psyche", other:"", desig:"16", type:"a", par:"sol", disc:"A. de Gasparis", dyr:"1852",
    a:"2.923au", e:"0.136", i:"3.099", per:"5.0a", rot:"4.196h", gr:"mba",
-   h:"5.9", mass:"2.27e19kg", dia:"240x185x145km", rad:"93", tilt:"95",
-   alb:"0.12", grav:"0.011", comp:"Metal+poro:15", dens:"6.98", spec:"M", temp:"160..280K",
+   h:"5.9", mass:"2.41e19kg", dia:"279x232x189km", rad:"112.5", tilt:"95",
+   alb:"0.15", grav:"0.011", comp:"Metal+poro:15", dens:"3.99", spec:"M", temp:"160..280K",
    img:"psyche.png", desc:"sc:6;url:solarsystem.nasa.gov/small-bodies/asteroids/16-psyche/in-depth/;orb:ec.2017-02-16"},
 lute:
   {name:"Lutetia", other:"", desig:"21", type:"a", par:"sol", disc:"H.M.S. Goldschmidt", dyr:"1852",
@@ -6538,9 +6538,12 @@ cz-8
 //Vostok-L 8K72
 "Vostok-L 8K72": {alt:"Восток-Л", ctry:"su", m:"279100", pm:"4000/-/400",  d:"33.5x2.95", pf:"", dt:"1958-09-23..1960-04-16", st:"1/4", ust:"Blok-E", th:"3998", fam:"R-7", desc:"l:bai;ag:okb", fuel:"KeroLOX", icon:"Luna.png"},
 // Vulcan
-"Vulcan": {syn:"Vulcan-Centaur"},
-"Vulcan-Centaur": {ctry:"us", m:"546700", pm:"30300/15000/11000",  d:"67.3x5.4", pf:"16-23x5.4", dt:"2021-07..", st:"2/0-6", ust:"Centaur V", th:"18110", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"LCH4/LOX+SRP",  icon:"Vulcan1.png"},
-"Vulcan-Centaur Heavy": {ctry:"us", m:"560000", pm:"34900/16300/13000",  d:"69.2x5.4", pf:"23x5.4", dt:"2021..", st:"2/6", ust:"Centaur V", th:"18110", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"LCH4/LOX+SRP",  icon:"Vulcan1.png"},
+"Vulcan": {syn:"Vulcan Centaur-522"},
+"Vulcan Centaur-502": {ctry:"us", m:"226300", pm:"10600/2900/2300",  d:"67.3x5.4", pf:"15.5-21.3x5.4", dt:"2022..", st:"2", ust:"Centaur-5", th:"4900", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"LCH4/LOX+SRP",  icon:"Vulcan502.png"},
+"Vulcan Centaur-522": {ctry:"us", m:"333100", pm:"18500/7600/6300",  d:"67.3x5.4", pf:"15.5-21.3x5.4", dt:"2022..", st:"2/2", ust:"Centaur-5", th:"9300", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"LCH4/LOX+SRP",  icon:"Vulcan522.png"},
+"Vulcan Centaur-542": {ctry:"us", m:"439900", pm:"23900/10800/9000",  d:"67.3x5.4", pf:"15.5-21.3x5.4", dt:"2021-07..", st:"2/4", ust:"Centaur-5", th:"13700", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"LCH4/LOX+SRP",  icon:"Vulcan542.png"},
+"Vulcan Centaur-562": {ctry:"us", m:"546700", pm:"27200/13600/11300",  d:"67.3x5.4", pf:"15.5-21.3x5.4", dt:"2022..", st:"2/6", ust:"Centaur-5", th:"18110", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"LCH4/LOX+SRP",  icon:"Vulcan562.png"},
+"Vulcan Centaur Heavy": {ctry:"us", m:"560000", pm:"27200/14400/12100",  d:"69.2x5.4", pf:"21.3x5.4", dt:"2021..", st:"2/6", ust:"Centaur-5 Long", th:"18110", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"LCH4/LOX+SRP",  icon:"Vulcan562.png"},
 //Zenit 2SB
 "Zenit 2SB": {alt:"Зенит-2SLБ", ctry:"ru", m:"459000", pm:"13500/5200/2000",  d:"57x3.9", pf:"", dt:"2007-06-29..", st:"2", ust:"Fregat-SB", th:"7259", fam:"Zenit", desc:"l:bai", fuel:"KeroLOX", icon:"Zenit-2.png"},
 "Zenit 2M": {syn:"Zenit 2SB"}

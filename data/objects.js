@@ -143,8 +143,8 @@ hygi:
 psyc:
   {name:"Psyche", other:"", desig:"16", type:"a", par:"sol", disc:"A. de Gasparis", dyr:"1852",
    a:"2.923au", e:"0.136", i:"3.099", per:"5.0a", rot:"4.196h", gr:"mba",
-   h:"5.9", mass:"2.27e19kg", dia:"240x185x145km", rad:"93", tilt:"95",
-   alb:"0.12", grav:"0.011", comp:"Metal+poro:15", dens:"6.98", spec:"M", temp:"160..280K",
+   h:"5.9", mass:"2.41e19kg", dia:"279x232x189km", rad:"112.5", tilt:"95",
+   alb:"0.15", grav:"0.011", comp:"Metal+poro:15", dens:"3.99", spec:"M", temp:"160..280K",
    img:"psyche.png", desc:"sc:6;url:solarsystem.nasa.gov/small-bodies/asteroids/16-psyche/in-depth/;orb:ec.2017-02-16"},
 lute:
   {name:"Lutetia", other:"", desig:"21", type:"a", par:"sol", disc:"H.M.S. Goldschmidt", dyr:"1852",

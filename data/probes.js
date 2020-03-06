@@ -2987,9 +2987,9 @@ exomarsrv: {name:"ExoMars 2020", desc:"lv:Proton-M/Briz-M;m:2900kg",
     {pt:"", type:"nom", dt:"2021-09", loc:"mar", desc:"?"},
     {pt:"", type:"pom", dt:"2027", loc:"mar", desc:"?"}
 ]},
-mars2020rover: {name:"Mars 2020 Rover", desc:"lv:Atlas V 551",
+mars2020rover: {name:"Perseverance", desc:"lv:Atlas V 541",
   parts:[
-    {names:"", type:"rvm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;m:1050kg;dim:3.0x2.7x2.2m;sc:0.5;Sample Caching Mission", id:"", url:"hp:www.nasa.gov/mars2020", icon:"mars2020.png"},
+    {names:"Mars 2020 Rover", type:"rvm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;m:1050kg;dim:3.0x2.7x2.2m;sc:0.5;Sample Caching Mission", id:"", url:"hp:www.nasa.gov/mars2020;tw:twitter.com/NASAPersevere", icon:"mars2020.png"},
     {names:"MHS:Mars Helicopter Scout", type:"dm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;m:1.8kg;dim:;sc:0.7;", id:"", url:"", icon:"marshelo.png"}], 
   events:[
     {pt:"", type:"l", dt:"2020-07-17", loc:"ter:cap:SLC-41", desc:""},
@@ -3168,7 +3168,7 @@ slim:{name:"SLIM:Smart Lander for Investigating Moon", desc:"lv:H-IIA 202", stat
     {pt:"", type:"td", dt:"l+1mo", loc:"lun:13.3S,25.2E", desc:"Mare Nectaris"},
     {pt:"", type:"nom", dt:"l+1.1mo", loc:"lun", desc:"?"}
 ]},
-peregrine: {name:"Peregrine", desc:"lv:Vulcan",
+peregrine: {name:"Peregrine", desc:"lv:Vulcan Centaur-522",
   parts:[
     {names:"M1:Mission 1", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Astrobotic;fam:clps;dim:1.9x1.9x2.5m;m:1313kg;sc:0.3", id:"", url:"hp:www.astrobotic.com/peregrine;clps:nasa.gov/content/commercial-lunar-payload-services", icon:"peregrin.png"}], 
   events:[
@@ -3227,11 +3227,11 @@ juice: {name:"JUICE:JUpiter ICy moons Explorer", desc:"lv:Ariane 5ECA",
     {pt:"0", type:"sco", dt:"2033-01", loc:"gany:500km", desc:""},
     {pt:"1", type:"nom", dt:"2033-09", loc:"jup", desc:"?"}    
 ]},
-psyche: {name:"Psyche", desc:"",
+psyche: {name:"Psyche", desc:"lv:Falcon Heavy",
   parts:[
     {names:"", type:"om", dest:"ast", stat:"pl", ctry:"us", desc:"ag:nasa,jpl,asu;fam:discovery;sc:0.9;m0:1300kg", id:"", url:"hp:psyche.asu.edu/;jpl:jpl.nasa.gov/missions/psyche/;tw:twitter.com/NASAPsyche", icon:"psyche.png"}
   ], events:[
-    {pt:"", type:"l", dt:"2022-08", loc:"ter:cap", desc:""},
+    {pt:"", type:"l", dt:"2022-08", loc:"ter:cap:LC-39A", desc:""},
     {pt:"", type:"oi", dt:"2022-08", loc:"sol:ho", desc:""},
     //{pt:"", type:"fb", dt:"2024", loc:"ter", desc:"ga"},
     {pt:"", type:"fb", dt:"2023-05", loc:"mar", desc:"ga"},

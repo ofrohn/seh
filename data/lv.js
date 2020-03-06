@@ -195,9 +195,12 @@ cz-8
 //Vostok-L 8K72
 "Vostok-L 8K72": {alt:"Восток-Л", ctry:"su", m:"279100", pm:"4000/-/400",  d:"33.5x2.95", pf:"", dt:"1958-09-23..1960-04-16", st:"1/4", ust:"Blok-E", th:"3998", fam:"R-7", desc:"l:bai;ag:okb", fuel:"KeroLOX", icon:"Luna.png"},
 // Vulcan
-"Vulcan": {syn:"Vulcan-Centaur"},
-"Vulcan-Centaur": {ctry:"us", m:"546700", pm:"30300/15000/11000",  d:"67.3x5.4", pf:"16-23x5.4", dt:"2021-07..", st:"2/0-6", ust:"Centaur V", th:"18110", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"LCH4/LOX+SRP",  icon:"Vulcan1.png"},
-"Vulcan-Centaur Heavy": {ctry:"us", m:"560000", pm:"34900/16300/13000",  d:"69.2x5.4", pf:"23x5.4", dt:"2021..", st:"2/6", ust:"Centaur V", th:"18110", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"LCH4/LOX+SRP",  icon:"Vulcan1.png"},
+"Vulcan": {syn:"Vulcan Centaur-522"},
+"Vulcan Centaur-502": {ctry:"us", m:"226300", pm:"10600/2900/2300",  d:"67.3x5.4", pf:"15.5-21.3x5.4", dt:"2022..", st:"2", ust:"Centaur-5", th:"4900", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"LCH4/LOX+SRP",  icon:"Vulcan502.png"},
+"Vulcan Centaur-522": {ctry:"us", m:"333100", pm:"18500/7600/6300",  d:"67.3x5.4", pf:"15.5-21.3x5.4", dt:"2022..", st:"2/2", ust:"Centaur-5", th:"9300", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"LCH4/LOX+SRP",  icon:"Vulcan522.png"},
+"Vulcan Centaur-542": {ctry:"us", m:"439900", pm:"23900/10800/9000",  d:"67.3x5.4", pf:"15.5-21.3x5.4", dt:"2021-07..", st:"2/4", ust:"Centaur-5", th:"13700", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"LCH4/LOX+SRP",  icon:"Vulcan542.png"},
+"Vulcan Centaur-562": {ctry:"us", m:"546700", pm:"27200/13600/11300",  d:"67.3x5.4", pf:"15.5-21.3x5.4", dt:"2022..", st:"2/6", ust:"Centaur-5", th:"18110", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"LCH4/LOX+SRP",  icon:"Vulcan562.png"},
+"Vulcan Centaur Heavy": {ctry:"us", m:"560000", pm:"27200/14400/12100",  d:"69.2x5.4", pf:"21.3x5.4", dt:"2021..", st:"2/6", ust:"Centaur-5 Long", th:"18110", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"LCH4/LOX+SRP",  icon:"Vulcan562.png"},
 //Zenit 2SB
 "Zenit 2SB": {alt:"Зенит-2SLБ", ctry:"ru", m:"459000", pm:"13500/5200/2000",  d:"57x3.9", pf:"", dt:"2007-06-29..", st:"2", ust:"Fregat-SB", th:"7259", fam:"Zenit", desc:"l:bai", fuel:"KeroLOX", icon:"Zenit-2.png"},
 "Zenit 2M": {syn:"Zenit 2SB"}
