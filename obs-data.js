@@ -2130,10 +2130,10 @@ sofia: {name:"SOFIA:Stratospheric Observatory for Infrared Astronomy", url:"www.
     {tp:"sp", n:"FIFI-LS blue:Far Infrared Field-Imaging Line Spectrometer", band:"51..120um", d:2.5, px:6, fov:"0.5'", desc:"c:;cl:x;col:#eee"},
     {tp:"im", n:"FLITECAM: First Light Infrared TEst CAMera", band:"115..203um", d:2.5, px:12, fov:"1'", sres:"500..2000", desc:"c:;cl:nl;col:#eee"},
     {tp:"sp", n:"FIFI-LS:Far Infrared Field-Imaging Line Spectrometer", band:"1..5.5um", d:2.5, px:0.475, fov:"8'", det:"1024x1024px", desc:"c:;cl:x;col:#eee"},
-    {tp:"im", n:"FORCAST:Faint Object infraRed CAmera for the SOFIA Telescope", band:"5..40um", d:2.5, px:0.768, fov:"3.4x3.2'", desc:"c:nv;cl:x;col:#eee"},
+    {tp:"im", n:"FORCAST:Faint Object infraRed CAmera for the SOFIA Telescope", band:"5..40um", d:2.5, px:0.768, fov:"3.4x3.2'", desc:"c:;cl:x;col:#eee"},
     {tp:"im", n:"FPI+:Focal Plane Imager", band:"360..1100nm", d:2.5, px:0.51, fov:"8.7x8.7'", desc:"c:;cl:x;col:#eee"},
     {tp:"sp", n:" GREAT:German REceiver for Astronomy at Terahertz Frequencies", band:"60..220um", d:2.5, px:14.1, sres:"44kHz", det:"1024x1024px", desc:"c:;cl:x;col:#eee"},
-    {tp:"is", n:"HAWC+:High-resolution Airborne Wideband Camera-plus", band:"40..300um", d:2.5, res:"20..5", sres:"", fov:"2..8''", desc:"c:;cl:x;col:#eee"}
+    {tp:"is", n:"HAWC+:High-resolution Airborne Wideband Camera-plus", band:"40..300um", d:2.5, px:8.9, res:"5..20", sres:"", fov:"2..8'", desc:"c:nl;cl:x;col:#eee"}
     //{n:"", band:"1.6mm..10um", d:2.5, px:2.3, desc:"c:nb;cl:nl;col:#eee"},
     //{n:"", band:"10um..900nm", res:"2.5..5.5", desc:"c:b;col:#eee"}
 ]},
