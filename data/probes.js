@@ -2976,16 +2976,16 @@ kplo: {name:"KPLO:Korean Pathfinder Lunar Orbiter", desc:"lv:Falcon 9",
     {pt:"", type:"oi", dt:"l+1mo", loc:"lun:100kmx90deg", desc:""},
     {pt:"", type:"nom", dt:"l+1yr", loc:"lun", desc:"?"}
 ]},
-exomarsrv: {name:"ExoMars 2020", desc:"lv:Proton-M/Briz-M;m:2900kg",
+exomarsrv: {name:"ExoMars 2022", desc:"lv:Proton-M/Briz-M;m:2900kg",
   parts:[
     {names:"Rosalind Franklin", type:"rvm", dest:"mar", stat:"pl", ctry:"eu", desc:"ag:esa;m:345kg;dim:2.0x1.5x1.7m;fam:exom;sc:0.4", id:"", url:"hp:exploration.esa.int/mars/48088-mission-overview/;tw:twitter.com/ESA_Exomars", icon:"exomars-rv.png"},
 {names:"Kazachok Surface Platform;DM:Descent Module", type:"slm", dest:"mar", stat:"pl", ctry:"eu;ru", desc:"ag:rosc,esa;m:2000kg", id:"", url:"rsw:www.russianspaceweb.com/exomars2018.html", icon:"exomars-dm.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2020-07-24", loc:"ter:bai:LC-200/39", desc:""},
+    {pt:"", type:"l", dt:"2022-08", loc:"ter:bai:LC-200/39", desc:""},
     {pt:"", type:"toi", dt:"l+1dy", loc:"sol:hto", desc:""},
-    {pt:"", type:"edl", dt:"2021-03", loc:"mar:18.20N,335.45E", desc:"Oxia Planum;show:ExoMars:SE"},
-    {pt:"", type:"nom", dt:"2021-09", loc:"mar", desc:"?"},
-    {pt:"", type:"pom", dt:"2027", loc:"mar", desc:"?"}
+    {pt:"", type:"edl", dt:"2023-04", loc:"mar:18.20N,335.45E", desc:"Oxia Planum;show:ExoMars:SE"},
+    {pt:"", type:"nom", dt:"2023-10", loc:"mar", desc:"?"},
+    {pt:"", type:"pom", dt:"2029", loc:"mar", desc:"?"}
 ]},
 mars2020rover: {name:"Perseverance", desc:"lv:Atlas V 541",
   parts:[
@@ -3203,8 +3203,8 @@ mom2: {name:"MOM-2:Mars Observation Mission 2", desc:"lv:GSLV MkIII",
     {names:"", type:"slm", dest:"mar", stat:"pl", ctry:"ind", desc:"ag:isro;m:", icon:""},
     {names:"", type:"rvm", dest:"mar", stat:"pl", ctry:"ind", desc:"ag:isro;m:", icon:""}], 
   events:[
-    {pt:"", type:"l", dt:"2022", loc:"ter:sri", desc:""},
-    {pt:"", type:"toi", dt:"2022", loc:"sol:hto", desc:""},
+    {pt:"", type:"l", dt:"2022-08", loc:"ter:sri", desc:""},
+    {pt:"", type:"toi", dt:"2022-08", loc:"sol:hto", desc:""},
     {pt:"", type:"oi", dt:"l+7mo", loc:"mar:200x2000km", desc:""},
     {pt:"", type:"nom", dt:"l+2yr", loc:"mar", desc:"?"},
     {pt:"", type:"pom", dt:"l+4yr", loc:"mar", desc:"?"}    
