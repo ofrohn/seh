@@ -3913,7 +3913,7 @@ zhenghe: {name:"Zheng He", desc:"lv:CZ-3B",
 ]},
 viper: {name:"VIPER:Volatiles Investigating Polar Exploration Rover", desc:"lv:TBA",
   parts:[
-    {names:"", type:"rvm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,ames,jsc;fam:CLPS;sc:0.25", id:"", url:"www.nasa.gov/feature/new-viper-lunar-rover-to-map-water-ice-on-the-moon", icon:"viper.png"}], 
+    {names:"", type:"rvm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,ames,jsc;m:400kg;dim:1.5x1.5x2m;fam:CLPS;sc:0.25", id:"", url:"www.nasa.gov/feature/new-viper-lunar-rover-to-map-water-ice-on-the-moon", icon:"viper.png"}], 
   events:[
     {pt:"", type:"l", dt:"2022-12", loc:"ter:cap", desc:""},
     {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:"South pole"},
