@@ -1,6 +1,6 @@
 var SSEH = SSEH || {
   TITLE: "Solar System Exploration History",
-  VERSION: "1.6.26",
+  VERSION: "1.6.27",
   DATE: "2020-02 ",
   AUTHOR: "Olaf Frohn",
   CLICK: "Click on anything for more details",
@@ -6388,7 +6388,7 @@ cz-8
 "Atlas V 541": {ctry:"us", m:"522330", pm:"17410/8290/6300",  d:"62.2x3.81", pf:"20.7-23.5x5.4", dt:"2011-11-26..", st:"2/4", ust:"", th:"9232", fam:"Atlas", desc:"l:cap;van;ag:nasa", fuel:"KeroLOX+SRP",  icon:"Atlas-V500.png"},
 "Atlas V 551": {ctry:"us", m:"568590", pm:"18850/8900/6700",  d:"62.2x3.81", pf:"20.7-23.5x5.4", dt:"2006-01-19..", st:"2/5", ust:"Star-48B", th:"10502", fam:"Atlas", desc:"l:cap;van;ag:nasa", fuel:"KeroLOX+SRP",  icon:"Atlas-V500.png"},
 //BFR
-"BFR": {n:"Big Falcon Rocket", ctry:"us", m:"5000000", pm:"150000",  d:"118x9", pf:"", dt:"2020", st:"2", ust:"", th:"62900", fam:"Falcon", desc:"l:ksc,boc;ag:SpX", fuel:"LCH4/LOX", icon:"bfr.png"},
+"Starship": {n:"Starship", ctry:"us", m:"5000000", pm:"150000",  d:"118x9", pf:"", dt:"2020", st:"2", ust:"", th:"62900", fam:"", desc:"l:ksc,boc;ag:SpX", fuel:"LCH4/LOX", icon:"bfr.png"},
 //CZ-2C
 "CZ-2C": {n:"Long March 2C", alt:"长征二号丙", ctry:"cn", m:"245000", pm:"3850/1250/500",  d:"43.0x3.35", pf:"x3.35", dt:"1975-11-26..", st:"2", ust:"SM/SMA", th:"2962", fam:"Long March", desc:"l:xch,jiu,tai;ag:cnsa", fuel:"UDMH/N2O4", icon:"CZ-2C.png"},
 //CZ-3A, CZ-3B, CZ-3C
@@ -6402,8 +6402,11 @@ cz-8
 //CZ-5
 "CZ-5": {n:"Long March 5", alt:"长征五号运载火箭", ctry:"cn", m:"867000", pm:"25000/13000/8000",  d:"57x5", pf:"12x5.2", dt:"2016..", st:"2/4", ust:"Yuanzheng", th:"12116", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"LH2/LOX+KeroLOX", icon:"CZ-5.png"},
 "CZ-5B": {n:"Long March 5B", alt:"长征五号乙运载火箭", ctry:"cn", m:"837500", pm:"23000/-/-",  d:"45x5", pf:"12x5.2", dt:"2020..", st:"1/4", ust:"", th:"12116", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"LH2/LOX+KeroLOX", icon:"CZ-5B.png"},
-//CZ-7
-"CZ-7": {n:"Long March 7", alt:"长征七号运载火箭", ctry:"cn", m:"597000", pm:"13500/5500/-", d:"53x3.35", pf:"12.7x4.2", dt:"2016..", st:"2/4", ust:"YZ-1A", th:"7200", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"cz-7.png"},
+//CZ-6, CZ-6A
+//CZ-7, CZ-7A
+"CZ-7": {n:"Long March 7", alt:"长征七号运载火箭", ctry:"cn", m:"594000", pm:"13500/5500/-", d:"53.1x3.35", pf:"12.7x4.2", dt:"2016-06-24..", st:"2/4", ust:"YZ-1A", th:"7200", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"CZ-7.png"},
+"CZ-7A": {n:"Long March 7A", alt:"长征七号运载火箭", ctry:"cn", m:"620000", pm:"-/7000/-", d:"60.1x3.35", pf:"12.7x4.2", dt:"2020-03-16..", st:"3/4", ust:"H-18", th:"7200", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX+LH2/LOX", icon:"CZ-7A.png"},
+//CZ-8
 //CZ-9
 "CZ-9": {n:"Long March 9", alt:"长征九号运载火箭", ctry:"cn", m:"4000000", pm:"140000/66000/50000", d:"93x10", pf:"", dt:"2028..", st:"3/4", ust:"", th:"52800", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"cz-9.png"},
 //CZ-11
