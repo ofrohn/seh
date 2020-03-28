@@ -723,7 +723,7 @@ pioneer3: {name:"Pioneer 3", desc:"lv:Juno II",
 // --- 1959 --- 6 Missions
 luna1: {name:"Luna 1", desc:"lv:Vostok-L 8K72",
   parts:[
-    {names:"Луна-1;Мечта:Dream;Luna E-1 #4", type:"im", dest:"lun", stat:"p", ctry:"su", desc:"ag:okb;fam:E-1;First lunar flyby;First probe to escape Earth's gravity;m:361.3kg;dim:1.0x1.0x3.4m;sc:0.25", id:"1959-012A", url:"rsw:http://www.russianspaceweb.com/luna1.html;ea:www.astronautix.com/craft/lunae1.htm;nssdc:nssdc.gsfc.nasa.gov/planetary/lunar/lunarussr.html", icon:"luna-e1.png"}], 
+    {names:"Луна-1;Мечта:Dream;Luna E-1 #4", type:"im", dest:"lun", stat:"p", ctry:"su", desc:"ag:okb;fam:E-1;First lunar flyby;First probe to escape Earth's gravity;m:361.3kg;dim:1.0x1.0x3.4m;sc:0.25", id:"1959-012A", url:"rsw:www.russianspaceweb.com/luna1.html;ea:www.astronautix.com/craft/lunae1.htm;nssdc:nssdc.gsfc.nasa.gov/planetary/lunar/lunarussr.html", icon:"luna-e1.png"}], 
   events:[
     {pt:"", type:"l", dt:"1959-01-02", loc:"ter:bai:LC-1", desc:""},
     {pt:"", type:"toi", dt:"1959-01-02", loc:"ter:lto", desc:"mal:Guidance system error"},
@@ -1199,7 +1199,7 @@ pioneer6: {name:"Pioneer 6", desc:"lv:Delta E",
 // --- 1966 --- 13 Missions
 luna9: {name:"Luna 9", desc:"lv:Molniya 8K78M/Blok-L",
   parts:[
-    {names:"Луна-9;Luna E-6M #13/202", type:"slm", dest:"lun", stat:"s", ctry:"su", desc:"ag:lav,iki;fam:E-6M;First successful Moon landing;m:1584kg;dim:1.5x1.0x2.7m", id:"1966-006A", url:"rsw:http://www.russianspaceweb.com/luna9.html;ea:www.astronautix.com/craft/lunae6.htm;nssdc:nssdc.gsfc.nasa.gov/planetary/lunar/lunarussr.html", icon:"luna-e6m.png"},
+    {names:"Луна-9;Luna E-6M #13/202", type:"slm", dest:"lun", stat:"s", ctry:"su", desc:"ag:lav,iki;fam:E-6M;First successful Moon landing;m:1584kg;dim:1.5x1.0x2.7m", id:"1966-006A", url:"rsw:www.russianspaceweb.com/luna9.html;ea:www.astronautix.com/craft/lunae6.htm;nssdc:nssdc.gsfc.nasa.gov/planetary/lunar/lunarussr.html", icon:"luna-e6m.png"},
     {names:"{Luna 9 Lander}", desc:"sc:0.75", icon:"luna-e6p.png"}], 
   events:[
     {pt:"", type:"l", dt:"1966-01-31", loc:"ter:bai:LC-31", desc:""},
@@ -1216,7 +1216,7 @@ cosmos111: {name:"Kosmos 111", desc:"lv:Molniya 8K78M/Blok-L",
 ]},
 luna10: {name:"Luna 10", desc:"lv:Molniya 8K78M/Blok-L",
   parts:[
-    {names:"Луна-10;Luna E-6S #206", type:"om", dest:"lun", stat:"s", ctry:"su", desc:"ag:lav,iki;fam:E-6S;First Moon orbiter;m:1582kg;m0:540kg;dim:1.5x1.0x3.0m;sc:0.25", id:"1966-027A", url:"rsw:http://www.russianspaceweb.com/luna10.html;ea:www.astronautix.com/craft/lunae6s.htm;nssdc:nssdc.gsfc.nasa.gov/planetary/lunar/lunarussr.html", icon:"luna-e6s.png"}], 
+    {names:"Луна-10;Luna E-6S #206", type:"om", dest:"lun", stat:"s", ctry:"su", desc:"ag:lav,iki;fam:E-6S;First Moon orbiter;m:1582kg;m0:540kg;dim:1.5x1.0x3.0m;sc:0.25", id:"1966-027A", url:"rsw:www.russianspaceweb.com/luna10.html;ea:www.astronautix.com/craft/lunae6s.htm;nssdc:nssdc.gsfc.nasa.gov/planetary/lunar/lunarussr.html", icon:"luna-e6s.png"}], 
   events:[
     {pt:"", type:"l", dt:"1966-03-31", loc:"ter:bai:LC-31", desc:""},
     {pt:"", type:"toi", dt:"1966-03-31", loc:"ter:lto", desc:""},
@@ -1304,7 +1304,7 @@ lunarorbiter2: {name:"Lunar Orbiter 2", desc:"lv:Atlas-SLV3 Agena-D",
 ]},
 luna13: {name:"Luna 13", desc:"lv:Molniya 8K78M/Blok-L",
   parts:[
-    {names:"Луна-13;Luna E-6M #205", type:"slm", dest:"lun", stat:"s", ctry:"su", desc:"ag:lav,iki;fam:E-6M;m:1584kg;dim:1.5x1.0x2.7m", id:"1966-116A", url:"rsw:http://www.russianspaceweb.com/luna9.html;ea:www.astronautix.com/craft/lunae6m.htm;nssdc:nssdc.gsfc.nasa.gov/planetary/lunar/lunarussr.html", icon:"luna-e6m.png"},
+    {names:"Луна-13;Luna E-6M #205", type:"slm", dest:"lun", stat:"s", ctry:"su", desc:"ag:lav,iki;fam:E-6M;m:1584kg;dim:1.5x1.0x2.7m", id:"1966-116A", url:"rsw:www.russianspaceweb.com/luna9.html;ea:www.astronautix.com/craft/lunae6m.htm;nssdc:nssdc.gsfc.nasa.gov/planetary/lunar/lunarussr.html", icon:"luna-e6m.png"},
     {names:"{Luna 13 Lander}", desc:"sc:0.75", icon:"luna-e6p.png"}], 
   events:[
     {pt:"", type:"l", dt:"1966-12-21", loc:"ter:bai:LC-1", desc:""},
@@ -3713,7 +3713,7 @@ em1lcube: {name:"Artemis-1 Lunar Cubesats", desc:"lv:SLS;part:em1;6U CubeSats", 
     {names:"Lunar Flashlight", type:"om", dest:"lun", ctry:"us", desc:"ag:nasa,jpl;m:~12kg;dim:0.7x0.7x0.3m;sc:0.2", id:"", url:"Flashlight:sservi.nasa.gov/articles/lunar-flashlight/", icon:"lunar-flashlight.png"},
     {names:"Lunar IceCube", type:"om", dest:"lun", ctry:"us", desc:"ag:nasa,gsfc;m:~14kg;dim:0.7x0.2x0.3m;sc:1", id:"", url:"IceCube:www.nasa.gov/feature/goddard/lunar-icecube-to-take-on-big-mission-from-small-package", icon:"icecube.png"},
     {names:"LunaH-Map:Lunar Polar Hydrogen Mapper", type:"om", dest:"lun", ctry:"us", desc:"ag:nasa,asu;sc:0.6", id:"", url:"H-Map:www.nasa.gov/feature/lunah-map-university-built-cubesat-to-map-water-ice-on-the-moon;ASU:lunahmap.asu.edu/;tw:twitter.com/lunahmap", icon:"lunahmap.png"},
-    {names:"OMOTENASHI:Outstanding Moon exploration Technologies demonstrated by Nano Semi-Hard Impactor", type:"im", dest:"lun", ctry:"jp", desc:"ag:jaxa;sc:0.6", id:"", url:"", icon:"omotenashi.png"}],
+    {names:"OMOTENASHI:Outstanding Moon exploration Technologies demonstrated by Nano Semi-Hard Impactor", type:"im", dest:"lun", ctry:"jp", desc:"ag:jaxa;sc:0.6", id:"", url:"hp:www.isas.jaxa.jp/home/omotenashi/index.html;tw:twitter.com/OMOTENASHI_JAXA", icon:"omotenashi.png"}],
   events:[
     {pt:"", type:"l", dt:"2021", loc:"ter:ksc:LC-39B", desc:"EM-1 piggyback"},
     {pt:"", type:"toi", dt:"2021", loc:"ter", desc:"lto"},
@@ -3741,8 +3741,11 @@ em1cubes: {name:"Artemis-1 Cubesats", desc:"lv:SLS;part:em1;6U-CubeSat", stat:"p
     {names:"BioSentinel", type:"om", dest:"sol", ctry:"us", desc:"ag:nasa,arc;sc:0.6", id:"", url:"BioSentinel:www.nasa.gov/centers/ames/engineering/projects/biosentinel.html", icon:"biosentinel.png"},
     {names:"CuSP:CubeSat to study Solar Particles", type:"om", dest:"sol", ctry:"us", desc:"ag:nasa,swri;sc:0.8", id:"", url:"CuSP:www.nasa.gov/feature/goddard/2016/heliophysics-cubesat-to-launch-on-nasa-s-sls", icon:"cusp.png"},
     {names:"ArgoMoon", type:"test", dest:"ter:heeo", ctry:"it", desc:"ag:asi;sc:0.6", id:"", url:"", icon:"argomoon.png"},
-    {names:"EQUULEUS:EQUilibriUm Lunar-Earth point 6U Spacecraft", type:"om", dest:"ter:eml2", ctry:"jp", desc:"ag:jaxa;sc:0.6", id:"", url:"Int:www.nasa.gov/exploration/systems/sls/international-partners-provide-cubesats-for-sls-maiden-flight", icon:"equuleus.png"},
-    {names:"Skyfire", type:"om", dest:"ter:geo", ctry:"us", desc:"ag:nasa;sc:0.6", id:"", url:"Skyfire:www.nasa.gov/feature/nasa-selects-lockheed-martin-s-skyfire-cubesat-for-em-1-secondary-payload", icon:"skyfire.png"}],
+    {names:"EQUULEUS:EQUilibriUm Lunar-Earth point 6U Spacecraft", type:"om", dest:"ter:eml2", ctry:"jp", desc:"ag:jaxa;sc:0.6", id:"", url:"nasa:www.nasa.gov/exploration/systems/sls/international-partners-provide-cubesats-for-sls-maiden-flight;tw:twitter.com/EQUULEUS_en", icon:"equuleus.png"},
+    {names:"Skyfire", type:"om", dest:"ter:geo", ctry:"us", desc:"ag:nasa;sc:0.6", id:"", url:"Skyfire:www.nasa.gov/feature/nasa-selects-lockheed-martin-s-skyfire-cubesat-for-em-1-secondary-payload", icon:"skyfire.png"},
+    {names:"Cislunar Explorers", type:"om", dest:"sol", ctry:"us", desc:"ag:nasa,Cornell;sc:0.6", id:"", url:"Cislunar Explorers:cislunarexplorers.wordpress.com/", icon:"clx.png"},
+    {names:"CU-E3:Earth Escape Explorer", type:"om", dest:"sol", ctry:"us", desc:"ag:nasa,CU Boulder;sc:0.6", id:"", url:"CU-E3:www.colorado.edu/cubequest/", icon:"cu-e3.png"},
+    {names:"Team Miles", type:"om", dest:"sol", ctry:"us", desc:"ag:nasa,Fluid and Reason;sc:0.6", id:"", url:"Team Miles:miles-space.com", icon:"tmiles.png"}],
   events:[
     {pt:"", type:"l", dt:"2021", loc:"ter:ksc:LC-39B", desc:"EM-1 piggyback"},
     {pt:"", type:"toi", dt:"2021", loc:"ter", desc:"lto"},
@@ -3751,12 +3754,18 @@ em1cubes: {name:"Artemis-1 Cubesats", desc:"lv:SLS;part:em1;6U-CubeSat", stat:"p
     {pt:"5", type:"fb", dt:"l+4dy", loc:"lun", desc:"Skyfire"},
     {pt:"1", type:"sco", dt:"", loc:"sol:ho:0.92x0.98au", desc:"BioSentinel"},
     {pt:"2", type:"sco", dt:"", loc:"sol:ho", desc:"CuSP"},
+    {pt:"6", type:"sco", dt:"", loc:"sol:ho", desc:"CLX;2 Spacecraft"},
+    {pt:"7", type:"sco", dt:"", loc:"sol:ho", desc:"CU-E3;Earth following"},
+    {pt:"8", type:"sco", dt:"", loc:"sol:ho", desc:"Team Miles;Earth following"},
     {pt:"0", type:"fb", dt:"l+100dy", loc:"lun", desc:"poss. 1-2 additional flybys;NEA-Scout"},
     {pt:"0", type:"fb", dt:"l+850dy", loc:"ast", desc:"ast:1991 VG;NEA-Scout"},
     {pt:"0", type:"nom", dt:"l+2.5yr", loc:"sol:ho", desc:"NEA-Scout"},
     {pt:"2", type:"pom", dt:"l+2yr", loc:"sol:ho", desc:"CuSP"},
     {pt:"1", type:"pom", dt:"l+2yr", loc:"sol:ho", desc:"BioSentinel"},
     {pt:"5", type:"pom", dt:"l+2yr", loc:"ter:geo", desc:"Skyfire"},
+    {pt:"6", type:"pom", dt:"l+2yr", loc:"sol:ho", desc:"CLX"},
+    {pt:"7", type:"pom", dt:"l+2yr", loc:"sol:ho", desc:"CU-E3"},
+    {pt:"8", type:"pom", dt:"l+2yr", loc:"sol:ho", desc:"Team Miles"},
     {pt:"0", type:"pom", dt:"l+4.5yr", loc:"sol:ho", desc:"NEA-Scout"}
 ]},
 aditya:{name:"Aditya-L1", desc:"lv:PSLV XL", stat:"pl", 
@@ -3813,7 +3822,7 @@ dart: {name:"DART:Double Asteroid Redirection Test", desc:"lv:Falcon 9",
 ]},
 slim:{name:"SLIM:Smart Lander for Investigating Moon", desc:"lv:H-IIA 202", stat:"pl", 
   parts: [
-    {names:"スリム;SPRINT-C", ctry:"jp", type:"slm", dest:"lun", id:"", icon:"slim.png", desc:"ag:jaxa;m:730kg;m0:200kg;sc:0.3", url:"hp:www.isas.jaxa.jp/en/missions/spacecraft/developing/slim.html"}], 
+    {names:"スリム;SPRINT-C", ctry:"jp", type:"slm", dest:"lun", id:"", icon:"slim.png", desc:"ag:jaxa;m:730kg;m0:200kg;sc:0.3", url:"hp:www.isas.jaxa.jp/home/slim/SLIM/index.html;isas:www.isas.jaxa.jp/en/missions/spacecraft/developing/slim.html;tw:twitter.com/SLIM_JAXA"}], 
   events: [
     {pt:"", dt:"2021", type:"l", loc:"ter:uch", desc:""},
     {pt:"", dt:"l+4dy", type:"oi", loc:"lun", desc:""},
