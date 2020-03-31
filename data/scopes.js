@@ -1225,6 +1225,16 @@ stereo:{name:"Stereo:Solar Terrestrial Relations Observatory", url:"hp:stereo.gs
     {n:"IMPACT", band:"", url:"sprg.ssl.berkeley.edu/impact/", desc:"c:n;"},
     {n:"PLASTIC", band:"", url:"stereo.sr.unh.edu/", desc:"c:n;"}
 ]},
+sunrise:{name:"SunRISE:Sun Radio Interferometer Space Experiment", url:"hp:www.jpl.nasa.gov/news/news.php?release=2020-058", desc:"ag:nasa,jpl,U-M;lv:;sc:1;x:0;y:10", stat:"pl", 
+  parts: [
+    {n:"", id:"", ctry:"us", type:"r", pur:"sol", icon:"sunrise.png", desc:"6 6U Cubesats"}
+  ], ev: [
+    {pt:"", dt:"2023-07", tp:"l", loc:"ter:cap", desc:""},
+    {pt:"", dt:"2023-07", tp:"sco", loc:"ter:gto", desc:""},
+    {pt:"", dt:"2024-07", tp:"nom", loc:"ter:gto", desc:""}
+  ], inst: [
+    {n:"", band:"0.1..25MHz", d:10000, px:null, desc:"c:nr;cl:ny;"}
+]},
 suzaku:{name:"Suzaku", url:"hp:www.astro.isas.ac.jp/suzaku/", desc:"ag:jaxa;lv:M-5-6;sc:0.9;x:0;y:0", stat:"s", 
   parts: [
     {n:"Astro-EII", ctry:"jp", type:"x", pur:"", id:"2005-025A", icon:"suzaku.png", desc:""}

@@ -3160,7 +3160,7 @@ lucy: {name:"Lucy", desc:"lv:Atlas V 401",
 dart: {name:"DART:Double Asteroid Redirection Test", desc:"lv:Falcon 9",
   parts:[
     {names:"", type:"im", dest:"ast", stat:"pl", ctry:"us", desc:"ag:nasa,apl;fam:AIDA;m:640kg;sc:0.7", id:"", url:"hp:dart.jhuapl.edu/;nasa:www.nasa.gov/planetarydefense/dart", icon:"dart.png"},
-    {names:"LICIACube:Light Italian Cubesat for Imaging of Asteroids", type:"fbm", dest:"ast", stat:"pl", ctry:"it", desc:"ag:asi,Argotec;sc:0.4", id:"", url:"LICIACube:argotec.it/online/2019/01/23/liciacube-nasa-choose-again-an-argotec-smallsat/", icon:"licia.png"}
+    {names:"LICIA:Light Italian Cubesat for Imaging of Asteroids", type:"fbm", dest:"ast", stat:"pl", ctry:"it", desc:"ag:asi,Argotec;sc:0.4", id:"", url:"LICIACube:argotec.it/online/2019/01/23/liciacube-nasa-choose-again-an-argotec-smallsat/", icon:"licia.png"}
   ], events:[
     {pt:"", type:"l", dt:"2021-07", loc:"ter:van:SLC-4E", desc:""},
     {pt:"", type:"oi", dt:"2021-07", loc:"sol:ho", desc:""},
@@ -3343,9 +3343,9 @@ hera: {name:"Hera", desc:"lv:Soyuz 2.1B",
 ]},
 mmx: {name:"MMX:Martian Moons eXploration", desc:"lv:H-III",
   parts:[
-    {names:"", type:"srm", dest:"mar:Phobos", stat:"pl", ctry:"jp", desc:"ag:jaxa,isas;m:4000kg;m0:;dim:14x2.1x4.5m;sc:0.75", id:"", url:"hp:mmx.isas.jaxa.jp/en/index.html;tw:twitter.com/mmx_jaxa_en", icon:"mmx.png"},
+    {names:"火星衛星探査機", type:"srm", dest:"mar:Phobos", stat:"pl", ctry:"jp", desc:"ag:jaxa,isas;m:4000kg;m0:;dim:14x2.1x4.5m;sc:0.75", id:"", url:"hp:mmx.isas.jaxa.jp/en/index.html;tw:twitter.com/mmx_jaxa_en", icon:"mmx.png"},
     {names:"{MMX Sample Return Module}", desc:"m:1300kg;sc:1.0", icon:""},
-    {names:"{DLR/CNES Rover}", type:"rvm", dest:"mar:Phobos", stat:"pl", ctry:"de;fr", desc:"ag:dlr,cnes", id:"", url:"", icon:""}], 
+    {names:"{DLR/CNES Rover}", type:"rvm", dest:"mar:Phobos", stat:"pl", ctry:"de;fr", desc:"ag:dlr,cnes;m:29kg", id:"", url:"dlr:www.dlr.de/content/en/articles/news/2019/02/20190619_a_rover_for_phobos_and_deimos.html", icon:"mmx-rv.png"}], 
   events:[
     {pt:"", type:"l", dt:"2024-09", loc:"ter:tng", desc:""},
     {pt:"", type:"oi", dt:"2025-08", loc:"mar", desc:""},

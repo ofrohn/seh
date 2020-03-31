@@ -1883,6 +1883,16 @@ stereo:{name:"Stereo:Solar Terrestrial Relations Observatory", url:"hp:stereo.gs
     {n:"IMPACT", band:"", url:"sprg.ssl.berkeley.edu/impact/", desc:"c:n;"},
     {n:"PLASTIC", band:"", url:"stereo.sr.unh.edu/", desc:"c:n;"}
 ]},
+sunrise:{name:"SunRISE:Sun Radio Interferometer Space Experiment", url:"hp:www.jpl.nasa.gov/news/news.php?release=2020-058", desc:"ag:nasa,jpl,U-M;lv:;sc:1;x:0;y:10", stat:"pl", 
+  parts: [
+    {n:"", id:"", ctry:"us", type:"r", pur:"sol", icon:"sunrise.png", desc:"6 6U Cubesats"}
+  ], ev: [
+    {pt:"", dt:"2023-07", tp:"l", loc:"ter:cap", desc:""},
+    {pt:"", dt:"2023-07", tp:"sco", loc:"ter:gto", desc:""},
+    {pt:"", dt:"2024-07", tp:"nom", loc:"ter:gto", desc:""}
+  ], inst: [
+    {n:"", band:"0.1..25MHz", d:10000, px:null, desc:"c:nr;cl:ny;"}
+]},
 suzaku:{name:"Suzaku", url:"hp:www.astro.isas.ac.jp/suzaku/", desc:"ag:jaxa;lv:M-5-6;sc:0.9;x:0;y:0", stat:"s", 
   parts: [
     {n:"Astro-EII", ctry:"jp", type:"x", pur:"", id:"2005-025A", icon:"suzaku.png", desc:""}
@@ -2226,7 +2236,7 @@ cz-8
 "Atlas V 541": {ctry:"us", m:"522330", pm:"17410/8290/6300",  d:"62.2x3.81", pf:"20.7-23.5x5.4", dt:"2011-11-26..", st:"2/4", ust:"", th:"9232", fam:"Atlas", desc:"l:cap;van;ag:nasa", fuel:"KeroLOX+SRP",  icon:"Atlas-V500.png"},
 "Atlas V 551": {ctry:"us", m:"568590", pm:"18850/8900/6700",  d:"62.2x3.81", pf:"20.7-23.5x5.4", dt:"2006-01-19..", st:"2/5", ust:"Star-48B", th:"10502", fam:"Atlas", desc:"l:cap;van;ag:nasa", fuel:"KeroLOX+SRP",  icon:"Atlas-V500.png"},
 //BFR
-"Starship": {n:"Starship", ctry:"us", m:"5000000", pm:"150000",  d:"118x9", pf:"", dt:"2020", st:"2", ust:"", th:"62900", fam:"", desc:"l:ksc,boc;ag:SpX", fuel:"LCH4/LOX", icon:"bfr.png"},
+"Starship": {n:"Starship", ctry:"us", m:"5000000", pm:"100K/21K/*",  d:"118x9", pf:"22x8", dt:"2020", st:"2", ust:"", th:"62900", fam:"", desc:"l:ksc,boc;ag:SpX", fuel:"LCH4/LOX", icon:"bfr.png"},
 //CZ-2C
 "CZ-2C": {n:"Long March 2C", alt:"长征二号丙", ctry:"cn", m:"245000", pm:"3850/1250/500",  d:"43.0x3.35", pf:"x3.35", dt:"1975-11-26..", st:"2", ust:"SM/SMA", th:"2962", fam:"Long March", desc:"l:xch,jiu,tai;ag:cnsa", fuel:"UDMH/N2O4", icon:"CZ-2C.png"},
 //CZ-3A, CZ-3B, CZ-3C
