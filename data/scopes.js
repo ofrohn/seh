@@ -1499,6 +1499,11 @@ evn: {name:"EVN:European VLBI Network", url:"", desc:"", stat:"g",
   ev: [{pt:"", dt:"", tp:"l", loc:"ter", desc:""}
   ], inst: [{n:"", band:"1.6..22GHz", res:"0.021..0.000028", px:3e-4, d:1e7, desc:"c:nv;cl:nl;"}
 ]},
+/*eht: {name:"EHT:Event Horizon Telescope", url:"", desc:"", stat:"g",
+  parts: [{n:"", ctry:"", type:"r", icon:"", desc:""}],
+  ev: [{pt:"", dt:"", tp:"l", loc:"ter", desc:""}
+  ], inst: [{n:"", band:"230..450GHz", res:"", px:3e-4, d:1.1e7, desc:"c:nv;cl:nl;"}
+]},*/
 vlti: {name:"VLTi:Very Large Telescope interferometer", url:"eso.org/paranal/", desc:"sc:2;x:0;y:0", stat:"g",
   parts: [{n:"", ctry:"", type:"opt,nir", icon:"vlti.png", desc:""}],
   ev: [{pt:"", dt:"", tp:"l", loc:"ter", desc:""}
