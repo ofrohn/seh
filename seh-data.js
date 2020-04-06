@@ -3671,10 +3671,10 @@ emm: {name:"Al Amal:Hope", desc:"lv:H-IIA 202",
   events:[
     {pt:"", type:"l", dt:"2020-07", loc:"ter:tng", desc:""},
     {pt:"", type:"toi", dt:"2020-07", loc:"sol:hto", desc:""},
-    {pt:"", type:"oi", dt:"l+7mo", loc:"mar:1000x49380kmx20deg", desc:""},
-    {pt:"", type:"sco", dt:"l+10mo", loc:"mar:20000x43000kmx25deg", desc:""},
-    {pt:"", type:"nom", dt:"2023", loc:"mar", desc:""},
-    {pt:"", type:"pom", dt:"2025", loc:"mar", desc:""}
+    {pt:"", type:"oi", dt:"2021-01", loc:"mar:1000x49380kmx20deg", desc:""},
+    {pt:"", type:"sco", dt:"2021-04", loc:"mar:20000x43000kmx25deg", desc:""},
+    {pt:"", type:"nom", dt:"2023-03", loc:"mar", desc:""},
+    {pt:"", type:"pom", dt:"2025-05", loc:"mar", desc:""}
 ]},
 // --- 2021
 chandrayaan3: {name:"Chandrayaan 3:Moon Craft 3", desc:"lv:GSLV MkIII",
