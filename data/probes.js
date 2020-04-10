@@ -2138,7 +2138,7 @@ marsodyssey: {name:"Mars Odyssey", desc:"lv:Delta II 7425-9.5",
     {pt:"", type:"sco", dt:"2002-01-30", loc:"mar:387x450kmx93deg", desc:"sso"},
     {pt:"", type:"obs", dt:"2014-10-19..2014-10-20", loc:"mar", desc:"Comet C 2013 A1 Siding Spring"},
     {pt:"", type:"nom", dt:"2022-09-30", loc:"mar", desc:"pend"},
-    {pt:"", type:"pom", dt:"2024-12", loc:"mar", desc:"Fuel Depletion?"}
+    {pt:"", type:"pom", dt:"2025-12", loc:"mar", desc:"Fuel Depletion?"}
 ]},
 genesis: {name:"Genesis", desc:"lv:Delta II 7326-9.5",
   parts:[
@@ -2717,7 +2717,7 @@ hayabusa2: {name:"Hayabusa 2:Peregrine Falcon 2", desc:"lv:H-IIA 202",
     {pt:"0", type:"dsc", dt:"2019-07-11", loc:"ast", desc:"2. Sample Collection;Uchide-no-kozuchi"},
     {pt:"2", type:"td", dt:"2019-10-08", loc:"ast", desc:"hpp:MINERVA II2;eom:hpm"},
     {pt:"0", type:"dep", dt:"2019-11-13", loc:"ast", desc:""},
-    {pt:"0", type:"edl", dt:"2020-11", loc:"ter", desc:"eom"}
+    {pt:"0", type:"edl", dt:"2020-11", loc:"ter", desc:"nom"}
 ]},
 procyon: {name:"PROCYON:PRoximate Object Close flYby with Optical Navigation", desc:"lv:H-IIA 202",
   parts:[
@@ -2849,7 +2849,7 @@ bepicolombo: {name:"Bepi Colombo", desc:"lv:Ariane 5ECA",
 {names:"MMO:Mercury Magnetospheric Orbiter", type:"om", dest:"mer", stat:"pl", ctry:"jp", desc:"ag:jaxa;m:275kg", url:"jaxa:www.stp.isas.jaxa.jp/mercury/;tw:twitter.com/JAXA_MMO", icon:"bepicolombo-mmo.png"}], 
   events:[
     {pt:"", type:"l", dt:"2018-10-20", loc:"ter:kou:ELA-3", desc:""},
-    {pt:"", type:"fb", dt:"2020-04-10", loc:"ter", desc:"ga"},
+    {pt:"", type:"fb", dt:"2020-04-10", loc:"ter:12700km", desc:"ga"},
     {pt:"", type:"fb", dt:"2020-10-15", loc:"ven", desc:"ga"},
     {pt:"", type:"fb", dt:"2021-08-11", loc:"ven", desc:"ga"},
     {pt:"", type:"fb", dt:"2021-10-02", loc:"mer", desc:"ga"},
@@ -3129,11 +3129,11 @@ aditya:{name:"Aditya-L1", desc:"lv:PSLV XL", stat:"pl",
 ]},
 luna25: {name:"Luna 25", desc:"lv:Soyuz 2.1B/Fregat",
   parts:[
-    {names:"Луна-Глоб посадочный;Luna Glob Lander:Lunar Sphere Lander", type:"slm", dest:"lun", stat:"pl", ctry:"ru", desc:"ag:rosc,iki;m:1750kg;m0:780kg;sc:0.45", id:"", url:"rsw:www.russianspaceweb.com/luna_glob.html", icon:"luna25.png"}], 
+    {names:"Луна-Глоб посадочный;Luna Glob Lander:Lunar Sphere Lander", type:"slm", dest:"lun", stat:"pl", ctry:"ru", desc:"ag:rosc,iki;m:1725kg;m0:780kg;sc:0.45", id:"", url:"rsw:www.russianspaceweb.com/luna_glob.html", icon:"luna25.png"}], 
   events:[
     {pt:"", type:"l", dt:"2021-07", loc:"ter:bai", desc:""},
     {pt:"", type:"oi", dt:"l+4dy", loc:"lun:100x100kmx90deg", desc:""},
-    {pt:"", type:"td", dt:"l+8dy", loc:"lun:69.545S,43.44E", desc:"Near South Pole, Hagecius Crater"},
+    {pt:"", type:"td", dt:"l+8dy", loc:"lun:69.545S,43.44E", desc:"Near South Pole, Boguslawsky Crater"},
     {pt:"", type:"nom", dt:"l+3mo", loc:"lun", desc:"?"},
     {pt:"", type:"pom", dt:"l+1yr", loc:"lun", desc:"?"}
 ]},
@@ -3278,6 +3278,14 @@ viper: {name:"VIPER:Volatiles Investigating Polar Exploration Rover", desc:"lv:T
     {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:"South pole"},
     {pt:"", type:"nom", dt:"l+100d", loc:"lun", desc:""}
 ]},
+xl1: {name:"XL-1", desc:"",
+  parts:[
+    {names:"", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Masten;fam:clps;sc:0.3", id:"", url:"hp:www.masten.aero/moon", icon:"masten-xl1.png"}], 
+  events:[
+    {pt:"", type:"l", dt:"2022", loc:"ter:cap", desc:""},
+    {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:"Near South pole"},
+    {pt:"", type:"nom", dt:"l+12dy", loc:"lun", desc:""}
+]},
 // --- 2023
 change7: {name:"Chang'e 7", desc:"lv:CZ-5",
   parts:[
@@ -3374,7 +3382,7 @@ luna26: {name:"Luna 26", desc:"lv:Soyuz 2.1B/Fregat",
   parts:[
     {names:"Луна-Ресурс орбитальный;Luna Resurs Orbiter:Lunar Resource Orbiter", type:"om", dest:"lun", stat:"pl", ctry:"ru", desc:"ag:rosc,iki;m:2200kg;sc:0.75", id:"", url:"rsw:www.russianspaceweb.com/luna_glob.html", icon:"luna26.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2024", loc:"ter:bai", desc:""},
+    {pt:"", type:"l", dt:"2024-11", loc:"ter:bai", desc:""},
     {pt:"", type:"oi", dt:"l+4dy", loc:"lun", desc:""},
     {pt:"", type:"sco", dt:"l+?dy", loc:"lun:100kmx90deg", desc:"Working Orbit"},
     {pt:"", type:"sco", dt:"l+1yr", loc:"lun:500kmx90deg", desc:"Final Operation Orbit"},

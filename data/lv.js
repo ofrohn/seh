@@ -170,7 +170,7 @@ cz-8
 "SLS 1B": {n:"Space Launch System Block 1B", ctry:"us", m:"2850000", pm:"105k/46k/35k",  d:"110.9x8.4", pf:"8.4x19.1-27.4", dt:"2024..", st:"2/2", ust:"EUS", th:"39150", fam:"SLS", desc:"l:cap;ag:nasa", fuel:"LH2/LOX+SRP", icon:"sls-1b.png"},
 "SLS 2": {n:"Space Launch System Block 2", ctry:"us", m:"2950000", pm:"130k/52k/37k", d:"111.6x8.4", pf:"8.4-10x19.1-27.4", dt:"2028..", st:"2/2", ust:"EUS", th:"52900", fam:"SLS", desc:"l:cap;ag:nasa", fuel:"LH2/LOX+SRP?", icon:"sls-2.png"},
 //Soyuz 2.1a, Soyuz 2.1b, Soyuz-FG Fregat, Soyuz 2-1A Volga
-"Soyuz 2.1": {alt:"Союз 2.1", ctry:"ru,eu", m:"313000", pm:"7600/3000/1200",  d:"46.3x2.95", pf:"", dt:"2006-10-19..", st:"2/4", ust:"Fregat/Volga", th:"4146", fam:"R-7", desc:"l:bai,ple,kou;ag:rosc,esa", fuel:"KeroLOX", icon:"Soyuz-ST.png"},
+"Soyuz 2.1": {alt:"Союз 2.1", ctry:"ru,eu", m:"313000", pm:"7600/3000/2200",  d:"46.3x2.95", pf:"", dt:"2006-10-19..", st:"2/4", ust:"Fregat/Volga", th:"4146", fam:"R-7", desc:"l:bai,ple,kou;ag:rosc,esa", fuel:"KeroLOX", icon:"Soyuz-ST.png"},
 "Soyuz 2.1A": {syn:"Soyuz 2.1"},
 "Soyuz 2.1B": {syn:"Soyuz 2.1"},
 "Soyuz STA": {syn:"Soyuz 2.1"},
