@@ -826,11 +826,11 @@ microscope:{name:"MicroSCOPE:Micro-Satellite a traînee Compensee pour l'Observa
   ], inst: [
     {n:"T-SAGE:Twin-Space Accelerometer for Gravity Experiment", tp:"acc", sens:"10e-12ms^-2.", url:"smsc.cnes.fr/MICROSCOPE/t-sage.htm", desc:"c:;"}
 ]},
-millimetron:{name:"Spektr-M", url:"hp:asc-lebedev.ru/index2.php?engdep=20", desc:"ag:rosc,lav;lv:Proton-M/Briz-M;sc:1.2;x:0;y:0;m:6600kg", stat:"pl", 
+millimetron:{name:"Spektr-M", url:"hp:asc-lebedev.ru/index2.php?engdep=20", desc:"ag:rosc,lav;lv:Angara-A5M/KVTK;sc:1.2;x:0;y:0;m:6600kg", stat:"pl", 
   parts: [
     {n:"Спектр-M;Millimetron", ctry:"ru", type:"mw", pur:"", id:"", icon:"millimetron.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2025", tp:"l", loc:"ter:bai", desc:""},
+    {pt:"", dt:"2025", tp:"l", loc:"ter:vos", desc:""},
     {pt:"", dt:"", tp:"sco", loc:"sol:esl2", desc:""}
   ], inst: [
     {n:"", band:"1.50E+10..9.99E+11", res:"420..6", d:10, px:3, desc:"c:nv;"},
@@ -1189,11 +1189,11 @@ srg:{name:"Spektr-RG:Spectrum Roentgen Gamma", url:"hp:hea.iki.rssi.ru/SRG/en/in
 //    {n:"Lobster", band:"", res:"", desc:"ag:Leicester University;c:nl;"},
     {n:"ART-XC", band:"6..30keV", res:"45", fov:"0.3deg2", desc:"ag:iki;c:nl;"}
 ]},
-spektruv:{name:"Spektr-UV", url:"hp:www.wso-uv.org/wso-uv2/index.php?lang=en;Universidad Complutense:www.wso-uv.es/", desc:"ag:rosc;lv:Proton-M/Briz-M;m:2840kg;sc:1.2;x:10;y:12", stat:"pl", 
+spektruv:{name:"Spektr-UV", url:"hp:www.wso-uv.org/wso-uv2/index.php?lang=en;Universidad Complutense:www.wso-uv.es/", desc:"ag:rosc;lv:Angara-A5M/DM-03;m:2840kg;sc:1.2;x:10;y:12", stat:"pl", 
   parts: [
     {n:"Спектр-УФ;WSO-UV:World Space Observatory-Ultraviolet", ctry:"ru", type:"uv", pur:"", id:"", icon:"wso-uv.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2025-10", tp:"l", loc:"ter:bai", desc:""},
+    {pt:"", dt:"2025-10", tp:"l", loc:"ter:vos", desc:""},
     {pt:"", dt:"", tp:"sco", loc:"ter:geo:40deg", desc:""},
     {pt:"", dt:"2028", tp:"nom", loc:"ter:geo", desc:""}
   ], inst: [
