@@ -3369,12 +3369,12 @@ em3: {name:"Artemis-3", desc:"lv:SLS 1B", stat:"pl",
     {pt:"", type:"td", dt:"l+4dy", loc:"lun", desc:"?"},
     {pt:"0", type:"edl", dt:"l+30dy", loc:"ter", desc:"eom"}
 ]},
-ptknp: {name:"Orel", desc:"lv:Soyuz-5", stat:"pl", 
+ptknp: {name:"Orel", desc:"lv:Angara-A5M", stat:"pl", 
   parts:[
     {names:"Орёл;PTK-NP:Pilotiruemyi Transportny Korabl Novogo Pokoleniya (New Generation Piloted Transport Ship)", type:"fbm", dest:"lun", ctry:"ru", desc:"ag:rosc;m:21370kg;Uncrewed test flight;sc:0.7", id:"", url:"rsw:www.russianspaceweb.com/spacecraft_manned_2010s.html", icon:"federatsia.png"},
     {type:"erm", dest:"ter"}], 
   events:[
-    {pt:"", type:"l", dt:"2025", loc:"ter:bai", desc:""},
+    {pt:"", type:"l", dt:"2025", loc:"ter:vos", desc:""},
     {pt:"", type:"fb", dt:"l+4dy", loc:"lun", desc:""},
     {pt:"", type:"edl", dt:"l+8dy", loc:"ter", desc:"eom"}
 ]},
@@ -3452,7 +3452,7 @@ change8: {name:"Chang'e 8", desc:"lv:CZ-5",
     {pt:"0", type:"nom", dt:"l+1yr", loc:"lun", desc:"lp;?"},
     {pt:"1", type:"nom", dt:"l+2yr", loc:"lun", desc:"op;?"}
 ]},
-venerad: {name:"Venera-D", desc:"lv:Angara-A5/Briz-M",
+venerad: {name:"Venera-D", desc:"lv:Angara-A5M/Blok-DM",
   parts:[
     {names:"Венера-Д", type:"om", dest:"ven", stat:"pl", ctry:"ru", desc:"ag:rosc,iki;m:3600kg;sc:0.7", id:"", url:"hp:venera-d.cosmos.ru/index.php?id=658&L=2", icon:"venera-d.png"},
     {names:"", type:"slm", dest:"ven", stat:"pl", ctry:"ru", desc:"", id:"", url:"", icon:""}], 
