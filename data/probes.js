@@ -3192,9 +3192,9 @@ novac: {name:"NOVA-C", desc:"lv:Falcon 9",
   parts:[
     {names:"", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Intuitive Machines;fam:clps;m:1700kg;sc:0.3", id:"", url:"hp:intuitivemachines.com/lunarlander;clps:nasa.gov/content/commercial-lunar-payload-services", icon:"novac.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2021-07", loc:"ter:cap", desc:""},
-    {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:"Oceanus Procellarum"},
-    {pt:"", type:"nom", dt:"l+2mo", loc:"lun", desc:""}
+    {pt:"", type:"l", dt:"2021-10", loc:"ter:cap", desc:""},
+    {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:"Vallis Schröteri , Oceanus Procellarum"},
+    {pt:"", type:"nom", dt:"l+20dy", loc:"lun", desc:""}
 ]},
 // --- 2022
 // Gateway PPE nrho
