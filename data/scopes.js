@@ -226,7 +226,7 @@ cheops:{name:"CHEOPS:CHaracterising ExOPlanets Satellite", url:"hp:cheops.unibe.
     {n:"", ctry:"eu", type:"opt;nir", pur:"exo", id:"2019-092B", icon:"cheops.png", desc:""}
   ], ev: [
     {pt:"", dt:"2019-12-18", tp:"l", loc:"ter:kou:ELS", desc:""},
-    {pt:"", dt:"2019-12-18", tp:"sco", loc:"ter:sseo:598x709kmx98.2deg", desc:""},
+    {pt:"", dt:"2020-04-16", tp:"sco", loc:"ter:sseo:598x709kmx98.2deg", desc:""},
     {pt:"", dt:"2023-06", tp:"nom", loc:"ter:sseo", desc:""},
   ], inst: [
     {n:"", band:"330..1100nm", res:"", d:"0.32", px:"1.125", fov:"0.32x0.32deg", desc:"c:nb;cl:nl;"}
