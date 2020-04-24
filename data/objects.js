@@ -1675,7 +1675,7 @@ nama:
 mak:
   {name:"Makemake", other:"2005 FY9", desig:"136472", type:"d", par:"sol", disc:"M.E. Brown et al.", dyr:"2005",
    a:"45.791au", e:"0.159", i:"28.96", per:"309.88a", rot:"7.771h", gr:"cube",
-   h:"-0.2", mass:"4.4e21kg", dia:"1502x1430km", rad:"751x715", tilt:"",
+   h:"-0.2", mass:"3.1e21kg", dia:"1502x1430km", rad:"751x715", tilt:"",
    alb:"0.77", grav:"0.038", 
    comp:"CH4+C2H6 (S)", dens:"2.3", atm:"", atp:"", temp:"32..44K",
    img:"makemake.png", col:"", desc:"sc:3;url:solarsystem.nasa.gov/planets/dwarf-planets/makemake/in-depth/;orb:ec.2000-01-01"},
@@ -1683,7 +1683,7 @@ mk2:
   {name:"MK2", other:"S/2015 (136472) 1", desig:"I", type:"m", par:"mak", disc:"A.H. Parker et al.", dyr:"2015",
    a:"21000", e:"", i:"", per:"12.4d", rot:"",
    h:"", mass:"2.8e18kg", dia:"175km", rad:"87.5", tilt:"",
-   alb:"~0.04", grav:"", comp:"", dens:"1.0", temp:"",
+   alb:"0.01", grav:"", comp:"", dens:"1.0", temp:"",
    img:"", desc:"sc:3;url:solarsystem.nasa.gov/planets/dwarf-planets/makemake/in-depth/;orb:"},
 //KBOs
 qua:
@@ -1760,22 +1760,40 @@ ixi:
    img:"", col:"", desc:"sc:3;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=28978;orb:ec.2006-12-31"},
 "2002aw197":
   {name:"2002 AW197", other:"", desig:"55565", type:"t", par:"sol", disc:"M.E. Brown et al.", dyr:"2002",
-   a:"47.507au", e:"0.130", i:"24.333", per:"327.45a", rot:"8.86h", gr:"cube",
-   h:"3.6", mass:"", dia:"740km", rad:"370", tilt:"", alb:"0.17", grav:"", 
-   comp:"", dens:"", atm:"", atp:"", temp:"~40K",
+   a:"47.507au", e:"0.132", i:"24.333", per:"327.45a", rot:"8.86h", gr:"cube",
+   h:"3.57", mass:"4.1e20", dia:"740km", rad:"370", tilt:"", alb:"0.112", grav:"", 
+   comp:"", dens:"2.0", atm:"", atp:"", temp:"~40K",
    img:"", col:"", desc:"sc:3;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=55565;orb:ec.2006-12-31"},
 "2013fy27":
-  {name:"2013 FY27", other:"", desig:"", type:"t", par:"sol", disc:"S. Sheppard et al.", dyr:"2013",
-   a:"59.1au", e:"0.396", i:"33.13", per:"455a", rot:"", gr:"sdo",
-   h:"3.0", mass:"", dia:"1000km", rad:"500", tilt:"", alb:"~0.1", grav:"", 
+  {name:"2013 FY27", other:"", desig:"532037", type:"t", par:"sol", disc:"S. Sheppard et al.", dyr:"2013",
+   a:"58.78au", e:"0.399", i:"33.16", per:"455a", rot:"", gr:"sdo",
+   h:"3.2", mass:"", dia:"740km", rad:"370", tilt:"", alb:"0.17", grav:"", 
    comp:"", dens:"", atm:"", atp:"", temp:"",
    img:"", col:"", desc:"sc:3;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=2013+FY27;orb:ec.2013-07-24"},
 "2012vp113":
   {name:"2012 VP113", other:"", desig:"", type:"t", par:"sol", disc:"S. Sheppard et al.", dyr:"2012",
-   a:"263au", e:"0.696", i:"24.024", per:"4268a", rot:"", gr:"deto",
-   h:"4.0", mass:"", dia:"~500km", rad:"~250", tilt:"", alb:"~0.15", grav:"", 
+   a:"257.67au", e:"0.6879", i:"24.11", per:"4268a", rot:"", gr:"deto",
+   h:"4.0", mass:"", dia:"~500km", rad:"~250", tilt:"", alb:"0.15", grav:"", 
    comp:"", dens:"", atm:"", atp:"", temp:"",
    img:"", col:"", desc:"sc:3;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=2012+VP113;orb:ec.2014-12-09"},
+"chaos":
+  {name:"Chaos", other:"1998 WH24", desig:"19521", type:"t", par:"sol", disc:"Deep Ecliptic Survey", dyr:"1998",
+   a:"45.796au", e:"0.1057", i:"12.05", per:"309.92a", rot:"3.985d", gr:"cube",
+   h:"4.8", mass:"", dia:"~600km", rad:"~300", tilt:"", alb:"0.05", grav:"", 
+   comp:"", dens:"", atm:"", atp:"", temp:"",
+   img:"", col:"", desc:"sc:3;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=1998+WH24;orb:ec.2014-12-09"},
+"2007uk126":
+  {name:"Gǃkúnǁʼhòmdímà", other:"2007 UK126", desig:"229762", type:"t", par:"sol", disc:"M.E. Schwamb et al.", dyr:"2007",
+   a:"72.722au", e:"0.4843", i:"23.38", per:"620.17a", rot:"11.05d", gr:"sdo",
+   h:"3.3", mass:"1.361e20", dia:"~600km/0.11", rad:"~300/0.11", tilt:"", alb:"0.15", grav:"", 
+   comp:"", dens:"", atm:"", atp:"", temp:"50..55K",
+   img:"", col:"", desc:"sc:3;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=2007+UK126;orb:ec.2019-04-27"},
+"S2008_229762_1":
+  {name:"Gǃòʼé ǃHú", other:"S/2008 (229762) 1", desig:"I", type:"m", par:"2007uk126", disc:"Noll et al.", dyr:"2008",
+   a:"6035km", e:"0.0236", i:"43.75", per:"11.315d", rot:"",
+   h:"", mass:"", dia:"140km", rad:"70", tilt:"",
+   alb:"", grav:"", comp:"", dens:"", temp:"",
+   img:"", desc:"sc:3;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=2007+UK126;orb:eq.2000-01-01"},
 //1994 JR1, 
 "2014mu69":
   {name:"Arrokoth", other:"2014 MU69", desig:"486958", type:"t", par:"sol", disc:"HST", dyr:"2014",

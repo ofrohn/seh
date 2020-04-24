@@ -2995,7 +2995,7 @@ mars2020rover: {name:"Perseverance", desc:"lv:Atlas V 541",
   events:[
     {pt:"", type:"l", dt:"2020-07-17", loc:"ter:cap:SLC-41", desc:""},
     {pt:"", type:"toi", dt:"l+1dy", loc:"sol:hto", desc:""},
-    {pt:"", type:"edl", dt:"2021-02", loc:"mar:18.5N,77.5E", desc:"Jezero Crater;show:Perseverance"},
+    {pt:"", type:"edl", dt:"2021-02-18", loc:"mar:18.5N,77.5E", desc:"Jezero Crater;show:Perseverance"},
     {pt:"", type:"tos", dt:"2021-03", loc:"mar", desc:"eom:dm;Helicopter probe"},
     {pt:"", type:"nom", dt:"2023-01", loc:"mar", desc:"?"},
     {pt:"", type:"pom", dt:"l+10yr", loc:"mar", desc:"?"}
@@ -3018,8 +3018,8 @@ emm: {name:"Al Amal:Hope", desc:"lv:H-IIA 202",
   parts:[
     {names:"مسبار الأمل;EMM:Emirates Mars Mission", type:"om", dest:"mar", stat:"pl", ctry:"ue", desc:"ag:uaesa;m:1500kg;dim:7.9x3x3.5m;sc:0.5", id:"", url:"hp:www.emiratesmarsmission.ae/;MBRSC:www.mbrsc.ae/emirates-mars-mission;tw:twitter.com/HopeMarsMission", icon:"emm.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2020-07", loc:"ter:tng", desc:""},
-    {pt:"", type:"toi", dt:"2020-07", loc:"sol:hto", desc:""},
+    {pt:"", type:"l", dt:"2020-07-14", loc:"ter:tng", desc:""},
+    {pt:"", type:"toi", dt:"2020-07-14", loc:"sol:hto", desc:""},
     {pt:"", type:"oi", dt:"2021-01", loc:"mar:1000x49380kmx20deg", desc:""},
     {pt:"", type:"sco", dt:"2021-04", loc:"mar:20000x43000kmx25deg", desc:""},
     {pt:"", type:"nom", dt:"2023-03", loc:"mar", desc:""},
