@@ -3000,16 +3000,16 @@ mars2020rover: {name:"Perseverance", desc:"lv:Atlas V 541",
     {pt:"", type:"nom", dt:"2023-01", loc:"mar", desc:"?"},
     {pt:"", type:"pom", dt:"l+10yr", loc:"mar", desc:"?"}
 ]},
-mgrso: {name:"Huoxing-1:Mars-1", desc:"lv:CZ-5",
+mgrso: {name:"Tianwen-1:Skyprobe-1", desc:"lv:CZ-5",
   parts:[
-    {names:"火星一号;MGRSO:Mars Global Remote Sensing Orbiter", type:"om", dest:"mar", stat:"pl", ctry:"cn", desc:"ag:cnsa;m:2350kg;sc:1", id:"", url:"China Space Report:chinaspacereport.com/unmanned/planetary/mars-mission/", icon:"mgrso.png"},
+    {names:"天问一号;MGRSO:Mars Global Remote Sensing Orbiter", type:"om", dest:"mar", stat:"pl", ctry:"cn", desc:"ag:cnsa;m:3175kg;sc:1", id:"", url:"China Space Report:chinaspacereport.com/unmanned/planetary/mars-mission/", icon:"mgrso.png"},
     {names:"", type:"slm", dest:"mar", stat:"pl", ctry:"cn", desc:"ag:cnsa", id:"", url:"", icon:"mgrso-l.png"}, 
-    {names:"{HX-1 Rover}", type:"rvm", dest:"mar", stat:"pl", ctry:"cn", desc:"m:240kg;ag:cnsa", id:"", url:"", icon:"mgrso-rv.png"}], 
+    {names:"Lu Zhenrong;露真容", type:"rvm", dest:"mar", stat:"pl", ctry:"cn", desc:"m:240kg;ag:cnsa", id:"", url:"", icon:"mgrso-rv.png"}], 
   events:[
     {pt:"", type:"l", dt:"2020-07-23", loc:"ter:wen:LC-101", desc:""},
     {pt:"", type:"toi", dt:"2020-07-23", loc:"sol:hto", desc:""},
-    {pt:"", type:"oi", dt:"l+7mo", loc:"mar", desc:"10 day polar orbit"},
-    {pt:"1", type:"edl", dt:"l+10mo", loc:"mar:26.9N,135.7E", desc:"lp;Utopia Planitia;show:Huoxing-1:NE"},
+    {pt:"", type:"oi", dt:"2021-02-11", loc:"mar", desc:"10 day polar orbit"},
+    {pt:"1", type:"edl", dt:"2021-04-23", loc:"mar:26.9N,135.7E", desc:"lp;Utopia Planitia;show:Tianwen-1:NE"},
     {pt:"2", type:"nom", dt:"l+13mo", loc:"mar", desc:"rvp;eom:slm;eom:rvm"},
     {pt:"0", type:"sco", dt:"l+13mo", loc:"mar:500x100000kmx85deg", desc:""},
     {pt:"0", type:"nom", dt:"2023", loc:"mar", desc:"op;?"}
