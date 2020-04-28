@@ -3652,7 +3652,7 @@ mars2020rover: {name:"Perseverance", desc:"lv:Atlas V 541",
     {pt:"", type:"nom", dt:"2023-01", loc:"mar", desc:"?"},
     {pt:"", type:"pom", dt:"l+10yr", loc:"mar", desc:"?"}
 ]},
-mgrso: {name:"Tianwen-1:Skyprobe-1", desc:"lv:CZ-5",
+mgrso: {name:"Tianwen-1:Skyquest-1", desc:"lv:CZ-5",
   parts:[
     {names:"天问一号;MGRSO:Mars Global Remote Sensing Orbiter", type:"om", dest:"mar", stat:"pl", ctry:"cn", desc:"ag:cnsa;m:3175kg;sc:1", id:"", url:"China Space Report:chinaspacereport.com/unmanned/planetary/mars-mission/", icon:"mgrso.png"},
     {names:"", type:"slm", dest:"mar", stat:"pl", ctry:"cn", desc:"ag:cnsa", id:"", url:"", icon:"mgrso-l.png"}, 
@@ -3711,7 +3711,7 @@ em1: {name:"Artemis-1", desc:"lv:SLS 1", stat:"pl",
 ]},
 em1lcube: {name:"Artemis-1 Lunar Cubesats", desc:"lv:SLS;part:em1;6U CubeSats", stat:"pl", 
   parts:[
-    {names:"Lunar Flashlight", type:"om", dest:"lun", ctry:"us", desc:"ag:nasa,jpl;m:~12kg;dim:0.7x0.7x0.3m;sc:0.2", id:"", url:"Flashlight:sservi.nasa.gov/articles/lunar-flashlight/", icon:"lunar-flashlight.png"},
+    {names:"Lunar Flashlight", type:"om", dest:"lun", ctry:"us", desc:"ag:nasa,jpl;m:~12kg;dim:0.7x0.7x0.3m;sc:0.2", id:"", url:"Flashlight:www.jpl.nasa.gov/missions/lunar-flashlight/", icon:"lunar-flashlight.png"},
     {names:"Lunar IceCube", type:"om", dest:"lun", ctry:"us", desc:"ag:nasa,gsfc;m:~14kg;dim:0.7x0.2x0.3m;sc:1", id:"", url:"IceCube:www.nasa.gov/feature/goddard/lunar-icecube-to-take-on-big-mission-from-small-package", icon:"icecube.png"},
     {names:"LunaH-Map:Lunar Polar Hydrogen Mapper", type:"om", dest:"lun", ctry:"us", desc:"ag:nasa,asu;sc:0.6", id:"", url:"H-Map:www.nasa.gov/feature/lunah-map-university-built-cubesat-to-map-water-ice-on-the-moon;ASU:lunahmap.asu.edu/;tw:twitter.com/lunahmap", icon:"lunahmap.png"},
     {names:"OMOTENASHI:Outstanding Moon exploration Technologies demonstrated by Nano Semi-Hard Impactor", type:"im", dest:"lun", ctry:"jp", desc:"ag:jaxa;sc:0.6", id:"", url:"hp:www.isas.jaxa.jp/home/omotenashi/index.html;tw:twitter.com/OMOTENASHI_JAXA", icon:"omotenashi.png"},
