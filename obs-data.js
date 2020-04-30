@@ -1888,8 +1888,8 @@ sunrise:{name:"SunRISE:Sun Radio Interferometer Space Experiment", url:"hp:www.j
     {n:"", id:"", ctry:"us", type:"r", pur:"sol", icon:"sunrise.png", desc:"6 6U Cubesats"}
   ], ev: [
     {pt:"", dt:"2023-07", tp:"l", loc:"ter:cap", desc:""},
-    {pt:"", dt:"2023-07", tp:"sco", loc:"ter:gto", desc:""},
-    {pt:"", dt:"2024-07", tp:"nom", loc:"ter:gto", desc:""}
+    {pt:"", dt:"2023-07", tp:"sco", loc:"ter:geo", desc:""},
+    {pt:"", dt:"2024-07", tp:"nom", loc:"ter:geo", desc:""}
   ], inst: [
     {n:"", band:"0.1..25MHz", d:10000, px:null, desc:"c:nr;cl:ny;"}
 ]},
