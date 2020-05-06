@@ -3198,7 +3198,6 @@ novac: {name:"NOVA-C", desc:"lv:Falcon 9",
     {pt:"", type:"nom", dt:"l+20dy", loc:"lun", desc:""}
 ]},
 // --- 2022
-// Gateway PPE nrho
 destinyplus:{name:"DESTINY+:Demonstration and Experiment of Space Technology for INterplanetary voYage Phaethon fLyby dUSt science", desc:"lv:Epsilon-2", stat:"pl", 
   parts: [
     {names:"深宇宙探査技術実験ミッション", ctry:"jp", type:"fbm", dest:"ast", id:"", icon:"destinyplus.png", desc:"ag:jaxa,isas;Interplanetary dust observation;m:480kg;m0:;sc:0.7", url:"hp:destiny.isas.jaxa.jp/DestinyPlus%202017.html"}], 
@@ -3288,6 +3287,7 @@ xl1: {name:"XL-1", desc:"",
     {pt:"", type:"nom", dt:"l+12dy", loc:"lun", desc:""}
 ]},
 // --- 2023
+// Gateway PPE & HALO nrho
 change7: {name:"Chang'e 7", desc:"lv:CZ-5",
   parts:[
     {names:"嫦娥 7", type:"slm", dest:"lun", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:clep;m:8200kg;sc:0.3;w:0.67", id:"", url:"", icon:"chang-e7.png"},

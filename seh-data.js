@@ -3850,7 +3850,6 @@ novac: {name:"NOVA-C", desc:"lv:Falcon 9",
     {pt:"", type:"nom", dt:"l+20dy", loc:"lun", desc:""}
 ]},
 // --- 2022
-// Gateway PPE nrho
 destinyplus:{name:"DESTINY+:Demonstration and Experiment of Space Technology for INterplanetary voYage Phaethon fLyby dUSt science", desc:"lv:Epsilon-2", stat:"pl", 
   parts: [
     {names:"深宇宙探査技術実験ミッション", ctry:"jp", type:"fbm", dest:"ast", id:"", icon:"destinyplus.png", desc:"ag:jaxa,isas;Interplanetary dust observation;m:480kg;m0:;sc:0.7", url:"hp:destiny.isas.jaxa.jp/DestinyPlus%202017.html"}], 
@@ -3940,6 +3939,7 @@ xl1: {name:"XL-1", desc:"",
     {pt:"", type:"nom", dt:"l+12dy", loc:"lun", desc:""}
 ]},
 // --- 2023
+// Gateway PPE & HALO nrho
 change7: {name:"Chang'e 7", desc:"lv:CZ-5",
   parts:[
     {names:"嫦娥 7", type:"slm", dest:"lun", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:clep;m:8200kg;sc:0.3;w:0.67", id:"", url:"", icon:"chang-e7.png"},
@@ -6439,8 +6439,8 @@ cz-8
 //CZ-4B
 "CZ-4B": {n:"Long March 4B", alt:"长征四号乙火箭", ctry:"cn", m:"249200", pm:"4200/1500/1000",  d:"45.8x3.35", pf:"x3.35", dt:"1999-05-10..", st:"3", ust:"", th:"2962", fam:"Long March", desc:"l:jiu,tai;ag:cnsa", fuel:"UDMH/N2O4", icon:"CZ-4B.png"},
 //CZ-5
-"CZ-5": {n:"Long March 5", alt:"长征五号运载火箭", ctry:"cn", m:"867000", pm:"25000/13000/8000",  d:"57x5", pf:"12x5.2", dt:"2016..", st:"2/4", ust:"Yuanzheng", th:"12116", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"LH2/LOX+KeroLOX", icon:"CZ-5.png"},
-"CZ-5B": {n:"Long March 5B", alt:"长征五号乙运载火箭", ctry:"cn", m:"837500", pm:"23000/-/-",  d:"45x5", pf:"12x5.2", dt:"2020..", st:"1/4", ust:"", th:"12116", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"LH2/LOX+KeroLOX", icon:"CZ-5B.png"},
+"CZ-5": {n:"Long March 5", alt:"长征五号", ctry:"cn", m:"867000", pm:"25000/13000/8000",  d:"62x5", pf:"12x5.2", dt:"2016-11-06..", st:"2/4", ust:"Yuanzheng", th:"12116", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"LH2/LOX+KeroLOX", icon:"CZ-5.png"},
+"CZ-5B": {n:"Long March 5B", alt:"长长征五号乙", ctry:"cn", m:"837500", pm:"23000/-/-",  d:"53.7x5", pf:"12-20.5x5.2", dt:"2020-05-05..", st:"1/4", ust:"", th:"12116", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"LH2/LOX+KeroLOX", icon:"CZ-5B.png"},
 //CZ-6, CZ-6A
 //CZ-7, CZ-7A
 "CZ-7": {n:"Long March 7", alt:"长征七号运载火箭", ctry:"cn", m:"594000", pm:"13500/5500/-", d:"53.1x3.35", pf:"12.7x4.2", dt:"2016-06-24..", st:"2/4", ust:"YZ-1A", th:"7200", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"CZ-7.png"},
