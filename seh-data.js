@@ -3548,7 +3548,7 @@ change4: {name:"Chang'e 4", desc:"lv:CZ-3B/G3Z",
     {pt:"", type:"sco", dt:"2018-12-30", loc:"lun:100x15kmx90deg", desc:""},
     {pt:"", type:"td", dt:"2019-01-03", loc:"lun:45.471S,177.606E", desc:"Statio Tianhe, Von Karman crater, SPA;show:CE4:NW"},
     {pt:"", type:"sep", dt:"2019-01-03", loc:"lun", desc:"lp/rvp"}, 
-    {pt:"1", type:"ex", dt:"", loc:"lun", desc:"rvp;rv:424m"},    
+    {pt:"1", type:"ex", dt:"", loc:"lun", desc:"rvp;rv:448m"},    
     {pt:"1", type:"nom", dt:"2020-10", loc:"lun", desc:"rvp;?;eom:rvm"},
     {pt:"0", type:"nom", dt:"2021-12", loc:"lun", desc:"lp;?"}
 ]},
