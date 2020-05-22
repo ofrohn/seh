@@ -2787,7 +2787,7 @@ osirisrex: {name:"OSIRIS-REx:Origins-Spectral Interpretation-Resource Identifica
     {pt:"", type:"obs", dt:"2019-09", loc:"ast", desc:"Detailed survey of candidate sample sites"},
     {pt:"", type:"app", dt:"2020-04-14", loc:"ast:75m", desc:"Sample acquisition rehearsal 1"},
     {pt:"", type:"app", dt:"2020-06", loc:"ast", desc:"Sample acquisition rehearsal 2"},
-    {pt:"", type:"td", dt:"2020-08", loc:"ast", desc:"Sample acquisition;Nightingale crater"},
+    {pt:"", type:"td", dt:"2020-10-20", loc:"ast", desc:"Sample acquisition;Nightingale crater"},
     {pt:"", type:"dep", dt:"2021-03-03", loc:"ast", desc:""},
     {pt:"", type:"edl", dt:"2023-09-24", loc:"ter", desc:"src;UTTR, Utah;"}
 ]},

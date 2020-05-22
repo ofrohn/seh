@@ -1353,9 +1353,9 @@ wind:{name:"WIND", url:"hp:wind.nasa.gov/;ucb:cse.ssl.berkeley.edu/stereo_solarw
     {n:"TGRS:Transient Gamma-Ray Spectrometer", tp:"sp", band:"2.42E+18..2.42E+21", url:"lheawww.gsfc.nasa.gov/docs/gamcosray/legr/tgrs/tgrs_home.html", desc:""},
     {n:"KRONUS", band:"", res:"", url:"", desc:""}
 ]},
-wfirst:{name:"WFIRST:Widefield Infrared Survey Explorer", url:"hp:wfirst.gsfc.nasa.gov;tw:twitter.com/NASAWFIRST", desc:"ag:nasa;lv:Falcon Heavy;sc:0.9;x:40;y:0", stat:"pl", 
+wfirst:{name:"NGRST:Nancy Grace Roman Space Telescope", url:"hp:wfirst.gsfc.nasa.gov;tw:twitter.com/NASAWFIRST", desc:"ag:nasa;lv:Falcon Heavy;sc:0.9;x:40;y:0", stat:"pl", 
   parts: [
-    {n:"AFTA:Astrophysics Focused Telescope Assets", ctry:"us", type:"nir", pur:"sur", id:"", icon:"wfirst.png", desc:""}
+    {n:"WFIRST:Widefield Infrared Survey Explorer", ctry:"us", type:"nir", pur:"sur", id:"", icon:"ngrst.png", desc:""}
   ], ev: [
     {pt:"", dt:"2026", tp:"l", loc:"ter", desc:""},
     {pt:"", dt:"2026", tp:"sco", loc:"ter:esl2", desc:"or GEO"},
