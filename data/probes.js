@@ -3428,9 +3428,9 @@ dragonfly: {name:"Dragonfly", desc:"", stat:"pl",
     {pt:"", type:"edl", dt:"2034", loc:"tita", desc:"Shangri-La"},
     {pt:"", type:"nom", dt:"2037", loc:"tita", desc:"rv:175km;?"}
 ]},
-heracles: {name:"Heracles", desc:"lv:Ariane 6",
+heracles: {name:"HERACLES:Human-Enhanced Robotic Architecture and Capability for Lunar Exploration and Science", desc:"lv:Ariane 64",
   parts:[
-    {names:"ELLL:European Large Lunar Lander", type:"srm", dest:"lun", stat:"pl", ctry:"eu", desc:"ag:esa;sc:0.3", id:"", url:"hp:www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Exploration/Landing_on_the_Moon_and_returning_home_Heracles", icon:"heracles.png"},
+    {names:"EL3:European Large Lunar Lander", type:"srm", dest:"lun", stat:"pl", ctry:"eu", desc:"ag:esa;sc:0.3", id:"", url:"hp:www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Exploration/Landing_on_the_Moon_and_returning_home_Heracles", icon:"heracles.png"},
     {names:"{LDE:Lunar Descent Element", type:"slm", dest:"lun", stat:"pl", ctry:"jp", desc:"ag:jaxa", icon:""},
     {names:"{Heracles Rover}", type:"rvm", dest:"lun", stat:"pl", ctry:"ca", desc:"ag:csa", icon:""}],
   events:[
