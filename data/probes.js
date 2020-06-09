@@ -2617,7 +2617,7 @@ msl: {name:"Curiosity", desc:"lv:Atlas V 541",
     {pt:"", type:"ev", dt:"2012-08-15..2013-06-05", loc:"mar", desc:"Instrument checkout;Drive to Glenelg"},
     {pt:"", type:"arr", dt:"2014-09-11", loc:"mar", desc:"Mt. Sharp"},
     {pt:"", type:"obs", dt:"2014-10-19", loc:"mar", desc:"Comet C 2013 A1 Siding Spring"},
-    {pt:"", type:"ex", dt:"", loc:"mar", desc:"Drive up Mt. Sharp;rv:22km;and counting"},
+    {pt:"", type:"ex", dt:"", loc:"mar", desc:"Drive up Mt. Sharp;rv:22.2km;and counting"},
     {pt:"", type:"nom", dt:"2022-09-30", loc:"mar", desc:"pend"},
     {pt:"", type:"pom", dt:"2024-11-15", loc:"mar", desc:"?"}
 ]},
