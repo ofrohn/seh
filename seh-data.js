@@ -3645,7 +3645,7 @@ mars2020rover: {name:"Perseverance", desc:"lv:Atlas V 541",
     {names:"Mars 2020 Rover", type:"rvm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;m:1050kg;dim:3.0x2.7x2.2m;sc:0.5;Sample Caching Mission", id:"", url:"hp:www.nasa.gov/mars2020;tw:twitter.com/NASAPersevere", icon:"mars2020.png"},
     {names:"Ingenuity;MHS:Mars Helicopter Scout", type:"dm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;m:1.8kg;dim:;sc:0.7;", id:"", url:"", icon:"ingenuity.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2020-07-17", loc:"ter:cap:SLC-41", desc:""},
+    {pt:"", type:"l", dt:"2020-07-20", loc:"ter:cap:SLC-41", desc:""},
     {pt:"", type:"toi", dt:"l+1dy", loc:"sol:hto", desc:""},
     {pt:"", type:"edl", dt:"2021-02-18", loc:"mar:18.5N,77.5E", desc:"Jezero Crater;show:Perseverance"},
     {pt:"", type:"tos", dt:"2021-03", loc:"mar", desc:"eom:dm;Helicopter probe"},
@@ -3924,7 +3924,7 @@ zhenghe: {name:"Zheng He", desc:"lv:CZ-3B",
 ]},
 viper: {name:"VIPER:Volatiles Investigating Polar Exploration Rover", desc:"lv:TBA",
   parts:[
-    {names:"", type:"rvm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,ames,jsc;m:400kg;dim:1.5x1.5x2m;fam:CLPS;sc:0.25", id:"", url:"www.nasa.gov/feature/new-viper-lunar-rover-to-map-water-ice-on-the-moon", icon:"viper.png"}], 
+    {names:"", type:"rvm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,ames,Astrobotic,jsc;m:400kg;dim:1.5x1.5x2m;fam:CLPS;sc:0.25", id:"", url:"www.nasa.gov/feature/new-viper-lunar-rover-to-map-water-ice-on-the-moon", icon:"viper.png"}], 
   events:[
     {pt:"", type:"l", dt:"2022-12", loc:"ter:cap", desc:""},
     {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:"South pole"},
