@@ -3180,6 +3180,7 @@ slim:{name:"SLIM:Smart Lander for Investigating Moon", desc:"lv:H-IIA 202", stat
     {pt:"", type:"td", dt:"l+1mo", loc:"lun:13.3S,25.2E", desc:"Mare Nectaris"},
     {pt:"", type:"nom", dt:"l+1.1mo", loc:"lun", desc:"?"}
 ]},
+//CubeRover
 peregrine: {name:"Peregrine", desc:"lv:Vulcan Centaur-522",
   parts:[
     {names:"M1:Mission 1", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Astrobotic;fam:clps;dim:1.9x1.9x2.5m;m:1313kg;sc:0.3", id:"", url:"hp:www.astrobotic.com/peregrine;clps:nasa.gov/content/commercial-lunar-payload-services", icon:"peregrin.png"}], 
@@ -3272,9 +3273,10 @@ zhenghe: {name:"Zheng He", desc:"lv:CZ-3B",
 ]},
 viper: {name:"VIPER:Volatiles Investigating Polar Exploration Rover", desc:"lv:TBA",
   parts:[
-    {names:"", type:"rvm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,ames,Astrobotic,jsc;m:400kg;dim:1.5x1.5x2m;fam:CLPS;sc:0.25", id:"", url:"www.nasa.gov/feature/new-viper-lunar-rover-to-map-water-ice-on-the-moon", icon:"viper.png"}], 
+    {names:"", type:"rvm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,ames,jsc;m:420kg;dim:1.5x1.5x2m;fam:clps;sc:0.25", id:"", url:"hp:www.nasa.gov/viper", icon:"viper.png"},
+    {names:"Griffin Lander", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Astrobotic;fam:clps", id:"", url:"Griffin:www.astrobotic.com/griffin", icon:"griffin.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2022-12", loc:"ter:cap", desc:""},
+    {pt:"", type:"l", dt:"2023", loc:"ter:cap", desc:""},
     {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:"South pole"},
     {pt:"", type:"nom", dt:"l+100d", loc:"lun", desc:""}
 ]},

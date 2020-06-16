@@ -1057,15 +1057,15 @@ gaia:{name:"Gaia", url:"hp:gaia.esa.int/;tw:twitter.com/ESAGaia", desc:"ag:esa;l
   ], inst: [
     {n:"ASTRO", band:"2.86E+14..9.37E+14", res:"0.118", d:0.975, px:0.118, desc:"c:nr;cl:nl;"}
 ]},
-/*gamma400:{name:"Gamma-400", url:"hp:gamma400.lebedev.ru/indexeng.html", desc:"ag:lebedev,rosc;sc:0.8;x:-100;y:-30", stat:"pl", 
+gamma400:{name:"Gamma-400", url:"hp:gamma400.lebedev.ru/indexeng.html", desc:"ag:lebedev,rosc;sc:0.8;x:-100;y:-30", stat:"pl", 
   parts: [
     {n:"",  ctry:"ru", type:"g;par", pur:"grb;cr;dm", id:"", icon:"gamma400.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2018", tp:"l", loc:"ter:bai?", desc:""},
+    {pt:"", dt:"2030", tp:"l", loc:"ter:bai?", desc:""},
     {pt:"", dt:"", tp:"sco", loc:"ter:heeo:300000x500kmx51.8deg", desc:""}
   ], inst: [
     {n:"", band:"100MeV..3000GeV", res:"36", sres:"1", ea:"1", desc:"c:n;cl:nlcol:#fdf"}
-]},*/
+]},
 galex:{name:"GALEX:GALaxy Evolution eXplorer", url:"hp:www.galex.caltech.edu/", desc:"lv:Pegasus XL;fam:smex;ag:nasa;m:312kg", stat:"s", 
   parts: [
     {n:"", ctry:"us", type:"uv", pur:"sur", id:"2003-017A", icon:"galex.png", desc:""}
