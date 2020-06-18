@@ -3364,6 +3364,14 @@ mmx: {name:"MMX:Martian Moons eXploration", desc:"lv:H-III",
     {pt:"", type:"oi", dt:"2028-08", loc:"sol:ho", desc:"ETO"},
     {pt:"", type:"edl", dt:"2029-09", loc:"ter", desc:"eom"}
 ]},
+swfol1: {name:"SWFO-L1:Space Weather Follow-On L1", desc:"",
+  parts:[
+    {names:"", type:"obm", dest:"sol", stat:"pl", ctry:"us", desc:"ag:nasa,noaa;m:400kg;sc:0.75;Heliophysics Observatory", id:"", url:"hp:swww.nesdis.noaa.gov/OPPA/swfo-L1.php", icon:"swfo-l1.png"}], 
+  events:[
+    {pt:"", type:"l", dt:"2024", loc:"ter:cap:LC-36B", desc:""},
+    {pt:"", type:"sco", dt:"2024", loc:"sol:esl1", desc:"Halo Orbit"},
+    {pt:"", type:"pom", dt:"2034", loc:"esl1", desc:""}    
+]},
 em3: {name:"Artemis-3", desc:"lv:SLS 1B", stat:"pl", 
   parts:[
     {names:"EM-3:Exploration Mission 3", type:"hm", dest:"lun", ctry:"us;eu", desc:"ag:nasa,jsc,esa;m:21250kg;sc:0.6;ESPRIT Module", id:"", url:"hp:www.nasa.gov/exploration/home/index.html;esa:www.esa.int/Our_Activities/Human_Spaceflight/Orion", icon:"orion.png"}],

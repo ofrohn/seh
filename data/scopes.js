@@ -443,9 +443,9 @@ goes:{name:"GOES:Geostationary Operational Environmental Satellite", ctry:"us", 
     {n:"GOES 15", id:"2010-088A", type:"x", pur:"sol;w", desc:"lv:Delta 4M+(4,2)", icon:"goes-nop.png"},
     {n:"GOES 16", url:"www.goesr.gov", id:"2016-071A", type:"uv,x", pur:"sol;w", stat:"o", desc:"lv:Atlas V 541"}, 
     {n:"GOES 17", id:"2018-022A", type:"uv,x", pur:"sol;w", stat:"o", desc:"lv:Atlas V 541"}, 
-    {n:"GOES-T", id:"", type:"uv,x", pur:"sol;w", stat:"pl", desc:"lv:Atlas V 541"}], 
-    // GOES U
-  ev: [
+    {n:"GOES-T", id:"", type:"uv,x", pur:"sol;w", stat:"pl", desc:"lv:Atlas V 541"}, 
+    {n:"GOES-U", id:"", type:"uv,x", pur:"sol;w", stat:"pl", desc:"lv:"}
+  ], ev: [
     {pt:"0", dt:"2006-05-24", tp:"l", loc:"ter:cap:SLC-37B", desc:""},
     {pt:"0", dt:"2006-07-26", tp:"sco", loc:"ter:geos:35784x35790kmx0.4deg", desc:""},
     {pt:"1", dt:"2009-06-27", tp:"l", loc:"ter:cap:SLC-37B", desc:""},
@@ -455,12 +455,15 @@ goes:{name:"GOES:Geostationary Operational Environmental Satellite", ctry:"us", 
     {pt:"3", dt:"2016-11-19", tp:"l", loc:"ter:cap:SLC-41", desc:""},
     {pt:"3", dt:"2017-12-11", tp:"sco", loc:"ter:geos:", desc:"GOES East"},
     {pt:"4", dt:"2018-03-01", tp:"l", loc:"ter:cap:SLC-41", desc:""},
-    {pt:"4", dt:"2018-12", tp:"sco", loc:"ter:geos", desc:"GOES West"}
-  ], inst: [
+    {pt:"4", dt:"2018-12", tp:"sco", loc:"ter:geos", desc:"GOES West"},
+    {pt:"5", dt:"2021-12", tp:"l", loc:"ter:cap:SLC-41", desc:""},    
+    {pt:"6", dt:"2024", tp:"l", loc:"ter:cap", desc:""}
+], inst: [
     {n:"SXI:Soft X-ray Imager", band:"0.6..6nm", res:"7", url:"sxi.ngdc.noaa.gov/", desc:"c:nr;"},
     {n:"SUVI:Solar Ultraviolet Imager", band:"9.4..30.4nm", res:"", url:"www.goes-r.gov/spacesegment/suvi.html", desc:"c:nr;"},
     {n:"EUVS:Extreme Ultraviolet Sensor", type:"is", band:"5..304nm", res:"", url:"www.goes-r.gov/spacesegment/exis.html", desc:"c:nr;"},
-    {n:"XRS:X-ray Irradiance Sensor", type:"is", band:"0.05..0.8nm", res:"", url:"www.goes-r.gov/spacesegment/exis.html", desc:"c:nr;"}
+    {n:"XRS:X-ray Irradiance Sensor", type:"is", band:"0.05..0.8nm", res:"", url:"www.goes-r.gov/spacesegment/exis.html", desc:"c:nr;"},
+    {n:"CCOR:Compact Coronagraph ", band:"", tp:"im", res:"50", fov:"3-22Rsun", url:"", desc:"GOES-U only;c:;"}
 ]},
 granat:{name:"Granat", url:"hp:heasarc.nasa.gov/docs/granat/granat.html", desc:"ag:rosc,iki;lv:Proton-K/Blok-D1", stat:"s", 
   parts: [
@@ -982,9 +985,9 @@ punch:{name:"PUNCH:Polarimeter to Unify the Corona and Heliosphere", url:"hp:pun
     {n:"3", ctry:"us", type:"opt;uv", pur:"sol", id:"", icon:"punch-3.png", desc:""},
     {n:"4", ctry:"us", type:"opt;uv", pur:"sol", id:"", icon:"punch-4.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2022-08", tp:"l", loc:"ter:van", desc:""},
-    {pt:"", dt:"2022-11", tp:"sco", loc:"ter:sseo:570kmx98deg", desc:""},
-    {pt:"", dt:"2024", tp:"nom", loc:"ter:sseo", desc:""}
+    {pt:"", dt:"2023-02", tp:"l", loc:"ter:van", desc:""},
+    {pt:"", dt:"2023-05", tp:"sco", loc:"ter:sseo:570kmx98deg", desc:""},
+    {pt:"", dt:"2025", tp:"nom", loc:"ter:sseo", desc:""}
   ], inst: [
     {n:"NFI:Narrow Field Imager", band:"300..650nm", res:"", d:"", px:"", desc:"c:;cl:nl;"},
     {n:"WFI:Wide Field Imagers", band:"300..650nm", res:"", d:"", px:"", desc:"c:;cl:;"}
@@ -1270,6 +1273,18 @@ swas:{name:"SWAS:Submillimeter Wave Astronomy Satellite", url:"hp:www.cfa.harvar
 ], inst: [
     {n:"", tp:"is", band:"487..557GHz", res:"", sres:"", fov:"'", d:"0.55x0.71", sens:"", desc:"c:;cl:;"}
 ]}, 
+swfol1:{name:"SWFO-L1:Space Weather Follow-On-L1", url:"hp:www.nesdis.noaa.gov/OPPA/swfo-L1.php", desc:"ag:nasa,noaa;lv:;m:", stat:"pl", 
+  parts: [
+    {n:"", ctry:"us", type:"sol", pur:"", id:"", icon:"swfo-l1.png", desc:""}
+  ], ev: [
+    {pt:"", dt:"2024", tp:"l", loc:"ter", desc:""},
+    {pt:"", dt:"2024", tp:"sco", loc:"sol:ho:esl1", desc:""}
+  ], inst: [
+    {n:"CCOR:Compact Coronagraph ", band:"", tp:"im", res:"50", fov:"3-22Rsun", url:"", desc:";c:;"},
+    {n:"MAG:Magnetometer", band:"", tp:"mag", sres:"", url:"", desc:"c:;"},
+    {n:"SWPS:Solar Wind Plasma Sensor", band:"", tp:"par", fov:"", tres:"", url:"", desc:"c:;"},
+    {n:"STIS:Supra Thermal Ion Sensor ", band:"", tp:"par", eres:"", tres:"", url:"", desc:"c:;"}
+]},
 swift:{name:"Swift", url:"hp:swift.gsfc.nasa.gov/;asi:swift.asdc.asi.it/;psu:www.swift.psu.edu/;tw:twitter.com/NASASwift", desc:"ag:nasa;lv:Delta II 7320-10C;x:-0;y:10", stat:"o", 
   parts: [
     {n:"", ctry:"us", type:"uv;x;g", pur:"grb", id:"2004-047A", icon:"swift.png", desc:""}
