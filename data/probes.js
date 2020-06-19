@@ -2108,9 +2108,9 @@ mpl: {name:"MPL:Mars Polar Lander;", desc:"lv:Delta II 7425-9.5",
 stardust: {name:"Stardust-NExT", desc:"lv:Delta II 7426-9.5",
   parts:[
     {names:"Stardust", type:"srm", dest:"ism:Interstellar Dust", stat:"s", ctry:"us", desc:"ag:nasa,jpl;fam:Discovery;m:385kg;m0:300kg;dim:4.8x2.0x0.8m;w:0.75", id:"1999-003A", url:"hp:stardust.jpl.nasa.gov/;nasa:www.nasa.gov/mission_pages/stardust/main/index.html", icon:"stardust.png"},
-{type:"srm", dest:"com", stat:"s", ctry:"us", desc:"First cometary coma sample return;sc:0.75", icon:"stardust-srp.png"},
-{type:"ext", names:"NExT:New Exploration of Tempel 1", type:"fbm", dest:"com", stat:"s", ctry:"us", url:"NExT:stardustnext.jpl.nasa.gov/"},
-{type:"fbm", dest:"ast", stat:"s", ctry:"us"}], 
+    {type:"srm", dest:"com", stat:"s", ctry:"us", desc:"First cometary coma sample return;sc:0.75", icon:"stardust-srp.png"},
+    {type:"ext", names:"NExT:New Exploration of Tempel 1", type:"fbm", dest:"com", stat:"s", ctry:"us", url:"NExT:stardustnext.jpl.nasa.gov/"},
+    {type:"fbm", dest:"ast", stat:"s", ctry:"us"}], 
   events:[
     {pt:"", type:"l", dt:"1999-02-07", loc:"ter:cap:LC-17A", desc:""},
     {pt:"", type:"toi", dt:"1999-02-07", loc:"sol:ho", desc:""},
@@ -2991,7 +2991,7 @@ exomarsrv: {name:"ExoMars 2022", desc:"lv:Proton-M/Briz-M;m:2900kg",
 mars2020rover: {name:"Perseverance", desc:"lv:Atlas V 541",
   parts:[
     {names:"Mars 2020 Rover", type:"rvm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;m:1050kg;dim:3.0x2.7x2.2m;sc:0.5;Sample Caching Mission", id:"", url:"hp:www.nasa.gov/mars2020;tw:twitter.com/NASAPersevere", icon:"mars2020.png"},
-    {names:"Ingenuity;MHS:Mars Helicopter Scout", type:"dm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;m:1.8kg;dim:;sc:0.7;", id:"", url:"", icon:"ingenuity.png"}], 
+    {names:"Ingenuity;MHS:Mars Helicopter Scout", type:"dm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;fam:MSR;m:1.8kg;dim:;sc:0.7;", id:"", url:"", icon:"ingenuity.png"}], 
   events:[
     {pt:"", type:"l", dt:"2020-07-20", loc:"ter:cap:SLC-41", desc:""},
     {pt:"", type:"toi", dt:"l+1dy", loc:"sol:hto", desc:""},
@@ -3354,7 +3354,7 @@ hera: {name:"Hera", desc:"lv:Soyuz 2.1B",
 ]},
 mmx: {name:"MMX:Martian Moons eXploration", desc:"lv:H-III",
   parts:[
-    {names:"火星衛星探査機", type:"srm", dest:"mar:phob", stat:"pl", ctry:"jp", desc:"ag:jaxa,isas;m:4000kg;m0:;dim:14x2.1x4.5m;sc:0.75", id:"", url:"hp:mmx.isas.jaxa.jp/en/index.html;tw:twitter.com/mmx_jaxa_en", icon:"mmx.png"},
+    {names:"火星衛星探査機", type:"srm", dest:"mar:phob", stat:"pl", ctry:"jp", desc:"ag:jaxa,isas;m:4000kg;m0:;dim:14x2.1x4.5m;sc:0.5", id:"", url:"hp:mmx.isas.jaxa.jp/en/index.html;tw:twitter.com/mmx_jaxa_en", icon:"mmx.png"},
     {names:"{MMX Sample Return Module}", desc:"m:1300kg;sc:1.0", icon:""},
     {names:"{DLR/CNES Rover}", type:"rvm", dest:"mar:phob", stat:"pl", ctry:"de;fr", desc:"ag:dlr,cnes;m:29kg;sc:0.6", id:"", url:"dlr:www.dlr.de/content/en/articles/news/2019/02/20190619_a_rover_for_phobos_and_deimos.html", icon:"mmx-rv.png"}], 
   events:[
@@ -3441,13 +3441,38 @@ dragonfly: {name:"Dragonfly", desc:"", stat:"pl",
 heracles: {name:"HERACLES:Human-Enhanced Robotic Architecture and Capability for Lunar Exploration and Science", desc:"lv:Ariane 64",
   parts:[
     {names:"EL3:European Large Lunar Lander", type:"srm", dest:"lun", stat:"pl", ctry:"eu", desc:"ag:esa;sc:0.3", id:"", url:"hp:www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Exploration/Landing_on_the_Moon_and_returning_home_Heracles", icon:"heracles.png"},
-    {names:"{LDE:Lunar Descent Element", type:"slm", dest:"lun", stat:"pl", ctry:"jp", desc:"ag:jaxa", icon:""},
+    {names:"{LDE:Lunar Descent Element}", type:"slm", dest:"lun", stat:"pl", ctry:"jp", desc:"ag:jaxa", icon:""},
     {names:"{Heracles Rover}", type:"rvm", dest:"lun", stat:"pl", ctry:"ca", desc:"ag:csa", icon:""}],
   events:[
     {pt:"", type:"l", dt:"2026", loc:"ter:kou", desc:""},
     {pt:"", type:"td", dt:"2026", loc:"lun", desc:"Schrödinger crater"},
     {pt:"", type:"l", dt:"2026", loc:"lun", desc:""},
     {pt:"0", type:"doc", dt:"2026", loc:"lun:nrho", desc:"Gateway station"}
+]},
+srl: {name:"SRL:Sample Retrieval Lander", desc:"",
+  parts:[
+    {names:"", type:"slm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;m:;dim:;sc:0.5;fam:MSR;Sample Return Mission", id:"", url:"hp:mars.nasa.gov/mars-exploration/missions/mars-sample-return/", icon:"srl.png"},
+    {names:"SFR:Sample Fetch Rover", type:"rvm", dest:"mar", stat:"pl", ctry:"eu", desc:"ag:esa;m:;dim:;sc:0.5", id:"", url:"esa:www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Exploration/Mars_sample_return", icon:"sfr.png"},
+    {names:"MAV:Mars Ascent Vehicle", type:"om", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa;m:;dim:;sc:0.3", id:"", url:"", icon:"mav.png"}], 
+  events:[
+    {pt:"", type:"l", dt:"2026-07", loc:"ter:cap", desc:""},
+    {pt:"", type:"toi", dt:"l+1dy", loc:"sol:hto", desc:""},
+    {pt:"", type:"edl", dt:"2028-08", loc:"mar:18.5N,77.5E", desc:"Jezero Crater;show:SRL:SW"},
+    {pt:"1", type:"sep", dt:"2028-08", loc:"mar", desc:"rvp/lp;Sample fetching"},
+    {pt:"2", type:"l", dt:"2029-03", loc:"mar", desc:"as"},
+    {pt:"2", type:"doc", dt:"2029-03", loc:"mar:340km", desc:"as/ERO;eom:srm"},
+    {pt:"", type:"pom", dt:"l+10yr", loc:"mar", desc:"?"}
+]},
+ero: {name:"ERO:Earth Return Orbiter", desc:"",
+  parts:[
+    {names:"", type:"om", dest:"mar", stat:"pl", ctry:"eu", desc:"ag:esa;m:6000kg;sc:1", id:"", url:"hp:esa:www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Exploration/Mars_sample_return", icon:"ero.png"},
+    {names:"{EEV:Earth Entry Vehicle}", type:"srm", dest:"ter", stat:"pl", ctry:"us", desc:"ag:nasa", icon:""}],
+  events:[
+    {pt:"", type:"l", dt:"2026-09", loc:"ter:kou", desc:""},
+    {pt:"", type:"oi", dt:"2027-09", loc:"mar", desc:""},
+    {pt:"", type:"doc", dt:"2029-03", loc:"mar:340km", desc:"op/SRL MAV"},
+    {pt:"", type:"dep", dt:"2030-07", loc:"mar", desc:""},
+    {pt:"1", type:"edl", dt:"2031-09", loc:"ter", desc:"eom:srm"}
 ]},
 // --- 2027
 change8: {name:"Chang'e 8", desc:"lv:CZ-5",
