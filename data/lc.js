@@ -108,8 +108,8 @@ Common.lpad = [
 //{n:"VLS", par:"alc", lv:"VLS", loc:"2.3177S,44.3678W"},
 {n:"YLP-1", par:"tng", lv:"H-IIA;H-III", loc:"30.401N,130.977E"},
 {n:"YLP-2", par:"tng", lv:"H-IIB;H-III", loc:"30.401N, 130.975E"},
-{n:"LC-1A", par:"vos", lv:"Angara-1.2/A3/A5", loc:"51.8756N,128.3615E"},
-//{n:"(LP-2)", par:"vos", lv:"Angara-A5V/A7", loc:"51.8756N,128.3615E"},
+{n:"LC-1A", par:"vos", lv:"Angara-1.2/A5", loc:"51.8756N,128.3615E"},
+//{n:"(LP-2)", par:"vos", lv:"Angara-A5/A7", loc:"51.8756N,128.3615E"},
 {n:"(LC)", par:"wen", lv:"CZ-9", loc:""},
 {n:"(LC)", par:"nar", lv:"KSLV-II", loc:"34.4319N,127.5362E"}
 ];

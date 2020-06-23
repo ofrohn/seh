@@ -1487,7 +1487,7 @@ microscope:{name:"MicroSCOPE:Micro-Satellite a traînee Compensee pour l'Observa
   ], inst: [
     {n:"T-SAGE:Twin-Space Accelerometer for Gravity Experiment", tp:"acc", sens:"10e-12ms^-2.", url:"smsc.cnes.fr/MICROSCOPE/t-sage.htm", desc:"c:;"}
 ]},
-millimetron:{name:"Spektr-M", url:"hp:asc-lebedev.ru/index2.php?engdep=20", desc:"ag:rosc,lav;lv:Angara-A5M/KVTK;sc:1.2;x:0;y:0;m:6600kg", stat:"pl", 
+millimetron:{name:"Spektr-M", url:"hp:asc-lebedev.ru/index2.php?engdep=20", desc:"ag:rosc,lav;lv:Angara-A5/KVTK;sc:1.2;x:0;y:0;m:6600kg", stat:"pl", 
   parts: [
     {n:"Спектр-M;Millimetron", ctry:"ru", type:"mw", pur:"", id:"", icon:"millimetron.png", desc:""}
   ], ev: [
@@ -1850,7 +1850,7 @@ srg:{name:"Spektr-RG:Spectrum Roentgen Gamma", url:"hp:hea.iki.rssi.ru/SRG/en/in
 //    {n:"Lobster", band:"", res:"", desc:"ag:Leicester University;c:nl;"},
     {n:"ART-XC", band:"6..30keV", res:"45", fov:"0.3deg2", desc:"ag:iki;c:nl;"}
 ]},
-spektruv:{name:"Spektr-UV", url:"hp:www.wso-uv.org/wso-uv2/index.php?lang=en;Universidad Complutense:www.wso-uv.es/", desc:"ag:rosc;lv:Angara-A5M/DM-03;m:2840kg;sc:1.2;x:10;y:12", stat:"pl", 
+spektruv:{name:"Spektr-UV", url:"hp:www.wso-uv.org/wso-uv2/index.php?lang=en;Universidad Complutense:www.wso-uv.es/", desc:"ag:rosc;lv:Angara-A5/DM-03;m:2840kg;sc:1.2;x:10;y:12", stat:"pl", 
   parts: [
     {n:"Спектр-УФ;WSO-UV:World Space Observatory-Ultraviolet", ctry:"ru", type:"uv", pur:"", id:"", icon:"wso-uv.png", desc:""}
   ], ev: [
@@ -2218,8 +2218,9 @@ add: spec. impulse, manufact.
 cz-8
 */
 //Angara 5V
-"Angara-A5V": {ctry:"ru", m:"790000", pm:"37500/12000/7000",  d:"73.3x2.9", pf:"19.6x5.1", dt:"2023..", st:"2/4", ust:"KVTK", th:"9600", fam:"Angara", desc:"l:vos;ag:rosc", fuel:"KeroLOX", icon:"Angara-A5V.png"},
-"Angara-A5M": {ctry:"ru", m:"710000", pm:"27000/8000/5100",  d:"64x2.9", pf:"19.6x5.1", dt:"2027..", st:"2/4", ust:"KVTK/Blok-DM", th:"9600", fam:"Angara", desc:"l:vos,ple;ag:rosc", fuel:"KeroLOX", icon:"Angara-A5M.png"},
+//"Angara-A5V": {ctry:"ru", m:"820000", pm:"35000/12000/7000",  d:"73.3x2.9", pf:"19.6x5.1", dt:"2023..", st:"3/4", ust:"KVTK/Briz-M", th:"10570", fam:"Angara", desc:"l:vos;ag:rosc", fuel:"KeroLOX", icon:"Angara-A5V.png"},
+"Angara-A5M": {ctry:"ru", m:"759000", pm:"24000/7500/5100",  d:"64x2.9", pf:"19.6x5.1", dt:"2014-12-23..", st:"2/4", ust:"KVTK/Briz-M", th:"9600", fam:"Angara", desc:"l:vos,ple;ag:rosc", fuel:"KeroLOX", icon:"Angara-A5M.png"},
+"Angara-A5P": {ctry:"ru", m:"713000", pm:"18000/-/-",  d:"64x2.9", pf:"19.6x5.1", dt:"2025..", st:"2/4", ust:"", th:"9600", fam:"Angara", desc:"l:vos,ple;ag:rosc", fuel:"KeroLOX", icon:"Angara-A5P.png"},
 "Angara-A5": {syn:"Angara-A5M"},
 //Ariane 1
 "Ariane 1": {ctry:"eu", m:"207200", pm:"-/1850/1000",  d:"50x3.8", pf:"x3.8", dt:"1979-12-24..1986-02-22", st:"3", th:"2462", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"UDMH/N2O4", icon:"Ariane-1.png"},

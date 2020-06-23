@@ -4032,12 +4032,12 @@ em3: {name:"Artemis-3", desc:"lv:SLS 1B", stat:"pl",
     {pt:"", type:"td", dt:"l+4dy", loc:"lun", desc:"?"},
     {pt:"0", type:"edl", dt:"l+30dy", loc:"ter", desc:"eom"}
 ]},
-ptknp: {name:"Orel", desc:"lv:Angara-A5M", stat:"pl", 
+ptknp: {name:"Orel 1L1", desc:"lv:Angara-A5P", stat:"pl", 
   parts:[
-    {names:"Орёл;PTK-NP:Pilotiruemyi Transportny Korabl Novogo Pokoleniya (New Generation Piloted Transport Ship)", type:"fbm", dest:"lun", ctry:"ru", desc:"ag:rosc;m:21370kg;Uncrewed test flight;sc:0.7", id:"", url:"rsw:www.russianspaceweb.com/spacecraft_manned_2010s.html", icon:"federatsia.png"},
+    {names:"Орёл;PTK-NP:Pilotiruemyi Transportny Korabl Novogo Pokoleniya (New Generation Piloted Transport Ship)", type:"fbm", dest:"lun", ctry:"ru", desc:"ag:rosc;m:22300kg;Uncrewed test flight;sc:0.7", id:"", url:"rsw:www.russianspaceweb.com/spacecraft_manned_2010s.html", icon:"federatsia.png"},
     {type:"erm", dest:"ter"}], 
   events:[
-    {pt:"", type:"l", dt:"2025", loc:"ter:vos", desc:""},
+    {pt:"", type:"l", dt:"2023", loc:"ter:vos:LC-1A", desc:""},
     {pt:"", type:"fb", dt:"l+4dy", loc:"lun", desc:""},
     {pt:"", type:"edl", dt:"l+8dy", loc:"ter", desc:"eom"}
 ]},
@@ -4112,7 +4112,7 @@ srl: {name:"SRL:Sample Retrieval Lander", desc:"",
     {pt:"", type:"edl", dt:"2028-08", loc:"mar:18.5N,77.5E", desc:"Jezero Crater;show:SRL:SW"},
     {pt:"1", type:"sep", dt:"2028-08", loc:"mar", desc:"rvp/lp;Sample fetching"},
     {pt:"2", type:"l", dt:"2029-03", loc:"mar", desc:"as"},
-    {pt:"2", type:"doc", dt:"2029-03", loc:"mar:340km", desc:"as/ERO;eom:srm"},
+    {pt:"2", type:"doc", dt:"2029-03", loc:"mar:340km", desc:"as/ERO;eom:om"},
     {pt:"", type:"pom", dt:"l+10yr", loc:"mar", desc:"?"}
 ]},
 ero: {name:"ERO:Earth Return Orbiter", desc:"",
@@ -4140,7 +4140,7 @@ change8: {name:"Chang'e 8", desc:"lv:CZ-5",
     {pt:"0", type:"nom", dt:"l+1yr", loc:"lun", desc:"lp;?"},
     {pt:"1", type:"nom", dt:"l+2yr", loc:"lun", desc:"op;?"}
 ]},
-venerad: {name:"Venera-D", desc:"lv:Angara-A5M/Blok-DM",
+venerad: {name:"Venera-D", desc:"lv:Angara-A5/Blok-DM",
   parts:[
     {names:"Венера-Д", type:"om", dest:"ven", stat:"pl", ctry:"ru", desc:"ag:rosc,iki;m:3600kg;sc:0.7", id:"", url:"hp:venera-d.cosmos.ru/index.php?id=658&L=2", icon:"venera-d.png"},
     {names:"", type:"slm", dest:"ven", stat:"pl", ctry:"ru", desc:"", id:"", url:"", icon:""}], 
@@ -4448,7 +4448,7 @@ didy:
    alb:"0.15", grav:"", comp:"Metallic", dens:"2.1", spec:"Xk", temp:"",
    img:"", desc:"sc:6;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=didymos;orb:ec.2017-09-04"},
 didym:
-  {name:"Didymoon", other:"S/2003 (65803)", desig:"", type:"m", par:"didy", disc:"P. Pravec et al.", dyr:"2003",
+  {name:"Dimorphos", other:"S/2003 (65803)", desig:"", type:"m", par:"didy", disc:"P. Pravec et al.", dyr:"2003",
    a:"1.180km", e:"0.06", i:"", per:"11.9h", rot:"S", gr:"",
    h:"", mass:"", dia:"170m", rad:"0.085", tilt:"",
    alb:"", grav:"", comp:"", dens:"", spec:"", temp:"",
@@ -6423,8 +6423,9 @@ add: spec. impulse, manufact.
 cz-8
 */
 //Angara 5V
-"Angara-A5V": {ctry:"ru", m:"790000", pm:"37500/12000/7000",  d:"73.3x2.9", pf:"19.6x5.1", dt:"2023..", st:"2/4", ust:"KVTK", th:"9600", fam:"Angara", desc:"l:vos;ag:rosc", fuel:"KeroLOX", icon:"Angara-A5V.png"},
-"Angara-A5M": {ctry:"ru", m:"710000", pm:"27000/8000/5100",  d:"64x2.9", pf:"19.6x5.1", dt:"2027..", st:"2/4", ust:"KVTK/Blok-DM", th:"9600", fam:"Angara", desc:"l:vos,ple;ag:rosc", fuel:"KeroLOX", icon:"Angara-A5M.png"},
+//"Angara-A5V": {ctry:"ru", m:"820000", pm:"35000/12000/7000",  d:"73.3x2.9", pf:"19.6x5.1", dt:"2023..", st:"3/4", ust:"KVTK/Briz-M", th:"10570", fam:"Angara", desc:"l:vos;ag:rosc", fuel:"KeroLOX", icon:"Angara-A5V.png"},
+"Angara-A5M": {ctry:"ru", m:"759000", pm:"24000/7500/5100",  d:"64x2.9", pf:"19.6x5.1", dt:"2014-12-23..", st:"2/4", ust:"KVTK/Briz-M", th:"9600", fam:"Angara", desc:"l:vos,ple;ag:rosc", fuel:"KeroLOX", icon:"Angara-A5M.png"},
+"Angara-A5P": {ctry:"ru", m:"713000", pm:"18000/-/-",  d:"64x2.9", pf:"19.6x5.1", dt:"2025..", st:"2/4", ust:"", th:"9600", fam:"Angara", desc:"l:vos,ple;ag:rosc", fuel:"KeroLOX", icon:"Angara-A5P.png"},
 "Angara-A5": {syn:"Angara-A5M"},
 //Ariane 1
 "Ariane 1": {ctry:"eu", m:"207200", pm:"-/1850/1000",  d:"50x3.8", pf:"x3.8", dt:"1979-12-24..1986-02-22", st:"3", th:"2462", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"UDMH/N2O4", icon:"Ariane-1.png"},
@@ -6738,8 +6739,8 @@ Common.lpad = [
 //{n:"VLS", par:"alc", lv:"VLS", loc:"2.3177S,44.3678W"},
 {n:"YLP-1", par:"tng", lv:"H-IIA;H-III", loc:"30.401N,130.977E"},
 {n:"YLP-2", par:"tng", lv:"H-IIB;H-III", loc:"30.401N, 130.975E"},
-{n:"LC-1A", par:"vos", lv:"Angara-1.2/A3/A5", loc:"51.8756N,128.3615E"},
-//{n:"(LP-2)", par:"vos", lv:"Angara-A5V/A7", loc:"51.8756N,128.3615E"},
+{n:"LC-1A", par:"vos", lv:"Angara-1.2/A5", loc:"51.8756N,128.3615E"},
+//{n:"(LP-2)", par:"vos", lv:"Angara-A5/A7", loc:"51.8756N,128.3615E"},
 {n:"(LC)", par:"wen", lv:"CZ-9", loc:""},
 {n:"(LC)", par:"nar", lv:"KSLV-II", loc:"34.4319N,127.5362E"}
 ];

@@ -279,7 +279,7 @@ didy:
    alb:"0.15", grav:"", comp:"Metallic", dens:"2.1", spec:"Xk", temp:"",
    img:"", desc:"sc:6;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=didymos;orb:ec.2017-09-04"},
 didym:
-  {name:"Didymoon", other:"S/2003 (65803)", desig:"", type:"m", par:"didy", disc:"P. Pravec et al.", dyr:"2003",
+  {name:"Dimorphos", other:"S/2003 (65803)", desig:"", type:"m", par:"didy", disc:"P. Pravec et al.", dyr:"2003",
    a:"1.180km", e:"0.06", i:"", per:"11.9h", rot:"S", gr:"",
    h:"", mass:"", dia:"170m", rad:"0.085", tilt:"",
    alb:"", grav:"", comp:"", dens:"", spec:"", temp:"",
