@@ -3819,7 +3819,7 @@ dart: {name:"DART:Double Asteroid Redirection Test", desc:"lv:Falcon 9",
     {pt:"", type:"oi", dt:"2021-07", loc:"sol:ho", desc:""},
     {pt:"", type:"fb", dt:"2022-03", loc:"ast", desc:"ast:2001 CB21;?"},
     {pt:"", type:"fb", dt:"2022-09", loc:"ast", desc:"ast:didy"},
-    {pt:"0", type:"imp", dt:"2022-09", loc:"ast", desc:"ip"},
+    {pt:"0", type:"imp", dt:"2022-09", loc:"ast", desc:"ip;ast:Dimorphos"},
     {pt:"1", type:"fb", dt:"2022-09", loc:"ast", desc:"fbp:LICIACube"},
     {pt:"", type:"nom", dt:"2022-09", loc:"ast", desc:"eom"}
 ]},
@@ -3997,7 +3997,7 @@ hera: {name:"Hera", desc:"lv:Soyuz 2.1B",
   parts:[
     {names:"", type:"om", dest:"ast", stat:"pl", ctry:"eu", desc:"ag:esa;fam:AIDA;m:870kg;sc:0.7", id:"", url:"hp:www.esa.int/Safety_Security/Hera", icon:"hera.png"},
     {names:"APEX:Asteroid Prospection Explorer", type:"om", dest:"ast", stat:"pl", ctry:"eu", desc:"ag:esa;sc:0.5", id:"", url:"APEX:www.esa.int/Safety_Security/Hera/Deep_space_CubeSats", icon:"apex.png"},
-    {names:"Juventas", type:"om", dest:"ast", stat:"pl", ctry:"eu", desc:"ag:GomSpace,GMV;sc:0.6", id:"", url:"Juventas:www.esa.int/Safety_Security/Hera/Deep_space_CubeSats", icon:"juventas.png"}
+    {names:"Juventas", type:"om", dest:"ast", stat:"pl", ctry:"eu", desc:"ag:GomSpace,GMV;sc:0.6", id:"", url:"Juventas:www.esa.int/Safety_Security/Hera/Hera_s_CubeSat_to_perform_first_radar_probe_of_an_asteroid", icon:"juventas.png"}
   ], events:[
     {pt:"", type:"l", dt:"2024-10", loc:"ter:kou", desc:""},
     {pt:"", type:"oi", dt:"2024-10", loc:"sol:ho", desc:""},
