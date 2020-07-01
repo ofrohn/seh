@@ -2993,7 +2993,7 @@ mars2020rover: {name:"Perseverance", desc:"lv:Atlas V 541",
     {names:"Mars 2020 Rover", type:"rvm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;m:1050kg;dim:3.0x2.7x2.2m;sc:0.5;Sample Caching Mission", id:"", url:"hp:www.nasa.gov/mars2020;tw:twitter.com/NASAPersevere", icon:"mars2020.png"},
     {names:"Ingenuity;MHS:Mars Helicopter Scout", type:"dm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;fam:MSR;m:1.8kg;dim:;sc:0.7;", id:"", url:"", icon:"ingenuity.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2020-07-22", loc:"ter:cap:SLC-41", desc:""},
+    {pt:"", type:"l", dt:"2020-07-30", loc:"ter:cap:SLC-41", desc:""},
     {pt:"", type:"toi", dt:"l+1dy", loc:"sol:hto", desc:""},
     {pt:"", type:"edl", dt:"2021-02-18", loc:"mar:18.5N,77.5E", desc:"Jezero Crater;show:Perseverance"},
     {pt:"", type:"tos", dt:"2021-03", loc:"mar", desc:"eom:dm;Helicopter probe"},
@@ -3382,7 +3382,7 @@ em3: {name:"Artemis-3", desc:"lv:SLS 1B", stat:"pl",
 ]},
 ptknp: {name:"Orel 1L1", desc:"lv:Angara-A5P", stat:"pl", 
   parts:[
-    {names:"Орёл;PTK-NP:Pilotiruemyi Transportny Korabl Novogo Pokoleniya (New Generation Piloted Transport Ship)", type:"fbm", dest:"lun", ctry:"ru", desc:"ag:rosc;m:22300kg;Uncrewed test flight;sc:0.7", id:"", url:"rsw:www.russianspaceweb.com/spacecraft_manned_2010s.html", icon:"federatsia.png"},
+    {names:"Орёл;PTK-NP:Pilotiruemyi Transportny Korabl Novogo Pokoleniya (New Generation Piloted Transport Ship)", type:"fbm", dest:"lun", ctry:"ru", desc:"ag:rosc;m:22300kg;Uncrewed test flight;sc:0.7", id:"", url:"rsw:www.russianspaceweb.com/ptk_flight_testing.html", icon:"federatsia.png"},
     {type:"erm", dest:"ter"}], 
   events:[
     {pt:"", type:"l", dt:"2023", loc:"ter:vos:LC-1A", desc:""},
