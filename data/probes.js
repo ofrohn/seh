@@ -2092,7 +2092,7 @@ mco: {name:"MCO:Mars Climate Orbiter", desc:"lv:Delta II 7425-9.5",
   events:[
     {pt:"", type:"l", dt:"1998-12-11", loc:"ter:cap:LC-17A", desc:""},
     {pt:"", type:"toi", dt:"1998-12-11", loc:"sol:hto", desc:""},
-    {pt:"", type:"oi", dt:"1999-09-23", loc:"mar", desc:"fail:Command error;ae?"}
+    {pt:"", type:"oi", dt:"1999-09-23", loc:"mar", desc:"fail:Command error;Atmospheric entry?"}
 ]},
 // --- 1999 --- 2 Missions  
 mpl: {name:"MPL:Mars Polar Lander;", desc:"lv:Delta II 7425-9.5",
@@ -2988,9 +2988,9 @@ exomarsrv: {name:"ExoMars 2022", desc:"lv:Proton-M/Briz-M;m:2900kg",
     {pt:"", type:"nom", dt:"2023-10", loc:"mar", desc:"?"},
     {pt:"", type:"pom", dt:"2029", loc:"mar", desc:"?"}
 ]},
-mars2020rover: {name:"Perseverance", desc:"lv:Atlas V 541",
+mars2020rover: {name:"Mars 2020", desc:"lv:Atlas V 541",
   parts:[
-    {names:"Mars 2020 Rover", type:"rvm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;m:1050kg;dim:3.0x2.7x2.2m;sc:0.5;Sample Caching Mission", id:"", url:"hp:www.nasa.gov/mars2020;tw:twitter.com/NASAPersevere", icon:"mars2020.png"},
+    {names:"Perseverance", type:"rvm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;m:1050kg;dim:3.0x2.7x2.2m;sc:0.5;Sample Caching Mission", id:"", url:"hp:www.nasa.gov/mars2020;tw:twitter.com/NASAPersevere", icon:"mars2020.png"},
     {names:"Ingenuity;MHS:Mars Helicopter Scout", type:"dm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;fam:MSR;m:1.8kg;dim:;sc:0.7;", id:"", url:"", icon:"ingenuity.png"}], 
   events:[
     {pt:"", type:"l", dt:"2020-07-30", loc:"ter:cap:SLC-41", desc:""},
@@ -3006,8 +3006,8 @@ mgrso: {name:"Tianwen-1:Skyquest-1", desc:"lv:CZ-5",
     {names:"", type:"slm", dest:"mar", stat:"pl", ctry:"cn", desc:"ag:cnsa;m:1400kg", id:"", url:"", icon:"mgrso-l.png"}, 
     {names:"Lu Zhenrong;露真容", type:"rvm", dest:"mar", stat:"pl", ctry:"cn", desc:"m:240kg;dim:2x1.65x0.8m;ag:cnsa", id:"", url:"", icon:"mgrso-rv.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2020-07-23", loc:"ter:wen:LC-101", desc:""},
-    {pt:"", type:"toi", dt:"2020-07-23", loc:"sol:hto", desc:""},
+    {pt:"", type:"l", dt:"2020-07-20", loc:"ter:wen:LC-101", desc:""},
+    {pt:"", type:"toi", dt:"2020-07-20", loc:"sol:hto", desc:""},
     {pt:"", type:"oi", dt:"2021-02-11", loc:"mar", desc:"10 day polar orbit"},
     {pt:"1", type:"edl", dt:"2021-04-23", loc:"mar:26.9N,135.7E", desc:"lp;Utopia Planitia;show:Tianwen-1:NE"},
     {pt:"2", type:"nom", dt:"l+13mo", loc:"mar", desc:"rvp;eom:slm;eom:rvm"},
@@ -3018,8 +3018,8 @@ emm: {name:"Al Amal:Hope", desc:"lv:H-IIA 202",
   parts:[
     {names:"مسبار الأمل;EMM:Emirates Mars Mission", type:"om", dest:"mar", stat:"pl", ctry:"ue", desc:"ag:uaesa;m:1500kg;dim:7.9x3x3.5m;sc:0.5", id:"", url:"hp:www.emiratesmarsmission.ae/;MBRSC:www.mbrsc.ae/emirates-mars-mission;tw:twitter.com/HopeMarsMission", icon:"emm.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2020-07-14", loc:"ter:tng", desc:""},
-    {pt:"", type:"toi", dt:"2020-07-14", loc:"sol:hto", desc:""},
+    {pt:"", type:"l", dt:"2020-07-15", loc:"ter:tng", desc:""},
+    {pt:"", type:"toi", dt:"2020-07-15", loc:"sol:hto", desc:""},
     {pt:"", type:"oi", dt:"2021-01", loc:"mar:1000x49380kmx20deg", desc:""},
     {pt:"", type:"sco", dt:"2021-04", loc:"mar:20000x43000kmx25deg", desc:""},
     {pt:"", type:"nom", dt:"2023-03", loc:"mar", desc:""},
@@ -3440,7 +3440,7 @@ dragonfly: {name:"Dragonfly", desc:"", stat:"pl",
 ]},
 heracles: {name:"HERACLES:Human-Enhanced Robotic Architecture and Capability for Lunar Exploration and Science", desc:"lv:Ariane 64",
   parts:[
-    {names:"EL3:European Large Lunar Lander", type:"srm", dest:"lun", stat:"pl", ctry:"eu", desc:"ag:esa;sc:0.3", id:"", url:"hp:www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Exploration/Landing_on_the_Moon_and_returning_home_Heracles", icon:"heracles.png"},
+    {names:"EL3:European Large Lunar Lander", type:"srm", dest:"lun", stat:"pl", ctry:"eu", desc:"ag:esa;sc:0.3;m:8500kg;dim:4.5x6m", id:"", url:"hp:www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Exploration/Landing_on_the_Moon_and_returning_home_Heracles", icon:"heracles.png"},
     {names:"{LDE:Lunar Descent Element}", type:"slm", dest:"lun", stat:"pl", ctry:"jp", desc:"ag:jaxa", icon:""},
     {names:"{Heracles Rover}", type:"rvm", dest:"lun", stat:"pl", ctry:"ca", desc:"ag:csa", icon:""}],
   events:[
