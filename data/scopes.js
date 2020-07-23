@@ -326,14 +326,14 @@ elisa:{name:"LISA:Laser Interferometer Space Antenna", url:"hp:www.elisascience.
 ]},
 euclid:{name:"Euclid", url:"hp:www.euclid-ec.org/;esa:sci.esa.int/euclid", desc:"ag:esa;lv:Soyuz-STB/Fregat MT;fam:M-class;sc:0.6;x:10;y:9", stat:"pl", 
   parts: [
-    {n:"", ctry:"eu", type:"nir", pur:"de;sur", id:"", icon:"euclid.png", desc:"m:2100kg;dim:4.5x3.1m"}
+    {n:"", ctry:"eu", type:"nir", pur:"de;sur", id:"", icon:"euclid.png", desc:"m:2160kg;dim:4.5x3.1m"}
   ], ev: [
-    {pt:"", dt:"2022-06", tp:"l", loc:"ter:kou:ELS", desc:""},
-    {pt:"", dt:"l+30d", tp:"sco", loc:"sol:esl2", desc:""},
-    {pt:"", dt:"2026", tp:"nom", loc:"sol:esl2", desc:"pend"},
+    {pt:"", dt:"2022-07", tp:"l", loc:"ter:kou:ELS", desc:""},
+    {pt:"", dt:"l+30d", tp:"sco", loc:"sol:esl2", desc:"1M km  Lissajous orbit"},
+    {pt:"", dt:"2028", tp:"nom", loc:"sol:esl2", desc:"pend"},
   ], inst: [
-    {n:"VIS:Visual Imager", band:"550..920nm", res:"0.1", d:1.2, px:0.1, fov:"0.8deg2", desc:"c:n;cl:nly;"},
-    {n:"NISP:Near-infrared spectrometer and photometer", band:"1..2um", res:"0.3", d:1.2, px:0.3, fov:"0.7deg2", desc:"c:nr;cl:nl"}
+    {n:"VIS:Visual Imager", band:"550..900nm", res:"0.1", d:1.2, px:0.1, fov:"0.8deg2", desc:"c:n;cl:nly;"},
+    {n:"NISP:Near-infrared spectrometer and photometer", band:"0.92..2um", res:"0.3", d:1.2, px:0.3, sres:"250", fov:"0.75deg2", desc:"c:nr;cl:nl"}
 ]},
 euve:{name:"EUVE", url:"hp:www.ssl.berkeley.edu/euve/", desc:"ag:nasa;lv:Delta II 6920-10", stat:"s", 
   parts: [
@@ -720,8 +720,8 @@ ixpe:{name:"IXPE:Imaging X-Ray Polarimetry Explorer", url:"hp:wwwastro.msfc.nasa
   parts: [
     {n:"", ctry:"ind", type:"x", pur:"", id:"", icon:"ixpe.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2021-04", tp:"l", loc:"ter:ksa:LC-39A", desc:""},
-    {pt:"", dt:"2021-04", tp:"sco", loc:"ter:leo:540kmx0deg", desc:""},
+    {pt:"", dt:"2021", tp:"l", loc:"ter:ksa:LC-39A", desc:""},
+    {pt:"", dt:"2021", tp:"sco", loc:"ter:leo:540kmx0deg", desc:""},
     {pt:"", dt:"2024", tp:"pom", loc:"ter:leo", desc:""}
   ], inst: [
     {n:"", band:"2..8keV", res:"30", fov:"11'", desc:"c:nr;cl:nl"}
@@ -730,7 +730,7 @@ jwst:{name:"JWST:James Webb Space Telescope", url:"hp:www.jwst.nasa.gov/;stsci:w
   parts: [
     {n:"", ctry:"us;eu", type:"nir;opt", pur:"", id:"", desc:"", icon:"jwst.png"}
   ], ev: [
-    {pt:"", dt:"2021-03-30", tp:"l", loc:"ter:kou:ELA-3", desc:"kou"},
+    {pt:"", dt:"2021-10-31", tp:"l", loc:"ter:kou:ELA-3", desc:"kou"},
     {pt:"", dt:"l+30d", tp:"sco", loc:"sol:esl2", desc:""}
   ], inst: [
     {n:"MIRI", band:"5..28um", res:"1.13..0.1", d:"6.5", px:"0.1", fov:"1.3x1.7'", sres:"100/3000", url:"ircamera.as.arizona.edu/MIRI/", desc:"c:nv;cl:nly;"},
