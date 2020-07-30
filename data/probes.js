@@ -2717,7 +2717,7 @@ hayabusa2: {name:"Hayabusa 2:Peregrine Falcon 2", desc:"lv:H-IIA 202",
     {pt:"0", type:"dsc", dt:"2019-07-11", loc:"ast", desc:"2. Sample Collection;Uchide-no-kozuchi"},
     {pt:"2", type:"td", dt:"2019-10-08", loc:"ast", desc:"hpp:MINERVA II2;eom:hpm"},
     {pt:"0", type:"dep", dt:"2019-11-13", loc:"ast", desc:""},
-    {pt:"0", type:"edl", dt:"2020-11", loc:"ter", desc:"nom"}
+    {pt:"0", type:"edl", dt:"2020-12-06", loc:"ter", desc:"nom"}
 ]},
 procyon: {name:"PROCYON:PRoximate Object Close flYby with Optical Navigation", desc:"lv:H-IIA 202",
   parts:[
@@ -2990,8 +2990,8 @@ exomarsrv: {name:"ExoMars 2022", desc:"lv:Proton-M/Briz-M;m:2900kg",
 ]},
 mars2020rover: {name:"Mars 2020", desc:"lv:Atlas V 541",
   parts:[
-    {names:"Perseverance", type:"rvm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;m:1050kg;dim:3.0x2.7x2.2m;sc:0.5;Sample Caching Mission", id:"", url:"hp:www.nasa.gov/mars2020;tw:twitter.com/NASAPersevere", icon:"mars2020.png"},
-    {names:"Ingenuity;MHS:Mars Helicopter Scout", type:"dm", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;fam:MSR;m:1.8kg;dim:;sc:0.7;", id:"", url:"", icon:"ingenuity.png"}], 
+    {names:"Perseverance", type:"rvm", dest:"mar", stat:"o", ctry:"us", desc:"ag:nasa,jpl;m:1050kg;dim:3.0x2.7x2.2m;sc:0.5;Sample Caching Mission", id:"2020-052A", url:"hp:www.nasa.gov/mars2020;tw:twitter.com/NASAPersevere", icon:"mars2020.png"},
+    {names:"Ingenuity;MHS:Mars Helicopter Scout", type:"dm", dest:"mar", stat:"o", ctry:"us", desc:"ag:nasa,jpl;fam:MSR;m:1.8kg;dim:;sc:0.7;", id:"", url:"", icon:"ingenuity.png"}], 
   events:[
     {pt:"", type:"l", dt:"2020-07-30", loc:"ter:cap:SLC-41", desc:""},
     {pt:"", type:"toi", dt:"l+1dy", loc:"sol:hto", desc:""},
@@ -3003,8 +3003,8 @@ mars2020rover: {name:"Mars 2020", desc:"lv:Atlas V 541",
 mgrso: {name:"Tianwen-1:Skyquest-1", desc:"lv:CZ-5",
   parts:[
     {names:"天问一号;MGRSO:Mars Global Remote Sensing Orbiter", type:"om", dest:"mar", stat:"o", ctry:"cn", desc:"ag:cnsa;m:3175kg;sc:0.75", id:"2020-049A", url:"China Space Report:chinaspacereport.com/unmanned/planetary/mars-mission/", icon:"mgrso.png"},
-    {names:"", type:"slm", dest:"mar", stat:"pl", ctry:"cn", desc:"ag:cnsa;m:1745kg;sc:0.75", id:"", url:"", icon:"mgrso-l.png"}, 
-    {names:"Lu Zhenrong;露真容", type:"rvm", dest:"mar", stat:"pl", ctry:"cn", desc:"m:240kg;dim:2x1.65x0.8m;ag:cnsa;sc:0.5", id:"", url:"", icon:"mgrso-rv.png"}], 
+    {names:"", type:"slm", dest:"mar", stat:"o", ctry:"cn", desc:"ag:cnsa;m:1745kg;sc:0.75", id:"", url:"", icon:"mgrso-l.png"}, 
+    {names:"Lu Zhenrong;露真容", type:"rvm", dest:"mar", stat:"o", ctry:"cn", desc:"m:240kg;dim:2x1.65x0.8m;ag:cnsa;sc:0.5", id:"", url:"", icon:"mgrso-rv.png"}], 
   events:[
     {pt:"", type:"l", dt:"2020-07-23", loc:"ter:wen:LC-101", desc:""},
     {pt:"", type:"toi", dt:"2020-07-23", loc:"sol:hto", desc:""},
