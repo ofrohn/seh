@@ -3369,7 +3369,8 @@ hayabusa2: {name:"Hayabusa 2:Peregrine Falcon 2", desc:"lv:H-IIA 202",
     {pt:"0", type:"dsc", dt:"2019-07-11", loc:"ast", desc:"2. Sample Collection;Uchide-no-kozuchi"},
     {pt:"2", type:"td", dt:"2019-10-08", loc:"ast", desc:"hpp:MINERVA II2;eom:hpm"},
     {pt:"0", type:"dep", dt:"2019-11-13", loc:"ast", desc:""},
-    {pt:"0", type:"edl", dt:"2020-12-06", loc:"ter", desc:"nom"}
+    {pt:"0", type:"edl", dt:"2020-12-06", loc:"ter", desc:"Begin extended mission"},
+    {pt:"0", type:"fb", dt:"2029", loc:"ast", desc:"nom;2001 AV43;or 1998 KY26 in 2031"}
 ]},
 procyon: {name:"PROCYON:PRoximate Object Close flYby with Optical Navigation", desc:"lv:H-IIA 202",
   parts:[
@@ -3642,7 +3643,7 @@ exomarsrv: {name:"ExoMars 2022", desc:"lv:Proton-M/Briz-M;m:2900kg",
 ]},
 mars2020rover: {name:"Mars 2020", desc:"lv:Atlas V 541",
   parts:[
-    {names:"Perseverance", type:"rvm", dest:"mar", stat:"o", ctry:"us", desc:"ag:nasa,jpl;m:1050kg;dim:3.0x2.7x2.2m;sc:0.5;Sample Caching Mission", id:"2020-052A", url:"hp:www.nasa.gov/mars2020;tw:twitter.com/NASAPersevere", icon:"mars2020.png"},
+    {names:"Perseverance", type:"rvm", dest:"mar", stat:"o", ctry:"us", desc:"ag:nasa,jpl;m:1025kg;dim:3.0x2.7x2.2m;sc:0.5;Sample Caching Mission", id:"2020-052A", url:"hp:www.nasa.gov/mars2020;tw:twitter.com/NASAPersevere", icon:"mars2020.png"},
     {names:"Ingenuity;MHS:Mars Helicopter Scout", type:"dm", dest:"mar", stat:"o", ctry:"us", desc:"ag:nasa,jpl;fam:MSR;m:1.8kg;dim:;sc:0.7;", id:"", url:"", icon:"ingenuity.png"}], 
   events:[
     {pt:"", type:"l", dt:"2020-07-30", loc:"ter:cap:SLC-41", desc:""},
