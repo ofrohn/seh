@@ -5094,9 +5094,9 @@ caly:
    img:"calypso.png", desc:"sc:3;url:solarsystem.nasa.gov/moons/saturn-moons/calypso/in-depth/;orb:lp.2000-01-01"},
 atla:
   {name:"Atlas", other:"S/1980 S28", desig:"XV", type:"m", par:"sat", disc:"Voyager", dyr:"1980",
-   a:"137774km", e:"0.0011", i:"0.003", per:"0.602d", rot:"", gr:"Ring shepherds",
-   h:"8.4", mass:"5.76e15kg", dia:"40.8x35.4x18.8km", rad:"20.4x17.7x9.4", tilt:"0.000",
-   alb:"0.4", grav:"0.2..2e-4", comp:"", dens:"0.46",  temp:"~81K",
+   a:"137774km", e:"0.012", i:"3.1e-3", per:"0.602d", rot:"", gr:"Ring shepherds",
+   h:"8.4", mass:"6.02e15kg", dia:"40.8x35.4x18.6km", rad:"14.9", tilt:"0.000",
+   alb:"0.4", grav:"0.2..2e-4", comp:"Ice+Ridge", dens:"0.412",  temp:"~81K",
    img:"atlas.png", desc:"sc:4;url:solarsystem.nasa.gov/moons/saturn-moons/atlas/in-depth/;orb:lp.2000-01-01"},
 prom:
   {name:"Prometheus", other:"S/1980 S27", desig:"XVI", type:"m", par:"sat", disc:"Voyager", dyr:"1980",
@@ -5112,9 +5112,9 @@ pand:
    img:"pandora.png", desc:"sc:3;url:solarsystem.nasa.gov/moons/saturn-moons/pandora/in-depth/;orb:lp.2000-01-01"},
 pan:
   {name:"Pan", other:"S/1981 S13", desig:"XVIII", type:"m", par:"sat", disc:"M.R. Showalter", dyr:"1981",
-   a:"133585km", e:"0.0000", i:"0.000", per:"0.575d", rot:"", gr:"Ring shepherds",
-   h:"", mass:"8.707e-12", dia:"34.4x31.4x20.8km", rad:"17.2x15.7x10.4", tilt:"0.000",
-   alb:"0.5:", grav:"0.1..1.8e-4", comp:"", dens:"0.42", temp:"~78K",
+   a:"133585km", e:"1.4e-5", i:"1e-4", per:"0.575d", rot:"", gr:"Ring shepherds",
+   h:"", mass:"4.95e15kg", dia:"34.6x28.2x21.0km", rad:"13.7", tilt:"0.000",
+   alb:"0.5:", grav:"0.1..1.8e-4", comp:"Ice+Ridge", dens:"0.42", temp:"~78K",
    img:"pan.png", desc:"sc:3;url:solarsystem.nasa.gov/moons/saturn-moons/pan/in-depth/;orb:lp.2000-01-01"},
 ymir:
   {name:"Ymir", other:"S/2000 S1", desig:"XIX", type:"m", par:"sat", disc:"B. Gladman et al.", dyr:"2000",
@@ -5214,9 +5214,9 @@ poly:
    img:"polydeuces.png", desc:"sc:3;url:solarsystem.nasa.gov/moons/saturn-moons/polydeuces/in-depth/;orb:lp.2000-01-01"},
 daph:
   {name:"Daphnis", other:"S/2005 S1", desig:"XXXV", type:"m", par:"sat", disc:"Cassini", dyr:"2005",
-   a:"136504km", e:"0.0000", i:"0.003", per:"0.594d", rot:"", gr:"Ring shepherds",
-   h:"", mass:"1.478e-13", dia:"8.6x8.2x6.4km", rad:"4.3x4.1x3.2", tilt:"0.000",
-   alb:"", grav:"1..4e-5", comp:"", dens:"0.34",  temp:"~78K",
+   a:"136504km", e:"3.3e-5", i:"3.6e-3", per:"0.594d", rot:"", gr:"Ring shepherds",
+   h:"", mass:"7.7e13kg", dia:"9.8x8.4x5.6km", rad:"3.9", tilt:"0.000",
+   alb:"", grav:"1..4e-5", comp:"", dens:"0.276",  temp:"~78K",
    img:"daphnis.png", desc:"sc:3;url:solarsystem.nasa.gov/moons/saturn-moons/daphnis/in-depth/;orb:lp.2000-01-01"},
 aegi:
   {name:"Aegir", other:"S/2004 S10", desig:"XXXVI", type:"m", par:"sat", disc:"S.S. Sheppard et al.", dyr:"2004",
@@ -6569,7 +6569,7 @@ cz-8
 "New Glenn": {alt:"", ctry:"us", m:"", pm:"45000/13000/-",  d:"98x7", pf:"", dt:"2022", st:"2", th:"17100", fam:"", desc:"l:cap,van;ag:Blue Origin", fuel:"LCH4/LOX", icon:"newglenn.png"},
 //OmegA
 "OmegA": {syn:"OmegA Intermediate"},
-"OmegA Intermediate": {n:"", alt:"", ctry:"us", m:"", pm:"~30/4900..10100/-", d:"59.8x3.7", pf:"5.3x15", dt:"2021..", st:"3/2-6", th:"12000", fam:"OmegA", desc:"ag:atk", fuel:"SRP/LH2+LOX", icon:"omega500.png"},
+"OmegA Intermediate": {n:"", alt:"", ctry:"us", m:"", pm:"~30000/4900..10100/-", d:"59.8x3.7", pf:"5.3x15", dt:"2021..", st:"3/2-6", th:"12000", fam:"OmegA", desc:"ag:atk", fuel:"SRP/LH2+LOX", icon:"omega500.png"},
 //Pegasus-XL
 "Pegasus-XL": {n:"", alt:"", ctry:"us", m:"23269", pm:"475/175/-",  d:"17.6x6.7", pf:"2.2x1.27", dt:"1990-04-05..", st:"3/L-1011", th:"726", fam:"Pegasus", desc:"ag:atk", fuel:"SRP", icon:"pegasus-xl.png"},
 //PSLV-XL

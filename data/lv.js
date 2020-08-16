@@ -151,7 +151,7 @@ cz-8
 "New Glenn": {alt:"", ctry:"us", m:"", pm:"45000/13000/-",  d:"98x7", pf:"", dt:"2022", st:"2", th:"17100", fam:"", desc:"l:cap,van;ag:Blue Origin", fuel:"LCH4/LOX", icon:"newglenn.png"},
 //OmegA
 "OmegA": {syn:"OmegA Intermediate"},
-"OmegA Intermediate": {n:"", alt:"", ctry:"us", m:"", pm:"~30/4900..10100/-", d:"59.8x3.7", pf:"5.3x15", dt:"2021..", st:"3/2-6", th:"12000", fam:"OmegA", desc:"ag:atk", fuel:"SRP/LH2+LOX", icon:"omega500.png"},
+"OmegA Intermediate": {n:"", alt:"", ctry:"us", m:"", pm:"~30000/4900..10100/-", d:"59.8x3.7", pf:"5.3x15", dt:"2021..", st:"3/2-6", th:"12000", fam:"OmegA", desc:"ag:atk", fuel:"SRP/LH2+LOX", icon:"omega500.png"},
 //Pegasus-XL
 "Pegasus-XL": {n:"", alt:"", ctry:"us", m:"23269", pm:"475/175/-",  d:"17.6x6.7", pf:"2.2x1.27", dt:"1990-04-05..", st:"3/L-1011", th:"726", fam:"Pegasus", desc:"ag:atk", fuel:"SRP", icon:"pegasus-xl.png"},
 //PSLV-XL
