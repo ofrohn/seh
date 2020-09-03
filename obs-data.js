@@ -978,7 +978,9 @@ elisa:{name:"LISA:Laser Interferometer Space Antenna", url:"hp:www.elisascience.
     {n:"", ctry:"eu", type:"gr", pur:"", id:"", icon:"", desc:""}
   ], ev: [
     {pt:"", dt:"2034", tp:"l", loc:"ter:kou:ELA-3", desc:""},
-    {pt:"", dt:"", tp:"sco", loc:"sol:ef", desc:""}
+    {pt:"2034", dt:"", tp:"sco", loc:"sol:ef", desc:""},
+    {pt:"2040", dt:"", tp:"sco", loc:"sol:ef", desc:""},
+    {pt:"2046", dt:"", tp:"sco", loc:"sol:ef", desc:""}    
   ], inst: [
     {n:"", tp:"li", band:"1e-4..1Hz", url:"", desc:"c:;"}
 ]},
