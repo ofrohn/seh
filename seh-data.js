@@ -3914,9 +3914,9 @@ zhenghe: {name:"Zheng He", desc:"lv:CZ-3B",
     {pt:"1", type:"nom", dt:"2031", loc:"com", desc:""},
     {pt:"1", type:"pom", dt:"2033", loc:"com", desc:""}
 ]},
-xl1: {name:"XL-1", desc:"",
+xl1: {name:"XL-1", desc:"lv:Falcon 9",
   parts:[
-    {names:"", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Masten;fam:clps;sc:0.3", id:"", url:"hp:www.masten.aero/moon", icon:"masten-xl1.png"}], 
+    {names:"", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Masten;fam:clps;m:2700kg;sc:0.3", id:"", url:"hp:www.masten.aero/moon", icon:"masten-xl1.png"}], 
   events:[
     {pt:"", type:"l", dt:"2022", loc:"ter:cap", desc:""},
     {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:"Near South pole"},
@@ -6536,7 +6536,7 @@ cz-8
 //Delta 4H
 "Delta IV Heavy": {ctry:"us", m:"732000", pm:"23040/13100/9000",  d:"63x5.1", pf:"19.8x5.1", dt:"2004-12-21..", st:"2/2", ust:"Star-48", th:"9420", fam:"Delta", desc:"l:cap,van;ag:nasa", fuel:"LH2/LOX", icon:"Delta-4H_Orion.png"},
 //Electron
-"Electron": {ctry:"us", m:"12500", pm:"225/-/-",  d:"17x1.2", pf:"2.5x1.2", dt:"2017-05-26..", st:"2", ust:"Curie", th:"162", fam:"Electron", desc:"l:mah,wal;ag:Rocket Lab", fuel:"KeroLOX", icon:"electron.png"},
+"Electron": {ctry:"us", m:"13000", pm:"225/-/-",  d:"18x1.2", pf:"2.5x1.2-1.7", dt:"2017-05-26..", st:"2", ust:"Photon", th:"162", fam:"Electron", desc:"l:mah,wal;ag:Rocket Lab", fuel:"KeroLOX", icon:"electron.png"},
 //Epsilon
 "Epsilon": {ctry:"jp", m:"91000", pm:"1200/-/-",  d:"24.4x2.5", pf:"", dt:"2013-09-14..", st:"3", ust:"CLPS", th:"2271", fam:"Epsilon", desc:"l:uch;ag:jaxa", fuel:"SRP", icon:"epsilon1.png"},
 //Epsilon
@@ -6731,7 +6731,7 @@ Common.lpad = [
 {n:"LP-0B", par:"wal", lv:"Minotaur", loc:"37.831N,75.491W"},
 {n:"M-1", par:"uch", lv:"M-3SII;Epsilon", loc:"31.2504N,131.0821E"},
 {n:"M-5", par:"uch", lv:"M-V", loc:"31.2510N,131.0823E"},
-{n:"RLLC-2", par:"wal", lv:"Electron", loc:"37.8348N,75.4864W"},
+{n:"LC-2", par:"wal", lv:"Electron", loc:"37.8348N,75.4864W"},
 {n:"SLC-2W", par:"van", lv:"Delta II;OmegA", loc:"34.755N,120.622W"},
 {n:"SLC-3E", par:"van", lv:"Atlas V", loc:"34.640N,120.590W"},
 {n:"SLC-4W", par:"van", lv:"Atlas-Agena;Titan", loc:"34.633N,120.616W"},

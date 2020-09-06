@@ -3262,9 +3262,9 @@ zhenghe: {name:"Zheng He", desc:"lv:CZ-3B",
     {pt:"1", type:"nom", dt:"2031", loc:"com", desc:""},
     {pt:"1", type:"pom", dt:"2033", loc:"com", desc:""}
 ]},
-xl1: {name:"XL-1", desc:"",
+xl1: {name:"XL-1", desc:"lv:Falcon 9",
   parts:[
-    {names:"", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Masten;fam:clps;sc:0.3", id:"", url:"hp:www.masten.aero/moon", icon:"masten-xl1.png"}], 
+    {names:"", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Masten;fam:clps;m:2700kg;sc:0.3", id:"", url:"hp:www.masten.aero/moon", icon:"masten-xl1.png"}], 
   events:[
     {pt:"", type:"l", dt:"2022", loc:"ter:cap", desc:""},
     {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:"Near South pole"},

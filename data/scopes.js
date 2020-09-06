@@ -1326,6 +1326,26 @@ tiangong2:{name:"Tiangong 2:Heavenly Palace 2", ctry:"cn", url:"", desc:"ag:cnsa
   ], inst: [
     {n:"0", band:"50..350keV", ea:"200cm2", res:"", d:"", px:"", fov:"120deg", desc:"cl:;"}
 ]},
+tianqin1:{name:"TianQin-1:Heavenly Harp 1", url:"hp:", desc:"ag:cnsa;m:35kg;lv:CZ-4B;sc:0.9;y:7", stat:"pl", 
+  parts: [
+    {n:"天琴", ctry:"cn", type:"gr", pur:"test", id:"2019-093A", icon:"tianqin-1.png", desc:""}
+  ], ev: [
+    {pt:"", dt:"2019-12-20", tp:"l", loc:"ter:tai", desc:""},
+    {pt:"", dt:"2019-12-21", tp:"sco", loc:"ter:sseo:642x662kmx97.2deg", desc:""},
+    {pt:"", dt:"2022", tp:"pom", loc:"ter:sseo", desc:""}
+  ], inst: [
+    {n:"", tp:"li", band:"", res:"", fov:"", desc:"c:nr;cl:nl"}
+  ]},
+tianqin2:{name:"TianQin-2:Heavenly Harp 2", url:"hp:", desc:"ag:cnsa;lv:CZ-5B;sc:0.9;y:7", stat:"pl", 
+  parts: [
+    {n:"天琴", ctry:"cn", type:"gr", pur:"", id:"", icon:"", desc:""}
+  ], ev: [
+    {pt:"", dt:"2030", tp:"l", loc:"ter:wen", desc:""},
+    {pt:"", dt:"2030", tp:"sco", loc:"ter:heo:100000km", desc:""},
+    {pt:"", dt:"2040", tp:"pom", loc:"ter:heo", desc:""}
+  ], inst: [
+    {n:"", tp:"li", band:"", res:"", px:null, d:null, fov:"", desc:"c:nr;cl:nl"}
+  ]},
 trace:{name:"TRACE:Transition Region And Coronal Explorer", url:"hp:trace.lmsal.com/", desc:"ag:nasa;lv:Pegasus XL;fam:smex", stat:"s", 
   parts: [
     {n:"", ctry:"us", type:"opt;uv", pur:"sol", id:"1998-020A", icon:""}

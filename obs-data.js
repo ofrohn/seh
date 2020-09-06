@@ -1984,6 +1984,26 @@ tiangong2:{name:"Tiangong 2:Heavenly Palace 2", ctry:"cn", url:"", desc:"ag:cnsa
   ], inst: [
     {n:"0", band:"50..350keV", ea:"200cm2", res:"", d:"", px:"", fov:"120deg", desc:"cl:;"}
 ]},
+tianqin1:{name:"TianQin-1:Heavenly Harp 1", url:"hp:", desc:"ag:cnsa;m:35kg;lv:CZ-4B;sc:0.9;y:7", stat:"pl", 
+  parts: [
+    {n:"天琴", ctry:"cn", type:"gr", pur:"test", id:"2019-093A", icon:"tianqin-1.png", desc:""}
+  ], ev: [
+    {pt:"", dt:"2019-12-20", tp:"l", loc:"ter:tai", desc:""},
+    {pt:"", dt:"2019-12-21", tp:"sco", loc:"ter:sseo:642x662kmx97.2deg", desc:""},
+    {pt:"", dt:"2022", tp:"pom", loc:"ter:sseo", desc:""}
+  ], inst: [
+    {n:"", tp:"li", band:"", res:"", fov:"", desc:"c:nr;cl:nl"}
+  ]},
+tianqin2:{name:"TianQin-2:Heavenly Harp 2", url:"hp:", desc:"ag:cnsa;lv:CZ-5B;sc:0.9;y:7", stat:"pl", 
+  parts: [
+    {n:"天琴", ctry:"cn", type:"gr", pur:"", id:"", icon:"", desc:""}
+  ], ev: [
+    {pt:"", dt:"2030", tp:"l", loc:"ter:wen", desc:""},
+    {pt:"", dt:"2030", tp:"sco", loc:"ter:heo:100000km", desc:""},
+    {pt:"", dt:"2040", tp:"pom", loc:"ter:heo", desc:""}
+  ], inst: [
+    {n:"", tp:"li", band:"", res:"", px:null, d:null, fov:"", desc:"c:nr;cl:nl"}
+  ]},
 trace:{name:"TRACE:Transition Region And Coronal Explorer", url:"hp:trace.lmsal.com/", desc:"ag:nasa;lv:Pegasus XL;fam:smex", stat:"s", 
   parts: [
     {n:"", ctry:"us", type:"opt;uv", pur:"sol", id:"1998-020A", icon:""}
@@ -2321,7 +2341,7 @@ cz-8
 //Delta 4H
 "Delta IV Heavy": {ctry:"us", m:"732000", pm:"23040/13100/9000",  d:"63x5.1", pf:"19.8x5.1", dt:"2004-12-21..", st:"2/2", ust:"Star-48", th:"9420", fam:"Delta", desc:"l:cap,van;ag:nasa", fuel:"LH2/LOX", icon:"Delta-4H_Orion.png"},
 //Electron
-"Electron": {ctry:"us", m:"12500", pm:"225/-/-",  d:"17x1.2", pf:"2.5x1.2", dt:"2017-05-26..", st:"2", ust:"Curie", th:"162", fam:"Electron", desc:"l:mah,wal;ag:Rocket Lab", fuel:"KeroLOX", icon:"electron.png"},
+"Electron": {ctry:"us", m:"13000", pm:"225/-/-",  d:"18x1.2", pf:"2.5x1.2-1.7", dt:"2017-05-26..", st:"2", ust:"Photon", th:"162", fam:"Electron", desc:"l:mah,wal;ag:Rocket Lab", fuel:"KeroLOX", icon:"electron.png"},
 //Epsilon
 "Epsilon": {ctry:"jp", m:"91000", pm:"1200/-/-",  d:"24.4x2.5", pf:"", dt:"2013-09-14..", st:"3", ust:"CLPS", th:"2271", fam:"Epsilon", desc:"l:uch;ag:jaxa", fuel:"SRP", icon:"epsilon1.png"},
 //Epsilon
