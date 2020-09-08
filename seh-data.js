@@ -4046,7 +4046,7 @@ em3: {name:"Artemis-3", desc:"lv:SLS 1B", stat:"pl",
 ]},
 ptknp: {name:"Orel 1L1", desc:"lv:Angara-A5P", stat:"pl", 
   parts:[
-    {names:"Орёл;PTK-NP:Pilotiruemyi Transportny Korabl Novogo Pokoleniya (New Generation Piloted Transport Ship)", type:"fbm", dest:"lun", ctry:"ru", desc:"ag:rosc;m:22300kg;Uncrewed test flight;sc:0.7", id:"", url:"rsw:www.russianspaceweb.com/ptk_flight_testing.html", icon:"federatsia.png"},
+    {names:"Орёл;PTK-NP:Pilotiruemyi Transportny Korabl Novogo Pokoleniya (New Generation Piloted Transport Ship)", type:"fbm", dest:"lun", ctry:"ru", desc:"ag:rosc;m:22300kg;Uncrewed test flight;sc:0.7", id:"", url:"rsw:www.russianspaceweb.com/ptk_flight_testing.html", icon:"orel.png"},
     {type:"erm", dest:"ter"}], 
   events:[
     {pt:"", type:"l", dt:"2023", loc:"ter:vos:LC-1A", desc:""},
