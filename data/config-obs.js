@@ -7,7 +7,7 @@ var SOBS = SOBS || {
   STARTDATE: new Date(1957,10,4),  //Begin of shown period
   ENDDATE: new Date(2036,1,1),     //End of shown period
   WIDTH: 1000,                    //Width
-  HEIGHT: 2600,                   //Height
+  HEIGHT: 2800,                   //Height
   BARHEIGHT: 28,
   TEXTFONT: "normal bold 14px Arial, Helvetica, sans-serif",
   SCALEFONT: "normal bold 11px Arial, Helvetica, sans-serif",

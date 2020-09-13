@@ -556,7 +556,7 @@ var SOBS = SOBS || {
   STARTDATE: new Date(1957,10,4),  //Begin of shown period
   ENDDATE: new Date(2036,1,1),     //End of shown period
   WIDTH: 1000,                    //Width
-  HEIGHT: 2600,                   //Height
+  HEIGHT: 2800,                   //Height
   BARHEIGHT: 28,
   TEXTFONT: "normal bold 14px Arial, Helvetica, sans-serif",
   SCALEFONT: "normal bold 11px Arial, Helvetica, sans-serif",
@@ -1059,7 +1059,7 @@ gaia:{name:"Gaia", url:"hp:gaia.esa.int/;tw:twitter.com/ESAGaia", desc:"ag:esa;l
   ], inst: [
     {n:"ASTRO", band:"2.86E+14..9.37E+14", res:"0.118", d:0.975, px:0.118, desc:"c:nr;cl:nl;"}
 ]},
-gamma400:{name:"Gamma-400", url:"hp:gamma400.lebedev.ru/indexeng.html", desc:"ag:lebedev,rosc;sc:0.8;x:-100;y:-30", stat:"pl", 
+gamma400:{name:"Gamma-400", url:"hp:gamma400.lebedev.ru/indexeng.html", desc:"ag:lebedev,rosc;lv:Angara-A5M/DM-03;sc:0.8;x:-100;y:-30", stat:"pl", 
   parts: [
     {n:"",  ctry:"ru", type:"g;par", pur:"grb;cr;dm", id:"", icon:"gamma400.png", desc:""}
   ], ev: [
@@ -1489,7 +1489,7 @@ microscope:{name:"MicroSCOPE:Micro-Satellite a traînee Compensee pour l'Observa
   ], inst: [
     {n:"T-SAGE:Twin-Space Accelerometer for Gravity Experiment", tp:"acc", sens:"10e-12ms^-2.", url:"smsc.cnes.fr/MICROSCOPE/t-sage.htm", desc:"c:;"}
 ]},
-millimetron:{name:"Spektr-M", url:"hp:asc-lebedev.ru/index2.php?engdep=20", desc:"ag:rosc,lav;lv:Angara-A5/KVTK;sc:1.2;x:0;y:0;m:6600kg", stat:"pl", 
+millimetron:{name:"Spektr-M", url:"hp:asc-lebedev.ru/index2.php?engdep=20", desc:"ag:rosc,lav;lv:Angara-A5M/KVTK;sc:1.2;x:0;y:0;m:6600kg", stat:"pl", 
   parts: [
     {n:"Спектр-M;Millimetron", ctry:"ru", type:"mw", pur:"", id:"", icon:"millimetron.png", desc:""}
   ], ev: [
@@ -1852,7 +1852,7 @@ srg:{name:"Spektr-RG:Spectrum Roentgen Gamma", url:"hp:hea.iki.rssi.ru/SRG/en/in
 //    {n:"Lobster", band:"", res:"", desc:"ag:Leicester University;c:nl;"},
     {n:"ART-XC", band:"6..30keV", res:"45", fov:"0.3deg2", desc:"ag:iki;c:nl;"}
 ]},
-spektruv:{name:"Spektr-UV", url:"hp:www.wso-uv.org/wso-uv2/index.php?lang=en;Universidad Complutense:www.wso-uv.es/", desc:"ag:rosc;lv:Angara-A5/DM-03;m:2840kg;sc:1.2;x:10;y:12", stat:"pl", 
+spektruv:{name:"Spektr-UV", url:"hp:www.wso-uv.org/wso-uv2/index.php?lang=en;Universidad Complutense:www.wso-uv.es/", desc:"ag:rosc;lv:Angara-A5M/DM-03;m:2840kg;sc:1.2;x:10;y:12", stat:"pl", 
   parts: [
     {n:"Спектр-УФ;WSO-UV:World Space Observatory-Ultraviolet", ctry:"ru", type:"uv", pur:"", id:"", icon:"wso-uv.png", desc:""}
   ], ev: [

@@ -3110,11 +3110,11 @@ aditya:{name:"Aditya-L1", desc:"lv:PSLV XL", stat:"pl",
     {pt:"", type:"nom", dt:"l+2yr", loc:"sol:esl1", desc:"?"},
     {pt:"", type:"pom", dt:"l+10yr", loc:"sol:esl1", desc:"?"},
 ]},
-luna25: {name:"Luna 25", desc:"lv:Soyuz 2.1B/Fregat",
+luna25: {name:"Luna 25", desc:"lv:Soyuz 2.1B/Fregat-MT",
   parts:[
     {names:"Луна-Глоб посадочный;Luna Glob Lander:Lunar Sphere Lander", type:"slm", dest:"lun", stat:"pl", ctry:"ru", desc:"ag:rosc,iki;m:1725kg;m0:780kg;sc:0.45", id:"", url:"rsw:www.russianspaceweb.com/luna_glob.html", icon:"luna25.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2021-07", loc:"ter:bai", desc:""},
+    {pt:"", type:"l", dt:"2021-10-01", loc:"ter:vos:LC-1S", desc:""},
     {pt:"", type:"oi", dt:"l+4dy", loc:"lun:100x100kmx90deg", desc:""},
     {pt:"", type:"td", dt:"l+8dy", loc:"lun:69.545S,43.44E", desc:"Near South Pole, Boguslawsky Crater"},
     {pt:"", type:"nom", dt:"l+3mo", loc:"lun", desc:"?"},
@@ -3196,7 +3196,7 @@ exomarsrv: {name:"ExoMars 2022", desc:"lv:Proton-M/Briz-M;m:2900kg",
     {names:"Rosalind Franklin", type:"rvm", dest:"mar", stat:"pl", ctry:"eu", desc:"ag:esa;m:345kg;dim:2.0x1.5x1.7m;fam:exom;sc:0.4", id:"", url:"hp:exploration.esa.int/mars/48088-mission-overview/;tw:twitter.com/ESA_Exomars", icon:"exomars-rv.png"},
 {names:"Kazachok Surface Platform;DM:Descent Module", type:"slm", dest:"mar", stat:"pl", ctry:"eu;ru", desc:"ag:rosc,esa;m:2000kg", id:"", url:"rsw:www.russianspaceweb.com/exomars2018.html", icon:"exomars-dm.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2022-08", loc:"ter:bai:LC-200/39", desc:""},
+    {pt:"", type:"l", dt:"2022-09-21", loc:"ter:bai:LC-200/39", desc:""},
     {pt:"", type:"toi", dt:"l+1dy", loc:"sol:hto", desc:""},
     {pt:"", type:"edl", dt:"2023-04", loc:"mar:18.20N,335.45E", desc:"Oxia Planum;show:ExoMars:SE"},
     {pt:"", type:"nom", dt:"2023-10", loc:"mar", desc:"?"},
@@ -3366,7 +3366,7 @@ hera: {name:"Hera", desc:"lv:Soyuz 2.1B",
 ]},
 mmx: {name:"MMX:Martian Moons eXploration", desc:"lv:H-III",
   parts:[
-    {names:"火星衛星探査機", type:"srm", dest:"mar:phob", stat:"pl", ctry:"jp", desc:"ag:jaxa,isas;m:4000kg;m0:;dim:14x2.1x4.5m;sc:0.5", id:"", url:"hp:mmx.isas.jaxa.jp/en/index.html;tw:twitter.com/mmx_jaxa_en", icon:"mmx.png"},
+    {names:"火星衛星探査機", type:"srm", dest:"mar:phob", stat:"pl", ctry:"jp", desc:"ag:jaxa,isas;m:4000kg;m0:;dim:14x2.1x4.5m;sc:0.5", id:"", url:"hp:mmx.isas.jaxa.jp/en/;tw:twitter.com/mmx_jaxa_en", icon:"mmx.png"},
     {names:"{MMX Sample Return Module}", desc:"m:1300kg;sc:1.0", icon:""},
     {names:"{DLR/CNES Rover}", type:"rvm", dest:"mar:phob", stat:"pl", ctry:"de;fr", desc:"ag:dlr,cnes;m:29kg;sc:0.6", id:"", url:"dlr:www.dlr.de/content/en/articles/news/2019/02/20190619_a_rover_for_phobos_and_deimos.html", icon:"mmx-rv.png"}], 
   events:[
@@ -3397,15 +3397,15 @@ ptknp: {name:"Orel 1L1", desc:"lv:Angara-A5P", stat:"pl",
     {names:"Орёл;PTK-NP:Pilotiruemyi Transportny Korabl Novogo Pokoleniya (New Generation Piloted Transport Ship)", type:"fbm", dest:"lun", ctry:"ru", desc:"ag:rosc;m:22300kg;Uncrewed test flight;sc:0.7", id:"", url:"rsw:www.russianspaceweb.com/ptk_flight_testing.html", icon:"orel.png"},
     {type:"erm", dest:"ter"}], 
   events:[
-    {pt:"", type:"l", dt:"2023", loc:"ter:vos:LC-1A", desc:""},
+    {pt:"", type:"l", dt:"2023-09", loc:"ter:vos:LC-1A", desc:""},
     {pt:"", type:"fb", dt:"l+4dy", loc:"lun", desc:""},
     {pt:"", type:"edl", dt:"l+8dy", loc:"ter", desc:"eom"}
 ]},
-luna26: {name:"Luna 26", desc:"lv:Soyuz 2.1B/Fregat",
+luna26: {name:"Luna 26", desc:"lv:Soyuz 2.1B/Fregat-MT",
   parts:[
     {names:"Луна-Ресурс орбитальный;Luna Resurs Orbiter:Lunar Resource Orbiter", type:"om", dest:"lun", stat:"pl", ctry:"ru", desc:"ag:rosc,iki;m:2200kg;sc:0.75", id:"", url:"rsw:www.russianspaceweb.com/luna_glob.html", icon:"luna26.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2024-11", loc:"ter:bai", desc:""},
+    {pt:"", type:"l", dt:"2024-11-13", loc:"ter:vos", desc:""},
     {pt:"", type:"oi", dt:"l+4dy", loc:"lun", desc:""},
     {pt:"", type:"sco", dt:"l+?dy", loc:"lun:100kmx90deg", desc:"Working Orbit"},
     {pt:"", type:"sco", dt:"l+1yr", loc:"lun:500kmx90deg", desc:"Final Operation Orbit"},
@@ -3433,11 +3433,11 @@ interheliozond: {name:"Interhelio-Zond", desc:"lv:Proton-M/Briz-M",
     {pt:"", type:"nom", dt:"l+7yr", loc:"lun", desc:"?"},
     {pt:"", type:"pom", dt:"l+9yr", loc:"lun", desc:"?"}
 ]},
-luna27: {name:"Luna 27", desc:"lv:Soyuz 2.1B",
+luna27: {name:"Luna 27", desc:"lv:Soyuz 2.1B/Fregat-MT",
   parts:[
     {names:"Луна-Ресурс посадочный;Luna Resurs Lander", type:"slm", dest:"lun", stat:"pl", ctry:"ru;eu", desc:"ag:rosc,iki,esa;m:2150kg;sc:0.4", id:"", url:"hp:ofo.ikiweb.ru/en/p_luna_resurs.php;rsw:www.russianspaceweb.com/luna_resurs.html", icon:"lunaresurs.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2025", loc:"ter:bai", desc:""},
+    {pt:"", type:"l", dt:"2025-08", loc:"ter:vos", desc:""},
     {pt:"", type:"td", dt:"l+4dy", loc:"lun:87.2S,68E", desc:"Near South Pole; Shoemaker Crater;show:0"},
     {pt:"", type:"nom", dt:"l+1yr", loc:"lun", desc:"?"}
 ]},
