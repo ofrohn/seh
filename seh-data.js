@@ -3370,7 +3370,10 @@ hayabusa2: {name:"Hayabusa 2:Peregrine Falcon 2", desc:"lv:H-IIA 202",
     {pt:"2", type:"td", dt:"2019-10-08", loc:"ast", desc:"hpp:MINERVA II2;eom:hpm"},
     {pt:"0", type:"dep", dt:"2019-11-13", loc:"ast", desc:""},
     {pt:"0", type:"edl", dt:"2020-12-06", loc:"ter", desc:"Begin extended mission"},
-    {pt:"0", type:"fb", dt:"2029", loc:"ast", desc:"nom;2001 AV43;or 1998 KY26 in 2031"}
+    {pt:"0", type:"fb", dt:"2026-07", loc:"ast", desc:"2001 CC21"},
+    {pt:"0", type:"fb", dt:"2027-12", loc:"ter", desc:"GA"},
+    {pt:"0", type:"fb", dt:"2028-06", loc:"ter", desc:"GA"},
+    {pt:"0", type:"fb", dt:"2031-07", loc:"ast", desc:"nom;1998 KY26"}
 ]},
 procyon: {name:"PROCYON:PRoximate Object Close flYby with Optical Navigation", desc:"lv:H-IIA 202",
   parts:[
@@ -3646,7 +3649,7 @@ change5: {name:"Chang'e 5", desc:"lv:CZ-5",
     {names:"{Chang'e 5 Lander}", type:"slm", dest:"lun", stat:"pl", ctry:"cn", desc:"", id:"", url:"", icon:"chang-e5l.png"},
     {names:"{Chang'e 5 Return Stage}", type:"", dest:"ter", stat:"pl", ctry:"cn", desc:"sc:0.6", id:"", url:"", icon:"chang-e5sr.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2020-10", loc:"ter:wen:LC-101", desc:""},
+    {pt:"", type:"l", dt:"2020-11", loc:"ter:wen:LC-101", desc:""},
     {pt:"", type:"toi", dt:"l+1hr", loc:"ter:lto", desc:""},
     {pt:"", type:"oi", dt:"l+5dy", loc:"lun:200km", desc:""},
     {pt:"", type:"sep", dt:"l+22dy", loc:"lun", desc:"op/lp"},
@@ -4489,9 +4492,21 @@ ryug:
    h:"19.3", mass:"4.5e11kg", dia:"1.004x0.875km", rad:"0.45", tilt:"171.64",
    alb:"0.016", grav:"", comp:"CHON+poro:50", dens:"1.19", spec:"C", temp:"",
    img:"ryugu.png", desc:"sc:6;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=ryugu;orb:ec.2000-01-01"},
+a1998ky26:
+  {name:"1998 KY26", other:"", desig:"", type:"a", par:"sol", disc:"Spacewatch", dyr:"1998",
+   a:"1.233au", e:"0.2018", i:"1.481", per:"1.37a", rot:"0.178h", gr:"nea:Apollo",
+   h:"25.0", mass:"", dia:"30m", rad:"0.015", tilt:"",
+   alb:"0.12", grav:"", comp:"", dens:"", spec:"X", temp:"",
+   img:"", desc:"sc:6;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=1998+ky26;orb:ec.2017-09-04"},
+a2001cc21:
+  {name:"2001 CC21", other:"", desig:"98943", type:"a", par:"sol", disc:"LINEAR", dyr:"2001",
+   a:"1.032au", e:"0.2191", i:"4.808", per:"1.05a", rot:"5.017h", gr:"nea:Apollo",
+   h:"18.5", mass:"", dia:"9.5km", rad:"4.75", tilt:"",
+   alb:"", grav:"", comp:"", dens:"", spec:"L", temp:"",
+   img:"", desc:"sc:6;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=98943orb:ec.2020-05-21"},
 a2002gt:
   {name:"2002 GT", other:"", desig:"163249", type:"a", par:"sol", disc:"Spacewatch", dyr:"2002",
-   a:"1.34au", e:"0.335", i:"6.967", per:"1.56a", rot:"3.77h", gr:"nea:Apollo",
+   a:"1.344au", e:"0.335", i:"6.967", per:"1.56a", rot:"3.77h", gr:"nea:Apollo",
    h:"18.5", mass:"", dia:"", rad:"", tilt:"",
    alb:"", grav:"", comp:"", dens:"", spec:"", temp:"",
    img:"", desc:"sc:6;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=163249;orb:ec.2000-01-01"},
@@ -6578,8 +6593,8 @@ cz-8
 //New Glenn
 "New Glenn": {alt:"", ctry:"us", m:"", pm:"45000/13000/-",  d:"98x7", pf:"", dt:"2022", st:"2", th:"17100", fam:"", desc:"l:cap,van;ag:Blue Origin", fuel:"LCH4/LOX", icon:"newglenn.png"},
 //OmegA
-"OmegA": {syn:"OmegA Intermediate"},
-"OmegA Intermediate": {n:"", alt:"", ctry:"us", m:"", pm:"~30000/4900..10100/-", d:"59.8x3.7", pf:"5.3x15", dt:"2021..", st:"3/2-6", th:"12000", fam:"OmegA", desc:"ag:atk", fuel:"SRP/LH2+LOX", icon:"omega500.png"},
+/*"OmegA": {syn:"OmegA Intermediate"},
+"OmegA Intermediate": {n:"", alt:"", ctry:"us", m:"", pm:"~30000/4900..10100/-", d:"59.8x3.7", pf:"5.3x15", dt:"2021..", st:"3/2-6", th:"12000", fam:"OmegA", desc:"ag:atk", fuel:"SRP/LH2+LOX", icon:"omega500.png"},*/
 //Pegasus-XL
 "Pegasus-XL": {n:"", alt:"", ctry:"us", m:"23269", pm:"475/175/-",  d:"17.6x6.7", pf:"2.2x1.27", dt:"1990-04-05..", st:"3/L-1011", th:"726", fam:"Pegasus", desc:"ag:atk", fuel:"SRP", icon:"pegasus-xl.png"},
 //PSLV-XL
@@ -6625,8 +6640,9 @@ cz-8
 "Titan III": {ctry:"us", m:"680000", pm:"14742/4990/4000",  d:"47.3x3.05", pf:"12.4-16x3.6", dt:"1990-01-01..1992-09-25", st:"2/2", ust:"TOS", th:"12450", fam:"Titan", desc:"l:cap;ag:nasa", fuel:"A50/N2O4+SRP", icon:"Titan-3.png"},
 "Titan IIIE Centaur D1T": {ctry:"us", m:"633000", pm:"17000/6800/5000",  d:"48.8x3.05", pf:"17.8x3.7", dt:"1974-02-12..1977-09-05", st:"3/2", ust:"Star-37E", th:"10600", fam:"Titan", desc:"l:cap;ag:nasa", fuel:"A50/N2O4+SRP", icon:"Titan-3E.png"},
 //Vega
-"Vega": {alt:"", ctry:"eu", m:"139000", pm:"2300/-/",  d:"30x3", pf:"7.88x2.6", dt:"2012-02-13..", st:"3", ust:"AVUM", th:"2261", fam:"", desc:"l:kou;ag:esa", fuel:"SRP", icon:"vega.png"},
+"Vega": {alt:"", ctry:"eu", m:"139000", pm:"2300/-/",  d:"30x3", pf:"7.9x2.6", dt:"2012-02-13..", st:"3", ust:"AVUM", th:"2261", fam:"Vega", desc:"l:kou;ag:esa", fuel:"SRP", icon:"vega.png"},
 //Vega-C
+"Vega-C": {alt:"", ctry:"eu", m:"210000", pm:"3300/-/",  d:"35x3.4", pf:"9.3x3.3", dt:"2021-06..", st:"3", ust:"AVUM+", th:"4323", fam:"Vega", desc:"l:kou;ag:esa", fuel:"SRP", icon:"vega-c.png"},
 //Vostok-L 8K72
 "Vostok-L 8K72": {alt:"Восток-Л", ctry:"su", m:"279100", pm:"4000/-/400",  d:"33.5x2.95", pf:"", dt:"1958-09-23..1960-04-16", st:"1/4", ust:"Blok-E", th:"3998", fam:"R-7", desc:"l:bai;ag:okb", fuel:"KeroLOX", icon:"Luna.png"},
 // Vulcan

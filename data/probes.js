@@ -2718,7 +2718,10 @@ hayabusa2: {name:"Hayabusa 2:Peregrine Falcon 2", desc:"lv:H-IIA 202",
     {pt:"2", type:"td", dt:"2019-10-08", loc:"ast", desc:"hpp:MINERVA II2;eom:hpm"},
     {pt:"0", type:"dep", dt:"2019-11-13", loc:"ast", desc:""},
     {pt:"0", type:"edl", dt:"2020-12-06", loc:"ter", desc:"Begin extended mission"},
-    {pt:"0", type:"fb", dt:"2029", loc:"ast", desc:"nom;2001 AV43;or 1998 KY26 in 2031"}
+    {pt:"0", type:"fb", dt:"2026-07", loc:"ast", desc:"2001 CC21"},
+    {pt:"0", type:"fb", dt:"2027-12", loc:"ter", desc:"GA"},
+    {pt:"0", type:"fb", dt:"2028-06", loc:"ter", desc:"GA"},
+    {pt:"0", type:"fb", dt:"2031-07", loc:"ast", desc:"nom;1998 KY26"}
 ]},
 procyon: {name:"PROCYON:PRoximate Object Close flYby with Optical Navigation", desc:"lv:H-IIA 202",
   parts:[
@@ -2994,7 +2997,7 @@ change5: {name:"Chang'e 5", desc:"lv:CZ-5",
     {names:"{Chang'e 5 Lander}", type:"slm", dest:"lun", stat:"pl", ctry:"cn", desc:"", id:"", url:"", icon:"chang-e5l.png"},
     {names:"{Chang'e 5 Return Stage}", type:"", dest:"ter", stat:"pl", ctry:"cn", desc:"sc:0.6", id:"", url:"", icon:"chang-e5sr.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2020-10", loc:"ter:wen:LC-101", desc:""},
+    {pt:"", type:"l", dt:"2020-11", loc:"ter:wen:LC-101", desc:""},
     {pt:"", type:"toi", dt:"l+1hr", loc:"ter:lto", desc:""},
     {pt:"", type:"oi", dt:"l+5dy", loc:"lun:200km", desc:""},
     {pt:"", type:"sep", dt:"l+22dy", loc:"lun", desc:"op/lp"},

@@ -2383,8 +2383,8 @@ cz-8
 //New Glenn
 "New Glenn": {alt:"", ctry:"us", m:"", pm:"45000/13000/-",  d:"98x7", pf:"", dt:"2022", st:"2", th:"17100", fam:"", desc:"l:cap,van;ag:Blue Origin", fuel:"LCH4/LOX", icon:"newglenn.png"},
 //OmegA
-"OmegA": {syn:"OmegA Intermediate"},
-"OmegA Intermediate": {n:"", alt:"", ctry:"us", m:"", pm:"~30000/4900..10100/-", d:"59.8x3.7", pf:"5.3x15", dt:"2021..", st:"3/2-6", th:"12000", fam:"OmegA", desc:"ag:atk", fuel:"SRP/LH2+LOX", icon:"omega500.png"},
+/*"OmegA": {syn:"OmegA Intermediate"},
+"OmegA Intermediate": {n:"", alt:"", ctry:"us", m:"", pm:"~30000/4900..10100/-", d:"59.8x3.7", pf:"5.3x15", dt:"2021..", st:"3/2-6", th:"12000", fam:"OmegA", desc:"ag:atk", fuel:"SRP/LH2+LOX", icon:"omega500.png"},*/
 //Pegasus-XL
 "Pegasus-XL": {n:"", alt:"", ctry:"us", m:"23269", pm:"475/175/-",  d:"17.6x6.7", pf:"2.2x1.27", dt:"1990-04-05..", st:"3/L-1011", th:"726", fam:"Pegasus", desc:"ag:atk", fuel:"SRP", icon:"pegasus-xl.png"},
 //PSLV-XL
@@ -2430,8 +2430,9 @@ cz-8
 "Titan III": {ctry:"us", m:"680000", pm:"14742/4990/4000",  d:"47.3x3.05", pf:"12.4-16x3.6", dt:"1990-01-01..1992-09-25", st:"2/2", ust:"TOS", th:"12450", fam:"Titan", desc:"l:cap;ag:nasa", fuel:"A50/N2O4+SRP", icon:"Titan-3.png"},
 "Titan IIIE Centaur D1T": {ctry:"us", m:"633000", pm:"17000/6800/5000",  d:"48.8x3.05", pf:"17.8x3.7", dt:"1974-02-12..1977-09-05", st:"3/2", ust:"Star-37E", th:"10600", fam:"Titan", desc:"l:cap;ag:nasa", fuel:"A50/N2O4+SRP", icon:"Titan-3E.png"},
 //Vega
-"Vega": {alt:"", ctry:"eu", m:"139000", pm:"2300/-/",  d:"30x3", pf:"7.88x2.6", dt:"2012-02-13..", st:"3", ust:"AVUM", th:"2261", fam:"", desc:"l:kou;ag:esa", fuel:"SRP", icon:"vega.png"},
+"Vega": {alt:"", ctry:"eu", m:"139000", pm:"2300/-/",  d:"30x3", pf:"7.9x2.6", dt:"2012-02-13..", st:"3", ust:"AVUM", th:"2261", fam:"Vega", desc:"l:kou;ag:esa", fuel:"SRP", icon:"vega.png"},
 //Vega-C
+"Vega-C": {alt:"", ctry:"eu", m:"210000", pm:"3300/-/",  d:"35x3.4", pf:"9.3x3.3", dt:"2021-06..", st:"3", ust:"AVUM+", th:"4323", fam:"Vega", desc:"l:kou;ag:esa", fuel:"SRP", icon:"vega-c.png"},
 //Vostok-L 8K72
 "Vostok-L 8K72": {alt:"Восток-Л", ctry:"su", m:"279100", pm:"4000/-/400",  d:"33.5x2.95", pf:"", dt:"1958-09-23..1960-04-16", st:"1/4", ust:"Blok-E", th:"3998", fam:"R-7", desc:"l:bai;ag:okb", fuel:"KeroLOX", icon:"Luna.png"},
 // Vulcan

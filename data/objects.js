@@ -308,9 +308,21 @@ ryug:
    h:"19.3", mass:"4.5e11kg", dia:"1.004x0.875km", rad:"0.45", tilt:"171.64",
    alb:"0.016", grav:"", comp:"CHON+poro:50", dens:"1.19", spec:"C", temp:"",
    img:"ryugu.png", desc:"sc:6;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=ryugu;orb:ec.2000-01-01"},
+a1998ky26:
+  {name:"1998 KY26", other:"", desig:"", type:"a", par:"sol", disc:"Spacewatch", dyr:"1998",
+   a:"1.233au", e:"0.2018", i:"1.481", per:"1.37a", rot:"0.178h", gr:"nea:Apollo",
+   h:"25.0", mass:"", dia:"30m", rad:"0.015", tilt:"",
+   alb:"0.12", grav:"", comp:"", dens:"", spec:"X", temp:"",
+   img:"", desc:"sc:6;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=1998+ky26;orb:ec.2017-09-04"},
+a2001cc21:
+  {name:"2001 CC21", other:"", desig:"98943", type:"a", par:"sol", disc:"LINEAR", dyr:"2001",
+   a:"1.032au", e:"0.2191", i:"4.808", per:"1.05a", rot:"5.017h", gr:"nea:Apollo",
+   h:"18.5", mass:"", dia:"9.5km", rad:"4.75", tilt:"",
+   alb:"", grav:"", comp:"", dens:"", spec:"L", temp:"",
+   img:"", desc:"sc:6;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=98943orb:ec.2020-05-21"},
 a2002gt:
   {name:"2002 GT", other:"", desig:"163249", type:"a", par:"sol", disc:"Spacewatch", dyr:"2002",
-   a:"1.34au", e:"0.335", i:"6.967", per:"1.56a", rot:"3.77h", gr:"nea:Apollo",
+   a:"1.344au", e:"0.335", i:"6.967", per:"1.56a", rot:"3.77h", gr:"nea:Apollo",
    h:"18.5", mass:"", dia:"", rad:"", tilt:"",
    alb:"", grav:"", comp:"", dens:"", spec:"", temp:"",
    img:"", desc:"sc:6;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=163249;orb:ec.2000-01-01"},
