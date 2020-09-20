@@ -3125,7 +3125,7 @@ luna25: {name:"Luna 25", desc:"lv:Soyuz 2.1B/Fregat-MT",
 ]},
 lucy: {name:"Lucy", desc:"lv:Atlas V 401",
   parts:[
-    {names:"", type:"fbm", dest:"ast", stat:"pl", ctry:"us", desc:"ag:nasa,gsfc,swri;fam:discovery;sc:0.4", id:"", url:"hp:www.nasa.gov/lucy;tw:twitter.com/NASALucy2Trojan", icon:"lucy.png"}
+    {names:"", type:"fbm", dest:"ast", stat:"pl", ctry:"us", desc:"ag:nasa,gsfc,swri;fam:discovery;sc:0.4", id:"", url:"hp:www.nasa.gov/lucy;tw:twitter.com/LucyMission", icon:"lucy.png"}
   ], events:[
     {pt:"", type:"l", dt:"2021-10-16", loc:"ter:cap:SLC-41", desc:""},
     {pt:"", type:"oi", dt:"2021-10-16", loc:"sol:ho:1aux0.16x0.21deg", desc:""},

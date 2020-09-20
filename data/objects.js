@@ -306,7 +306,7 @@ ryug:
   {name:"Ryugu", other:"1999 JU3", desig:"162173", type:"a", par:"sol", disc:"LINEAR", dyr:"1999",
    a:"1.19au", e:"0.1903", i:"5.884", per:"1.30a", rot:"7.633h", gr:"nea:Apollo",
    h:"19.3", mass:"4.5e11kg", dia:"1.004x0.875km", rad:"0.45", tilt:"171.64",
-   alb:"0.016", grav:"", comp:"CHON+poro:50", dens:"1.19", spec:"C", temp:"",
+   alb:"0.016", grav:"", comp:"CHON+poro:50", dens:"1.19", spec:"Cb", temp:"",
    img:"ryugu.png", desc:"sc:6;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=ryugu;orb:ec.2000-01-01"},
 a1998ky26:
   {name:"1998 KY26", other:"", desig:"", type:"a", par:"sol", disc:"Spacewatch", dyr:"1998",
