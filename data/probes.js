@@ -3048,7 +3048,7 @@ em1lcube: {name:"Artemis-1 Lunar Cubesats", desc:"lv:SLS;part:em1;6U CubeSats", 
     {names:"Lunar IceCube", type:"om", dest:"lun", ctry:"us", desc:"ag:nasa,gsfc;m:~14kg;dim:0.7x0.2x0.3m;sc:1", id:"", url:"IceCube:www.nasa.gov/feature/goddard/lunar-icecube-to-take-on-big-mission-from-small-package", icon:"icecube.png"},
     {names:"LunaH-Map:Lunar Polar Hydrogen Mapper", type:"om", dest:"lun", ctry:"us", desc:"ag:nasa,asu;sc:0.6", id:"", url:"H-Map:lunahmap.asu.edu/;tw:twitter.com/lunahmap", icon:"lunahmap.png"},
     {names:"OMOTENASHI:Outstanding Moon exploration Technologies demonstrated by Nano Semi-Hard Impactor", type:"im", dest:"lun", ctry:"jp", desc:"ag:jaxa;sc:0.6", id:"", url:"hp:www.isas.jaxa.jp/home/omotenashi/index.html;tw:twitter.com/OMOTENASHI_JAXA", icon:"omotenashi.png"},
-    {names:"EQUULEUS:EQUilibriUm Lunar-Earth point 6U Spacecraft", type:"om", dest:"ter:eml2", ctry:"jp", desc:"ag:jaxa;sc:0.6", id:"", url:"nasa:www.nasa.gov/exploration/systems/sls/international-partners-provide-cubesats-for-sls-maiden-flight;tw:twitter.com/EQUULEUS_en", icon:"equuleus.png"}],
+    {names:"EQUULEUS:EQUilibriUm Lunar-Earth point 6U Spacecraft", type:"om", dest:"ter:eml2", ctry:"jp", desc:"ag:jaxa;sc:0.6", id:"", url:"hp:www.space.t.u-tokyo.ac.jp/equuleus/en/;tw:twitter.com/EQUULEUS_en", icon:"equuleus.png"}],
   events:[
     {pt:"", type:"l", dt:"2021-11", loc:"ter:ksc:LC-39B", desc:"EM-1 piggyback"},
     {pt:"", type:"toi", dt:"2021-11", loc:"ter", desc:"lto"},
@@ -3077,7 +3077,7 @@ em1cubes: {name:"Artemis-1 Cubesats", desc:"lv:SLS;part:em1;6U-CubeSat", stat:"p
     {names:"NEA-Scout:Near Asteroid Scout", type:"fbm", dest:"ast", ctry:"us", desc:"Solar Sail;ag:nasa,msfc;m:12kg;dim:9x9x0.3m;sc:0.6", id:"", url:"NEA-Scout:www.nasa.gov/content/nea-scout", icon:"nea-scout.png"},
     {names:"BioSentinel", type:"om", dest:"sol", ctry:"us", desc:"ag:nasa,arc;sc:0.6", id:"", url:"BioSentinel:www.nasa.gov/centers/ames/engineering/projects/biosentinel.html", icon:"biosentinel.png"},
     {names:"CuSP:CubeSat to study Solar Particles", type:"om", dest:"sol", ctry:"us", desc:"ag:nasa,swri;sc:0.8", id:"", url:"CuSP:www.nasa.gov/feature/goddard/2016/heliophysics-cubesat-to-launch-on-nasa-s-sls", icon:"cusp.png"},
-    {names:"ArgoMoon", type:"test", dest:"ter:heeo", ctry:"it", desc:"ag:asi;sc:0.6", id:"", url:"", icon:"argomoon.png"},
+    {names:"ArgoMoon", type:"test", dest:"ter:heeo", ctry:"it", desc:"ag:asi;sc:0.6", id:"", url:"ArgoMoon:www.argotec.it/online/what-we-do/small-satellite-unit/#tab-3", icon:"argomoon.png"},
     {names:"LunIR:Lunar Infrared Imaging", type:"om", dest:"ter:geo", ctry:"us", desc:"ag:nasa;m:14kg;sc:0.6", id:"", url:"LunIR:www.nasa.gov/feature/next-space-technologies-for-exploration-partnerships-nextstep-projects", icon:"lunir.png"},
     {names:"Cislunar Explorers", type:"om", dest:"sol", ctry:"us", desc:"ag:nasa,Cornell;sc:0.6", id:"", url:"Cislunar Explorers:cislunarexplorers.wordpress.com/", icon:"clx.png"},
     {names:"CU-E3:Earth Escape Explorer", type:"om", dest:"sol", ctry:"us", desc:"ag:nasa,CU Boulder;sc:0.6", id:"", url:"CU-E3:www.colorado.edu/cubequest/", icon:"cu-e3.png"},
@@ -3146,7 +3146,7 @@ lucy: {name:"Lucy", desc:"lv:Atlas V 401",
 dart: {name:"DART:Double Asteroid Redirection Test", desc:"lv:Falcon 9",
   parts:[
     {names:"", type:"im", dest:"ast", stat:"pl", ctry:"us", desc:"ag:nasa,apl;fam:AIDA;m:640kg;sc:0.7", id:"", url:"hp:dart.jhuapl.edu/;nasa:www.nasa.gov/planetarydefense/dart", icon:"dart.png"},
-    {names:"LICIA:Light Italian Cubesat for Imaging of Asteroids", type:"fbm", dest:"ast", stat:"pl", ctry:"it", desc:"ag:asi,Argotec;sc:0.4", id:"", url:"LICIACube:argotec.it/online/2019/01/23/liciacube-nasa-choose-again-an-argotec-smallsat/", icon:"licia.png"}
+    {names:"LICIA:Light Italian Cubesat for Imaging of Asteroids", type:"fbm", dest:"ast", stat:"pl", ctry:"it", desc:"ag:asi,Argotec;sc:0.4", id:"", url:"LICIACube:www.argotec.it/online/what-we-do/small-satellite-unit/#tab-4", icon:"licia.png"}
   ], events:[
     {pt:"", type:"l", dt:"2021-07", loc:"ter:van:SLC-4E", desc:""},
     {pt:"", type:"oi", dt:"2021-07", loc:"sol:ho", desc:""},

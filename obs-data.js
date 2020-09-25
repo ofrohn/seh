@@ -2300,8 +2300,9 @@ cz-8
 "CZ-7A": {n:"Long March 7A", alt:"长征七号运载火箭", ctry:"cn", m:"620000", pm:"-/7000/-", d:"60.1x3.35", pf:"12.7x4.2", dt:"2020-03-16..", st:"3/4", ust:"H-18", th:"7200", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX+LH2/LOX", icon:"CZ-7A.png"},
 //CZ-8
 //CZ-9
-"CZ-9": {n:"Long March 9", alt:"长征九号运载火箭", ctry:"cn", m:"4000000", pm:"140000/66000/50000", d:"93x10", pf:"", dt:"2028..", st:"3/4", ust:"", th:"52800", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"cz-9.png"},
+"CZ-9": {n:"Long March 9", alt:"长征九号运载火箭", ctry:"cn", m:"4000000", pm:"140000/66000/50000", d:"93x10", pf:"", dt:"2028..", st:"3/4", ust:"", th:"52800", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"CZ-9.png"},
 //CZ-X
+"CZ-X": {n:"Long March X", alt:"长征X号运载火箭", ctry:"cn", m:"2200000", pm:"70000//", d:"87x5", pf:"", dt:"2025..", st:"3/2", ust:"", th:"25200", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"CZ-X.png"},
 //CZ-11
 "CZ-11": {n:"Long March 11", alt:"长征十一号运载火箭", ctry:"cn", m:"58000", pm:"700/-/-", d:"20.8x2", pf:"", dt:"2015-09-25..", st:"4", ust:"", th:"1188", fam:"Long March", desc:"l:jiu;ag:cnsa", fuel:"SRP", icon:"cz-11.png"},
 //Delta E, Delta E1
