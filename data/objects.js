@@ -329,9 +329,9 @@ a2002gt:
 // 2001 WR1
 a1996fg3:
   {name:"1996 FG3", other:"", desig:"175706", type:"a", par:"sol", disc:"R.H. McNaught", dyr:"1996",
-   a:"1.05au", e:"0.350", i:"1.992", per:"1.08a", rot:"3.594h", gr:"nea:Apollo",
-   h:"18.4", mass:"", dia:"", rad:"", tilt:"",
-   alb:"", grav:"", comp:"Carbonaceous", dens:"", spec:"C", temp:"",
+   a:"1.054au", e:"0.3497", i:"1.992", per:"1.08a", rot:"3.594h", gr:"nea:Apollo;pha",
+   h:"18.4", mass:"", dia:"1.196km", rad:"0.593", tilt:"",
+   alb:"0.072", grav:"", comp:"Carbonaceous", dens:"", spec:"C", temp:"",
    img:"", desc:"sc:6;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=175706;orb:ec.2014-05-23"},
 a2000dp107a:
   {name:"2000 DP107", other:"", desig:"185851", type:"a", par:"sol", disc:"LINEAR", dyr:"2000",
@@ -351,6 +351,12 @@ a1991vg:
    h:"28.3", mass:"", dia:"0.007km", rad:"0.0035", tilt:"",
    alb:"", grav:"", comp:"", dens:"", spec:"", temp:"",
    img:"", desc:"sc:6;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=1991+VG;orb:ec.2017-09-04"},
+a1991vh:
+  {name:"1991 VH", other:"", desig:"35107", type:"a", par:"sol", disc:"McNaught, R.H.", dyr:"1991",
+   a:"1.137au", e:"0.1442", i:"13.91", per:"1.21a", rot:"2.62h", gr:"nea:Apollo;pha",
+   h:"16.7", mass:"", dia:"0.929km", rad:"0.465", tilt:"",
+   alb:"0.408", grav:"", comp:"Silicates", dens:"", spec:"Sk", temp:"",
+   img:"", desc:"sc:6;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=35107;orb:ec.2020-05-31"},
 //2016 HO3
 kamo:
   {name:"Kamo`oalewa", other:"2016 HO3", desig:"469219", type:"a", par:"sol", disc:"Pan-STARRS", dyr:"2016",

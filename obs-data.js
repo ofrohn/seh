@@ -1267,7 +1267,7 @@ ibex:{name:"IBEX:Interstellar Boundary EXplorer", url:"hp:ibex.swri.edu/index.sh
   ], inst: [
     {n:"", band:"", res:"", d:"", px:"", url:"", desc:"c:;"}
 ]},
-imap:{name:"IMAP:Interstellar Mapping and Acceleration Probe", url:"hp:imap.princeton.edu;nasa:soma.larc.nasa.gov/STP/IMAP/", desc:"ag:nasa,jhuapl;lv:;m:", stat:"pl", 
+imap:{name:"IMAP:Interstellar Mapping and Acceleration Probe", url:"hp:imap.princeton.edu;nasa:soma.larc.nasa.gov/STP/IMAP/", desc:"ag:nasa,jhuapl;lv:Falcon 9;m:", stat:"pl", 
   parts: [
     {n:"", ctry:"us", type:"par", pur:"", id:"", icon:"imap.png", desc:""}
   ], ev: [
