@@ -3235,9 +3235,9 @@ juice: {name:"JUICE:JUpiter ICy moons Explorer", desc:"lv:Ariane 5ECA",
 ]},
 psyche: {name:"Psyche", desc:"lv:Falcon Heavy",
   parts:[
-    {names:"", type:"om", dest:"ast", stat:"pl", ctry:"us", desc:"ag:nasa,jpl,asu;fam:discovery;sc:0.9;m0:1300kg", id:"", url:"hp:psyche.asu.edu/;jpl:jpl.nasa.gov/missions/psyche/;tw:twitter.com/NASAPsyche", icon:"psyche.png"},
-    {names:"Janus-A", type:"fbm", dest:"ast", stat:"pl", ctry:"us", desc:"ag:nasa,msfc,CU-Boulder;fam:SIMPLEx;sc:0.9;m:180kg", id:"", url:"Janus:www.colorado.edu/today/janus-binary-asteroids", icon:"janus.png"},
-    {names:"Janus-B", type:"fbm", dest:"ast", stat:"pl", ctry:"us", desc:"ag:nasa,msfc,CU-Boulder;fam:SIMPLEx;sc:0.9;m:180kg", id:"", url:"", icon:"janus.png"}
+    {names:"", type:"om", dest:"ast", stat:"pl", ctry:"us", desc:"ag:nasa,jpl,asu;fam:Discovery;sc:0.9;m0:1300kg", id:"", url:"hp:psyche.asu.edu/;jpl:jpl.nasa.gov/missions/psyche/;tw:twitter.com/NASAPsyche", icon:"psyche.png"},
+    {names:"Janus-A", type:"fbm", dest:"ast", stat:"pl", ctry:"us", desc:"ag:nasa,msfc,CU-Boulder;fam:SIMPLEx;sc:0.55;m:180kg", id:"", url:"Janus:www.colorado.edu/today/janus-binary-asteroids", icon:"janus.png"},
+    {names:"Janus-B", type:"fbm", dest:"ast", stat:"pl", ctry:"us", desc:"ag:nasa,msfc,CU-Boulder;fam:SIMPLEx;sc:0.55;m:180kg", id:"", url:"", icon:"janus.png"}
   ], events:[
     {pt:"", type:"l", dt:"2022-08", loc:"ter:cap:LC-39A", desc:""},
     {pt:"", type:"oi", dt:"2022-08", loc:"sol:ho", desc:""},
@@ -3391,13 +3391,21 @@ mmx: {name:"MMX:Martian Moons eXploration", desc:"lv:H-III",
     {pt:"", type:"oi", dt:"2028-08", loc:"sol:ho", desc:"ETO"},
     {pt:"", type:"edl", dt:"2029-09", loc:"ter", desc:"eom"}
 ]},
-swfol1: {name:"SWFO-L1:Space Weather Follow-On L1", desc:"",
+swfol1: {name:"SWFO-L1:Space Weather Follow-On L1", desc:"Falcon 9",
   parts:[
     {names:"", type:"obm", dest:"sol", stat:"pl", ctry:"us", desc:"ag:nasa,noaa;m:400kg;sc:0.75;Heliophysics Observatory", id:"", url:"hp:swww.nesdis.noaa.gov/OPPA/swfo-L1.php", icon:"swfo-l1.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2024", loc:"ter:cap:LC-36B", desc:""},
+    {pt:"", type:"l", dt:"2024", loc:"ter:cap:LC-36B", desc:"IMAP piggyback"},
     {pt:"", type:"sco", dt:"2024", loc:"sol:esl1", desc:"Halo Orbit"},
     {pt:"", type:"pom", dt:"2034", loc:"esl1", desc:""}    
+]},
+lunartrailblazer: {name:"Lunar Trailblazer", desc:"lv:Falcon 9",
+  parts:[
+    {names:"", type:"om", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,jpl,Caltech;sc:0.5", id:"", url:"hp:trailblazer.caltech.edu", icon:"lunar-trailblazer.png"}], 
+  events:[
+    {pt:"", type:"l", dt:"2024", loc:"ter", desc:""},
+    {pt:"", type:"oi", dt:"l+4m", loc:"lun:100km", desc:"Polar orbit"},
+    {pt:"", type:"nom", dt:"2025", loc:"lun", desc:""}
 ]},
 em3: {name:"Artemis-3", desc:"lv:SLS 1B", stat:"pl", 
   parts:[
@@ -3461,7 +3469,7 @@ dragonfly: {name:"Dragonfly", desc:"", stat:"pl",
   parts:[
     {names:"", type:"dm", dest:"sat:Titan", ctry:"us", desc:"ag:nasa,apl;fam:New Frontiers;m:420kg;sc:0.4", id:"", url:"hp:dragonfly.jhuapl.edu", icon:"dragonfly.png"}],
   events:[
-    {pt:"", type:"l", dt:"2026", loc:"ter:ksc", desc:""},
+    {pt:"", type:"l", dt:"2027", loc:"ter:ksc", desc:""},
     {pt:"", type:"edl", dt:"2034", loc:"tita", desc:"Shangri-La"},
     {pt:"", type:"nom", dt:"2037", loc:"tita", desc:"rv:175km;?"}
 ]},

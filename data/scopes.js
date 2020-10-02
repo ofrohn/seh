@@ -1279,7 +1279,7 @@ swfol1:{name:"SWFO-L1:Space Weather Follow-On-L1", url:"hp:www.nesdis.noaa.gov/O
   parts: [
     {n:"", ctry:"us", type:"sol", pur:"", id:"", icon:"swfo-l1.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2024", tp:"l", loc:"ter", desc:""},
+    {pt:"", dt:"2024", tp:"l", loc:"ter", desc:"IMAP secondary"},
     {pt:"", dt:"2024", tp:"sco", loc:"sol:ho:esl1", desc:""}
   ], inst: [
     {n:"CCOR:Compact Coronagraph ", band:"", tp:"im", res:"50", fov:"3-22Rsun", url:"", desc:";c:;"},
