@@ -776,7 +776,8 @@ pioneer5: {name:"Pioneer 5", desc:"lv:Thor-Able IV",
   events:[
     {pt:"", type:"l", dt:"1960-03-11", loc:"ter:cap:LC-17A", desc:""},
     {pt:"", type:"oi", dt:"1960-03-11", loc:"sol:ho:0.806x0.995aux3.35deg", desc:""},
-    {pt:"", type:"los", dt:"1960-06-26", loc:"so", desc:"eom"}
+    {pt:"", type:"los", dt:"1960-04-30", loc:"so", desc:"Last data received"},
+    {pt:"", type:"eom", dt:"1960-06-26", loc:"so", desc:""}
 ]},
 luna1960a: {name:"Luna E-3 #1", desc:"lv:Vostok-L 8K72",
   parts:[
@@ -957,8 +958,9 @@ luna4: {name:"Luna 4", desc:"lv:Molniya 8K78L/Blok-L",
   events:[
     {pt:"", type:"l", dt:"1963-04-02", loc:"ter:bai:LC-1", desc:""},
     {pt:"", type:"toi", dt:"1963-04-02", loc:"ter:lto", desc:""},
-    {pt:"", type:"td", dt:"1963-04-05", loc:"lun", desc:"fail:Attitude control malfunction;eom"},
-    {pt:"", type:"fb", dt:"1963-04-05", loc:"lun:8400km", desc:""}
+    {pt:"", type:"td", dt:"1963-04-05", loc:"lun", desc:"fail:Attitude control malfunction"},
+    {pt:"", type:"fb", dt:"1963-04-05", loc:"lun:8400km", desc:""},
+    {pt:"", type:"los", dt:"1963-04-14", loc:"sol:ho", desc:"eom"},
 ]},
 cosmos21: {name:"Kosmos 21", desc:"lv:Molniya 8K78/Blok-L",
   parts:[
@@ -1127,7 +1129,7 @@ zond3: {name:"Zond 3", desc:"lv:Molniya 8K78/Blok-L", stat:"p",
     {pt:"", type:"l", dt:"1965-07-18", loc:"ter:bai:LC-1", desc:""},
     {pt:"", type:"toi", dt:"1965-07-18", loc:"sol:ho:0.90x1.56aux0.25deg", desc:""},
     {pt:"", type:"fb", dt:"1965-07-20", loc:"lun:9200km", desc:""},
-    {pt:"1", type:"los", dt:"1966-03", loc:"so", desc:"fail:Communication system malfunction"}
+    {pt:"1", type:"los", dt:"1966-03-03", loc:"so", desc:"fail:Communication system malfunction"}
 ]},
 pegasus3: {name:"Pegasus 3", desc:"lv:Saturn I",
   parts:[
@@ -1477,7 +1479,7 @@ luna14: {name:"Luna 14", desc:"lv:Molniya 8K78M/Blok-L",
     {pt:"", type:"l", dt:"1968-04-07", loc:"ter:bai:LC-1", desc:""},
     {pt:"", type:"toi", dt:"1968-04-07", loc:"ter:lto", desc:""},
     {pt:"", type:"oi", dt:"1968-04-10", loc:"lun:160x870kmx42deg", desc:"per:160mn"},
-    {pt:"", type:"los", dt:"1968-04-18", loc:"lun", desc:"eom"}
+    {pt:"", type:"los", dt:"1968-06-24", loc:"lun", desc:"eom"}
 ]},
 zond1968A: {name:"Zond 7K-L1 #7L", desc:"lv:Proton-K/Blok-D",
   parts:[
@@ -1583,7 +1585,7 @@ mariner6: {name:"Mariner 6", desc:"lv:Atlas-SLV3C Centaur-D",
     {pt:"", type:"l", dt:"1969-02-24", loc:"ter:cap:LC-36B", desc:""},
     {pt:"", type:"toi", dt:"1969-02-24", loc:"sol:hto:0.990x1.588aux1.9deg", desc:""},
     {pt:"", type:"fb", dt:"1969-07-31", loc:"mar:3431km", desc:""},
-    {pt:"", type:"los", dt:"1970-12", loc:"sol:hto:1.142x1.754aux1.8deg", desc:"eom"}
+    {pt:"", type:"los", dt:"1970-12-23", loc:"sol:hto:1.142x1.754aux1.8deg", desc:"eom"}
 ]},
 apollo9: {name:"Apollo 9", desc:"lv:Saturn V",
   parts:[
@@ -1601,7 +1603,7 @@ mariner7: {name:"Mariner 7", desc:"lv:Atlas-SLV3C Centaur-D",
     {pt:"", type:"l", dt:"1969-03-27", loc:"ter:cap:LC-36A", desc:""},
     {pt:"", type:"toi", dt:"1969-03-27", loc:"sol:hto:0.971x1.568aux1.6deg", desc:""},
     {pt:"", type:"fb", dt:"1969-08-05", loc:"mar:3430km", desc:""},
-    {pt:"", type:"los", dt:"1970-12", loc:"sol:hto:1.118x1.670aux1.8deg", desc:"eom"}
+    {pt:"", type:"los", dt:"1970-12-28", loc:"sol:hto:1.118x1.670aux1.8deg", desc:"eom"}
 ]},
 mars1969A: {name:"Mars M-69 #521", desc:"lv:Proton-K/Blok-D",
   parts:[
@@ -1845,7 +1847,7 @@ mars3: {name:"Mars 3", desc:"lv:Proton-K/Blok-D", stat:"p",
     {pt:"1", type:"edl", dt:"1971-12-02", loc:"mar:45.045S,157.977W", desc:"Sirenum Terra;lp;show:Mars 3"},
     {pt:"1", type:"los", dt:"1971-12-02", loc:"mar", desc:"lp;tm:20s;eom:slm"},
     {pt:"0", type:"oi", dt:"1971-12-02", loc:"mar:1530x214500kmx60deg", desc:"op"},
-    {pt:"0", type:"tos", dt:"1972-08-22", loc:"mar", desc:"eom"}
+    {pt:"0", type:"tos", dt:"1972-01-07", loc:"mar", desc:"eom"}
 ]},
 mariner9: {name:"Mariner 9", desc:"lv:Atlas-SLV3C Centaur-D",
   parts:[
@@ -1897,7 +1899,7 @@ luna19: {name:"Luna 19", desc:"lv:Proton-K/Blok-D",
     {pt:"", type:"toi", dt:"1971-09-28", loc:"ter:lto", desc:""},
     {pt:"", type:"oi", dt:"1971-10-03", loc:"lun:134x141kmx40.5deg", desc:"per:121.13mn"},
     {pt:"", type:"sco", dt:"1971-10-06", loc:"lun:126x973kmx40.1deg", desc:""},
-    {pt:"", type:"tos", dt:"1972-10-21", loc:"lun:77x385kmx40.68deg", desc:"eom"}
+    {pt:"", type:"tos", dt:"1972-11-01", loc:"lun:77x385kmx40.68deg", desc:"eom"}
 ]},
 // --- 1972 --- 7 Missions  
 luna20: {name:"Luna 20", desc:"lv:Proton-K/Blok-D",
@@ -2032,7 +2034,7 @@ mars4: {name:"Mars 4", desc:"lv:Proton-K/Blok-D",
     {pt:"", type:"toi", dt:"1973-07-21", loc:"sol:hto:1.02x1.63aux2.2deg", desc:""},
     {pt:"", type:"oi", dt:"1974-02-10", loc:"mar", desc:"fail:Control system malfunction"},
     {pt:"", type:"fb", dt:"1974-02-10", loc:"mar:2200km", desc:""},
-    {pt:"", type:"los", dt:"1974-04?", loc:"sol:ho:1.02x1.63aux2.2deg", desc:"eom"}
+    {pt:"", type:"los", dt:"1974-04", loc:"sol:ho:1.02x1.63aux2.2deg", desc:"eom"}
 ]},
 mars5: {name:"Mars 5", desc:"lv:Proton-K/Blok-D",
   parts:[
@@ -2128,7 +2130,7 @@ venera9: {name:"Venera 9", desc:"lv:Proton-K/Blok-D",
     {pt:"1", type:"edl", dt:"1975-10-22", loc:"ven", desc:"lp"},
     {pt:"1", type:"tdn", dt:"1975-10-22", loc:"ven:31.01N,291.64E", desc:"Beta Regio;lp"},
     {pt:"1", type:"los", dt:"1975-10-22", loc:"ven", desc:"tm:53mn;eom:slm"},
-    {pt:"0", type:"los", dt:"1975-12-25", loc:"ven", desc:"op;eom"}
+    {pt:"0", type:"los", dt:"1976-03-22", loc:"ven", desc:"op;eom"}
 ]},
 venera10: {name:"Venera 10", desc:"lv:Proton-K/Blok-D",
   parts:[
@@ -2142,7 +2144,7 @@ venera10: {name:"Venera 10", desc:"lv:Proton-K/Blok-D",
     {pt:"1", type:"edl", dt:"1975-10-25", loc:"ven", desc:"lp"},
     {pt:"1", type:"tdn", dt:"1975-10-25", loc:"ven:15.42N,291.51E", desc:"Beta Regio;lp"},
     {pt:"1", type:"los", dt:"1975-10-25", loc:"ven", desc:"tm:65mn;eom:slm"},
-    {pt:"0", type:"los", dt:"1976-03-22", loc:"ven", desc:"op;eom"}
+    {pt:"0", type:"los", dt:"1976-06", loc:"ven", desc:"op;eom"}
 ]},
 viking1: {name:"Viking 1", desc:"lv:Titan IIIE Centaur D1T",
   parts:[
@@ -2175,7 +2177,7 @@ viking2: {name:"Viking 2", desc:"lv:Titan IIIE Centaur D1T",
     {pt:"0", type:"fb", dt:"1977-10-15", loc:"deim:23km", desc:"op"},
     {pt:"0", type:"sco", dt:"1977-10-23", loc:"mar:300kmx80.3deg", desc:"op"},
     {pt:"0", type:"tos", dt:"1978-07-25", loc:"mar:302x33240kmx80.3deg", desc:"op;eom:om"},
-    {pt:"1", type:"los", dt:"1980-04-11", loc:"mar", desc:"lp;eom"}
+    {pt:"1", type:"los", dt:"1980-04-12", loc:"mar", desc:"lp;eom"}
 ]},
 luna1975A: {name:"Luna E-8-5M #412", desc:"lv:Proton-K/Blok-D",
   parts:[
@@ -2397,7 +2399,7 @@ vega1: {name:"Vega 1", desc:"lv:Proton-K/Blok-D1",
     {pt:"0", type:"fb", dt:"1985-06-11", loc:"ven:39000km", desc:"fp"},
     {pt:"2", type:"los", dt:"1985-06-13", loc:"ven:8.1N,68.8E",  desc:"bp;trv:11600km;tm:46.5h;eom:bm"},
     {pt:"0", type:"fb", dt:"1986-03-06", loc:"com:10000km", desc:"com:1P/Halley"},
-    {pt:"0", type:"los", dt:"1987", loc:"so", desc:"?;eom"}
+    {pt:"0", type:"los", dt:"1987-01-30", loc:"so", desc:"?;eom"}
 ]},
 vega2: {name:"Vega 2", desc:"lv:Proton-K/Blok-D1",
   parts:[
@@ -2414,7 +2416,7 @@ vega2: {name:"Vega 2", desc:"lv:Proton-K/Blok-D1",
     {pt:"0", type:"fb", dt:"1985-06-15", loc:"ven:24500km", desc:"fp"},
     {pt:"2", type:"los", dt:"1985-06-17", loc:"ven:7.5S,76.3E", desc:"bp;tm:46.5h;trv:11100km;eom:bm"},
     {pt:"0", type:"fb", dt:"1986-03-09", loc:"com:3000km", desc:"com:1P/Halley"},
-    {pt:"0", type:"los", dt:"1987", loc:"so", desc:"?;eom"}
+    {pt:"0", type:"los", dt:"1987-03-24", loc:"so", desc:"?;eom"}
 ]},
 // --- 1985 --- 3 Missions   
 sakigake: {name:"Sakigake:Pioneer", desc:"lv:M-3SII",
@@ -2488,7 +2490,7 @@ magellan: {name:"Magellan", desc:"lv:STS-30 Atlantis/IUS",
     {pt:"", type:"sco", dt:"1990-09-15", loc:"ven:1.03x2.41x85.5deg", desc:"Radar mapping"},
     {pt:"", type:"ev", dt:"1993-05-24..1993-08-02", loc:"ven", desc:"Aerobraking"},
     {pt:"", type:"sco", dt:"1993-08-03", loc:"ven:180x560x85.5deg", desc:"Gravity Data acquisition"},
-    {pt:"", type:"ae", dt:"1994-10-12", loc:"ven", desc:"los;eom"}
+    {pt:"", type:"ae", dt:"1994-10-13", loc:"ven", desc:"los;eom"}
 ]},
 galileo: {name:"Galileo", desc:"lv:STS-34 Atlantis/IUS",
   parts:[
@@ -2576,7 +2578,7 @@ clementine: {name:"Clementine", desc:"lv:Titan IIG", stat:"p",
     {pt:"0", type:"sco", dt:"1994-02-26", loc:"lun:400x1225kmx90deg", desc:""},
     {pt:"1", type:"toi", dt:"1994-05-05", loc:"ter:heeo", desc:"to Asteroid (1620) Geographos;eom:om"},
     {pt:"1", type:"ev", dt:"1994-05-07", loc:"ter", desc:"fail:Control system malfunction"},
-    {pt:"1", type:"los", dt:"1994-06", loc:"ter:heeo", desc:"eom"}
+    {pt:"1", type:"los", dt:"1995-05-10", loc:"ter:heeo", desc:"eom"}
 ]},
 wind: {name:"Wind", desc:"lv:Delta II 7925-10",
   parts:[
@@ -2857,8 +2859,8 @@ mex: {name:"MEX:Mars Express", desc:"lv:Soyuz-FG/Fregat",
     {pt:"0", type:"fb", dt:"2013-12-29", loc:"Phobos:47km", desc:"Closest Phobos flyby"},
     {pt:"0", type:"obs", dt:"2014-10-17..2014-10-22", loc:"mar", desc:"Comet C 2013 A1 Siding Spring"},
     {pt:"0", type:"sco", dt:"2014-12", loc:"mar:353x10333kmx86.8deg", desc:""},
-    {pt:"0", type:"nom", dt:"2018-12-31", loc:"mar", desc:"pend"},
-    {pt:"0", type:"pom", dt:"2020-12-31", loc:"mar", desc:""}    
+    {pt:"0", type:"nom", dt:"2020-12-31", loc:"mar", desc:"pend"},
+    {pt:"0", type:"pom", dt:"2022-12-31", loc:"mar", desc:""}    
 ]},
 spirit: {name:"Spirit", desc:"lv:Delta II 7925-9.5",
   parts:[
@@ -2903,7 +2905,7 @@ smart1: {name:"SMART 1:Small Missions for Advanced Research in Technology 1", de
     {pt:"", type:"fb", dt:"2004-10-12", loc:"lun:?", desc:"3\u20441 orbit resonance"},
     {pt:"", type:"oi", dt:"2004-11-15", loc:"lun:6700x53200kmx81deg", desc:"2\u20441 orbit resonance"},
     {pt:"", type:"sco", dt:"2005-02-18", loc:"lun:2200x4600kmx90deg", desc:""},
-    {pt:"", type:"imp", dt:"2005-09-03", loc:"lun:34.262S,46.193W", desc:"Lacus Excellentiae;eom;show:0"}
+    {pt:"", type:"imp", dt:"2006-09-03", loc:"lun:34.262S,46.193W", desc:"Lacus Excellentiae;eom;show:0"}
 ]},
 // --- 2004 --- 2 Missions    
 rosetta: {name:"Rosetta", desc:"lv:Ariane 5G+", stat:"o",
@@ -3195,7 +3197,8 @@ ikaros: {name:"IKAROS:Interplanetary Kite-craft Accelerated by Radiation Of the 
     {pt:"", type:"ev", dt:"2012-01-06", loc:"so", desc:"Start of hibernation"},
     {pt:"", type:"ev", dt:"2012-09-06", loc:"so", desc:"End of hibernation"},
     {pt:"", type:"eom", dt:"2013-04", loc:"so:ho", desc:"Mission team dissolved"},
-    {pt:"", type:"obs", dt:"2013-06..", loc:"so", desc:"Signal detection after Wakeup every 10 month"}
+    {pt:"", type:"obs", dt:"2013-06..", loc:"so", desc:"Signal detection after Wakeup every 10 month"},
+    {pt:"", type:"eom", dt:"2015-05-20", loc:"so", desc:""}
 ]},
 unitec1: {name:"Shin'en", desc:"lv:H-IIA 202",
   parts:[
@@ -3287,7 +3290,7 @@ change3: {name:"Chang'e 3", desc:"lv:CZ-3B G3Z",
     {pt:"1", type:"ex", dt:"2013-12..2014-01", loc:"lun", desc:"rvp;rv:100m"},
     {pt:"1", type:"ev", dt:"2014-01-25", loc:"lun", desc:"rvp;mal:Electric control fault"},
     {pt:"1", type:"los", dt:"2016-07-31", loc:"lun", desc:"rvp;eom:rvm"},
-    {pt:"0", type:"nom", dt:"2018-12", loc:"lun", desc:"lp;pend"}
+    {pt:"0", type:"nom", dt:"2020-12", loc:"lun", desc:"lp;pend"}
 ]},
 ladee: {name:"LADEE:Lunar Atmosphere and Dust Environment Explorer", desc:"lv:Minotaur V",
   parts:[
@@ -3322,8 +3325,8 @@ mangalyaan: {name:"MOM:Mars Orbiter Mission", desc:"lv:PSLV-XL",
     {pt:"", type:"toi", dt:"2013-11-30", loc:"sol:hto:0.98x1.44aux2.5deg", desc:""},
     {pt:"", type:"oi", dt:"2014-09-24", loc:"mar:427x78500kmx150deg", desc:""},
     {pt:"", type:"obs", dt:"2014-10-19", loc:"mar", desc:"Comet C 2013 A1 Siding Spring"},
-    {pt:"", type:"nom", dt:"2015-10-30", loc:"mar", desc:"pend"},
-    {pt:"", type:"pom", dt:"2017-10-30", loc:"mar", desc:"?"}    
+    {pt:"", type:"nom", dt:"2020-10-30", loc:"mar", desc:"pend"},
+    {pt:"", type:"pom", dt:"2022-10-30", loc:"mar", desc:"?"}    
 ]},
 // --- 2014  4 Missions
 change5test: {name:"Chang'e 5 T1", desc:"lv:CZ-3C G2", stat:"o", 
@@ -3895,11 +3898,13 @@ psyche: {name:"Psyche", desc:"lv:Falcon Heavy",
     {pt:"", type:"oi", dt:"2022-08", loc:"sol:ho", desc:""},
     //{pt:"", type:"fb", dt:"2024", loc:"ter", desc:"ga"},
     {pt:"", type:"fb", dt:"2023-05", loc:"mar", desc:"ga"},
+    {pt:"1,2", type:"fb", dt:"2025-08", loc:"ter", desc:"ga;Janus A/B"},
     {pt:"0", type:"oi", dt:"2026-01", loc:"ast", desc:"ast:16 Psyche"},  
     {pt:"0", type:"sco", dt:"2026-01", loc:"ast:806km", desc:"Characterization orbit"},  
     {pt:"0", type:"sco", dt:"2026-03", loc:"ast:399km", desc:"Topography orbit"},  
-    {pt:"2", type:"fb", dt:"2026-03", loc:"ast", desc:"ast:1991 VH;eom:fbm"},
-    {pt:"1", type:"fb", dt:"2026-04", loc:"ast", desc:"ast:1996 FG3;eom:fbm"},
+    {pt:"2", type:"fb", dt:"2026-03-03", loc:"ast", desc:"ast:1991 VH;Janus-B;eom:fbm"},
+    {pt:"1", type:"fb", dt:"2026-04-20", loc:"ast", desc:"ast:1996 FG3;Janus-A;eom:fbm"},
+    {pt:"1", type:"eom", dt:"2026-05-31", loc:"sol:ho", desc:"Janus-A/B;eom:fbm;eom:fbm"},
     {pt:"0", type:"sco", dt:"2026-06", loc:"ast:279km", desc:"Integrated science orbit"},  
     {pt:"0", type:"sco", dt:"2026-09", loc:"ast:192km", desc:"Elemental mapping orbit"},  
     {pt:"0", type:"nom", dt:"2027-10", loc:"ast", desc:"?"},
@@ -3990,6 +3995,15 @@ em2: {name:"Artemis-2", desc:"lv:SLS 1", stat:"pl",
     {pt:"", type:"toi", dt:"2023-04", loc:"ter", desc:"lto"},
     {pt:"0", type:"fb", dt:"l+4dy", loc:"lun", desc:"Free return trajectory"},
     {pt:"0", type:"edl", dt:"l+9dy", loc:"ter", desc:"eom"}
+]},
+halo_ppe: {name:"Gateway", desc:"lv:Falcon Heavy",
+  parts:[
+    {names:"PPE:Power and Propulsion Element", type:"om", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Maxar;m:9000kg;sc:1.0", id:"", url:"hp:www.nasa.gov/gateway", icon:"gateway1.png"},
+    {names:"HALO:Habitation and Logistics Outpost", type:"om", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,NGIS;sc:1", id:"", url:"", icon:""}], 
+  events:[
+    {pt:"", type:"l", dt:"2023", loc:"ter", desc:""},
+    {pt:"", type:"oi", dt:"l+4m", loc:"lun:nrho", desc:""},
+    {pt:"", type:"nom", dt:"2030s", loc:"lun", desc:""}
 ]},
 // --- 2024
 mom2: {name:"MOM-2:Mars Observation Mission 2", desc:"lv:GSLV MkIII",
@@ -4117,11 +4131,11 @@ luna27: {name:"Luna 27", desc:"lv:Soyuz 2.1B/Fregat-MT",
     {pt:"", type:"nom", dt:"l+1yr", loc:"lun", desc:"?"}
 ]},
 // --- 2026
-dragonfly: {name:"Dragonfly", desc:"", stat:"pl", 
+dragonfly: {name:"Dragonfly", desc:"lv:Atlas V 411", stat:"pl", 
   parts:[
-    {names:"", type:"dm", dest:"sat:Titan", ctry:"us", desc:"ag:nasa,apl;fam:New Frontiers;m:420kg;sc:0.4", id:"", url:"hp:dragonfly.jhuapl.edu", icon:"dragonfly.png"}],
+    {names:"", type:"dm", dest:"sat:Titan", ctry:"us", desc:"ag:nasa,apl;fam:New Frontiers;m:450kg;sc:0.4", id:"", url:"hp:dragonfly.jhuapl.edu", icon:"dragonfly.png"}],
   events:[
-    {pt:"", type:"l", dt:"2026", loc:"ter:ksc", desc:""},
+    {pt:"", type:"l", dt:"2027", loc:"ter:ksc", desc:""},
     {pt:"", type:"edl", dt:"2034", loc:"tita", desc:"Shangri-La"},
     {pt:"", type:"nom", dt:"2037", loc:"tita", desc:"rv:175km;?"}
 ]},
@@ -4161,6 +4175,14 @@ ero: {name:"ERO:Earth Return Orbiter", desc:"",
     {pt:"", type:"dep", dt:"2030-07", loc:"mar", desc:""},
     {pt:"1", type:"edl", dt:"2031-09", loc:"ter", desc:"eom:srm"}
 ]},
+ihab: {name:"Gateway I-HAB:International Habitat" , desc:"",
+  parts:[
+    {names:"", type:"om", dest:"lun", stat:"pl", ctry:"eu", desc:"ag:esa,Thales;sc:1.0", id:"", url:"hp:www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Exploration/Gateway;Thales:www.thalesgroup.com/en/worldwide/space/press-release/thales-alenia-space-its-way-reach-moon", icon:"gateway2.png"}], 
+  events:[
+    {pt:"", type:"l", dt:"2026", loc:"ter", desc:""},
+    {pt:"", type:"oi", dt:"l+4m", loc:"lun:nrho", desc:""},
+    {pt:"", type:"nom", dt:"2030s", loc:"lun", desc:""}
+]},
 // --- 2027
 change8: {name:"Chang'e 8", desc:"lv:CZ-5",
   parts:[
@@ -4186,6 +4208,14 @@ venerad: {name:"Venera-D", desc:"lv:Angara-A5/Blok-DM",
     {pt:"0", type:"td", dt:"l+?yr", loc:"ven", desc:""},
     {pt:"1", type:"nom", dt:"l+3yr", loc:"ven", desc:""},
     {pt:"1", type:"pom", dt:"l+4yr", loc:"ven", desc:"?"}
+]},
+esprit: {name:"Gateway ESPRIT:European System Providing Refueling, Infrastructure and Telecommunications" , desc:"",
+  parts:[
+    {names:"", type:"om", dest:"lun", stat:"pl", ctry:"eu", desc:"ag:esa,Thales;sc:1.0", id:"", url:"hp:www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Exploration/Gateway", icon:"gateway2.png"}], 
+  events:[
+    {pt:"", type:"l", dt:"2027", loc:"ter", desc:""},
+    {pt:"", type:"oi", dt:"l+4m", loc:"lun:nrho", desc:""},
+    {pt:"", type:"nom", dt:"2030s", loc:"lun", desc:""}
 ]},
 // --- 2028
 cometinterceptor: {name:"Comet Interceptor", desc:"lv:Ariane 62", 
@@ -6477,8 +6507,8 @@ cz-8
 */
 //Angara 5V
 //"Angara-A5V": {ctry:"ru", m:"820000", pm:"35000/12000/7000",  d:"73.3x2.9", pf:"19.6x5.1", dt:"2023..", st:"3/4", ust:"KVTK/Briz-M", th:"10570", fam:"Angara", desc:"l:vos;ag:rosc", fuel:"KeroLOX", icon:"Angara-A5V.png"},
-"Angara-A5M": {ctry:"ru", m:"759000", pm:"24000/7500/5100",  d:"64x2.9", pf:"19.6x5.1", dt:"2014-12-23..", st:"2/4", ust:"KVTK/Briz-M", th:"9600", fam:"Angara", desc:"l:vos,ple;ag:rosc", fuel:"KeroLOX", icon:"Angara-A5M.png"},
-"Angara-A5P": {ctry:"ru", m:"713000", pm:"18000/-/-",  d:"64x2.9", pf:"19.6x5.1", dt:"2025..", st:"2/4", ust:"", th:"9600", fam:"Angara", desc:"l:vos,ple;ag:rosc", fuel:"KeroLOX", icon:"Angara-A5P.png"},
+"Angara-A5M": {ctry:"ru", m:"713000", pm:"27000/7500/5100",  d:"64x2.9", pf:"19.6x5.1", dt:"2014-12-23..", st:"2/4", ust:"KVTK/DM", th:"9600", fam:"Angara", desc:"l:vos,ple;ag:rosc", fuel:"KeroLOX", icon:"Angara-A5M.png"},
+"Angara-A5P": {ctry:"ru", m:"759000", pm:"38000/12000/-",  d:"64x2.9", pf:"19.6x5.1", dt:"2025..", st:"2/4", ust:"KVTK", th:"9600", fam:"Angara", desc:"l:vos,ple;ag:rosc", fuel:"KeroLOX", icon:"Angara-A5V.png"},
 "Angara-A5": {syn:"Angara-A5M"},
 //Ariane 1
 "Ariane 1": {ctry:"eu", m:"207200", pm:"-/1850/1000",  d:"50x3.8", pf:"x3.8", dt:"1979-12-24..1986-02-22", st:"3", th:"2462", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"UDMH/N2O4", icon:"Ariane-1.png"},

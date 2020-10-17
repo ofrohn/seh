@@ -550,7 +550,7 @@ hipparcos:{name:"Hipparcos", url:"hp:www.esa.int/Our_activities/Space_Science/Hi
     {pt:"", dt:"1990-08-07", tp:"sco", loc:"ter:gto:513x35890kmx7.3deg", desc:""},
     {pt:"", dt:"1993", tp:"tos", loc:"", desc:"eom"}
 ]}, 
-hisaki: {name:"Hisaki:Beyond the sun", url:"hp:www.jaxa.jp/projects/sat/sprint_a/index_e.html;isas:www.isas.jaxa.jp/e/enterp/missions/sprint-a/index.shtml", desc:"ag:jaxa;lv:Epsilon;m:383kg", stat:"o", 
+hisaki: {name:"Hisaki:Beyond the sun", url:"hp:global.jaxa.jp/projects/sas/sprint_a/;isas:www.isas.jaxa.jp/home/sprint-a/index_en.html", desc:"ag:jaxa;lv:Epsilon;m:383kg", stat:"o", 
   parts: [
     {n:"ひさき;SPRINT-A:Spectroscopic Planet Observatory for Recognition of Interaction of Atmosphere", ctry:"jp", type:"euv", pur:"Planetary Atmospheres", id:"2013-049A", icon:"sprint-a.jpg", desc:""}
   ], ev: [
