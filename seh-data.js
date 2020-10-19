@@ -3512,7 +3512,7 @@ bepicolombo: {name:"Bepi Colombo", desc:"lv:Ariane 5ECA",
     {pt:"", type:"fb", dt:"2020-04-10", loc:"ter:12700km", desc:"ga"},
     {pt:"", type:"fb", dt:"2020-10-15", loc:"ven:10000km", desc:"ga"},
     {pt:"", type:"fb", dt:"2021-08-11", loc:"ven:550km", desc:"ga"},
-    {pt:"", type:"fb", dt:"2021-10-02", loc:"mer", desc:"ga"},
+    {pt:"", type:"fb", dt:"2021-10-01", loc:"mer", desc:"ga"},
     {pt:"", type:"fb", dt:"2022-06-23", loc:"mer", desc:"ga"},
     {pt:"", type:"fb", dt:"2023-06-20", loc:"mer", desc:"ga"},
     {pt:"", type:"fb", dt:"2024-09-05", loc:"mer", desc:"ga"},
@@ -4081,15 +4081,15 @@ em3: {name:"Artemis-3", desc:"lv:SLS 1B", stat:"pl",
     {pt:"", type:"td", dt:"l+4dy", loc:"lun", desc:"?"},
     {pt:"0", type:"edl", dt:"l+30dy", loc:"ter", desc:"eom"}
 ]},
-ptknp: {name:"Orel 1L1", desc:"lv:Angara-A5P", stat:"pl", 
+/*ptknp: {name:"Oryol 1L1", desc:"lv:Angara-A5P", stat:"pl", 
   parts:[
-    {names:"Орёл;PTK-NP:Pilotiruemyi Transportny Korabl Novogo Pokoleniya (New Generation Piloted Transport Ship)", type:"fbm", dest:"lun", ctry:"ru", desc:"ag:rosc;m:22300kg;Uncrewed test flight;sc:0.7", id:"", url:"rsw:www.russianspaceweb.com/ptk_flight_testing.html", icon:"orel.png"},
+    {names:"Орёл;PTK-NP:Pilotiruemyi Transportny Korabl Novogo Pokoleniya (New Generation Piloted Transport Ship)", type:"test", dest:"ter", ctry:"ru", desc:"ag:rosc;m:22300kg;dim:4.47x13.9x6.08m;Uncrewed test flight;sc:0.7", id:"", url:"rsw:www.russianspaceweb.com/ptk_flight_testing.html", icon:"orel.png"},
     {type:"erm", dest:"ter"}], 
   events:[
     {pt:"", type:"l", dt:"2023-09", loc:"ter:vos:LC-1A", desc:""},
     {pt:"", type:"fb", dt:"l+4dy", loc:"lun", desc:""},
     {pt:"", type:"edl", dt:"l+8dy", loc:"ter", desc:"eom"}
-]},
+]},*/
 luna26: {name:"Luna 26", desc:"lv:Soyuz 2.1B/Fregat-MT",
   parts:[
     {names:"Луна-Ресурс орбитальный;Luna Resurs Orbiter:Lunar Resource Orbiter", type:"om", dest:"lun", stat:"pl", ctry:"ru", desc:"ag:rosc,iki;m:2200kg;sc:0.75", id:"", url:"rsw:www.russianspaceweb.com/luna_glob.html", icon:"luna26.png"}], 
@@ -6507,9 +6507,9 @@ cz-8
 */
 //Angara 5V
 //"Angara-A5V": {ctry:"ru", m:"820000", pm:"35000/12000/7000",  d:"73.3x2.9", pf:"19.6x5.1", dt:"2023..", st:"3/4", ust:"KVTK/Briz-M", th:"10570", fam:"Angara", desc:"l:vos;ag:rosc", fuel:"KeroLOX", icon:"Angara-A5V.png"},
-"Angara-A5M": {ctry:"ru", m:"713000", pm:"27000/7500/5100",  d:"64x2.9", pf:"19.6x5.1", dt:"2014-12-23..", st:"2/4", ust:"KVTK/DM", th:"9600", fam:"Angara", desc:"l:vos,ple;ag:rosc", fuel:"KeroLOX", icon:"Angara-A5M.png"},
-"Angara-A5P": {ctry:"ru", m:"759000", pm:"38000/12000/-",  d:"64x2.9", pf:"19.6x5.1", dt:"2025..", st:"2/4", ust:"KVTK", th:"9600", fam:"Angara", desc:"l:vos,ple;ag:rosc", fuel:"KeroLOX", icon:"Angara-A5V.png"},
-"Angara-A5": {syn:"Angara-A5M"},
+"Angara-A5": {ctry:"ru", m:"774000", pm:"24000/7500/5100",  d:"64x2.9", pf:"19.6x5.1", dt:"2014-12-23..", st:"2/4", ust:"KVTK/DM", th:"9600", fam:"Angara", desc:"l:vos,ple;ag:rosc", fuel:"KeroLOX", icon:"Angara-A5.png"},
+"Angara-A5M": {ctry:"ru", m:"780000", pm:"27000/8000/-", d:"59x2.9", pf:"", dt:"2024..", st:"2/4", ust:"KVTK/DM", th:"9600", fam:"Angara", desc:"l:vos;ag:rosc", fuel:"KeroLOX", icon:"Angara-A5M.png"},
+"Angara-A5V": {ctry:"ru", m:"810000", pm:"38000/12000/7000", d:"73.3x2.9", pf:"19.6x5.1", dt:"2027..", st:"3/4", ust:"KVTK/DM", th:"10570", fam:"Angara", desc:"l:vos,ple;ag:rosc", fuel:"KeroLOX", icon:"Angara-A5V.png"},
 //Ariane 1
 "Ariane 1": {ctry:"eu", m:"207200", pm:"-/1850/1000",  d:"50x3.8", pf:"x3.8", dt:"1979-12-24..1986-02-22", st:"3", th:"2462", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"UDMH/N2O4", icon:"Ariane-1.png"},
 //Ariane 5, Ariane 5ECA, Ariane 5G, Ariane 5G+

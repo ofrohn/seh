@@ -2860,7 +2860,7 @@ bepicolombo: {name:"Bepi Colombo", desc:"lv:Ariane 5ECA",
     {pt:"", type:"fb", dt:"2020-04-10", loc:"ter:12700km", desc:"ga"},
     {pt:"", type:"fb", dt:"2020-10-15", loc:"ven:10000km", desc:"ga"},
     {pt:"", type:"fb", dt:"2021-08-11", loc:"ven:550km", desc:"ga"},
-    {pt:"", type:"fb", dt:"2021-10-02", loc:"mer", desc:"ga"},
+    {pt:"", type:"fb", dt:"2021-10-01", loc:"mer", desc:"ga"},
     {pt:"", type:"fb", dt:"2022-06-23", loc:"mer", desc:"ga"},
     {pt:"", type:"fb", dt:"2023-06-20", loc:"mer", desc:"ga"},
     {pt:"", type:"fb", dt:"2024-09-05", loc:"mer", desc:"ga"},
@@ -3429,15 +3429,15 @@ em3: {name:"Artemis-3", desc:"lv:SLS 1B", stat:"pl",
     {pt:"", type:"td", dt:"l+4dy", loc:"lun", desc:"?"},
     {pt:"0", type:"edl", dt:"l+30dy", loc:"ter", desc:"eom"}
 ]},
-ptknp: {name:"Orel 1L1", desc:"lv:Angara-A5P", stat:"pl", 
+/*ptknp: {name:"Oryol 1L1", desc:"lv:Angara-A5P", stat:"pl", 
   parts:[
-    {names:"Орёл;PTK-NP:Pilotiruemyi Transportny Korabl Novogo Pokoleniya (New Generation Piloted Transport Ship)", type:"fbm", dest:"lun", ctry:"ru", desc:"ag:rosc;m:22300kg;Uncrewed test flight;sc:0.7", id:"", url:"rsw:www.russianspaceweb.com/ptk_flight_testing.html", icon:"orel.png"},
+    {names:"Орёл;PTK-NP:Pilotiruemyi Transportny Korabl Novogo Pokoleniya (New Generation Piloted Transport Ship)", type:"test", dest:"ter", ctry:"ru", desc:"ag:rosc;m:22300kg;dim:4.47x13.9x6.08m;Uncrewed test flight;sc:0.7", id:"", url:"rsw:www.russianspaceweb.com/ptk_flight_testing.html", icon:"orel.png"},
     {type:"erm", dest:"ter"}], 
   events:[
     {pt:"", type:"l", dt:"2023-09", loc:"ter:vos:LC-1A", desc:""},
     {pt:"", type:"fb", dt:"l+4dy", loc:"lun", desc:""},
     {pt:"", type:"edl", dt:"l+8dy", loc:"ter", desc:"eom"}
-]},
+]},*/
 luna26: {name:"Luna 26", desc:"lv:Soyuz 2.1B/Fregat-MT",
   parts:[
     {names:"Луна-Ресурс орбитальный;Luna Resurs Orbiter:Lunar Resource Orbiter", type:"om", dest:"lun", stat:"pl", ctry:"ru", desc:"ag:rosc,iki;m:2200kg;sc:0.75", id:"", url:"rsw:www.russianspaceweb.com/luna_glob.html", icon:"luna26.png"}], 

@@ -8,9 +8,9 @@ cz-8
 */
 //Angara 5V
 //"Angara-A5V": {ctry:"ru", m:"820000", pm:"35000/12000/7000",  d:"73.3x2.9", pf:"19.6x5.1", dt:"2023..", st:"3/4", ust:"KVTK/Briz-M", th:"10570", fam:"Angara", desc:"l:vos;ag:rosc", fuel:"KeroLOX", icon:"Angara-A5V.png"},
-"Angara-A5M": {ctry:"ru", m:"713000", pm:"27000/7500/5100",  d:"64x2.9", pf:"19.6x5.1", dt:"2014-12-23..", st:"2/4", ust:"KVTK/DM", th:"9600", fam:"Angara", desc:"l:vos,ple;ag:rosc", fuel:"KeroLOX", icon:"Angara-A5M.png"},
-"Angara-A5P": {ctry:"ru", m:"759000", pm:"38000/12000/-",  d:"64x2.9", pf:"19.6x5.1", dt:"2025..", st:"2/4", ust:"KVTK", th:"9600", fam:"Angara", desc:"l:vos,ple;ag:rosc", fuel:"KeroLOX", icon:"Angara-A5V.png"},
-"Angara-A5": {syn:"Angara-A5M"},
+"Angara-A5": {ctry:"ru", m:"774000", pm:"24000/7500/5100",  d:"64x2.9", pf:"19.6x5.1", dt:"2014-12-23..", st:"2/4", ust:"KVTK/DM", th:"9600", fam:"Angara", desc:"l:vos,ple;ag:rosc", fuel:"KeroLOX", icon:"Angara-A5.png"},
+"Angara-A5M": {ctry:"ru", m:"780000", pm:"27000/8000/-", d:"59x2.9", pf:"", dt:"2024..", st:"2/4", ust:"KVTK/DM", th:"9600", fam:"Angara", desc:"l:vos;ag:rosc", fuel:"KeroLOX", icon:"Angara-A5M.png"},
+"Angara-A5V": {ctry:"ru", m:"810000", pm:"38000/12000/7000", d:"73.3x2.9", pf:"19.6x5.1", dt:"2027..", st:"3/4", ust:"KVTK/DM", th:"10570", fam:"Angara", desc:"l:vos,ple;ag:rosc", fuel:"KeroLOX", icon:"Angara-A5V.png"},
 //Ariane 1
 "Ariane 1": {ctry:"eu", m:"207200", pm:"-/1850/1000",  d:"50x3.8", pf:"x3.8", dt:"1979-12-24..1986-02-22", st:"3", th:"2462", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"UDMH/N2O4", icon:"Ariane-1.png"},
 //Ariane 5, Ariane 5ECA, Ariane 5G, Ariane 5G+
