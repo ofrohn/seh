@@ -3652,7 +3652,7 @@ change5: {name:"Chang'e 5", desc:"lv:CZ-5",
     {names:"{Chang'e 5 Lander}", type:"slm", dest:"lun", stat:"pl", ctry:"cn", desc:"", id:"", url:"", icon:"chang-e5l.png"},
     {names:"{Chang'e 5 Return Stage}", type:"", dest:"ter", stat:"pl", ctry:"cn", desc:"sc:0.6", id:"", url:"", icon:"chang-e5sr.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2020-11", loc:"ter:wen:LC-101", desc:""},
+    {pt:"", type:"l", dt:"2020-11-24", loc:"ter:wen:LC-101", desc:""},
     {pt:"", type:"toi", dt:"l+1hr", loc:"ter:lto", desc:""},
     {pt:"", type:"oi", dt:"l+5dy", loc:"lun:200km", desc:""},
     {pt:"", type:"sep", dt:"l+22dy", loc:"lun", desc:"op/lp"},
@@ -3864,7 +3864,7 @@ destinyplus:{name:"DESTINY+:Demonstration and Experiment of Space Technology for
   parts: [
     {names:"深宇宙探査技術実験ミッション", ctry:"jp", type:"fbm", dest:"ast", id:"", icon:"destinyplus.png", desc:"ag:jaxa,isas;Interplanetary dust observation;m:480kg;m0:;sc:0.7", url:"hp:destiny.isas.jaxa.jp/DestinyPlus%202017.html"}], 
   events: [
-    {pt:"", type:"l", dt:"2022", loc:"ter:uch", desc:""},
+    {pt:"", type:"l", dt:"2024", loc:"ter:uch", desc:""},
     {pt:"", type:"toi", dt:"l+1mo", loc:"ter:heeo", desc:"Phasing orbits"},
     {pt:"", type:"fb", dt:"l+6mo", loc:"lun", desc:"GA"},
     {pt:"", type:"fb", dt:"l+2yr", loc:"ast:500km", desc:"ast:phae"},
@@ -4081,6 +4081,15 @@ em3: {name:"Artemis-3", desc:"lv:SLS 1B", stat:"pl",
     {pt:"", type:"td", dt:"l+4dy", loc:"lun", desc:"?"},
     {pt:"0", type:"edl", dt:"l+30dy", loc:"ter", desc:"eom"}
 ]},
+rashid: {name:"Rashid", desc:"",
+  parts:[
+    {names:"رشيد", type:"rvm", dest:"lun", stat:"pl", ctry:"ue", desc:"ag:MBRSC;m:10kg;dim:0.5x0.5x0.8m;sc:0.5", id:"", url:"MBRSC:www.mbrsc.ae/", icon:"rashid.png"}], 
+  events:[
+    {pt:"", type:"l", dt:"2024", loc:"ter", desc:""},
+    {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:""},
+    {pt:"", type:"nom", dt:"l+18d", loc:"lun", desc:""},
+    {pt:"", type:"pom", dt:"l+18d", loc:"lun", desc:""}
+]},
 /*ptknp: {name:"Oryol 1L1", desc:"lv:Angara-A5P", stat:"pl", 
   parts:[
     {names:"Орёл;PTK-NP:Pilotiruemyi Transportny Korabl Novogo Pokoleniya (New Generation Piloted Transport Ship)", type:"test", dest:"ter", ctry:"ru", desc:"ag:rosc;m:22300kg;dim:4.47x13.9x6.08m;Uncrewed test flight;sc:0.7", id:"", url:"rsw:www.russianspaceweb.com/ptk_flight_testing.html", icon:"orel.png"},
@@ -4141,9 +4150,9 @@ dragonfly: {name:"Dragonfly", desc:"lv:Atlas V 411", stat:"pl",
 ]},
 heracles: {name:"HERACLES:Human-Enhanced Robotic Architecture and Capability for Lunar Exploration and Science", desc:"lv:Ariane 64",
   parts:[
-    {names:"EL3:European Large Lunar Lander", type:"srm", dest:"lun", stat:"pl", ctry:"eu", desc:"ag:esa;sc:0.3;m:8500kg;dim:4.5x6m", id:"", url:"hp:www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Exploration/Landing_on_the_Moon_and_returning_home_Heracles", icon:"heracles.png"},
-    {names:"{LDE:Lunar Descent Element}", type:"slm", dest:"lun", stat:"pl", ctry:"jp", desc:"ag:jaxa", icon:""},
-    {names:"{Heracles Rover}", type:"rvm", dest:"lun", stat:"pl", ctry:"ca", desc:"ag:csa", icon:""}],
+    {names:"EL3:European Large Lunar Lander", type:"srm", dest:"lun", stat:"pl", ctry:"eu", desc:"ag:esa;m:8500kg;dim:4.5x6m;sc:0.3", id:"", url:"hp:www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Exploration/Landing_on_the_Moon_and_returning_home_Heracles", icon:"heracles.png"},
+    {names:"{LDE:Lunar Descent Element}", type:"slm", dest:"lun", stat:"pl", ctry:"jp", desc:"ag:jaxa;sc:0.4", icon:"heracles-lde.png"},
+    {names:"{Heracles Rover}", type:"rvm", dest:"lun", stat:"pl", ctry:"ca", desc:"ag:csa;sc:0.3", icon:"heracles-rv.png"}],
   events:[
     {pt:"", type:"l", dt:"2026", loc:"ter:kou", desc:""},
     {pt:"", type:"td", dt:"2026", loc:"lun", desc:"Schrödinger crater"},
@@ -4224,10 +4233,10 @@ cometinterceptor: {name:"Comet Interceptor", desc:"lv:Ariane 62",
     {names:"B1", type:"fbm", dest:"com", stat:"pl", ctry:"jp", desc:"ag:jaxa;dim:;m:;sc:0.5", id:"", url:"", icon:"comint-b1.png"},
     {names:"B2", type:"", dest:"com", stat:"pl", ctry:"eu", desc:"ag:esa;dim:;m:;sc:0.3", id:"", url:"",  icon:"comint-b2.png"}
   ], events: [
-    {pt:"", dt:"2028", type:"l", loc:"ter:kou:ELA-4", desc:""},
-    {pt:"", dt:"2028", type:"oi", loc:"sol:esl2", desc:""},
-    {pt:"", dt:"2030", type:"fb", loc:"com", desc:"?"},
-    {pt:"", dt:"2032", type:"nom", loc:"sol:ho", desc:""}
+    {pt:"", dt:"2029", type:"l", loc:"ter:kou:ELA-4", desc:""},
+    {pt:"", dt:"2029", type:"oi", loc:"sol:esl2", desc:""},
+    {pt:"", dt:"2031", type:"fb", loc:"com", desc:"?"},
+    {pt:"", dt:"2033", type:"nom", loc:"sol:ho", desc:""}
 ]}
 
 };
