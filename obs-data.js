@@ -2120,10 +2120,10 @@ xuntian:{name:"Xuntian:Sky Survey", url:"hp:", desc:"ag:cnsa;lv:CZ-5B;sc:0.9;y:7
     {n:"巡天", ctry:"cn", type:"opt;nir", pur:"sur", id:"", icon:"xuntian.png", desc:""}
   ], ev: [
     {pt:"", dt:"2024", tp:"l", loc:"ter:wen", desc:""},
-    {pt:"", dt:"2024", tp:"sco", loc:"ter:leo", desc:""},
+    {pt:"", dt:"2024", tp:"sco", loc:"ter:leo:400km", desc:""},
     {pt:"", dt:"2034", tp:"pom", loc:"ter:leo", desc:""}
   ], inst: [
-    {n:"OS", tp:"is", band:"255..1000nm", res:"0.15", px:0.07, d:2, fov:"1.1deg2", desc:"c:nr;cl:nl"}
+    {n:"OS", tp:"is", band:"255..1700nm", res:"0.15", px:0.07, d:2, fov:"1.1deg2", desc:"c:nr;cl:nl"}
   ]},
 yokoh:{name:"Yohkoh:Sunbeam ", url:"hp:www.isas.jaxa.jp/e/enterp/missions/yohkoh/index.shtml;lmsal:www.lmsal.com/SXT/main2.html", desc:"ag:isas;lv:M-3SII", stat:"s", 
   parts: [
@@ -2279,8 +2279,6 @@ cz-8
 "Atlas V 411": {ctry:"us", m:"374120", pm:"12030/5950/4500",  d:"58.3x3.81", pf:"12-13.8x4.2", dt:"2006-04-20..", st:"2/1", ust:"", th:"5422", fam:"Atlas", desc:"l:cap;van;ag:nasa", fuel:"KeroLOX+SRP",  icon:"Atlas-V411.png"},
 "Atlas V 541": {ctry:"us", m:"522330", pm:"17410/8290/6300",  d:"62.2x3.81", pf:"20.7-23.5x5.4", dt:"2011-11-26..", st:"2/4", ust:"", th:"9232", fam:"Atlas", desc:"l:cap;van;ag:nasa", fuel:"KeroLOX+SRP",  icon:"Atlas-V500.png"},
 "Atlas V 551": {ctry:"us", m:"568590", pm:"18850/8900/6700",  d:"62.2x3.81", pf:"20.7-23.5x5.4", dt:"2006-01-19..", st:"2/5", ust:"Star-48B", th:"10502", fam:"Atlas", desc:"l:cap;van;ag:nasa", fuel:"KeroLOX+SRP",  icon:"Atlas-V500.png"},
-//BFR
-"Starship": {n:"Starship", ctry:"us", m:"5000000", pm:"100K/21K/*",  d:"118x9", pf:"22x8", dt:"2020", st:"2", ust:"", th:"62900", fam:"", desc:"l:ksc,boc;ag:SpX", fuel:"LCH4/LOX", icon:"bfr.png"},
 //CZ-2C
 "CZ-2C": {n:"Long March 2C", alt:"长征二号丙", ctry:"cn", m:"245000", pm:"3850/1250/500",  d:"43.0x3.35", pf:"x3.35", dt:"1975-11-26..", st:"2", ust:"SM/SMA", th:"2962", fam:"Long March", desc:"l:xch,jiu,tai;ag:cnsa", fuel:"UDMH/N2O4", icon:"CZ-2C.png"},
 //CZ-3A, CZ-3B, CZ-3C
@@ -2415,6 +2413,8 @@ cz-8
 "Soyuz-FG": {alt:"Союз-ФГ", ctry:"ru", m:"308000", pm:"7200/2400/1200",  d:"49x2.95", pf:"", dt:"2003-06-02..2012-07-22", st:"2/4", ust:"Fregat", th:"4146", fam:"R-7", desc:"l:bai", fuel:"KeroLOX", icon:"Soyuz-FG.png"},
 "Soyuz-5": {alt:"Soyuz-5:Союз-5", ctry:"ru", m:"530000", pm:"17000/5000/2300",  d:"65.9x4.1", pf:"", dt:"2024", st:"2", ust:"Korvet", th:"7257", fam:"", desc:"l:bai", fuel:"KeroLOX", icon:"soyuz-5.png"},
 //Soyuz-6,9t leo/2.3t gto;2025
+//Stardhip/Superheavy
+"Starship": {n:"Starship", ctry:"us", m:"5000000", pm:"100K/21K/*",  d:"122x9", pf:"18x9", dt:"2021..", st:"2", ust:"", th:"62900", fam:"", desc:"l:ksc,boc;ag:SpX", fuel:"LCH4/LOX", icon:"bfr.png"},
 //STK;Yenisei;Енисей;100t leo;2028;
 //STS-30 Atlantis/IUS, STS-34 Atlantis/IUS, STS-41 Discovery/PAM-S
 "STS": {n:"Space Shuttle", ctry:"us", m:"2040000", pm:"24400/4944/3550",  d:"56x23.8", pf:"18.3x4.6", dt:"1981-04-12..2011-07-08", st:"1/2", ust:"IUS/PAM-S", th:"28200", fam:"STS", desc:"l:ksc;ag:nasa", fuel:"LH2/LOX+SRP", icon:"STS.png"},

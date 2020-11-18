@@ -3432,7 +3432,8 @@ exomarstgo: {name:"ExoMars TGO:Exomars Trace Gas Orbiter", desc:"lv:Proton-M/Bri
 ]},
 osirisrex: {name:"OSIRIS-REx:Origins-Spectral Interpretation-Resource Identification-Security-Regolith Explorer", desc:"lv:Atlas V 411",
   parts:[
-    {names:"", type:"srm", dest:"ast", stat:"o", ctry:"us", desc:"ag:nasa,gsfc;fam:New Frontiers;m:2110kg;m0:880kg;dim:6.2x2.4x3.2m;sc:0.5", id:"2016-055A", url:"hp:www.asteroidmission.org/;nasa:www.nasa.gov/mission_pages/osiris-rex/;tw:twitter.com/OSIRISRex", icon:"osirisrex.png"}], 
+    {names:"", type:"srm", dest:"ast", stat:"o", ctry:"us", desc:"ag:nasa,gsfc;fam:New Frontiers;m:2110kg;m0:880kg;dim:6.2x2.4x3.2m;sc:0.5", id:"2016-055A", url:"hp:www.asteroidmission.org/;nasa:www.nasa.gov/mission_pages/osiris-rex/;tw:twitter.com/OSIRISRex", icon:"osirisrex.png"},
+    {names:"{Sample Return Capsule}", desc:"m:46kg;sc:0.5", icon:"osirisrex-src.png"}], 
   events:[
     {pt:"", type:"l", dt:"2016-09-08", loc:"ter:cap:SLC-41", desc:""},
     {pt:"", type:"oi", dt:"2016-09-08", loc:"sol:ho:0.77x1.17aux0.2deg", desc:""},
@@ -3448,7 +3449,8 @@ osirisrex: {name:"OSIRIS-REx:Origins-Spectral Interpretation-Resource Identifica
     {pt:"", type:"app", dt:"2020-06", loc:"ast", desc:"Sample acquisition rehearsal 2"},
     {pt:"", type:"td", dt:"2020-10-20", loc:"ast", desc:"Sample acquisition;Nightingale crater"},
     {pt:"", type:"dep", dt:"2021-03-03", loc:"ast", desc:""},
-    {pt:"", type:"edl", dt:"2023-09-24", loc:"ter", desc:"src;UTTR, Utah;"}
+    {pt:"", type:"edl", dt:"2023-09-24", loc:"ter", desc:"src;UTTR, Utah;eom:srm"}
+    // Apophis oi 2029-04-21
 ]},
 // --- 2017  
 // --- 2018  7 Missions
@@ -3555,8 +3557,8 @@ change4: {name:"Chang'e 4", desc:"lv:CZ-3B/G3Z",
     {pt:"", type:"sco", dt:"2018-12-30", loc:"lun:100x15kmx90deg", desc:""},
     {pt:"", type:"td", dt:"2019-01-03", loc:"lun:45.471S,177.606E", desc:"Statio Tianhe, Von Karman crater, SPA;show:CE4:NW"},
     {pt:"", type:"sep", dt:"2019-01-03", loc:"lun", desc:"lp/rvp"}, 
-    {pt:"1", type:"ex", dt:"", loc:"lun", desc:"rvp;rv:448m"},    
-    {pt:"1", type:"nom", dt:"2020-10", loc:"lun", desc:"rvp;?;eom:rvm"},
+    {pt:"1", type:"ex", dt:"", loc:"lun", desc:"rvp;rv:547m"},    
+    {pt:"1", type:"nom", dt:"2021-10", loc:"lun", desc:"rvp;?;eom:rvm"},
     {pt:"0", type:"nom", dt:"2021-12", loc:"lun", desc:"lp;?"}
 ]},
 // --- 2019  - 2 missions
@@ -3648,7 +3650,7 @@ emm: {name:"Al Amal:Hope", desc:"lv:H-IIA 202",
 ]},
 change5: {name:"Chang'e 5", desc:"lv:CZ-5",
   parts:[
-    {names:"嫦娥五号", type:"srm", dest:"lun", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:clep;m:7800kg;sc:0.75;w:0.67", id:"", url:"China Spaceflight:www.chinaspaceflight.com/satellite/Deepspace/CE-5/CE-5.html", icon:"chang-e5.png"},
+    {names:"嫦娥五号", type:"srm", dest:"lun", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:clep;m:8200kg;sc:0.75;w:0.67", id:"", url:"China Spaceflight:www.chinaspaceflight.com/satellite/Deepspace/CE-5/CE-5.html", icon:"chang-e5.png"},
     {names:"{Chang'e 5 Lander}", type:"slm", dest:"lun", stat:"pl", ctry:"cn", desc:"", id:"", url:"", icon:"chang-e5l.png"},
     {names:"{Chang'e 5 Return Stage}", type:"", dest:"ter", stat:"pl", ctry:"cn", desc:"sc:0.6", id:"", url:"", icon:"chang-e5sr.png"}], 
   events:[
@@ -3862,13 +3864,15 @@ exomarsrv: {name:"ExoMars 2022", desc:"lv:Proton-M/Briz-M;m:2900kg",
 ]},
 destinyplus:{name:"DESTINY+:Demonstration and Experiment of Space Technology for INterplanetary voYage Phaethon fLyby dUSt science", desc:"lv:Epsilon-2", stat:"pl", 
   parts: [
-    {names:"深宇宙探査技術実験ミッション", ctry:"jp", type:"fbm", dest:"ast", id:"", icon:"destinyplus.png", desc:"ag:jaxa,isas;Interplanetary dust observation;m:480kg;m0:;sc:0.7", url:"hp:destiny.isas.jaxa.jp/DestinyPlus%202017.html"}], 
+    {names:"深宇宙探査技術実験ミッション", ctry:"jp", type:"fbm", dest:"ast", id:"", icon:"destinyplus.png", desc:"ag:jaxa,isas;Interplanetary dust observation;m:440kg;m0:365kg;sc:0.7", url:"hp:destiny.isas.jaxa.jp/DestinyPlus%202017.html"}/*,
+    {names:"PROCYON Mini:PRoximate Object Close flYby with Optical Navigation", ctry:"jp", type:"fbm", dest:"ast", id:"", icon:"", desc:"ag:jaxa,isas;", url:""}*/], 
   events: [
     {pt:"", type:"l", dt:"2024", loc:"ter:uch", desc:""},
-    {pt:"", type:"toi", dt:"l+1mo", loc:"ter:heeo", desc:"Phasing orbits"},
+    {pt:"", type:"toi", dt:"l+1mo", loc:"ter:heeo:230x50000kmx30deg", desc:"Phasing orbits"},
     {pt:"", type:"fb", dt:"l+6mo", loc:"lun", desc:"GA"},
     {pt:"", type:"fb", dt:"l+2yr", loc:"ast:500km", desc:"ast:phae"},
     {pt:"", type:"nom", dt:"l+4yr", loc:"sol:ho", desc:"?"}
+    // 2005 UD fb
 ]},
 juice: {name:"JUICE:JUpiter ICy moons Explorer", desc:"lv:Ariane 5ECA",
   parts:[
@@ -6554,8 +6558,6 @@ cz-8
 "Atlas V 411": {ctry:"us", m:"374120", pm:"12030/5950/4500",  d:"58.3x3.81", pf:"12-13.8x4.2", dt:"2006-04-20..", st:"2/1", ust:"", th:"5422", fam:"Atlas", desc:"l:cap;van;ag:nasa", fuel:"KeroLOX+SRP",  icon:"Atlas-V411.png"},
 "Atlas V 541": {ctry:"us", m:"522330", pm:"17410/8290/6300",  d:"62.2x3.81", pf:"20.7-23.5x5.4", dt:"2011-11-26..", st:"2/4", ust:"", th:"9232", fam:"Atlas", desc:"l:cap;van;ag:nasa", fuel:"KeroLOX+SRP",  icon:"Atlas-V500.png"},
 "Atlas V 551": {ctry:"us", m:"568590", pm:"18850/8900/6700",  d:"62.2x3.81", pf:"20.7-23.5x5.4", dt:"2006-01-19..", st:"2/5", ust:"Star-48B", th:"10502", fam:"Atlas", desc:"l:cap;van;ag:nasa", fuel:"KeroLOX+SRP",  icon:"Atlas-V500.png"},
-//BFR
-"Starship": {n:"Starship", ctry:"us", m:"5000000", pm:"100K/21K/*",  d:"118x9", pf:"22x8", dt:"2020", st:"2", ust:"", th:"62900", fam:"", desc:"l:ksc,boc;ag:SpX", fuel:"LCH4/LOX", icon:"bfr.png"},
 //CZ-2C
 "CZ-2C": {n:"Long March 2C", alt:"长征二号丙", ctry:"cn", m:"245000", pm:"3850/1250/500",  d:"43.0x3.35", pf:"x3.35", dt:"1975-11-26..", st:"2", ust:"SM/SMA", th:"2962", fam:"Long March", desc:"l:xch,jiu,tai;ag:cnsa", fuel:"UDMH/N2O4", icon:"CZ-2C.png"},
 //CZ-3A, CZ-3B, CZ-3C
@@ -6690,6 +6692,8 @@ cz-8
 "Soyuz-FG": {alt:"Союз-ФГ", ctry:"ru", m:"308000", pm:"7200/2400/1200",  d:"49x2.95", pf:"", dt:"2003-06-02..2012-07-22", st:"2/4", ust:"Fregat", th:"4146", fam:"R-7", desc:"l:bai", fuel:"KeroLOX", icon:"Soyuz-FG.png"},
 "Soyuz-5": {alt:"Soyuz-5:Союз-5", ctry:"ru", m:"530000", pm:"17000/5000/2300",  d:"65.9x4.1", pf:"", dt:"2024", st:"2", ust:"Korvet", th:"7257", fam:"", desc:"l:bai", fuel:"KeroLOX", icon:"soyuz-5.png"},
 //Soyuz-6,9t leo/2.3t gto;2025
+//Stardhip/Superheavy
+"Starship": {n:"Starship", ctry:"us", m:"5000000", pm:"100K/21K/*",  d:"122x9", pf:"18x9", dt:"2021..", st:"2", ust:"", th:"62900", fam:"", desc:"l:ksc,boc;ag:SpX", fuel:"LCH4/LOX", icon:"bfr.png"},
 //STK;Yenisei;Енисей;100t leo;2028;
 //STS-30 Atlantis/IUS, STS-34 Atlantis/IUS, STS-41 Discovery/PAM-S
 "STS": {n:"Space Shuttle", ctry:"us", m:"2040000", pm:"24400/4944/3550",  d:"56x23.8", pf:"18.3x4.6", dt:"1981-04-12..2011-07-08", st:"1/2", ust:"IUS/PAM-S", th:"28200", fam:"STS", desc:"l:ksc;ag:nasa", fuel:"LH2/LOX+SRP", icon:"STS.png"},

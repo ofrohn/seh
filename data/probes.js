@@ -2780,7 +2780,8 @@ exomarstgo: {name:"ExoMars TGO:Exomars Trace Gas Orbiter", desc:"lv:Proton-M/Bri
 ]},
 osirisrex: {name:"OSIRIS-REx:Origins-Spectral Interpretation-Resource Identification-Security-Regolith Explorer", desc:"lv:Atlas V 411",
   parts:[
-    {names:"", type:"srm", dest:"ast", stat:"o", ctry:"us", desc:"ag:nasa,gsfc;fam:New Frontiers;m:2110kg;m0:880kg;dim:6.2x2.4x3.2m;sc:0.5", id:"2016-055A", url:"hp:www.asteroidmission.org/;nasa:www.nasa.gov/mission_pages/osiris-rex/;tw:twitter.com/OSIRISRex", icon:"osirisrex.png"}], 
+    {names:"", type:"srm", dest:"ast", stat:"o", ctry:"us", desc:"ag:nasa,gsfc;fam:New Frontiers;m:2110kg;m0:880kg;dim:6.2x2.4x3.2m;sc:0.5", id:"2016-055A", url:"hp:www.asteroidmission.org/;nasa:www.nasa.gov/mission_pages/osiris-rex/;tw:twitter.com/OSIRISRex", icon:"osirisrex.png"},
+    {names:"{Sample Return Capsule}", desc:"m:46kg;sc:0.5", icon:"osirisrex-src.png"}], 
   events:[
     {pt:"", type:"l", dt:"2016-09-08", loc:"ter:cap:SLC-41", desc:""},
     {pt:"", type:"oi", dt:"2016-09-08", loc:"sol:ho:0.77x1.17aux0.2deg", desc:""},
@@ -2796,7 +2797,8 @@ osirisrex: {name:"OSIRIS-REx:Origins-Spectral Interpretation-Resource Identifica
     {pt:"", type:"app", dt:"2020-06", loc:"ast", desc:"Sample acquisition rehearsal 2"},
     {pt:"", type:"td", dt:"2020-10-20", loc:"ast", desc:"Sample acquisition;Nightingale crater"},
     {pt:"", type:"dep", dt:"2021-03-03", loc:"ast", desc:""},
-    {pt:"", type:"edl", dt:"2023-09-24", loc:"ter", desc:"src;UTTR, Utah;"}
+    {pt:"", type:"edl", dt:"2023-09-24", loc:"ter", desc:"src;UTTR, Utah;eom:srm"}
+    // Apophis oi 2029-04-21
 ]},
 // --- 2017  
 // --- 2018  7 Missions
@@ -2903,8 +2905,8 @@ change4: {name:"Chang'e 4", desc:"lv:CZ-3B/G3Z",
     {pt:"", type:"sco", dt:"2018-12-30", loc:"lun:100x15kmx90deg", desc:""},
     {pt:"", type:"td", dt:"2019-01-03", loc:"lun:45.471S,177.606E", desc:"Statio Tianhe, Von Karman crater, SPA;show:CE4:NW"},
     {pt:"", type:"sep", dt:"2019-01-03", loc:"lun", desc:"lp/rvp"}, 
-    {pt:"1", type:"ex", dt:"", loc:"lun", desc:"rvp;rv:448m"},    
-    {pt:"1", type:"nom", dt:"2020-10", loc:"lun", desc:"rvp;?;eom:rvm"},
+    {pt:"1", type:"ex", dt:"", loc:"lun", desc:"rvp;rv:547m"},    
+    {pt:"1", type:"nom", dt:"2021-10", loc:"lun", desc:"rvp;?;eom:rvm"},
     {pt:"0", type:"nom", dt:"2021-12", loc:"lun", desc:"lp;?"}
 ]},
 // --- 2019  - 2 missions
@@ -2996,7 +2998,7 @@ emm: {name:"Al Amal:Hope", desc:"lv:H-IIA 202",
 ]},
 change5: {name:"Chang'e 5", desc:"lv:CZ-5",
   parts:[
-    {names:"嫦娥五号", type:"srm", dest:"lun", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:clep;m:7800kg;sc:0.75;w:0.67", id:"", url:"China Spaceflight:www.chinaspaceflight.com/satellite/Deepspace/CE-5/CE-5.html", icon:"chang-e5.png"},
+    {names:"嫦娥五号", type:"srm", dest:"lun", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:clep;m:8200kg;sc:0.75;w:0.67", id:"", url:"China Spaceflight:www.chinaspaceflight.com/satellite/Deepspace/CE-5/CE-5.html", icon:"chang-e5.png"},
     {names:"{Chang'e 5 Lander}", type:"slm", dest:"lun", stat:"pl", ctry:"cn", desc:"", id:"", url:"", icon:"chang-e5l.png"},
     {names:"{Chang'e 5 Return Stage}", type:"", dest:"ter", stat:"pl", ctry:"cn", desc:"sc:0.6", id:"", url:"", icon:"chang-e5sr.png"}], 
   events:[
@@ -3210,13 +3212,15 @@ exomarsrv: {name:"ExoMars 2022", desc:"lv:Proton-M/Briz-M;m:2900kg",
 ]},
 destinyplus:{name:"DESTINY+:Demonstration and Experiment of Space Technology for INterplanetary voYage Phaethon fLyby dUSt science", desc:"lv:Epsilon-2", stat:"pl", 
   parts: [
-    {names:"深宇宙探査技術実験ミッション", ctry:"jp", type:"fbm", dest:"ast", id:"", icon:"destinyplus.png", desc:"ag:jaxa,isas;Interplanetary dust observation;m:480kg;m0:;sc:0.7", url:"hp:destiny.isas.jaxa.jp/DestinyPlus%202017.html"}], 
+    {names:"深宇宙探査技術実験ミッション", ctry:"jp", type:"fbm", dest:"ast", id:"", icon:"destinyplus.png", desc:"ag:jaxa,isas;Interplanetary dust observation;m:440kg;m0:365kg;sc:0.7", url:"hp:destiny.isas.jaxa.jp/DestinyPlus%202017.html"}/*,
+    {names:"PROCYON Mini:PRoximate Object Close flYby with Optical Navigation", ctry:"jp", type:"fbm", dest:"ast", id:"", icon:"", desc:"ag:jaxa,isas;", url:""}*/], 
   events: [
     {pt:"", type:"l", dt:"2024", loc:"ter:uch", desc:""},
-    {pt:"", type:"toi", dt:"l+1mo", loc:"ter:heeo", desc:"Phasing orbits"},
+    {pt:"", type:"toi", dt:"l+1mo", loc:"ter:heeo:230x50000kmx30deg", desc:"Phasing orbits"},
     {pt:"", type:"fb", dt:"l+6mo", loc:"lun", desc:"GA"},
     {pt:"", type:"fb", dt:"l+2yr", loc:"ast:500km", desc:"ast:phae"},
     {pt:"", type:"nom", dt:"l+4yr", loc:"sol:ho", desc:"?"}
+    // 2005 UD fb
 ]},
 juice: {name:"JUICE:JUpiter ICy moons Explorer", desc:"lv:Ariane 5ECA",
   parts:[
