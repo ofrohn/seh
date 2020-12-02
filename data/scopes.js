@@ -1451,8 +1451,8 @@ xposat:{name:"XPoSat:X-ray Polariation Satellite", url:"hp:", desc:"ag:isro;lv:P
   parts: [
     {n:"", ctry:"ind", type:"x", pur:"", id:"", icon:"xpo.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2021", tp:"l", loc:"ter:sri", desc:""},
-    {pt:"", dt:"2021", tp:"sco", loc:"ter:leo:600kmx30deg", desc:""},
+    {pt:"", dt:"2021-11", tp:"l", loc:"ter:sri", desc:""},
+    {pt:"", dt:"2021-11", tp:"sco", loc:"ter:leo:600kmx30deg", desc:""},
     {pt:"", dt:"2026", tp:"pom", loc:"ter:leo", desc:""}
   ], inst: [
     {n:"POLIX", band:"5..30keV", res:"", desc:"c:nr;cl:nl"}
