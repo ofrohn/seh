@@ -3025,8 +3025,8 @@ change5: {name:"Chang'e 5", desc:"lv:CZ-5",
     {pt:"", type:"doc", dt:"2020-12-05", loc:"lun", desc:"op/as"},
     {pt:"", type:"ev", dt:"2020-12-05", loc:"lun", desc:"as/src;Sample Transfer"},
     {pt:"", type:"sep", dt:"2020-12-06", loc:"lun", desc:"op/as"},
-    {pt:"", type:"toi", dt:"2020-12-12", loc:"lun", desc:"op/src"},
-    {pt:"", type:"edl", dt:"2020-12-17", loc:"ter", desc:"eom:srm;src;Siziwang Banner, Inner Mongolia;eom"}
+    {pt:"", type:"toi", dt:"2020-12-11", loc:"lun", desc:"op/src"},
+    {pt:"", type:"edl", dt:"2020-12-16", loc:"ter", desc:"eom:srm;src;Siziwang Banner, Inner Mongolia;eom"}
 ]},
 // --- 2021
 chandrayaan3: {name:"Chandrayaan 3:Moon Craft 3", desc:"lv:GSLV MkIII",
@@ -3164,7 +3164,7 @@ lucy: {name:"Lucy", desc:"lv:Atlas V 401",
 ]},
 dart: {name:"DART:Double Asteroid Redirection Test", desc:"lv:Falcon 9",
   parts:[
-    {names:"", type:"im", dest:"ast", stat:"pl", ctry:"us", desc:"ag:nasa,apl;fam:AIDA;m:640kg;sc:0.7", id:"", url:"hp:dart.jhuapl.edu/;nasa:www.nasa.gov/planetarydefense/dart", icon:"dart.png"},
+    {names:"", type:"im", dest:"ast", stat:"pl", ctry:"us", desc:"ag:nasa,apl;fam:AIDA;dim:12.5x2.4x2m;m:640kg;sc:0.7", id:"", url:"hp:dart.jhuapl.edu/;nasa:www.nasa.gov/planetarydefense/dart", icon:"dart.png"},
     {names:"LICIA:Light Italian Cubesat for Imaging of Asteroids", type:"fbm", dest:"ast", stat:"pl", ctry:"it", desc:"ag:asi,Argotec;sc:0.4", id:"", url:"LICIACube:www.argotec.it/online/what-we-do/small-satellite-unit/#tab-4", icon:"licia.png"}
   ], events:[
     {pt:"", type:"l", dt:"2021-07", loc:"ter:van:SLC-4E", desc:""},
