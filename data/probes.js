@@ -3315,8 +3315,10 @@ viper: {name:"VIPER:Volatiles Investigating Polar Exploration Rover", desc:"lv:T
     {names:"", type:"rvm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,ames,jsc;m:420kg;dim:1.5x1.5x2m;fam:clps;sc:0.25", id:"", url:"hp:www.nasa.gov/viper", icon:"viper.png"},
     {names:"Griffin Lander", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Astrobotic;fam:clps", id:"", url:"Griffin:www.astrobotic.com/griffin", icon:"griffin.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2023", loc:"ter:cap", desc:""},
-    {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:"South pole"},
+    {pt:"", type:"l", dt:"2023-11", loc:"ter:cap", desc:""},
+    {pt:"", type:"oi", dt:"l+5d", loc:"lun", desc:"South pole"},
+    {pt:"", type:"td", dt:"l+10d", loc:"lun", desc:""},
+    {pt:"", type:"sep", dt:"l+10d", loc:"lun", desc:"slp/rvp"},
     {pt:"", type:"nom", dt:"l+100d", loc:"lun", desc:""}
 ]},
 lupex: {name:"LUPEX:Lunar Polar Exploration", desc:"lv:H-III",

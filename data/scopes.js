@@ -11,7 +11,7 @@
     {pt:"", dt:"", tp:"l|hib|re|eom|nom|mal", loc:"", desc:""},
     {pt:"", dt:"", tp:"sco", loc:"leo|peo|sseo|meo|heeo|geo|sol:ef|sol:el|sol:esl1|sol:esl2|sol:ho", desc:""}
   ], inst: [
-    {n:"", tp:"im|sp|acc|ctr|is|par|li|em|psp|msp", //Type, im:imaging,sp:spectrometer,acc:accelerometer,ctr:counter,is:imaging spectrometer,par:particles,li:laser interferometry;em:magnetic/electric field meter;psp:particle spectrometer;msp:mass spectrometer; default:im
+    {n:"", tp:"im|sp|acc|ctr|is|par|li|em|psp|msp|cor", //Type, im:imaging,sp:spectrometer,acc:accelerometer,ctr:counter,is:imaging spectrometer,par:particles,li:laser interferometry;em:magnetic/electric field meter;psp:particle spectrometer;msp:mass spectrometer; cor:coronagraph; default:im
      band:"lo..hi|cent/width",   //Bandwidth Low..High or Center/Width;  freq hz (def.), wavel. [k..a]m, ener. [k..T]eV
      res:"",  //Angular resolution  in arcsec, lo..hi
      tres:"", //Temporal resolution in seconds
@@ -428,15 +428,16 @@ ginga:{name:"Ginga", url:"hp:heasarc.nasa.gov/docs/ginga/ginga.html", desc:"ag:j
     {pt:"", dt:"1987-03-09", tp:"sco", loc:"ter:leo:509x673kmx31deg", desc:""},
     {pt:"", dt:"1991-11-01", tp:"ae", loc:"", desc:"eom"}
 ]},
-gecam:{name:"GECAM:Gravitational wave high-energy Electromagnetic Counterpart All-sky Monitor", url:"hp:", desc:"ag:cnsa;lv:CZ-11;m:149kgx2;y:16;sc:1.2", stat:"pl", 
+gecam:{name:"GECAM:Gravitational wave high-energy Electromagnetic Counterpart All-sky Monitor;引力波暴高能电磁对应体全天监测器", url:"", desc:"ag:cnsa;lv:CZ-11;m:140kgx2;y:11;sc:0.7", stat:"o", 
   parts: [
-    {n:"", ctry:"cn", type:"x;g", pur:"", id:"", icon:"gecam.png"}
+    {n:"Xiaoji", ctry:"cn", type:"x;g", pur:"", id:"2020-094A", icon:"gecam.png"},
+    {n:"Xiaomu", ctry:"cn", type:"x;g", pur:"", id:"2020-094B", icon:"gecam.png"}
   ], ev: [
-    {pt:"", dt:"2020", tp:"l", loc:"ter:jiu", desc:""},
-    {pt:"", dt:"", tp:"sco", loc:"ter:leo:550x600km29deg", desc:""},
+    {pt:"", dt:"2020-12-09", tp:"l", loc:"ter:jiu", desc:""},
+    {pt:"", dt:"2020-12-09", tp:"sco", loc:"ter:leo:588x604kmx29deg", desc:""},
     {pt:"", dt:"2024", tp:"pom", loc:"", desc:""}
   ], inst: [
-    {n:"", band:"6keV..5MeV", res:"1deg", p:"", ea:"500cm2@10keV", desc:"c:nvt;"}
+    {n:"", band:"6keV..5MeV", res:"3600", p:"", fov:"360deg", ea:"500cm2@10keV", desc:"c:nr;cl:nl"}
 ]},
 goes:{name:"GOES:Geostationary Operational Environmental Satellite", ctry:"us", url:"hp:goespoes.gsfc.nasa.gov/goes/index.html;swpc:swpc.noaa.gov/", desc:"ag:noaa;sc:0.7;x:-18;y:6", stat:"o", 
   parts: [
@@ -465,7 +466,7 @@ goes:{name:"GOES:Geostationary Operational Environmental Satellite", ctry:"us", 
     {n:"SUVI:Solar Ultraviolet Imager", band:"9.4..30.4nm", res:"", url:"www.goes-r.gov/spacesegment/suvi.html", desc:"c:nr;"},
     {n:"EUVS:Extreme Ultraviolet Sensor", type:"is", band:"5..304nm", res:"", url:"www.goes-r.gov/spacesegment/exis.html", desc:"c:nr;"},
     {n:"XRS:X-ray Irradiance Sensor", type:"is", band:"0.05..0.8nm", res:"", url:"www.goes-r.gov/spacesegment/exis.html", desc:"c:nr;"},
-    {n:"CCOR:Compact Coronagraph ", band:"", tp:"im", res:"50", fov:"3-22Rsun", url:"", desc:"GOES-U only;c:;"}
+    {n:"CCOR:Compact Coronagraph ", band:"", tp:"cor", res:"50", fov:"3-22Rsun", url:"", desc:"GOES-U only;c:;"}
 ]},
 granat:{name:"Granat", url:"hp:heasarc.nasa.gov/docs/granat/granat.html", desc:"ag:rosc,iki;lv:Proton-K/Blok-D1", stat:"s", 
   parts: [
@@ -1282,7 +1283,7 @@ swfol1:{name:"SWFO-L1:Space Weather Follow-On-L1", url:"hp:www.nesdis.noaa.gov/O
     {pt:"", dt:"2024", tp:"l", loc:"ter", desc:"IMAP secondary"},
     {pt:"", dt:"2024", tp:"sco", loc:"sol:ho:esl1", desc:""}
   ], inst: [
-    {n:"CCOR:Compact Coronagraph ", band:"", tp:"im", res:"50", fov:"3-22Rsun", url:"", desc:";c:;"},
+    {n:"CCOR:Compact Coronagraph ", band:"", tp:"cor", res:"50", fov:"3-22Rsun", url:"", desc:";c:;"},
     {n:"MAG:Magnetometer", band:"", tp:"mag", sres:"", url:"", desc:"c:;"},
     {n:"SWPS:Solar Wind Plasma Sensor", band:"", tp:"par", fov:"", tres:"", url:"", desc:"c:;"},
     {n:"STIS:Supra Thermal Ion Sensor ", band:"", tp:"par", eres:"", tres:"", url:"", desc:"c:;"}
