@@ -3380,7 +3380,7 @@ hayabusa2: {name:"Hayabusa 2:Peregrine Falcon 2", desc:"lv:H-IIA 202",
     {pt:"3", type:"los", dt:"2018-10-04", loc:"ast", desc:"lp:MASCOT;eom:slm"},
     {pt:"0", type:"dsc", dt:"2019-02-21", loc:"ast", desc:"1. Sample Collection;Tamatebako"},
     {pt:"1", type:"imp", dt:"2019-04-05", loc:"ast", desc:"ip:SCI;Cratering Experiment;eom:im"},
-    {pt:"0", type:"dsc", dt:"2019-07-11", loc:"ast", desc:"2. Sample Collection;Uchide-no-kozuchi"},
+    {pt:"0", type:"dsc", dt:"2019-07-11", loc:"ast", desc:"2. Sample Collection;Uchide-no-kozuchi;mat:5.4g"},
     {pt:"2", type:"td", dt:"2019-10-08", loc:"ast", desc:"hpp:MINERVA II2;eom:hpm"},
     {pt:"0", type:"dep", dt:"2019-11-13", loc:"ast", desc:""},
     {pt:"0", type:"sep", dt:"2020-12-05", loc:"sol:ho", desc:"fbp/src"},
@@ -3610,7 +3610,7 @@ solarorbiter: {name:"Solar Orbiter", desc:"lv:Atlas V 411",
   events:[
     {pt:"", type:"l", dt:"2020-02-10", loc:"ter:cap:SLC-41", desc:""},
     {pt:"", type:"oi", dt:"2020-02-10", loc:"sol:ho:0.661x1.014aux2.9deg", desc:""},
-    {pt:"", type:"fb", dt:"2020-12-26", loc:"ven", desc:"ga"},
+    {pt:"", type:"fb", dt:"2020-12-27", loc:"ven", desc:"ga"},
     {pt:"", type:"fb", dt:"2021-08-08", loc:"ven", desc:"ga"},
     {pt:"", type:"fb", dt:"2021-11-26", loc:"ter", desc:"ga;Perhelion 0.321AU"},
     {pt:"", type:"fb", dt:"2022-09-03", loc:"ven", desc:"ga;Perhelion 0.292AU"},
@@ -3663,9 +3663,9 @@ emm: {name:"Al Amal:Hope", desc:"lv:H-IIA 202",
 ]},
 change5: {name:"Chang'e 5", desc:"lv:CZ-5",
   parts:[
-    {names:"嫦娥五号", type:"srm", dest:"lun", stat:"o", ctry:"cn", desc:"ag:cnsa;fam:clep;m:8200kg;sc:0.75;w:0.67", id:"2020-087A", url:"China Spaceflight:www.chinaspaceflight.com/satellite/Deepspace/CE-5/CE-5.html", icon:"chang-e5.png"},
-    {names:"{Chang'e 5 Lander}", type:"slm", dest:"lun", stat:"o", ctry:"cn", desc:"", id:"", url:"", icon:"chang-e5l.png"},
-    {names:"{Chang'e 5 Return Stage}", type:"", dest:"ter", stat:"o", ctry:"cn", desc:"sc:0.6", id:"", url:"", icon:"chang-e5sr.png"}], 
+    {names:"嫦娥五号", type:"srm", dest:"lun", stat:"s", ctry:"cn", desc:"ag:cnsa;fam:clep;m:8200kg;sc:0.75;w:0.67", id:"2020-087A", url:"China Spaceflight:www.chinaspaceflight.com/satellite/Deepspace/CE-5/CE-5.html", icon:"chang-e5.png"},
+    {names:"{Chang'e 5 Lander}", type:"slm", dest:"lun", stat:"s", ctry:"cn", desc:"", id:"", url:"", icon:"chang-e5l.png"},
+    {names:"{Chang'e 5 Return Stage}", type:"", dest:"ter", stat:"s", ctry:"cn", desc:"sc:0.6", id:"", url:"", icon:"chang-e5sr.png"}], 
   events:[
     {pt:"", type:"l", dt:"2020-11-23", loc:"ter:wen:LC-101", desc:""},
     {pt:"", type:"toi", dt:"2020-11-23", loc:"ter:lto:201x392980kmx21.3deg", desc:""},
@@ -3675,12 +3675,12 @@ change5: {name:"Chang'e 5", desc:"lv:CZ-5",
     {pt:"", type:"deo", dt:"2020-11-30", loc:"lun:220x18kmx42.4deg", desc:"lp"},
     {pt:"", type:"td", dt:"2020-12-01", loc:"lun:51.8W,43.1N", desc:"lp;NW Oceanus Procellarum, Louville Omega;show:CE5"},
     {pt:"", type:"sc", dt:"2020-12-02", loc:"lun", desc:"lp;"},
-    {pt:"", type:"l", dt:"2020-12-03", loc:"lun", desc:"as"},
+    {pt:"", type:"l", dt:"2020-12-03", loc:"lun", desc:"as;eom:slm"},
     {pt:"", type:"doc", dt:"2020-12-05", loc:"lun", desc:"op/as"},
     {pt:"", type:"ev", dt:"2020-12-05", loc:"lun", desc:"as/src;Sample Transfer"},
     {pt:"", type:"sep", dt:"2020-12-06", loc:"lun", desc:"op/as"},
-    {pt:"", type:"toi", dt:"2020-12-11", loc:"lun", desc:"op/src"},
-    {pt:"", type:"edl", dt:"2020-12-16", loc:"ter", desc:"eom:srm;src;Siziwang Banner, Inner Mongolia;eom"}
+    {pt:"", type:"toi", dt:"2020-12-13", loc:"lun", desc:"op/src"},
+    {pt:"", type:"edl", dt:"2020-12-17", loc:"ter", desc:"eom:srm;src;Siziwang Banner, Inner Mongolia;eom"}
 ]},
 // --- 2021
 chandrayaan3: {name:"Chandrayaan 3:Moon Craft 3", desc:"lv:GSLV MkIII",
@@ -3819,13 +3819,13 @@ lucy: {name:"Lucy", desc:"lv:Atlas V 401",
 dart: {name:"DART:Double Asteroid Redirection Test", desc:"lv:Falcon 9",
   parts:[
     {names:"", type:"im", dest:"ast", stat:"pl", ctry:"us", desc:"ag:nasa,apl;fam:AIDA;dim:12.5x2.4x2m;m:640kg;sc:0.7", id:"", url:"hp:dart.jhuapl.edu/;nasa:www.nasa.gov/planetarydefense/dart", icon:"dart.png"},
-    {names:"LICIA:Light Italian Cubesat for Imaging of Asteroids", type:"fbm", dest:"ast", stat:"pl", ctry:"it", desc:"ag:asi,Argotec;sc:0.4", id:"", url:"LICIACube:www.argotec.it/online/what-we-do/small-satellite-unit/#tab-4", icon:"licia.png"}
+    {names:"LICIACube:Light Italian Cubesat for Imaging of Asteroids", type:"fbm", dest:"ast", stat:"pl", ctry:"it", desc:"ag:asi,Argotec;sc:0.4", id:"", url:"LICIACube:www.argotec.it/online/what-we-do/small-satellite-unit/#tab-4", icon:"licia.png"}
   ], events:[
     {pt:"", type:"l", dt:"2021-07", loc:"ter:van:SLC-4E", desc:""},
     {pt:"", type:"oi", dt:"2021-07", loc:"sol:ho", desc:""},
     {pt:"", type:"fb", dt:"2022-03", loc:"ast", desc:"ast:2001 CB21;?"},
     {pt:"", type:"fb", dt:"2022-09", loc:"ast", desc:"ast:didy"},
-    {pt:"0", type:"imp", dt:"2022-09", loc:"ast", desc:"ip;ast:Dimorphos"},
+    {pt:"0", type:"imp", dt:"2022-09-30", loc:"ast", desc:"ip;ast:Dimorphos"},
     {pt:"1", type:"fb", dt:"2022-09", loc:"ast", desc:"fbp:LICIACube"},
     {pt:"", type:"nom", dt:"2022-09", loc:"ast", desc:"eom"}
 ]},
@@ -4112,6 +4112,16 @@ rashid: {name:"Rashid", desc:"",
     {pt:"", type:"nom", dt:"l+18d", loc:"lun", desc:""},
     {pt:"", type:"pom", dt:"l+18d", loc:"lun", desc:""}
 ]},
+beresheet2: {name:"Beresheet 2", desc:"lv:TBA",
+  parts:[
+    {names:"براشيت 2‬", type:"om", dest:"lun", stat:"pl", ctry:"il", desc:"ag:SpaceIL;m:630kg;dim:2.5x1.6m;sc:0.3", id:"", url:"hp:beresheet.space;SpaceIL:www.spaceil.com/", icon:"beresheet2-o.png"},
+    {names:"‬", type:"slm", dest:"lun", stat:"pl", ctry:"il", desc:"ag:SpaceIL;1.5x1.74m;sc:1", id:"", url:"", icon:"beresheet2-l.png"}
+  ], 
+  events:[
+    {pt:"", type:"l", dt:"2024", loc:"ter:cap", desc:""},
+    {pt:"", type:"oi", dt:"2024", loc:"lun", desc:""},
+    {pt:"", type:"td", dt:"2024", loc:"lun", desc:""}
+]},
 /*ptknp: {name:"Oryol 1L1", desc:"lv:Angara-A5P", stat:"pl", 
   parts:[
     {names:"Орёл;PTK-NP:Pilotiruemyi Transportny Korabl Novogo Pokoleniya (New Generation Piloted Transport Ship)", type:"test", dest:"ter", ctry:"ru", desc:"ag:rosc;m:22300kg;dim:4.47x13.9x6.08m;Uncrewed test flight;sc:0.7", id:"", url:"rsw:www.russianspaceweb.com/ptk_flight_testing.html", icon:"orel.png"},
@@ -4133,7 +4143,7 @@ luna26: {name:"Luna 26", desc:"lv:Soyuz 2.1B/Fregat-MT",
     {pt:"", type:"pom", dt:"l+4yr", loc:"lun", desc:"?"}
 ]},
 // --- 2025
-neosm: {name:"NEOSM:NEO Surveillance Mission", desc:"",
+neosm: {name:"NEO Surveyor:Near Earth Object Surveyor", desc:"",
   parts: [
     {names:"", type:"obm", dest:"ast", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;m:1300kg;sc:0.5", id:"", url:"hp:neocam.ipac.caltech.edu/", icon:"neosm.png"}], 
   events: [
@@ -4376,7 +4386,7 @@ deim:
 //Asteroid belt & NEOs
 sbo:
   {name:"Small Bodies", other:"", desig:"", type:"b", par:"sol", disc:"", dyr:"",
-   com:"4147", ast:"857692", cen:"Atiras:39;Atens:1619;Apollos:10950;Amors:9165;Hungarias:22381;Mars-Crossers:15840;Main Belt:856978;Hildas:4288;Jupiter Trojans:7737;Comets:4131;Damocloids:157",
+   com:"4341", ast:"1026572", cen:"Atiras:45;Atens:1857;Apollos:12406;Amors:10288;Hungarias:24673;Mars-Crossers:17079;Main Belt:962821;Hildas:4614;Jupiter Trojans:9401;Comets:4341;Damocloids:157",
    img:"mab.png", map:"sbo.png", col:"#9f9", ind:"6", 
    url:"haz:neo.jpl.nasa.gov/risk/",
    desc:"sc:30;scmoons:0.25;url:www.minorplanetcenter.net;rsize:1800,140;x:24;y:48"},
@@ -5880,7 +5890,7 @@ s2004n1:
    img:"", desc:"sc:3;url:solarsystem.nasa.gov/moons/neptune-moons/s-2004-n1/in-depth/;orb:ec.2013-01-01"},
 tno:
   {name:"Transneptunian Objects", other:"", desig:"", type:"b", par:"sol", disc:"", dyr:"", m:"1.17e23kg",
-   tno:"3525", cen:"Neptune Trojans:24;Centaurs/Scattered Disk Objects:1085;Detached:79;Plutinos:~600;Other Resonant:~400;Classical KBOs:~1000",
+   tno:"3991", cen:"Neptune Trojans:24;Centaurs/Scattered Disk Objects:1085;Detached:79;Plutinos:~600;Other Resonant:~400;Classical KBOs:~1000",
    img:"kb.png", map:"tno.png", col:"#9fc", ind:"11", 
    desc:"sc:30;scmoons:0.05;url:www.minorplanetcenter.net;rsize:1800,200;x:72;y:72"},
 //Pluto system
@@ -6538,7 +6548,7 @@ cz-8
 */
 //Angara 5V
 //"Angara-A5V": {ctry:"ru", m:"820000", pm:"35000/12000/7000",  d:"73.3x2.9", pf:"19.6x5.1", dt:"2023..", st:"3/4", ust:"KVTK/Briz-M", th:"10570", fam:"Angara", desc:"l:vos;ag:rosc", fuel:"KeroLOX", icon:"Angara-A5V.png"},
-"Angara-A5": {ctry:"ru", m:"774000", pm:"24000/7500/5100",  d:"64x2.9", pf:"19.6x5.1", dt:"2014-12-23..", st:"2/4", ust:"KVTK/DM", th:"9600", fam:"Angara", desc:"l:vos,ple;ag:rosc", fuel:"KeroLOX", icon:"Angara-A5.png"},
+"Angara-A5": {ctry:"ru", m:"774000", pm:"24000/7000/5100",  d:"64x2.9", pf:"19.6x5.1", dt:"2014-12-23..", st:"2/4", ust:"KVTK/DM", th:"9600", fam:"Angara", desc:"l:vos,ple;ag:rosc", fuel:"KeroLOX", icon:"Angara-A5.png"},
 "Angara-A5M": {ctry:"ru", m:"780000", pm:"27000/8000/-", d:"59x2.9", pf:"", dt:"2024..", st:"2/4", ust:"KVTK/DM", th:"9600", fam:"Angara", desc:"l:vos;ag:rosc", fuel:"KeroLOX", icon:"Angara-A5M.png"},
 "Angara-A5V": {ctry:"ru", m:"810000", pm:"38000/12000/7000", d:"73.3x2.9", pf:"19.6x5.1", dt:"2027..", st:"3/4", ust:"KVTK/DM", th:"10570", fam:"Angara", desc:"l:vos,ple;ag:rosc", fuel:"KeroLOX", icon:"Angara-A5V.png"},
 //Ariane 1
