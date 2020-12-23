@@ -2300,6 +2300,7 @@ cz-8
 "CZ-7": {n:"Long March 7", alt:"长征七号运载火箭", ctry:"cn", m:"594000", pm:"13500/5500/-", d:"53.1x3.35", pf:"12.7x4.2", dt:"2016-06-24..", st:"2/4", ust:"YZ-1A", th:"7200", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"CZ-7.png"},
 "CZ-7A": {n:"Long March 7A", alt:"长征七号运载火箭", ctry:"cn", m:"620000", pm:"-/7000/-", d:"60.1x3.35", pf:"12.7x4.2", dt:"2020-03-16..", st:"3/4", ust:"H-18", th:"7200", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX+LH2/LOX", icon:"CZ-7A.png"},
 //CZ-8
+"CZ-8": {n:"Long March 8", alt:"长征八号", ctry:"cn", m:"356000", pm:"8100/2800/-", d:"50.3x3.35", pf:"12.7x4.2", dt:"2020-12-22..", st:"2/2", ust:"YZ-1A", th:"4800", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"CZ-8.png"},
 //CZ-9
 "CZ-9": {n:"Long March 9", alt:"长征九号运载火箭", ctry:"cn", m:"4140000", pm:"140000/66000/50000", d:"93x10", pf:"", dt:"2028..", st:"3/4", ust:"", th:"52800", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"CZ-9.png"},
 //CZ-X

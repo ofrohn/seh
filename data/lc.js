@@ -80,7 +80,7 @@ Common.lpad = [
 {n:"LC-133/3", par:"ple", lv:"Kosmos;Rockot", loc:"62.887N,40.850E"},
 {n:"LC-200/39", par:"bai", lv:"Proton-K;Proton-M", loc:"46.040N,63.032E"},
 {n:"LC-200/40", par:"bai", lv:"Proton-K;Proton-M", loc:"46.036N,63.038E"},
-{n:"LC-201", par:"wen", lv:"CZ-7", loc:"19.6180N,110.9553E"},
+{n:"LC-201", par:"wen", lv:"CZ-7;CZ-8", loc:"19.6180N,110.9553E"},
 {n:"LC-250", par:"bai", lv:"Energia-Polyus", loc:"46.008N,63.305E"},
 {n:"LC-370/11", par:"yas", lv:"Dnjepr-1", loc:"51.0945N,59.8424E"},
 {n:"LC-370/13", par:"yas", lv:"Dnjepr-1", loc:"51.0934N,59.8446E"},
