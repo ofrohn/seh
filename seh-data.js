@@ -3832,15 +3832,15 @@ dart: {name:"DART:Double Asteroid Redirection Test", desc:"lv:Falcon 9",
 ]},
 slim:{name:"SLIM:Smart Lander for Investigating Moon", desc:"lv:H-IIA 202", stat:"pl", 
   parts: [
-    {names:"スリム;SPRINT-C", ctry:"jp", type:"slm", dest:"lun", id:"", icon:"slim.png", desc:"ag:jaxa;m:730kg;m0:200kg;sc:0.3", url:"hp:www.isas.jaxa.jp/home/slim/SLIM/index.html;isas:www.isas.jaxa.jp/en/missions/spacecraft/developing/slim.html;tw:twitter.com/SLIM_JAXA"}], 
+    {names:"スリム;SPRINT-C", ctry:"jp", type:"slm", dest:"lun", id:"", icon:"slim.png", desc:"ag:jaxa;m:590kg;m0:120kg;dim:1.5x1.5x2m;sc:0.3", url:"hp:www.isas.jaxa.jp/home/slim/SLIM/index.html;isas:www.isas.jaxa.jp/en/missions/spacecraft/developing/slim.html;tw:twitter.com/SLIM_JAXA"}], 
   events: [
-    {pt:"", dt:"2021", type:"l", loc:"ter:uch", desc:""},
+    {pt:"", dt:"2022-01", type:"l", loc:"ter:uch", desc:""},
     {pt:"", dt:"l+4dy", type:"oi", loc:"lun", desc:""},
     {pt:"", type:"td", dt:"l+1mo", loc:"lun:13.3S,25.2E", desc:"Mare Nectaris"},
     {pt:"", type:"nom", dt:"l+1.1mo", loc:"lun", desc:"?"}
 ]},
 //CubeRover
-peregrine: {name:"Peregrine", desc:"lv:Vulcan Centaur-522",
+peregrine: {name:"Peregrine 1", desc:"lv:Vulcan Centaur-522",
   parts:[
     {names:"M1:Mission 1", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Astrobotic;fam:clps;dim:1.9x1.9x2.5m;m:1313kg;sc:0.3", id:"", url:"hp:www.astrobotic.com/peregrine;clps:nasa.gov/content/commercial-lunar-payload-services", icon:"peregrin.png"}], 
   events:[
@@ -3853,8 +3853,8 @@ novac: {name:"NOVA-C", desc:"lv:Falcon 9",
   parts:[
     {names:"", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Intuitive Machines;fam:clps;m:1700kg;sc:0.3", id:"", url:"hp:intuitivemachines.com/lunarlander;clps:nasa.gov/content/commercial-lunar-payload-services", icon:"novac.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2021-10", loc:"ter:cap", desc:""},
-    {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:"Vallis Schröteri , Oceanus Procellarum"},
+    {pt:"", type:"l", dt:"2021-10-11", loc:"ter:cap", desc:""},
+    {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:"Vallis Schröteri, Oceanus Procellarum"},
     {pt:"", type:"nom", dt:"l+20dy", loc:"lun", desc:""}
 ]},
 // --- 2022
@@ -3863,7 +3863,7 @@ kplo: {name:"KPLO:Korean Pathfinder Lunar Orbiter", desc:"lv:Falcon 9",
     {names:"", type:"om", dest:"lun", stat:"pl", ctry:"sk", desc:"ag:kari;fam:klep;sc:0.6;m:678kg;m0:;dim:", id:"", url:"hp:www.kari.re.kr/eng/sub03_04.do", icon:"kplo.png"}
    ], 
   events:[
-    {pt:"", type:"l", dt:"2022-07", loc:"ter:cap", desc:""},
+    {pt:"", type:"l", dt:"2022-08", loc:"ter:cap", desc:""},
     {pt:"", type:"toi", dt:"2022-07", loc:"ter:heeo", desc:"Phasing Loop Transfer"},
     {pt:"", type:"oi", dt:"l+1mo", loc:"lun:100kmx90deg", desc:""},
     {pt:"", type:"nom", dt:"l+1yr", loc:"lun", desc:"?"}
@@ -3951,7 +3951,7 @@ xl1: {name:"XL-1", desc:"lv:Falcon 9",
   parts:[
     {names:"", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Masten;fam:clps;m:2700kg;sc:0.3", id:"", url:"hp:www.masten.aero/moon", icon:"masten-xl1.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2022", loc:"ter:cap", desc:""},
+    {pt:"", type:"l", dt:"2022-12", loc:"ter:cap", desc:""},
     {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:"Near South pole"},
     {pt:"", type:"nom", dt:"l+12dy", loc:"lun", desc:""}
 ]},
@@ -3964,7 +3964,6 @@ xl1: {name:"XL-1", desc:"lv:Falcon 9",
     {pt:"", type:"nom", dt:"2023", loc:"lun", desc:""}
 ]},*/
 // --- 2023
-// Gateway PPE & HALO nrho
 viper: {name:"VIPER:Volatiles Investigating Polar Exploration Rover", desc:"lv:TBA",
   parts:[
     {names:"", type:"rvm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,ames,jsc;m:420kg;dim:1.5x1.5x2m;fam:clps;sc:0.25", id:"", url:"hp:www.nasa.gov/viper", icon:"viper.png"},
@@ -3993,7 +3992,7 @@ change7: {name:"Chang'e 7", desc:"lv:CZ-5",
     ], 
   events:[
     {pt:"", type:"l", dt:"2023", loc:"ter:wen:LC-101", desc:""},
-    {pt:"", type:"toi", dt:"l+1hr", loc:"ter:lto", desc:""},
+    {pt:"", type:"toi", dt:"l+1hr", loc:"ter:lto", desc:"Near South pole"},
     {pt:"", type:"oi", dt:"l+5dy", loc:"lun:200km", desc:""},
     {pt:"0", type:"td", dt:"l+?dy", loc:"lun", desc:"SP Aitken Basin"},
     //{pt:"", type:"sep", dt:"l+?dy", loc:"lun", desc:"lp/rvp"},
@@ -4014,8 +4013,8 @@ em2: {name:"Artemis-2", desc:"lv:SLS 1", stat:"pl",
   parts:[
     {names:"EM-2:Exploration Mission 2", type:"hm", dest:"lun", ctry:"us;eu", desc:"ag:nasa,jsc,esa;m:21250kg;sc:0.6", id:"", url:"hp:www.nasa.gov/exploration/home/index.html;esa:www.esa.int/Our_Activities/Human_Spaceflight/Orion/Exploration_Mission_2", icon:"orion.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2023-04", loc:"ter:ksc:LC-39B", desc:""},
-    {pt:"", type:"toi", dt:"2023-04", loc:"ter", desc:"lto"},
+    {pt:"", type:"l", dt:"2023-06", loc:"ter:ksc:LC-39B", desc:""},
+    {pt:"", type:"toi", dt:"2023-06", loc:"ter", desc:"lto"},
     {pt:"0", type:"fb", dt:"l+4dy", loc:"lun", desc:"Free return trajectory"},
     {pt:"0", type:"edl", dt:"l+9dy", loc:"ter", desc:"eom"}
 ]},
@@ -4024,9 +4023,17 @@ halo_ppe: {name:"Gateway", desc:"lv:Falcon Heavy",
     {names:"PPE:Power and Propulsion Element", type:"om", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Maxar;m:9000kg;sc:1.0", id:"", url:"hp:www.nasa.gov/gateway", icon:"gateway1.png"},
     {names:"HALO:Habitation and Logistics Outpost", type:"om", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,NGIS;sc:1", id:"", url:"", icon:""}], 
   events:[
-    {pt:"", type:"l", dt:"2023", loc:"ter", desc:""},
+    {pt:"", type:"l", dt:"2023-11", loc:"ter", desc:""},
     {pt:"", type:"oi", dt:"l+4m", loc:"lun:nrho", desc:""},
     {pt:"", type:"nom", dt:"2030s", loc:"lun", desc:""}
+]},
+hakutor: {name:"Hakuto-R", desc:"lv:Falcon 9",
+  parts:[
+    {names:"", type:"slm", dest:"lun", stat:"pl", ctry:"jp;eu", desc:"ag:ispace;sc:0.5", id:"", url:"hp:ispace-inc.com/hakuto-r/eng/", icon:"hakuto-r.png"}], 
+  events:[
+    {pt:"", type:"l", dt:"2023-03", loc:"ter:cap", desc:""},
+    {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:"Lacus Somniorum"},
+    {pt:"", type:"nom", dt:"l+3w", loc:"lun", desc:""}
 ]},
 // --- 2024
 mom2: {name:"MOM-2:Mars Observation Mission 2", desc:"lv:GSLV MkIII",
@@ -6649,7 +6656,7 @@ cz-8
 //Delta 4H
 "Delta IV Heavy": {ctry:"us", m:"732000", pm:"23040/13100/9000",  d:"63x5.1", pf:"19.8x5.1", dt:"2004-12-21..", st:"2/2", ust:"Star-48", th:"9420", fam:"Delta", desc:"l:cap,van;ag:nasa", fuel:"LH2/LOX", icon:"Delta-4H_Orion.png"},
 //Electron
-"Electron": {ctry:"us", m:"13000", pm:"225/-/-",  d:"18x1.2", pf:"2.5x1.2-1.7", dt:"2017-05-26..", st:"2", ust:"Photon", th:"162", fam:"Electron", desc:"l:mah,wal;ag:Rocket Lab", fuel:"KeroLOX", icon:"electron.png"},
+"Electron": {ctry:"us", m:"13000", pm:"300/-/-",  d:"18x1.2", pf:"2.5x1.2-1.7", dt:"2017-05-25..", st:"2", ust:"Photon", th:"225", fam:"Electron", desc:"l:mah,wal;ag:Rocket Lab", fuel:"KeroLOX", icon:"electron.png"},
 //Epsilon
 "Epsilon": {ctry:"jp", m:"91000", pm:"1200/-/-",  d:"24.4x2.5", pf:"", dt:"2013-09-14..", st:"3", ust:"CLPS", th:"2271", fam:"Epsilon", desc:"l:uch;ag:jaxa", fuel:"SRP", icon:"epsilon1.png"},
 //Epsilon

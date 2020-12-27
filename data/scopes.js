@@ -1429,7 +1429,7 @@ xarm:{name:"XRISM:X-ray Imaging and Spectroscopy Mission", url:"hp:astro-h.isas.
   parts: [
     {n:"ASTRO-H2", ctry:"jp", type:"sx", pur:"", id:"", icon:"astro-h.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2021-03", tp:"l", loc:"ter:tng", desc:""},
+    {pt:"", dt:"2022-01", tp:"l", loc:"ter:tng", desc:""},
     {pt:"", dt:"2021-03", tp:"sco", loc:"ter:leo:550kmx31deg", desc:""},
     {pt:"", dt:"2025", tp:"nom", loc:"ter:leo", desc:""}
   ], inst: [
