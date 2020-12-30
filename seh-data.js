@@ -3610,7 +3610,7 @@ solarorbiter: {name:"Solar Orbiter", desc:"lv:Atlas V 411",
   events:[
     {pt:"", type:"l", dt:"2020-02-10", loc:"ter:cap:SLC-41", desc:""},
     {pt:"", type:"oi", dt:"2020-02-10", loc:"sol:ho:0.661x1.014aux2.9deg", desc:""},
-    {pt:"", type:"fb", dt:"2020-12-27", loc:"ven", desc:"ga"},
+    {pt:"", type:"fb", dt:"2020-12-27", loc:"ven:7449km", desc:"ga"},
     {pt:"", type:"fb", dt:"2021-08-08", loc:"ven", desc:"ga"},
     {pt:"", type:"fb", dt:"2021-11-26", loc:"ter", desc:"ga;Perhelion 0.321AU"},
     {pt:"", type:"fb", dt:"2022-09-03", loc:"ven", desc:"ga;Perhelion 0.292AU"},
@@ -3980,7 +3980,7 @@ lupex: {name:"LUPEX:Lunar Polar Exploration", desc:"lv:H-III",
     {names:"", type:"slm", dest:"lun", stat:"pl", ctry:"ind;jp", desc:"ag:isro,jaxa;m:6000kg;sc:0.5", id:"", url:"jaxa:www.exploration.jaxa.jp/e/program/lunarpolar/", icon:"lupex-l.png"},
     {names:"", type:"rvm", dest:"lun", stat:"pl", ctry:"jp", desc:"ag:jaxa", id:"", url:"", icon:"lupex-rv.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2023", loc:"ter:tan", desc:""},
+    {pt:"", type:"l", dt:"2023", loc:"ter:tng", desc:""},
     {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:"South pole"},
     {pt:"", type:"nom", dt:"l+6mo", loc:"lun", desc:""}
 ]},

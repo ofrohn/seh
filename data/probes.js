@@ -2265,7 +2265,7 @@ smart1: {name:"SMART 1:Small Missions for Advanced Research in Technology 1", de
     {pt:"", type:"imp", dt:"2006-09-03", loc:"lun:34.262S,46.193W", desc:"Lacus Excellentiae;eom;show:0"}
 ]},
 // --- 2004 --- 2 Missions    
-rosetta: {name:"Rosetta", desc:"lv:Ariane 5G+", stat:"o",
+rosetta: {name:"Rosetta", desc:"lv:Ariane 5G+", stat:"s",
   parts:[
     {names:"", type:"fbm", dest:"ast", stat:"s", ctry:"eu", desc:"ag:esa;m:3000kg;m0:1330kg;dim:32x2.8x4.4m;sc:1;w:0.5", id:"2004-006A", url:"hp:www.esa.int/Our_Activities/Space_Science/Rosetta;esa:sci.esa.int/science-e/www/area/index.cfm?fareaid=13;psa:www.sciops.esa.int/index.php?project=PSA&page=rosetta;tw:twitter.com/ESA_Rosetta", icon:"rosetta.png"},
 {type:"om", dest:"com", stat:"s", desc:"First comet orbiter", ctry:"eu"},
@@ -2956,7 +2956,7 @@ solarorbiter: {name:"Solar Orbiter", desc:"lv:Atlas V 411",
   events:[
     {pt:"", type:"l", dt:"2020-02-10", loc:"ter:cap:SLC-41", desc:""},
     {pt:"", type:"oi", dt:"2020-02-10", loc:"sol:ho:0.661x1.014aux2.9deg", desc:""},
-    {pt:"", type:"fb", dt:"2020-12-27", loc:"ven", desc:"ga"},
+    {pt:"", type:"fb", dt:"2020-12-27", loc:"ven:7449km", desc:"ga"},
     {pt:"", type:"fb", dt:"2021-08-08", loc:"ven", desc:"ga"},
     {pt:"", type:"fb", dt:"2021-11-26", loc:"ter", desc:"ga;Perhelion 0.321AU"},
     {pt:"", type:"fb", dt:"2022-09-03", loc:"ven", desc:"ga;Perhelion 0.292AU"},
@@ -3326,7 +3326,7 @@ lupex: {name:"LUPEX:Lunar Polar Exploration", desc:"lv:H-III",
     {names:"", type:"slm", dest:"lun", stat:"pl", ctry:"ind;jp", desc:"ag:isro,jaxa;m:6000kg;sc:0.5", id:"", url:"jaxa:www.exploration.jaxa.jp/e/program/lunarpolar/", icon:"lupex-l.png"},
     {names:"", type:"rvm", dest:"lun", stat:"pl", ctry:"jp", desc:"ag:jaxa", id:"", url:"", icon:"lupex-rv.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2023", loc:"ter:tan", desc:""},
+    {pt:"", type:"l", dt:"2023", loc:"ter:tng", desc:""},
     {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:"South pole"},
     {pt:"", type:"nom", dt:"l+6mo", loc:"lun", desc:""}
 ]},

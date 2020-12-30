@@ -206,7 +206,7 @@ function Destination(dest, parid) {
     if (_dest == "ter") {
       l = SSEH.lc.split(",");
       for (j=0; j<l.length; j++) {
-        if (l[j] === "") continue;
+        if (l[j] === "" || !Common.hasOwnProperty(l[j])) continue;
         key = l[j];
         if (Common.lc[key].hasOwnProperty("desc")) {
           ar = Common.lc[key].desc.match(/loc\:([^\b;]+)/);
