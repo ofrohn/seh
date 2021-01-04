@@ -2090,7 +2090,7 @@ xarm:{name:"XRISM:X-ray Imaging and Spectroscopy Mission", url:"hp:astro-h.isas.
     {n:"ASTRO-H2", ctry:"jp", type:"sx", pur:"", id:"", icon:"astro-h.png", desc:""}
   ], ev: [
     {pt:"", dt:"2022-01", tp:"l", loc:"ter:tng", desc:""},
-    {pt:"", dt:"2021-03", tp:"sco", loc:"ter:leo:550kmx31deg", desc:""},
+    {pt:"", dt:"2022-03", tp:"sco", loc:"ter:leo:550kmx31deg", desc:""},
     {pt:"", dt:"2025", tp:"nom", loc:"ter:leo", desc:""}
   ], inst: [
     {n:"Xtend;SXI:Soft X-ray Imaging System", band:"0.4..13keV", res:"72", sres:"150eV@6keV", ea:"360cm2@6keV", fov:"38x38'", desc:"c:nr;cl:nl;"},
