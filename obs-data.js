@@ -994,8 +994,8 @@ euclid:{name:"Euclid", url:"hp:www.euclid-ec.org/;esa:sci.esa.int/euclid", desc:
     {pt:"", dt:"l+30d", tp:"sco", loc:"sol:esl2", desc:"1M km  Lissajous orbit"},
     {pt:"", dt:"2028", tp:"nom", loc:"sol:esl2", desc:"pend"},
   ], inst: [
-    {n:"VIS:Visual Imager", band:"550..900nm", res:"0.1", d:1.2, px:0.1, fov:"0.8deg2", desc:"c:n;cl:nly;"},
-    {n:"NISP:Near-infrared spectrometer and photometer", band:"0.92..2um", res:"0.3", d:1.2, px:0.3, sres:"250", fov:"0.75deg2", desc:"c:nr;cl:nl"}
+    {n:"VIS:Visual Imager", band:"550..900nm", res:"0.1", d:1.3, px:0.1, fov:"0.8deg2", desc:"c:n;cl:nly;"},
+    {n:"NISP:Near-infrared spectrometer and photometer", band:"0.92..2um", res:"0.3", d:1.3, px:0.3, sres:"250", fov:"0.75deg2", desc:"c:nr;cl:nl"}
 ]},
 euve:{name:"EUVE", url:"hp:www.ssl.berkeley.edu/euve/", desc:"ag:nasa;lv:Delta II 6920-10", stat:"s", 
   parts: [
@@ -1383,8 +1383,8 @@ ixpe:{name:"IXPE:Imaging X-Ray Polarimetry Explorer", url:"hp:wwwastro.msfc.nasa
   parts: [
     {n:"", ctry:"ind", type:"x", pur:"", id:"", icon:"ixpe.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2021", tp:"l", loc:"ter:ksa:LC-39A", desc:""},
-    {pt:"", dt:"2021", tp:"sco", loc:"ter:leo:540kmx0deg", desc:""},
+    {pt:"", dt:"2021-10", tp:"l", loc:"ter:ksa:LC-39A", desc:""},
+    {pt:"", dt:"2021-10", tp:"sco", loc:"ter:leo:540kmx0deg", desc:""},
     {pt:"", dt:"2024", tp:"pom", loc:"ter:leo", desc:""}
   ], inst: [
     {n:"", band:"2..8keV", res:"30", fov:"11'", desc:"c:nr;cl:nl"}
@@ -1805,7 +1805,7 @@ solarorbiter:{name:"SolO:Solar Orbiter", url:"hp:www.esa.int/Our_activities/Spac
     {n:"SPICE:Spectral Imaging of the Coronal Environment", band:"48.5..105nm", tp:"is", res:"", d:"", px:"", url:"", desc:"c:;"},
     {n:"STIX:X-ray Spectrometer/Telescope", band:"4..150keV", tp:"is", res:"", fov:"1.5deg", url:"", desc:"cl:n;"}
 ]},
-spherex:{name:"SPHEREx:Spectro-Photometer for the History of the Universe, Epoch of Reionization, and Ices Explorer,", url:"hp:caltech:spherex.caltech.edu/;jpl:www.jpl.nasa.gov/missions/spherex/", desc:"ag:nasa,caltech;lv:;m:kg;fam:Explorer;sc:0.6;x:0;y:10", stat:"pl", 
+spherex:{name:"SPHEREx:Spectro-Photometer for the History of the Universe, Epoch of Reionization, and Ices Explorer,", url:"hp:spherex.caltech.edu/;jpl:www.jpl.nasa.gov/missions/spherex/", desc:"ag:nasa,caltech;lv:;m:kg;fam:Explorer;sc:0.6;x:0;y:10", stat:"pl", 
   parts: [
     {n:"Explorer", ctry:"us", type:"ir", pur:"sur", id:"", icon:"spherex.png"}
   ], ev: [
@@ -2051,7 +2051,7 @@ wind:{name:"WIND", url:"hp:wind.nasa.gov/;ucb:cse.ssl.berkeley.edu/stereo_solarw
     {n:"TGRS:Transient Gamma-Ray Spectrometer", tp:"sp", band:"2.42E+18..2.42E+21", url:"lheawww.gsfc.nasa.gov/docs/gamcosray/legr/tgrs/tgrs_home.html", desc:""},
     {n:"KRONUS", band:"", res:"", url:"", desc:""}
 ]},
-wfirst:{name:"NGRST:Nancy Grace Roman Space Telescope", url:"hp:wfirst.gsfc.nasa.gov;tw:twitter.com/NASAWFIRST", desc:"ag:nasa;lv:Falcon Heavy;sc:0.9;x:40;y:0", stat:"pl", 
+wfirst:{name:"RST:Nancy Grace Roman Space Telescope", url:"hp:roman.gsfc.nasa.gov;tw:twitter.com/NASAWFIRST", desc:"ag:nasa;lv:Falcon Heavy;sc:0.9;x:40;y:0", stat:"pl", 
   parts: [
     {n:"WFIRST:Widefield Infrared Survey Explorer", ctry:"us", type:"nir", pur:"sur", id:"", icon:"ngrst.png", desc:""}
   ], ev: [
@@ -2059,8 +2059,8 @@ wfirst:{name:"NGRST:Nancy Grace Roman Space Telescope", url:"hp:wfirst.gsfc.nasa
     {pt:"", dt:"2026", tp:"sco", loc:"ter:esl2", desc:"or GEO"},
     {pt:"", dt:"2032", tp:"nom", loc:"", desc:""}
   ], inst: [
-    {n:"WFI:Wide Field Instrument", band:"480..2000nm", res:"", d:"2.5", px:"0.11", fov:"0.28deg2", desc:"c:nvt;cl:nl"},
-    {n:"CGI:Coronograph Instrument", band:"550..900nm", res:"", d:"2.5", px:"0.021", fov:"9x9''", desc:""}
+    {n:"WFI:Wide Field Instrument", band:"480..2000nm", res:"", d:"2.4", px:"0.11", fov:"0.281deg2", desc:"c:nvt;cl:nl"},
+    {n:"CGI:Coronograph Instrument", band:"550..900nm", res:"", d:"2.4", px:"0.021", fov:"9x9''", desc:""}
 ]},
 wmap:{name:"WMAP:Wilkinson Microwave Anisotropy Probe", url:"hp:map.gsfc.nasa.gov/", desc:"ag:nasa;m:2900kg;lv:Delta II 7425-10", stat:"s", 
   parts: [
