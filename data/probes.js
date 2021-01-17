@@ -1605,7 +1605,7 @@ voyager1: {name:"Voyager 1", desc:"lv:Titan IIIE Centaur D1T", stat:"o",
     {pt:"2", type:"tc", dt:"1980-11-12", loc:"sol:et:9.54aux3.72ex35deg", desc:""},
     {pt:"2", type:"ev", dt:"1998-02-17", loc:"et:69.4au", desc:"Farthest human-made object"},
     {pt:"2", type:"ft", dt:"2004-12", loc:"sol:et:94au", desc:"Termination shock"},
-    {pt:"2", type:"tr", dt:"2012-08", loc:"et:122.6au", desc:"isp;Leaves Heliosphere"},
+    {pt:"2", type:"tr", dt:"2012-08-25", loc:"et:122.6au", desc:"isp;Leaves Heliosphere"},
     {pt:"2", type:"nom", dt:"2030-12-31", loc:"et", desc:"?;Power Depletion"}
 ]},
 // --- 1978 --- 5 Missions   
@@ -3127,15 +3127,6 @@ em1cubes: {name:"Artemis-1 Cubesats", desc:"lv:SLS;part:em1;6U-CubeSat", stat:"p
     {pt:"7", type:"pom", dt:"l+2yr", loc:"sol:ho", desc:"Team Miles"},
     {pt:"0", type:"pom", dt:"l+4.5yr", loc:"sol:ho", desc:"NEA-Scout"}
 ]},
-aditya:{name:"Aditya-L1", desc:"lv:PSLV XL", stat:"pl", 
-  parts: [
-    {names:"आदित्य", ctry:"ind", type:"obm", dest:"sol", id:"", icon:"aditya-l1.png", desc:"Solar Coronograph;ag:isro;m:400kg;sc:0.5", url:"hp:aditya.iiap.res.in/"}], 
-  events: [
-    {pt:"", dt:"2022-01", type:"l", loc:"ter:sri", desc:""},
-    {pt:"", dt:"l+100dy", type:"sco", loc:"sol:esl1", desc:"Halo Orbit"},
-    {pt:"", type:"nom", dt:"l+2yr", loc:"sol:esl1", desc:"?"},
-    {pt:"", type:"pom", dt:"l+10yr", loc:"sol:esl1", desc:"?"},
-]},
 luna25: {name:"Luna 25", desc:"lv:Soyuz 2.1B/Fregat-MT",
   parts:[
     {names:"Луна-Глоб посадочный;Luna Glob Lander:Lunar Sphere Lander", type:"slm", dest:"lun", stat:"pl", ctry:"ru", desc:"ag:rosc,iki;m:1725kg;m0:780kg;sc:0.45", id:"", url:"rsw:www.russianspaceweb.com/luna_glob.html", icon:"luna25.png"}], 
@@ -3171,22 +3162,13 @@ dart: {name:"DART:Double Asteroid Redirection Test", desc:"lv:Falcon 9",
     {names:"", type:"im", dest:"ast", stat:"pl", ctry:"us", desc:"ag:nasa,apl;fam:AIDA;dim:12.5x2.4x2m;m:640kg;sc:0.7", id:"", url:"hp:dart.jhuapl.edu/;nasa:www.nasa.gov/planetarydefense/dart", icon:"dart.png"},
     {names:"LICIACube:Light Italian Cubesat for Imaging of Asteroids", type:"fbm", dest:"ast", stat:"pl", ctry:"it", desc:"ag:asi,Argotec;sc:0.4", id:"", url:"LICIACube:www.argotec.it/online/what-we-do/small-satellite-unit/#tab-4", icon:"licia.png"}
   ], events:[
-    {pt:"", type:"l", dt:"2021-07", loc:"ter:van:SLC-4E", desc:""},
-    {pt:"", type:"oi", dt:"2021-07", loc:"sol:ho", desc:""},
+    {pt:"", type:"l", dt:"2021-07-22", loc:"ter:van:SLC-4E", desc:""},
+    {pt:"", type:"oi", dt:"2021-07-22", loc:"sol:ho", desc:""},
     {pt:"", type:"fb", dt:"2022-03", loc:"ast", desc:"ast:2001 CB21;?"},
     {pt:"", type:"fb", dt:"2022-09", loc:"ast", desc:"ast:didy"},
     {pt:"0", type:"imp", dt:"2022-09-30", loc:"ast", desc:"ip;ast:Dimorphos"},
     {pt:"1", type:"fb", dt:"2022-09", loc:"ast", desc:"fbp:LICIACube"},
     {pt:"", type:"nom", dt:"2022-09", loc:"ast", desc:"eom"}
-]},
-slim:{name:"SLIM:Smart Lander for Investigating Moon", desc:"lv:H-IIA 202", stat:"pl", 
-  parts: [
-    {names:"スリム;SPRINT-C", ctry:"jp", type:"slm", dest:"lun", id:"", icon:"slim.png", desc:"ag:jaxa;m:590kg;m0:120kg;dim:1.5x1.5x2m;sc:0.3", url:"hp:www.isas.jaxa.jp/home/slim/SLIM/index.html;isas:www.isas.jaxa.jp/en/missions/spacecraft/developing/slim.html;tw:twitter.com/SLIM_JAXA"}], 
-  events: [
-    {pt:"", dt:"2022-01", type:"l", loc:"ter:uch", desc:""},
-    {pt:"", dt:"l+4dy", type:"oi", loc:"lun", desc:""},
-    {pt:"", type:"td", dt:"l+1mo", loc:"lun:13.3S,25.2E", desc:"Mare Nectaris"},
-    {pt:"", type:"nom", dt:"l+1.1mo", loc:"lun", desc:"?"}
 ]},
 //CubeRover
 peregrine: {name:"Peregrine 1", desc:"lv:Vulcan Centaur-522",
@@ -3207,6 +3189,15 @@ novac: {name:"NOVA-C", desc:"lv:Falcon 9",
     {pt:"", type:"nom", dt:"l+20dy", loc:"lun", desc:""}
 ]},
 // --- 2022
+aditya:{name:"Aditya-L1", desc:"lv:PSLV XL", stat:"pl", 
+  parts: [
+    {names:"आदित्य", ctry:"ind", type:"obm", dest:"sol", id:"", icon:"aditya-l1.png", desc:"Solar Coronograph;ag:isro;m:400kg;sc:0.5", url:"hp:aditya.iiap.res.in/"}], 
+  events: [
+    {pt:"", dt:"2022-01", type:"l", loc:"ter:sri", desc:""},
+    {pt:"", dt:"l+100dy", type:"sco", loc:"sol:esl1", desc:"Halo Orbit"},
+    {pt:"", type:"nom", dt:"l+2yr", loc:"sol:esl1", desc:"?"},
+    {pt:"", type:"pom", dt:"l+10yr", loc:"sol:esl1", desc:"?"},
+]},
 kplo: {name:"KPLO:Korean Pathfinder Lunar Orbiter", desc:"lv:Falcon 9",
   parts:[
     {names:"", type:"om", dest:"lun", stat:"pl", ctry:"sk", desc:"ag:kari;fam:klep;sc:0.6;m:678kg;m0:;dim:", id:"", url:"hp:www.kari.re.kr/eng/sub03_04.do", icon:"kplo.png"}
@@ -3216,6 +3207,15 @@ kplo: {name:"KPLO:Korean Pathfinder Lunar Orbiter", desc:"lv:Falcon 9",
     {pt:"", type:"toi", dt:"2022-07", loc:"ter:heeo", desc:"Phasing Loop Transfer"},
     {pt:"", type:"oi", dt:"l+1mo", loc:"lun:100kmx90deg", desc:""},
     {pt:"", type:"nom", dt:"l+1yr", loc:"lun", desc:"?"}
+]},
+slim:{name:"SLIM:Smart Lander for Investigating Moon", desc:"lv:H-IIA 202", stat:"pl", 
+  parts: [
+    {names:"スリム;SPRINT-C", ctry:"jp", type:"slm", dest:"lun", id:"", icon:"slim.png", desc:"ag:jaxa;m:590kg;m0:120kg;dim:1.5x1.5x2m;sc:0.3", url:"hp:www.isas.jaxa.jp/home/slim/SLIM/index.html;isas:www.isas.jaxa.jp/en/missions/spacecraft/developing/slim.html;tw:twitter.com/SLIM_JAXA"}], 
+  events: [
+    {pt:"", dt:"2022-01", type:"l", loc:"ter:uch", desc:""},
+    {pt:"", dt:"l+4dy", type:"oi", loc:"lun", desc:""},
+    {pt:"", type:"td", dt:"l+1mo", loc:"lun:13.3S,25.2E", desc:"Mare Nectaris"},
+    {pt:"", type:"nom", dt:"l+1.1mo", loc:"lun", desc:"?"}
 ]},
 exomarsrv: {name:"ExoMars 2022", desc:"lv:Proton-M/Briz-M;m:2900kg",
   parts:[
@@ -3370,8 +3370,8 @@ em2: {name:"Artemis-2", desc:"lv:SLS 1", stat:"pl",
   parts:[
     {names:"EM-2:Exploration Mission 2", type:"hm", dest:"lun", ctry:"us;eu", desc:"ag:nasa,jsc,esa;m:21250kg;sc:0.6", id:"", url:"hp:www.nasa.gov/exploration/home/index.html;esa:www.esa.int/Our_Activities/Human_Spaceflight/Orion/Exploration_Mission_2", icon:"orion.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2023-06", loc:"ter:ksc:LC-39B", desc:""},
-    {pt:"", type:"toi", dt:"2023-06", loc:"ter", desc:"lto"},
+    {pt:"", type:"l", dt:"2023-08", loc:"ter:ksc:LC-39B", desc:""},
+    {pt:"", type:"toi", dt:"2023-08", loc:"ter", desc:"lto"},
     {pt:"0", type:"fb", dt:"l+4dy", loc:"lun", desc:"Free return trajectory"},
     {pt:"0", type:"edl", dt:"l+9dy", loc:"ter", desc:"eom"}
 ]},

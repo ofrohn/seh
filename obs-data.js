@@ -1007,6 +1007,16 @@ euve:{name:"EUVE", url:"hp:www.ssl.berkeley.edu/euve/", desc:"ag:nasa;lv:Delta I
   ], inst: [
     {n:"3 Grazing Incidence Telescopes", tp:"is", band:"7..76nm", res:"360", sres:"", ea:"", sens:"", fov:"", desc:"c:;cl:;"}
 ]},
+euvst:{name:"EUVST:EUV High-throughput Spectroscopic Telescope", url:"hp:solar-c.nao.ac.jp/en/", desc:"ag:jaxa;lv:Epsilon;m:500kg;x:0;y:5", stat:"pl", 
+  parts: [
+    {n:"Solar-C", ctry:"jp", type:"euv", pur:"sol", id:"", icon:"euvst.png"}
+  ], ev: [
+    {pt:"", dt:"2026", tp:"l", loc:"ter:uch", desc:""},
+    {pt:"", dt:"2026", tp:"sco", loc:"ter:sseo:600kmx94deg", desc:""},
+    {pt:"", dt:"2028", tp:"tos", loc:"", desc:"eom"}
+  ], inst: [
+    {n:"", tp:"is", band:"14..285nm", d:"0.28", sres:"10000..5000", ea:"", res:"0.4", tres:"1s", foc:"2.8", fov:"300x300''", desc:"c:nl;cl:nly"}
+]},
 exosat:{name:"Exosat", url:"hp:www.cosmos.esa.int/web/exosat/;esa:sci.esa.int/exosat", desc:"ag:esa;lv:Delta 3914", stat:"s", 
   parts: [
     {n:"", ctry:"eu", type:"x", pur:"", id:"1983-051A", icon:""}
@@ -1023,8 +1033,8 @@ extp:{name:"eXTP:enhanced X-ray Timing and Polarization", url:"hp:www.isdc.unige
   parts: [
     {n:"", ctry:"cn;eu", type:"x", pur:"", id:"", icon:"extp.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2025", tp:"l", loc:"ter:wen", desc:""},
-    {pt:"", dt:"2025", tp:"sco", loc:"ter:leo:550km", desc:""}
+    {pt:"", dt:"2027", tp:"l", loc:"ter:wen", desc:""},
+    {pt:"", dt:"2027", tp:"sco", loc:"ter:leo:550km", desc:""}
   ], inst: [
     {n:"SFA:Spectroscopic Focusing Array", band:"0.5..20keV", res:"60", sres:"3%@6keV", ea:"0.9m2@1keV", fov:"12'", url:"", desc:"c:nl;cl:nly;"},
     {n:"PFA:Polarimetry Focusing Array", band:"2..10keV", res:"30", sres:"18%@6keV", ea:"0.9m2@2keV", fov:"12'", url:"", desc:"c:nl;cl:ny;"},
@@ -1912,7 +1922,7 @@ suzaku:{name:"Suzaku", url:"hp:www.astro.isas.ac.jp/suzaku/", desc:"ag:jaxa;lv:M
     {n:"XIS", band:"4.84E+16..2.90E+18", res:"108", desc:"c:nl;cl:nl;"},
     {n:"HXD", band:"2.42E+18..1.45E+20", res:"16200..1800", desc:"c:nl;"}
 ]},
-svom:{name:"SVOM:Space-based multi-band astronomical Variable Objects Monitor", url:"hp:www.svom.fr/en;cnes:smsc.cnes.fr/SVOM/index.htm;tw:twitter.com/SVOM_mission", desc:"ag:cnsa,cnes;lv:CZ-2D;y:20;x:10;m:950kg", stat:"pl", 
+svom:{name:"SVOM:Space-based multi-band astronomical Variable Objects Monitor", url:"hp:www.svom.fr/en;cnes:smsc.cnes.fr/SVOM/index.htm;tw:twitter.com/SVOM_mission", desc:"ag:cnsa,cnes;lv:CZ-2D;y:10;x:-30;m:950kg", stat:"pl", 
   parts: [
     {n:"", ctry:"cn;fr", type:"gam;x;opt", pur:"mon", id:"", icon:"svom.png", desc:""}
   ], ev: [
@@ -1921,8 +1931,8 @@ svom:{name:"SVOM:Space-based multi-band astronomical Variable Objects Monitor", 
     {pt:"", dt:"2025", tp:"nom", loc:"", desc:""},
     {pt:"", dt:"2026", tp:"pom", loc:"", desc:""}
   ], inst: [
-    {n:"GRM:Gamma-Ray Monitor", band:"50..5000keV", res:"", ea:"0.056", url:"", desc:"c:nr;cl:nl;"},
-    {n:"MXT:Microchannel X-ray Telescope", band:"0.3..7keV", res:"120", fov:"57'", ea:"0.005@1keV", url:"", desc:"c:nr;cl:ny;"},
+    {n:"GRM:Gamma-Ray Monitor", tp:"sp", band:"50..5000keV", res:"", ea:"0.056", url:"", desc:"c:nr;cl:nl;"},
+    {n:"MXT:Microchannel X-ray Telescope", band:"0.3..7keV", res:"120", fov:"57'", ea:"0.005@1keV", url:"", desc:"c:nly;cl:nl;"},
     {n:"ECLAIRs", band:"4..250keV", res:"600", fov:"80x80deg", ea:"0.1024", url:"", desc:"c:nt;"},
     {n:"VT:Visible Telescope", band:"400..950nm", res:"", d:0.45, px:0.77, fov:"21x21'", url:"", desc:"c:nt;"}
 ]},
@@ -2057,9 +2067,10 @@ wfirst:{name:"RST:Nancy Grace Roman Space Telescope", url:"hp:roman.gsfc.nasa.go
   ], ev: [
     {pt:"", dt:"2026", tp:"l", loc:"ter", desc:""},
     {pt:"", dt:"2026", tp:"sco", loc:"ter:esl2", desc:"or GEO"},
-    {pt:"", dt:"2032", tp:"nom", loc:"", desc:""}
+    {pt:"", dt:"2031", tp:"nom", loc:"", desc:""},
+    {pt:"", dt:"2036", tp:"pom", loc:"", desc:""},
   ], inst: [
-    {n:"WFI:Wide Field Instrument", band:"480..2000nm", res:"", d:"2.4", px:"0.11", fov:"0.281deg2", desc:"c:nvt;cl:nl"},
+    {n:"WFI:Wide Field Instrument", band:"480..2000nm", res:"", d:"2.4", px:"0.11", sres:"2.2..6", ea:"3m2@1.5um", fov:"0.8x0.4deg", desc:"c:nvt;cl:nl"},
     {n:"CGI:Coronograph Instrument", band:"550..900nm", res:"", d:"2.4", px:"0.021", fov:"9x9''", desc:""}
 ]},
 wmap:{name:"WMAP:Wilkinson Microwave Anisotropy Probe", url:"hp:map.gsfc.nasa.gov/", desc:"ag:nasa;m:2900kg;lv:Delta II 7425-10", stat:"s", 
