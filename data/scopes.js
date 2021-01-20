@@ -104,16 +104,17 @@ asca:{name:"ASCA:Advanced Satellite for Cosmology and Astrophysics", url:"hp:www
     {pt:"", dt:"", tp:"sco", loc:"ter:leo:525x615kmx31deg", desc:""},
     {pt:"", dt:"2000-07-14", tp:"los", loc:"", desc:"eom"}
 ]},
-asos:{name:"ASO-S:Advanced Space-based Solar Observatory", url:"", desc:"ag:cnsa;m:600kg;lv:CZ-2D", stat:"pl", 
+asos:{name:"ASO-S:Advanced Space-based Solar Observatory", url:"", desc:"ag:cnsa;m:888kg;lv:CZ-2D", stat:"pl", 
   parts: [
     {n:"", ctry:"cn", type:"x", pur:"sol;w", id:"", icon:"asps.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2021", tp:"l", loc:"ter:xch", desc:""},
-    {pt:"", dt:"2021", tp:"sco", loc:"ter:sseo:620kmx98.2deg", desc:""}
+    {pt:"", dt:"2022", tp:"l", loc:"ter:jiu", desc:""},
+    {pt:"", dt:"2022", tp:"sco", loc:"ter:sseo:720kmx98.2deg", desc:""},
+    {pt:"", dt:"2006", tp:"nom", loc:"", desc:"?"}
   ], inst: [
-    {n:"FMG:Full-disk Magnetograph", tp:"is", band:"532nm", res:"0.5", tres:"120", sens:"", fov:"33´", desc:"c:;cl:;"},
-    {n:"LST:Lyman-alpha Solar Telescope", tp:"is", band:"121.6nm", res:"4.6", tres:"1..10s", fov:"2.5rsol", foc:"", sens:"", desc:"c:;cl:;"},
-    {n:"HXI:Hard X-ray Imager", tp:"is", band:"30..300keV", res:"6", sres:"3%@662keV", tres:"0.5", ea:"100cm2", fov:"1deg", foc:"", sens:"", desc:"c:;cl:;"}
+    {n:"FMG:Full-disk Magnetograph", tp:"is", band:"532nm", res:"0.5", tres:"120", sens:"", fov:"33´", desc:"c:;cl:nl;"},
+    {n:"LST:Lyman-alpha Solar Telescope", tp:"is", band:"121.6nm", res:"4.6", tres:"1..10s", fov:"2.5rsol", foc:"", sens:"", desc:"c:;cl:nl;"},
+    {n:"HXI:Hard X-ray Imager", tp:"is", band:"30..300keV", res:"6", sres:"3%@662keV", tres:"0.5", ea:"100cm2", fov:"1deg", foc:"", sens:"", desc:"c:;cl:nl;"}
 ]},
 astro1:{name:"ASTRO-1", url:"hp:nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=ASTRO-1;MAST:archive.stsci.edu/astro/", desc:"ag:nasa;lv:STS-35 Columbia", stat:"s", 
   parts: [
@@ -352,7 +353,7 @@ euvst:{name:"EUVST:EUV High-throughput Spectroscopic Telescope", url:"hp:solar-c
     {n:"Solar-C", ctry:"jp", type:"euv", pur:"sol", id:"", icon:"euvst.png"}
   ], ev: [
     {pt:"", dt:"2026", tp:"l", loc:"ter:uch", desc:""},
-    {pt:"", dt:"2026", tp:"sco", loc:"ter:sseo:600kmx94deg", desc:""},
+    {pt:"", dt:"2026", tp:"sco", loc:"ter:sseo:600kmx98deg", desc:""},
     {pt:"", dt:"2028", tp:"tos", loc:"", desc:"eom"}
   ], inst: [
     {n:"", tp:"is", band:"14..285nm", d:"0.28", sres:"10000..5000", ea:"", res:"0.4", tres:"1s", foc:"2.8", fov:"300x300''", desc:"c:nl;cl:nly"}
