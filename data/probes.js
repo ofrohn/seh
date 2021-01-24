@@ -3448,9 +3448,17 @@ swfol1: {name:"SWFO-L1:Space Weather Follow-On L1", desc:"Falcon 9",
   parts:[
     {names:"", type:"obm", dest:"sol", stat:"pl", ctry:"us", desc:"ag:nasa,noaa;m:400kg;sc:0.75;Heliophysics Observatory", id:"", url:"hp:swww.nesdis.noaa.gov/OPPA/swfo-L1.php", icon:"swfo-l1.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2024", loc:"ter:cap:LC-36B", desc:"IMAP piggyback"},
-    {pt:"", type:"sco", dt:"2024", loc:"sol:esl1", desc:"Halo Orbit"},
-    {pt:"", type:"pom", dt:"2034", loc:"esl1", desc:""}    
+    {pt:"", type:"l", dt:"2025-02", loc:"ter:cap:LC-36B", desc:"IMAP piggyback"},
+    {pt:"", type:"sco", dt:"2025-07", loc:"sol:esl1", desc:"Halo Orbit"},
+    {pt:"", type:"pom", dt:"2035", loc:"esl1", desc:""}    
+]},
+solarcruiser: {name:"Solar Cruiser", desc:"Falcon 9",
+  parts:[
+    {names:"", type:"test", dest:"sol", stat:"pl", ctry:"us", desc:"ag:nasa;dim:40x40m;fam:stp;sc:0.75;Solar Sail", id:"", url:"hp:www.nasa.gov/mission_pages/sunearth/index.html", icon:"solarcruiser.png"}], 
+  events:[
+    {pt:"", type:"l", dt:"2025-02", loc:"ter:cap:LC-36B", desc:"IMAP piggyback"},
+    {pt:"", type:"sco", dt:"2025-07", loc:"sol:esl1", desc:"Halo Orbit"},
+    {pt:"", type:"pom", dt:"2035", loc:"esl1", desc:""}    
 ]},
 lunartrailblazer: {name:"Lunar Trailblazer", desc:"lv:Falcon 9",
   parts:[
@@ -3572,7 +3580,7 @@ srl: {name:"SRL:Sample Retrieval Lander", desc:"",
 ]},
 ero: {name:"ERO:Earth Return Orbiter", desc:"",
   parts:[
-    {names:"", type:"om", dest:"mar", stat:"pl", ctry:"eu", desc:"ag:esa;m:6000kg;sc:1", id:"", url:"hp:esa:www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Exploration/Mars_sample_return", icon:"ero.png"},
+    {names:"", type:"om", dest:"mar", stat:"pl", ctry:"eu", desc:"ag:esa;m:6000kg;sc:1.2", id:"", url:"hp:esa:www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Exploration/Mars_sample_return", icon:"ero.png"},
     {names:"{EEV:Earth Entry Vehicle}", type:"srm", dest:"ter", stat:"pl", ctry:"us", desc:"ag:nasa", icon:""}],
   events:[
     {pt:"", type:"l", dt:"2026-09", loc:"ter:kou", desc:""},

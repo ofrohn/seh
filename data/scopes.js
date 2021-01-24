@@ -625,8 +625,8 @@ imap:{name:"IMAP:Interstellar Mapping and Acceleration Probe", url:"hp:imap.prin
   parts: [
     {n:"", ctry:"us", type:"par", pur:"", id:"", icon:"imap.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2024", tp:"l", loc:"ter", desc:""},
-    {pt:"", dt:"2024", tp:"sco", loc:"sol:ho:esl1", desc:""}
+    {pt:"", dt:"2025-02", tp:"l", loc:"ter", desc:""},
+    {pt:"", dt:"2025-07", tp:"sco", loc:"sol:ho:esl1", desc:""}
   ], inst: [
     {n:"IMAP-Lo", band:"10..1000eV", tp:"par", res:"9deg", fov:"9x9deg", url:"", desc:"ISN/ENA:Interstellar/Energetic Neutral Atoms;c:;"},
     {n:"IMAP-Hi", band:"0.4..15.6keV", tp:"par", mres:"4", fov:"4deg", eres:"0.45", url:"", desc:"ENA:Energetic Neutral Atoms;c:;"},
@@ -1291,8 +1291,8 @@ swfol1:{name:"SWFO-L1:Space Weather Follow-On-L1", url:"hp:www.nesdis.noaa.gov/O
   parts: [
     {n:"", ctry:"us", type:"sol", pur:"", id:"", icon:"swfo-l1.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2024", tp:"l", loc:"ter", desc:"IMAP secondary"},
-    {pt:"", dt:"2024", tp:"sco", loc:"sol:ho:esl1", desc:""}
+    {pt:"", dt:"2025-02", tp:"l", loc:"ter", desc:"IMAP secondary"},
+    {pt:"", dt:"2025-07", tp:"sco", loc:"sol:ho:esl1", desc:""}
   ], inst: [
     {n:"CCOR:Compact Coronagraph ", band:"", tp:"cor", res:"50", fov:"3-22Rsun", url:"", desc:";c:;"},
     {n:"MAG:Magnetometer", band:"", tp:"mag", sres:"", url:"", desc:"c:;"},
