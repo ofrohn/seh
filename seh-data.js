@@ -3465,7 +3465,8 @@ osirisrex: {name:"OSIRIS-REx:Origins-Spectral Interpretation-Resource Identifica
     {pt:"", type:"app", dt:"2020-04-14", loc:"ast:75m", desc:"Sample acquisition rehearsal 1"},
     {pt:"", type:"app", dt:"2020-06", loc:"ast", desc:"Sample acquisition rehearsal 2"},
     {pt:"", type:"sc", dt:"2020-10-20", loc:"ast", desc:"Nightingale crater"},
-    {pt:"", type:"dep", dt:"2021-03-03", loc:"ast", desc:""},
+    {pt:"", type:"fb", dt:"2021-04", loc:"ast", desc:"Close flyby"},
+    {pt:"", type:"dep", dt:"2021-05-10", loc:"ast", desc:"Begin Earth Return Cruise"},
     {pt:"", type:"edl", dt:"2023-09-24", loc:"ter", desc:"src;UTTR, Utah;eom:srm"}
     // Apophis oi 2029-04-21
 ]}, 
@@ -4199,7 +4200,7 @@ luna27: {name:"Luna 27", desc:"lv:Soyuz 2.1B/Fregat-MT",
     {pt:"", type:"nom", dt:"l+1yr", loc:"lun", desc:"?"}
 ]},
 // --- 2026
-dragonfly: {name:"Dragonfly", desc:"lv:Atlas V 411", stat:"pl", 
+dragonfly: {name:"Dragonfly", desc:"lv:Vulcan Centaur", stat:"pl", 
   parts:[
     {names:"", type:"dm", dest:"sat:Titan", ctry:"us", desc:"ag:nasa,apl;fam:New Frontiers;m:450kg;sc:0.4", id:"", url:"hp:dragonfly.jhuapl.edu", icon:"dragonfly.png"}],
   events:[
