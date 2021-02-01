@@ -1312,7 +1312,7 @@ swift:{name:"Swift", url:"hp:swift.gsfc.nasa.gov/;asi:swift.asdc.asi.it/;psu:www
 ]},
 swimsat:{name:"SWIMSat:Space Weather and Impact Monitoring Satellite", url:"ASU:meteorites.asu.edu/news/swimsat", desc:"ag:usaf,asu;lv:;x:0;y:0", stat:"pl", 
   parts: [
-    {n:"", ctry:"us", type:"", pur:"sol;neo", id:"", icon:"", desc:""}
+    {n:"", ctry:"us", type:"", pur:"sol;neo", id:"", icon:"swimsat.png", desc:""}
   ], ev: [
     {pt:"", dt:"2021", tp:"l", loc:"ter", desc:""},
     {pt:"", dt:"2021", tp:"sco", loc:"ter:leo", desc:""},
