@@ -5192,7 +5192,7 @@ tita:
   {name:"Titan", other:"", desig:"VI", type:"m", par:"sat", disc:"C. Huygens", dyr:"1655",
    a:"1221865km", e:"0.0288", i:"0.306", per:"15.95d", rot:"S", gr:"Outer Large",
    h:"-1.2", mass:"2.366e-4", dia:"5149.53km/0.000275", rad:"2574.77/0.000275", tilt:"0.629",
-   alb:"0.22", grav:"0.14", comp:"Ice+Rock+core:83", dens:"1.88", atm:"N2:95+CH4:4.9", atp:"1.47", temp:"~94K",
+   alb:"0.22", grav:"0.135", comp:"Ice+Rock+core:83", dens:"1.88", atm:"N2:95+CH4:4.9+H2:0.1", atp:"1.47", temp:"~94K",
    img:"titan.png", desc:"sc:2.7;url:solarsystem.nasa.gov/moons/saturn-moons/titan/in-depth/;orb:lp.2000-01-01"},
 hype:
   {name:"Hyperion", other:"", desig:"VII", type:"m", par:"sat", disc:"W.C.&G.P. Bond/W. Lassell", dyr:"1848",
