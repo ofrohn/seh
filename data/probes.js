@@ -3305,7 +3305,7 @@ xl1: {name:"XL-1", desc:"lv:Falcon 9",
     {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:"Near South pole"},
     {pt:"", type:"nom", dt:"l+12dy", loc:"lun", desc:""}
 ]},
-prime1: {name:"Prime-1", desc:"lv:TBA",
+prime1: {name:"PRIME-1:Polar Resources Ice Mining Experiment", desc:"lv:Falcon 9",
   parts:[
     {names:"NOVA-C Lander", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Intuitive Machines;fam:clps;m:1700kg;sc:0.3", id:"", url:"hp:intuitivemachines.com/lunarlander;clps:nasa.gov/content/commercial-lunar-payload-services", icon:"novac.png"}], 
   events:[
@@ -3332,6 +3332,14 @@ viper: {name:"VIPER:Volatiles Investigating Polar Exploration Rover", desc:"lv:T
     {pt:"", type:"td", dt:"l+10d", loc:"lun", desc:""},
     {pt:"", type:"sep", dt:"l+10d", loc:"lun", desc:"slp/rvp"},
     {pt:"", type:"nom", dt:"l+100d", loc:"lun", desc:""}
+]},
+blueghost: {name:"Blue Ghost", desc:"lv:TBA",
+  parts:[
+    {names:"Blue Ghost", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Firefly;fam:clps;m:600kg;sc:0.3", id:"", url:"hp:firefly.com/lunar-lander/;clps:nasa.gov/content/commercial-lunar-payload-services", icon:"blueghost.png"}], 
+  events:[
+    {pt:"", type:"l", dt:"2023", loc:"ter:cap", desc:""},
+    {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:"Mare Crisium"},
+    {pt:"", type:"nom", dt:"l+20dy", loc:"lun", desc:""}
 ]},
 lupex: {name:"LUPEX:Lunar Polar Exploration", desc:"lv:H-III",
   parts:[
@@ -3381,9 +3389,9 @@ halo_ppe: {name:"Gateway", desc:"lv:Falcon Heavy",
     {names:"PPE:Power and Propulsion Element", type:"om", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Maxar;m:9000kg;sc:1.0", id:"", url:"hp:www.nasa.gov/gateway", icon:"gateway1.png"},
     {names:"HALO:Habitation and Logistics Outpost", type:"om", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,NGIS;sc:1", id:"", url:"", icon:""}], 
   events:[
-    {pt:"", type:"l", dt:"2023-11", loc:"ter", desc:""},
+    {pt:"", type:"l", dt:"2023-11", loc:"ter:ksc", desc:""},
     {pt:"", type:"oi", dt:"l+4m", loc:"lun:nrho", desc:""},
-    {pt:"", type:"nom", dt:"2030s", loc:"lun", desc:""}
+    {pt:"", type:"nom", dt:"2039", loc:"lun", desc:""}
 ]},
 hakutor: {name:"Hakuto-R", desc:"lv:Falcon 9",
   parts:[
@@ -3465,9 +3473,9 @@ lunartrailblazer: {name:"Lunar Trailblazer", desc:"lv:Falcon 9",
   parts:[
     {names:"", type:"om", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,jpl,Caltech;sc:0.5", id:"", url:"hp:trailblazer.caltech.edu", icon:"lunar-trailblazer.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2024", loc:"ter", desc:""},
+    {pt:"", type:"l", dt:"2025-02", loc:"ter", desc:""},
     {pt:"", type:"oi", dt:"l+4m", loc:"lun:100km", desc:"Polar orbit"},
-    {pt:"", type:"nom", dt:"2025", loc:"lun", desc:""}
+    {pt:"", type:"nom", dt:"2026", loc:"lun", desc:""}
 ]},
 em3: {name:"Artemis-3", desc:"lv:SLS 1B", stat:"pl", 
   parts:[

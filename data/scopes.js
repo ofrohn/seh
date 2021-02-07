@@ -626,7 +626,8 @@ imap:{name:"IMAP:Interstellar Mapping and Acceleration Probe", url:"hp:imap.prin
     {n:"", ctry:"us", type:"par", pur:"", id:"", icon:"imap.png", desc:""}
   ], ev: [
     {pt:"", dt:"2025-02", tp:"l", loc:"ter", desc:""},
-    {pt:"", dt:"2025-07", tp:"sco", loc:"sol:ho:esl1", desc:""}
+    {pt:"", dt:"2025-07", tp:"sco", loc:"sol:ho:esl1", desc:""},
+    {pt:"", dt:"2028-07", tp:"nom", loc:"sol:ho:esl1", desc:""}
   ], inst: [
     {n:"IMAP-Lo", band:"10..1000eV", tp:"par", res:"9deg", fov:"9x9deg", url:"", desc:"ISN/ENA:Interstellar/Energetic Neutral Atoms;c:;"},
     {n:"IMAP-Hi", band:"0.4..15.6keV", tp:"par", mres:"4", fov:"4deg", eres:"0.45", url:"", desc:"ENA:Energetic Neutral Atoms;c:;"},
@@ -1162,7 +1163,7 @@ spherex:{name:"SPHEREx:Spectro-Photometer for the History of the Universe, Epoch
   ], ev: [
     {pt:"", dt:"2023", tp:"l", loc:"ter:cap", desc:""},
     {pt:"", dt:"2023", tp:"sco", loc:"", desc:""},
-    {pt:"", dt:"2025", tp:"nom", loc:"", desc:""}
+    {pt:"", dt:"2028", tp:"nom", loc:"", desc:""}
 ], inst: [
     {n:"", tp:"is", band:"0.75..5um", sres:"41..130", d:"0.2", px:"6.2", sens:"", fov:"3.5x11.3deg", desc:"c:;cl:n;"}
 ]}, 
