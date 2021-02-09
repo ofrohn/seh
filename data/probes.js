@@ -2994,7 +2994,7 @@ mgrso: {name:"Tianwen-1:Skyquest-1", desc:"lv:CZ-5",
     {pt:"", type:"l", dt:"2020-07-23", loc:"ter:wen:LC-101", desc:""},
     {pt:"", type:"toi", dt:"2020-07-23", loc:"sol:hto", desc:""},
     {pt:"", type:"oi", dt:"2021-02-10", loc:"mar:400x180000km", desc:"10 day polar orbit"},
-    {pt:"", type:"sco", dt:"2021-03", loc:"mar:265x57800kmx90deg", desc:"10 day polar orbit"},
+    {pt:"", type:"sco", dt:"2021-03", loc:"mar:265x57800kmx90deg", desc:"2 day polar orbit"},
     {pt:"1", type:"edl", dt:"2021-04-23", loc:"mar:24.748N,110.318E", desc:"lp;Utopia Planitia;show:Tianwen-1:NE"},
     {pt:"2", type:"nom", dt:"l+13mo", loc:"mar", desc:"rvp;eom:slm;eom:rvm"},
     {pt:"0", type:"sco", dt:"l+13mo", loc:"mar:500x100000kmx85deg", desc:""},
@@ -3054,7 +3054,7 @@ capstone: {name:"CAPSTONE:Cislunar Autonomous Positioning System Technology Oper
 ]},
 em1: {name:"Artemis-1", desc:"lv:SLS 1", stat:"pl", 
   parts:[
-    {names:"EM-1:Exploration Mission 1;Orion MPCV Test Flight:Multi-Purpose Crew Vehicle", type:"fbm", dest:"lun",ctry:"us;eu", desc:"ag:nasa,jsc,esa;m:21250kg;sc:0.6", id:"", url:"hp:www.nasa.gov/exploration/home/index.html;esa:www.esa.int/Our_Activities/Human_Spaceflight/Orion/Exploration_Mission_1", icon:"orion.png"},
+    {names:"EM-1:Exploration Mission 1;Orion MPCV Test Flight:Multi-Purpose Crew Vehicle", type:"fbm", dest:"lun",ctry:"us;eu", desc:"ag:nasa,jsc,esa;m:21250kg;sc:0.6", id:"", url:"hp:www.nasa.gov/artemisprogram;esa:www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Orion/Artemis_1;tw:twitter.com/NASAArtemis", icon:"orion.png"},
     {type:"erm", dest:"ter"}], 
   events:[
     {pt:"", type:"l", dt:"2021-11", loc:"ter:ksc:LC-39B", desc:""},
@@ -3377,7 +3377,7 @@ europaclipper: {name:"Europa Clipper", desc:"lv:SLS 1",
 ]},
 em2: {name:"Artemis-2", desc:"lv:SLS 1", stat:"pl", 
   parts:[
-    {names:"EM-2:Exploration Mission 2", type:"hm", dest:"lun", ctry:"us;eu", desc:"ag:nasa,jsc,esa;m:21250kg;sc:0.6", id:"", url:"hp:www.nasa.gov/exploration/home/index.html;esa:www.esa.int/Our_Activities/Human_Spaceflight/Orion/Exploration_Mission_2", icon:"orion.png"}], 
+    {names:"EM-2:Exploration Mission 2", type:"hm", dest:"lun", ctry:"us;eu", desc:"ag:nasa,jsc,esa;m:21250kg;sc:0.6", id:"", url:"hp:www.nasa.gov/artemisprogram;esa:www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Orion/Artemis_2;tw:twitter.com/NASAArtemis", icon:"orion.png"}], 
   events:[
     {pt:"", type:"l", dt:"2023-08", loc:"ter:ksc:LC-39B", desc:""},
     {pt:"", type:"toi", dt:"2023-08", loc:"ter", desc:"lto"},
@@ -3479,7 +3479,7 @@ lunartrailblazer: {name:"Lunar Trailblazer", desc:"lv:Falcon 9",
 ]},
 em3: {name:"Artemis-3", desc:"lv:SLS 1B", stat:"pl", 
   parts:[
-    {names:"EM-3:Exploration Mission 3", type:"hm", dest:"lun", ctry:"us;eu", desc:"ag:nasa,jsc,esa;m:21250kg;sc:0.6;ESPRIT Module", id:"", url:"hp:www.nasa.gov/exploration/home/index.html;esa:www.esa.int/Our_Activities/Human_Spaceflight/Orion", icon:"orion.png"}],
+    {names:"EM-3:Exploration Mission 3", type:"hm", dest:"lun", ctry:"us;eu", desc:"ag:nasa,jsc,esa;m:21250kg;sc:0.6;ESPRIT Module", id:"", url:"hp:www.nasa.gov/artemisprogram;esa:www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Orion/Artemis_3;tw:twitter.com/NASAArtemis", icon:"orion.png"}],
   events:[
     {pt:"", type:"l", dt:"2024", loc:"ter:ksc:LC-39B", desc:""},
     {pt:"", type:"td", dt:"l+4dy", loc:"lun", desc:"?"},
@@ -3600,7 +3600,7 @@ ero: {name:"ERO:Earth Return Orbiter", desc:"",
 ]},
 ihab: {name:"Gateway I-HAB:International Habitat" , desc:"",
   parts:[
-    {names:"", type:"om", dest:"lun", stat:"pl", ctry:"eu", desc:"ag:esa,Thales;sc:1.0", id:"", url:"hp:www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Exploration/Gateway;Thales:www.thalesgroup.com/en/worldwide/space/press-release/thales-alenia-space-its-way-reach-moon", icon:"gateway2.png"}], 
+    {names:"", type:"om", dest:"lun", stat:"pl", ctry:"eu", desc:"ag:esa,Thales;sc:0.5", id:"", url:"hp:www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Exploration/Gateway;Thales:www.thalesgroup.com/en/worldwide/space/press-release/thales-alenia-space-its-way-reach-moon", icon:"ihab.png"}], 
   events:[
     {pt:"", type:"l", dt:"2026", loc:"ter", desc:""},
     {pt:"", type:"oi", dt:"l+4m", loc:"lun:nrho", desc:""},
