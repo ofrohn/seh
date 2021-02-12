@@ -2993,16 +2993,16 @@ mgrso: {name:"Tianwen-1:Skyquest-1", desc:"lv:CZ-5",
   events:[
     {pt:"", type:"l", dt:"2020-07-23", loc:"ter:wen:LC-101", desc:""},
     {pt:"", type:"toi", dt:"2020-07-23", loc:"sol:hto", desc:""},
-    {pt:"", type:"oi", dt:"2021-02-10", loc:"mar:400x180000km", desc:"10 day polar orbit"},
-    {pt:"", type:"sco", dt:"2021-03", loc:"mar:265x57800kmx90deg", desc:"2 day polar orbit"},
-    {pt:"1", type:"edl", dt:"2021-04-23", loc:"mar:24.748N,110.318E", desc:"lp;Utopia Planitia;show:Tianwen-1:NE"},
-    {pt:"2", type:"nom", dt:"l+13mo", loc:"mar", desc:"rvp;eom:slm;eom:rvm"},
-    {pt:"0", type:"sco", dt:"l+13mo", loc:"mar:500x100000kmx85deg", desc:""},
+    {pt:"", type:"oi", dt:"2021-02-10", loc:"mar:400x180000kmx11.8deg", desc:"Capture orbit"},
+    {pt:"", type:"sco", dt:"2021-03", loc:"mar:265x60000kmx86.9deg", desc:"2 day polar reconnaissance orbit"},
+    {pt:"1", type:"edl", dt:"2021-05", loc:"mar:24.748N,110.318E", desc:"lp;Utopia Planitia;show:Tianwen-1:NE"},
+    {pt:"2", type:"nom", dt:"2021-08", loc:"mar", desc:"rvp;eom:slm;eom:rvm"},
+    {pt:"0", type:"sco", dt:"2021-08", loc:"mar:400x15000kmx86.9deg", desc:""},
     {pt:"0", type:"nom", dt:"2023", loc:"mar", desc:"op;?"}
 ]},
 emm: {name:"Al Amal:Hope", desc:"lv:H-IIA 202",
   parts:[
-    {names:"مسبار الأمل;EMM:Emirates Mars Mission", type:"om", dest:"mar", stat:"o", ctry:"ue", desc:"ag:uaesa;m:1500kg;m0:550kg;dim:7.9x3x3.5m;sc:0.5", id:"2020-047A", url:"hp:www.emiratesmarsmission.ae/;MBRSC:www.mbrsc.ae/emirates-mars-mission;tw:twitter.com/HopeMarsMission", icon:"emm.png"}], 
+    {names:"مسبار الأمل;EMM:Emirates Mars Mission", type:"om", dest:"mar", stat:"o", ctry:"ue", desc:"ag:uaesa;m:1350kg;m0:550kg;dim:7.9x3x3.5m;sc:0.5", id:"2020-047A", url:"hp:www.emiratesmarsmission.ae/;MBRSC:www.mbrsc.ae/emirates-mars-mission;tw:twitter.com/HopeMarsMission", icon:"emm-hope.png"}], 
   events:[
     {pt:"", type:"l", dt:"2020-07-19", loc:"ter:tng:YLP-1", desc:""},
     {pt:"", type:"toi", dt:"2020-07-24", loc:"sol:hto:1.02x1.63aux2.2deg", desc:""},
@@ -3365,13 +3365,15 @@ change7: {name:"Chang'e 7", desc:"lv:CZ-5",
     {pt:"0", type:"nom", dt:"l+1yr", loc:"lun", desc:"lp;?"},
     {pt:"1", type:"nom", dt:"l+2yr", loc:"lun", desc:"op;?"}
 ]},
-europaclipper: {name:"Europa Clipper", desc:"lv:SLS 1",
+europaclipper: {name:"Europa Clipper", desc:"lv:Falcon Heavy",
   parts:[
     {names:"EMFM:Europa Multi-Flyby Mission", type:"om", dest:"jup", stat:"pl", ctry:"us", desc:"ag:nasa,jpl,apl;m:6000kg;m0:2616kg;dim.26.9x3x6.3m;sc:1.0", id:"", url:"hp:europa.nasa.gov/;tw:twitter.com/NASAEuropa", icon:"europaclipper.png"}
   ], events:[
-    {pt:"", type:"l", dt:"2025", loc:"ter:ksc:LC-39B", desc:"or later"},
+    {pt:"", type:"l", dt:"2024-10", loc:"ter:ksc:LC-39A", desc:""},
     {pt:"", type:"toi", dt:"l+1dy", loc:"sol:hto", desc:""},
-    {pt:"", type:"oi", dt:"l+1.9yr", loc:"jup", desc:""}, //2024 (SLS)/2028 (Atlas V)
+    {pt:"", type:"fb", dt:"2025-02", loc:"mar", desc:"GA"},
+    {pt:"", type:"fb", dt:"2026-12", loc:"ter", desc:"GA"},
+    {pt:"", type:"oi", dt:"2030-04", loc:"jup", desc:""},
     {pt:"", type:"fb", dt:"", loc:"euro", desc:"45 Flybys planned"},
     {pt:"", type:"pom", dt:"l+10yr", loc:"jup", desc:"?"}
 ]},
@@ -3389,7 +3391,7 @@ halo_ppe: {name:"Gateway", desc:"lv:Falcon Heavy",
     {names:"PPE:Power and Propulsion Element", type:"om", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Maxar;m:9000kg;sc:1.0", id:"", url:"hp:www.nasa.gov/gateway", icon:"gateway1.png"},
     {names:"HALO:Habitation and Logistics Outpost", type:"om", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,NGIS;sc:1", id:"", url:"", icon:""}], 
   events:[
-    {pt:"", type:"l", dt:"2023-11", loc:"ter:ksc", desc:""},
+    {pt:"", type:"l", dt:"2024", loc:"ter:ksc:LC-39A", desc:""},
     {pt:"", type:"oi", dt:"l+4m", loc:"lun:nrho", desc:""},
     {pt:"", type:"nom", dt:"2039", loc:"lun", desc:""}
 ]},

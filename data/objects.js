@@ -1812,6 +1812,12 @@ ixi:
    h:"", mass:"", dia:"140km", rad:"70", tilt:"",
    alb:"", grav:"", comp:"", dens:"", temp:"",
    img:"", desc:"sc:3;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=2007+UK126;orb:eq.2000-01-01"},
+"2018ag37":
+  {name:"2018 AB37", other:"'FarFarOut'", desig:"", type:"t", par:"sol", disc:"Sheppard S. et al.", dyr:"2018",
+   a:"86au", e:"0.685", i:"18.71", per:"798a", rot:"", gr:"distant",
+   h:"4.2", mass:"", dia:"~400km", rad:"~200", tilt:"", alb:"", grav:"", 
+   comp:"", dens:"", atm:"", atp:"", temp:"",
+   img:"", col:"", desc:"sc:3;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=2018+AB37;orb:ec.2019-02-24"},
 //1994 JR1, 
 "2014mu69":
   {name:"Arrokoth", other:"2014 MU69", desig:"486958", type:"t", par:"sol", disc:"HST", dyr:"2014",
