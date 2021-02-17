@@ -1157,13 +1157,13 @@ solarorbiter:{name:"SolO:Solar Orbiter", url:"hp:www.esa.int/Our_activities/Spac
     {n:"SPICE:Spectral Imaging of the Coronal Environment", band:"48.5..105nm", tp:"is", res:"", d:"", px:"", url:"", desc:"c:;"},
     {n:"STIX:X-ray Spectrometer/Telescope", band:"4..150keV", tp:"is", res:"", fov:"1.5deg", url:"", desc:"cl:n;"}
 ]},
-spherex:{name:"SPHEREx:Spectro-Photometer for the History of the Universe, Epoch of Reionization, and Ices Explorer,", url:"hp:spherex.caltech.edu/;jpl:www.jpl.nasa.gov/missions/spherex/", desc:"ag:nasa,caltech;lv:;m:kg;fam:Explorer;sc:0.6;x:0;y:10", stat:"pl", 
+spherex:{name:"SPHEREx:Spectro-Photometer for the History of the Universe, Epoch of Reionization, and Ices Explorer,", url:"hp:spherex.caltech.edu/;jpl:www.jpl.nasa.gov/missions/spherex/", desc:"ag:nasa,caltech;lv:Falcon 9;m:kg;fam:Explorer;sc:0.6;x:0;y:10", stat:"pl", 
   parts: [
     {n:"Explorer", ctry:"us", type:"ir", pur:"sur", id:"", icon:"spherex.png"}
   ], ev: [
-    {pt:"", dt:"2023", tp:"l", loc:"ter:cap", desc:""},
-    {pt:"", dt:"2023", tp:"sco", loc:"", desc:""},
-    {pt:"", dt:"2028", tp:"nom", loc:"", desc:""}
+    {pt:"", dt:"2024-06", tp:"l", loc:"ter:van:SLC-4E", desc:""},
+    {pt:"", dt:"2024-06", tp:"sco", loc:"", desc:""},
+    {pt:"", dt:"2029", tp:"nom", loc:"", desc:""}
 ], inst: [
     {n:"", tp:"is", band:"0.75..5um", sres:"41..130", d:"0.2", px:"6.2", sens:"", fov:"3.5x11.3deg", desc:"c:;cl:n;"}
 ]}, 

@@ -1,6 +1,6 @@
 var SSEH = SSEH || {
   TITLE: "Solar System Exploration History",
-  VERSION: "1.6.29",
+  VERSION: "1.6.30",
   DATE: "2020-07 ",
   AUTHOR: "Olaf Frohn",
   CLICK: "Click on anything for more details",
@@ -6126,8 +6126,8 @@ ixi:
    alb:"", grav:"", comp:"", dens:"", temp:"",
    img:"", desc:"sc:3;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=2007+UK126;orb:eq.2000-01-01"},
 "2018ag37":
-  {name:"2018 AB37", other:"'FarFarOut'", desig:"", type:"t", par:"sol", disc:"Sheppard S. et al.", dyr:"2018",
-   a:"86au", e:"0.685", i:"18.71", per:"798a", rot:"", gr:"distant",
+  {name:"2018 AB37", other:"'FarFarOut'", desig:"", type:"t", par:"sol", disc:"S. Sheppard et al.", dyr:"2018",
+   a:"86au", e:"0.685", i:"18.71", per:"797.55a", rot:"", gr:"sdo",
    h:"4.2", mass:"", dia:"~400km", rad:"~200", tilt:"", alb:"", grav:"", 
    comp:"", dens:"", atm:"", atp:"", temp:"",
    img:"", col:"", desc:"sc:3;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=2018+AB37;orb:ec.2019-02-24"},

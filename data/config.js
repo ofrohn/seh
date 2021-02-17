@@ -1,6 +1,6 @@
 var SSEH = SSEH || {
   TITLE: "Solar System Exploration History",
-  VERSION: "1.6.29",
+  VERSION: "1.6.30",
   DATE: "2020-07 ",
   AUTHOR: "Olaf Frohn",
   CLICK: "Click on anything for more details",
