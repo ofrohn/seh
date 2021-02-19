@@ -3633,8 +3633,8 @@ mars2020rover: {name:"Mars 2020", desc:"lv:Atlas V 541",
     {names:"Ingenuity;MHS:Mars Helicopter Scout", type:"dm", dest:"mar", stat:"o", ctry:"us", desc:"ag:nasa,jpl;fam:MSR;m:1.8kg;dim:;sc:0.7;", id:"", url:"", icon:"ingenuity.png"}], 
   events:[
     {pt:"", type:"l", dt:"2020-07-30", loc:"ter:cap:SLC-41", desc:""},
-    {pt:"", type:"toi", dt:"l+1dy", loc:"sol:hto", desc:""},
-    {pt:"", type:"edl", dt:"2021-02-18", loc:"mar:18.5N,77.5E", desc:"Jezero Crater;show:Perseverance"},
+    {pt:"", type:"toi", dt:"2020-07-30", loc:"sol:hto", desc:""},
+    {pt:"", type:"edl", dt:"2021-02-18", loc:"mar:18.3347N,77.4508E", desc:"Jezero Crater;show:Perseverance"},
     {pt:"", type:"tos", dt:"2021-03", loc:"mar", desc:"eom:dm;Helicopter probe"},
     {pt:"", type:"nom", dt:"2023-01", loc:"mar", desc:"?"},
     {pt:"", type:"pom", dt:"l+10yr", loc:"mar", desc:"?"}
@@ -3817,13 +3817,13 @@ dart: {name:"DART:Double Asteroid Redirection Test", desc:"lv:Falcon 9",
     {names:"", type:"im", dest:"ast", stat:"pl", ctry:"us", desc:"ag:nasa,apl;fam:AIDA;dim:12.5x2.4x2m;m:640kg;sc:0.7", id:"", url:"hp:dart.jhuapl.edu/;nasa:www.nasa.gov/planetarydefense/dart", icon:"dart.png"},
     {names:"LICIACube:Light Italian Cubesat for Imaging of Asteroids", type:"fbm", dest:"ast", stat:"pl", ctry:"it", desc:"ag:asi,Argotec;sc:0.4", id:"", url:"LICIACube:www.argotec.it/online/what-we-do/small-satellite-unit/#tab-4", icon:"licia.png"}
   ], events:[
-    {pt:"", type:"l", dt:"2021-07-22", loc:"ter:van:SLC-4E", desc:""},
-    {pt:"", type:"oi", dt:"2021-07-22", loc:"sol:ho", desc:""},
-    {pt:"", type:"fb", dt:"2022-03", loc:"ast", desc:"ast:2001 CB21;?"},
-    {pt:"", type:"fb", dt:"2022-09", loc:"ast", desc:"ast:didy"},
-    {pt:"0", type:"imp", dt:"2022-09-30", loc:"ast", desc:"ip;ast:Dimorphos"},
-    {pt:"1", type:"fb", dt:"2022-09", loc:"ast", desc:"fbp:LICIACube"},
-    {pt:"", type:"nom", dt:"2022-09", loc:"ast", desc:"eom"}
+    {pt:"", type:"l", dt:"2021-11-24", loc:"ter:van:SLC-4E", desc:""},
+    {pt:"", type:"oi", dt:"2021-11-24", loc:"sol:ho", desc:""},
+    //{pt:"", type:"fb", dt:"2022-07", loc:"ast", desc:"ast:2001 CB21;?"},
+    {pt:"", type:"fb", dt:"2022-10", loc:"ast", desc:"ast:didy"},
+    {pt:"0", type:"imp", dt:"2022-10", loc:"ast", desc:"ip;ast:Dimorphos"},
+    {pt:"1", type:"fb", dt:"2022-10", loc:"ast", desc:"fbp:LICIACube"},
+    {pt:"", type:"nom", dt:"2022-10", loc:"ast", desc:"eom"}
 ]},
 //CubeRover
 peregrine: {name:"Peregrine 1", desc:"lv:Vulcan Centaur-522",
