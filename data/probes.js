@@ -3134,7 +3134,7 @@ luna25: {name:"Luna 25", desc:"lv:Soyuz 2.1B/Fregat-MT",
   events:[
     {pt:"", type:"l", dt:"2021-10-01", loc:"ter:vos:LC-1S", desc:""},
     {pt:"", type:"oi", dt:"l+4dy", loc:"lun:100x100kmx90deg", desc:""},
-    {pt:"", type:"td", dt:"l+8dy", loc:"lun:69.545S,43.44E", desc:"Near South Pole, Boguslawsky Crater"},
+    {pt:"", type:"td", dt:"l+8dy", loc:"lun:73.3S,43.9E", desc:"Near South Pole, Boguslawsky Crater"},
     {pt:"", type:"nom", dt:"l+3mo", loc:"lun", desc:"?"},
     {pt:"", type:"pom", dt:"l+1yr", loc:"lun", desc:"?"}
 ]},
