@@ -66,7 +66,7 @@ cz-8
 //CZ-8
 "CZ-8": {n:"Long March 8", alt:"长征八号", ctry:"cn", m:"356000", pm:"8100/2800/-", d:"50.3x3.35", pf:"12.7x4.2", dt:"2020-12-22..", st:"2/2", ust:"YZ-1A", th:"4800", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"CZ-8.png"},
 //CZ-9
-"CZ-9": {n:"Long March 9", alt:"长征九号运载火箭", ctry:"cn", m:"4140000", pm:"140000/66000/50000", d:"93x10", pf:"", dt:"2028..", st:"3/4", ust:"", th:"52800", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"CZ-9.png"},
+"CZ-9": {n:"Long March 9", alt:"长征九号运载火箭", ctry:"cn", m:"4140000", pm:"140000/66000/50000", d:"93x10", pf:"", dt:"2030..", st:"3/4", ust:"", th:"52800", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"CZ-9.png"},
 //CZ-X
 "CZ-X": {n:"Long March X", alt:"长征X号运载火箭", ctry:"cn", m:"2200000", pm:"70000//", d:"87x5", pf:"", dt:"2025..", st:"3/2", ust:"", th:"25200", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"CZ-X.png"},
 //CZ-11
@@ -134,7 +134,7 @@ cz-8
 //Juno II
 "Juno II": {ctry:"us", m:"55300", pm:"50/-/6",  d:"23.4x2.67", pf:"", dt:"1958-12-06..1961-05-24", st:"4", th:"667", fam:"Jupiter", desc:"l:cap;ag:nasa", fuel:"KeroLOX+SRP", icon:"Juno-2.png"},
 //KSLV-II
-"KSLV-II": {ctry:"sk", m:"200000", pm:"2600/-/500",  d:"47.5x3.3", pf:"", dt:"2018..", st:"3", th:"2275", fam:"KSLV", desc:"l:nar;ag:kari", fuel:"KeroLOX", icon:"kslv-2.png"},
+"KSLV-II": {n:"Nuri:누리", ctry:"sk", m:"200000", pm:"2600/-/500",  d:"47.2x3.5", pf:"", dt:"2022..", st:"3", th:"2612", fam:"KSLV", desc:"l:nar;ag:kari", fuel:"KeroLOX", icon:"kslv-2.png"},
 //M-3SII
 "M-3SII": {alt:"ミュ-3SII", ctry:"jp", m:"61700", pm:"800/-/140",  d:"27.8x1.41", pf:"", dt:"1985-01-07..1995-01-15", st:"3/2", th:"1930", fam:"Mu", desc:"l:uch;ag:jaxa", fuel:"SRP", icon:"M-3-SII.png"},
 //M-V

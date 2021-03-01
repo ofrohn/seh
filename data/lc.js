@@ -111,5 +111,5 @@ Common.lpad = [
 {n:"LC-1A", par:"vos", lv:"Angara-1.2/A5", loc:"51.8756N,128.3615E"},
 //{n:"(LP-2)", par:"vos", lv:"Angara-A5/A7", loc:"51.8756N,128.3615E"},
 {n:"(LC)", par:"wen", lv:"CZ-9", loc:""},
-{n:"(LC)", par:"nar", lv:"KSLV-II", loc:"34.4319N,127.5362E"}
+{n:"(LC-2", par:"nar", lv:"KSLV-II", loc:"34.4319N,127.5362E"}
 ];

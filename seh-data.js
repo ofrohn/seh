@@ -3531,12 +3531,12 @@ bepicolombo: {name:"Bepi Colombo", desc:"lv:Ariane 5ECA",
     {pt:"", type:"fb", dt:"2020-04-10", loc:"ter:12700km", desc:"ga"},
     {pt:"", type:"fb", dt:"2020-10-15", loc:"ven:10000km", desc:"ga"},
     {pt:"", type:"fb", dt:"2021-08-11", loc:"ven:550km", desc:"ga"},
-    {pt:"", type:"fb", dt:"2021-10-01", loc:"mer", desc:"ga"},
-    {pt:"", type:"fb", dt:"2022-06-23", loc:"mer", desc:"ga"},
-    {pt:"", type:"fb", dt:"2023-06-20", loc:"mer", desc:"ga"},
-    {pt:"", type:"fb", dt:"2024-09-05", loc:"mer", desc:"ga"},
-    {pt:"", type:"fb", dt:"2024-12-02", loc:"mer", desc:"ga"},
-    {pt:"", type:"fb", dt:"2025-01-09", loc:"mer", desc:"ga;eom:fbm"},
+    {pt:"", type:"fb", dt:"2021-10-01", loc:"mer:200km", desc:"ga"},
+    {pt:"", type:"fb", dt:"2022-06-23", loc:"mer:200km", desc:"ga"},
+    {pt:"", type:"fb", dt:"2023-06-20", loc:"mer:200km", desc:"ga"},
+    {pt:"", type:"fb", dt:"2024-09-05", loc:"mer:200km", desc:"ga"},
+    {pt:"", type:"fb", dt:"2024-12-02", loc:"mer:40000km", desc:"ga"},
+    {pt:"", type:"fb", dt:"2025-01-09", loc:"mer:393km", desc:"ga;eom:fbm"},
     {pt:"", type:"sep", dt:"2025-10-25", loc:"mer", desc:"MTM/MPO+MMO"},
     {pt:"", type:"oi", dt:"2025-12-05", loc:"mer:674x178000kmx90deg", desc:""},
     {pt:"", type:"sep", dt:"2025-12-20", loc:"mer", desc:"MPO/MMO"},
@@ -3630,7 +3630,7 @@ solarorbiter: {name:"Solar Orbiter", desc:"lv:Atlas V 411",
 mars2020rover: {name:"Mars 2020", desc:"lv:Atlas V 541",
   parts:[
     {names:"Perseverance", type:"rvm", dest:"mar", stat:"o", ctry:"us", desc:"ag:nasa,jpl;m:1025kg;dim:3.0x2.7x2.2m;sc:0.5;Sample Caching Mission", id:"2020-052A", url:"hp:www.nasa.gov/mars2020;tw:twitter.com/NASAPersevere", icon:"mars2020.png"},
-    {names:"Ingenuity;MHS:Mars Helicopter Scout", type:"dm", dest:"mar", stat:"o", ctry:"us", desc:"ag:nasa,jpl;fam:MSR;m:1.8kg;dim:;sc:0.7;", id:"", url:"", icon:"ingenuity.png"}], 
+    {names:"Ingenuity;MHS:Mars Helicopter Scout", type:"dm", dest:"mar", stat:"o", ctry:"us", desc:"ag:nasa,jpl;fam:MSR;m:1.8kg;dim:;sc:0.7;", id:"", url:"Ingenuity:mars.nasa.gov/technology/helicopter/", icon:"ingenuity.png"}], 
   events:[
     {pt:"", type:"l", dt:"2020-07-30", loc:"ter:cap:SLC-41", desc:""},
     {pt:"", type:"toi", dt:"2020-07-30", loc:"sol:hto", desc:""},
@@ -3643,12 +3643,12 @@ mgrso: {name:"Tianwen-1:Skyquest-1", desc:"lv:CZ-5",
   parts:[
     {names:"天问一号;MGRSO:Mars Global Remote Sensing Orbiter", type:"om", dest:"mar", stat:"o", ctry:"cn", desc:"ag:cnsa;m:3175kg;sc:0.75", id:"2020-049A", url:"China Space Report:chinaspacereport.com/unmanned/planetary/mars-mission/", icon:"mgrso.png"},
     {names:"", type:"slm", dest:"mar", stat:"o", ctry:"cn", desc:"ag:cnsa;m:1745kg;sc:0.75", id:"", url:"", icon:"mgrso-l.png"}, 
-    {names:"Lu Zhenrong;露真容", type:"rvm", dest:"mar", stat:"o", ctry:"cn", desc:"m:240kg;dim:2.6x3.0x1.85m;ag:cnsa;sc:0.5", id:"", url:"", icon:"mgrso-rv.png"}], 
+    {names:"Lu Zhenrong;露真容", type:"rvm", dest:"mar", stat:"o", ctry:"cn", desc:"m:240kg;dim:2.6x3.0x1.85m;ag:cnsa;sc:0.5", id:"", url:"", icon:"tianwen-rv.png"}], 
   events:[
     {pt:"", type:"l", dt:"2020-07-23", loc:"ter:wen:LC-101", desc:""},
     {pt:"", type:"toi", dt:"2020-07-23", loc:"sol:hto", desc:""},
     {pt:"", type:"oi", dt:"2021-02-10", loc:"mar:445x180011kmx10.4deg", desc:"Capture orbit"},
-    {pt:"", type:"sco", dt:"2021-02-20", loc:"mar:278x84591kmx87.7deg", desc:"Polar reconnaissance orbit;per:2d"},
+    {pt:"", type:"sco", dt:"2021-02-24", loc:"mar:280x59000kmx87.7deg", desc:"Polar reconnaissance orbit;per:2d"},
     {pt:"1", type:"edl", dt:"2021-05", loc:"mar:24.748N,110.318E", desc:"lp;Utopia Planitia;show:Tianwen-1:NE"},
     {pt:"2", type:"nom", dt:"2021-08", loc:"mar", desc:"rvp;eom:slm;eom:rvm"},
     {pt:"0", type:"sco", dt:"2021-08", loc:"mar:400x15000kmx86.9deg", desc:""},
@@ -3693,10 +3693,10 @@ chandrayaan3: {name:"Chandrayaan 3:Moon Craft 3", desc:"lv:GSLV MkIII",
 {names:"Vikram", type:"slm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:1471kg;dim:2.5x2x1.2m", icon:"chandrayaan2-l.png"},
 {names:"Pragyan", type:"rvm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:27kg;dim:0.9x0.75x0.85m;sc:0.5", icon:"chandrayaan2-rv.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2021-04", loc:"ter:sri:SLP", desc:""},
-    {pt:"", type:"oi", dt:"2021-04", loc:"lun:170x186000km", desc:""},
-    {pt:"", type:"td", dt:"2021-04", loc:"lun", desc:""},
-    {pt:"0", type:"nom", dt:"2022-04", loc:"lun", desc:"?"}
+    {pt:"", type:"l", dt:"2022", loc:"ter:sri:SLP", desc:""},
+    {pt:"", type:"oi", dt:"2022", loc:"lun:170x186000km", desc:""},
+    {pt:"", type:"td", dt:"2022", loc:"lun", desc:""},
+    {pt:"0", type:"nom", dt:"2023", loc:"lun", desc:"?"}
 ]},
 capstone: {name:"CAPSTONE:Cislunar Autonomous Positioning System Technology Operations and Navigation Experiment", desc:"lv:Electron",
   parts:[
@@ -3819,11 +3819,11 @@ dart: {name:"DART:Double Asteroid Redirection Test", desc:"lv:Falcon 9",
   ], events:[
     {pt:"", type:"l", dt:"2021-11-24", loc:"ter:van:SLC-4E", desc:""},
     {pt:"", type:"oi", dt:"2021-11-24", loc:"sol:ho", desc:""},
-    //{pt:"", type:"fb", dt:"2022-07", loc:"ast", desc:"ast:2001 CB21;?"},
-    {pt:"", type:"fb", dt:"2022-10", loc:"ast", desc:"ast:didy"},
-    {pt:"0", type:"imp", dt:"2022-10", loc:"ast", desc:"ip;ast:Dimorphos"},
-    {pt:"1", type:"fb", dt:"2022-10", loc:"ast", desc:"fbp:LICIACube"},
-    {pt:"", type:"nom", dt:"2022-10", loc:"ast", desc:"eom"}
+    {pt:"", type:"fb", dt:"2022-07", loc:"ast", desc:"ast:2001 CB21;?"},
+    {pt:"", type:"fb", dt:"2022-09", loc:"ast", desc:"ast:didy"},
+    {pt:"0", type:"imp", dt:"2022-09", loc:"ast", desc:"ip;ast:Dimorphos"},
+    {pt:"1", type:"fb", dt:"2022-09", loc:"ast", desc:"fbp:LICIACube"},
+    {pt:"", type:"nom", dt:"2022-09", loc:"ast", desc:"eom"}
 ]},
 //CubeRover
 peregrine: {name:"Peregrine 1", desc:"lv:Vulcan Centaur-522",
@@ -6650,7 +6650,7 @@ cz-8
 //CZ-8
 "CZ-8": {n:"Long March 8", alt:"长征八号", ctry:"cn", m:"356000", pm:"8100/2800/-", d:"50.3x3.35", pf:"12.7x4.2", dt:"2020-12-22..", st:"2/2", ust:"YZ-1A", th:"4800", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"CZ-8.png"},
 //CZ-9
-"CZ-9": {n:"Long March 9", alt:"长征九号运载火箭", ctry:"cn", m:"4140000", pm:"140000/66000/50000", d:"93x10", pf:"", dt:"2028..", st:"3/4", ust:"", th:"52800", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"CZ-9.png"},
+"CZ-9": {n:"Long March 9", alt:"长征九号运载火箭", ctry:"cn", m:"4140000", pm:"140000/66000/50000", d:"93x10", pf:"", dt:"2030..", st:"3/4", ust:"", th:"52800", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"CZ-9.png"},
 //CZ-X
 "CZ-X": {n:"Long March X", alt:"长征X号运载火箭", ctry:"cn", m:"2200000", pm:"70000//", d:"87x5", pf:"", dt:"2025..", st:"3/2", ust:"", th:"25200", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"CZ-X.png"},
 //CZ-11
@@ -6718,7 +6718,7 @@ cz-8
 //Juno II
 "Juno II": {ctry:"us", m:"55300", pm:"50/-/6",  d:"23.4x2.67", pf:"", dt:"1958-12-06..1961-05-24", st:"4", th:"667", fam:"Jupiter", desc:"l:cap;ag:nasa", fuel:"KeroLOX+SRP", icon:"Juno-2.png"},
 //KSLV-II
-"KSLV-II": {ctry:"sk", m:"200000", pm:"2600/-/500",  d:"47.5x3.3", pf:"", dt:"2018..", st:"3", th:"2275", fam:"KSLV", desc:"l:nar;ag:kari", fuel:"KeroLOX", icon:"kslv-2.png"},
+"KSLV-II": {n:"Nuri:누리", ctry:"sk", m:"200000", pm:"2600/-/500",  d:"47.2x3.5", pf:"", dt:"2022..", st:"3", th:"2612", fam:"KSLV", desc:"l:nar;ag:kari", fuel:"KeroLOX", icon:"kslv-2.png"},
 //M-3SII
 "M-3SII": {alt:"ミュ-3SII", ctry:"jp", m:"61700", pm:"800/-/140",  d:"27.8x1.41", pf:"", dt:"1985-01-07..1995-01-15", st:"3/2", th:"1930", fam:"Mu", desc:"l:uch;ag:jaxa", fuel:"SRP", icon:"M-3-SII.png"},
 //M-V
@@ -6913,7 +6913,7 @@ Common.lpad = [
 {n:"LC-1A", par:"vos", lv:"Angara-1.2/A5", loc:"51.8756N,128.3615E"},
 //{n:"(LP-2)", par:"vos", lv:"Angara-A5/A7", loc:"51.8756N,128.3615E"},
 {n:"(LC)", par:"wen", lv:"CZ-9", loc:""},
-{n:"(LC)", par:"nar", lv:"KSLV-II", loc:"34.4319N,127.5362E"}
+{n:"(LC-2", par:"nar", lv:"KSLV-II", loc:"34.4319N,127.5362E"}
 ];
 /* global UI, SSEH, Common, Parse, Create, Read, Cdraw, Trig, px */
 
