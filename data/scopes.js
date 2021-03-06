@@ -1412,7 +1412,7 @@ wfirst:{name:"RST:Nancy Grace Roman Space Telescope", url:"hp:roman.gsfc.nasa.go
     {pt:"", dt:"2031", tp:"nom", loc:"", desc:""},
     {pt:"", dt:"2036", tp:"pom", loc:"", desc:""},
   ], inst: [
-    {n:"WFI:Wide Field Instrument", band:"480..2000nm", res:"", d:"2.4", px:"0.11", sres:"2.2..6", ea:"3m2@1.5um", fov:"0.8x0.4deg", desc:"c:nvt;cl:nl"},
+    {n:"WFI:Wide Field Instrument", band:"480..2300nm", res:"", d:"2.4", px:"0.11", sres:"2.2..6", ea:"3m2@1.5um", fov:"0.8x0.4deg", desc:"c:nvt;cl:nl"},
     {n:"CGI:Coronograph Instrument", band:"550..900nm", res:"", d:"2.4", px:"0.021", fov:"9x9''", desc:""}
 ]},
 wmap:{name:"WMAP:Wilkinson Microwave Anisotropy Probe", url:"hp:map.gsfc.nasa.gov/", desc:"ag:nasa;m:2900kg;lv:Delta II 7425-10", stat:"s", 
