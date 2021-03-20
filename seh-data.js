@@ -3701,9 +3701,9 @@ chandrayaan3: {name:"Chandrayaan 3:Moon Craft 3", desc:"lv:GSLV MkIII",
 ]},
 capstone: {name:"CAPSTONE:Cislunar Autonomous Positioning System Technology Operations and Navigation Experiment", desc:"lv:Electron",
   parts:[
-    {names:"", type:"om", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Advanced Space;fam:SBIR;12U Cubesat;sc:0.5", id:"", url:"hp:www.nasa.gov/press-release/nasa-funds-cubesat-pathfinder-mission-to-unique-lunar-orbit", icon:"capstone.png"}], 
+    {names:"", type:"om", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Advanced Space;fam:SBIR;12U Cubesat;m:25kg;sc:0.5", id:"", url:"hp:www.nasa.gov/directorates/spacetech/small_spacecraft/capstone", icon:"capstone.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2021", loc:"ter:wal", desc:""},
+    {pt:"", type:"l", dt:"2021-04-18", loc:"ter:wal:LC-2", desc:""},
     {pt:"", type:"oi", dt:"l+4m", loc:"lun:nrho", desc:""},
     {pt:"", type:"nom", dt:"2023", loc:"lun", desc:""}
 ]},
@@ -3968,14 +3968,14 @@ prime1: {name:"PRIME-1:Polar Resources Ice Mining Experiment", desc:"lv:Falcon 9
     {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:"South pole"},
     {pt:"", type:"nom", dt:"l+20dy", loc:"lun", desc:""}
 ]},
-/*lunarpathfinder: {name:"Lunar Pathfinder", desc:"lv:",
+lunarpathfinder: {name:"Lunar Pathfinder", desc:"lv:",
   parts:[
-    {names:"", type:"om", dest:"lun", stat:"pl", ctry:"eu", desc:"ag:esa,SSTL,GES;sc:0.5", id:"", url:"hp:www.goonhilly.org/lunar", icon:"lunar-pathfinder.png"}], 
+    {names:"", type:"om", dest:"lun", stat:"pl", ctry:"eu", desc:"ag:esa,SSTL,GES;sc:0.3", id:"", url:"hp:www.sstl.co.uk/what-we-do/lunar-mission-services/lunar-pathfinder", icon:"lunar-pathfinder.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2022", loc:"ter", desc:""},
-    {pt:"", type:"oi", dt:"l+4m", loc:"lun", desc:""},
-    {pt:"", type:"nom", dt:"2023", loc:"lun", desc:""}
-]},*/
+    {pt:"", type:"l", dt:"2023", loc:"ter", desc:""},
+    {pt:"", type:"oi", dt:"l+4m", loc:"lun", desc:"Elliptical Lunar Frozen Orbit (ELFO)"},
+    {pt:"", type:"nom", dt:"2031", loc:"lun", desc:""}
+]},
 // --- 2023
 viper: {name:"VIPER:Volatiles Investigating Polar Exploration Rover", desc:"lv:TBA",
   parts:[
@@ -4061,15 +4061,26 @@ hakutor: {name:"Hakuto-R", desc:"lv:Falcon 9",
 // --- 2024
 mom2: {name:"MOM-2:Mars Observation Mission 2", desc:"lv:GSLV MkIII",
   parts:[
-    {names:"", type:"om", dest:"mar", stat:"pl", ctry:"ind", desc:"ag:isro,cnes;m:;m0:;dim:", id:"", url:"hp:www.isro.gov.in/;indianspaceprojects:sites.google.com/site/indianspaceprojects/planetary-exploration/mars-orbiter-mission-mom---2", icon:"mobm.png"},
-    {names:"", type:"slm", dest:"mar", stat:"pl", ctry:"ind", desc:"ag:isro;m:", icon:""},
-    {names:"", type:"rvm", dest:"mar", stat:"pl", ctry:"ind", desc:"ag:isro;m:", icon:""}], 
+    {names:"", type:"om", dest:"mar", stat:"pl", ctry:"ind", desc:"ag:isro,cnes;sc:1", id:"", url:"hp:www.isro.gov.in/;indianspaceprojects:sites.google.com/site/indianspaceprojects/planetary-exploration/mars-orbiter-mission-mom---2", icon:"mobm.png"},
+    {names:"", type:"slm", dest:"mar", stat:"pl", ctry:"ind", desc:"ag:isro;", icon:""},
+    {names:"", type:"rvm", dest:"mar", stat:"pl", ctry:"ind", desc:"ag:isro;", icon:""}], 
   events:[
     {pt:"", type:"l", dt:"2024", loc:"ter:sri", desc:""},
     {pt:"", type:"toi", dt:"2024", loc:"sol:hto", desc:""},
     {pt:"", type:"oi", dt:"l+7mo", loc:"mar:200x2000km", desc:""},
     {pt:"", type:"nom", dt:"l+2yr", loc:"mar", desc:"?"},
     {pt:"", type:"pom", dt:"l+4yr", loc:"mar", desc:"?"}    
+]},
+shukrayaan: {name:"Shukrayaan-1:Venus Craft", desc:"lv:GSLV MkII",
+  parts:[
+    {names:"", type:"om", dest:"ven", stat:"pl", ctry:"ind", desc:"ag:isro;m:2500kg;sc:0.5", id:"", url:"hp:www.isro.gov.in/", icon:"shukrayaan.png"}], 
+  events:[
+    {pt:"", type:"l", dt:"2024-12", loc:"ter:sri", desc:""},
+    {pt:"", type:"toi", dt:"l+1d", loc:"sol:hto", desc:""},
+    {pt:"", type:"oi", dt:"l+5mo", loc:"ven:500x60000km", desc:""},
+    {pt:"", type:"sco", dt:"l+17mo", loc:"ven:200x600km", desc:""},
+    {pt:"", type:"nom", dt:"l+4yr", loc:"ven", desc:"?"},
+    {pt:"", type:"pom", dt:"l+6yr", loc:"ven", desc:"?"}    
 ]},
 change6: {name:"Chang'e 6", desc:"lv:CZ-5",
   parts:[
@@ -4244,7 +4255,7 @@ srl: {name:"SRL:Sample Retrieval Lander", desc:"",
     {pt:"2", type:"doc", dt:"2029-03", loc:"mar:340km", desc:"as/ERO;eom:om"},
     {pt:"", type:"pom", dt:"l+10yr", loc:"mar", desc:"?"}
 ]},
-ero: {name:"ERO:Earth Return Orbiter", desc:"",
+ero: {name:"ERO:Earth Return Orbiter", desc:"lv:Ariane 6",
   parts:[
     {names:"", type:"om", dest:"mar", stat:"pl", ctry:"eu", desc:"ag:esa;m:6000kg;sc:1.2", id:"", url:"hp:esa:www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Exploration/Mars_sample_return", icon:"ero.png"},
     {names:"{EEV:Earth Entry Vehicle}", type:"srm", dest:"ter", stat:"pl", ctry:"us", desc:"ag:nasa", icon:""}],
@@ -4253,7 +4264,7 @@ ero: {name:"ERO:Earth Return Orbiter", desc:"",
     {pt:"", type:"oi", dt:"2027-09", loc:"mar", desc:""},
     {pt:"", type:"doc", dt:"2029-03", loc:"mar:340km", desc:"op/SRL MAV"},
     {pt:"", type:"dep", dt:"2030-07", loc:"mar", desc:""},
-    {pt:"1", type:"edl", dt:"2031-09", loc:"ter", desc:"eom:srm"}
+    {pt:"1", type:"edl", dt:"2031-09", loc:"ter", desc:"UTTR, Utah;eom:srm"}
 ]},
 ihab: {name:"Gateway I-HAB:International Habitat" , desc:"",
   parts:[
