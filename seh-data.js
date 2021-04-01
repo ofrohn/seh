@@ -161,6 +161,10 @@ heo: {name:"HEO:Highly Elliptical Orbit", par:"ter", desc:""},
 lto: {name:"LTO:Lunar Transfer (Earth) Orbit", par:"ter", desc:""},
 eto: {name:"ETO:Earth Transfer Orbit", par:"ter", desc:""},
 dro: {name:"DRO:Distant Retrograde Orbit", par:"lun", desc:""},
+llo: {name:"LLO:Low Lunar Orbit", par:"lun", desc:""},
+pco: {name:"PCO:Prograde Circular Orbit", par:"lun", desc:""},
+flo: {name:"FLO:Froyen Lunar Orbit", par:"lun", desc:""},
+elo: {name:"ELO:Elliptical Lunar Orbit", par:"lun", desc:""},
 nrho: {name:"NRHO:Near-Rectilinear Halo Orbit", par:"lun", desc:""}
 };
 
@@ -3333,7 +3337,7 @@ maven: {name:"MAVEN:Mars Atmosphere and Volatile Evolution Mission", desc:"lv:At
 ]},
 mangalyaan: {name:"MOM:Mars Orbiter Mission", desc:"lv:PSLV-XL",
   parts:[
-    {names:"मंगल ग्रह परिक्रमा मिशन;Mangalyaan:Mars Craft", type:"om", dest:"mar", stat:"o", ctry:"ind", desc:"ag:isro;m:1337kg;m0:475kg;dim:5.4x3.5x2.2m", id:"2013-060A", url:"hp:www.isro.gov.in/pslv-c25-mars-orbiter-mission;issdc:www.issdc.gov.in/marsmission.html;data:mrbrowse.issdc.gov.in/MOMLTA/;Atw:twitter.com/MarsOrbiter", icon:"mom.png"}], 
+    {names:"मंगल ग्रह परिक्रमा मिशन;Mangalyaan:Mars Craft", type:"om", dest:"mar", stat:"o", ctry:"ind", desc:"ag:isro;m:1337kg;m0:475kg;dim:5.4x3.5x2.2m;sc:0.7", id:"2013-060A", url:"hp:www.isro.gov.in/pslv-c25-mars-orbiter-mission;issdc:www.issdc.gov.in/marsmission.html;data:mrbrowse.issdc.gov.in/MOMLTA/;Atw:twitter.com/MarsOrbiter", icon:"mom.png"}], 
   events:[
     {pt:"", type:"l", dt:"2013-11-05", loc:"ter:sri", desc:""},
     {pt:"", type:"oi", dt:"2013-11-05", loc:"ter:heeo", desc:"Phasing orbits"},
@@ -3465,7 +3469,7 @@ osirisrex: {name:"OSIRIS-REx:Origins-Spectral Interpretation-Resource Identifica
     {pt:"", type:"app", dt:"2020-04-14", loc:"ast:75m", desc:"Sample acquisition rehearsal 1"},
     {pt:"", type:"app", dt:"2020-06", loc:"ast", desc:"Sample acquisition rehearsal 2"},
     {pt:"", type:"sc", dt:"2020-10-20", loc:"ast", desc:"Nightingale crater"},
-    {pt:"", type:"fb", dt:"2021-04", loc:"ast", desc:"Close flyby"},
+    {pt:"", type:"fb", dt:"2021-04-06", loc:"ast:4km", desc:"Close flyby"},
     {pt:"", type:"dep", dt:"2021-05-10", loc:"ast", desc:"Begin Earth Return Cruise"},
     {pt:"", type:"edl", dt:"2023-09-24", loc:"ter", desc:"src;UTTR, Utah;eom:srm"}
     // Apophis oi 2029-04-21
@@ -3629,15 +3633,17 @@ solarorbiter: {name:"Solar Orbiter", desc:"lv:Atlas V 411",
 ]},
 mars2020rover: {name:"Perseverance", desc:"lv:Atlas V 541",
   parts:[
-    {names:"Mars 2020", type:"rvm", dest:"mar", stat:"o", ctry:"us", desc:"ag:nasa,jpl;m:1025kg;dim:3.0x2.7x2.2m;sc:0.5;Sample Caching Mission", id:"2020-052A", url:"hp:www.nasa.gov/mars2020;tw:twitter.com/NASAPersevere", icon:"mars2020.png"},
+    {names:"Mars 2020", type:"rvm", dest:"mar", stat:"o", ctry:"us", desc:"ag:nasa,jpl;m:1025kg;dim:3.0x2.7x2.2m;sc:0.5;Sample Caching Mission", id:"2020-052A", url:"hp:www.nasa.gov/mars2020;tw:twitter.com/NASAPersevere;raw:mars.nasa.gov/mars2020/multimedia/raw-images/", icon:"mars2020.png"},
     {names:"Ingenuity;MHS:Mars Helicopter Scout", type:"dm", dest:"mar", stat:"o", ctry:"us", desc:"ag:nasa,jpl;fam:MSR;m:1.8kg;dim:;sc:0.7;", id:"", url:"Ingenuity:mars.nasa.gov/technology/helicopter/", icon:"ingenuity.png"}], 
   events:[
     {pt:"", type:"l", dt:"2020-07-30", loc:"ter:cap:SLC-41", desc:""},
     {pt:"", type:"toi", dt:"2020-07-30", loc:"sol:hto", desc:""},
     {pt:"", type:"edl", dt:"2021-02-18", loc:"mar:18.4446N,77.4508E", desc:"Jezero Crater;Octavia E. Butler Landing;show:Perseverance"},
-    {pt:"", type:"tos", dt:"2021-03", loc:"mar", desc:"eom:dm;Helicopter probe"},
-    {pt:"", type:"nom", dt:"2023-01", loc:"mar", desc:"?"},
-    {pt:"", type:"pom", dt:"l+10yr", loc:"mar", desc:"?"}
+    {pt:"", type:"sep", dt:"2021-04-01", loc:"mar", desc:"Rover/Helicopter probe"},
+    {pt:"1", type:"l", dt:"2021-04-11", loc:"mar", desc:"Helicopter probe"},
+    {pt:"1", type:"tos", dt:"2021-05", loc:"mar", desc:"eom:dm;Helicopter probe"},
+    {pt:"0", type:"nom", dt:"2023-01", loc:"mar", desc:"?"},
+    {pt:"0", type:"pom", dt:"l+10yr", loc:"mar", desc:"?"}
 ]},
 mgrso: {name:"Tianwen-1:Skyquest-1", desc:"lv:CZ-5",
   parts:[
@@ -3686,7 +3692,8 @@ change5: {name:"Chang'e 5", desc:"lv:CZ-5",
     {pt:"", type:"sep", dt:"2020-12-06", loc:"lun", desc:"op/as"},
     {pt:"", type:"toi", dt:"2020-12-13", loc:"lun", desc:"op/src"},
     {pt:"", type:"edl", dt:"2020-12-17", loc:"ter:42.339N,111.439E", desc:"eom:srm;src;Siziwang Banner, Inner Mongolia;show:CE5:NE"},
-    {pt:"", type:"fb", dt:"2020-11-17", loc:"ter", desc:"om;To Earth/Sun L1"}
+    {pt:"", type:"fb", dt:"2020-11-17", loc:"ter", desc:"op"},
+    {pt:"", type:"fb", dt:"2021-03", loc:"sol:esl1", desc:"op"}
 ]},
 // --- 2021
 chandrayaan3: {name:"Chandrayaan 3:Moon Craft 3", desc:"lv:GSLV MkIII",
@@ -3701,7 +3708,7 @@ chandrayaan3: {name:"Chandrayaan 3:Moon Craft 3", desc:"lv:GSLV MkIII",
 ]},
 capstone: {name:"CAPSTONE:Cislunar Autonomous Positioning System Technology Operations and Navigation Experiment", desc:"lv:Electron",
   parts:[
-    {names:"", type:"om", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Advanced Space;fam:SBIR;12U Cubesat;m:25kg;sc:0.5", id:"", url:"hp:www.nasa.gov/directorates/spacetech/small_spacecraft/capstone", icon:"capstone.png"}], 
+    {names:"", type:"om", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Advanced Space;fam:SBIR;12U Cubesat;m:25kg;sc:0.5", id:"", url:"hp:www.nasa.gov/directorates/spacetech/small_spacecraft/capstone;RocketLab:www.rocketlabusa.com/missions/lunar/", icon:"capstone.png"}], 
   events:[
     {pt:"", type:"l", dt:"2021-04-18", loc:"ter:wal:LC-2", desc:""},
     {pt:"", type:"oi", dt:"l+4m", loc:"lun:nrho", desc:""},
@@ -3973,7 +3980,7 @@ lunarpathfinder: {name:"Lunar Pathfinder", desc:"lv:",
     {names:"", type:"om", dest:"lun", stat:"pl", ctry:"eu", desc:"ag:esa,SSTL,GES;sc:0.3", id:"", url:"hp:www.sstl.co.uk/what-we-do/lunar-mission-services/lunar-pathfinder", icon:"lunar-pathfinder.png"}], 
   events:[
     {pt:"", type:"l", dt:"2023", loc:"ter", desc:""},
-    {pt:"", type:"oi", dt:"l+4m", loc:"lun", desc:"Elliptical Lunar Frozen Orbit (ELFO)"},
+    {pt:"", type:"oi", dt:"l+4m", loc:"lun:500x7500kmx58deg", desc:"Elliptical Lunar Frozen Orbit (ELFO)"},
     {pt:"", type:"nom", dt:"2031", loc:"lun", desc:""}
 ]},
 // --- 2023
@@ -4061,7 +4068,7 @@ hakutor: {name:"Hakuto-R", desc:"lv:Falcon 9",
 // --- 2024
 mom2: {name:"MOM-2:Mars Observation Mission 2", desc:"lv:GSLV MkIII",
   parts:[
-    {names:"", type:"om", dest:"mar", stat:"pl", ctry:"ind", desc:"ag:isro,cnes;sc:1", id:"", url:"hp:www.isro.gov.in/;indianspaceprojects:sites.google.com/site/indianspaceprojects/planetary-exploration/mars-orbiter-mission-mom---2", icon:"mobm.png"},
+    {names:"", type:"om", dest:"mar", stat:"pl", ctry:"ind", desc:"ag:isro,cnes;sc:0.5", id:"", url:"hp:www.isro.gov.in/", icon:"mobm.png"},
     {names:"", type:"slm", dest:"mar", stat:"pl", ctry:"ind", desc:"ag:isro;", icon:""},
     {names:"", type:"rvm", dest:"mar", stat:"pl", ctry:"ind", desc:"ag:isro;", icon:""}], 
   events:[
@@ -4073,7 +4080,7 @@ mom2: {name:"MOM-2:Mars Observation Mission 2", desc:"lv:GSLV MkIII",
 ]},
 shukrayaan: {name:"Shukrayaan-1:Venus Craft", desc:"lv:GSLV MkII",
   parts:[
-    {names:"", type:"om", dest:"ven", stat:"pl", ctry:"ind", desc:"ag:isro;m:2500kg;sc:0.5", id:"", url:"hp:www.isro.gov.in/", icon:"shukrayaan.png"}], 
+    {names:"", type:"om", dest:"ven", stat:"pl", ctry:"ind", desc:"ag:isro;m:2500kg;sc:0.4", id:"", url:"hp:www.isro.gov.in/", icon:"shukrayaan.png"}], 
   events:[
     {pt:"", type:"l", dt:"2024-12", loc:"ter:sri", desc:""},
     {pt:"", type:"toi", dt:"l+1d", loc:"sol:hto", desc:""},

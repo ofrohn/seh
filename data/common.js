@@ -58,6 +58,10 @@ heo: {name:"HEO:Highly Elliptical Orbit", par:"ter", desc:""},
 lto: {name:"LTO:Lunar Transfer (Earth) Orbit", par:"ter", desc:""},
 eto: {name:"ETO:Earth Transfer Orbit", par:"ter", desc:""},
 dro: {name:"DRO:Distant Retrograde Orbit", par:"lun", desc:""},
+llo: {name:"LLO:Low Lunar Orbit", par:"lun", desc:""},
+pco: {name:"PCO:Prograde Circular Orbit", par:"lun", desc:""},
+flo: {name:"FLO:Froyen Lunar Orbit", par:"lun", desc:""},
+elo: {name:"ELO:Elliptical Lunar Orbit", par:"lun", desc:""},
 nrho: {name:"NRHO:Near-Rectilinear Halo Orbit", par:"lun", desc:""}
 };
 

@@ -58,6 +58,10 @@ heo: {name:"HEO:Highly Elliptical Orbit", par:"ter", desc:""},
 lto: {name:"LTO:Lunar Transfer (Earth) Orbit", par:"ter", desc:""},
 eto: {name:"ETO:Earth Transfer Orbit", par:"ter", desc:""},
 dro: {name:"DRO:Distant Retrograde Orbit", par:"lun", desc:""},
+llo: {name:"LLO:Low Lunar Orbit", par:"lun", desc:""},
+pco: {name:"PCO:Prograde Circular Orbit", par:"lun", desc:""},
+flo: {name:"FLO:Froyen Lunar Orbit", par:"lun", desc:""},
+elo: {name:"ELO:Elliptical Lunar Orbit", par:"lun", desc:""},
 nrho: {name:"NRHO:Near-Rectilinear Halo Orbit", par:"lun", desc:""}
 };
 
@@ -1821,11 +1825,11 @@ spherex:{name:"SPHEREx:Spectro-Photometer for the History of the Universe, Epoch
   parts: [
     {n:"Explorer", ctry:"us", type:"ir", pur:"sur", id:"", icon:"spherex.png"}
   ], ev: [
-    {pt:"", dt:"2024-06", tp:"l", loc:"ter:van:SLC-4E", desc:""},
-    {pt:"", dt:"2024-06", tp:"sco", loc:"", desc:""},
+    {pt:"", dt:"2024-06-17", tp:"l", loc:"ter:van:SLC-4E", desc:""},
+    {pt:"", dt:"2024-06", tp:"sco", loc:"ter:sseo", desc:""},
     {pt:"", dt:"2029", tp:"nom", loc:"", desc:""}
 ], inst: [
-    {n:"", tp:"is", band:"0.75..5um", sres:"41..130", d:"0.2", px:"6.2", sens:"", fov:"3.5x11.3deg", desc:"c:;cl:n;"}
+    {n:"", tp:"is", band:"0.75..5um", sres:"41..130", d:"0.2", px:"6.2", sens:"22mag", fov:"3.5x11.3deg", desc:"c:;cl:n;"}
 ]}, 
 spp:{name:"Parker Solar Probe", url:"hp:solarprobe.jhuapl.edu/;nasa:solarprobe.gsfc.nasa.gov/;tw:twitter.com/SolarProbePlus", desc:"Close Approach;ag:nasa,apl;lv:Delta IV Heavy;sc:1;x:-40;y:2", stat:"o", 
   parts: [
