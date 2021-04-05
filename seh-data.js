@@ -3975,7 +3975,7 @@ prime1: {name:"PRIME-1:Polar Resources Ice Mining Experiment", desc:"lv:Falcon 9
     {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:"South pole"},
     {pt:"", type:"nom", dt:"l+20dy", loc:"lun", desc:""}
 ]},
-lunarpathfinder: {name:"Lunar Pathfinder", desc:"lv:",
+lunarpathfinder: {name:"Lunar Pathfinder", desc:"",
   parts:[
     {names:"", type:"om", dest:"lun", stat:"pl", ctry:"eu", desc:"ag:esa,SSTL,GES;sc:0.3", id:"", url:"hp:www.sstl.co.uk/what-we-do/lunar-mission-services/lunar-pathfinder", icon:"lunar-pathfinder.png"}], 
   events:[
@@ -4318,9 +4318,9 @@ esprit: {name:"Gateway ESPRIT:European System Providing Refueling, Infrastructur
 // --- 2028
 cometinterceptor: {name:"Comet Interceptor", desc:"lv:Ariane 62", 
   parts: [
-    {names:"A", type:"fbm", dest:"com", stat:"pl", ctry:"eu", desc:"ag:esa;dim:;m:900kg;sc:0.4;fam:F-Class", id:"", url:"hp:www.cometinterceptor.space/;tw:twitter.com/CometIntercept",  icon:"comet-interceptor-a.png"},
-    {names:"B1", type:"fbm", dest:"com", stat:"pl", ctry:"jp", desc:"ag:jaxa;dim:;m:;sc:0.5", id:"", url:"", icon:"comet-interceptor-b1.png"},
-    {names:"B2", type:"", dest:"com", stat:"pl", ctry:"eu", desc:"ag:esa;dim:;m:;sc:0.3", id:"", url:"",  icon:"comet-interceptor-b2.png"}
+    {names:"A", type:"fbm", dest:"com", stat:"pl", ctry:"eu", desc:"ag:esa;dim:;m:900kg;sc:0.75;fam:F-Class", id:"", url:"hp:www.cometinterceptor.space/;tw:twitter.com/CometIntercept",  icon:"comet-interceptor-a.png"},
+    {names:"B1", type:"fbm", dest:"com", stat:"pl", ctry:"jp", desc:"ag:jaxa;dim:;m:;sc:0.25", id:"", url:"", icon:"comet-interceptor-b1.png"},
+    {names:"B2", type:"", dest:"com", stat:"pl", ctry:"eu", desc:"ag:esa;dim:;m:;sc:0.5", id:"", url:"",  icon:"comet-interceptor-b2.png"}
   ], events: [
     {pt:"", dt:"2029", type:"l", loc:"ter:kou:ELA-4", desc:""},
     {pt:"", dt:"2029", type:"oi", loc:"sol:esl2", desc:""},
