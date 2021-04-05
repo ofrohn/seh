@@ -143,7 +143,7 @@ hygi:
 psyc:
   {name:"Psyche", other:"", desig:"16", type:"a", par:"sol", disc:"A. de Gasparis", dyr:"1852",
    a:"2.923au", e:"0.136", i:"3.099", per:"5.0a", rot:"4.196h", gr:"mba",
-   h:"5.9", mass:"2.41e19kg", dia:"279x232x189km", rad:"112.5", tilt:"95",
+   h:"5.9", mass:"2.41e19kg", dia:"290x245x170km", rad:"113", tilt:"95",
    alb:"0.15", grav:"0.011", comp:"Metal:90+Silicate:10+poro:15", dens:"3.99", spec:"M", temp:"160..280K",
    img:"psyche.png", desc:"sc:6;url:solarsystem.nasa.gov/small-bodies/asteroids/16-psyche/in-depth/;orb:ec.2017-02-16"},
 lute:

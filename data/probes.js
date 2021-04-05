@@ -2811,7 +2811,7 @@ osirisrex: {name:"OSIRIS-REx:Origins-Spectral Interpretation-Resource Identifica
     {pt:"", type:"app", dt:"2020-04-14", loc:"ast:75m", desc:"Sample acquisition rehearsal 1"},
     {pt:"", type:"app", dt:"2020-06", loc:"ast", desc:"Sample acquisition rehearsal 2"},
     {pt:"", type:"sc", dt:"2020-10-20", loc:"ast", desc:"Nightingale crater"},
-    {pt:"", type:"fb", dt:"2021-04-06", loc:"ast:4km", desc:"Close flyby"},
+    {pt:"", type:"fb", dt:"2021-04-06", loc:"ast:3.7km", desc:"Close flyby"},
     {pt:"", type:"dep", dt:"2021-05-10", loc:"ast", desc:"Begin Earth Return Cruise"},
     {pt:"", type:"edl", dt:"2023-09-24", loc:"ter", desc:"src;UTTR, Utah;eom:srm"}
     // Apophis oi 2029-04-21
@@ -2981,7 +2981,7 @@ mars2020rover: {name:"Perseverance", desc:"lv:Atlas V 541",
     {pt:"", type:"l", dt:"2020-07-30", loc:"ter:cap:SLC-41", desc:""},
     {pt:"", type:"toi", dt:"2020-07-30", loc:"sol:hto", desc:""},
     {pt:"", type:"edl", dt:"2021-02-18", loc:"mar:18.4446N,77.4508E", desc:"Jezero Crater;Octavia E. Butler Landing;show:Perseverance"},
-    {pt:"", type:"sep", dt:"2021-04-01", loc:"mar", desc:"Rover/Helicopter probe"},
+    {pt:"", type:"sep", dt:"2021-04-04", loc:"mar", desc:"Rover/Helicopter probe"},
     {pt:"1", type:"l", dt:"2021-04-11", loc:"mar", desc:"Helicopter probe"},
     {pt:"1", type:"tos", dt:"2021-05", loc:"mar", desc:"eom:dm;Helicopter probe"},
     {pt:"0", type:"nom", dt:"2023-01", loc:"mar", desc:"?"},
@@ -3576,7 +3576,7 @@ dragonfly: {name:"Dragonfly", desc:"lv:Vulcan Centaur", stat:"pl",
     {names:"", type:"dm", dest:"sat:Titan", ctry:"us", desc:"ag:nasa,apl;fam:New Frontiers;m:450kg;sc:0.4", id:"", url:"hp:dragonfly.jhuapl.edu", icon:"dragonfly.png"}],
   events:[
     {pt:"", type:"l", dt:"2027", loc:"ter:ksc", desc:""},
-    {pt:"", type:"edl", dt:"2034", loc:"tita", desc:"Shangri-La"},
+    {pt:"", type:"edl", dt:"2034", loc:"tita", desc:"Shangri-La, Selk Crater"},
     {pt:"", type:"nom", dt:"2037", loc:"tita", desc:"rv:175km;?"}
 ]},
 heracles: {name:"HERACLES:Human-Enhanced Robotic Architecture and Capability for Lunar Exploration and Science", desc:"lv:Ariane 64",
@@ -3660,9 +3660,9 @@ esprit: {name:"Gateway ESPRIT:European System Providing Refueling, Infrastructur
 // --- 2028
 cometinterceptor: {name:"Comet Interceptor", desc:"lv:Ariane 62", 
   parts: [
-    {names:"A", type:"fbm", dest:"com", stat:"pl", ctry:"eu", desc:"ag:esa;dim:;m:900kg;sc:0.4;fam:F-Class", id:"", url:"hp:www.cometinterceptor.space/;tw:twitter.com/CometIntercept",  icon:"comint-a.png"},
-    {names:"B1", type:"fbm", dest:"com", stat:"pl", ctry:"jp", desc:"ag:jaxa;dim:;m:;sc:0.5", id:"", url:"", icon:"comint-b1.png"},
-    {names:"B2", type:"", dest:"com", stat:"pl", ctry:"eu", desc:"ag:esa;dim:;m:;sc:0.3", id:"", url:"",  icon:"comint-b2.png"}
+    {names:"A", type:"fbm", dest:"com", stat:"pl", ctry:"eu", desc:"ag:esa;dim:;m:900kg;sc:0.4;fam:F-Class", id:"", url:"hp:www.cometinterceptor.space/;tw:twitter.com/CometIntercept",  icon:"comet-interceptor-a.png"},
+    {names:"B1", type:"fbm", dest:"com", stat:"pl", ctry:"jp", desc:"ag:jaxa;dim:;m:;sc:0.5", id:"", url:"", icon:"comet-interceptor-b1.png"},
+    {names:"B2", type:"", dest:"com", stat:"pl", ctry:"eu", desc:"ag:esa;dim:;m:;sc:0.3", id:"", url:"",  icon:"comet-interceptor-b2.png"}
   ], events: [
     {pt:"", dt:"2029", type:"l", loc:"ter:kou:ELA-4", desc:""},
     {pt:"", dt:"2029", type:"oi", loc:"sol:esl2", desc:""},
