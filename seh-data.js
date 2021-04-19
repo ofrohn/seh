@@ -3469,7 +3469,7 @@ osirisrex: {name:"OSIRIS-REx:Origins-Spectral Interpretation-Resource Identifica
     {pt:"", type:"app", dt:"2020-04-14", loc:"ast:75m", desc:"Sample acquisition rehearsal 1"},
     {pt:"", type:"app", dt:"2020-06", loc:"ast", desc:"Sample acquisition rehearsal 2"},
     {pt:"", type:"sc", dt:"2020-10-20", loc:"ast", desc:"Nightingale crater"},
-    {pt:"", type:"fb", dt:"2021-04-06", loc:"ast:3.7km", desc:"Close flyby"},
+    {pt:"", type:"fb", dt:"2021-04-07", loc:"ast:3.7km", desc:"Close flyby"},
     {pt:"", type:"dep", dt:"2021-05-10", loc:"ast", desc:"Begin Earth Return Cruise"},
     {pt:"", type:"edl", dt:"2023-09-24", loc:"ter", desc:"src;UTTR, Utah;eom:srm"}
     // Apophis oi 2029-04-21
@@ -3640,7 +3640,7 @@ mars2020rover: {name:"Perseverance", desc:"lv:Atlas V 541",
     {pt:"", type:"toi", dt:"2020-07-30", loc:"sol:hto", desc:""},
     {pt:"", type:"edl", dt:"2021-02-18", loc:"mar:18.4446N,77.4508E", desc:"Jezero Crater;Octavia E. Butler Landing;show:Perseverance"},
     {pt:"", type:"sep", dt:"2021-04-04", loc:"mar", desc:"Rover/Helicopter probe"},
-    {pt:"1", type:"l", dt:"2021-04-11", loc:"mar", desc:"Helicopter probe"},
+    {pt:"1", type:"l", dt:"2021-04-19", loc:"mar", desc:"Helicopter probe"},
     {pt:"1", type:"tos", dt:"2021-05", loc:"mar", desc:"eom:dm;Helicopter probe"},
     {pt:"0", type:"nom", dt:"2023-01", loc:"mar", desc:"?"},
     {pt:"0", type:"pom", dt:"l+10yr", loc:"mar", desc:"?"}
@@ -3984,7 +3984,7 @@ lunarpathfinder: {name:"Lunar Pathfinder", desc:"",
     {pt:"", type:"nom", dt:"2031", loc:"lun", desc:""}
 ]},
 // --- 2023
-viper: {name:"VIPER:Volatiles Investigating Polar Exploration Rover", desc:"lv:TBA",
+viper: {name:"VIPER:Volatiles Investigating Polar Exploration Rover", desc:"lv:Falcon Heavy",
   parts:[
     {names:"", type:"rvm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,ames,jsc;m:420kg;dim:1.5x1.5x2m;fam:clps;sc:0.25", id:"", url:"hp:www.nasa.gov/viper", icon:"viper.png"},
     {names:"Griffin Lander", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Astrobotic;fam:clps", id:"", url:"Griffin:www.astrobotic.com/griffin", icon:"griffin.png"}], 
@@ -4154,10 +4154,12 @@ lunartrailblazer: {name:"Lunar Trailblazer", desc:"lv:Falcon 9",
 ]},
 em3: {name:"Artemis-3", desc:"lv:SLS 1B", stat:"pl", 
   parts:[
-    {names:"EM-3:Exploration Mission 3", type:"hm", dest:"lun", ctry:"us;eu", desc:"ag:nasa,jsc,esa;m:21250kg;sc:0.6;ESPRIT Module", id:"", url:"hp:www.nasa.gov/artemisprogram;esa:www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Orion/Artemis_3;tw:twitter.com/NASAArtemis", icon:"orion.png"}],
+    {names:"EM-3:Exploration Mission 3", type:"hm", dest:"lun", ctry:"us;eu", desc:"ag:nasa,jsc,esa;m:21250kg;sc:0.6", id:"", url:"hp:www.nasa.gov/artemisprogram;esa:www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Orion/Artemis_3;tw:twitter.com/NASAArtemis", icon:"orion.png"},
+    {names:"Starship HLS", type:"hm", dest:"lun", ctry:"us", desc:"ag:nasa,spacex;m:1320000kg;sc:0.6", id:"", url:"HLS:www.spacex.com/human-spaceflight/moon/index.html", icon:"starship-hls.png"}
+    ],
   events:[
     {pt:"", type:"l", dt:"2024", loc:"ter:ksc:LC-39B", desc:""},
-    {pt:"", type:"td", dt:"l+4dy", loc:"lun", desc:"?"},
+    {pt:"", type:"td", dt:"l+4dy", loc:"lun", desc:"HLS"},
     {pt:"0", type:"edl", dt:"l+30dy", loc:"ter", desc:"eom"}
 ]},
 rashid: {name:"Rashid", desc:"",
@@ -6825,7 +6827,7 @@ cz-8
 
 Common.lc = {
 ksc: {name:"Cape Canaveral:Kennedy Space Center", ctry:"us", desig:"KSC:Kennedy Space Center", desc:"url:www.nasa.gov/centers/kennedy/home/index.html;loc:28.585N,80.650W;show:KSC:NW;shmap:NW;reg:Florida, USA;az:35..120;kml:zgUqCFI4a2eQ.kYxmouB-sIvs", map:"ksc.png"},
-cap: {name:"Cape Canaveral:Cape Canaveral Air Force Station", other:"Eastern Range", ctry:"us", desig:"CCAFS:Cape Canaveral Air Force Station", desc:"url:www.patrick.af.mil/;loc:28.489N,80.578W;show:CCAFS:SW;reg:Florida, USA;x:168;y:96;az:35..120;kml:zgUqCFI4a2eQ.kJnvBYGeXpBY", map:"ccafs.png"},
+cap: {name:"Cape Canaveral:Cape Canaveral Space Force Station", other:"Eastern Range", ctry:"us", desig:"CCSFS:Cape Canaveral Space Force Station", desc:"url:www.patrick.af.mil/;loc:28.489N,80.578W;show:CCAFS:SW;reg:Florida, USA;x:168;y:96;az:35..120;kml:zgUqCFI4a2eQ.kJnvBYGeXpBY", map:"ccafs.png"},
 van: {name:"Vandenberg:Vandenberg Air Force Base", other:"Western Range", ctry:"us", desig:"VAFB:Vandenberg Air Force Base", desc:"url:www.vandenberg.af.mil/;loc:34.7328N,120.5681W;show:VAFB:SW;shmap:W;reg:California, USA;x:192;y:96;az:147..235;kml:zgUqCFI4a2eQ.kXXtLBJrPZRY", map:"vafb.png"},
 wal: {name:"Wallops Island:Mid-Atlantic Regional Spaceport", other:"Wallops Island Flight Facility", ctry:"us", desig:"MARS:Mid-Atlantic Regional Spaceport", desc:"url:www.marsspaceport.com/;loc:37.8433N,75.4780W;show:MARS:NE;shmap:W;reg:Wallops Island, Virginia, USA;x:216;y:96;az:60..129;kml:zgUqCFI4a2eQ.kHJ6lFxPAwJQ", map:"wff-mars.png"},
 boc: {name:"SpaceX:SpaceX South Texas Launch Site", other:"Boca Chica", ctry:"us", desig:"SpaceX", desc:"url:;loc:25.996N,97.154W;show:SpX;shmap:W;reg:Cameron County, Texas, USA;az:93..113;kml:", map:"spacex-tx.png"},

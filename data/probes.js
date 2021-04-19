@@ -2811,7 +2811,7 @@ osirisrex: {name:"OSIRIS-REx:Origins-Spectral Interpretation-Resource Identifica
     {pt:"", type:"app", dt:"2020-04-14", loc:"ast:75m", desc:"Sample acquisition rehearsal 1"},
     {pt:"", type:"app", dt:"2020-06", loc:"ast", desc:"Sample acquisition rehearsal 2"},
     {pt:"", type:"sc", dt:"2020-10-20", loc:"ast", desc:"Nightingale crater"},
-    {pt:"", type:"fb", dt:"2021-04-06", loc:"ast:3.7km", desc:"Close flyby"},
+    {pt:"", type:"fb", dt:"2021-04-07", loc:"ast:3.7km", desc:"Close flyby"},
     {pt:"", type:"dep", dt:"2021-05-10", loc:"ast", desc:"Begin Earth Return Cruise"},
     {pt:"", type:"edl", dt:"2023-09-24", loc:"ter", desc:"src;UTTR, Utah;eom:srm"}
     // Apophis oi 2029-04-21
@@ -2982,7 +2982,7 @@ mars2020rover: {name:"Perseverance", desc:"lv:Atlas V 541",
     {pt:"", type:"toi", dt:"2020-07-30", loc:"sol:hto", desc:""},
     {pt:"", type:"edl", dt:"2021-02-18", loc:"mar:18.4446N,77.4508E", desc:"Jezero Crater;Octavia E. Butler Landing;show:Perseverance"},
     {pt:"", type:"sep", dt:"2021-04-04", loc:"mar", desc:"Rover/Helicopter probe"},
-    {pt:"1", type:"l", dt:"2021-04-11", loc:"mar", desc:"Helicopter probe"},
+    {pt:"1", type:"l", dt:"2021-04-19", loc:"mar", desc:"Helicopter probe"},
     {pt:"1", type:"tos", dt:"2021-05", loc:"mar", desc:"eom:dm;Helicopter probe"},
     {pt:"0", type:"nom", dt:"2023-01", loc:"mar", desc:"?"},
     {pt:"0", type:"pom", dt:"l+10yr", loc:"mar", desc:"?"}
@@ -3326,7 +3326,7 @@ lunarpathfinder: {name:"Lunar Pathfinder", desc:"",
     {pt:"", type:"nom", dt:"2031", loc:"lun", desc:""}
 ]},
 // --- 2023
-viper: {name:"VIPER:Volatiles Investigating Polar Exploration Rover", desc:"lv:TBA",
+viper: {name:"VIPER:Volatiles Investigating Polar Exploration Rover", desc:"lv:Falcon Heavy",
   parts:[
     {names:"", type:"rvm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,ames,jsc;m:420kg;dim:1.5x1.5x2m;fam:clps;sc:0.25", id:"", url:"hp:www.nasa.gov/viper", icon:"viper.png"},
     {names:"Griffin Lander", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Astrobotic;fam:clps", id:"", url:"Griffin:www.astrobotic.com/griffin", icon:"griffin.png"}], 
@@ -3496,10 +3496,12 @@ lunartrailblazer: {name:"Lunar Trailblazer", desc:"lv:Falcon 9",
 ]},
 em3: {name:"Artemis-3", desc:"lv:SLS 1B", stat:"pl", 
   parts:[
-    {names:"EM-3:Exploration Mission 3", type:"hm", dest:"lun", ctry:"us;eu", desc:"ag:nasa,jsc,esa;m:21250kg;sc:0.6;ESPRIT Module", id:"", url:"hp:www.nasa.gov/artemisprogram;esa:www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Orion/Artemis_3;tw:twitter.com/NASAArtemis", icon:"orion.png"}],
+    {names:"EM-3:Exploration Mission 3", type:"hm", dest:"lun", ctry:"us;eu", desc:"ag:nasa,jsc,esa;m:21250kg;sc:0.6", id:"", url:"hp:www.nasa.gov/artemisprogram;esa:www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Orion/Artemis_3;tw:twitter.com/NASAArtemis", icon:"orion.png"},
+    {names:"Starship HLS", type:"hm", dest:"lun", ctry:"us", desc:"ag:nasa,spacex;m:1320000kg;sc:0.6", id:"", url:"HLS:www.spacex.com/human-spaceflight/moon/index.html", icon:"starship-hls.png"}
+    ],
   events:[
     {pt:"", type:"l", dt:"2024", loc:"ter:ksc:LC-39B", desc:""},
-    {pt:"", type:"td", dt:"l+4dy", loc:"lun", desc:"?"},
+    {pt:"", type:"td", dt:"l+4dy", loc:"lun", desc:"HLS;Near South pole"},
     {pt:"0", type:"edl", dt:"l+30dy", loc:"ter", desc:"eom"}
 ]},
 rashid: {name:"Rashid", desc:"",

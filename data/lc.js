@@ -2,7 +2,7 @@
 
 Common.lc = {
 ksc: {name:"Cape Canaveral:Kennedy Space Center", ctry:"us", desig:"KSC:Kennedy Space Center", desc:"url:www.nasa.gov/centers/kennedy/home/index.html;loc:28.585N,80.650W;show:KSC:NW;shmap:NW;reg:Florida, USA;az:35..120;kml:zgUqCFI4a2eQ.kYxmouB-sIvs", map:"ksc.png"},
-cap: {name:"Cape Canaveral:Cape Canaveral Air Force Station", other:"Eastern Range", ctry:"us", desig:"CCAFS:Cape Canaveral Air Force Station", desc:"url:www.patrick.af.mil/;loc:28.489N,80.578W;show:CCAFS:SW;reg:Florida, USA;x:168;y:96;az:35..120;kml:zgUqCFI4a2eQ.kJnvBYGeXpBY", map:"ccafs.png"},
+cap: {name:"Cape Canaveral:Cape Canaveral Space Force Station", other:"Eastern Range", ctry:"us", desig:"CCSFS:Cape Canaveral Space Force Station", desc:"url:www.patrick.af.mil/;loc:28.489N,80.578W;show:CCAFS:SW;reg:Florida, USA;x:168;y:96;az:35..120;kml:zgUqCFI4a2eQ.kJnvBYGeXpBY", map:"ccafs.png"},
 van: {name:"Vandenberg:Vandenberg Air Force Base", other:"Western Range", ctry:"us", desig:"VAFB:Vandenberg Air Force Base", desc:"url:www.vandenberg.af.mil/;loc:34.7328N,120.5681W;show:VAFB:SW;shmap:W;reg:California, USA;x:192;y:96;az:147..235;kml:zgUqCFI4a2eQ.kXXtLBJrPZRY", map:"vafb.png"},
 wal: {name:"Wallops Island:Mid-Atlantic Regional Spaceport", other:"Wallops Island Flight Facility", ctry:"us", desig:"MARS:Mid-Atlantic Regional Spaceport", desc:"url:www.marsspaceport.com/;loc:37.8433N,75.4780W;show:MARS:NE;shmap:W;reg:Wallops Island, Virginia, USA;x:216;y:96;az:60..129;kml:zgUqCFI4a2eQ.kHJ6lFxPAwJQ", map:"wff-mars.png"},
 boc: {name:"SpaceX:SpaceX South Texas Launch Site", other:"Boca Chica", ctry:"us", desig:"SpaceX", desc:"url:;loc:25.996N,97.154W;show:SpX;shmap:W;reg:Cameron County, Texas, USA;az:93..113;kml:", map:"spacex-tx.png"},
