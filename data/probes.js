@@ -3052,7 +3052,7 @@ capstone: {name:"CAPSTONE:Cislunar Autonomous Positioning System Technology Oper
   parts:[
     {names:"", type:"om", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Advanced Space;fam:SBIR;12U Cubesat;m:25kg;sc:0.5", id:"", url:"hp:www.nasa.gov/directorates/spacetech/small_spacecraft/capstone;RocketLab:www.rocketlabusa.com/missions/lunar/", icon:"capstone.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2021-04-18", loc:"ter:wal:LC-2", desc:""},
+    {pt:"", type:"l", dt:"2021-07", loc:"ter:wal:LC-2", desc:"Q3"},
     {pt:"", type:"oi", dt:"l+4m", loc:"lun:nrho", desc:""},
     {pt:"", type:"nom", dt:"2023", loc:"lun", desc:""}
 ]},
@@ -3179,7 +3179,7 @@ dart: {name:"DART:Double Asteroid Redirection Test", desc:"lv:Falcon 9",
     {pt:"", type:"nom", dt:"2022-09", loc:"ast", desc:"eom"}
 ]},
 //CubeRover
-peregrine: {name:"Peregrine 1", desc:"lv:Vulcan Centaur-522",
+peregrine: {name:"Peregrine 1", desc:"lv:Vulcan Centaur-2S",
   parts:[
     {names:"M1:Mission 1", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Astrobotic;fam:clps;dim:1.9x1.9x2.5m;m:1313kg;sc:0.3", id:"", url:"hp:www.astrobotic.com/peregrine;clps:nasa.gov/content/commercial-lunar-payload-services", icon:"peregrin.png"}], 
   events:[
