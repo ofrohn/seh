@@ -63,8 +63,8 @@ mer:
    desc:"sc:3;url:nssdc.gsfc.nasa.gov/planetary/planets/mercurypage.html;x:24;y:24"},
 ven:
   {name:"Venus", other:"", desig:"c", type:"p", par:"sol", disc:"(Prehistoric)", dyr:"",
-   a:"0.723au", e:"0.0068", i:"3.395", per:"0.615a", rot:"-243.018d", daylen:"116.749d",
-   h:"-4.47", mass:"4.867e24kg", dia:"12103.6km/0", rad:"6051.8/0", tilt:"177.3",
+   a:"0.723au", e:"0.0068", i:"3.395", per:"0.615a", rot:"243.0226d", daylen:"116.749d",
+   h:"-4.47", mass:"4.867e24kg", dia:"12103.6km/0", rad:"6051.8/0", tilt:"177.36",
    irad:"2613.9", alb:"0.67", grav:"0.905", hill:"167.1", rrl:"2.19", frl:"4.21",
    comp:"Rock+Metal+core:53", dens:"5.243", atm:"CO2:96.5+N2:3.5", atp:"92", temp:"738K",
    img:"venus2.png", map:"venus-topo.jpg", col:"#ddc", ind:"2",
@@ -111,7 +111,7 @@ deim:
 //Asteroid belt & NEOs
 sbo:
   {name:"Small Bodies", other:"", desig:"", type:"b", par:"sol", disc:"", dyr:"",
-   com:"4341", ast:"1026572", cen:"Atiras:45;Atens:1857;Apollos:12406;Amors:10288;Hungarias:24673;Mars-Crossers:17079;Main Belt:962821;Hildas:4614;Jupiter Trojans:9401;Comets:4341;Damocloids:157",
+   com:"4341", ast:"1074504", cen:"Atiras:46;Atens:1990;Apollos:13143;Amors:10682;Hungarias:26349;Mars-Crossers:17762;Main Belt:1008365;Hildas:4845;Jupiter Trojans:10185;Comets:4597;Damocloids:157",
    img:"mab.png", map:"sbo.png", col:"#9f9", ind:"6", 
    url:"haz:neo.jpl.nasa.gov/risk/",
    desc:"sc:30;scmoons:0.25;url:www.minorplanetcenter.net;rsize:1800,140;x:24;y:48"},
@@ -275,8 +275,8 @@ dona:
 didy:
   {name:"Didymos", other:"1996 GT", desig:"65803", type:"a", par:"sol", disc:"Spacewatch", dyr:"1996",
    a:"1.6446au", e:"0.3839", i:"3.4083", per:"2.11a", rot:"2.26h", gr:"nea:Apollo;pha",
-   h:"18.16", mass:"", dia:"0.78km", rad:"0.365", tilt:"",
-   alb:"0.15", grav:"", comp:"Metallic", dens:"2.1", spec:"Xk", temp:"",
+   h:"18.16", mass:"5.3e11kg", dia:"0.78km", rad:"0.39", tilt:"",
+   alb:"0.15", grav:"", comp:"Metallic", dens:"2.17", spec:"Xk", temp:"",
    img:"", desc:"sc:6;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=didymos;orb:ec.2017-09-04"},
 didym:
   {name:"Dimorphos", other:"S/2003 (65803)", desig:"", type:"m", par:"didy", disc:"P. Pravec et al.", dyr:"2003",
@@ -1615,7 +1615,7 @@ s2004n1:
    img:"", desc:"sc:3;url:solarsystem.nasa.gov/moons/neptune-moons/s-2004-n1/in-depth/;orb:ec.2013-01-01"},
 tno:
   {name:"Transneptunian Objects", other:"", desig:"", type:"b", par:"sol", disc:"", dyr:"", m:"1.17e23kg",
-   tno:"3991", cen:"Neptune Trojans:24;Centaurs/Scattered Disk Objects:1085;Detached:79;Plutinos:~600;Other Resonant:~400;Classical KBOs:~1000",
+   tno:"4061", cen:"Neptune Trojans:24;Centaurs/Scattered Disk Objects:1085;Detached:79;Plutinos:~600;Other Resonant:~400;Classical KBOs:~1000",
    img:"kb.png", map:"tno.png", col:"#9fc", ind:"11", 
    desc:"sc:30;scmoons:0.05;url:www.minorplanetcenter.net;rsize:1800,200;x:72;y:72"},
 //Pluto system

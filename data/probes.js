@@ -2983,7 +2983,7 @@ mars2020rover: {name:"Perseverance", desc:"lv:Atlas V 541",
     {pt:"", type:"edl", dt:"2021-02-18", loc:"mar:18.4446N,77.4508E", desc:"Jezero Crater;Octavia E. Butler Landing;show:Perseverance"},
     {pt:"", type:"sep", dt:"2021-04-04", loc:"mar", desc:"Rover/Helicopter probe"},
     {pt:"1", type:"l", dt:"2021-04-19", loc:"mar", desc:"Helicopter probe"},
-    {pt:"1", type:"tos", dt:"2021-05", loc:"mar", desc:"eom:dm;Helicopter probe"},
+    {pt:"1", type:"tos", dt:"2021-06", loc:"mar", desc:"eom:dm;Helicopter probe"},
     {pt:"0", type:"nom", dt:"2023-01", loc:"mar", desc:"?"},
     {pt:"0", type:"pom", dt:"l+10yr", loc:"mar", desc:"?"}
 ]},
@@ -2997,7 +2997,7 @@ mgrso: {name:"Tianwen-1:Skyquest-1", desc:"lv:CZ-5",
     {pt:"", type:"toi", dt:"2020-07-23", loc:"sol:hto", desc:""},
     {pt:"", type:"oi", dt:"2021-02-10", loc:"mar:445x180011kmx10.4deg", desc:"Capture orbit"},
     {pt:"", type:"sco", dt:"2021-02-24", loc:"mar:280x59000kmx87.7deg", desc:"Polar reconnaissance orbit;per:2d"},
-    {pt:"1", type:"edl", dt:"2021-05", loc:"mar:24.748N,110.318E", desc:"lp;Utopia Planitia;show:Tianwen-1:NE"},
+    {pt:"1", type:"edl", dt:"2021-05-14", loc:"mar:24.748N,110.318E", desc:"lp;Utopia Planitia;show:Zhurong:NE"},
     {pt:"2", type:"nom", dt:"2021-08", loc:"mar", desc:"rvp;eom:slm;eom:rvm"},
     {pt:"0", type:"sco", dt:"2021-08", loc:"mar:400x15000kmx86.9deg", desc:"Scientific orbit;per:8.2h"},
     {pt:"0", type:"sco", dt:"2022", loc:"mar:265x12000kmx87.7deg", desc:"Final scientific orbit;per:7.8h"},
@@ -3026,7 +3026,7 @@ change5: {name:"Chang'e 5", desc:"lv:CZ-5",
     {pt:"", type:"sco", dt:"2020-11-29", loc:"lun:220kmx42.4deg", desc:""},
     {pt:"", type:"sep", dt:"2020-11-29", loc:"lun", desc:"op/lp"},
     {pt:"", type:"deo", dt:"2020-11-30", loc:"lun:220x18kmx42.4deg", desc:"lp"},
-    {pt:"", type:"td", dt:"2020-12-01", loc:"lun:51.8W,43.1N", desc:"lp;NW Oceanus Procellarum, Louville Omega;show:CE5"},
+    {pt:"", type:"td", dt:"2020-12-01", loc:"lun:51.92W,43.06N", desc:"lp;NW Oceanus Procellarum, Louville Omega;show:CE5"},
     {pt:"", type:"sc", dt:"2020-12-02", loc:"lun", desc:"lp;mat:1.731kg"},
     {pt:"", type:"l", dt:"2020-12-03", loc:"lun", desc:"as;eom:slm"},
     {pt:"", type:"doc", dt:"2020-12-05", loc:"lun", desc:"op/as"},
@@ -3188,14 +3188,6 @@ peregrine: {name:"Peregrine 1", desc:"lv:Vulcan Centaur-2S",
     {pt:"", type:"td", dt:"l+18d", loc:"lun:43.914N,25.148E", desc:"Lacus Mortis"},
     {pt:"", type:"nom", dt:"l+2mo", loc:"lun", desc:""}
 ]},
-novac: {name:"NOVA-C", desc:"lv:Falcon 9",
-  parts:[
-    {names:"", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Intuitive Machines;fam:clps;m:1700kg;sc:0.3", id:"", url:"hp:intuitivemachines.com/lunarlander;clps:nasa.gov/content/commercial-lunar-payload-services", icon:"novac.png"}], 
-  events:[
-    {pt:"", type:"l", dt:"2021-10-11", loc:"ter:cap", desc:""},
-    {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:"Vallis Schröteri, Oceanus Procellarum"},
-    {pt:"", type:"nom", dt:"l+20dy", loc:"lun", desc:""}
-]},
 // --- 2022
 aditya:{name:"Aditya-L1", desc:"lv:PSLV XL", stat:"pl", 
   parts: [
@@ -3205,6 +3197,14 @@ aditya:{name:"Aditya-L1", desc:"lv:PSLV XL", stat:"pl",
     {pt:"", dt:"l+100dy", type:"sco", loc:"sol:esl1", desc:"Halo Orbit"},
     {pt:"", type:"nom", dt:"l+2yr", loc:"sol:esl1", desc:"?"},
     {pt:"", type:"pom", dt:"l+10yr", loc:"sol:esl1", desc:"?"},
+]},
+novac: {name:"NOVA-C", desc:"lv:Falcon 9",
+  parts:[
+    {names:"IM-1", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Intuitive Machines;fam:clps;m:1900kg;sc:0.3", id:"", url:"hp:intuitivemachines.com/lunarlander;clps:nasa.gov/content/commercial-lunar-payload-services", icon:"novac.png"}], 
+  events:[
+    {pt:"", type:"l", dt:"2022-01", loc:"ter:cap", desc:""},
+    {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:"Vallis Schröteri, Oceanus Procellarum"},
+    {pt:"", type:"nom", dt:"l+20dy", loc:"lun", desc:""}
 ]},
 kplo: {name:"KPLO:Korean Pathfinder Lunar Orbiter", desc:"lv:Falcon 9",
   parts:[
@@ -3287,6 +3287,14 @@ psyche: {name:"Psyche", desc:"lv:Falcon Heavy",
     {pt:"0", type:"sco", dt:"2026-09", loc:"ast:192km", desc:"Elemental mapping orbit"},  
     {pt:"0", type:"nom", dt:"2027-10", loc:"ast", desc:"?"},
     {pt:"0", type:"pom", dt:"2029-10", loc:"ast", desc:"?"}
+]},
+novac: {name:"NOVA-C", desc:"lv:Falcon 9",
+  parts:[
+    {names:"IM-2", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Intuitive Machines;fam:clps;m:1900kg;sc:0.3", id:"", url:"hp:intuitivemachines.com/lunarlander;clps:nasa.gov/content/commercial-lunar-payload-services", icon:"novac.png"}], 
+  events:[
+    {pt:"", type:"l", dt:"2022-12", loc:"ter:cap", desc:""},
+    {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:"South Pole"},
+    {pt:"", type:"nom", dt:"l+20dy", loc:"lun", desc:""}
 ]},
 zhenghe: {name:"Zheng He", desc:"lv:CZ-3B",  
   parts:[
@@ -3450,11 +3458,11 @@ change6: {name:"Chang'e 6", desc:"lv:CZ-5",
     {pt:"", type:"toi", dt:"l+25dy", loc:"lun", desc:"op/src"},
     {pt:"", type:"edl", dt:"l+30dy", loc:"ter", desc:"src;Siziwang Banner, Inner Mongolia;eom"}
 ]},
-hera: {name:"Hera", desc:"lv:Soyuz 2.1B",
+hera: {name:"Hera", desc:"lv:Ariane 6",
   parts:[
     {names:"", type:"om", dest:"ast", stat:"pl", ctry:"eu", desc:"ag:esa;fam:AIDA;m:870kg;sc:0.7", id:"", url:"hp:www.esa.int/Safety_Security/Hera", icon:"hera.png"},
-    {names:"APEX:Asteroid Prospection Explorer", type:"om", dest:"ast", stat:"pl", ctry:"eu", desc:"ag:esa;sc:0.5", id:"", url:"APEX:www.esa.int/Safety_Security/Hera/Deep_space_CubeSats", icon:"apex.png"},
-    {names:"Juventas", type:"om", dest:"ast", stat:"pl", ctry:"eu", desc:"ag:GomSpace,GMV;sc:0.6", id:"", url:"Juventas:www.esa.int/Safety_Security/Hera/Hera_s_CubeSat_to_perform_first_radar_probe_of_an_asteroid", icon:"juventas.png"}
+    {names:"APEX:Asteroid Prospection Explorer", type:"om", dest:"ast", stat:"pl", ctry:"eu", desc:"ag:esa;sc:0.5", id:"", url:"APEX:www.esa.int/Safety_Security/Hera/Deep_space_CubeSats", icon:"hera-apex.png"},
+    {names:"Juventas", type:"om", dest:"ast", stat:"pl", ctry:"eu", desc:"ag:GomSpace,GMV;sc:0.6", id:"", url:"Juventas:www.esa.int/Safety_Security/Hera/Hera_s_CubeSat_to_perform_first_radar_probe_of_an_asteroid", icon:"hera-juventas.png"}
   ], events:[
     {pt:"", type:"l", dt:"2024-10", loc:"ter:kou", desc:""},
     {pt:"", type:"oi", dt:"2024-10", loc:"sol:ho", desc:""},
@@ -3500,7 +3508,7 @@ lunartrailblazer: {name:"Lunar Trailblazer", desc:"lv:Falcon 9",
 em3: {name:"Artemis-3", desc:"lv:SLS 1B", stat:"pl", 
   parts:[
     {names:"EM-3:Exploration Mission 3", type:"hm", dest:"lun", ctry:"us;eu", desc:"ag:nasa,jsc,esa;m:21250kg;sc:0.6", id:"", url:"hp:www.nasa.gov/artemisprogram;esa:www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Orion/Artemis_3;tw:twitter.com/NASAArtemis", icon:"orion.png"},
-    {names:"Starship HLS", type:"hm", dest:"lun", ctry:"us", desc:"ag:nasa,spacex;m:1320000kg;sc:0.6", id:"", url:"HLS:www.spacex.com/human-spaceflight/moon/index.html", icon:"starship-hls.png"}
+    {names:"Moonship", type:"hm", dest:"lun", ctry:"us", desc:"ag:nasa,spacex;m:1320000kg;sc:0.6", id:"", url:"HLS:www.spacex.com/human-spaceflight/moon/index.html", icon:"starship-hls.png"}
     ],
   events:[
     {pt:"", type:"l", dt:"2024", loc:"ter:ksc:LC-39B", desc:""},
