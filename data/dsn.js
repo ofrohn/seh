@@ -9,7 +9,7 @@ mdscc: {name:"DSN Madrid:Madrid Deep Space Communications Complex", ctry:"us;es"
 dsa3: {name:"ESTRACK Malargüe:Deep Space Antenna 3, Malagüe", ctry:"eu;ar", desig:"DSA 3", desc:"url:estracknow.esa.int;loc:35.776S,69.3982W;ag:esa;show:DSA 3:S;reg:Mendoza, Argentina;dish:1x35m"},
 cdsnjia: {name:"CDSN Jiamusi:Chinese DSN Station Jiamusi", other:"佳木斯", ctry:"cn", desig:"", desc:"url:;loc:46.8N,130.317E;ag:cnsa;show:Jiamusi:W;reg:Jiamusi, China;dish:1x64m"},
 cdsnkash: {name:"CDSN Kashgar:Chinese DSN Station Kashgar", other:"喀什市", ctry:"cn", desig:"", desc:"url:;loc:39.5N,75.0E;ag:cnsa;show:Kashgar:S;reg:Xinjiang, China;dish:3x35m,1x18m"},
-cdsnmi: {name:"CDSN Miyun:Chinese DSN Station Miyun", other:"密云区", ctry:"cn", desig:"", desc:"url:;loc:40.51N,116.89E;ag:cnsa;show:Miyun:S;reg:Beijing, China;dish:1x50m"},
+cdsnmi: {name:"CDSN Miyun:Chinese DSN Station Miyun", other:"密云区", ctry:"cn", desig:"", desc:"url:;loc:40.51N,116.89E;ag:cnsa;show:Miyun:S;reg:Beijing, China;dish:1x50m,1x40m"},
 cdsnkun: {name:"CDSN Kunming:Chinese DSN Station Kunming", other:"昆明", ctry:"cn", desig:"", desc:"url:;loc:24.84N,102.58E;ag:cnsa;show:Kunming:S;reg:Yunnan, China;dish:1x40m"},
 cdsntia: {name:"CDSN Wuqing:Chinese DSN Station Wuqing", other:"", ctry:"cn", desig:"", desc:"url:;loc:39.3844N,117.04439E;ag:cnsa;show:Wuqing:S;reg:Tianjin, China;dish:1x70m"},
 cdsnzap: {name:"CDSN Zapala:Chinese DSN Station Zapala", other:"", ctry:"cn;ar", desig:"", desc:"url:;loc:38.19091S,70.14988W;ag:cnsa;show:Zapala:S;reg:Neuquén, Argentina;dish:1x35m,1x18m"},
