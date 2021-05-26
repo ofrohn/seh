@@ -2999,7 +2999,7 @@ mgrso: {name:"Tianwen-1:Skyquest-1", desc:"lv:CZ-5",
     {pt:"", type:"sco", dt:"2021-02-24", loc:"mar:280x59000kmx87.7deg", desc:"Polar reconnaissance orbit;per:2d"},
     {pt:"1", type:"edl", dt:"2021-05-14", loc:"mar:25.1N,109.7E", desc:"lp;Utopia Planitia;show:Zhurong:NE"},
     {pt:"0", type:"sco", dt:"2021-05-17", loc:"mar:260x16000kmx86.9deg", desc:"op;Scientific orbit;per:8.2h"},
-    {pt:"2", type:"sep", dt:"2021-05-22", loc:"mar", desc:"rvp/slp"},
+    {pt:"2", type:"sep", dt:"2021-05-22", loc:"mar", desc:"rvp/slp;eom:slm"},
     {pt:"2", type:"nom", dt:"2021-08", loc:"mar", desc:"rvp;eom:slm;eom:rvm"},
     {pt:"0", type:"sco", dt:"2022", loc:"mar:265x12000kmx87.7deg", desc:"Final scientific orbit;per:7.8h"},
     {pt:"0", type:"nom", dt:"2023", loc:"mar", desc:"op;?"}
@@ -3027,7 +3027,7 @@ change5: {name:"Chang'e 5", desc:"lv:CZ-5",
     {pt:"", type:"sco", dt:"2020-11-29", loc:"lun:220kmx42.4deg", desc:""},
     {pt:"", type:"sep", dt:"2020-11-29", loc:"lun", desc:"op/lp"},
     {pt:"", type:"deo", dt:"2020-11-30", loc:"lun:220x18kmx42.4deg", desc:"lp"},
-    {pt:"", type:"td", dt:"2020-12-01", loc:"lun:51.92W,43.06N", desc:"lp;NW Oceanus Procellarum, Louville Omega;show:CE5"},
+    {pt:"", type:"td", dt:"2020-12-01", loc:"lun:51.92W,43.06N", desc:"lp;NW Oceanus Procellarum, Louville Omega, Statio Tianchuan;show:CE5"},
     {pt:"", type:"sc", dt:"2020-12-02", loc:"lun", desc:"lp;mat:1.731kg"},
     {pt:"", type:"l", dt:"2020-12-03", loc:"lun", desc:"as;eom:slm"},
     {pt:"", type:"doc", dt:"2020-12-05", loc:"lun", desc:"op/as"},
@@ -3349,7 +3349,7 @@ viper: {name:"VIPER:Volatiles Investigating Polar Exploration Rover", desc:"lv:F
     {pt:"", type:"sep", dt:"l+10d", loc:"lun", desc:"slp/rvp"},
     {pt:"", type:"nom", dt:"l+100d", loc:"lun", desc:""}
 ]},
-blueghost: {name:"Blue Ghost", desc:"lv:TBA",
+blueghost: {name:"Blue Ghost", desc:"lv:Falcon 9",
   parts:[
     {names:"Blue Ghost", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Firefly;fam:clps;m:600kg;sc:0.3", id:"", url:"hp:firefly.com/lunar-lander/;clps:nasa.gov/content/commercial-lunar-payload-services", icon:"blueghost.png"}], 
   events:[
