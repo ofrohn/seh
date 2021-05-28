@@ -1867,7 +1867,7 @@ srg:{name:"Spektr-RG:Spectrum Roentgen Gamma", url:"hp:hea.iki.rssi.ru/SRG/en/in
     {pt:"", dt:"2019-10", tp:"sco", loc:"sol:esl2", desc:""},
     {pt:"", dt:"2026", tp:"eom", loc:"sol:esl2", desc:"pend"}
   ], inst: [
-    {n:"eROSITA", band:"0.3..10keV", res:"15", fov:"0.81deg2", ea:"0.35m2@1.5keV", sres:"7%@1keV", desc:"ag:mpe;c:nl;cl:nly;"},
+    {n:"eROSITA", band:"0.3..10keV", res:"15", fov:"0.81deg2", ea:"0.35m2@1.5keV", px:"", sres:"7%@1keV", desc:"ag:mpe;c:nl;cl:nly;"},
 //    {n:"Lobster", band:"", res:"", desc:"ag:Leicester University;c:nl;"},
     {n:"ART-XC", band:"6..30keV", res:"45", fov:"0.3deg2", desc:"ag:iki;c:nl;"}
 ]},
