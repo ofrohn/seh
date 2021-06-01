@@ -3947,14 +3947,6 @@ psyche: {name:"Psyche", desc:"lv:Falcon Heavy",
     {pt:"0", type:"nom", dt:"2027-10", loc:"ast", desc:"?"},
     {pt:"0", type:"pom", dt:"2029-10", loc:"ast", desc:"?"}
 ]},
-novac: {name:"NOVA-C", desc:"lv:Falcon 9",
-  parts:[
-    {names:"IM-2", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Intuitive Machines;fam:clps;m:1900kg;sc:0.3", id:"", url:"hp:intuitivemachines.com/lunarlander;clps:nasa.gov/content/commercial-lunar-payload-services", icon:"novac.png"}], 
-  events:[
-    {pt:"", type:"l", dt:"2022-12", loc:"ter:cap", desc:""},
-    {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:"South Pole"},
-    {pt:"", type:"nom", dt:"l+20dy", loc:"lun", desc:""}
-]},
 zhenghe: {name:"Zheng He", desc:"lv:CZ-3B",  
   parts:[
     {names:"鄭和;Near-Earth Asteroid Sample Return", type:"srm", dest:"ast", stat:"pl", ctry:"cn", desc:"ag:cnsa;sc:0.6", id:"", url:"", icon:"cnast.png"},
@@ -3981,11 +3973,19 @@ xl1: {name:"XL-1", desc:"lv:Falcon 9",
 ]},
 prime1: {name:"PRIME-1:Polar Resources Ice Mining Experiment", desc:"lv:Falcon 9",
   parts:[
-    {names:"NOVA-C Lander", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Intuitive Machines;fam:clps;m:1700kg;sc:0.3", id:"", url:"hp:intuitivemachines.com/lunarlander;clps:nasa.gov/content/commercial-lunar-payload-services", icon:"novac.png"}], 
+    {names:"NOVA-C IM-2", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Intuitive Machines;fam:clps;m:1700kg;sc:0.3", id:"", url:"hp:intuitivemachines.com/lunarlander;clps:nasa.gov/content/commercial-lunar-payload-services", icon:"novac.png"}], 
   events:[
     {pt:"", type:"l", dt:"2022-12-01", loc:"ter:cap", desc:""},
     {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:"South pole"},
     {pt:"", type:"nom", dt:"l+20dy", loc:"lun", desc:""}
+]},
+hakutor1: {name:"Hakuto-R 1", desc:"lv:Falcon 9",
+  parts:[
+    {names:"", type:"slm", dest:"lun", stat:"pl", ctry:"jp;eu", desc:"ag:ispace;sc:0.5", id:"", url:"hp:ispace-inc.com/hakuto-r/eng/", icon:"hakuto-r.png"}], 
+  events:[
+    {pt:"", type:"l", dt:"2022", loc:"ter:cap", desc:""},
+    {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:"Lacus Somniorum"},
+    {pt:"", type:"nom", dt:"l+3w", loc:"lun", desc:""}
 ]},
 lunarpathfinder: {name:"Lunar Pathfinder", desc:"",
   parts:[
@@ -4069,12 +4069,12 @@ halo_ppe: {name:"Gateway", desc:"lv:Falcon Heavy",
     {pt:"", type:"oi", dt:"l+4m", loc:"lun:nrho", desc:""},
     {pt:"", type:"nom", dt:"2039", loc:"lun", desc:""}
 ]},
-hakutor: {name:"Hakuto-R", desc:"lv:Falcon 9",
+hakutor1: {name:"Hakuto-R 2", desc:"lv:Falcon 9",
   parts:[
-    {names:"", type:"slm", dest:"lun", stat:"pl", ctry:"jp;eu", desc:"ag:ispace;sc:0.5", id:"", url:"hp:ispace-inc.com/hakuto-r/eng/", icon:"hakuto-r.png"}], 
+    {names:"", type:"rvm", dest:"lun", stat:"pl", ctry:"jp;eu", desc:"ag:ispace;sc:0.5", id:"", url:"hp:ispace-inc.com/hakuto-r/eng/", icon:"hakuto-r.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2023-03", loc:"ter:cap", desc:""},
-    {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:"Lacus Somniorum"},
+    {pt:"", type:"l", dt:"2023", loc:"ter:cap", desc:""},
+    {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:""},
     {pt:"", type:"nom", dt:"l+3w", loc:"lun", desc:""}
 ]},
 // --- 2024
@@ -4120,7 +4120,7 @@ change6: {name:"Chang'e 6", desc:"lv:CZ-5",
 hera: {name:"Hera", desc:"lv:Ariane 6",
   parts:[
     {names:"", type:"om", dest:"ast", stat:"pl", ctry:"eu", desc:"ag:esa;fam:AIDA;m:870kg;sc:0.7", id:"", url:"hp:www.esa.int/Safety_Security/Hera", icon:"hera.png"},
-    {names:"APEX:Asteroid Prospection Explorer", type:"om", dest:"ast", stat:"pl", ctry:"eu", desc:"ag:esa;sc:0.5", id:"", url:"APEX:www.esa.int/Safety_Security/Hera/Deep_space_CubeSats", icon:"hera-apex.png"},
+    {names:"APEX:Asteroid Prospection Explorer", type:"om", dest:"ast", stat:"pl", ctry:"eu", desc:"ag:esa;sc:0.5", id:"", url:"APEX:www.esa.int/Safety_Security/Hera/Hera_s_APEX_CubeSat_will_reveal_the_stuff_that_asteroids_are_made_of", icon:"hera-apex.png"},
     {names:"Juventas", type:"om", dest:"ast", stat:"pl", ctry:"eu", desc:"ag:GomSpace,GMV;sc:0.6", id:"", url:"Juventas:www.esa.int/Safety_Security/Hera/Hera_s_CubeSat_to_perform_first_radar_probe_of_an_asteroid", icon:"hera-juventas.png"}
   ], events:[
     {pt:"", type:"l", dt:"2024-10", loc:"ter:kou", desc:""},
