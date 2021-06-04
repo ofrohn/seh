@@ -3251,7 +3251,7 @@ juno: {name:"Juno", desc:"lv:Atlas V 551", stat:"o",
     {pt:"", type:"app", dt:"2016-06-06", loc:"jup", desc:"Close approach phase"},
     {pt:"", type:"oi", dt:"2016-07-05", loc:"jup:3900x8029000kmx89.8deg", desc:"per:53.5d;75 polar orbits"},
     //{pt:"", type:"sco", dt:"2016-12-11", loc:"jup:5000x3500000kmx89.9deg", desc:"per:14d;Polar orbit"},
-    {pt:"", type:"fb", dt:"2021-06-07", loc:"gany:1000km", desc:"PJ #34"},
+    {pt:"", type:"fb", dt:"2021-06-07", loc:"gany:1038km", desc:"PJ #34"},
     {pt:"", type:"ev", dt:"2021-07-20", loc:"jup", desc:"Begin extended mission of 42 orbits & moon flybys"},
     {pt:"", type:"fb", dt:"2022-09-29", loc:"euro:320km", desc:"PJ #45"},
     {pt:"", type:"fb", dt:"2023-12-30", loc:"io:1500km", desc:"PJ #57"},
@@ -3291,7 +3291,7 @@ msl: {name:"Curiosity", desc:"lv:Atlas V 541",
     {pt:"", type:"ev", dt:"2012-08-15..2013-06-05", loc:"mar", desc:"Instrument checkout;Drive to Glenelg"},
     {pt:"", type:"arr", dt:"2014-09-11", loc:"mar", desc:"Mt. Sharp"},
     {pt:"", type:"obs", dt:"2014-10-19", loc:"mar", desc:"Comet C 2013 A1 Siding Spring"},
-    {pt:"", type:"ex", dt:"", loc:"mar", desc:"Drive up Mt. Sharp;rv:24.7km;and counting"},
+    {pt:"", type:"ex", dt:"", loc:"mar", desc:"Drive up Mt. Sharp;rv:25km;and counting"},
     {pt:"", type:"nom", dt:"2022-09-30", loc:"mar", desc:"pend"},
     {pt:"", type:"pom", dt:"2024-11-15", loc:"mar", desc:"?"}
 ]},
@@ -4069,7 +4069,7 @@ halo_ppe: {name:"Gateway", desc:"lv:Falcon Heavy",
     {pt:"", type:"oi", dt:"l+4m", loc:"lun:nrho", desc:""},
     {pt:"", type:"nom", dt:"2039", loc:"lun", desc:""}
 ]},
-hakutor1: {name:"Hakuto-R 2", desc:"lv:Falcon 9",
+hakutor2: {name:"Hakuto-R 2", desc:"lv:Falcon 9",
   parts:[
     {names:"", type:"rvm", dest:"lun", stat:"pl", ctry:"jp;eu", desc:"ag:ispace;sc:0.5", id:"", url:"hp:ispace-inc.com/hakuto-r/eng/", icon:"hakuto-r.png"}], 
   events:[
@@ -4311,7 +4311,7 @@ change8: {name:"Chang'e 8", desc:"lv:CZ-5",
 ]},
 venerad: {name:"Venera-D", desc:"lv:Angara-A5/Blok-DM",
   parts:[
-    {names:"Венера-Д", type:"om", dest:"ven", stat:"pl", ctry:"ru", desc:"ag:rosc,iki;m:3600kg;sc:0.7", id:"", url:"hp:venera-d.cosmos.ru/index.php?id=658&L=2", icon:"venera-d.png"},
+    {names:"Венера-Д", type:"om", dest:"ven", stat:"pl", ctry:"ru", desc:"ag:rosc,iki;m:3600kg;sc:0.55", id:"", url:"hp:venera-d.cosmos.ru/index.php?id=658&L=2", icon:"venera-d.png"},
     {names:"", type:"slm", dest:"ven", stat:"pl", ctry:"ru", desc:"", id:"", url:"", icon:""}], 
   events:[
     {pt:"", type:"l", dt:"2027", loc:"ter:bai", desc:""},
@@ -4340,9 +4340,31 @@ cometinterceptor: {name:"Comet Interceptor", desc:"lv:Ariane 62",
     {pt:"", dt:"2029", type:"oi", loc:"sol:esl2", desc:""},
     {pt:"", dt:"2031", type:"fb", loc:"com", desc:"?"},
     {pt:"", dt:"2033", type:"nom", loc:"sol:ho", desc:""}
-]}
-
-};
+]},
+veritas: {name:"VERITAS:Venus Emissivity, Radio Science, InSAR, Topography, and Spectroscopy", desc:"lv:TBA",
+  parts:[
+    {names:"", type:"om", dest:"ven", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;sc:0.4", id:"", url:"hp:www.jpl.nasa.gov/news/veritas-exploring-the-deep-truths-of-venus", icon:"veritas.png"}], 
+  events:[
+    {pt:"", type:"l", dt:"2028", loc:"ter:cap", desc:""},
+    {pt:"", type:"toi", dt:"l+1dy", loc:"sol:ho", desc:""},
+    {pt:"", type:"fb", dt:"l+1yr", loc:"ter", desc:""},
+    {pt:"", type:"oi", dt:"l+1.5yr", loc:"ven", desc:""},
+    {pt:"", type:"nom", dt:"l+3yr", loc:"ven", desc:""}
+]},
+// --- 2030
+davinciplu: {name:"DAVINCI+:Deep Atmosphere Venus Investigation of Noble gases, Chemistry, and Imaging", desc:"lv:TBA",
+  parts:[
+    {names:"", type:"pm", dest:"ven", stat:"pl", ctry:"us", desc:"ag:nasa,gsfc;sc:0.3", id:"", url:"hp:www.nasa.gov/feature/goddard/2021/nasa-to-explore-divergent-fate-of-earth-s-mysterious-twin-with-goddard-s-davinci", icon:"davinci.png"},
+    {names:"", type:"om", dest:"ven", stat:"pl", ctry:"us", desc:"ag:nasa,gsfc", id:"", url:"", icon:""}], 
+  events:[
+    {pt:"", type:"l", dt:"2030", loc:"ter:cap", desc:""},
+    {pt:"", type:"toi", dt:"l+1dy", loc:"sol:ho", desc:""},
+    {pt:"", type:"fb", dt:"l+4mo", loc:"ven", desc:""},
+    {pt:"1", type:"fb", dt:"l+15mo", loc:"ven", desc:"op"},
+    {pt:"0", type:"edl", dt:"l+15mo", loc:"ven", desc:"dp;Alpha Regio"},
+    {pt:"1", type:"oi", dt:"l+22mo", loc:"ven", desc:""},
+    {pt:"", type:"nom", dt:"l+3yr", loc:"ven", desc:""}
+]}};
 
 ﻿/*{name:   Name (string) 
    other:  Alternative name (string)

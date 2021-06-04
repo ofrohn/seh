@@ -1409,7 +1409,7 @@ jwst:{name:"JWST:James Webb Space Telescope", url:"hp:www.jwst.nasa.gov/;stsci:w
   parts: [
     {n:"", ctry:"us;eu", type:"nir;opt", pur:"", id:"", desc:"", icon:"jwst.png"}
   ], ev: [
-    {pt:"", dt:"2021-10-31", tp:"l", loc:"ter:kou:ELA-3", desc:"kou"},
+    {pt:"", dt:"2021-11", tp:"l", loc:"ter:kou:ELA-3", desc:"kou"},
     {pt:"", dt:"l+30d", tp:"sco", loc:"sol:esl2", desc:""}
   ], inst: [
     {n:"MIRI", band:"5..28um", res:"1.13..0.1", d:"6.5", px:"0.1", fov:"1.3x1.7'", sres:"100/3000", url:"ircamera.as.arizona.edu/MIRI/", desc:"c:nv;cl:nly;"},
