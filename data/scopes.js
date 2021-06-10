@@ -872,9 +872,9 @@ nanojasmine:{name:"Nano-JASMINE", url:"www.jasmine-galaxy.org/index.html", desc:
   ], inst: [
     {n:"", band:"0.6..1um", res:"", d:"", px:"", desc:"c:;"}
 ]},
-neosm:{name:"NEOSM:NEO Surveillance Mission", url:"hp:neocam.ipac.caltech.edu/", desc:"ag:nasa,jpl;lv:;sc:1;x:0;y:10", stat:"pl", 
+neosm:{name:"NEO Surveyor:Near Earth Object Surveyor Mission", url:"hp:neocam.ipac.caltech.edu/", desc:"ag:nasa,jpl;lv:;sc:1;x:0;y:10", stat:"pl", 
   parts: [
-    {n:"", ctry:"us", type:"ir", pur:"neo", id:"", icon:"neosm.png", desc:""}
+    {n:"NEOSM:NEO Surveillance Mission", ctry:"us", type:"ir", pur:"neo", id:"", icon:"neosm.png", desc:""}
   ], ev: [
     {pt:"", dt:"2025", tp:"l", loc:"ter:cap", desc:""},
     {pt:"", dt:"2025", tp:"sco", loc:"sol:esl1", desc:""}
@@ -1358,7 +1358,7 @@ tianqin2:{name:"TianQin-2:Heavenly Harp 2", url:"hp:", desc:"ag:cnsa;lv:CZ-5B;sc
     {pt:"", dt:"2040", tp:"pom", loc:"ter:heo", desc:""}
   ], inst: [
     {n:"", tp:"li", band:"", res:"", px:null, d:null, fov:"", desc:"c:nr;cl:nl"}
-  ]},
+]},
 trace:{name:"TRACE:Transition Region And Coronal Explorer", url:"hp:trace.lmsal.com/", desc:"ag:nasa;lv:Pegasus XL;fam:smex", stat:"s", 
   parts: [
     {n:"", ctry:"us", type:"opt;uv", pur:"sol", id:"1998-020A", icon:""}
@@ -1367,6 +1367,16 @@ trace:{name:"TRACE:Transition Region And Coronal Explorer", url:"hp:trace.lmsal.
     {pt:"", dt:"1998-05-02", tp:"sco", loc:"ter:sseo:597x642kmx97.8deg", desc:""},
     {pt:"", dt:"2010", tp:"tos", loc:"", desc:"eom"}
 ]}, 
+twinkle:{name:"Twinkle", url:"hp:www.twinkle-spacemission.co.uk/", desc:"ag:;lv:TBA;m:380kg;sc:1;x:10;y:0", stat:"pl", 
+  parts: [
+    {n:"", ctry:"eu", type:"opt;nir", pur:"exo", id:"", icon:"twinkle.png", desc:""}
+  ], ev: [
+    {pt:"", dt:"2024", tp:"l", loc:"ter", desc:""},
+    {pt:"", dt:"2024", tp:"sco", loc:"ter:sseo", desc:""},
+    {pt:"", dt:"2026", tp:"nom", loc:"ter:sseo", desc:"pend"}
+  ], inst: [
+    {n:"", band:"0.5..4.5um", res:"", d:"0.45m", px:"", fov:"", sres:"70..50", desc:"cl:nl;"}
+]},
 uhuru:{name:"Uhuru", url:"hp:heasarc.gsfc.nasa.gov/docs/uhuru/uhuru.html", desc:"ag:nasa;lv:Scout B;fam:Explorer", stat:"s", 
   parts: [
     {n:"SAS-1", ctry:"us", type:"x", pur:"", id:"1970-107A", icon:""}

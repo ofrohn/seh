@@ -1536,9 +1536,9 @@ nanojasmine:{name:"Nano-JASMINE", url:"www.jasmine-galaxy.org/index.html", desc:
   ], inst: [
     {n:"", band:"0.6..1um", res:"", d:"", px:"", desc:"c:;"}
 ]},
-neosm:{name:"NEOSM:NEO Surveillance Mission", url:"hp:neocam.ipac.caltech.edu/", desc:"ag:nasa,jpl;lv:;sc:1;x:0;y:10", stat:"pl", 
+neosm:{name:"NEO Surveyor:Near Earth Object Surveyor Mission", url:"hp:neocam.ipac.caltech.edu/", desc:"ag:nasa,jpl;lv:;sc:1;x:0;y:10", stat:"pl", 
   parts: [
-    {n:"", ctry:"us", type:"ir", pur:"neo", id:"", icon:"neosm.png", desc:""}
+    {n:"NEOSM:NEO Surveillance Mission", ctry:"us", type:"ir", pur:"neo", id:"", icon:"neosm.png", desc:""}
   ], ev: [
     {pt:"", dt:"2025", tp:"l", loc:"ter:cap", desc:""},
     {pt:"", dt:"2025", tp:"sco", loc:"sol:esl1", desc:""}
@@ -2022,7 +2022,7 @@ tianqin2:{name:"TianQin-2:Heavenly Harp 2", url:"hp:", desc:"ag:cnsa;lv:CZ-5B;sc
     {pt:"", dt:"2040", tp:"pom", loc:"ter:heo", desc:""}
   ], inst: [
     {n:"", tp:"li", band:"", res:"", px:null, d:null, fov:"", desc:"c:nr;cl:nl"}
-  ]},
+]},
 trace:{name:"TRACE:Transition Region And Coronal Explorer", url:"hp:trace.lmsal.com/", desc:"ag:nasa;lv:Pegasus XL;fam:smex", stat:"s", 
   parts: [
     {n:"", ctry:"us", type:"opt;uv", pur:"sol", id:"1998-020A", icon:""}
@@ -2031,6 +2031,16 @@ trace:{name:"TRACE:Transition Region And Coronal Explorer", url:"hp:trace.lmsal.
     {pt:"", dt:"1998-05-02", tp:"sco", loc:"ter:sseo:597x642kmx97.8deg", desc:""},
     {pt:"", dt:"2010", tp:"tos", loc:"", desc:"eom"}
 ]}, 
+twinkle:{name:"Twinkle", url:"hp:www.twinkle-spacemission.co.uk/", desc:"ag:;lv:TBA;m:380kg;sc:1;x:10;y:0", stat:"pl", 
+  parts: [
+    {n:"", ctry:"eu", type:"opt;nir", pur:"exo", id:"", icon:"twinkle.png", desc:""}
+  ], ev: [
+    {pt:"", dt:"2024", tp:"l", loc:"ter", desc:""},
+    {pt:"", dt:"2024", tp:"sco", loc:"ter:sseo", desc:""},
+    {pt:"", dt:"2026", tp:"nom", loc:"ter:sseo", desc:"pend"}
+  ], inst: [
+    {n:"", band:"0.5..4.5um", res:"", d:"0.45m", px:"", fov:"", sres:"70..50", desc:"cl:nl;"}
+]},
 uhuru:{name:"Uhuru", url:"hp:heasarc.gsfc.nasa.gov/docs/uhuru/uhuru.html", desc:"ag:nasa;lv:Scout B;fam:Explorer", stat:"s", 
   parts: [
     {n:"SAS-1", ctry:"us", type:"x", pur:"", id:"1970-107A", icon:""}
@@ -2465,8 +2475,8 @@ cz-8
 "Vulcan Centaur": {ctry:"us", m:"226300", pm:"10600/2900/2300",  d:"67.3x5.4", pf:"15.5-21.3x5.4", dt:"2022..", st:"2", ust:"Centaur-5", th:"4900", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"LNG/LOX+SRP",  icon:"Vulcan502.png"},
 "Vulcan Centaur-2S": {syn:"Vulcan Centaur-2"},
 "Vulcan Centaur-2L": {syn:"Vulcan Centaur-2"},
-"Vulcan Centaur-2": {ctry:"us", m:"333100", pm:"18500/7600/6300",  d:"67.3x5.4", pf:"15.5-21.3x5.4", dt:"2022..", st:"2/2", ust:"Centaur-5", th:"9300", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"LNG/LOX+SRP",  icon:"Vulcan522.png"},
-"Vulcan Centaur-4": {ctry:"us", m:"439900", pm:"23900/10800/9000",  d:"67.3x5.4", pf:"15.5-21.3x5.4", dt:"2021-07..", st:"2/4", ust:"Centaur-5", th:"13700", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"LNG/LOX+SRP",  icon:"Vulcan542.png"},
+"Vulcan Centaur-2": {ctry:"us", m:"333100", pm:"18500/7600/6300",  d:"67.3x5.4", pf:"15.5-21.3x5.4", dt:"2022-01..", st:"2/2", ust:"Centaur-5", th:"9300", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"LNG/LOX+SRP",  icon:"Vulcan522.png"},
+"Vulcan Centaur-4": {ctry:"us", m:"439900", pm:"23900/10800/9000",  d:"67.3x5.4", pf:"15.5-21.3x5.4", dt:"2022..", st:"2/4", ust:"Centaur-5", th:"13700", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"LNG/LOX+SRP",  icon:"Vulcan542.png"},
 "Vulcan Centaur-4S": {syn:"Vulcan Centaur-4"},
 "Vulcan Centaur-4L": {syn:"Vulcan Centaur-4"},
 "Vulcan Centaur-6": {ctry:"us", m:"546700", pm:"27200/13600/11300",  d:"67.3x5.4", pf:"15.5-21.3x5.4", dt:"2022..", st:"2/6", ust:"Centaur-5", th:"18110", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"LNG/LOX+SRP",  icon:"Vulcan562.png"},

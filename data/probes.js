@@ -3184,9 +3184,9 @@ peregrine: {name:"Peregrine 1", desc:"lv:Vulcan Centaur-2S",
   parts:[
     {names:"M1:Mission 1", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Astrobotic;fam:clps;dim:1.9x1.9x2.5m;m:1313kg;sc:0.3", id:"", url:"hp:www.astrobotic.com/peregrine;clps:nasa.gov/content/commercial-lunar-payload-services", icon:"peregrin.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2021-07", loc:"ter:cap", desc:""},
+    {pt:"", type:"l", dt:"2022-01", loc:"ter:cap", desc:""},
     {pt:"", type:"oi", dt:"l+4d", loc:"lun:100x8700kmx56deg", desc:""},
-    {pt:"", type:"td", dt:"l+18d", loc:"lun:43.914N,25.148E", desc:"Lacus Mortis"},
+    {pt:"", type:"td", dt:"l+18d", loc:"lun:43.914N,25.148E", desc:"Lacus Mortis;show:Per."},
     {pt:"", type:"nom", dt:"l+2mo", loc:"lun", desc:""}
 ]},
 // --- 2022
@@ -3204,7 +3204,7 @@ novac: {name:"NOVA-C", desc:"lv:Falcon 9",
     {names:"IM-1", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Intuitive Machines;fam:clps;m:1900kg;sc:0.3", id:"", url:"hp:intuitivemachines.com/lunarlander;clps:nasa.gov/content/commercial-lunar-payload-services", icon:"novac.png"}], 
   events:[
     {pt:"", type:"l", dt:"2022-01", loc:"ter:cap", desc:""},
-    {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:"Vallis Schröteri, Oceanus Procellarum"},
+    {pt:"", type:"td", dt:"l+4d", loc:"lun:24.53469N,50.4902W", desc:"Vallis Schröteri, Oceanus Procellarum;show:NOVA-C"},
     {pt:"", type:"nom", dt:"l+20dy", loc:"lun", desc:""}
 ]},
 kplo: {name:"KPLO:Korean Pathfinder Lunar Orbiter", desc:"lv:Falcon 9",
@@ -3291,19 +3291,19 @@ psyche: {name:"Psyche", desc:"lv:Falcon Heavy",
 ]},
 zhenghe: {name:"Zheng He", desc:"lv:CZ-3B",  
   parts:[
-    {names:"鄭和;Near-Earth Asteroid Sample Return", type:"srm", dest:"ast", stat:"pl", ctry:"cn", desc:"ag:cnsa;sc:0.6", id:"", url:"", icon:"cnast.png"},
+    {names:"鄭和;Near-Earth Asteroid Sample Return", type:"srm", dest:"ast", stat:"pl", ctry:"cn", desc:"ag:cnsa;sc:0.7", id:"", url:"", icon:"zhenghe.png"},
     {names:"", type:"om", dest:"com", stat:"pl", ctry:"cn", desc:"ag:cnsa", id:"", url:"", icon:""}], 
   events:[
-    {pt:"", type:"l", dt:"2022", loc:"ter:wen", desc:""},
-    {pt:"", type:"toi", dt:"2022", loc:"sol:ho", desc:""},
-    {pt:"", type:"app", dt:"2023", loc:"ast", desc:"ast:2016 HO3"},
-    {pt:"", type:"dep", dt:"2024", loc:"ast", desc:"ast:2016 HO3"},
-    {pt:"0", type:"edl", dt:"2024", loc:"ter", desc:"eom:srm"},
-    {pt:"1", type:"fb", dt:"2024", loc:"ter", desc:"ga"},
-    {pt:"1", type:"fb", dt:"2025", loc:"mar", desc:"ga"},
-    {pt:"1", type:"app", dt:"2030", loc:"com", desc:"com:133P/Elst-Pizarro"},
-    {pt:"1", type:"nom", dt:"2031", loc:"com", desc:""},
-    {pt:"1", type:"pom", dt:"2033", loc:"com", desc:""}
+    {pt:"", type:"l", dt:"2024", loc:"ter:wen", desc:""},
+    {pt:"", type:"toi", dt:"2024", loc:"sol:ho", desc:""},
+    {pt:"", type:"app", dt:"2025", loc:"ast", desc:"ast:2016 HO3"},
+    {pt:"", type:"dep", dt:"2026", loc:"ast", desc:"ast:2016 HO3"},
+    {pt:"0", type:"edl", dt:"2026", loc:"ter", desc:"eom:srm"},
+    {pt:"1", type:"fb", dt:"2026", loc:"ter", desc:"ga"},
+    {pt:"1", type:"fb", dt:"2027", loc:"mar", desc:"ga"},
+    {pt:"1", type:"app", dt:"2032", loc:"com", desc:"com:133P/Elst-Pizarro"},
+    {pt:"1", type:"nom", dt:"2033", loc:"com", desc:""},
+    {pt:"1", type:"pom", dt:"2035", loc:"com", desc:""}
 ]},
 xl1: {name:"XL-1", desc:"lv:Falcon 9",
   parts:[
@@ -3462,7 +3462,7 @@ change6: {name:"Chang'e 6", desc:"lv:CZ-5",
 hera: {name:"Hera", desc:"lv:Ariane 6",
   parts:[
     {names:"", type:"om", dest:"ast", stat:"pl", ctry:"eu", desc:"ag:esa;fam:AIDA;m:870kg;sc:0.7", id:"", url:"hp:www.esa.int/Safety_Security/Hera", icon:"hera.png"},
-    {names:"APEX:Asteroid Prospection Explorer", type:"om", dest:"ast", stat:"pl", ctry:"eu", desc:"ag:esa;sc:0.5", id:"", url:"APEX:www.esa.int/Safety_Security/Hera/Hera_s_APEX_CubeSat_will_reveal_the_stuff_that_asteroids_are_made_of", icon:"hera-apex.png"},
+    {names:"Milani;APEX:Asteroid Prospection Explorer", type:"om", dest:"ast", stat:"pl", ctry:"eu", desc:"ag:esa;sc:0.5", id:"", url:"APEX:www.esa.int/Safety_Security/Hera/Hera_s_APEX_CubeSat_will_reveal_the_stuff_that_asteroids_are_made_of", icon:"hera-apex.png"},
     {names:"Juventas", type:"om", dest:"ast", stat:"pl", ctry:"eu", desc:"ag:GomSpace,GMV;sc:0.6", id:"", url:"Juventas:www.esa.int/Safety_Security/Hera/Hera_s_CubeSat_to_perform_first_radar_probe_of_an_asteroid", icon:"hera-juventas.png"}
   ], events:[
     {pt:"", type:"l", dt:"2024-10", loc:"ter:kou", desc:""},
@@ -3558,11 +3558,11 @@ luna26: {name:"Luna 26", desc:"lv:Soyuz 2.1B/Fregat-MT",
 // --- 2025
 neosm: {name:"NEO Surveyor:Near Earth Object Surveyor", desc:"",
   parts: [
-    {names:"", type:"obm", dest:"ast", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;m:1300kg;sc:0.5", id:"", url:"hp:neocam.ipac.caltech.edu/", icon:"neosm.png"}], 
+    {names:"NEOSM:NEO Surveillance Mission", type:"obm", dest:"ast", stat:"pl", ctry:"us", desc:"ag:nasa,jpl;m:1300kg;sc:0.5", id:"", url:"hp:neocam.ipac.caltech.edu/", icon:"neosm.png"}], 
   events: [
-    {pt:"", dt:"2025", type:"l", loc:"ter:cap", desc:""},
-    {pt:"", dt:"2025", type:"sco", loc:"sol:esl1", desc:"Halo Orbit"},
-    {pt:"", dt:"2037", type:"nom", loc:"sol:esl1", desc:""}
+    {pt:"", dt:"2026", type:"l", loc:"ter:cap", desc:""},
+    {pt:"", dt:"2026", type:"sco", loc:"sol:esl1", desc:"Halo Orbit"},
+    {pt:"", dt:"2038", type:"nom", loc:"sol:esl1", desc:""}
 ]},
 interheliozond: {name:"Interhelio-Zond", desc:"lv:Proton-M/Briz-M",
   parts:[
@@ -3589,8 +3589,11 @@ dragonfly: {name:"Dragonfly", desc:"lv:Vulcan Centaur", stat:"pl",
   parts:[
     {names:"", type:"dm", dest:"sat:Titan", ctry:"us", desc:"ag:nasa,apl;fam:New Frontiers;m:450kg;sc:0.4", id:"", url:"hp:dragonfly.jhuapl.edu", icon:"dragonfly.png"}],
   events:[
-    {pt:"", type:"l", dt:"2027", loc:"ter:ksc", desc:""},
-    {pt:"", type:"edl", dt:"2034", loc:"tita", desc:"Shangri-La, Selk Crater"},
+    {pt:"", type:"l", dt:"2027-06", loc:"ter:ksc", desc:""},
+    /*{pt:"", type:"fb", dt:"2027-04-15", loc:"ven:3770km", desc:"ga"},
+    {pt:"", type:"fb", dt:"2028-05-27", loc:"ter:1355km", desc:"ga"},
+    {pt:"", type:"fb", dt:"2031-09-05", loc:"ter:1093km", desc:"ga"},*/
+    {pt:"", type:"edl", dt:"2034-12", loc:"tita:7.0N,199.0W", desc:"Shangri-La, Selk Crater"},
     {pt:"", type:"nom", dt:"2037", loc:"tita", desc:"rv:175km;?"}
 ]},
 heracles: {name:"HERACLES:Human-Enhanced Robotic Architecture and Capability for Lunar Exploration and Science", desc:"lv:Ariane 64",
@@ -3691,10 +3694,11 @@ veritas: {name:"VERITAS:Venus Emissivity, Radio Science, InSAR, Topography, and 
     {pt:"", type:"toi", dt:"l+1dy", loc:"sol:ho", desc:""},
     {pt:"", type:"fb", dt:"l+1yr", loc:"ter", desc:""},
     {pt:"", type:"oi", dt:"l+1.5yr", loc:"ven", desc:""},
-    {pt:"", type:"nom", dt:"l+3yr", loc:"ven", desc:""}
+    {pt:"", type:"sco", dt:"l+2.5yr", loc:"ven:250kmx89deg", desc:""},
+    {pt:"", type:"nom", dt:"l+6.5yr", loc:"ven", desc:""}
 ]},
 // --- 2030
-davinciplu: {name:"DAVINCI+:Deep Atmosphere Venus Investigation of Noble gases, Chemistry, and Imaging", desc:"lv:TBA",
+davinciplus: {name:"DAVINCI+:Deep Atmosphere Venus Investigation of Noble gases, Chemistry, and Imaging", desc:"lv:TBA",
   parts:[
     {names:"", type:"pm", dest:"ven", stat:"pl", ctry:"us", desc:"ag:nasa,gsfc;sc:0.3", id:"", url:"hp:www.nasa.gov/feature/goddard/2021/nasa-to-explore-divergent-fate-of-earth-s-mysterious-twin-with-goddard-s-davinci", icon:"davinci.png"},
     {names:"", type:"om", dest:"ven", stat:"pl", ctry:"us", desc:"ag:nasa,gsfc", id:"", url:"", icon:""}], 
