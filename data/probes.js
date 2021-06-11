@@ -2997,7 +2997,7 @@ mgrso: {name:"Tianwen-1:Skyquest-1", desc:"lv:CZ-5",
     {pt:"", type:"toi", dt:"2020-07-23", loc:"sol:hto", desc:""},
     {pt:"", type:"oi", dt:"2021-02-10", loc:"mar:445x180011kmx10.4deg", desc:"Capture orbit"},
     {pt:"", type:"sco", dt:"2021-02-24", loc:"mar:280x59000kmx87.7deg", desc:"Polar reconnaissance orbit;per:2d"},
-    {pt:"1", type:"edl", dt:"2021-05-14", loc:"mar:25.1N,109.7E", desc:"lp;Utopia Planitia;show:Zhurong:NE"},
+    {pt:"1", type:"edl", dt:"2021-05-14", loc:"mar:25.066N,109.926E", desc:"lp;Utopia Planitia;show:Zhurong:NE"},
     {pt:"0", type:"sco", dt:"2021-05-17", loc:"mar:260x16000kmx86.9deg", desc:"op;Scientific orbit;per:8.2h"},
     {pt:"2", type:"sep", dt:"2021-05-22", loc:"mar", desc:"rvp/slp;eom:slm"},
     {pt:"2", type:"nom", dt:"2021-08", loc:"mar", desc:"rvp;eom:slm;eom:rvm"},
@@ -3053,7 +3053,7 @@ capstone: {name:"CAPSTONE:Cislunar Autonomous Positioning System Technology Oper
   parts:[
     {names:"", type:"om", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Advanced Space;fam:SBIR;12U Cubesat;m:25kg;sc:0.5", id:"", url:"hp:www.nasa.gov/directorates/spacetech/small_spacecraft/capstone;RocketLab:www.rocketlabusa.com/missions/lunar/", icon:"capstone.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2021-07", loc:"ter:wal:LC-2", desc:"Q3"},
+    {pt:"", type:"l", dt:"2021-11", loc:"ter:wal:LC-2", desc:"Q3"},
     {pt:"", type:"oi", dt:"l+4m", loc:"lun:nrho", desc:""},
     {pt:"", type:"nom", dt:"2023", loc:"lun", desc:""}
 ]},
@@ -3695,7 +3695,7 @@ veritas: {name:"VERITAS:Venus Emissivity, Radio Science, InSAR, Topography, and 
     {pt:"", type:"fb", dt:"l+1yr", loc:"ter", desc:""},
     {pt:"", type:"oi", dt:"l+1.5yr", loc:"ven", desc:""},
     {pt:"", type:"sco", dt:"l+2.5yr", loc:"ven:250kmx89deg", desc:""},
-    {pt:"", type:"nom", dt:"l+6.5yr", loc:"ven", desc:""}
+    {pt:"", type:"nom", dt:"l+6.5yr", loc:"ven", desc:"pend"}
 ]},
 // --- 2030
 davinciplus: {name:"DAVINCI+:Deep Atmosphere Venus Investigation of Noble gases, Chemistry, and Imaging", desc:"lv:TBA",
@@ -3709,5 +3709,17 @@ davinciplus: {name:"DAVINCI+:Deep Atmosphere Venus Investigation of Noble gases,
     {pt:"1", type:"fb", dt:"l+15mo", loc:"ven", desc:"op"},
     {pt:"0", type:"edl", dt:"l+15mo", loc:"ven", desc:"dp;Alpha Regio"},
     {pt:"1", type:"oi", dt:"l+22mo", loc:"ven", desc:""},
-    {pt:"", type:"nom", dt:"l+3yr", loc:"ven", desc:""}
-]}};
+    {pt:"", type:"nom", dt:"l+3yr", loc:"ven", desc:"pend"}
+]},
+envision: {name:"EnVision", desc:"lv:Ariane 62",
+  parts:[
+    {names:"", type:"om", dest:"ven", stat:"pl", ctry:"eu", desc:"ag:esa;m0:1350kg;m:2600kg;sc:0.6", id:"", url:"hp:envisionvenus.eu", icon:"envision.png"}], 
+  events:[
+    {pt:"", type:"l", dt:"2032-05", loc:"ter:kou", desc:""},
+    {pt:"", type:"toi", dt:"l+1dy", loc:"sol:ho", desc:""},
+    /*{pt:"", type:"fb", dt:"l+1yr", loc:"ter", desc:""},*/
+    {pt:"", type:"oi", dt:"l+15mo", loc:"ven", desc:""},
+    {pt:"", type:"sco", dt:"l+31mo", loc:"ven:220x540kmx88deg", desc:""},
+    {pt:"", type:"nom", dt:"l+6.5yr", loc:"ven", desc:"pend"}
+]}
+};

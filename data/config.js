@@ -1,7 +1,7 @@
 var SSEH = SSEH || {
   TITLE: "Solar System Exploration History",
-  VERSION: "1.6.30",
-  DATE: "2020-07 ",
+  VERSION: "1.6.31",
+  DATE: "2021-06 ",
   AUTHOR: "Olaf Frohn",
   CLICK: "Click on anything for more details",
   PATH: "images/",  //Relative path to resources
@@ -10,7 +10,7 @@ var SSEH = SSEH || {
   GEOLNK: "https://www.google.com/maps/d/view?mid=%ref%",  
   //http://www.openstreetmap.org/#map=11/;https://www.google.com/maps/@%ref%,11z
   STARTDATE: new Date(1957,10,4),  //Begin of shown period
-  ENDDATE: new Date(2038,1,1),     //End of shown period
+  ENDDATE: new Date(2039,1,1),     //End of shown period
   BOXWIDTH: 600,                   //Width of popup boxes
   POPWIDTH: 160,                   //Width of hover boxes
   BARHEIGHT: 15,                   //Timeline bars

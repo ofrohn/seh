@@ -1,7 +1,7 @@
 var SSEH = SSEH || {
   TITLE: "Solar System Exploration History",
-  VERSION: "1.6.30",
-  DATE: "2020-07 ",
+  VERSION: "1.6.31",
+  DATE: "2021-06 ",
   AUTHOR: "Olaf Frohn",
   CLICK: "Click on anything for more details",
   PATH: "images/",  //Relative path to resources
@@ -10,7 +10,7 @@ var SSEH = SSEH || {
   GEOLNK: "https://www.google.com/maps/d/view?mid=%ref%",  
   //http://www.openstreetmap.org/#map=11/;https://www.google.com/maps/@%ref%,11z
   STARTDATE: new Date(1957,10,4),  //Begin of shown period
-  ENDDATE: new Date(2038,1,1),     //End of shown period
+  ENDDATE: new Date(2039,1,1),     //End of shown period
   BOXWIDTH: 600,                   //Width of popup boxes
   POPWIDTH: 160,                   //Width of hover boxes
   BARHEIGHT: 15,                   //Timeline bars
@@ -3655,7 +3655,7 @@ mgrso: {name:"Tianwen-1:Skyquest-1", desc:"lv:CZ-5",
     {pt:"", type:"toi", dt:"2020-07-23", loc:"sol:hto", desc:""},
     {pt:"", type:"oi", dt:"2021-02-10", loc:"mar:445x180011kmx10.4deg", desc:"Capture orbit"},
     {pt:"", type:"sco", dt:"2021-02-24", loc:"mar:280x59000kmx87.7deg", desc:"Polar reconnaissance orbit;per:2d"},
-    {pt:"1", type:"edl", dt:"2021-05-14", loc:"mar:25.1N,109.7E", desc:"lp;Utopia Planitia;show:Zhurong:NE"},
+    {pt:"1", type:"edl", dt:"2021-05-14", loc:"mar:25.066N,109.926E", desc:"lp;Utopia Planitia;show:Zhurong:NE"},
     {pt:"0", type:"sco", dt:"2021-05-17", loc:"mar:260x16000kmx86.9deg", desc:"op;Scientific orbit;per:8.2h"},
     {pt:"2", type:"sep", dt:"2021-05-22", loc:"mar", desc:"rvp/slp;eom:slm"},
     {pt:"2", type:"nom", dt:"2021-08", loc:"mar", desc:"rvp;eom:slm;eom:rvm"},
@@ -3711,7 +3711,7 @@ capstone: {name:"CAPSTONE:Cislunar Autonomous Positioning System Technology Oper
   parts:[
     {names:"", type:"om", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Advanced Space;fam:SBIR;12U Cubesat;m:25kg;sc:0.5", id:"", url:"hp:www.nasa.gov/directorates/spacetech/small_spacecraft/capstone;RocketLab:www.rocketlabusa.com/missions/lunar/", icon:"capstone.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2021-07", loc:"ter:wal:LC-2", desc:"Q3"},
+    {pt:"", type:"l", dt:"2021-11", loc:"ter:wal:LC-2", desc:"Q3"},
     {pt:"", type:"oi", dt:"l+4m", loc:"lun:nrho", desc:""},
     {pt:"", type:"nom", dt:"2023", loc:"lun", desc:""}
 ]},
@@ -4353,7 +4353,7 @@ veritas: {name:"VERITAS:Venus Emissivity, Radio Science, InSAR, Topography, and 
     {pt:"", type:"fb", dt:"l+1yr", loc:"ter", desc:""},
     {pt:"", type:"oi", dt:"l+1.5yr", loc:"ven", desc:""},
     {pt:"", type:"sco", dt:"l+2.5yr", loc:"ven:250kmx89deg", desc:""},
-    {pt:"", type:"nom", dt:"l+6.5yr", loc:"ven", desc:""}
+    {pt:"", type:"nom", dt:"l+6.5yr", loc:"ven", desc:"pend"}
 ]},
 // --- 2030
 davinciplus: {name:"DAVINCI+:Deep Atmosphere Venus Investigation of Noble gases, Chemistry, and Imaging", desc:"lv:TBA",
@@ -4367,8 +4367,20 @@ davinciplus: {name:"DAVINCI+:Deep Atmosphere Venus Investigation of Noble gases,
     {pt:"1", type:"fb", dt:"l+15mo", loc:"ven", desc:"op"},
     {pt:"0", type:"edl", dt:"l+15mo", loc:"ven", desc:"dp;Alpha Regio"},
     {pt:"1", type:"oi", dt:"l+22mo", loc:"ven", desc:""},
-    {pt:"", type:"nom", dt:"l+3yr", loc:"ven", desc:""}
-]}};
+    {pt:"", type:"nom", dt:"l+3yr", loc:"ven", desc:"pend"}
+]},
+envision: {name:"EnVision", desc:"lv:Ariane 62",
+  parts:[
+    {names:"", type:"om", dest:"ven", stat:"pl", ctry:"eu", desc:"ag:esa;m0:1350kg;m:2600kg;sc:0.6", id:"", url:"hp:envisionvenus.eu", icon:"envision.png"}], 
+  events:[
+    {pt:"", type:"l", dt:"2032-05", loc:"ter:kou", desc:""},
+    {pt:"", type:"toi", dt:"l+1dy", loc:"sol:ho", desc:""},
+    /*{pt:"", type:"fb", dt:"l+1yr", loc:"ter", desc:""},*/
+    {pt:"", type:"oi", dt:"l+15mo", loc:"ven", desc:""},
+    {pt:"", type:"sco", dt:"l+31mo", loc:"ven:220x540kmx88deg", desc:""},
+    {pt:"", type:"nom", dt:"l+6.5yr", loc:"ven", desc:"pend"}
+]}
+};
 
 ﻿/*{name:   Name (string) 
    other:  Alternative name (string)
@@ -4515,8 +4527,8 @@ hygi:
 psyc:
   {name:"Psyche", other:"", desig:"16", type:"a", par:"sol", disc:"A. de Gasparis", dyr:"1852",
    a:"2.923au", e:"0.136", i:"3.099", per:"5.0a", rot:"4.196h", gr:"mba",
-   h:"5.9", mass:"2.41e19kg", dia:"290x245x170km", rad:"113", tilt:"95",
-   alb:"0.15", grav:"0.011", comp:"Metal:90+Silicate:10+poro:15", dens:"3.99", spec:"M", temp:"160..280K",
+   h:"5.9", mass:"2.41e19kg", dia:"274x231x176km", rad:"113", tilt:"95",
+   alb:"0.15", grav:"0.011", comp:"Metal:82.5+Pyroxene:7+poro:35", dens:"3.99", spec:"M", temp:"160..280K",
    img:"psyche.png", desc:"sc:6;url:solarsystem.nasa.gov/small-bodies/asteroids/16-psyche/in-depth/;orb:ec.2017-02-16"},
 lute:
   {name:"Lutetia", other:"", desig:"21", type:"a", par:"sol", disc:"H.M.S. Goldschmidt", dyr:"1852",
@@ -6966,8 +6978,10 @@ Common.lpad = [
 {n:"SLC-6", par:"van", lv:"Delta IV", loc:"34.581N,120.628W"},
 {n:"SLC-8", par:"van", lv:"Minotaur", loc:"34.576N,120.632W"},
 {n:"LC-576E", par:"van", lv:"Taurus", loc:"34.740N,120.619W"},
+{n:"SLC-16", par:"cap", lv:"Terran", loc:"28.502N,80.552W"},
 {n:"SLC-17A", par:"cap", syn:"LC-17A"},
 {n:"SLC-17B", par:"cap", syn:"LC-17B"},
+{n:"SLC-20", par:"cap", lv:"Astra", loc:"28.512N,80.557W"},
 {n:"SLC-37B", par:"cap", syn:"LC-37B"},
 {n:"SLC-40", par:"cap", syn:"LC-40"},
 {n:"SLC-41", par:"cap", syn:"LC-41"},
