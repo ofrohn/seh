@@ -689,7 +689,7 @@ SOBS.absorp =[
      url:"",  //Instrument links
      desc:"c:;"}  //desc: c:l r v t b  left right vertical top bottom, cl
 ]},
-Tenma, Hakucho, td-1, isee, oao-2, oso 2..7, ariel1-5
+Tenma, Hakucho, td-1, isee, oao-2, oso 2..7, ariel1-5, smm
 rae-b 25 kHz to 13.1 MHz 
 P78-1/SOLWIND http://heasarc.nasa.gov/docs/heasarc/missions/p78-1.html
   http://www.planetary.org/blogs/guest-blogs/2014/0829-the-pivotal-discovery.html
@@ -995,7 +995,7 @@ euclid:{name:"Euclid", url:"hp:www.euclid-ec.org/;esa:sci.esa.int/euclid", desc:
   parts: [
     {n:"", ctry:"eu", type:"nir", pur:"de;sur", id:"", icon:"euclid.png", desc:"m:2160kg;dim:4.5x3.1m"}
   ], ev: [
-    {pt:"", dt:"2022-07", tp:"l", loc:"ter:kou:ELS", desc:""},
+    {pt:"", dt:"2022-09", tp:"l", loc:"ter:kou:ELS", desc:""},
     {pt:"", dt:"l+30d", tp:"sco", loc:"sol:esl2", desc:"1M km  Lissajous orbit"},
     {pt:"", dt:"2028", tp:"nom", loc:"sol:esl2", desc:"pend"},
   ], inst: [
@@ -1407,7 +1407,7 @@ ixpe:{name:"IXPE:Imaging X-Ray Polarimetry Explorer", url:"hp:ixpe.msfc.nasa.gov
   ]},
 jwst:{name:"JWST:James Webb Space Telescope", url:"hp:www.jwst.nasa.gov/;stsci:www.stsci.edu/jwst/;esa:www.esa.int/Our_activities/Space_Science/JWST;tw:twitter.com/JWSTObserver", desc:"lv:Ariane 5 ECA;sc:1.8;x:12;y:-0", stat:"pl", 
   parts: [
-    {n:"", ctry:"us;eu", type:"nir;opt", pur:"", id:"", desc:"", icon:"jwst.png"}
+    {n:"", ctry:"us;eu", type:"nir;opt", pur:"", id:"", desc:"", icon:"webb.png"}
   ], ev: [
     {pt:"", dt:"2021-11", tp:"l", loc:"ter:kou:ELA-3", desc:"kou"},
     {pt:"", dt:"l+30d", tp:"sco", loc:"sol:esl2", desc:""}
@@ -2449,7 +2449,8 @@ cz-8
 //Soyuz-6,9t leo/2.3t gto;2025
 //Stardhip/Superheavy
 "Starship": {n:"Starship", ctry:"us", m:"5000000", pm:"100K/21K/*",  d:"122x9", pf:"18x9", dt:"2021..", st:"2", ust:"", th:"62900", fam:"", desc:"l:ksc,boc;ag:SpX", fuel:"LNG/LOX", icon:"bfr.png"},
-//STK;Yenisei;Енисей;100t leo;2028;
+//STK;Yenisei;Енисей;100t leo;2028; Don 3281t, 140t leo, 29.5t geo, 33t ip
+"Yenisei": {n:"Yenisei", alt:"Енисей", ctry:"ru", m:"3167000", pm:"100K/26K/27K",  d:"80x4.1", pf:"", dt:"2028..", st:"2", ust:"KVTK", th:"43536", fam:"", desc:"l:vos;ag:rosc", fuel:"KeroLOX", icon:"yenisei.png"},
 //STS-30 Atlantis/IUS, STS-34 Atlantis/IUS, STS-41 Discovery/PAM-S
 "STS": {n:"Space Shuttle", ctry:"us", m:"2040000", pm:"24400/4944/3550",  d:"56x23.8", pf:"18.3x4.6", dt:"1981-04-12..2011-07-08", st:"1/2", ust:"IUS/PAM-S", th:"28200", fam:"STS", desc:"l:ksc;ag:nasa", fuel:"LH2/LOX+SRP", icon:"STS.png"},
 "STS-30 Atlantis": {syn:"STS"},

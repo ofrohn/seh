@@ -185,7 +185,8 @@ cz-8
 //Soyuz-6,9t leo/2.3t gto;2025
 //Stardhip/Superheavy
 "Starship": {n:"Starship", ctry:"us", m:"5000000", pm:"100K/21K/*",  d:"122x9", pf:"18x9", dt:"2021..", st:"2", ust:"", th:"62900", fam:"", desc:"l:ksc,boc;ag:SpX", fuel:"LNG/LOX", icon:"bfr.png"},
-//STK;Yenisei;Енисей;100t leo;2028;
+//STK;Yenisei;Енисей;100t leo;2028; Don 3281t, 140t leo, 29.5t geo, 33t ip
+"Yenisei": {n:"Yenisei", alt:"Енисей", ctry:"ru", m:"3167000", pm:"100K/26K/27K",  d:"80x4.1", pf:"", dt:"2028..", st:"2", ust:"KVTK", th:"43536", fam:"", desc:"l:vos;ag:rosc", fuel:"KeroLOX", icon:"yenisei.png"},
 //STS-30 Atlantis/IUS, STS-34 Atlantis/IUS, STS-41 Discovery/PAM-S
 "STS": {n:"Space Shuttle", ctry:"us", m:"2040000", pm:"24400/4944/3550",  d:"56x23.8", pf:"18.3x4.6", dt:"1981-04-12..2011-07-08", st:"1/2", ust:"IUS/PAM-S", th:"28200", fam:"STS", desc:"l:ksc;ag:nasa", fuel:"LH2/LOX+SRP", icon:"STS.png"},
 "STS-30 Atlantis": {syn:"STS"},
