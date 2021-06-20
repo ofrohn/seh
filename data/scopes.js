@@ -876,8 +876,8 @@ neosm:{name:"NEO Surveyor:Near Earth Object Surveyor Mission", url:"hp:neocam.ip
   parts: [
     {n:"NEOSM:NEO Surveillance Mission", ctry:"us", type:"ir", pur:"neo", id:"", icon:"neosm.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2025", tp:"l", loc:"ter:cap", desc:""},
-    {pt:"", dt:"2025", tp:"sco", loc:"sol:esl1", desc:""}
+    {pt:"", dt:"2026", tp:"l", loc:"ter:cap", desc:""},
+    {pt:"", dt:"2026", tp:"sco", loc:"sol:esl1", desc:""}
   ], inst: [
     {n:"", band:"4..10um", d:0.5, px:1, fov:"12.7deg2", desc:"c:n;cl:nl;"}
 ]},
