@@ -3897,7 +3897,7 @@ exomarsrv: {name:"ExoMars 2022", desc:"lv:Proton-M/Briz-M;m:2900kg",
 ]},
 juice: {name:"JUICE:JUpiter ICy moons Explorer", desc:"lv:Ariane 5ECA",
   parts:[
-    {names:"", type:"om", dest:"jup", stat:"pl", ctry:"eu", desc:"ag:esa;m:5250kg;m0:2200kg;fam:L-class;dim:28.4x3.9x4.0m;sc:1", id:"", url:"hp:sci.esa.int/juice;tw:twitter.com/ESA_JUICE", icon:"juice.png"},
+    {names:"", type:"om", dest:"jup", stat:"pl", ctry:"eu", desc:"ag:esa;m:5250kg;m0:2200kg;fam:L-class;dim:28.4x3.9x4.0m;sc:1", id:"", url:"hp:sci.esa.int/juice;jaxa:juice.stp.isas.jaxa.jp/home/;tw:twitter.com/ESA_JUICE", icon:"juice.png"},
 {type:"om", dest:"jup:gany", stat:"pl", ctry:"eu"}], 
   events:[
     {pt:"", type:"l", dt:"2022-06", loc:"ter:kou:ELA-3", desc:""},
@@ -3939,13 +3939,14 @@ xl1: {name:"XL-1", desc:"lv:Falcon 9",
   parts:[
     {names:"", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Masten;fam:clps;m:2700kg;sc:0.3", id:"", url:"hp:www.masten.aero/moon", icon:"masten-xl1.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2022-12", loc:"ter:cap", desc:""},
+    {pt:"", type:"l", dt:"2023-11", loc:"ter:cap", desc:""},
     {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:"Near South pole"},
     {pt:"", type:"nom", dt:"l+12dy", loc:"lun", desc:""}
 ]},
 prime1: {name:"PRIME-1:Polar Resources Ice Mining Experiment", desc:"lv:Falcon 9",
   parts:[
-    {names:"NOVA-C IM-2", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Intuitive Machines;fam:clps;m:1700kg;sc:0.3", id:"", url:"hp:intuitivemachines.com/lunarlander;clps:nasa.gov/content/commercial-lunar-payload-services", icon:"novac.png"}], 
+    {names:"NOVA-C IM-2", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Intuitive Machines;fam:clps;m:1700kg;sc:0.3", id:"", url:"hp:intuitivemachines.com/lunarlander;clps:nasa.gov/content/commercial-lunar-payload-services", icon:"novac.png"},
+    {names:"{York Space Systems S-CLASS}", type:"om", dest:"lun", stat:"pl", ctry:"us", desc:"First Lunar Communication Satellite;ag:nasa,Intuitive Machines;fam:clps", id:"", url:"", icon:"novac-im2o.png"}], 
   events:[
     {pt:"", type:"l", dt:"2022-12-01", loc:"ter:cap", desc:""},
     {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:"South pole"},
@@ -3953,11 +3954,13 @@ prime1: {name:"PRIME-1:Polar Resources Ice Mining Experiment", desc:"lv:Falcon 9
 ]},
 hakutor1: {name:"Hakuto-R 1", desc:"lv:Falcon 9",
   parts:[
-    {names:"", type:"slm", dest:"lun", stat:"pl", ctry:"jp;eu", desc:"ag:ispace;sc:0.5", id:"", url:"hp:ispace-inc.com/hakuto-r/eng/", icon:"hakuto-r.png"}], 
+    {names:"", type:"slm", dest:"lun", stat:"pl", ctry:"jp;eu", desc:"ag:ispace;sc:0.5", id:"", url:"hp:ispace-inc.com/hakuto-r/eng/", icon:"hakuto-r.png"},
+    {names:"Rashid;رشيد", type:"rvm", dest:"lun", stat:"pl", ctry:"ue", desc:"ag:MBRSC;m:10kg;dim:0.5x0.5x0.8m;sc:0.5", id:"", url:"MBRSC:www.mbrsc.ae/", icon:"rashid.png"}], 
   events:[
     {pt:"", type:"l", dt:"2022", loc:"ter:cap", desc:""},
     {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:"Lacus Somniorum"},
-    {pt:"", type:"nom", dt:"l+3w", loc:"lun", desc:""}
+    {pt:"1", type:"nom", dt:"l+18d", loc:"lun", desc:"rvp"},
+    {pt:"0", type:"nom", dt:"l+3w", loc:"lun", desc:"slp"}
 ]},
 // --- 2023
 lunarpathfinder: {name:"Lunar Pathfinder", desc:"",
@@ -4104,8 +4107,8 @@ change6: {name:"Chang'e 6", desc:"lv:CZ-5",
 hera: {name:"Hera", desc:"lv:Ariane 6",
   parts:[
     {names:"", type:"om", dest:"ast", stat:"pl", ctry:"eu", desc:"ag:esa;fam:AIDA;m:870kg;sc:0.7", id:"", url:"hp:www.esa.int/Safety_Security/Hera", icon:"hera.png"},
-    {names:"Milani;APEX:Asteroid Prospection Explorer", type:"om", dest:"ast", stat:"pl", ctry:"eu", desc:"ag:esa;sc:0.5", id:"", url:"APEX:www.esa.int/Safety_Security/Hera/Hera_s_APEX_CubeSat_will_reveal_the_stuff_that_asteroids_are_made_of", icon:"hera-apex.png"},
-    {names:"Juventas", type:"om", dest:"ast", stat:"pl", ctry:"eu", desc:"ag:GomSpace,GMV;sc:0.6", id:"", url:"Juventas:www.esa.int/Safety_Security/Hera/Hera_s_CubeSat_to_perform_first_radar_probe_of_an_asteroid", icon:"hera-juventas.png"}
+    {names:"Milani;APEX:Asteroid Prospection Explorer", type:"om", dest:"ast", stat:"pl", ctry:"eu", desc:"ag:esa;sc:0.5", id:"", url:"Milani:www.esa.int/Safety_Security/Hera/Hera_s_APEX_CubeSat_will_reveal_the_stuff_that_asteroids_are_made_of", icon:"hera-milani.png"},
+    {names:"Juventas", type:"om", dest:"ast", stat:"pl", ctry:"eu", desc:"ag:GomSpace,GMV;sc:0.6", id:"", url:"Juventas:www.esa.int/Safety_Security/Hera/Hera_s_radar_CubeSat_will_peer_into_asteroid_s_heart", icon:"hera-juventas.png"}
   ], events:[
     {pt:"", type:"l", dt:"2024-10", loc:"ter:kou", desc:""},
     {pt:"", type:"oi", dt:"2024-10", loc:"sol:ho", desc:""},
@@ -4134,7 +4137,7 @@ em3: {name:"Artemis-3", desc:"lv:SLS 1B", stat:"pl",
     {pt:"", type:"td", dt:"l+4dy", loc:"lun", desc:"HLS;Near South pole"},
     {pt:"0", type:"edl", dt:"l+30dy", loc:"ter", desc:"eom"}
 ]},
-rashid: {name:"Rashid", desc:"",
+/*rashid: {name:"Rashid", desc:"",
   parts:[
     {names:"رشيد", type:"rvm", dest:"lun", stat:"pl", ctry:"ue", desc:"ag:MBRSC;m:10kg;dim:0.5x0.5x0.8m;sc:0.5", id:"", url:"MBRSC:www.mbrsc.ae/", icon:"rashid.png"}], 
   events:[
@@ -4142,7 +4145,7 @@ rashid: {name:"Rashid", desc:"",
     {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:""},
     {pt:"", type:"nom", dt:"l+18d", loc:"lun", desc:""},
     {pt:"", type:"pom", dt:"l+18d", loc:"lun", desc:""}
-]},
+]},*/
 beresheet2: {name:"Beresheet 2", desc:"lv:TBA",
   parts:[
     {names:"براشيت 2‬", type:"om", dest:"lun", stat:"pl", ctry:"il", desc:"ag:SpaceIL;m:630kg;dim:2.5x1.6m;sc:0.3", id:"", url:"hp:beresheet.space;SpaceIL:www.spaceil.com/", icon:"beresheet2-o.png"},
@@ -6717,6 +6720,7 @@ cz-8
 //CZ-5
 "CZ-5": {n:"Long March 5", alt:"长征五号", ctry:"cn", m:"867000", pm:"25000/14000/8200",  d:"62x5", pf:"12x5.2", dt:"2016-11-06..", st:"2/4", ust:"Yuanzheng", th:"12116", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"LH2/LOX+KeroLOX", icon:"CZ-5.png"},
 "CZ-5B": {n:"Long March 5B", alt:"长长征五号乙", ctry:"cn", m:"837500", pm:"23000/-/-",  d:"53.7x5", pf:"12-20.5x5.2", dt:"2020-05-05..", st:"1/4", ust:"", th:"12116", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"LH2/LOX+KeroLOX", icon:"CZ-5B.png"},
+"CZ-5DY": {n:"Long March 5DY", alt:"长征五号", ctry:"cn", m:"2211000", pm:"70k//27k", d:"87x5", pf:"", dt:"2030..", st:"3/2", ust:"", th:"28200", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"CZ-X.png"},
 //CZ-6, CZ-6A
 //CZ-7, CZ-7A
 "CZ-7": {n:"Long March 7", alt:"长征七号运载火箭", ctry:"cn", m:"594000", pm:"13500/5500/-", d:"53.1x3.35", pf:"12.7x4.2", dt:"2016-06-24..", st:"2/4", ust:"YZ-1A", th:"7200", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"CZ-7.png"},
@@ -6724,7 +6728,7 @@ cz-8
 //CZ-8
 "CZ-8": {n:"Long March 8", alt:"长征八号", ctry:"cn", m:"356000", pm:"8100/2800/-", d:"50.3x3.35", pf:"12.7x4.2", dt:"2020-12-22..", st:"2/2", ust:"YZ-1A", th:"4800", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"CZ-8.png"},
 //CZ-9
-"CZ-9": {n:"Long March 9", alt:"长征九号运载火箭", ctry:"cn", m:"4140000", pm:"140000/66000/50000", d:"93x10", pf:"", dt:"2030..", st:"3/4", ust:"", th:"52800", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"CZ-9.png"},
+"CZ-9": {n:"Long March 9", alt:"长征九号运载火箭", ctry:"cn", m:"587000", pm:"150k/70k/53k", d:"108x10.6", pf:"", dt:"2030..", st:"3", ust:"", th:"57600", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"CZ-9.png"},
 //CZ-X
 "CZ-X": {n:"Long March X", alt:"长征X号运载火箭", ctry:"cn", m:"2200000", pm:"70000//", d:"87x5", pf:"", dt:"2025..", st:"3/2", ust:"", th:"25200", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"CZ-X.png"},
 //CZ-11
