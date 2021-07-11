@@ -2633,7 +2633,7 @@ msl: {name:"Curiosity", desc:"lv:Atlas V 541",
     {pt:"", type:"ev", dt:"2012-08-15..2013-06-05", loc:"mar", desc:"Instrument checkout;Drive to Glenelg"},
     {pt:"", type:"arr", dt:"2014-09-11", loc:"mar", desc:"Mt. Sharp"},
     {pt:"", type:"obs", dt:"2014-10-19", loc:"mar", desc:"Comet C 2013 A1 Siding Spring"},
-    {pt:"", type:"ex", dt:"", loc:"mar", desc:"Drive up Mt. Sharp;rv:25km;and counting"},
+    {pt:"", type:"ex", dt:"", loc:"mar", desc:"Drive up Mt. Sharp;rv:25.7km;and counting"},
     {pt:"", type:"nom", dt:"2022-09-30", loc:"mar", desc:"pend"},
     {pt:"", type:"pom", dt:"2024-11-15", loc:"mar", desc:"?"}
 ]},
@@ -3000,7 +3000,7 @@ mgrso: {name:"Tianwen-1:Skyquest-1", desc:"lv:CZ-5",
     {pt:"1", type:"edl", dt:"2021-05-14", loc:"mar:25.066N,109.926E", desc:"lp;Utopia Planitia;show:Zhurong:NE"},
     {pt:"0", type:"sco", dt:"2021-05-17", loc:"mar:260x16000kmx86.9deg", desc:"op;Scientific orbit;per:8.2h"},
     {pt:"2", type:"sep", dt:"2021-05-22", loc:"mar", desc:"rvp/slp;eom:slm"},
-    {pt:"2", type:"nom", dt:"2021-08", loc:"mar", desc:"rvp;eom:slm;eom:rvm"},
+    {pt:"2", type:"nom", dt:"2021-08", loc:"mar", desc:"rvp;rv:0.3km;eom:rvm"},
     {pt:"0", type:"sco", dt:"2022", loc:"mar:265x12000kmx87.7deg", desc:"Final scientific orbit;per:7.8h"},
     {pt:"0", type:"nom", dt:"2023", loc:"mar", desc:"op;?"}
 ]},
@@ -3403,7 +3403,7 @@ halo_ppe: {name:"Gateway", desc:"lv:Falcon Heavy",
     {names:"PPE:Power and Propulsion Element", type:"om", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Maxar;m:9000kg;sc:1.0", id:"", url:"hp:www.nasa.gov/gateway", icon:"gateway1.png"},
     {names:"HALO:Habitation and Logistics Outpost", type:"om", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,NGIS;sc:1", id:"", url:"", icon:""}], 
   events:[
-    {pt:"", type:"l", dt:"2024", loc:"ter:ksc:LC-39A", desc:""},
+    {pt:"", type:"l", dt:"2024-11", loc:"ter:ksc:LC-39A", desc:""},
     {pt:"", type:"oi", dt:"l+4m", loc:"lun:nrho", desc:""},
     {pt:"", type:"nom", dt:"2039", loc:"lun", desc:""}
 ]},
@@ -3490,7 +3490,7 @@ em3: {name:"Artemis-3", desc:"lv:SLS 1B", stat:"pl",
 ]},*/
 beresheet2: {name:"Beresheet 2", desc:"lv:TBA",
   parts:[
-    {names:"براشيت 2‬", type:"om", dest:"lun", stat:"pl", ctry:"il", desc:"ag:SpaceIL;m:630kg;dim:2.5x1.6m;sc:0.3", id:"", url:"hp:beresheet.space;SpaceIL:www.spaceil.com/", icon:"beresheet2-o.png"},
+    {names:"براشيت 2‬", type:"om", dest:"lun", stat:"pl", ctry:"il", desc:"ag:SpaceIL;m:630kg;dim:2.5x1.6m;sc:0.3", id:"", url:"hp:beresheet.space;SpaceIL:www.spaceil.com/;tw:twitter.com/TeamSpaceIL", icon:"beresheet2-o.png"},
     {names:"‬", type:"slm", dest:"lun", stat:"pl", ctry:"il", desc:"ag:SpaceIL;dim:1.5x1.74m;sc:1", id:"", url:"", icon:"beresheet2-l.png"}
   ], 
   events:[

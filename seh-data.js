@@ -3291,7 +3291,7 @@ msl: {name:"Curiosity", desc:"lv:Atlas V 541",
     {pt:"", type:"ev", dt:"2012-08-15..2013-06-05", loc:"mar", desc:"Instrument checkout;Drive to Glenelg"},
     {pt:"", type:"arr", dt:"2014-09-11", loc:"mar", desc:"Mt. Sharp"},
     {pt:"", type:"obs", dt:"2014-10-19", loc:"mar", desc:"Comet C 2013 A1 Siding Spring"},
-    {pt:"", type:"ex", dt:"", loc:"mar", desc:"Drive up Mt. Sharp;rv:25km;and counting"},
+    {pt:"", type:"ex", dt:"", loc:"mar", desc:"Drive up Mt. Sharp;rv:25.7km;and counting"},
     {pt:"", type:"nom", dt:"2022-09-30", loc:"mar", desc:"pend"},
     {pt:"", type:"pom", dt:"2024-11-15", loc:"mar", desc:"?"}
 ]},
@@ -4107,7 +4107,7 @@ change6: {name:"Chang'e 6", desc:"lv:CZ-5",
 hera: {name:"Hera", desc:"lv:Ariane 6",
   parts:[
     {names:"", type:"om", dest:"ast", stat:"pl", ctry:"eu", desc:"ag:esa;fam:AIDA;m:870kg;sc:0.7", id:"", url:"hp:www.esa.int/Safety_Security/Hera", icon:"hera.png"},
-    {names:"Milani;APEX:Asteroid Prospection Explorer", type:"om", dest:"ast", stat:"pl", ctry:"eu", desc:"ag:esa;sc:0.5", id:"", url:"Milani:www.esa.int/Safety_Security/Hera/Hera_s_APEX_CubeSat_will_reveal_the_stuff_that_asteroids_are_made_of", icon:"hera-milani.png"},
+    {names:"Milani;APEX:Asteroid Prospection Explorer", type:"om", dest:"ast", stat:"pl", ctry:"eu", desc:"ag:esa;sc:0.5", id:"", url:"Milani:www.esa.int/Safety_Security/Hera/CubeSat_will_sift_asteroid_secrets_from_reflected_sunshine", icon:"hera-milani.png"},
     {names:"Juventas", type:"om", dest:"ast", stat:"pl", ctry:"eu", desc:"ag:GomSpace,GMV;sc:0.6", id:"", url:"Juventas:www.esa.int/Safety_Security/Hera/Hera_s_radar_CubeSat_will_peer_into_asteroid_s_heart", icon:"hera-juventas.png"}
   ], events:[
     {pt:"", type:"l", dt:"2024-10", loc:"ter:kou", desc:""},

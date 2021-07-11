@@ -897,7 +897,8 @@ neowise:{name:"NEOWISE:Near Earth Object WISE", url:"hp:wise.ssl.berkeley.edu/;i
     {pt:"", dt:"2009-12-14", tp:"l", loc:"ter:van:SLC-2W", desc:""},
     {pt:"", dt:"2009-12-16", tp:"sco", loc:"ter:sseo:526x530kmx97.5deg", desc:""},
     {pt:"", dt:"2011", tp:"hib", loc:"sseo", desc:""},
-    {pt:"", dt:"2013-09", tp:"re", loc:"sseo", desc:""}
+    {pt:"", dt:"2013-09", tp:"re", loc:"sseo", desc:""},
+    {pt:"", dt:"2023-09", tp:"nom", loc:"sseo", desc:"?"}
   ], inst: [
     {n:"", band:"3.4..28um", res:"", d:"0.4", px:"2.75", fov:"47x47'", desc:"warm:<4.6um;c:nvt;"}
 ]},
