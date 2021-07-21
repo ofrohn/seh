@@ -2313,7 +2313,7 @@ isee3: {name:"ICE:International Cometary Explorer", desc:"lv:Delta 2914", stat:"
     {pt:"0", type:"fb", dt:"1983-10-21", loc:"lun:19178km", desc:"Magnetotail Traverse"},
     {pt:"0", type:"fb", dt:"1983-12-22", loc:"lun:119.4km", desc:"ga"},
     {pt:"1", type:"tc", dt:"1983-12-27", loc:"sol:ho:0.926x1.033aux0.1deg", desc:""},
-    {pt:"1", type:"fb", dt:"1985-09-11", loc:"com:7800km", desc:"com:21P/Giacobini-Zinner;Plasma Tail"},
+    {pt:"1", type:"ft", dt:"1985-09-11", loc:"com:7800km", desc:"com:21P/Giacobini-Zinner;Plasma Tail"},
     {pt:"1", type:"app", dt:"1986-03-28", loc:"com:0.21au", desc:"com:1P/Halley;Distant flyby"},
     {pt:"1", type:"ev", dt:"2014-04", loc:"sol:ho", desc:"Control taken over by ISSE3 Reboot Project"},
     {pt:"1", type:"fb", dt:"2014-08-10", loc:"ter:190000km", desc:"Flyby"},
@@ -3578,7 +3578,7 @@ change4: {name:"Chang'e 4", desc:"lv:CZ-3B/G3Z",
     {pt:"", type:"sco", dt:"2018-12-30", loc:"lun:100x15kmx90deg", desc:""},
     {pt:"", type:"td", dt:"2019-01-03", loc:"lun:45.471S,177.606E", desc:"Statio Tianhe, Von Karman crater, SPA;show:CE4:NW"},
     {pt:"", type:"sep", dt:"2019-01-03", loc:"lun", desc:"lp/rvp"}, 
-    {pt:"1", type:"ex", dt:"", loc:"lun", desc:"rvp;rv:653m"},    
+    {pt:"1", type:"ex", dt:"", loc:"lun", desc:"rvp;rv:739m"},    
     {pt:"1", type:"nom", dt:"2021-10", loc:"lun", desc:"rvp;?;eom:rvm"},
     {pt:"0", type:"nom", dt:"2021-12", loc:"lun", desc:"lp;?"}
 ]},
@@ -3619,6 +3619,7 @@ solarorbiter: {name:"Solar Orbiter", desc:"lv:Atlas V 411",
     {pt:"", type:"l", dt:"2020-02-10", loc:"ter:cap:SLC-41", desc:""},
     {pt:"", type:"oi", dt:"2020-02-10", loc:"sol:ho:0.661x1.014aux2.9deg", desc:""},
     {pt:"", type:"fb", dt:"2020-12-27", loc:"ven:7449km", desc:"ga"},
+    {pt:"", type:"ft", dt:"2021-05-31", loc:"sol:ho", desc:"com:C/2019 Y4 (ATLAS);Ion Tail"},
     {pt:"", type:"fb", dt:"2021-08-08", loc:"ven", desc:"ga"},
     {pt:"", type:"fb", dt:"2021-11-26", loc:"ter", desc:"ga;Perhelion 0.321AU"},
     {pt:"", type:"fb", dt:"2022-09-03", loc:"ven", desc:"ga;Perhelion 0.292AU"},
@@ -3658,7 +3659,7 @@ mgrso: {name:"Tianwen-1:Skyquest-1", desc:"lv:CZ-5",
     {pt:"1", type:"edl", dt:"2021-05-14", loc:"mar:25.066N,109.926E", desc:"lp;Utopia Planitia;show:Zhurong:NE"},
     {pt:"0", type:"sco", dt:"2021-05-17", loc:"mar:260x16000kmx86.9deg", desc:"op;Scientific orbit;per:8.2h"},
     {pt:"2", type:"sep", dt:"2021-05-22", loc:"mar", desc:"rvp/slp;eom:slm"},
-    {pt:"2", type:"nom", dt:"2021-08", loc:"mar", desc:"rvp;eom:slm;eom:rvm"},
+    {pt:"2", type:"nom", dt:"2021-08", loc:"mar", desc:"rvp;rv:0.3km;eom:rvm"},
     {pt:"0", type:"sco", dt:"2022", loc:"mar:265x12000kmx87.7deg", desc:"Final scientific orbit;per:7.8h"},
     {pt:"0", type:"nom", dt:"2023", loc:"mar", desc:"op;?"}
 ]},
@@ -3937,7 +3938,8 @@ psyche: {name:"Psyche", desc:"lv:Falcon Heavy",
 ]},
 xl1: {name:"XL-1", desc:"lv:Falcon 9",
   parts:[
-    {names:"", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Masten;fam:clps;m:2700kg;sc:0.3", id:"", url:"hp:www.masten.aero/moon", icon:"masten-xl1.png"}], 
+    {names:"", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Masten;fam:clps;m:2700kg;sc:0.3", id:"", url:"hp:www.masten.aero/moon", icon:"masten-xl1.png"},
+    {names:"MoonRanger", type:"rvm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:CMU,Astrobotic;fam:clps;sc:0.7", id:"", url:"hp:www.astrobotic.com/lunar-delivery/manifest/", icon:"moonranger.png"}], 
   events:[
     {pt:"", type:"l", dt:"2023-11", loc:"ter:cap", desc:""},
     {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:"Near South pole"},
@@ -4061,7 +4063,7 @@ halo_ppe: {name:"Gateway", desc:"lv:Falcon Heavy",
     {names:"PPE:Power and Propulsion Element", type:"om", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Maxar;m:9000kg;sc:1.0", id:"", url:"hp:www.nasa.gov/gateway", icon:"gateway1.png"},
     {names:"HALO:Habitation and Logistics Outpost", type:"om", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,NGIS;sc:1", id:"", url:"", icon:""}], 
   events:[
-    {pt:"", type:"l", dt:"2024", loc:"ter:ksc:LC-39A", desc:""},
+    {pt:"", type:"l", dt:"2024-11", loc:"ter:ksc:LC-39A", desc:""},
     {pt:"", type:"oi", dt:"l+4m", loc:"lun:nrho", desc:""},
     {pt:"", type:"nom", dt:"2039", loc:"lun", desc:""}
 ]},
@@ -4148,7 +4150,7 @@ em3: {name:"Artemis-3", desc:"lv:SLS 1B", stat:"pl",
 ]},*/
 beresheet2: {name:"Beresheet 2", desc:"lv:TBA",
   parts:[
-    {names:"براشيت 2‬", type:"om", dest:"lun", stat:"pl", ctry:"il", desc:"ag:SpaceIL;m:630kg;dim:2.5x1.6m;sc:0.3", id:"", url:"hp:beresheet.space;SpaceIL:www.spaceil.com/", icon:"beresheet2-o.png"},
+    {names:"براشيت 2‬", type:"om", dest:"lun", stat:"pl", ctry:"il", desc:"ag:SpaceIL;m:630kg;dim:2.5x1.6m;sc:0.3", id:"", url:"hp:beresheet.space;SpaceIL:www.spaceil.com/;tw:twitter.com/TeamSpaceIL", icon:"beresheet2-o.png"},
     {names:"‬", type:"slm", dest:"lun", stat:"pl", ctry:"il", desc:"ag:SpaceIL;dim:1.5x1.74m;sc:1", id:"", url:"", icon:"beresheet2-l.png"}
   ], 
   events:[
@@ -6679,8 +6681,8 @@ cz-8
 "Ariane 5G+": {syn:"Ariane 5G"},
 "Ariane 5ECA": {ctry:"eu", m:"764000", pm:"21000/9600/5400",  d:"57.7x5.4", pf:"17x5.4", dt:"2002-12-11..", st:"2/2", th:"11400", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"LH2/LOX+SRP", icon:"Ariane-5.png"},
 "Ariane 6": {syn:"Ariane 62"},
-"Ariane 62": {ctry:"eu", m:"530000", pm:"11300/5000/2600",  d:"62x5.4", pf:"14-20x5.4", dt:"2022..", st:"2/2", ust:"ULPM", th:"8350", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"LH2/LOX+SRP", icon:"ariane62.png"},
-"Ariane 64": {ctry:"eu", m:"860000", pm:"22300/11500/7600",  d:"62x5.4", pf:"20x5.4", dt:"2022..", st:"2/4", ust:"ULPM", th:"15350", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"LH2/LOX+SRP", icon:"ariane64.png"},
+"Ariane 62": {ctry:"eu", m:"530000", pm:"11300/5000/2600",  d:"62x5.4", pf:"14-20x5.4", dt:"2022..", st:"2/2", ust:"ULPM/Astris", th:"8350", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"LH2/LOX+SRP", icon:"ariane62.png"},
+"Ariane 64": {ctry:"eu", m:"860000", pm:"22300/11500/7600",  d:"62x5.4", pf:"20x5.4", dt:"2022..", st:"2/4", ust:"ULPM/Astris", th:"15350", fam:"Ariane", desc:"l:kou;ag:esa", fuel:"LH2/LOX+SRP", icon:"ariane64.png"},
 //Athena 2
 "Athena 2": {ctry:"us", m:"120700", pm:"2065/593/300",  d:"28.2x2.3", pf:"x2.36", dt:"1998-01-07..1999-09-24", st:"3", th:"1450", fam:"MX", desc:"l:cap;ag:nasa", fuel:"SRP", icon:"Athena-2.png"},
 //Atlas-D Able IV, Atlas-D Able V
