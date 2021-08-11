@@ -2,7 +2,7 @@
   parts: [
     {n:"",  ctry:"us|ru|eu|jp|cn|ind..", 
     type:"r|mw|nir|fir|ir|opt|uv|nuv|fuv|x|sx|hx|g|par|gr|emf",  //Spectral type
-    pur:"sol|neo|exo|as|sur|cmb|cxb|grb|seis|de|dm|tim|w",       //Special purpose
+    pur:"sol|neo|exo|as|sur|cmb|cxb|grb|seis|de|dm|tim|w|cr",       //Special purpose
     id:"cospar-id", 
     url:"acr:url[;acr:url]..", 
     icon:"", 
@@ -1331,14 +1331,31 @@ tess:{name:"TESS:Transiting Exoplanet Survey Satellite", url:"hp:tess.gsfc.nasa.
   ], inst: [
     {n:"", band:"0.6..1um", res:"", d:"0.105m", px:"21", fov:"24x96deg", tres:"120s", desc:"cl:nl;"}
 ]},
-tiangong2:{name:"Tiangong 2:Heavenly Palace 2", ctry:"cn", url:"", desc:"ag:cnsa;lv:CZ-2F/T;sc:1;x:10;y:0;m:20000kg", stat:"o", id:"", icon:"tiangong2.png",
+tiangong2:{name:"Tiangong 2:Heavenly Palace 2", ctry:"cn", url:"", desc:"ag:cnsa;lv:CZ-2F/T;sc:1;x:10;y:0;m:20000kg", stat:"s", id:"2016-057A", icon:"tiangong2.png",
   parts: [
     {n:"POLAR:Gamma-ray Burst Polarimeter", ctry:"cn;ch;pl", type:"g", pur:"grb", url:"isdc.unige.ch/polar/", desc:""}
   ], ev: [
     {pt:"", dt:"2016-09-15", tp:"l", loc:"ter:jiu:LC-43/SLS-1", desc:""},
-    {pt:"", dt:"2016-09-15", tp:"sco", loc:"ter:leo:197x373km42.8deg", desc:""}
+    {pt:"", dt:"2016-09-15", tp:"sco", loc:"ter:leo:393x381kmx42.8deg", desc:""},
+    {pt:"", dt:"2019-07-19", tp:"eom", loc:"ter", desc:"Controlled reentry"}
   ], inst: [
-    {n:"0", band:"50..350keV", ea:"200cm2", res:"", d:"", px:"", fov:"120deg", desc:"cl:;"}
+    {n:"0", band:"50..350keV", ea:"400cm2", res:"", d:"", px:"", fov:"120deg", desc:"cl:;"}
+]},
+tiangong3:{name:"Tiangong 3:Heavenly Palace 3", ctry:"cn", url:"", desc:"ag:cnsa;lv:CZ-5B/T;sc:1;x:10;y:0;m:62000kg", stat:"o", id:"2021-035A", icon:"tiangong3.png",
+  parts: [
+    {n:"HERD:High Energy Cosmic-Radiation Detection facility", ctry:"ch;pl;de;ch", type:"g,par", pur:"cr", url:"herd.ihep.ac.cn/", desc:""},
+    {n:"POLAR2:Gamma-ray Burst Polarimeter 2", ctry:"cn;ch;pl", type:"g", pur:"grb", url:"www.unige.ch/dpnc/en/groups/xin-wu/experiments/polar-2/", desc:""},
+    {n:"SING:Spectroscopic Investigations of Nebular Gas", ctry:"ru;ind", type:"uv", pur:"", url:"", desc:""}
+  ], ev: [
+    {pt:"", dt:"2021-04-29", tp:"l", loc:"ter:wen:LC-101", desc:""},
+    {pt:"", dt:"2021-04-29", tp:"sco", loc:"ter:leo:360x390kmx41.5deg", desc:""},
+    {pt:"0", dt:"2027", tp:"l", loc:"ter:wen:LC-102", desc:"CZ-7"}
+  ], inst: [
+    {n:"0", band:"0.5GeV..100TeV", ea:"", sres:"1%@200GeV", res:"0.1deg", px:"", fov:"", desc:"cl:;"},
+    {n:"0", tp:"par", band:"10GeV..100TeV", ea:"", sres:"1%@200GeV", d:"", px:"", fov:"", desc:"cl:;"},
+    {n:"0", tp:"par", band:"30GeV..3PeV", ea:"", sres:"20%@100GeV..1PeV", d:"", px:"", fov:"", desc:"cl:;"},
+    {n:"1", band:"50..500keV", ea:"1400cm2", res:"", d:"", px:"", fov:"120deg", desc:"cl:;"},
+    {n:"2", band:"140..279nm", ea:"", res:"", d:"30cm", px:"", fov:"", desc:"cl:;"}
 ]},
 tianqin1:{name:"TianQin-1:Heavenly Harp 1", url:"hp:", desc:"ag:cnsa;m:35kg;lv:CZ-4B;sc:0.9;y:7", stat:"pl", 
   parts: [

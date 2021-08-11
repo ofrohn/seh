@@ -2876,7 +2876,7 @@ bepicolombo: {name:"Bepi Colombo", desc:"lv:Ariane 5ECA",
     {pt:"", type:"l", dt:"2018-10-20", loc:"ter:kou:ELA-3", desc:""},
     {pt:"", type:"fb", dt:"2020-04-10", loc:"ter:12700km", desc:"ga"},
     {pt:"", type:"fb", dt:"2020-10-15", loc:"ven:10000km", desc:"ga"},
-    {pt:"", type:"fb", dt:"2021-08-11", loc:"ven:550km", desc:"ga"},
+    {pt:"", type:"fb", dt:"2021-08-10", loc:"ven:550km", desc:"ga"},
     {pt:"", type:"fb", dt:"2021-10-01", loc:"mer:200km", desc:"ga"},
     {pt:"", type:"fb", dt:"2022-06-23", loc:"mer:200km", desc:"ga"},
     {pt:"", type:"fb", dt:"2023-06-20", loc:"mer:200km", desc:"ga"},
@@ -2962,7 +2962,7 @@ solarorbiter: {name:"Solar Orbiter", desc:"lv:Atlas V 411",
     {pt:"", type:"oi", dt:"2020-02-10", loc:"sol:ho:0.661x1.014aux2.9deg", desc:""},
     {pt:"", type:"fb", dt:"2020-12-27", loc:"ven:7449km", desc:"ga"},
     {pt:"", type:"ft", dt:"2021-05-31", loc:"sol:ho", desc:"com:C/2019 Y4 (ATLAS);Ion Tail"},
-    {pt:"", type:"fb", dt:"2021-08-08", loc:"ven", desc:"ga"},
+    {pt:"", type:"fb", dt:"2021-08-09", loc:"ven:7995km", desc:"ga"},
     {pt:"", type:"fb", dt:"2021-11-26", loc:"ter", desc:"ga;Perhelion 0.321AU"},
     {pt:"", type:"fb", dt:"2022-09-03", loc:"ven", desc:"ga;Perhelion 0.292AU"},
     {pt:"", type:"fb", dt:"2025-02-18", loc:"ven", desc:"ga;Perhelion 0.294AU"},
@@ -3001,7 +3001,7 @@ mgrso: {name:"Tianwen-1:Skyquest-1", desc:"lv:CZ-5",
     {pt:"1", type:"edl", dt:"2021-05-14", loc:"mar:25.066N,109.926E", desc:"lp;Utopia Planitia;show:Zhurong:NE"},
     {pt:"0", type:"sco", dt:"2021-05-17", loc:"mar:260x16000kmx86.9deg", desc:"op;Scientific orbit;per:8.2h"},
     {pt:"2", type:"sep", dt:"2021-05-22", loc:"mar", desc:"rvp/slp;eom:slm"},
-    {pt:"2", type:"nom", dt:"2021-08", loc:"mar", desc:"rvp;rv:0.5km;eom:rvm"},
+    {pt:"2", type:"nom", dt:"2021-08", loc:"mar", desc:"rvp;rv:0.8km;eom:rvm"},
     {pt:"0", type:"sco", dt:"2022", loc:"mar:265x12000kmx87.7deg", desc:"Final scientific orbit;per:7.8h"},
     {pt:"0", type:"nom", dt:"2023", loc:"mar", desc:"op;?"}
 ]},
@@ -3045,7 +3045,7 @@ chandrayaan3: {name:"Chandrayaan 3:Moon Craft 3", desc:"lv:GSLV MkIII",
 {names:"Vikram", type:"slm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:1471kg;dim:2.5x2x1.2m", icon:"chandrayaan2-l.png"},
 {names:"Pragyan", type:"rvm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:27kg;dim:0.9x0.75x0.85m;sc:0.5", icon:"chandrayaan2-rv.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2022", loc:"ter:sri:SLP", desc:""},
+    {pt:"", type:"l", dt:"2022", loc:"ter:sri:SLP", desc:"^Q3"},
     {pt:"", type:"oi", dt:"2022", loc:"lun:170x186000km", desc:""},
     {pt:"", type:"td", dt:"2022", loc:"lun", desc:""},
     {pt:"0", type:"nom", dt:"2023", loc:"lun", desc:"?"}
@@ -3054,7 +3054,8 @@ capstone: {name:"CAPSTONE:Cislunar Autonomous Positioning System Technology Oper
   parts:[
     {names:"", type:"om", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Advanced Space;fam:SBIR;12U Cubesat;m:25kg;sc:0.5", id:"", url:"hp:www.nasa.gov/directorates/spacetech/small_spacecraft/capstone;RocketLab:www.rocketlabusa.com/missions/lunar/", icon:"capstone.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2021-11", loc:"ter:wal:LC-2", desc:"Q3"},
+    {pt:"", type:"l", dt:"2021-11", loc:"ter:mah:LC-1", desc:"Q3"},
+    {pt:"", type:"toi", dt:"l+7d", loc:"ter:lto", desc:""},
     {pt:"", type:"oi", dt:"l+4m", loc:"lun:nrho", desc:""},
     {pt:"", type:"nom", dt:"2023", loc:"lun", desc:""}
 ]},
@@ -3409,6 +3410,14 @@ halo_ppe: {name:"Gateway", desc:"lv:Falcon Heavy",
     {pt:"", type:"oi", dt:"l+4m", loc:"lun:nrho", desc:""},
     {pt:"", type:"nom", dt:"2039", loc:"lun", desc:""}
 ]},
+im3: {name:"NOVA-C IM-3", desc:"lv:Falcon 9",
+  parts:[
+    {names:"", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Intuitive Machines;fam:clps;m:1700kg;sc:0.3", id:"", url:"hp:intuitivemachines.com/lunarlander;clps:nasa.gov/content/commercial-lunar-payload-services", icon:"novac.png"}], 
+  events:[
+    {pt:"", type:"l", dt:"2024-01-01", loc:"ter:cap", desc:""},
+    {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:"South pole"},
+    {pt:"", type:"nom", dt:"l+20dy", loc:"lun", desc:""}
+]},
 mom2: {name:"MOM-2:Mars Observation Mission 2", desc:"lv:GSLV MkIII",
   parts:[
     {names:"", type:"om", dest:"mar", stat:"pl", ctry:"ind", desc:"ag:isro,cnes;sc:0.5", id:"", url:"hp:www.isro.gov.in/", icon:"mobm.png"},
@@ -3682,7 +3691,7 @@ veritas: {name:"VERITAS:Venus Emissivity, Radio Science, InSAR, Topography, and 
 // --- 2029
 cometinterceptor: {name:"Comet Interceptor", desc:"lv:Ariane 62", 
   parts: [
-    {names:"A", type:"fbm", dest:"com", stat:"pl", ctry:"eu", desc:"ag:esa;dim:;m:900kg;sc:0.75;fam:F-Class", id:"", url:"hp:www.cometinterceptor.space/;tw:twitter.com/CometIntercept",  icon:"comet-interceptor-a.png"},
+    {names:"A", type:"fbm", dest:"com", stat:"pl", ctry:"eu", desc:"ag:esa;dim:;m:900kg;sc:0.75;fam:F-Class", id:"", url:"hp:www.cometinterceptor.space/;tw:twitter.com/CometIntercept",  icon:"comet-interceptor.png"},
     {names:"B1", type:"fbm", dest:"com", stat:"pl", ctry:"jp", desc:"ag:jaxa;dim:;m:;sc:0.25", id:"", url:"", icon:"comet-interceptor-b1.png"},
     {names:"B2", type:"", dest:"com", stat:"pl", ctry:"eu", desc:"ag:esa;dim:;m:;sc:0.5", id:"", url:"",  icon:"comet-interceptor-b2.png"}
   ], events: [
