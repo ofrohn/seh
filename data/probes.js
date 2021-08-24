@@ -2531,7 +2531,7 @@ lcross: {name:"LCROSS:Lunar Crater Observation and Sensing Satellite", desc:"lv:
 // --- 2010 --- 3 Missions     
 akatsuki: {name:"Akatsuki:Dawn", desc:"lv:H-IIA 202",
   parts:[
-    {names:"あかつき;VCO:Venus Climate Orbiter;Planet-C", type:"om", dest:"ven", stat:"o", ctry:"jp", desc:"ag:jaxa;m:517kg;m0:320kg;dim:7.0x1.7x1.6m;sc:0.4", id:"2010-020D", url:"hp:www.stp.isas.jaxa.jp/venus/top_english.html;jaxa:www.isas.jaxa.jp/en/missions/spacecraft/current/akatsuki.html;darts:darts.isas.jaxa.jp/planet/project/akatsuki/;tw:twitter.com/Akatsuki_JAXA", icon:"akatsuki.png"},
+    {names:"あかつき;VCO:Venus Climate Orbiter;Planet-C", type:"om", dest:"ven", stat:"o", ctry:"jp", desc:"ag:jaxa;m:517kg;m0:320kg;dim:7.0x1.7x1.6m;sc:0.4", id:"2010-020D", url:"hp:akatsuki.isas.jaxa.jp/en/;jaxa:www.isas.jaxa.jp/en/missions/spacecraft/current/akatsuki.html;darts:darts.isas.jaxa.jp/planet/project/akatsuki/;tw:twitter.com/Akatsuki_JAXA", icon:"akatsuki.png"},
 {type:"fbm", dest:"ven", stat:"o", ctry:"jp"}], 
   events:[
     {pt:"", type:"l", dt:"2010-05-20", loc:"ter:tng:YLP-1", desc:""},
@@ -2714,7 +2714,7 @@ change5test: {name:"Chang'e 5 T1", desc:"lv:CZ-3C G2", stat:"o",
 ]},
 hayabusa2: {name:"Hayabusa 2:Peregrine Falcon 2", desc:"lv:H-IIA 202",
   parts:[
-    {names:"はやぶさ2", type:"srm", dest:"ast", stat:"o", ctry:"jp", desc:"ag:jaxa,dlr;m:590kg;m0:500kg;dim:6.0x4.23x1.4m;w:0.65", id:"2014-076A", url:"hp:www.hayabusa2.jaxa.jp/;jaxa:www.jspec.jaxa.jp/e/activity/hayabusa2.html;tw:twitter.com/haya2e_jaxa", icon:"hayabusa2.png"},
+    {names:"はやぶさ2", type:"srm", dest:"ast", stat:"o", ctry:"jp", desc:"ag:jaxa,dlr;m:590kg;m0:500kg;dim:6.0x4.23x1.4m;w:0.65", id:"2014-076A", url:"hp:www.hayabusa2.jaxa.jp/en;jaxa:www.jspec.jaxa.jp/e/activity/hayabusa2.html;tw:twitter.com/haya2e_jaxa", icon:"hayabusa2.png"},
     {names:"SCI:Small Carry-on Impactor", type:"im", dest:"ast", stat:"o", ctry:"jp", desc:"ag:jaxa;sc:0.4;m:18kg", id:"", url:"", icon:"sci.png"},
     {names:"MINERVA II 1A/1B/2:Micro/Nano Experimental Robot Vehicle for Asteroid", type:"hpm", dest:"ast", stat:"o", ctry:"jp", desc:"ag:jaxa;m:3kg;sc:1.0", id:"", url:"", icon:"minerva2.png"},
     {names:"MASCOT:Mobile Asteroid Surface Scout", type:"slm", dest:"ast", stat:"o", ctry:"de;fr", desc:"ag:dlr,cnes;m:11.3kg;sc:0.6", id:"", url:"dlr:www.dlr.de/irs/en/desktopdefault.aspx/tabid-7902/13482_read-34316;tw:twitter.com/MASCOT2018", icon:"mascot.png"}], 
@@ -2871,7 +2871,7 @@ bepicolombo: {name:"Bepi Colombo", desc:"lv:Ariane 5ECA",
   parts:[
     {names:"", type:"fbm", dest:"mer", stat:"o", ctry:"eu;jp", desc:"ag:asi,esa,jaxa;m0:2700kg;m:4100kg;dim:30x4.5x4m;sc:0.7;w:0.5", id:"2018-080A", url:"hp:www.esa.int/Our_Activities/Space_Science/BepiColombo_overview2;psa:www.sciops.esa.int/index.php?project=PSA&page=bepi;tw:twitter.com/BepiColombo", icon:"bepicolombo.png"},
 {names:"MPO:Mercury Planetary Orbiter", type:"om", dest:"mer", stat:"pl", ctry:"eu", desc:"ag:asi,esa;m:1838kg;sc:0.75", url:"esa:sci.esa.int/home/bepicolombo/;tw:twitter.com/ESA_Bepi", icon:"bepicolombo-mpo.png"},
-{names:"MMO:Mercury Magnetospheric Orbiter", type:"om", dest:"mer", stat:"pl", ctry:"jp", desc:"ag:jaxa;m:275kg", url:"jaxa:www.stp.isas.jaxa.jp/mercury/;tw:twitter.com/JAXA_MMO", icon:"bepicolombo-mmo.png"}], 
+{names:"MMO:Mercury Magnetospheric Orbiter", type:"om", dest:"mer", stat:"pl", ctry:"jp", desc:"ag:jaxa;m:275kg", url:"jaxa:mio.isas.jaxa.jp/en/;tw:twitter.com/JAXA_MMO", icon:"bepicolombo-mmo.png"}], 
   events:[
     {pt:"", type:"l", dt:"2018-10-20", loc:"ter:kou:ELA-3", desc:""},
     {pt:"", type:"fb", dt:"2020-04-10", loc:"ter:12700km", desc:"ga"},
@@ -3001,7 +3001,7 @@ mgrso: {name:"Tianwen-1:Skyquest-1", desc:"lv:CZ-5",
     {pt:"1", type:"edl", dt:"2021-05-14", loc:"mar:25.066N,109.926E", desc:"lp;Utopia Planitia;show:Zhurong:NE"},
     {pt:"0", type:"sco", dt:"2021-05-17", loc:"mar:260x16000kmx86.9deg", desc:"op;Scientific orbit;per:8.2h"},
     {pt:"2", type:"sep", dt:"2021-05-22", loc:"mar", desc:"rvp/slp;eom:slm"},
-    {pt:"2", type:"nom", dt:"2021-08", loc:"mar", desc:"rvp;rv:0.8km;eom:rvm"},
+    {pt:"2", type:"nom", dt:"2021-08", loc:"mar", desc:"rvp;rv:1.0km;eom:rvm"},
     {pt:"0", type:"sco", dt:"2022", loc:"mar:265x12000kmx87.7deg", desc:"Final scientific orbit;per:7.8h"},
     {pt:"0", type:"nom", dt:"2023", loc:"mar", desc:"op;?"}
 ]},
@@ -3142,7 +3142,7 @@ luna25: {name:"Luna 25", desc:"lv:Soyuz 2.1B/Fregat-MT",
   parts:[
     {names:"Луна-Глоб посадочный;Luna Glob Lander:Lunar Sphere Lander", type:"slm", dest:"lun", stat:"pl", ctry:"ru", desc:"ag:rosc,iki;m:1725kg;m0:780kg;sc:0.45", id:"", url:"rsw:www.russianspaceweb.com/luna_glob.html", icon:"luna25.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2021-10-01", loc:"ter:vos:LC-1S", desc:""},
+    {pt:"", type:"l", dt:"2022-05", loc:"ter:vos:LC-1S", desc:""},
     {pt:"", type:"oi", dt:"l+4dy", loc:"lun:100x100kmx90deg", desc:""},
     {pt:"", type:"td", dt:"l+8dy", loc:"lun:73.3S,43.9E", desc:"Near South Pole, Boguslawsky Crater"},
     {pt:"", type:"nom", dt:"l+3mo", loc:"lun", desc:"?"},
@@ -3288,6 +3288,7 @@ xl1: {name:"XL-1", desc:"lv:Falcon 9",
     {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:"Near South pole"},
     {pt:"", type:"nom", dt:"l+12dy", loc:"lun", desc:""}
 ]},
+// Sherpa Orbit Transfer Vehicle
 prime1: {name:"PRIME-1:Polar Resources Ice Mining Experiment", desc:"lv:Falcon 9",
   parts:[
     {names:"NOVA-C IM-2", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Intuitive Machines;fam:clps;m:1700kg;sc:0.3", id:"", url:"hp:intuitivemachines.com/lunarlander;clps:nasa.gov/content/commercial-lunar-payload-services", icon:"novac.png"},
@@ -3486,7 +3487,7 @@ em3: {name:"Artemis-3", desc:"lv:SLS 1B", stat:"pl",
     {names:"Moonship", type:"hm", dest:"lun", ctry:"us", desc:"ag:nasa,spacex;m:1320000kg;sc:0.6", id:"", url:"HLS:www.spacex.com/human-spaceflight/moon/index.html", icon:"starship-hls.png"}
     ],
   events:[
-    {pt:"", type:"l", dt:"2024", loc:"ter:ksc:LC-39B", desc:""},
+    {pt:"", type:"l", dt:"2025-04", loc:"ter:ksc:LC-39B", desc:""},
     {pt:"", type:"td", dt:"l+4dy", loc:"lun", desc:"HLS;Near South pole"},
     {pt:"0", type:"edl", dt:"l+30dy", loc:"ter", desc:"eom"}
 ]},
@@ -3535,6 +3536,16 @@ luna26: {name:"Luna 26", desc:"lv:Soyuz 2.1B/Fregat-MT",
     {pt:"", type:"sco", dt:"l+1yr", loc:"lun:500kmx90deg", desc:"Final Operation Orbit"},
     {pt:"", type:"nom", dt:"l+3yr", loc:"lun", desc:"?"},
     {pt:"", type:"pom", dt:"l+4yr", loc:"lun", desc:"?"}
+]},
+escapade: {name:"EscaPADE:Escape and Plasma Acceleration and Dynamics Explorers", desc:"lv:Electron",
+  parts:[
+    {names:"Blue", type:"om", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,UCB,Rocket Lab;m:90kg;sc:0.4", id:"", url:"nssdc:nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=ESCAPADE", icon:"escapade.png"},
+    {names:"Gold", type:"om", dest:"mar", stat:"pl", ctry:"us", desc:"m:90kg", id:"", url:"", icon:"escapade.png"}],
+  events:[
+    {pt:"", type:"l", dt:"2024-10", loc:"ter:kou", desc:""},
+    {pt:"", type:"oi", dt:"2025-09", loc:"mar", desc:""},
+    {pt:"", type:"sco", dt:"2027-09", loc:"mar:150x10000km", desc:""},
+    {pt:"", type:"nom", dt:"2031-09", loc:"mar", desc:"?"}
 ]},
 // --- 2025
 interheliozond: {name:"Interhelio-Zond", desc:"lv:Proton-M/Briz-M",

@@ -111,7 +111,7 @@ deim:
 //Asteroid belt & NEOs
 sbo:
   {name:"Small Bodies", other:"", desig:"", type:"b", par:"sol", disc:"", dyr:"",
-   com:"4341", ast:"1074504", cen:"Atiras:46;Atens:1990;Apollos:13143;Amors:10682;Hungarias:26349;Mars-Crossers:17762;Main Belt:1008365;Hildas:4845;Jupiter Trojans:10185;Comets:4597;Damocloids:157",
+   com:"4616", ast:"1121433", cen:"Atiras:50;Atens:2060;Apollos:13471;Amors:11054;Hungarias:27133;Mars-Crossers:18442;Main Belt:1042393;Hildas:5060;Jupiter Trojans:10607;Comets:4616;Damocloids:157",
    img:"mab.png", map:"sbo.png", col:"#9f9", ind:"6", 
    url:"haz:neo.jpl.nasa.gov/risk/",
    desc:"sc:30;scmoons:0.25;url:www.minorplanetcenter.net;rsize:1800,140;x:24;y:48"},
@@ -1615,7 +1615,7 @@ s2004n1:
    img:"", desc:"sc:3;url:solarsystem.nasa.gov/moons/neptune-moons/s-2004-n1/in-depth/;orb:ec.2013-01-01"},
 tno:
   {name:"Transneptunian Objects", other:"", desig:"", type:"b", par:"sol", disc:"", dyr:"", m:"1.17e23kg",
-   tno:"4061", cen:"Neptune Trojans:24;Centaurs/Scattered Disk Objects:1085;Detached:79;Plutinos:~600;Other Resonant:~400;Classical KBOs:~1000",
+   tno:"4292", cen:"Neptune Trojans:24;Centaurs/Scattered Disk Objects:1085;Detached:79;Plutinos:~600;Other Resonant:~400;Classical KBOs:~1000",
    img:"kb.png", map:"tno.png", col:"#9fc", ind:"11", 
    desc:"sc:30;scmoons:0.05;url:www.minorplanetcenter.net;rsize:1800,200;x:72;y:72"},
 //Pluto system
