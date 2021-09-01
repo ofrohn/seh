@@ -2672,7 +2672,7 @@ marspathfinder: {name:"MPF:Mars Pathfinder", desc:"lv:Delta II 7925",
 // --- 1997 --- 3 Missions
 ace: {name:"ACE:Advanced Composition Explorer", desc:"lv:Delta II 7920-8",
   parts:[
-    {names:"Explorer 71", type:"obm", dest:"sol", stat:"o", ctry:"us", desc:"ag:nasa,gsfc,apl;fam:Explorer;Observation of Energetic Particles;m:785kg;m0:596kg;dim:8.3x8.3x1.0m;sc:0.5", id:"1997-045A", url:"hp:www.srl.caltech.edu/ACE/", icon:"ace.png"}], 
+    {names:"Explorer 71", type:"obm", dest:"sol", stat:"o", ctry:"us", desc:"ag:nasa,gsfc,apl;fam:Explorer;Observation of Energetic Particles;m:785kg;m0:596kg;dim:8.3x8.3x1.0m;sc:0.5", id:"1997-045A", url:"hp:www.srl.caltech.edu/ACE/;nasa:science.nasa.gov/missions/ace", icon:"ace.png"}], 
   events:[
     {pt:"", type:"l", dt:"1997-08-25", loc:"ter:cap:LC-17A", desc:""},
     {pt:"", type:"toi", dt:"1997-08-25", loc:"ter:leto:177x1370000km", desc:""},
@@ -3291,7 +3291,7 @@ msl: {name:"Curiosity", desc:"lv:Atlas V 541",
     {pt:"", type:"ev", dt:"2012-08-15..2013-06-05", loc:"mar", desc:"Instrument checkout;Drive to Glenelg"},
     {pt:"", type:"arr", dt:"2014-09-11", loc:"mar", desc:"Mt. Sharp"},
     {pt:"", type:"obs", dt:"2014-10-19", loc:"mar", desc:"Comet C 2013 A1 Siding Spring"},
-    {pt:"", type:"ex", dt:"", loc:"mar", desc:"Drive up Mt. Sharp;rv:25.85km;and counting"},
+    {pt:"", type:"ex", dt:"", loc:"mar", desc:"Drive up Mt. Sharp;rv:26.5km;and counting"},
     {pt:"", type:"nom", dt:"2022-09-30", loc:"mar", desc:"pend"},
     {pt:"", type:"pom", dt:"2024-11-15", loc:"mar", desc:"?"}
 ]},
@@ -3643,7 +3643,7 @@ mars2020rover: {name:"Perseverance", desc:"lv:Atlas V 541",
     {pt:"", type:"sep", dt:"2021-04-04", loc:"mar", desc:"Rover/Helicopter probe"},
     {pt:"1", type:"l", dt:"2021-04-19", loc:"mar", desc:"Helicopter probe"},
     {pt:"1", type:"nom", dt:"2021-12", loc:"mar", desc:"rv:1.6km;Helicopter probe"},
-    {pt:"0", type:"nom", dt:"2023-01", loc:"mar", desc:"rv:1.4km"},
+    {pt:"0", type:"nom", dt:"2023-01", loc:"mar", desc:"rv:2.1km"},
     {pt:"0", type:"pom", dt:"l+10yr", loc:"mar", desc:"?"}
 ]},
 mgrso: {name:"Tianwen-1:Skyquest-1", desc:"lv:CZ-5",
@@ -4195,14 +4195,14 @@ luna26: {name:"Luna 26", desc:"lv:Soyuz 2.1B/Fregat-MT",
     {pt:"", type:"nom", dt:"l+3yr", loc:"lun", desc:"?"},
     {pt:"", type:"pom", dt:"l+4yr", loc:"lun", desc:"?"}
 ]},
-escapade: {name:"EscaPADE:Escape and Plasma Acceleration and Dynamics Explorers", desc:"lv:Electron",
+escapade: {name:"ESCAPADE:Escape and Plasma Acceleration and Dynamics Explorers", desc:"lv:TBA",
   parts:[
-    {names:"Blue", type:"om", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,UCB,Rocket Lab;m:90kg;sc:0.4", id:"", url:"nssdc:nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=ESCAPADE", icon:"escapade.png"},
+    {names:"Blue", type:"om", dest:"mar", stat:"pl", ctry:"us", desc:"ag:nasa,UCB,Rocket Lab;fam:SIMPLEx;m:90kg;sc:0.4", id:"", url:"nssdc:nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=ESCAPADE", icon:"escapade.png"},
     {names:"Gold", type:"om", dest:"mar", stat:"pl", ctry:"us", desc:"m:90kg", id:"", url:"", icon:"escapade.png"}],
   events:[
     {pt:"", type:"l", dt:"2024-10", loc:"ter:kou", desc:""},
     {pt:"", type:"oi", dt:"2025-09", loc:"mar", desc:""},
-    {pt:"", type:"sco", dt:"2027-09", loc:"mar:150x10000km", desc:""},
+    {pt:"", type:"sco", dt:"2027-09", loc:"mar:150x10000kmx60deg", desc:""},
     {pt:"", type:"nom", dt:"2031-09", loc:"mar", desc:"?"}
 ]},
 // --- 2025
