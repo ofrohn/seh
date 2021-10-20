@@ -458,7 +458,7 @@ goes:{name:"GOES:Geostationary Operational Environmental Satellite", ctry:"us", 
     {n:"GOES 16", url:"www.goesr.gov", id:"2016-071A", type:"uv,x", pur:"sol;w", stat:"o", desc:"lv:Atlas V 541"}, 
     {n:"GOES 17", id:"2018-022A", type:"uv,x", pur:"sol;w", stat:"o", desc:"lv:Atlas V 541"}, 
     {n:"GOES-T", id:"", type:"uv,x", pur:"sol;w", stat:"pl", desc:"lv:Atlas V 541"}, 
-    {n:"GOES-U", id:"", type:"uv,x", pur:"sol;w", stat:"pl", desc:"lv:"}
+    {n:"GOES-U", id:"", type:"uv,x", pur:"sol;w", stat:"pl", desc:"lv:Falcon Heavy"}
   ], ev: [
     {pt:"0", dt:"2006-05-24", tp:"l", loc:"ter:cap:SLC-37B", desc:""},
     {pt:"0", dt:"2006-07-26", tp:"sco", loc:"ter:geos:35784x35790kmx0.4deg", desc:""},
@@ -745,7 +745,7 @@ jwst:{name:"JWST:James Webb Space Telescope", url:"hp:www.jwst.nasa.gov/;stsci:w
   parts: [
     {n:"", ctry:"us;eu", type:"nir;opt", pur:"", id:"", desc:"", icon:"webb.png"}
   ], ev: [
-    {pt:"", dt:"2022", tp:"l", loc:"ter:kou:ELA-3", desc:"kou"},
+    {pt:"", dt:"2021-12-18", tp:"l", loc:"ter:kou:ELA-3", desc:"kou"},
     {pt:"", dt:"l+30d", tp:"sco", loc:"sol:esl2", desc:""}
   ], inst: [
     {n:"MIRI", band:"5..28um", res:"1.13..0.1", d:"6.5", px:"0.1", fov:"1.3x1.7'", sres:"100/3000", url:"ircamera.as.arizona.edu/MIRI/", desc:"c:nv;cl:nly;"},
@@ -1453,7 +1453,7 @@ wmap:{name:"WMAP:Wilkinson Microwave Anisotropy Probe", url:"hp:map.gsfc.nasa.go
   ], inst: [
     {n:"", band:"22..90GHz", res:"3348..720", d:"", px:"", desc:""}
 ]},
-wukong:{name:"Wukong:Monkey King", url:"hp:dpnc.unige.ch/dampe/index.html", desc:"ag:cnsa;lv:CZ-2D;m:1900kg", stat:"o", 
+wukong:{name:"Wukong:Monkey King", url:"hp:dpnc.unige.ch/dampe/index.html;data:dgdb.pmo.ac.cn/dampe/", desc:"ag:cnsa;lv:CZ-2D;m:1900kg", stat:"o", 
   parts: [
     {n:"DAMPE:DArk Matter Particle Explorer", ctry:"cn", type:"par;g", pur:"dm;cr", id:"2015-78A", icon:"dampe.png", desc:""}
   ], ev: [
