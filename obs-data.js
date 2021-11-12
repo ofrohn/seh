@@ -911,6 +911,10 @@ compton:{name:"Compton:Compton Gamma Ray Observatory", url:"hp:cossc.gsfc.nasa.g
     {pt:"", dt:"1991-04-05", tp:"l", loc:"ter:cap:LC-39B", desc:""},
     {pt:"", dt:"1001-05-05", tp:"sco", loc:"ter:leo:441x455kmx28.4deg", desc:""},
     {pt:"", dt:"2000-06-04", tp:"ae", loc:"ter", desc:"eom"}
+  ], inst: [
+    {tp:"sp", n:"OSSE:Oriented Scintillation Spectrometer Experiment", band:"0.05..10MeV", d:"", ea:"550cm2@0.3MeV", sres:"10.5%@0.66MeV", eres:"", fov:"3.8x11.4deg", desc:"c:nr;"},
+    {tp:"is", n:"COMPTEL:Imaging Compton Telescope ", band:"0.8..30MeV", res:"300..1800", ea:"", sres:"", eres:"5..10%fwhm", fov:"", desc:"c:nr;"},
+    {tp:"", n:"EGRET", band:"20MeV..30GeV", d:"", ea:"1500cm2@200..1000MeV", sres:"", eres:"", fov:"", desc:"c:nr;"}
 ]},
 copernicus:{name:"Copernicus", url:"hp:heasarc.nasa.gov/docs/copernicus/copernicus.html", desc:"ag:nasa;Atlas SLV-3C Centaur", stat:"s", 
   parts: [
@@ -937,6 +941,16 @@ cosb:{name:"COS-B", url:"hp:www.esa.int/Our_activities/Space_Science/Cos-B_overv
     {pt:"", dt:"1975-08-09", tp:"l", loc:"ter:van:SLC-2W", desc:""},
     {pt:"", dt:"1976-01-01", tp:"sco", loc:"ter:heeo:2536x96895kmx92deg", desc:""},
     {pt:"", dt:"1982", tp:"tos", loc:"", desc:"eom"}
+]},
+cosi:{name:"COSI:Compton Spectrometer and Imager", url:"hp:www.nasa.gov/press-release/nasa-selects-gamma-ray-telescope-to-chart-milky-way-evolution", desc:"ag:nasa;fam:Astrophysics Explorers;lv:TBA", stat:"pl", 
+  parts: [
+    {n:"", ctry:"us", type:"g", pur:"", id:"", icon:""}
+  ], ev: [
+    {pt:"", dt:"2025", tp:"l", loc:"ter", desc:""},
+    {pt:"", dt:"2025", tp:"sco", loc:"ter:leo", desc:""},
+    {pt:"", dt:"2027", tp:"nom", loc:"ter", desc:"?"}
+  ], inst: [
+    {tp:"g", n:"", band:"0.2..5MeV", d:"", px:"", tres:"", fov:"", desc:"c:nr;"}
 ]},
 cxbn:{name:"CXBN:Cosmic X-ray Background Nanosatellite", url:"hp:universe.sonoma.edu/CXBNanosat/", desc:"lv:Atlas V 401;ag:msuky;m:2.4kg", stat:"p", 
   parts: [
@@ -1395,12 +1409,12 @@ iue:{name:"IUE:International Ultraviolet Explorer", url:"hp:www.esa.int/Our_acti
 ], inst: [
     {n:"", tp:"is", band:"115..325nm", res:"", sres:"", d:"0.45", sens:"", fov:"", desc:"c:;cl:;"}
 ]}, 
-ixpe:{name:"IXPE:Imaging X-Ray Polarimetry Explorer", url:"hp:ixpe.msfc.nasa.gov/", desc:"ag:nasa,msfc;lv:Falcon 9;m:292kg;sc:1.0;y:10", stat:"pl", 
+ixpe:{name:"IXPE:Imaging X-Ray Polarimetry Explorer", url:"hp:ixpe.msfc.nasa.gov/", desc:"ag:nasa,msfc;fam:smex;lv:Falcon 9;m:292kg;sc:1.0;y:10", stat:"pl", 
   parts: [
     {n:"", ctry:"ind", type:"x", pur:"", id:"", icon:"ixpe.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2021-10", tp:"l", loc:"ter:ksa:LC-39A", desc:""},
-    {pt:"", dt:"2021-10", tp:"sco", loc:"ter:leo:540kmx0deg", desc:""},
+    {pt:"", dt:"2021-12-09", tp:"l", loc:"ter:ksa:LC-39A", desc:""},
+    {pt:"", dt:"2021-12-09", tp:"sco", loc:"ter:leo:540kmx0deg", desc:""},
     {pt:"", dt:"2024", tp:"pom", loc:"ter:leo", desc:""}
   ], inst: [
     {n:"", band:"2..8keV", res:"30", fov:"11'", desc:"c:nr;cl:nl"}
@@ -1908,13 +1922,13 @@ stereo:{name:"Stereo:Solar Terrestrial Relations Observatory", url:"hp:stereo.gs
     {n:"IMPACT", band:"", url:"sprg.ssl.berkeley.edu/impact/", desc:"c:n;"},
     {n:"PLASTIC", band:"", url:"stereo.sr.unh.edu/", desc:"c:n;"}
 ]},
-sunrise:{name:"SunRISE:Sun Radio Interferometer Space Experiment", url:"hp:www.jpl.nasa.gov/news/news.php?release=2020-058", desc:"ag:nasa,jpl,U-M;lv:;sc:1;x:0;y:10", stat:"pl", 
+sunrise:{name:"SunRISE:Sun Radio Interferometer Space Experiment", url:"hp:www.jpl.nasa.gov/missions/sun-radio-interferometer-space-experiment", desc:"ag:nasa,jpl,U-M;lv:;sc:1;x:0;y:10", stat:"pl", 
   parts: [
     {n:"", id:"", ctry:"us", type:"r", pur:"sol", icon:"sunrise.png", desc:"6 6U Cubesats"}
   ], ev: [
-    {pt:"", dt:"2023-07", tp:"l", loc:"ter:cap", desc:""},
-    {pt:"", dt:"2023-07", tp:"sco", loc:"ter:geo", desc:""},
-    {pt:"", dt:"2024-07", tp:"nom", loc:"ter:geo", desc:""}
+    {pt:"", dt:"2024-04", tp:"l", loc:"ter:cap", desc:""},
+    {pt:"", dt:"2024-04", tp:"sco", loc:"ter:geo", desc:""},
+    {pt:"", dt:"2026-04", tp:"nom", loc:"ter:geo", desc:""}
   ], inst: [
     {n:"", band:"0.1..25MHz", d:10000, px:null, desc:"c:nr;cl:ny;"}
 ]},
