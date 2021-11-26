@@ -1622,7 +1622,7 @@ tno:
 plu:
   {name:"Pluto", other:"", desig:"134340", type:"d", par:"sol", disc:"C. Tombaugh", dyr:"1930",
    a:"39.482au", e:"0.2488", i:"17.140", per:"247.921a", rot:"-6.387d", gr:"plut",
-   h:"-1.0", mass:"1.309e22kg", dia:"2374km/0", rad:"1187/0", tilt:"122.53",
+   h:"-1.0", mass:"1.328e22kg", dia:"2377km/0", rad:"1188/0", tilt:"122.53",
    irad:"0.89", alb:"0.49..0.66", grav:"0.067", hill:"6508", rrl:"1.30..1.55", frl:"2.50..2.98",
    comp:"N2+Ice+Rock+core:77", dens:"1.86", atm:"N2:97+CH4:2.5+CO", atp:"10e-6", temp:"33..44..55K",
    img:"pluto.png", map:"pluto-sys.png", col:"#f9f", 
@@ -1630,7 +1630,7 @@ plu:
 cha:
   {name:"Charon", other:"", desig:"I", type:"m", par:"plu", disc:"J.W. Christy", dyr:"1978",
    a:"19596km", e:"0.00005", i:"0.0", per:"6.387d", rot:"S", 
-   h:"0.9", mass:"1.59e21kg", dia:"1020km", rad:"606", tilt:"0",
+   h:"0.9", mass:"1.60e21kg", dia:"1212km", rad:"606", tilt:"0",
    alb:"0.36..0.39", grav:"0.031", comp:"Ice+Rock", dens:"1.70", temp:"~53K",
    img:"charon.png", desc:"sc:4;url:solarsystem.nasa.gov/moons/pluto-moons/charon/in-depth/;orb:eq.2000-01-01"},
 styx:

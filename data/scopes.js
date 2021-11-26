@@ -53,7 +53,7 @@ aditya:{name:"Aditya-L1", url:"hp:aditya.iiap.res.in/", desc:"Solar Coronograph;
   parts: [
     {n:"आदित्य", ctry:"ind", type:"opt;ir", pur:"sol", id:"", icon:"aditya-l1.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2022-1", tp:"l", loc:"ter:sri", desc:""},
+    {pt:"", dt:"2022-07", tp:"l", loc:"ter:sri", desc:""},
     {pt:"", dt:"l+100d", tp:"sco", loc:"sol:esl1", desc:""}
   ], inst: [
     {n:"VELC:Visible Emission Line Coronagraph", band:"530..640nm", res:"2", d:"0.2", px:"", url:"", desc:"c:nl;cl:nly"},
@@ -250,7 +250,8 @@ compton:{name:"Compton:Compton Gamma Ray Observatory", url:"hp:cossc.gsfc.nasa.g
   ], inst: [
     {tp:"sp", n:"OSSE:Oriented Scintillation Spectrometer Experiment", band:"0.05..10MeV", d:"", ea:"550cm2@0.3MeV", sres:"10.5%@0.66MeV", eres:"", fov:"3.8x11.4deg", desc:"c:nr;"},
     {tp:"is", n:"COMPTEL:Imaging Compton Telescope ", band:"0.8..30MeV", res:"300..1800", ea:"", sres:"", eres:"5..10%fwhm", fov:"", desc:"c:nr;"},
-    {tp:"", n:"EGRET", band:"20MeV..30GeV", d:"", ea:"1500cm2@200..1000MeV", sres:"", eres:"", fov:"", desc:"c:nr;"}
+    {tp:"", n:"EGRET", band:"20MeV..30GeV", d:"", ea:"1500cm2@200..1000MeV", sres:"", eres:"", fov:"", desc:"c:nr;"},
+    {tp:"", n:"BATSE:Burst And Transient Source Experiment", band:"10keV..100MeV", d:"", ea:"", sres:"", eres:"", fov:"", desc:"c:nr;"}
 ]},
 copernicus:{name:"Copernicus", url:"hp:heasarc.nasa.gov/docs/copernicus/copernicus.html", desc:"ag:nasa;Atlas SLV-3C Centaur", stat:"s", 
   parts: [
@@ -759,7 +760,7 @@ jwst:{name:"JWST:James Webb Space Telescope", url:"hp:www.jwst.nasa.gov/;stsci:w
   parts: [
     {n:"", ctry:"us;eu", type:"nir;opt", pur:"", id:"", desc:"", icon:"webb.png"}
   ], ev: [
-    {pt:"", dt:"2021-12-18", tp:"l", loc:"ter:kou:ELA-3", desc:"kou"},
+    {pt:"", dt:"2021-12-22", tp:"l", loc:"ter:kou:ELA-3", desc:"kou"},
     {pt:"", dt:"l+30d", tp:"sco", loc:"sol:esl2", desc:""}
   ], inst: [
     {n:"MIRI", band:"5..28um", res:"1.13..0.1", d:"6.5", px:"0.1", fov:"1.3x1.7'", sres:"100/3000", url:"ircamera.as.arizona.edu/MIRI/", desc:"c:nv;cl:nly;"},
@@ -862,7 +863,7 @@ millimetron:{name:"Spektr-M", url:"hp:asc-lebedev.ru/index2.php?engdep=20", desc
   parts: [
     {n:"Спектр-M;Millimetron", ctry:"ru", type:"mw", pur:"", id:"", icon:"millimetron.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2025", tp:"l", loc:"ter:vos", desc:""},
+    {pt:"", dt:"2029", tp:"l", loc:"ter:vos", desc:""},
     {pt:"", dt:"", tp:"sco", loc:"sol:esl2", desc:""}
   ], inst: [
     {n:"", band:"1.50E+10..9.99E+11", res:"420..6", d:10, px:3, desc:"c:nv;"},
