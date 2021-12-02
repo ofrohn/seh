@@ -149,7 +149,7 @@ cz-8
 //N-1
 "N-1": {alt:"Н-1", ctry:"su", m:"2788000", pm:"70000/-/22000",  d:"105.3x14", pf:"", dt:"1969-02-21..1972-12-23", st:"4", th:"45400", fam:"N-1", desc:"l:bai;ag:tsk", fuel:"KeroLOX", icon:"N1.png"},
 //Neutron
-"Electron": {ctry:"us", m:"~300000", pm:"8000/-/1500",  d:"40x4.5", pf:"4.5", dt:"2024..", st:"2", ust:"", th:"~4000", fam:"Neutron", desc:"l:wal;ag:Rocket Lab", fuel:"KeroLOX", icon:"neutron.png"},
+"Neutron": {ctry:"us", m:"480000", pm:"8000/-/1500",  d:"40x7", pf:"7", dt:"2024..", st:"2", ust:"", th:"5960", fam:"Neutron", desc:"l:wal;ag:Rocket Lab", fuel:"LNG/LOX", icon:"neutron.png"},
 //New Glenn
 "New Glenn": {alt:"", ctry:"us", m:"", pm:"45000/13000/-",  d:"98x7", pf:"", dt:"2022", st:"2", th:"17100", fam:"", desc:"l:cap,van;ag:Blue Origin", fuel:"LNG/LOX", icon:"newglenn.png"},
 //OmegA
