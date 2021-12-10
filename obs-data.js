@@ -1410,12 +1410,12 @@ iue:{name:"IUE:International Ultraviolet Explorer", url:"hp:www.esa.int/Our_acti
 ], inst: [
     {n:"", tp:"is", band:"115..325nm", res:"", sres:"", d:"0.45", sens:"", fov:"", desc:"c:;cl:;"}
 ]}, 
-ixpe:{name:"IXPE:Imaging X-Ray Polarimetry Explorer", url:"hp:ixpe.msfc.nasa.gov/", desc:"ag:nasa,msfc;fam:smex;lv:Falcon 9;m:292kg;sc:1.0;y:10", stat:"pl", 
+ixpe:{name:"IXPE:Imaging X-Ray Polarimetry Explorer", url:"hp:ixpe.msfc.nasa.gov/", desc:"ag:nasa,msfc;fam:smex;lv:Falcon 9;m:292kg;sc:1.0;y:10", stat:"o", 
   parts: [
-    {n:"", ctry:"ind", type:"x", pur:"", id:"", icon:"ixpe.png", desc:""}
+    {n:"", ctry:"ind", type:"x", pur:"", id:"2021-121A", icon:"ixpe.png", desc:""}
   ], ev: [
     {pt:"", dt:"2021-12-09", tp:"l", loc:"ter:ksa:LC-39A", desc:""},
-    {pt:"", dt:"2021-12-09", tp:"sco", loc:"ter:leo:540kmx0deg", desc:""},
+    {pt:"", dt:"2021-12-09", tp:"sco", loc:"ter:leo:588x603kmx0.2deg", desc:""},
     {pt:"", dt:"2024", tp:"pom", loc:"ter:leo", desc:""}
   ], inst: [
     {n:"", band:"2..8keV", res:"30", fov:"11'", desc:"c:nr;cl:nl"}
@@ -2114,10 +2114,10 @@ wfirst:{name:"RST:Nancy Grace Roman Space Telescope", url:"hp:roman.gsfc.nasa.go
   parts: [
     {n:"WFIRST:Widefield Infrared Survey Explorer", ctry:"us", type:"nir", pur:"sur", id:"", icon:"ngrst.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2026", tp:"l", loc:"ter", desc:""},
-    {pt:"", dt:"2026", tp:"sco", loc:"ter:esl2", desc:"or GEO"},
-    {pt:"", dt:"2031", tp:"nom", loc:"", desc:""},
-    {pt:"", dt:"2036", tp:"pom", loc:"", desc:""},
+    {pt:"", dt:"2027", tp:"l", loc:"ter", desc:""},
+    {pt:"", dt:"2027", tp:"sco", loc:"ter:esl2", desc:"or GEO"},
+    {pt:"", dt:"2032", tp:"nom", loc:"", desc:""},
+    {pt:"", dt:"2037", tp:"pom", loc:"", desc:""},
   ], inst: [
     {n:"WFI:Wide Field Instrument", band:"480..2300nm", res:"", d:"2.4", px:"0.11", sres:"2.2..6", ea:"3m2@1.5um", fov:"0.8x0.4deg", desc:"c:nvt;cl:nl"},
     {n:"CGI:Coronograph Instrument", band:"550..900nm", res:"", d:"2.4", px:"0.021", fov:"9x9''", desc:""}
