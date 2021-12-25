@@ -1410,7 +1410,7 @@ iue:{name:"IUE:International Ultraviolet Explorer", url:"hp:www.esa.int/Our_acti
 ], inst: [
     {n:"", tp:"is", band:"115..325nm", res:"", sres:"", d:"0.45", sens:"", fov:"", desc:"c:;cl:;"}
 ]}, 
-ixpe:{name:"IXPE:Imaging X-Ray Polarimetry Explorer", url:"hp:ixpe.msfc.nasa.gov/", desc:"ag:nasa,msfc;fam:smex;lv:Falcon 9;m:292kg;sc:1.0;y:10", stat:"o", 
+ixpe:{name:"IXPE:Imaging X-Ray Polarimetry Explorer", url:"hp:ixpe.msfc.nasa.gov/", desc:"ag:nasa,msfc;fam:smex;lv:Falcon 9;m:325kg;sc:1.0;y:10", stat:"o", 
   parts: [
     {n:"", ctry:"ind", type:"x", pur:"", id:"2021-121A", icon:"ixpe.png", desc:""}
   ], ev: [
@@ -1420,14 +1420,15 @@ ixpe:{name:"IXPE:Imaging X-Ray Polarimetry Explorer", url:"hp:ixpe.msfc.nasa.gov
   ], inst: [
     {n:"", band:"2..8keV", res:"30", fov:"11'", desc:"c:nr;cl:nl"}
   ]},
-jwst:{name:"JWST:James Webb Space Telescope", url:"hp:www.jwst.nasa.gov/;stsci:www.stsci.edu/jwst/;esa:www.esa.int/Our_activities/Space_Science/JWST;tw:twitter.com/JWSTObserver", desc:"lv:Ariane 5 ECA;sc:1.8;x:12;y:-0", stat:"pl", 
+jwst:{name:"JWST:James Webb Space Telescope", url:"hp:webb.nasa.gov/;stsci:www.stsci.edu/jwst/;esa:www.esa.int/Our_activities/Space_Science/JWST;tw:twitter.com/NASAWebb;", desc:"lv:Ariane 5 ECA;sc:1.8;x:-2;y:10", stat:"o", 
   parts: [
-    {n:"", ctry:"us;eu", type:"nir;opt", pur:"", id:"", desc:"", icon:"webb.png"}
+    {n:"", ctry:"us;eu", type:"nir;opt", pur:"", id:"2021-130A", desc:"", icon:"webb.png"}
   ], ev: [
-    {pt:"", dt:"2021-12-22", tp:"l", loc:"ter:kou:ELA-3", desc:"kou"},
-    {pt:"", dt:"l+30d", tp:"sco", loc:"sol:esl2", desc:""}
+    {pt:"", dt:"2021-12-25", tp:"l", loc:"ter:kou:ELA-3", desc:"kou"},
+    {pt:"", dt:"2022-01-23", tp:"oi", loc:"sol:esl2", desc:""},
+    {pt:"", dt:"2022-06", tp:"sco", loc:"sol:esl2", desc:"First Light"}
   ], inst: [
-    {n:"MIRI", band:"5..28um", res:"1.13..0.1", d:"6.5", px:"0.1", fov:"1.3x1.7'", sres:"100/3000", url:"ircamera.as.arizona.edu/MIRI/", desc:"c:nv;cl:nly;"},
+    {n:"MIRI", band:"5..28um", res:"1.13..0.1", d:"6.5", px:"0.1", fov:"1.3x1.7'", sres:"100/3000", url:"ircamera.as.arizona.edu/MIRI/", desc:"c:nv;cl:nry;"},
     {n:"NIRCam", band:"0.6..5um", res:"0.1..0.1", d:"6.5", px:"0.04", fov:"2.2x4.4'", desc:"c:v;"},
     {n:"NIRSpec", band:"0.6..5um", tp:"sp", res:"", d:"6.5", px:"", fov:"3.4x3.6'", sres:"100/1000/2700", desc:"c:v;"},
     {n:"FGS/NIRISS", band:"1.0..2.5um", tp:"sp", res:"", d:"6.5", px:"", fov:"2.2x2.2'", sres:"100/1000/2700", desc:"c:v;"}
