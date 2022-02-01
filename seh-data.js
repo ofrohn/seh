@@ -3736,10 +3736,10 @@ chandrayaan3: {name:"Chandrayaan 3:Moon Craft 3", desc:"lv:GSLV MkIII",
 {names:"Vikram", type:"slm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:1471kg;dim:2.5x2x1.2m", icon:"chandrayaan2-l.png"},
 {names:"Pragyan", type:"rvm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:27kg;dim:0.9x0.75x0.85m;sc:0.5", icon:"chandrayaan2-rv.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2022", loc:"ter:sri:SLP", desc:"Q3"},
-    {pt:"", type:"oi", dt:"2022", loc:"lun:170x186000km", desc:""},
-    {pt:"", type:"td", dt:"2022", loc:"lun", desc:""},
-    {pt:"0", type:"nom", dt:"2023", loc:"lun", desc:"?"}
+    {pt:"", type:"l", dt:"2023", loc:"ter:sri:SLP", desc:"Q3"},
+    {pt:"", type:"oi", dt:"2023", loc:"lun:170x186000km", desc:""},
+    {pt:"", type:"td", dt:"2023", loc:"lun", desc:""},
+    {pt:"0", type:"nom", dt:"2024", loc:"lun", desc:"?"}
 ]},
 capstone: {name:"CAPSTONE:Cislunar Autonomous Positioning System Technology Operations and Navigation Experiment", desc:"lv:Electron",
   parts:[
