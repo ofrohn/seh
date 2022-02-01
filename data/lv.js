@@ -8,7 +8,7 @@ cz-8
 */
 //Angara 5V
 //"Angara-A5V": {ctry:"ru", m:"820000", pm:"35000/12000/7000",  d:"73.3x2.9", pf:"19.6x5.1", dt:"2023..", st:"3/4", ust:"KVTK/Briz-M", th:"10570", fam:"Angara", desc:"l:vos;ag:rosc", fuel:"KeroLOX", icon:"Angara-A5V.png"},
-"Angara-A5": {ctry:"ru", m:"773000", pm:"24500/8000/5100",  d:"64x2.9", pf:"19.6x5.1", dt:"2014-12-23..", st:"2/4", ust:"KVTK/DM", th:"9600", fam:"Angara", desc:"l:vos,ple;ag:rosc", fuel:"KeroLOX", icon:"Angara-A5.png"},
+"Angara-A5": {ctry:"ru", m:"773000", pm:"24500/8000/5100",  d:"64x2.9", pf:"19.6x5.1", dt:"2014-12-23..", st:"2/4", ust:"KVTK/Persei", th:"9600", fam:"Angara", desc:"l:vos,ple;ag:rosc", fuel:"KeroLOX", icon:"Angara-A5.png"},
 "Angara-A5M": {ctry:"ru", m:"780000", pm:"27000/8000/-", d:"59x2.9", pf:"", dt:"2024..", st:"2/4", ust:"KVTK/DM", th:"9600", fam:"Angara", desc:"l:vos;ag:rosc", fuel:"KeroLOX", icon:"Angara-A5M.png"},
 "Angara-A5V": {ctry:"ru", m:"815000", pm:"37500/13300/7000", d:"73.3x2.9", pf:"19.6x5.1", dt:"2027..", st:"3/4", ust:"KVTK", th:"10570", fam:"Angara", desc:"l:vos,ple;ag:rosc", fuel:"KeroLOX", icon:"Angara-A5V.png"},
 //Ariane 1
@@ -210,17 +210,17 @@ cz-8
 "Vostok-L 8K72": {alt:"Восток-Л", ctry:"su", m:"279100", pm:"4000/-/400",  d:"33.5x2.95", pf:"", dt:"1958-09-23..1960-04-16", st:"1/4", ust:"Blok-E", th:"3998", fam:"R-7", desc:"l:bai;ag:okb", fuel:"KeroLOX", icon:"Luna.png"},
 // Vulcan
 "Vulcan": {syn:"Vulcan Centaur"},
-"Vulcan Centaur": {ctry:"us", m:"226300", pm:"10600/2900/2300",  d:"67.3x5.4", pf:"15.5-21.3x5.4", dt:"2022..", st:"2", ust:"Centaur-5", th:"4900", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"LNG/LOX+SRP",  icon:"Vulcan502.png"},
+"Vulcan Centaur": {ctry:"us", m:"226300", pm:"10600/2900/2300",  d:"67.3x5.4", pf:"15.5-21.3x5.4", dt:"2022..", st:"2", ust:"Centaur-5", th:"4900", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"LNG/LOX+SRP",  icon:"vulcan502.png"},
 "Vulcan Centaur-2S": {syn:"Vulcan Centaur-2"},
 "Vulcan Centaur-2L": {syn:"Vulcan Centaur-2"},
-"Vulcan Centaur-2": {ctry:"us", m:"333100", pm:"18500/7600/6300",  d:"67.3x5.4", pf:"15.5-21.3x5.4", dt:"2022-01..", st:"2/2", ust:"Centaur-5", th:"9300", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"LNG/LOX+SRP",  icon:"Vulcan522.png"},
-"Vulcan Centaur-4": {ctry:"us", m:"439900", pm:"23900/10800/9000",  d:"67.3x5.4", pf:"15.5-21.3x5.4", dt:"2022..", st:"2/4", ust:"Centaur-5", th:"13700", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"LNG/LOX+SRP",  icon:"Vulcan542.png"},
+"Vulcan Centaur-2": {ctry:"us", m:"333100", pm:"18500/7600/6300",  d:"67.3x5.4", pf:"15.5-21.3x5.4", dt:"2022-01..", st:"2/2", ust:"Centaur-5", th:"9300", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"LNG/LOX+SRP",  icon:"vulcan522.png"},
+"Vulcan Centaur-4": {ctry:"us", m:"439900", pm:"23900/10800/9000",  d:"67.3x5.4", pf:"15.5-21.3x5.4", dt:"2022..", st:"2/4", ust:"Centaur-5", th:"13700", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"LNG/LOX+SRP",  icon:"vulcan542.png"},
 "Vulcan Centaur-4S": {syn:"Vulcan Centaur-4"},
 "Vulcan Centaur-4L": {syn:"Vulcan Centaur-4"},
-"Vulcan Centaur-6": {ctry:"us", m:"546700", pm:"27200/13600/11300",  d:"67.3x5.4", pf:"15.5-21.3x5.4", dt:"2022..", st:"2/6", ust:"Centaur-5", th:"18110", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"LNG/LOX+SRP",  icon:"Vulcan562.png"},
+"Vulcan Centaur-6": {ctry:"us", m:"546700", pm:"27200/13600/11300",  d:"67.3x5.4", pf:"15.5-21.3x5.4", dt:"2022..", st:"2/6", ust:"Centaur-5", th:"18110", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"LNG/LOX+SRP",  icon:"vulcan562.png"},
 "Vulcan Centaur-6S": {syn:"Vulcan Centaur-6"},
 "Vulcan Centaur-6L": {syn:"Vulcan Centaur-6"},
-"Vulcan Centaur Heavy": {ctry:"us", m:"560000", pm:"27200/14400/12100",  d:"69.2x5.4", pf:"21.3x5.4", dt:"2021..", st:"2/6", ust:"Centaur-5 Long", th:"18110", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"LNG/LOX+SRP",  icon:"Vulcan562.png"},
+"Vulcan Centaur Heavy": {ctry:"us", m:"560000", pm:"27200/14400/12100",  d:"69.2x5.4", pf:"21.3x5.4", dt:"2021..", st:"2/6", ust:"Centaur-5 Long", th:"18110", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"LNG/LOX+SRP",  icon:"vulcan562.png"},
 //Zenit 2SB
 "Zenit 2SB": {alt:"Зенит-2SLБ", ctry:"ru", m:"459000", pm:"13500/5200/2000",  d:"57x3.9", pf:"", dt:"2007-06-29..", st:"2", ust:"Fregat-SB", th:"7259", fam:"Zenit", desc:"l:bai", fuel:"KeroLOX", icon:"Zenit-2.png"},
 "Zenit 2M": {syn:"Zenit 2SB"}

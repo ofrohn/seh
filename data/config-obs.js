@@ -1,7 +1,7 @@
 var SOBS = SOBS || {
   TITLE: "Space Observatories",
   VERSION: "1.6.1",
-  DATE: "2018-09 ",
+  DATE: "2022-02 ",
   AUTHOR: "Olaf Frohn",
   PATH: "../images/",  //Relative path to resources
   STARTDATE: new Date(1957,10,4),  //Begin of shown period

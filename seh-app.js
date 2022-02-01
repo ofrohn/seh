@@ -625,7 +625,6 @@ Cdraw.DOT   = [1.5,3.5];
 Cdraw.LDASH = [8,8];
 Cdraw.SDASH = [2,4];
 Cdraw.DASHDOT = [4,4,1,4];
-
 var Trig = {
   sinh: function (val) { return (Math.pow(Math.E, val)-Math.pow(Math.E, -val))/2; },
   cosh: function (val) { return (Math.pow(Math.E, val)+Math.pow(Math.E, -val))/2; },
@@ -727,8 +726,7 @@ Matrix.prototype.exp = function(n) {
 };*/
 /*var a = new Matrix([[1,2],[3,4]])
 var b = new Matrix([[-3,-8,3],[-2,1,4]]);
-print(a.mult(b));*/
-/* global Common, px, isNumber */
+print(a.mult(b));*//* global Common, px, isNumber */
 
 var UI = UI || {width: 0, height: 0, boxwidth: 0, bevel: 0, iscancelled: false, scale: 1, left: 0, right: 0};
 
@@ -1116,7 +1114,6 @@ UI.toggleFullScreen = function() {
     }
   }
 };
-
 ﻿/* global Common, SSEH */
 /*jshint freeze: false */
 
@@ -1456,7 +1453,6 @@ function isNumber(n) { return !isNaN(parseFloat(n)) && isFinite(n); }
 function isArray(x) { return Object.prototype.toString.call(x) === "[object Array]"; }
 function logError(what, e) { console.log(what, e); }
 function px(val) { return val + "px"; }
-
 
 
 ﻿/* global Common, Read, Round, objects */
@@ -2165,7 +2161,6 @@ var parseMission = function(id) {
     _data.ev[i].desc = readDesc(i);
   }
 };*/
-
 ﻿/* global Common, UI, SSEH, Create, px, objects, missions, Mission, Destination, logError, LC, LV, Names, Cdraw, Info */
 
 var Hist = new (function() {
@@ -2602,7 +2597,6 @@ var Hist = new (function() {
   this.Symbols = function() { return loadSymbols(); };
   this.Sprites = function() { return loadSprites(); };
 })();
-
 /* global Common, UI, SSEH, Create, Read, Parse, parseElements, missions, elem, isNumber, px */
 
 function Mission(id, parid) { 
@@ -3882,7 +3876,6 @@ function Mission(id, parid) {
    
     
 }
-
 ﻿/* global Create, Common, SSEH, UI, px, SPanel, Panel, Parse, Cdraw, Moons, Rings, Sbo, Dwarf, parseObject */
 
 //Objects targeted by missions
@@ -4389,7 +4382,6 @@ function Destination(dest, parid) {
 
   Common.sprites[_dest] = {n:_data.name, x:_data.x, y:_data.y};
 }
-
 ﻿/* global UI, SSEH, Create, Common, Cdraw, data, objects, parseObject, px */
 
 function Moons(dest, parent) {
@@ -5367,7 +5359,6 @@ function Dwarf(dest, parent) {
   _data[_dest].dodraw = true;
 
 }
-
 ﻿/* global Common, SSEH, Cdraw, objects, groups */
 
 function Panel(par, dest, moons, rings) {
@@ -5727,7 +5718,6 @@ Panel.fb = {
         "Voyager 2":{t:"etm",d:106.5,i:-30,y:0}}
         //"New Horizons":{t:"etm",d:27.5,i:1.9,y:0}
 };
-
 
 /* global UI, SSEH, Create, Common, px, Cdraw, Hist, Parse */
 
@@ -6342,7 +6332,6 @@ SSEH.showInfo = function() {
   }
 };
 
-
 /* global UI, SSEH, Common, Parse, Create, Read, Cdraw, Trig, px */
 
 function LV(id, parid) {
@@ -6816,7 +6805,6 @@ SSEH.showLC = function(e, nd) {
   ev.stopPropagation();
   return false; 
 };
-
 /* global Trig, Parse */
 var parseElements = function(item, date, gmass) {
   var dt, i, key, gm, dat = {}, elms = ["a","e","i","w","M","L","W","N"],

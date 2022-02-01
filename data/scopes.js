@@ -279,7 +279,7 @@ cosb:{name:"COS-B", url:"hp:www.esa.int/Our_activities/Space_Science/Cos-B_overv
     {pt:"", dt:"1976-01-01", tp:"sco", loc:"ter:heeo:2536x96895kmx92deg", desc:""},
     {pt:"", dt:"1982", tp:"tos", loc:"", desc:"eom"}
 ]},
-cosi:{name:"COSI:Compton Spectrometer and Imager", url:"hp:www.nasa.gov/press-release/nasa-selects-gamma-ray-telescope-to-chart-milky-way-evolution", desc:"ag:nasa;fam:Astrophysics Explorers;lv:TBA", stat:"pl", 
+cosi:{name:"COSI:Compton Spectrometer and Imager", url:"hp:cosi.ssl.berkeley.edu", desc:"ag:nasa;fam:Astrophysics Explorers;lv:TBA", stat:"pl", 
   parts: [
     {n:"", ctry:"us", type:"g", pur:"", id:"", icon:""}
   ], ev: [
@@ -485,7 +485,7 @@ goes:{name:"GOES:Geostationary Operational Environmental Satellite", ctry:"us", 
     {pt:"3", dt:"2017-12-11", tp:"sco", loc:"ter:geos:", desc:"GOES East"},
     {pt:"4", dt:"2018-03-01", tp:"l", loc:"ter:cap:SLC-41", desc:""},
     {pt:"4", dt:"2018-12", tp:"sco", loc:"ter:geos", desc:"GOES West"},
-    {pt:"5", dt:"2021-12", tp:"l", loc:"ter:cap:SLC-41", desc:""},    
+    {pt:"5", dt:"2022-03", tp:"l", loc:"ter:cap:SLC-41", desc:""},    
     {pt:"6", dt:"2024", tp:"l", loc:"ter:cap", desc:""}
 ], inst: [
     {n:"SXI:Soft X-ray Imager", band:"0.6..6nm", res:"7", url:"sxi.ngdc.noaa.gov/", desc:"c:nr;"},
@@ -714,7 +714,7 @@ iss:{name:"ISS:International Space Station", ctry:"us;ru;eu;jp;ca", id:"1998-067
     {n:"MAXI:Monitor of All-sky X-ray Image", ctry:"jp", type:"x", pur:"", id:"", url:"hp:maxi.riken.jp/top/", desc:"ISS Kibo laboratory"},
     {n:"CALET:CALorimetric Electron Telescope", ctry:"jp", type:"par", pur:"cr", url:"hp:calet.phys.lsu.edu/", stat:"o", id:"", icon:"", desc:"lv:H-IIB;ag:jaxa"},
     {n:"NICER:Neutron Star Interior Composition Explorer", ctry:"us", type:"x", pur:"tim", url:"hp:heasarc.gsfc.nasa.gov/docs/nicer/", stat:"o", id:"", icon:"", desc:"ag:nasa;lv:Falcon 9 v1.2"},
-    {n:"JEM-EUSO:Japanese Experiment Module-Extreme Universe Space Observatory", ctry:"jp", type:"par", pur:"cr", url:"hp:jemeuso.riken.jp/en/", stat:"pl", id:"", icon:"", desc:"lv:H-IIB;ag:jaxa"},
+    {n:"JEM-EUSO:Japanese Experiment Module-Extreme Universe Space Observatory", ctry:"jp", type:"par", pur:"cr", url:"hp:jemeuso.org", stat:"pl", id:"", icon:"", desc:"lv:H-IIB;ag:jaxa"},
     {n:"ACES:Atomic Clock Ensemble in Space", ctry:"eu", type:"Gr", pur:"", url:"hp:pharao.cnes.fr/en/PHARAO/GP_platform_aces.htm", stat:"pl", id:"", icon:"", desc:"ag:esa"},
     {n:"Sun-THz", ctry:"br", type:"", pur:"", url:"hp:fapesp.br/week2019/london/news/technology-developed-in-brazil-will-be-part-of-the-international-space-station", stat:"pl", id:"", icon:"", desc:"ag:FAPESP"}
   ], ev: [
@@ -724,7 +724,7 @@ iss:{name:"ISS:International Space Station", ctry:"us;ru;eu;jp;ca", id:"1998-067
     {pt:"0", dt:"2011-05-16", tp:"l", loc:"ter:cap:LC-39A", desc:"STS-134"},
     {pt:"2", dt:"2015-08-19", tp:"l", loc:"ter:tng:YLP-2", desc:"HTV-5"},
     {pt:"3", dt:"2017-06-03", tp:"l", loc:"ter:ksc:LC-39A", desc:""},
-    {pt:"4", dt:"2021", tp:"l", loc:"ter:tng", desc:""},
+    {pt:"4", dt:"2022", tp:"l", loc:"ter:tng", desc:""},
     {pt:"5", dt:"2019", tp:"l", loc:"", desc:"HTV-8"},
     {pt:"6", dt:"2022", tp:"l", loc:"", desc:""}
   ], inst: [
@@ -883,10 +883,10 @@ nanojasmine:{name:"Nano-JASMINE", url:"www.jasmine-galaxy.org/index.html", desc:
   parts: [
     {n:"", ctry:"jp", type:"nir", pur:"as", id:"", icon:"nano-jasmine.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2021", tp:"l", loc:"ter:Kourou", desc:""},
+    {pt:"", dt:"2022", tp:"l", loc:"ter:Kourou", desc:""},
     {pt:"", dt:"", tp:"sco", loc:"ter:sseo", desc:""}
   ], inst: [
-    {n:"", band:"0.6..1um", res:"", d:"", px:"", desc:"c:;"}
+    {n:"", band:"0.6..1um", res:"", d:"0.0525", px:"", desc:"c:;"}
 ]},
 neosm:{name:"NEO Surveyor:Near Earth Object Surveyor Mission", url:"hp:neocam.ipac.caltech.edu/", desc:"ag:nasa,jpl;lv:;sc:1;x:0;y:10", stat:"pl", 
   parts: [
@@ -1285,10 +1285,10 @@ svom:{name:"SVOM:Space-based multi-band astronomical Variable Objects Monitor", 
   parts: [
     {n:"", ctry:"cn;fr", type:"gam;x;opt", pur:"mon", id:"", icon:"svom.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2021", tp:"l", loc:"ter:jiu", desc:""},
-    {pt:"", dt:"2021", tp:"sco", loc:"ter:leo:650kmx30deg", desc:""},
-    {pt:"", dt:"2025", tp:"nom", loc:"", desc:""},
-    {pt:"", dt:"2026", tp:"pom", loc:"", desc:""}
+    {pt:"", dt:"2023", tp:"l", loc:"ter:jiu", desc:""},
+    {pt:"", dt:"2023", tp:"sco", loc:"ter:leo:650kmx30deg", desc:""},
+    {pt:"", dt:"2027", tp:"nom", loc:"", desc:""},
+    {pt:"", dt:"2029", tp:"pom", loc:"", desc:""}
   ], inst: [
     {n:"GRM:Gamma-Ray Monitor", tp:"sp", band:"50..5000keV", res:"", ea:"0.056", url:"", desc:"c:nr;cl:nl;"},
     {n:"MXT:Microchannel X-ray Telescope", band:"0.3..7keV", res:"120", fov:"57'", ea:"0.005@1keV", url:"", desc:"c:nly;cl:nl;"},
@@ -1328,14 +1328,14 @@ swift:{name:"Swift", url:"hp:swift.gsfc.nasa.gov/;asi:swift.asdc.asi.it/;psu:www
     {n:"XRT:X-ray Telescope", band:"7.25E+16..2.42E+18", res:"18", url:"swift.gsfc.nasa.gov/docs/swift/about_swift/xrt_desc.html", desc:"c:nr;cl:ny;"},
     {n:"BAT:Burst Alert Telescope", band:"3.63E+18..3.63E+19", res:"120", url:"swift.gsfc.nasa.gov/docs/swift/about_swift/bat_desc.html", desc:"c:nr;cl:nl;"}
 ]},
-swimsat:{name:"SWIMSat:Space Weather and Impact Monitoring Satellite", url:"ASU:meteorites.asu.edu/news/swimsat", desc:"ag:usaf,asu;lv:;x:0;y:0", stat:"pl", 
+/*swimsat:{name:"SWIMSat:Space Weather and Impact Monitoring Satellite", url:"ASU:meteorites.asu.edu/news/swimsat", desc:"ag:usaf,asu;lv:;x:0;y:0", stat:"pl", 
   parts: [
     {n:"", ctry:"us", type:"", pur:"sol;neo", id:"", icon:"swimsat.png", desc:""}
   ], ev: [
     {pt:"", dt:"2021", tp:"l", loc:"ter", desc:""},
     {pt:"", dt:"2021", tp:"sco", loc:"ter:leo", desc:""},
     {pt:"", dt:"2023", tp:"nom", loc:"ter:leo", desc:""}
-]},
+]},*/
 tess:{name:"TESS:Transiting Exoplanet Survey Satellite", url:"hp:tess.gsfc.nasa.gov;mast:archive.stsci.edu/tess/;mit:space.mit.edu/TESS/TESS/TESS_Overview.html;tw:twitter.com/NASA_TESS", desc:"ag:nasa;lv:Falcon 9 v1.2;sc:1;x:10;y:0;m:350kg", stat:"o", 
   parts: [
     {n:"", ctry:"us", type:"nir", pur:"exo", id:"2018-038A", icon:"tess.png", desc:""}
@@ -1509,9 +1509,9 @@ xposat:{name:"XPoSat:X-ray Polariation Satellite", url:"hp:", desc:"ag:isro;lv:P
   parts: [
     {n:"", ctry:"ind", type:"x", pur:"", id:"", icon:"xpo.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2021-11", tp:"l", loc:"ter:sri", desc:""},
-    {pt:"", dt:"2021-11", tp:"sco", loc:"ter:leo:600kmx30deg", desc:""},
-    {pt:"", dt:"2026", tp:"pom", loc:"ter:leo", desc:""}
+    {pt:"", dt:"2022-04", tp:"l", loc:"ter:sri", desc:""},
+    {pt:"", dt:"2022-04", tp:"sco", loc:"ter:leo:600kmx30deg", desc:""},
+    {pt:"", dt:"2027", tp:"pom", loc:"ter:leo", desc:""}
   ], inst: [
     {n:"POLIX", band:"5..30keV", res:"", desc:"c:nr;cl:nl"}
     //XPECT

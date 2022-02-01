@@ -24,11 +24,18 @@ var dat = cat([
   './data/lc.js',
   './data/dsn.js',
   './data/elements.js'
-]);
+]).toString();
 
+//echo('data');
+
+fs.writeFileSync('./seh-data.js', dat);
+
+//echo('min');
 
 var out = ug.minify(dat, {fromString: true});
-fs.writeFileSync('./seh-data.js', dat);
+
+if (out.error) echo(out.error);
+
 fs.writeFileSync('./seh-data.min.js', out.code);
 
 dat = dat.replace(/PATH\: \"(.*?\/)\"/, "PATH:'../$1'");
@@ -52,10 +59,13 @@ var app = cat([
   './src/info.js',
   './src/launch.js',
   './src/pos.js'
-]);
+]).toString();
 
 
 var out = ug.minify(app, {fromString: true});
+
+if (out.error) echo(out.error);
+
 fs.writeFileSync('./seh-app.min.js', out.code);
 fs.writeFileSync('./seh-app.js', app);
 fs.writeFileSync('./pub/seh-app-' + shortversion + '.min.js', out.code);
@@ -68,9 +78,12 @@ var dat = cat([
   './data/data-obs.js',
   './data/scopes.js',
   './data/lv.js',
-]);
+]).toString();
 
 var out = ug.minify(dat, {fromString: true});
+
+if (out.error) echo(out.error);
+
 fs.writeFileSync('./obs-data.min.js', out.code);
 fs.writeFileSync('./obs-data.js', dat);
 
@@ -85,9 +98,12 @@ var app = cat([
   './src/obs.js',
   './src/sobs.js',
   './src/diag.js'
-]);
+]).toString();
 
 var out = ug.minify(app, {fromString: true});
+
+if (out.error) echo(out.error);
+
 fs.writeFileSync('./obs-app.js', app);
 fs.writeFileSync('./obs-app.min.js', out.code);
 

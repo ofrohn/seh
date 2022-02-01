@@ -625,7 +625,6 @@ Cdraw.DOT   = [1.5,3.5];
 Cdraw.LDASH = [8,8];
 Cdraw.SDASH = [2,4];
 Cdraw.DASHDOT = [4,4,1,4];
-
 var Trig = {
   sinh: function (val) { return (Math.pow(Math.E, val)-Math.pow(Math.E, -val))/2; },
   cosh: function (val) { return (Math.pow(Math.E, val)+Math.pow(Math.E, -val))/2; },
@@ -727,8 +726,7 @@ Matrix.prototype.exp = function(n) {
 };*/
 /*var a = new Matrix([[1,2],[3,4]])
 var b = new Matrix([[-3,-8,3],[-2,1,4]]);
-print(a.mult(b));*/
-/* global Common, px, isNumber */
+print(a.mult(b));*//* global Common, px, isNumber */
 
 var UI = UI || {width: 0, height: 0, boxwidth: 0, bevel: 0, iscancelled: false, scale: 1, left: 0, right: 0};
 
@@ -1116,7 +1114,6 @@ UI.toggleFullScreen = function() {
     }
   }
 };
-
 ﻿/* global Common, SSEH */
 /*jshint freeze: false */
 
@@ -1456,7 +1453,6 @@ function isNumber(n) { return !isNaN(parseFloat(n)) && isFinite(n); }
 function isArray(x) { return Object.prototype.toString.call(x) === "[object Array]"; }
 function logError(what, e) { console.log(what, e); }
 function px(val) { return val + "px"; }
-
 
 
 ﻿/* global Common, Read, Round, objects */
@@ -2165,7 +2161,6 @@ var parseMission = function(id) {
     _data.ev[i].desc = readDesc(i);
   }
 };*/
-
 var Obs = function(id, parid) {
   var _in = scopes[id], _data = {},
       _id = id,
@@ -2599,8 +2594,7 @@ var Obs = function(id, parid) {
   };
   
   parse();
-};
-var Sobs = new function() {
+};var Sobs = new function() {
   var width, cw, cnv, parent,
       _scopes = {},
 
@@ -2705,7 +2699,6 @@ var Sobs = new function() {
 };
 
   
-
 function Diag(type, params) {
   var xrange = {lo:1e6, hi:3e26, off:6, r:20.2}, 
       yrange = {lo:5e-8, hi:5e5, off:7.5, r:12.5},
