@@ -472,7 +472,7 @@ goes:{name:"GOES:Geostationary Operational Environmental Satellite", ctry:"us", 
     {n:"GOES 15", id:"2010-088A", type:"x", pur:"sol;w", desc:"lv:Delta 4M+(4,2)", icon:"goes-nop.png"},
     {n:"GOES 16", url:"www.goesr.gov", id:"2016-071A", type:"uv,x", pur:"sol;w", stat:"o", desc:"lv:Atlas V 541"}, 
     {n:"GOES 17", id:"2018-022A", type:"uv,x", pur:"sol;w", stat:"o", desc:"lv:Atlas V 541"}, 
-    {n:"GOES-T", id:"", type:"uv,x", pur:"sol;w", stat:"pl", desc:"lv:Atlas V 541"}, 
+    {n:"GOES-18", id:"2022-021A", type:"uv,x", pur:"sol;w", stat:"pl", desc:"lv:Atlas V 541"}, 
     {n:"GOES-U", id:"", type:"uv,x", pur:"sol;w", stat:"pl", desc:"lv:Falcon Heavy"}
   ], ev: [
     {pt:"0", dt:"2006-05-24", tp:"l", loc:"ter:cap:SLC-37B", desc:""},
@@ -485,7 +485,7 @@ goes:{name:"GOES:Geostationary Operational Environmental Satellite", ctry:"us", 
     {pt:"3", dt:"2017-12-11", tp:"sco", loc:"ter:geos:", desc:"GOES East"},
     {pt:"4", dt:"2018-03-01", tp:"l", loc:"ter:cap:SLC-41", desc:""},
     {pt:"4", dt:"2018-12", tp:"sco", loc:"ter:geos", desc:"GOES West"},
-    {pt:"5", dt:"2022-03", tp:"l", loc:"ter:cap:SLC-41", desc:""},    
+    {pt:"5", dt:"2022-03-01", tp:"l", loc:"ter:cap:SLC-41", desc:""},    
     {pt:"6", dt:"2024", tp:"l", loc:"ter:cap", desc:""}
 ], inst: [
     {n:"SXI:Soft X-ray Imager", band:"0.6..6nm", res:"7", url:"sxi.ngdc.noaa.gov/", desc:"c:nr;"},
