@@ -3092,7 +3092,7 @@ capstone: {name:"CAPSTONE:Cislunar Autonomous Positioning System Technology Oper
   parts:[
     {names:"", type:"om", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Advanced Space;fam:SBIR;12U Cubesat;m:25kg;sc:0.5", id:"", url:"hp:www.nasa.gov/directorates/spacetech/small_spacecraft/capstone;RocketLab:www.rocketlabusa.com/missions/lunar/", icon:"capstone.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2022-06-06", loc:"ter:mah:LC-1", desc:"Q3"},
+    {pt:"", type:"l", dt:"2022-06-25", loc:"ter:mah:LC-1", desc:"Q3"},
     {pt:"", type:"toi", dt:"l+7d", loc:"ter:lto", desc:""},
     {pt:"", type:"oi", dt:"l+4m", loc:"lun:nrho", desc:""},
     {pt:"", type:"nom", dt:"2024", loc:"lun", desc:""}
@@ -3226,7 +3226,7 @@ peregrine: {name:"Peregrine 1", desc:"lv:Vulcan Centaur-2S",
 ]},
 slim:{name:"SLIM:Smart Lander for Investigating Moon", desc:"lv:H-IIA 202", stat:"pl", 
   parts: [
-    {names:"スリム;SPRINT-C", ctry:"jp", type:"slm", dest:"lun", id:"", icon:"slim.png", desc:"ag:jaxa;m:590kg;m0:120kg;dim:1.5x1.5x2m;sc:0.3", url:"hp:global.jaxa.jp/projects/sas/slim/;isas:www.isas.jaxa.jp/en/missions/spacecraft/developing/slim.html;tw:twitter.com/SLIM_JAXA"}], 
+    {names:"スリム;SPRINT-C", ctry:"jp", type:"slm", dest:"lun", id:"", icon:"slim.png", desc:"ag:jaxa;m:590kg;m0:120kg;dim:1.5x1.5x2m;sc:0.3", url:"hp:global.jaxa.jp/projects/sas/slim/;isas:www.isas.jaxa.jp/home/slim/SLIM;tw:twitter.com/SLIM_JAXA"}], 
   events: [
     {pt:"", dt:"2023-03", type:"l", loc:"ter:uch", desc:""},
     {pt:"", dt:"l+4dy", type:"oi", loc:"lun", desc:""},
@@ -3303,7 +3303,7 @@ prime1: {name:"PRIME-1:Polar Resources Ice Mining Experiment", desc:"lv:Falcon 9
     {names:"Micro-Nova", type:"hpm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:Intuitive Machines;fam:clps;sc:0.3", id:"", url:"Hopper:www.intuitivemachines.com/post/intuitive-machines-and-nasa-finalize-contract-for-extreme-lunar-mobility-spacecraft", icon:"micronova.png"}], 
   events:[
     {pt:"", type:"l", dt:"2023", loc:"ter:cap", desc:""},
-    {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:"South pole^;Near Shackelton Crater"},
+    {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:"South pole;Near Shackelton Crater"},
     {pt:"0", type:"nom", dt:"l+20dy", loc:"lun", desc:""}
 ]},
 hakutor1: {name:"Hakuto-R M1", desc:"lv:Falcon 9",
