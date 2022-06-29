@@ -3745,11 +3745,11 @@ chandrayaan3: {name:"Chandrayaan 3:Moon Craft 3", desc:"lv:GSLV MkIII",
 ]},
 capstone: {name:"CAPSTONE:Cislunar Autonomous Positioning System Technology Operations and Navigation Experiment", desc:"lv:Electron",
   parts:[
-    {names:"", type:"om", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Advanced Space;fam:SBIR;12U Cubesat;m:25kg;sc:0.5", id:"", url:"hp:www.nasa.gov/directorates/spacetech/small_spacecraft/capstone;RocketLab:www.rocketlabusa.com/missions/lunar/", icon:"capstone.png"}], 
+    {names:"", type:"om", dest:"lun", stat:"o", ctry:"us", desc:"ag:nasa,Advanced Space;fam:SBIR;12U Cubesat;m:25kg;sc:0.5", id:"2022-070A", url:"hp:www.nasa.gov/directorates/spacetech/small_spacecraft/capstone;RocketLab:www.rocketlabusa.com/missions/lunar/", icon:"capstone.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2022-06-25", loc:"ter:mah:LC-1", desc:"Q3"},
-    {pt:"", type:"toi", dt:"l+7d", loc:"ter:lto", desc:""},
-    {pt:"", type:"oi", dt:"l+4m", loc:"lun:nrho", desc:""},
+    {pt:"", type:"l", dt:"2022-06-28", loc:"ter:mah:LC-1", desc:"Q3"},
+    {pt:"", type:"toi", dt:"2022-07-05", loc:"ter:lto", desc:""},
+    {pt:"", type:"oi", dt:"2022-11-13", loc:"lun:nrho", desc:""},
     {pt:"", type:"nom", dt:"2024", loc:"lun", desc:""}
 ]},
 em1: {name:"Artemis-1", desc:"lv:SLS 1", stat:"pl", 
@@ -4181,9 +4181,9 @@ beresheet2: {name:"Beresheet 2", desc:"lv:TBA",
     {pt:"", type:"oi", dt:"2024", loc:"lun", desc:""},
     {pt:"", type:"td", dt:"2024", loc:"lun", desc:""}
 ]},
-zhenghe: {name:"Zheng He", desc:"lv:CZ-3B",  
+zhenghe: {name:"Tianwen 2", desc:"lv:CZ-3B",  
   parts:[
-    {names:"鄭和;Near-Earth Asteroid Sample Return", type:"srm", dest:"ast", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:Tianwen;sc:0.7", id:"", url:"", icon:"zhenghe.png"},
+    {names:"Zheng He;鄭和;", type:"srm", dest:"ast", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:Tianwen;sc:0.7;Near-Earth Asteroid Sample Return", id:"", url:"", icon:"zhenghe.png"},
     {names:"", type:"om", dest:"com", stat:"pl", ctry:"cn", desc:"ag:cnsa", id:"", url:"", icon:""}], 
   events:[
     {pt:"", type:"l", dt:"2025", loc:"ter:wen", desc:""},
@@ -4401,15 +4401,15 @@ venerad: {name:"Venera-D", desc:"lv:Angara-A5/Blok-DM",
 // --- 2030
 davinciplus: {name:"DAVINCI+:Deep Atmosphere Venus Investigation of Noble gases, Chemistry, and Imaging", desc:"lv:TBA",
   parts:[
-    {names:"", type:"pm", dest:"ven", stat:"pl", ctry:"us", desc:"ag:nasa,gsfc;sc:0.3", id:"", url:"hp:www.nasa.gov/feature/goddard/2021/nasa-to-explore-divergent-fate-of-earth-s-mysterious-twin-with-goddard-s-davinci", icon:"davinci.png"},
+    {names:"", type:"pm", dest:"ven", stat:"pl", ctry:"us", desc:"ag:nasa,gsfc;sc:0.3", id:"", url:"hp:ssed.gsfc.nasa.gov/davinci/mission", icon:"davinci.png"},
     {names:"", type:"om", dest:"ven", stat:"pl", ctry:"us", desc:"ag:nasa,gsfc", id:"", url:"", icon:""}], 
   events:[
     {pt:"", type:"l", dt:"2030", loc:"ter:cap", desc:""},
     {pt:"", type:"toi", dt:"l+1dy", loc:"sol:ho", desc:""},
-    {pt:"", type:"fb", dt:"l+4mo", loc:"ven", desc:""},
-    {pt:"1", type:"fb", dt:"l+15mo", loc:"ven", desc:"op"},
+    {pt:"", type:"fb", dt:"l+4mo", loc:"ven", desc:"ga"},
+    {pt:"1", type:"fb", dt:"l+15mo", loc:"ven", desc:"ga"},
     {pt:"0", type:"edl", dt:"l+15mo", loc:"ven", desc:"dp;Alpha Regio"},
-    {pt:"1", type:"oi", dt:"l+22mo", loc:"ven", desc:""},
+    {pt:"1", type:"oi", dt:"l+22mo", loc:"ven", desc:"op"},
     {pt:"", type:"nom", dt:"l+3yr", loc:"ven", desc:"pend"}
 ]},
 // --- 2032

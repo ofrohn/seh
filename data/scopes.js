@@ -1451,8 +1451,8 @@ wfirst:{name:"RST:Nancy Grace Roman Space Telescope", url:"hp:roman.gsfc.nasa.go
   parts: [
     {n:"WFIRST:Widefield Infrared Survey Explorer", ctry:"us", type:"nir", pur:"sur", id:"", icon:"ngrst.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2027", tp:"l", loc:"ter", desc:""},
-    {pt:"", dt:"2027", tp:"sco", loc:"ter:esl2", desc:"or GEO"},
+    {pt:"", dt:"2026-10", tp:"l", loc:"ter", desc:""},
+    {pt:"", dt:"2026-10", tp:"sco", loc:"ter:esl2", desc:"or GEO"},
     {pt:"", dt:"2032", tp:"nom", loc:"", desc:""},
     {pt:"", dt:"2037", tp:"pom", loc:"", desc:""},
   ], inst: [
