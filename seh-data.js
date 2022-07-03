@@ -3925,12 +3925,12 @@ psyche: {name:"Psyche", desc:"lv:Falcon Heavy",
     {names:"Janus-A", type:"fbm", dest:"ast", stat:"pl", ctry:"us", desc:"ag:nasa,msfc,CU-Boulder;fam:SIMPLEx;sc:0.55;m:180kg", id:"", url:"Janus:www.colorado.edu/today/janus-binary-asteroids", icon:"janus.png"},
     {names:"Janus-B", type:"fbm", dest:"ast", stat:"pl", ctry:"us", desc:"ag:nasa,msfc,CU-Boulder;fam:SIMPLEx;sc:0.55;m:180kg", id:"", url:"", icon:"janus.png"}
   ], events:[
-    {pt:"", type:"l", dt:"2022-09-20", loc:"ter:cap:LC-39A", desc:""},
-    {pt:"", type:"oi", dt:"2022-09-20", loc:"sol:ho", desc:""},
+    {pt:"", type:"l", dt:"2023", loc:"ter:cap:LC-39A", desc:""},
+    {pt:"", type:"oi", dt:"2023", loc:"sol:ho", desc:""},
     //{pt:"", type:"fb", dt:"2024", loc:"ter", desc:"ga"},
-    {pt:"", type:"fb", dt:"2023-05", loc:"mar", desc:"ga"},
-    {pt:"1,2", type:"fb", dt:"2025-08", loc:"ter", desc:"ga;fbp:Janus A/B"},
-    {pt:"0", type:"oi", dt:"2026-01", loc:"ast", desc:"ast:16 Psyche"},  
+    {pt:"", type:"fb", dt:"2024", loc:"mar", desc:"ga"},
+    {pt:"1,2", type:"fb", dt:"2026", loc:"ter", desc:"ga;fbp:Janus A/B"},
+    {pt:"0", type:"oi", dt:"2029", loc:"ast", desc:"ast:16 Psyche"},  
     {pt:"0", type:"sco", dt:"2026-01", loc:"ast:700km", desc:"Characterization orbit"},  
     {pt:"0", type:"sco", dt:"2026-03", loc:"ast:290km", desc:"Topography orbit"},  
     {pt:"2", type:"fb", dt:"2026-03-03", loc:"ast", desc:"ast:1991 VH;Janus-B;eom:fbm"},
@@ -3960,6 +3960,14 @@ prime1: {name:"PRIME-1:Polar Resources Ice Mining Experiment", desc:"lv:Falcon 9
     {pt:"", type:"l", dt:"2023", loc:"ter:cap", desc:""},
     {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:"South pole;Near Shackelton Crater"},
     {pt:"0", type:"nom", dt:"l+20dy", loc:"lun", desc:""}
+]},
+lunartrailblazer: {name:"Lunar Trailblazer", desc:"lv:Falcon 9;part:prime1",
+  parts:[
+    {names:"", type:"om", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,jpl,Caltech;sc:0.5", id:"", url:"hp:trailblazer.caltech.edu", icon:"lunar-trailblazer.png"}], 
+  events:[
+    {pt:"", type:"l", dt:"2023", loc:"ter", desc:""},
+    {pt:"", type:"oi", dt:"l+4m", loc:"lun:100km", desc:"Polar orbit"},
+    {pt:"", type:"nom", dt:"2026", loc:"lun", desc:""}
 ]},
 hakutor1: {name:"Hakuto-R M1", desc:"lv:Falcon 9",
   parts:[
@@ -4238,14 +4246,6 @@ luna27: {name:"Luna 27", desc:"lv:Angara",
     {pt:"", type:"l", dt:"2025-08", loc:"ter:vos", desc:""},
     {pt:"", type:"td", dt:"l+4dy", loc:"lun:87.2S,68E", desc:"Near South Pole; Shoemaker Crater;show:0"},
     {pt:"", type:"nom", dt:"l+1yr", loc:"lun", desc:"?"}
-]},
-lunartrailblazer: {name:"Lunar Trailblazer", desc:"lv:Falcon 9",
-  parts:[
-    {names:"", type:"om", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,jpl,Caltech;sc:0.5", id:"", url:"hp:trailblazer.caltech.edu", icon:"lunar-trailblazer.png"}], 
-  events:[
-    {pt:"", type:"l", dt:"2025-02", loc:"ter", desc:""},
-    {pt:"", type:"oi", dt:"l+4m", loc:"lun:100km", desc:"Polar orbit"},
-    {pt:"", type:"nom", dt:"2026", loc:"lun", desc:""}
 ]},
 solarcruiser: {name:"Solar Cruiser", desc:"Falcon 9",
   parts:[
