@@ -1,7 +1,7 @@
 var SSEH = SSEH || {
   TITLE: "Solar System Exploration History",
-  VERSION: "1.6.33",
-  DATE: "2022-02 ",
+  VERSION: "1.6.34",
+  DATE: "2022-07 ",
   AUTHOR: "Olaf Frohn",
   CLICK: "Click on anything for more details",
   PATH: "images/",  //Relative path to resources
@@ -3745,10 +3745,10 @@ chandrayaan3: {name:"Chandrayaan 3:Moon Craft 3", desc:"lv:GSLV MkIII",
 ]},
 capstone: {name:"CAPSTONE:Cislunar Autonomous Positioning System Technology Operations and Navigation Experiment", desc:"lv:Electron",
   parts:[
-    {names:"", type:"om", dest:"lun", stat:"o", ctry:"us", desc:"ag:nasa,Advanced Space;fam:SBIR;12U Cubesat;m:25kg;sc:0.5", id:"2022-070A", url:"hp:www.nasa.gov/directorates/spacetech/small_spacecraft/capstone;RocketLab:www.rocketlabusa.com/missions/lunar/", icon:"capstone.png"}], 
+    {names:"", type:"om", dest:"lun", stat:"o", ctry:"us", desc:"ag:nasa,ames,Advanced Space;fam:SBIR;12U Cubesat;m:25kg;sc:0.5", id:"2022-070A", url:"hp:www.nasa.gov/directorates/spacetech/small_spacecraft/capstone;RocketLab:www.rocketlabusa.com/missions/lunar/", icon:"capstone.png"}], 
   events:[
     {pt:"", type:"l", dt:"2022-06-28", loc:"ter:mah:LC-1", desc:"Q3"},
-    {pt:"", type:"toi", dt:"2022-07-05", loc:"ter:lto", desc:""},
+    {pt:"", type:"toi", dt:"2022-07-04", loc:"ter:lto", desc:""},
     {pt:"", type:"oi", dt:"2022-11-13", loc:"lun:nrho", desc:""},
     {pt:"", type:"nom", dt:"2024", loc:"lun", desc:""}
 ]},
@@ -4354,6 +4354,27 @@ artemis5: {name:"Artemis-5" , desc:"lv:SLS 1B",
 //    {pt:"", type:"nom", dt:"2030s", loc:"lun", desc:""}
 ]},
 // --- 2028
+tianwen3o: {name:"Tianwen-3 Orbiter:Skyquest-3", desc:"lv:CZ-5",
+  parts:[
+    {names:"天问三号", type:"srm", dest:"mar", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:Tianwen;sc:0.75", id:"", url:"", icon:"tianwen3-o.png"}], 
+  events:[
+    {pt:"", type:"l", dt:"2028", loc:"ter:wen:LC-101", desc:""},
+    {pt:"", type:"toi", dt:"2028", loc:"sol:hto", desc:""},
+    {pt:"", type:"oi", dt:"2029", loc:"mar", desc:""},
+    {pt:"2", type:"doc", dt:"2030", loc:"mar", desc:"op/as"},
+    {pt:"0", type:"edl", dt:"2031", loc:"ter", desc:"srp;"}
+]},
+tianwen3l: {name:"Tianwen-3 Lander:Skyquest-3", desc:"lv:CZ-5",
+  parts:[
+    {names:"天问三号", type:"slm", dest:"mar", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:Tianwen;sc:0.75", id:"", url:"", icon:"tianwen3-ld.png"}], 
+  events:[
+    {pt:"", type:"l", dt:"2028", loc:"ter:wen:LC-101", desc:""},
+    {pt:"", type:"toi", dt:"2028", loc:"sol:hto", desc:""},
+    {pt:"", type:"edl", dt:"2029", loc:"mar", desc:"Northern Hemisphere"},
+    {pt:"", type:"l", dt:"2030", loc:"mar", desc:"as"},
+    {pt:"", type:"doc", dt:"2030", loc:"mar", desc:"as/op"},
+    {pt:"", type:"nom", dt:"2030", loc:"mar", desc:"lp;?"}
+]},
 oryoll01: {name:"Oryol L-01", desc:"lv:Yenisei", stat:"pl", 
   parts:[
     {names:"Орёл;PTK-NP:Pilotiruemyi Transportny Korabl Novogo Pokoleniya (New Generation Piloted Transport Ship)", type:"test", dest:"lun", ctry:"ru", desc:"ag:rosc;m:22300kg;dim:4.47x13.9x6.08m;Uncrewed test flight;sc:0.7", id:"", url:"rsw:www.russianspaceweb.com/ptk_flight_testing.html", icon:"orel.png"},
