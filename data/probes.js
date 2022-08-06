@@ -3206,7 +3206,7 @@ novac: {name:"NOVA-C", desc:"lv:Falcon 9",
 ]},
 kplo: {name:"Danuri", desc:"lv:Falcon 9",
   parts:[
-    {names:"KPLO:Korean Pathfinder Lunar Orbiter", type:"om", dest:"lun", stat:"pl", ctry:"sk", desc:"ag:kari;fam:klep;sc:0.6;m:678kg;m0:;dim:", id:"2022-094A", url:"hp:www.kari.re.kr/eng/sub03_04.do", icon:"danuri.png"}
+    {names:"KPLO:Korean Pathfinder Lunar Orbiter", type:"om", dest:"lun", stat:"o", ctry:"sk", desc:"ag:kari;fam:klep;sc:0.6;m:678kg;m0:;dim:", id:"2022-094A", url:"hp:www.kari.re.kr/eng/sub03_04.do", icon:"danuri.png"}
    ], 
   events:[
     {pt:"", type:"l", dt:"2022-08-04", loc:"ter:cap", desc:""},
