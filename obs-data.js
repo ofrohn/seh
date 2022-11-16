@@ -714,7 +714,7 @@ aditya:{name:"Aditya-L1", url:"hp:aditya.iiap.res.in/", desc:"Solar Coronograph;
   parts: [
     {n:"आदित्य", ctry:"ind", type:"opt;ir", pur:"sol", id:"", icon:"aditya-l1.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2022-07", tp:"l", loc:"ter:sri", desc:""},
+    {pt:"", dt:"2023", tp:"l", loc:"ter:sri", desc:""},
     {pt:"", dt:"l+100d", tp:"sco", loc:"sol:esl1", desc:""}
   ], inst: [
     {n:"VELC:Visible Emission Line Coronagraph", band:"530..640nm", res:"2", d:"0.2", px:"", url:"", desc:"c:nl;cl:nly"},
@@ -1003,11 +1003,11 @@ elisa:{name:"LISA:Laser Interferometer Space Antenna", url:"hp:www.elisascience.
   ], inst: [
     {n:"", tp:"li", band:"1e-4..1Hz", url:"", desc:"c:;"}
 ]},
-euclid:{name:"Euclid", url:"hp:www.euclid-ec.org/;esa:sci.esa.int/euclid", desc:"ag:esa;lv:Soyuz-STB/Fregat MT;fam:M-class;sc:0.6;x:10;y:9", stat:"pl", 
+euclid:{name:"Euclid", url:"hp:www.euclid-ec.org/;esa:sci.esa.int/euclid", desc:"ag:esa;lv:Falcon 9;fam:M-class;sc:0.6;x:10;y:9", stat:"pl", 
   parts: [
     {n:"", ctry:"eu", type:"nir", pur:"de;sur", id:"", icon:"euclid.png", desc:"m:2160kg;dim:4.5x3.1m"}
   ], ev: [
-    {pt:"", dt:"2022-09", tp:"l", loc:"ter:kou:ELS", desc:""},
+    {pt:"", dt:"2023-07", tp:"l", loc:"ter:kou:ELS", desc:""},
     {pt:"", dt:"l+30d", tp:"sco", loc:"sol:esl2", desc:"1M km  Lissajous orbit"},
     {pt:"", dt:"2028", tp:"nom", loc:"sol:esl2", desc:"pend"},
   ], inst: [
@@ -2170,9 +2170,9 @@ xposat:{name:"XPoSat:X-ray Polariation Satellite", url:"hp:", desc:"ag:isro;lv:P
   parts: [
     {n:"", ctry:"ind", type:"x", pur:"", id:"", icon:"xpo.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2022-04", tp:"l", loc:"ter:sri", desc:""},
-    {pt:"", dt:"2022-04", tp:"sco", loc:"ter:leo:600kmx30deg", desc:""},
-    {pt:"", dt:"2027", tp:"pom", loc:"ter:leo", desc:""}
+    {pt:"", dt:"2023", tp:"l", loc:"ter:sri", desc:""},
+    {pt:"", dt:"2023", tp:"sco", loc:"ter:leo:600kmx30deg", desc:""},
+    {pt:"", dt:"2028", tp:"pom", loc:"ter:leo", desc:""}
   ], inst: [
     {n:"POLIX", band:"5..30keV", res:"", desc:"c:nr;cl:nl"}
     //XPECT
@@ -2353,7 +2353,7 @@ cz-8
 //CZ-5
 "CZ-5": {n:"Long March 5", alt:"长征五号", ctry:"cn", m:"867000", pm:"25000/14000/8200",  d:"62x5", pf:"12x5.2", dt:"2016-11-06..", st:"2/4", ust:"Yuanzheng", th:"12116", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"LH2/LOX+KeroLOX", icon:"CZ-5.png"},
 "CZ-5B": {n:"Long March 5B", alt:"长长征五号乙", ctry:"cn", m:"837500", pm:"23000/-/-",  d:"53.7x5", pf:"12-20.5x5.2", dt:"2020-05-05..", st:"1/4", ust:"", th:"12116", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"LH2/LOX+KeroLOX", icon:"CZ-5B.png"},
-"CZ-5DY": {n:"Long March 5DY", alt:"长征五号登月", ctry:"cn", m:"2188000", pm:"70k//27k", d:"90x5", pf:"", dt:"2030..", st:"3/2", ust:"", th:"28200", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"cz-5dy.png"},
+"CZ-5G": {n:"Long March 5G", alt:"长征五号登月", ctry:"cn", m:"220000", pm:"70k//27k", d:"90x5", pf:"", dt:"2030..", st:"3/2", ust:"", th:"25200", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"cz-5dy.png"},
 //"CZ-5ZRL": {n:"Long March 5ZRL", alt:"长征五号载人火箭", ctry:"cn", m:"750000", pm:"18k//", d:"86x5", pf:"", dt:"2030..", st:"2", ust:"", th:"", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"cz5zrl.png"},
 //CZ-6, CZ-6A
 //CZ-7, CZ-7A
@@ -2362,7 +2362,7 @@ cz-8
 //CZ-8
 "CZ-8": {n:"Long March 8", alt:"长征八号", ctry:"cn", m:"356000", pm:"8100/2800/-", d:"50.3x3.35", pf:"12.7x4.2", dt:"2020-12-22..", st:"2/2", ust:"YZ-1A", th:"4800", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"CZ-8.png"},
 //CZ-9
-"CZ-9": {n:"Long March 9", alt:"长征九号运载火箭", ctry:"cn", m:"4122000", pm:"150k/70k/53k", d:"111x11", pf:"?x10", dt:"2028..", st:"3", ust:"", th:"25500", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"CZ-9.png"},
+"CZ-9": {n:"Long March 9", alt:"长征九号运载火箭", ctry:"cn", m:"4122000", pm:"150k/70k/50k", d:"114x11", pf:"?x10", dt:"2028..", st:"3", ust:"", th:"57600", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"CZ-9.png"},
 //CZ-X
 "CZ-X": {n:"Long March X", alt:"长征X号运载火箭", ctry:"cn", m:"2211000", pm:"70000//", d:"90x5", pf:"", dt:"2025..", st:"3/2", ust:"", th:"25200", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"CZ-X.png"},
 //CZ-11

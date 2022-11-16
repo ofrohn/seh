@@ -53,7 +53,7 @@ aditya:{name:"Aditya-L1", url:"hp:aditya.iiap.res.in/", desc:"Solar Coronograph;
   parts: [
     {n:"आदित्य", ctry:"ind", type:"opt;ir", pur:"sol", id:"", icon:"aditya-l1.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2022-07", tp:"l", loc:"ter:sri", desc:""},
+    {pt:"", dt:"2023", tp:"l", loc:"ter:sri", desc:""},
     {pt:"", dt:"l+100d", tp:"sco", loc:"sol:esl1", desc:""}
   ], inst: [
     {n:"VELC:Visible Emission Line Coronagraph", band:"530..640nm", res:"2", d:"0.2", px:"", url:"", desc:"c:nl;cl:nly"},
@@ -342,11 +342,11 @@ elisa:{name:"LISA:Laser Interferometer Space Antenna", url:"hp:www.elisascience.
   ], inst: [
     {n:"", tp:"li", band:"1e-4..1Hz", url:"", desc:"c:;"}
 ]},
-euclid:{name:"Euclid", url:"hp:www.euclid-ec.org/;esa:sci.esa.int/euclid", desc:"ag:esa;lv:Soyuz-STB/Fregat MT;fam:M-class;sc:0.6;x:10;y:9", stat:"pl", 
+euclid:{name:"Euclid", url:"hp:www.euclid-ec.org/;esa:sci.esa.int/euclid", desc:"ag:esa;lv:Falcon 9;fam:M-class;sc:0.6;x:10;y:9", stat:"pl", 
   parts: [
     {n:"", ctry:"eu", type:"nir", pur:"de;sur", id:"", icon:"euclid.png", desc:"m:2160kg;dim:4.5x3.1m"}
   ], ev: [
-    {pt:"", dt:"2022-09", tp:"l", loc:"ter:kou:ELS", desc:""},
+    {pt:"", dt:"2023-07", tp:"l", loc:"ter:kou:ELS", desc:""},
     {pt:"", dt:"l+30d", tp:"sco", loc:"sol:esl2", desc:"1M km  Lissajous orbit"},
     {pt:"", dt:"2028", tp:"nom", loc:"sol:esl2", desc:"pend"},
   ], inst: [
@@ -1509,9 +1509,9 @@ xposat:{name:"XPoSat:X-ray Polariation Satellite", url:"hp:", desc:"ag:isro;lv:P
   parts: [
     {n:"", ctry:"ind", type:"x", pur:"", id:"", icon:"xpo.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2022-04", tp:"l", loc:"ter:sri", desc:""},
-    {pt:"", dt:"2022-04", tp:"sco", loc:"ter:leo:600kmx30deg", desc:""},
-    {pt:"", dt:"2027", tp:"pom", loc:"ter:leo", desc:""}
+    {pt:"", dt:"2023", tp:"l", loc:"ter:sri", desc:""},
+    {pt:"", dt:"2023", tp:"sco", loc:"ter:leo:600kmx30deg", desc:""},
+    {pt:"", dt:"2028", tp:"pom", loc:"ter:leo", desc:""}
   ], inst: [
     {n:"POLIX", band:"5..30keV", res:"", desc:"c:nr;cl:nl"}
     //XPECT
