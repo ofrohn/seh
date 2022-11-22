@@ -3758,12 +3758,13 @@ artemis1: {name:"Artemis 1", desc:"lv:SLS 1", stat:"o",
   events:[
     {pt:"", type:"l", dt:"2022-11-16", loc:"ter:ksc:LC-39B", desc:""},
     {pt:"", type:"toi", dt:"2022-11-16", loc:"ter", desc:"lto"},
-    {pt:"", type:"fb", dt:"l+9dy", loc:"lun", desc:""},
-    {pt:"", type:"oi", dt:"l+9dy", loc:"lun:70000km", desc:"Distant Retrograde Orbit"},
-    {pt:"", type:"dep", dt:"l+16dy", loc:"lun", desc:""},
-    {pt:"", type:"fb", dt:"l+17dy", loc:"lun", desc:"RPF"},
-    {pt:"", type:"oi", dt:"l+17dy", loc:"ter", desc:"eto"},
-    {pt:"", type:"edl", dt:"l+42dy", loc:"ter", desc:"eom"}
+    {pt:"", type:"fb", dt:"2022-11-21", loc:"lun:125km", desc:"Outbound Powered Flyby"},
+    {pt:"", type:"oi", dt:"2022-11-25", loc:"lun:70000km", desc:"Distant Retrograde Orbit"},
+    {pt:"", type:"ev", dt:"2022-11-28", loc:"ter:432194km", desc:"Maximum distance from Earth"},
+    {pt:"", type:"dep", dt:"2022-12-01", loc:"lun", desc:""},
+    {pt:"", type:"fb", dt:"2022-12-05", loc:"lun:125km", desc:"Return Flyby"},
+    {pt:"", type:"oi", dt:"2022-12-05", loc:"ter", desc:"eto"},
+    {pt:"", type:"edl", dt:"2022-12-11", loc:"ter", desc:"eom"}
 ]},
 em1lcube: {name:"Artemis-1 Lunar Cubesats", desc:"lv:SLS;part:em1;6U CubeSats", stat:"o", 
   parts:[
@@ -3967,12 +3968,13 @@ hakutor1: {name:"Hakuto-R M1", desc:"lv:Falcon 9",
     {names:"Rashid;رشيد", type:"rvm", dest:"lun", stat:"pl", ctry:"ue", desc:"ag:MBRSC;m:10kg;dim:0.5x0.5x0.8m;sc:0.5", id:"", url:"MBRSC:www.mbrsc.ae/", icon:"rashid.png"},
 	{names:"Lunar Flashlight", type:"om", dest:"lun", stat:"pl",ctry:"us", desc:"ag:nasa,jpl;m:~12kg;dim:0.7x0.7x0.3m;sc:0.2", id:"", url:"Flashlight:www.jpl.nasa.gov/missions/lunar-flashlight/", icon:"lunar-flashlight.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2022-11-22", loc:"ter:cap", desc:""},
-    {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:"Lacus Somniorum"},
-    {pt:"1", type:"nom", dt:"l+18d", loc:"lun", desc:"rvp"},
-    {pt:"0", type:"nom", dt:"l+3w", loc:"lun", desc:"slp"},
+    {pt:"", type:"l", dt:"2022-11-28", loc:"ter:cap", desc:""},
     {pt:"2", type:"fb", dt:"l+3mo", loc:"lun", desc:"Flashlight"},
+    {pt:"1", type:"oi", dt:"l+4mo", loc:"lun", desc:""},
     {pt:"2", type:"fb", dt:"l+4mo", loc:"lun", desc:"Flashlight"},
+    {pt:"1", type:"td", dt:"l+5mo", loc:"lun:47.5N,44.4E", desc:"Atlas Crater"},
+    {pt:"1", type:"nom", dt:"l+168dy", loc:"lun", desc:"rvp"},
+    {pt:"0", type:"nom", dt:"l+171dy", loc:"lun", desc:"slp"},
     {pt:"2", type:"oi", dt:"l+6mo", loc:"lun:nrho", desc:"per:7dy;15km perilune;Flashlight"},
     {pt:"2", type:"sco", dt:"l+18mo", loc:"lun:20x~1000kmx90deg", desc:"Flashlight"},
     {pt:"2", type:"nom", dt:"l+2yr", loc:"lun", desc:"Flashlight"}
@@ -6788,7 +6790,7 @@ cz-8
 //CZ-5
 "CZ-5": {n:"Long March 5", alt:"长征五号", ctry:"cn", m:"867000", pm:"25000/14000/8200",  d:"62x5", pf:"12x5.2", dt:"2016-11-06..", st:"2/4", ust:"Yuanzheng", th:"12116", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"LH2/LOX+KeroLOX", icon:"CZ-5.png"},
 "CZ-5B": {n:"Long March 5B", alt:"长长征五号乙", ctry:"cn", m:"837500", pm:"23000/-/-",  d:"53.7x5", pf:"12-20.5x5.2", dt:"2020-05-05..", st:"1/4", ust:"", th:"12116", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"LH2/LOX+KeroLOX", icon:"CZ-5B.png"},
-"CZ-5G": {n:"Long March 5G", alt:"长征五号登月", ctry:"cn", m:"220000", pm:"70k//27k", d:"90x5", pf:"", dt:"2030..", st:"3/2", ust:"", th:"25200", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"cz-5dy.png"},
+"CZ-5G": {n:"Long March 5G", alt:"长征五号登月", ctry:"cn", m:"220000", pm:"70k//27k", d:"90x5", pf:"", dt:"2027..", st:"3/2", ust:"", th:"25200", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"cz-5dy.png"},
 //"CZ-5ZRL": {n:"Long March 5ZRL", alt:"长征五号载人火箭", ctry:"cn", m:"750000", pm:"18k//", d:"86x5", pf:"", dt:"2030..", st:"2", ust:"", th:"", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"cz5zrl.png"},
 //CZ-6, CZ-6A
 //CZ-7, CZ-7A
@@ -6797,7 +6799,7 @@ cz-8
 //CZ-8
 "CZ-8": {n:"Long March 8", alt:"长征八号", ctry:"cn", m:"356000", pm:"8100/2800/-", d:"50.3x3.35", pf:"12.7x4.2", dt:"2020-12-22..", st:"2/2", ust:"YZ-1A", th:"4800", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"CZ-8.png"},
 //CZ-9
-"CZ-9": {n:"Long March 9", alt:"长征九号运载火箭", ctry:"cn", m:"4122000", pm:"150k/70k/50k", d:"114x11", pf:"?x10", dt:"2028..", st:"3", ust:"", th:"57600", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"CZ-9.png"},
+"CZ-9": {n:"Long March 9", alt:"长征九号运载火箭", ctry:"cn", m:"4122000", pm:"150k/70k/50k", d:"108x10", pf:"?x10", dt:"2028..", st:"3", ust:"", th:"57600", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"CZ-9.png"},
 //CZ-X
 "CZ-X": {n:"Long March X", alt:"长征X号运载火箭", ctry:"cn", m:"2211000", pm:"70000//", d:"90x5", pf:"", dt:"2025..", st:"3/2", ust:"", th:"25200", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"CZ-X.png"},
 //CZ-11
