@@ -254,7 +254,12 @@ polym:
    h:"11.7", mass:"", dia:"21.075km", rad:"10.538", tilt:"",
    alb:"0.091", grav:"", comp:"Silicaceous", dens:"", spec:"P", temp:"",
    img:"", desc:"sc:6;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=polymele;orb:ec.2017-02-16"},
-// shaun   
+polym1:
+  {name:"S/2022 (15094) I", other:"", desig:"", type:"m", par:"polym", disc:"Lucy science team", dyr:"2022",
+   a:"200km", e:"~0", i:"~0", per:"", rot:"", gr:"",
+   h:"", mass:"", dia:"5km", rad:"2.5", tilt:"",
+   alb:"", grav:"", comp:"", dens:"", spec:"", temp:"",
+   img:"", desc:"sc:6"},// shaun   
 orus:
   {name:"Orus", other:"1999 VQ10", desig:"21900", type:"a", par:"sol", disc:"T. Kobayashi", dyr:"1999",
    a:"5.127au", e:"0.0356", i:"8.468", per:"11.61a", rot:"13.45h", gr:"jtro:Greeks",

@@ -3098,7 +3098,7 @@ capstone: {name:"CAPSTONE:Cislunar Autonomous Positioning System Technology Oper
 ]},
 artemis1: {name:"Artemis 1", desc:"lv:SLS 1", stat:"o", 
   parts:[
-    {names:"EM-1:Exploration Mission 1;Orion MPCV Test Flight:Multi-Purpose Crew Vehicle", type:"fbm", dest:"lun",ctry:"us;eu", desc:"ag:nasa,jsc,esa;m:21250kg;sc:0.6", id:"", url:"hp:www.nasa.gov/artemisprogram;esa:www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Orion/Artemis_1;tw:twitter.com/NASAArtemis", icon:"orion.png"},
+    {names:"EM-1:Exploration Mission 1;Orion MPCV Test Flight:Multi-Purpose Crew Vehicle", type:"fbm", dest:"lun",ctry:"us;eu", desc:"ag:nasa,jsc,esa;m:21250kg;sc:0.6", id:"2022-156A", url:"hp:www.nasa.gov/artemisprogram;esa:www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Orion/Artemis_1;tw:twitter.com/NASAArtemis", icon:"orion.png"},
     {type:"erm", dest:"ter"}], 
   events:[
     {pt:"", type:"l", dt:"2022-11-16", loc:"ter:ksc:LC-39B", desc:""},
@@ -3111,63 +3111,101 @@ artemis1: {name:"Artemis 1", desc:"lv:SLS 1", stat:"o",
     {pt:"", type:"oi", dt:"2022-12-05", loc:"ter", desc:"eto"},
     {pt:"", type:"edl", dt:"2022-12-11", loc:"ter", desc:"eom"}
 ]},
-em1lcube: {name:"Artemis-1 Lunar Cubesats", desc:"lv:SLS;part:em1;6U CubeSats", stat:"o", 
+lunaricecube: {name:"Lunar IceCube", desc:"lv:SLS;part:artemis1;6U CubeSat", stat:"o", 
   parts:[
-    {names:"Lunar IceCube", type:"om", dest:"lun", ctry:"us", desc:"ag:nasa,gsfc;m:~14kg;dim:0.7x0.2x0.3m;sc:1", id:"", url:"IceCube:www.nasa.gov/feature/goddard/lunar-icecube-to-take-on-big-mission-from-small-package", icon:"icecube.png"},
-    {names:"LunaH-Map:Lunar Polar Hydrogen Mapper", type:"om", dest:"lun", ctry:"us", desc:"ag:nasa,asu;sc:0.6", id:"", url:"H-Map:lunahmap.asu.edu/;tw:twitter.com/lunahmap", icon:"lunahmap.png"},
-    {names:"OMOTENASHI:Outstanding Moon exploration Technologies demonstrated by Nano Semi-Hard Impactor", type:"im", dest:"lun", ctry:"jp", desc:"ag:jaxa;sc:0.6", id:"", url:"hp:www.isas.jaxa.jp/home/omotenashi/index.html;tw:twitter.com/OMOTENASHI_JAXA", icon:"omotenashi.png"},
-    {names:"EQUULEUS:EQUilibriUm Lunar-Earth point 6U Spacecraft", type:"om", dest:"ter:eml2", ctry:"jp", desc:"ag:jaxa;sc:0.6", id:"", url:"hp:www.space.t.u-tokyo.ac.jp/equuleus/en/;tw:twitter.com/EQUULEUS_en", icon:"equuleus.png"}],
+    {names:"", type:"om", dest:"lun", ctry:"us", desc:"ag:Morehouse State University,nasa;m:~14kg;dim:0.7x0.2x0.3m;sc:1", id:"2022-156", url:"IceCube:www.nasa.gov/feature/goddard/lunar-icecube-to-take-on-big-mission-from-small-package", icon:"icecube.png"}],
   events:[
-    {pt:"", type:"l", dt:"2022-11-16", loc:"ter:ksc:LC-39B", desc:"Artemis-1 piggyback"},
+    {pt:"", type:"l", dt:"2022-11-16", loc:"ter:ksc:LC-39B", desc:"Artemis-1 piggyback"}, 
     {pt:"", type:"toi", dt:"2022-11-16", loc:"ter", desc:"lto"},
-    {pt:"0", type:"toi", dt:"2022-11-16", loc:"ter", desc:"leto;IceCube"},
-    {pt:"0", type:"fb", dt:"l+4dy", loc:"lun", desc:"IceCube"},
-    {pt:"1", type:"fb", dt:"l+4dy", loc:"lun", desc:"H-Map"},
-    {pt:"2", type:"imp", dt:"l+4dy", loc:"lun", desc:"OMOTENASHI;eom"},
-    {pt:"1", type:"oi", dt:"l+69dy", loc:"lun", desc:"H-Map"},
-    {pt:"0", type:"oi", dt:"l+58dy", loc:"lun", desc:"IceCube"},
-    {pt:"1", type:"nom", dt:"l+60dy", loc:"lun", desc:"H-Map"},
-    {pt:"0", type:"sco", dt:"", loc:"lun:100kmx90deg", desc:"IceCube"},
-    {pt:"3", type:"sco", dt:"", loc:"ter:eml2", desc:"EQUULEUS"},
-    {pt:"1", type:"sco", dt:"l+18mo", loc:"lun", desc:"Perilune 5km; H-Map"},
-    {pt:"0", type:"sco", dt:"l+18mo", loc:"lun", desc:"IceCube"},
-    {pt:"0", type:"nom", dt:"l+2yr", loc:"lun", desc:"IceCube"},
-    {pt:"", type:"pom", dt:"l+2yr", loc:"lun", desc:""}
+    {pt:"0", type:"toi", dt:"2022-11-16", loc:"ter", desc:"leto"},
+    {pt:"0", type:"fb", dt:"2022-11-16", loc:"lun", desc:""},
+    {pt:"0", type:"oi", dt:"2023-01-13", loc:"lun", desc:""},
+    {pt:"0", type:"sco", dt:"", loc:"lun:100kmx90deg", desc:""},
+    {pt:"0", type:"sco", dt:"2023-05", loc:"lun", desc:""},
+    {pt:"0", type:"nom", dt:"2024", loc:"lun", desc:""}
 ]},
-em1cubes: {name:"Artemis-1 Cubesats", desc:"lv:SLS;part:em1;6U-CubeSat", stat:"o", 
+lunarhmap: {name:"LunaH-Map:Lunar Polar Hydrogen Mapper", desc:"lv:SLS;part:artemis1;6U CubeSat", stat:"o", 
   parts:[
-    {names:"NEA-Scout:Near Asteroid Scout", type:"fbm", dest:"ast", ctry:"us", desc:"Solar Sail;ag:nasa,msfc;m:12kg;dim:9x9x0.3m;sc:0.6", id:"", url:"NEA-Scout:www.nasa.gov/content/nea-scout", icon:"nea-scout.png"},
-    {names:"BioSentinel", type:"om", dest:"sol", ctry:"us", desc:"ag:nasa,arc;sc:0.6", id:"", url:"BioSentinel:www.nasa.gov/centers/ames/engineering/projects/biosentinel.html", icon:"biosentinel.png"},
-    {names:"CuSP:CubeSat to study Solar Particles", type:"om", dest:"sol", ctry:"us", desc:"ag:nasa,swri;sc:0.8", id:"", url:"CuSP:www.nasa.gov/feature/goddard/2016/heliophysics-cubesat-to-launch-on-nasa-s-sls", icon:"cusp.png"},
-    {names:"ArgoMoon", type:"test", dest:"ter:heeo", ctry:"it", desc:"ag:asi;sc:0.6", id:"", url:"ArgoMoon:www.argotec.it/online/what-we-do/small-satellite-unit/#tab-3", icon:"argomoon.png"},
-    {names:"LunIR:Lunar Infrared Imaging", type:"om", dest:"ter:geo", ctry:"us", desc:"ag:nasa;m:14kg;sc:0.6", id:"", url:"LunIR:www.nasa.gov/feature/nasa-selects-lockheed-martin-s-lunir-cubesat-for-artemis-i-secondary-payload", icon:"lunir.png"},
-    {names:"Cislunar Explorers", type:"om", dest:"sol", ctry:"us", desc:"ag:nasa,Cornell;sc:0.6", id:"", url:"Cislunar Explorers:cislunarexplorers.wordpress.com/", icon:"clx.png"},
-    {names:"CU-E3:Earth Escape Explorer", type:"om", dest:"sol", ctry:"us", desc:"ag:nasa,CU Boulder;sc:0.6", id:"", url:"CU-E3:www.colorado.edu/cubequest/", icon:"cu-e3.png"},
-    {names:"Team Miles", type:"om", dest:"sol", ctry:"us", desc:"ag:nasa,Fluid and Reason;sc:0.6", id:"", url:"Team Miles:miles-space.com", icon:"tmiles.png"}],
+    {names:"", type:"om", dest:"lun", ctry:"us", desc:"ag:nasa,asu;sc:0.6", id:"2022-156", url:"H-Map:lunahmap.asu.edu/;tw:twitter.com/lunahmap", icon:"lunahmap.png"}],
   events:[
     {pt:"", type:"l", dt:"2022-11-16", loc:"ter:ksc:LC-39B", desc:"Artemis-1 piggyback"},
     {pt:"", type:"toi", dt:"2022-11-16", loc:"ter", desc:"lto"},
-    {pt:"3", type:"sep", dt:"l+3hr", loc:"ter:lto", desc:"Argomoon;Proximity operations"},
-    {pt:"3", type:"oi", dt:"l+3dy", loc:"ter:heeo", desc:"Argomoon"},
-    {pt:"0", type:"fb", dt:"l+3dy", loc:"lun", desc:"NEA-Scout"},
-    {pt:"1", type:"fb", dt:"l+4dy", loc:"lun", desc:"BioSentinel"},
-    {pt:"4", type:"fb", dt:"l+4dy", loc:"lun", desc:"Skyfire"},
-    {pt:"1", type:"sco", dt:"l+7dy", loc:"sol:ho:0.92x0.98au", desc:"BioSentinel"},
-    {pt:"2", type:"sco", dt:"l+7dy", loc:"sol:ho", desc:"CuSP"},
-    {pt:"5", type:"sco", dt:"l+7dy", loc:"sol:ho", desc:"CLX;2 Spacecraft"},
-    {pt:"6", type:"sco", dt:"l+7dy", loc:"sol:ho", desc:"CU-E3;Earth following"},
-    {pt:"7", type:"sco", dt:"l+7dy", loc:"sol:ho", desc:"Team Miles;Earth following"},
-    {pt:"0", type:"fb", dt:"l+100dy", loc:"lun", desc:"poss. 1-2 additional flybys;NEA-Scout"},
-    {pt:"3", type:"nom", dt:"l+6mo", loc:"ter:heeo", desc:"Argomoon"},
-    {pt:"0", type:"fb", dt:"l+850dy", loc:"ast", desc:"ast:1991 VG;NEA-Scout"},
-    {pt:"0", type:"nom", dt:"l+2.5yr", loc:"sol:ho", desc:"NEA-Scout"},
-    {pt:"2", type:"pom", dt:"l+2yr", loc:"sol:ho", desc:"CuSP"},
-    {pt:"1", type:"pom", dt:"l+2yr", loc:"sol:ho", desc:"BioSentinel"},
-    {pt:"4", type:"pom", dt:"l+2yr", loc:"ter:geo", desc:"Skyfire"},
-    {pt:"5", type:"pom", dt:"l+2yr", loc:"sol:ho", desc:"CLX"},
-    {pt:"6", type:"pom", dt:"l+2yr", loc:"sol:ho", desc:"CU-E3"},
-    {pt:"7", type:"pom", dt:"l+2yr", loc:"sol:ho", desc:"Team Miles"},
-    {pt:"0", type:"pom", dt:"l+4.5yr", loc:"sol:ho", desc:"NEA-Scout"}
+    {pt:"1", type:"fb", dt:"2022-11-16", loc:"lun", desc:""},
+    {pt:"1", type:"oi", dt:"2023-01-13", loc:"lun", desc:""},
+    {pt:"1", type:"sco", dt:"2024-05", loc:"lun", desc:"Perilune 5km"},
+    {pt:"", type:"pom", dt:"2025", loc:"lun", desc:""}
+]},
+omotenashi: {name:"OMOTENASHI:Outstanding Moon exploration Technologies demonstrated by Nano Semi-Hard Impactor", desc:"lv:SLS;part:artemis1;6U CubeSat", stat:"f", 
+  parts:[    
+    {names:"", type:"im", dest:"lun", ctry:"jp", desc:"ag:jaxa;sc:0.6", id:"", url:"hp:www.isas.jaxa.jp/home/omotenashi/index.html;tw:twitter.com/OMOTENASHI_JAXA", icon:"omotenashi.png"}],
+  events:[
+    {pt:"", type:"l", dt:"2022-11-16", loc:"ter:ksc:LC-39B", desc:"Artemis-1 piggyback"},
+    {pt:"", type:"toi", dt:"2022-11-16", loc:"ter", desc:"lto"},
+    {pt:"", type:"los", dt:"2022-11-16", loc:"ter", desc:"Tumbling;No contact established;eom"}
+]},
+equuleus: {name:"EQUULEUS:EQUilibriUm Lunar-Earth point 6U Spacecraft", desc:"lv:SLS;part:artemis1;6U CubeSat", stat:"o", 
+  parts:[    
+    {names:"", type:"om", dest:"ter:eml2", ctry:"jp", desc:"ag:jaxa;sc:0.6", id:"2022-156", url:"hp:www.space.t.u-tokyo.ac.jp/equuleus/en/;tw:twitter.com/EQUULEUS_en", icon:"equuleus.png"}],
+  events:[
+    {pt:"", type:"l", dt:"2022-11-16", loc:"ter:ksc:LC-39B", desc:"Artemis-1 piggyback"},
+    {pt:"", type:"toi", dt:"2022-11-16", loc:"ter", desc:"lto"},
+    {pt:"", type:"fb", dt:"2022-11-22", loc:"lun", desc:""},
+    {pt:"", type:"oi", dt:"2024-05", loc:"eml2", desc:""},
+//    {pt:"0", type:"sco", dt:"", loc:"lun:100kmx90deg", desc:""},
+    {pt:"", type:"pom", dt:"2025", loc:"lun", desc:""}
+]},
+neascout: {name:"NEA-Scout:Near Asteroid Scout", desc:"lv:SLS;part:artemis1;6U CubeSat", stat:"f", 
+  parts:[    
+    {names:"", type:"fbm", dest:"ast", ctry:"us", desc:"Solar Sail;ag:nasa,msfc;m:12kg;dim:9x9x0.3m;sc:0.6", id:"", url:"NEA-Scout:www.nasa.gov/content/nea-scout", icon:"nea-scout.png"}],
+  events:[
+    {pt:"", type:"l", dt:"2022-11-16", loc:"ter:ksc:LC-39B", desc:"Artemis-1 piggyback"},
+    {pt:"", type:"toi", dt:"2022-11-16", loc:"ter", desc:"lto"},
+    {pt:"0", type:"eom", dt:"2022-11-16", loc:"lun", desc:"No signal received"}
+]},
+biosentinel: {name:"BioSentinel", desc:"lv:SLS;part:artemis1;6U CubeSat", stat:"o", 
+  parts:[    
+    {names:"BioSentinel", type:"om", dest:"sol", ctry:"us", desc:"ag:nasa,arc;sc:0.6", id:"2022-156", url:"BioSentinel:www.nasa.gov/centers/ames/engineering/projects/biosentinel.html", icon:"biosentinel.png"}],
+  events:[
+    {pt:"", type:"l", dt:"2022-11-16", loc:"ter:ksc:LC-39B", desc:"Artemis-1 piggyback"},
+    {pt:"", type:"toi", dt:"2022-11-16", loc:"ter", desc:"lto"},
+    {pt:"1", type:"fb", dt:"2022-11-20", loc:"lun", desc:""},
+    {pt:"1", type:"pom", dt:"2024", loc:"sol:ho", desc:""}
+]},
+cusp: {name:"CuSP:CubeSat to study Solar Particles", desc:"lv:SLS;part:artemis1;6U CubeSat", stat:"o", 
+  parts:[    
+    {names:"", type:"om", dest:"sol", ctry:"us", desc:"ag:nasa,swri;sc:0.8", id:"2022-156", url:"CuSP:www.nasa.gov/feature/goddard/2016/heliophysics-cubesat-to-launch-on-nasa-s-sls", icon:"cusp.png"}],
+  events:[
+    {pt:"", type:"l", dt:"2022-11-16", loc:"ter:ksc:LC-39B", desc:"Artemis-1 piggyback"},
+    {pt:"", type:"toi", dt:"2022-11-16", loc:"ter", desc:"lto"},
+    {pt:"2", type:"sco", dt:"2022-11-23", loc:"sol:ho", desc:""},
+    {pt:"2", type:"pom", dt:"2024", loc:"sol:ho", desc:""}
+]},
+argomoon: {name:"ArgoMoon", desc:"lv:SLS;part:artemis1;6U CubeSat", stat:"o", 
+  parts:[    
+    {names:"ArgoMoon", type:"test", dest:"ter:heeo", ctry:"it", desc:"ag:asi;sc:0.6", id:"2022-156", url:"ArgoMoon:www.argotec.it/online/what-we-do/small-satellite-unit/#tab-3", icon:"argomoon.png"}],
+  events:[
+    {pt:"", type:"l", dt:"2022-11-16", loc:"ter:ksc:LC-39B", desc:"Artemis-1 piggyback"},
+    {pt:"", type:"toi", dt:"2022-11-16", loc:"ter", desc:"lto"},
+    {pt:"3", type:"sep", dt:"2022-11-16", loc:"ter:lto", desc:"Proximity operations"},
+    {pt:"3", type:"oi", dt:"2022-11-19", loc:"ter:heeo", desc:""},
+    {pt:"3", type:"nom", dt:"2023-05", loc:"ter:heeo", desc:""}
+]},
+lunir: {name:"LunIR:Lunar Infrared Imaging", desc:"lv:SLS;part:artemis1;6U CubeSat", stat:"o", 
+  parts:[    
+{names:"", type:"om", dest:"ter:geo", ctry:"us", desc:"ag:nasa;m:14kg;sc:0.6", id:"", url:"LunIR:www.nasa.gov/feature/nasa-selects-lockheed-martin-s-lunir-cubesat-for-artemis-i-secondary-payload", icon:"lunir.png"}],
+  events:[
+    {pt:"", type:"l", dt:"2022-11-16", loc:"ter:ksc:LC-39B", desc:"Artemis-1 piggyback"},
+    {pt:"", type:"toi", dt:"2022-11-16", loc:"ter", desc:"lto"},
+    {pt:"4", type:"fb", dt:"2022-11-20", loc:"lun", desc:""},
+    {pt:"4", type:"pom", dt:"2024", loc:"ter:geo", desc:""}
+]},
+teammiles: {name:"Team Miles", desc:"lv:SLS;part:artemis1;6U CubeSat", stat:"f", 
+  parts:[    
+    {names:"", type:"om", dest:"sol", ctry:"us", desc:"ag:nasa,Fluid and Reason;sc:0.6", id:"", url:"Team Miles:miles-space.com", icon:"tmiles.png"}],
+  events:[
+    {pt:"", type:"l", dt:"2022-11-16", loc:"ter:ksc:LC-39B", desc:"Artemis-1 piggyback"},
+    {pt:"", type:"toi", dt:"2022-11-16", loc:"ter", desc:"lto"},
+    {pt:"0", type:"eom", dt:"2022-11-16", loc:"lun", desc:"No signal received"}
 ]},
 luna25: {name:"Luna 25", desc:"lv:Soyuz 2.1B/Fregat-MT",
   parts:[
