@@ -1666,7 +1666,7 @@ hydr:
 //Other dwarf planets 
 eri:
   {name:"Eris", other:"2003 UB313", desig:"136199", type:"d", par:"sol", disc:"M.E. Brown et al.", dyr:"2005",
-   a:"68.01au", e:"0.4358", i:"43.844", per:"560.9a", rot:"25.9h", gr:"sdo",
+   a:"68.01au", e:"0.4358", i:"43.844", per:"560.9a", rot:"15.8d", gr:"sdo",
    h:"-1.1", mass:"1.67e22kg", dia:"2326km", rad:"1163", tilt:"",
    alb:"0.96", grav:"0.0844",
    comp:"CH4 (S)", dens:"2.52", atm:"", atp:"", temp:"30..42.5..55K",

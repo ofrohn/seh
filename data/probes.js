@@ -3096,7 +3096,7 @@ capstone: {name:"CAPSTONE:Cislunar Autonomous Positioning System Technology Oper
     {pt:"", type:"oi", dt:"2022-11-13", loc:"lun:nrho", desc:""},
     {pt:"", type:"nom", dt:"2024", loc:"lun", desc:""}
 ]},
-artemis1: {name:"Artemis 1", desc:"lv:SLS 1", stat:"o", 
+artemis1: {name:"Artemis 1", desc:"lv:SLS 1", stat:"s", 
   parts:[
     {names:"EM-1:Exploration Mission 1;Orion MPCV Test Flight:Multi-Purpose Crew Vehicle", type:"fbm", dest:"lun",ctry:"us;eu", desc:"ag:nasa,jsc,esa;m:21250kg;sc:0.6", id:"2022-156A", url:"hp:www.nasa.gov/artemisprogram;esa:www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Orion/Artemis_1;tw:twitter.com/NASAArtemis", icon:"orion.png"},
     {type:"erm", dest:"ter"}], 
@@ -3107,8 +3107,8 @@ artemis1: {name:"Artemis 1", desc:"lv:SLS 1", stat:"o",
     {pt:"", type:"oi", dt:"2022-11-25", loc:"lun:70000km", desc:"Distant Retrograde Orbit"},
     {pt:"", type:"ev", dt:"2022-11-28", loc:"ter:432194km", desc:"Maximum distance from Earth"},
     {pt:"", type:"dep", dt:"2022-12-01", loc:"lun", desc:""},
-    {pt:"", type:"fb", dt:"2022-12-05", loc:"lun:125km", desc:"Return Flyby"},
-    {pt:"", type:"oi", dt:"2022-12-05", loc:"ter", desc:"eto"},
+    {pt:"", type:"fb", dt:"2022-12-05", loc:"lun:127km", desc:"Return Flyby"},
+    {pt:"", type:"oi", dt:"2022-12-06", loc:"ter", desc:"eto"},
     {pt:"", type:"edl", dt:"2022-12-11", loc:"ter", desc:"eom"}
 ]},
 lunaricecube: {name:"Lunar IceCube", desc:"lv:SLS;part:artemis1;6U CubeSat", stat:"o", 
@@ -3347,11 +3347,11 @@ lunartrailblazer: {name:"Lunar Trailblazer", desc:"lv:Falcon 9;part:prime1",
 ]},
 hakutor1: {name:"Hakuto-R M1", desc:"lv:Falcon 9",
   parts:[
-    {names:"", type:"slm", dest:"lun", stat:"pl", ctry:"jp;eu", desc:"ag:ispace;sc:0.5", id:"", url:"hp:ispace-inc.com/hakuto-r/eng/", icon:"hakuto-r.png"},
-    {names:"Rashid;رشيد", type:"rvm", dest:"lun", stat:"pl", ctry:"ue", desc:"ag:MBRSC;m:10kg;dim:0.5x0.5x0.8m;sc:0.5", id:"", url:"MBRSC:www.mbrsc.ae/", icon:"rashid.png"},
-	{names:"Lunar Flashlight", type:"om", dest:"lun", stat:"pl",ctry:"us", desc:"ag:nasa,jpl;m:~12kg;dim:0.7x0.7x0.3m;sc:0.2", id:"", url:"Flashlight:www.jpl.nasa.gov/missions/lunar-flashlight/", icon:"lunar-flashlight.png"}], 
+    {names:"", type:"slm", dest:"lun", stat:"o", ctry:"jp;eu", desc:"ag:ispace;m:340kg;sc:0.5", id:"2022-168A", url:"hp:ispace-inc.com/hakuto-r/eng/", icon:"hakuto-r.png"},
+    {names:"Rashid;رشيد", type:"rvm", dest:"lun", stat:"o", ctry:"ue", desc:"ag:MBRSC;m:10kg;dim:0.5x0.5x0.8m;sc:0.5", id:"", url:"MBRSC:www.mbrsc.ae/", icon:"rashid.png"},
+	{names:"Lunar Flashlight", type:"om", dest:"lun", stat:"o",ctry:"us", desc:"ag:nasa,jpl;m:~12kg;dim:0.7x0.7x0.3m;sc:0.2", id:"", url:"Flashlight:www.jpl.nasa.gov/missions/lunar-flashlight/", icon:"lunar-flashlight.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2022-11-28", loc:"ter:cap", desc:""},
+    {pt:"", type:"l", dt:"2022-12-11", loc:"ter:cap", desc:""},
     {pt:"2", type:"fb", dt:"l+3mo", loc:"lun", desc:"Flashlight"},
     {pt:"1", type:"oi", dt:"l+4mo", loc:"lun", desc:""},
     {pt:"2", type:"fb", dt:"l+4mo", loc:"lun", desc:"Flashlight"},
@@ -3398,6 +3398,15 @@ lupex: {name:"LUPEX:Lunar Polar Exploration", desc:"lv:H-III",
     {pt:"", type:"l", dt:"2025", loc:"ter:tng", desc:""},
     {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:"South pole"},
     {pt:"", type:"nom", dt:"l+6mo", loc:"lun", desc:""}
+]},
+change6relay: {name:"Chang'e 6 LRS:Lunar Relay Satellite", desc:"lv:CZ-4C",
+  parts:[
+    {names:"", type:"om", dest:"lun", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:clep;sc:0.4;m:600kg;dim:4.2m", id:"", url:"", icon:"chang-e4-relay.png"}
+   ], 
+  events:[
+    {pt:"", type:"l", dt:"2024", loc:"ter:xch:LC-2", desc:""},
+    {pt:"", type:"oi", dt:"l+4dy", loc:"lun:300x8600kmx54.8deg", desc:"ELFO:Elliptical Lunar Frozen Orbit"},
+    {pt:"", type:"nom", dt:"2032", loc:"lun", desc:"?"}
 ]},
 change7: {name:"Chang'e 7", desc:"lv:CZ-5",
   parts:[
@@ -3507,7 +3516,7 @@ change6: {name:"Chang'e 6", desc:"lv:CZ-5",
   parts:[
     {names:"嫦娥六号", type:"srm", dest:"lun", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:clep;m:7800kg;sc:0.4;w:0.67", id:"", url:"", icon:"chang-e5.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2024", loc:"ter:wen:LC-101", desc:""},
+    {pt:"", type:"l", dt:"2026", loc:"ter:wen:LC-101", desc:""},
     {pt:"", type:"toi", dt:"l+1hr", loc:"ter:lto", desc:""},
     {pt:"", type:"oi", dt:"l+5dy", loc:"lun:200km", desc:""},
     {pt:"", type:"sep", dt:"l+?dy", loc:"lun", desc:"op/lp"},
@@ -3707,7 +3716,7 @@ change8: {name:"Chang'e 8", desc:"lv:CZ-5",
     {names:"嫦娥 8", type:"slm", dest:"lun", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:clep;m:8200kg;sc:0.3;w:0.67", id:"", url:"", icon:"chang-e7.png"},
     {names:"{Chang'e 8 Orbiter}", type:"om", dest:"lun", stat:"pl", ctry:"cn", desc:"", icon:""}],
   events:[
-    {pt:"", type:"l", dt:"2030", loc:"ter:wen:LC-101", desc:""},
+    {pt:"", type:"l", dt:"2028", loc:"ter:wen:LC-101", desc:""},
     {pt:"", type:"toi", dt:"l+1hr", loc:"ter:lto", desc:""},
     {pt:"", type:"oi", dt:"l+5dy", loc:"lun:200km", desc:""},
     {pt:"0", type:"td", dt:"l+?dy", loc:"lun", desc:"SP Aitken Basin"},
