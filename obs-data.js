@@ -765,17 +765,17 @@ asca:{name:"ASCA:Advanced Satellite for Cosmology and Astrophysics", url:"hp:www
     {pt:"", dt:"", tp:"sco", loc:"ter:leo:525x615kmx31deg", desc:""},
     {pt:"", dt:"2000-07-14", tp:"los", loc:"", desc:"eom"}
 ]},
-asos:{name:"ASO-S:Advanced Space-based Solar Observatory", url:"", desc:"ag:cnsa;m:888kg;lv:CZ-2D", stat:"pl", 
+asos:{name:"KuaFu-1", url:"", desc:"ag:cnsa;m:888kg;lv:CZ-2D", stat:"o", 
   parts: [
-    {n:"", ctry:"cn", type:"x", pur:"sol;w", id:"", icon:"asps.png", desc:""}
+    {n:"ASO-S:Advanced Space-based Solar Observatory", ctry:"cn", type:"x", pur:"sol;w", id:"2022-129A", icon:"kuafu.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2022", tp:"l", loc:"ter:jiu", desc:""},
-    {pt:"", dt:"2022", tp:"sco", loc:"ter:sseo:720kmx98.2deg", desc:""},
-    {pt:"", dt:"2006", tp:"nom", loc:"", desc:"?"}
+    {pt:"", dt:"2022-10-08", tp:"l", loc:"ter:jiu", desc:""},
+    {pt:"", dt:"2022-10-08", tp:"sco", loc:"ter:sseo:720kmx98.2deg", desc:""},
+    {pt:"", dt:"2026", tp:"nom", loc:"", desc:"?"}
   ], inst: [
     {n:"FMG:Full-disk Magnetograph", tp:"is", band:"532nm", res:"0.5", tres:"120", sens:"", fov:"33´", desc:"c:;cl:nl;"},
     {n:"LST:Lyman-alpha Solar Telescope", tp:"is", band:"121.6nm", res:"4.6", tres:"1..10s", fov:"2.5rsol", foc:"", sens:"", desc:"c:;cl:nl;"},
-    {n:"HXI:Hard X-ray Imager", tp:"is", band:"30..300keV", res:"6", sres:"3%@662keV", tres:"0.5", ea:"100cm2", fov:"1deg", foc:"", sens:"", desc:"c:;cl:nl;"}
+    {n:"HXI:Hard X-ray Imager", tp:"is", band:"30..300keV", res:"6", sres:"3%@662keV", tres:"0.5", ea:"100cm2", fov:"1deg", foc:"", sens:"", desc:"c:nr;cl:nl;"}
 ]},
 astro1:{name:"ASTRO-1", url:"hp:nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=ASTRO-1;MAST:archive.stsci.edu/astro/", desc:"ag:nasa;lv:STS-35 Columbia", stat:"s", 
   parts: [
@@ -838,6 +838,15 @@ athenaplus:{name:"Athena:Advanced Telescope for High-energy Astrophysics", url:"
     {n:"X-IFU:X-ray Integral Field Unit", tp:"is", band:"0.3..10keV", res:"5", sres:"2.5eV@6keV", fov:"5'", ea:"1.4@1keV", sens:">1Crab", url:"athena2.irap.omp.eu/spip.php?article15", desc:"c:nbr;cl:nly;"},
     {n:"WFI:Wide Field Imager", tp:"im", band:"0.1..12keV", res:"5", sres:"8%@1keV;2.5%@6keV", fov:"40'", ea:"1.33@1keV", sens:"10mCrab", url:"athena2.irap.omp.eu/spip.php?article18", desc:"c:br;cl:n;"}
 ]},
+/*axis:{name:"AXIS:Advanced X-ray Imaging Satellite", url:"hp:https://axis.astro.umd.edu/;tw:witter.com/AXISprobe", desc:"ag:nasa;lv:TBA;sc:1.8;x:30;y:16", stat:"pl", 
+  parts: [
+    {n:"", ctry:"us", type:"x", pur:"", id:"", icon:"axis.png", desc:""}
+  ], ev: [
+    {pt:"", dt:"2024", tp:"l", loc:"ter:cap", desc:""},
+    {pt:"", dt:"2024", tp:"sco", loc:"ter:heeo", desc:""}
+  ], inst: [
+    {n:"", band:"0.2..10keV", res:"1", desc:"c:nr;cl:nly;"}
+]},*/
 bepposax:{name:"Beppo-SAX", url:"hp:www.asdc.asi.it/bepposax/", desc:"ag:asi;lv:Atlas I Centaur", stat:"s", 
   parts: [
     {n:"", ctry:"it", type:"x", pur:"", id:"1996-027A", icon:""}
@@ -976,10 +985,10 @@ dscovr:{name:"DSCOVR:Deep Space Climate Observatory", url:"hp:www.nesdis.noaa.go
 ]},
 einsteinprobe:{name:"Einstein Probe", url:"", desc:"ag:cnsa;m:380kg;lv:", stat:"pl", 
   parts: [
-    {n:"", ctry:"cn", type:"x", pur:"grb", id:"", icon:""}
+    {n:"", ctry:"cn", type:"x", pur:"grb", id:"", icon:"einsteinprobe.png"}
   ], ev: [
-    {pt:"", dt:"2022", tp:"l", loc:"ter", desc:""},
-    {pt:"", dt:"2022", tp:"sco", loc:"ter:leo", desc:""}
+    {pt:"", dt:"2023", tp:"l", loc:"ter", desc:""},
+    {pt:"", dt:"2023", tp:"sco", loc:"ter:leo", desc:""}
   ], inst: [
     {n:"WXT:Wide-field X-ray Telescope", tp:"", band:"0.5..4keV", res:"300", fov:"60x60deg", ea:"3cm2€0.7keV", tres:"100us", eres:"50%@4keV", url:"", desc:"c:;"},
     {n:"FXT:Follow-up X-ray Telescope", tp:"", band:"0.5..4keV", res:"300", fov:"1deg", ea:"60cm2€1keV", tres:"1s", eres:"100ev@1keV", url:"", desc:"c:;"}
@@ -1461,7 +1470,20 @@ longjiang: {name:"Longjiang 2:Dragon River", url:"hp:www.chinaspaceflight.com/sa
     {pt:"", type:"nom", dt:"2019-06", loc:"lun", desc:"?"}
   ], inst: [
     {n:"", band:"1..30MHz", res:"", desc:"c:nv;"}
-]},
+]},/*
+hwo:{name:"HWO:Habitable Worlds Observatory", url:"hp:webb.nasa.gov/;stsci:www.stsci.edu/jwst/;esa:www.esa.int/Our_activities/Space_Science/JWST;tw:twitter.com/NASAWebb;", desc:"lv:Ariane 5 ECA;sc:1.8;x:-2;y:10", stat:"o", 
+  parts: [
+    {n:"", ctry:"us;eu", type:"nir;opt", pur:"", id:"2021-130A", desc:"", icon:"webb.png"}
+  ], ev: [
+    {pt:"", dt:"2021-12-25", tp:"l", loc:"ter:kou:ELA-3", desc:"kou"},
+    {pt:"", dt:"2022-01-23", tp:"oi", loc:"sol:esl2", desc:""},
+    {pt:"", dt:"2022-06", tp:"sco", loc:"sol:esl2", desc:"First Light"}
+  ], inst: [
+    {n:"MIRI", band:"5..28um", res:"1.13..0.1", d:"6.5", px:"0.1", fov:"1.3x1.7'", sres:"100/3000", url:"ircamera.as.arizona.edu/MIRI/", desc:"c:nv;cl:nry;"},
+    {n:"NIRCam", band:"0.6..5um", res:"0.1..0.1", d:"6.5", px:"0.04", fov:"2.2x4.4'", desc:"c:v;"},
+    {n:"NIRSpec", band:"0.6..5um", tp:"sp", res:"", d:"6.5", px:"", fov:"3.4x3.6'", sres:"100/1000/2700", desc:"c:v;"},
+    {n:"FGS/NIRISS", band:"1.0..2.5um", tp:"sp", res:"", d:"6.5", px:"", fov:"2.2x2.2'", sres:"100/1000/2700", desc:"c:v;"}
+]},*/
 qss:{name:"Mozi", url:"", desc:"ag:cnsa;lv:CZ-2D;m:500kg", stat:"o", 
   parts: [
     {n:"QSS:Quantum Science Satellite", ctry:"cn", type:"par", pur:"", id:"", icon:"", desc:""}
@@ -1470,7 +1492,7 @@ qss:{name:"Mozi", url:"", desc:"ag:cnsa;lv:CZ-2D;m:500kg", stat:"o",
     {pt:"", dt:"2016-07", tp:"sco", loc:"ter:sseo:600kmx97.8deg", desc:""},
     {pt:"", dt:"2018-07", tp:"nom", loc:"ter:sseo", desc:""}
 ]},
-/*kuafua:{name:"KuaFu-A", url:"hp:www.spaceweather.ac.cn/english/", desc:"ag:cnsa;m:600kg", stat:"pl", 
+/*kuafua:{name:"-A", url:"hp:www.spaceweather.ac.cn/english/", desc:"ag:cnsa;m:600kg", stat:"pl", 
   parts: [
     {n:"", ctry:"cn", type:"x", pur:"sol;w", id:"", icon:"kuafu.png", desc:""}
   ], ev: [
@@ -2004,7 +2026,7 @@ tess:{name:"TESS:Transiting Exoplanet Survey Satellite", url:"hp:tess.gsfc.nasa.
     {pt:"", dt:"2018-04-18", tp:"l", loc:"ter:cap:SLC-40", desc:""},
     {pt:"", dt:"2018-05-17", tp:"fb", loc:"lun:8000km", desc:"ga"},
     {pt:"", dt:"2018-06-17", tp:"sco", loc:"ter:meo:108000x373000kmx40deg", desc:"2:1 Moon resonance"},
-    {pt:"", dt:"2022-09-31", tp:"nom", loc:"ter:meo", desc:"pend"}
+    {pt:"", dt:"2025-09-31", tp:"nom", loc:"ter:meo", desc:"pend"}
   ], inst: [
     {n:"", band:"0.6..1um", res:"", d:"0.105m", px:"21", fov:"24x96deg", tres:"120s", desc:"cl:nl;"}
 ]},
@@ -2147,9 +2169,9 @@ xarm:{name:"XRISM:X-ray Imaging and Spectroscopy Mission", url:"hp:xrism.isas.ja
   parts: [
     {n:"ASTRO-H2", ctry:"jp", type:"sx", pur:"", id:"", icon:"astro-h.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2022-01", tp:"l", loc:"ter:tng", desc:""},
-    {pt:"", dt:"2022-03", tp:"sco", loc:"ter:leo:550kmx31deg", desc:""},
-    {pt:"", dt:"2025", tp:"nom", loc:"ter:leo", desc:""}
+    {pt:"", dt:"2023", tp:"l", loc:"ter:tng", desc:""},
+    {pt:"", dt:"2023", tp:"sco", loc:"ter:leo:550kmx31deg", desc:""},
+    {pt:"", dt:"2026", tp:"nom", loc:"ter:leo", desc:""}
   ], inst: [
     {n:"Xtend;SXI:Soft X-ray Imaging System", band:"0.4..13keV", res:"72", sres:"150eV@6keV", ea:"360cm2@6keV", fov:"38x38'", desc:"c:nr;cl:nl;"},
     {n:"Resolve;SXS:Soft X-ray Spectrometer", tp:"sp", band:"0.3..12keV", res:"72", sres:"5eV@7keV", fov:"2.9x2.9'", ea:"250cm2@1keV;310cm2@6keV", desc:"c:;cl:n;"},
@@ -2164,7 +2186,7 @@ xmm:{name:"XMM:XMM-Newton", url:"hp:www.esa.int/Our_activities/Space_Science/XMM
     {pt:"", dt:"2028-12-31", tp:"pom", loc:"ter:heeo", desc:""}
   ], inst: [
     {n:"OM", band:"4.61E+14..1.76E+15", res:"4", desc:"c:nr;cl:nl"},
-    {n:"EPIC", band:"3.63E+16..3.63E+18", res:"6", desc:"c:nr;"}
+    {n:"EPIC", band:"3.63E+16..3.63E+18", res:"6", desc:"c:nt;"}
 ]},
 xposat:{name:"XPoSat:X-ray Polariation Satellite", url:"hp:", desc:"ag:isro;lv:PSLV XL;sc:1.6;y:10", stat:"pl", 
   parts: [
@@ -2364,7 +2386,7 @@ cz-8
 //CZ-9
 "CZ-9": {n:"Long March 9", alt:"长征九号运载火箭", ctry:"cn", m:"4122000", pm:"150k/70k/50k", d:"108x10", pf:"?x10", dt:"2028..", st:"3", ust:"", th:"57600", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"CZ-9.png"},
 //CZ-X
-"CZ-X": {n:"Long March X", alt:"长征X号运载火箭", ctry:"cn", m:"2211000", pm:"70000//", d:"90x5", pf:"", dt:"2025..", st:"3/2", ust:"", th:"25200", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"CZ-X.png"},
+"CZ-X": {n:"Long March X", alt:"长征X号运载火箭", ctry:"cn", m:"2211000", pm:"70k//25k", d:"90x5", pf:"", dt:"2025..", st:"3/2", ust:"", th:"25200", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"CZ-X.png"},
 //CZ-11
 "CZ-11": {n:"Long March 11", alt:"长征十一号运载火箭", ctry:"cn", m:"58000", pm:"700/-/-", d:"20.8x2", pf:"", dt:"2015-09-25..", st:"4", ust:"", th:"1188", fam:"Long March", desc:"l:jiu;ag:cnsa", fuel:"SRP", icon:"cz-11.png"},
 //Delta E, Delta E1
