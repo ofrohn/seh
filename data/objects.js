@@ -111,7 +111,7 @@ deim:
 //Asteroid belt & NEOs
 sbo:
   {name:"Small Bodies", other:"", desig:"", type:"b", par:"sol", disc:"", dyr:"",
-   com:"4616", ast:"1121433", cen:"Atiras:50;Atens:2060;Apollos:13471;Amors:11054;Hungarias:27133;Mars-Crossers:18442;Main Belt:1042393;Hildas:5060;Jupiter Trojans:10607;Comets:4616;Damocloids:157",
+   com:"4496", ast:"1269237", cen:"Atiras:50;Atens:2473;Apollos:15975;Amors:12785;Hungarias:30007;Mars-Crossers:21089;Main Belt:1168490;Hildas:5580;Jupiter Trojans:12399;Comets:3396;Damocloids:157",
    img:"mab.png", map:"sbo.png", col:"#9f9", ind:"6", 
    url:"haz:neo.jpl.nasa.gov/risk/",
    desc:"sc:30;scmoons:0.25;url:www.minorplanetcenter.net;rsize:1800,140;x:24;y:48"},
@@ -333,6 +333,13 @@ a2002gt:
    alb:"", grav:"", comp:"", dens:"", spec:"", temp:"",
    img:"", desc:"sc:6;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=163249;orb:ec.2000-01-01"},
 // 2001 WR1
+// 1999 VD57
+a1999vd57:
+  {name:"1999 VD57", other:"", desig:"152830", type:"a", par:"sol", disc:"LINEAR", dyr:"1999",
+   a:"2.457au", e:"0.112", i:"2.094", per:"3.24a", rot:"", gr:"mba",
+   h:"17.4", mass:"", dia:"700m", rad:"0.35", tilt:"",
+   alb:"0.4", grav:"", comp:"", dens:"", spec:"S", temp:"",
+   img:"", desc:"sc:6;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=152830;orb:ec.2023-02-23"},
 a1996fg3:
   {name:"1996 FG3", other:"", desig:"175706", type:"a", par:"sol", disc:"R.H. McNaught", dyr:"1996",
    a:"1.054au", e:"0.3497", i:"1.992", per:"1.08a", rot:"3.594h", gr:"nea:Apollo;pha",
@@ -758,10 +765,10 @@ s2003j9:
    img:"", desc:"sc:3;url:solarsystem.nasa.gov/moons/jupiter-moons/s-2003-j9/in-depth/;orb:ec.2020-12-17"},
 s2003j10:
   {name:"S/2003 J10", other:"", desig:"", type:"m", par:"jup", disc:"S.S. Sheppard et al.", dyr:"2003",
-   a:"23042000km", e:"0.4284", i:"165.224", per:"716.28d", rot:"", gr:"Carme (R)",
-   h:"16.7", mass:"", dia:"4km:", rad:"2:", tilt:"",
+   a:"22918000km", e:"0.2699", i:"162.994", per:"705.96d", rot:"", gr:"Carme (R)",
+   h:"16.9", mass:"", dia:"4km:", rad:"2:", tilt:"",
    alb:"", grav:"", comp:"", dens:"", 
-   img:"", desc:"sc:3;url:solarsystem.nasa.gov/moons/jupiter-moons/s-2003-j10/in-depth/;orb:ec.2002-05-06"},
+   img:"", desc:"sc:3;url:solarsystem.nasa.gov/moons/jupiter-moons/s-2003-j10/in-depth/;orb:ec.2022-08-09"},
 s2003j12:
   {name:"S/2003 J12", other:"", desig:"", type:"m", par:"jup", disc:"S.S. Sheppard et al.", dyr:"2003",
    a:"21557740km", e:"0.3657", i:"154.827", per:"646.64d", rot:"", gr:"Ananke (R)",
@@ -852,6 +859,60 @@ s2018j1:
    h:"15.9", mass:"", dia:"2km", rad:"1", tilt:"",
    alb:"", grav:"", comp:"", dens:"", 
    img:"", desc:"sc:3;url:solarsystem.nasa.gov/moons/jupiter-moons/s-2018-j1/in-depth/;orb:ec.2018-03-23"}, 
+s2018j2:
+  {name:"S/2018 J2", other:"", desig:"", type:"m", par:"jup", disc:"S.S. Sheppard et al.", dyr:"2018",
+   a:"11467500km", e:"0.1184", i:"29.40", per:"250.88d", rot:"", gr:"Himalia",
+   h:"16.5", mass:"", dia:"3km", rad:"1.5", tilt:"",
+   alb:"0.04", grav:"", comp:"", dens:"", 
+   img:"", desc:"sc:3;url:solarsystem.nasa.gov/moons/jupiter-moons/s-2018-j2/in-depth/;orb:ec.2022-08-09"}, 
+s2018j3:
+  {name:"S/2018 J3", other:"", desig:"", type:"m", par:"jup", disc:"S.S. Sheppard et al.", dyr:"2018",
+   a:"22826560km", e:"0.2731", i:"164.90", per:"704.56d", rot:"", gr:"Carme (R)",
+   h:"17.3", mass:"", dia:"1km", rad:"0.5", tilt:"",
+   alb:"", grav:"", comp:"", dens:"", 
+   img:"", desc:"sc:3;url:solarsystem.nasa.gov/moons/jupiter-moons/s-2018-j3/in-depth/;orb:ec.2023-02-25"}, 
+s2018j4:
+  {name:"S/2018 J4", other:"", desig:"", type:"m", par:"jup", disc:"S.S. Sheppard et al.", dyr:"2018",
+   a:"16504250km", e:"0.0573", i:"53.18", per:"433.16d", rot:"", gr:"Carpo (P)",
+   h:"16.7", mass:"", dia:"2km", rad:"1", tilt:"",
+   alb:"0.04", grav:"", comp:"", dens:"", 
+   img:"", desc:"sc:3;url:solarsystem.nasa.gov/moons/jupiter-moons/s-2018-j4/in-depth/;orb:ec.2023-02-25"}, 
+s2021j1:
+  {name:"S/2021 J1", other:"", desig:"", type:"m", par:"jup", disc:"S.S. Sheppard et al.", dyr:"2021",
+   a:"20667200km", e:"0.2461", i:"149.753", per:"606.99d", rot:"", gr:"Ananke (R)",
+   h:"17.3", mass:"", dia:"1km", rad:"0.5", tilt:"",
+   alb:"", grav:"", comp:"", dens:"", 
+   img:"", desc:"sc:3;url:solarsystem.nasa.gov/moons/jupiter-moons/s-2021-j1/in-depth/;orb:ec.2023-02-25"}, 
+s2021j2:
+  {name:"S/2021 J2", other:"", desig:"", type:"m", par:"jup", disc:"S.S. Sheppard et al.", dyr:"2021",
+   a:"21140600km", e:"0.3413", i:"150.114", per:"627.96d", rot:"", gr:"Ananke (R)",
+   h:"17.3", mass:"", dia:"1km", rad:"0.5", tilt:"",
+   alb:"", grav:"", comp:"", dens:"", 
+   img:"", desc:"sc:3;url:solarsystem.nasa.gov/moons/jupiter-moons/s-2021-j2/in-depth/;orb:ec.2023-02-25"}, 
+s2021j3:
+  {name:"S/2021 J3", other:"", desig:"", type:"m", par:"jup", disc:"S.S. Sheppard et al.", dyr:"2021",
+   a:"21495700km", e:"0.3557", i:"150.104", per:"643.85d", rot:"", gr:"Ananke (R)",
+   h:"17.2", mass:"", dia:"2km", rad:"1", tilt:"",
+   alb:"", grav:"", comp:"", dens:"", 
+   img:"", desc:"sc:3;url:solarsystem.nasa.gov/moons/jupiter-moons/s-2021-j3/in-depth/;orb:ec.2023-02-25"}, 
+s2021j4:
+  {name:"S/2021 J4", other:"", desig:"", type:"m", par:"jup", disc:"S.S. Sheppard et al.", dyr:"2021",
+   a:"22946700km", e:"0.1585", i:"164.547", per:"710.13d", rot:"", gr:"Carme (R)",
+   h:"17.4", mass:"", dia:"1km", rad:"0.5", tilt:"",
+   alb:"", grav:"", comp:"", dens:"", 
+   img:"", desc:"sc:3;url:solarsystem.nasa.gov/moons/jupiter-moons/s-2021-j4/in-depth/;orb:ec.2023-02-25"}, 
+s2021j5:
+  {name:"S/2021 J5", other:"", desig:"", type:"m", par:"jup", disc:"S.S. Sheppard et al.", dyr:"2021",
+   a:"2283100km", e:"0.2002", i:"163.175", per:"704.80d", rot:"", gr:"Carme (R)",
+   h:"16.8", mass:"", dia:"2km", rad:"1", tilt:"",
+   alb:"", grav:"", comp:"", dens:"", 
+   img:"", desc:"sc:3;url:solarsystem.nasa.gov/moons/jupiter-moons/s-2021-j5/in-depth/;orb:ec.2023-02-25"}, 
+s2021j6:
+  {name:"S/2021 J6", other:"", desig:"", type:"m", par:"jup", disc:"S.S. Sheppard et al.", dyr:"2021",
+   a:"23427200km", e:"0.3625", i:"166.4999", per:"732.55d", rot:"", gr:"Carme (R)",
+   h:"17.3", mass:"", dia:"1km", rad:"0.5", tilt:"",
+   alb:"", grav:"", comp:"", dens:"", 
+   img:"", desc:"sc:3;url:solarsystem.nasa.gov/moons/jupiter-moons/s-2021-j6/in-depth/;orb:ec.2023-02-25"}, 
 //Saturn system
 sat:
   {name:"Saturn", other:"", desig:"g", type:"p", par:"sol", disc:"(Prehistoric)", dyr:"",
@@ -1621,7 +1682,7 @@ s2004n1:
    img:"", desc:"sc:3;url:solarsystem.nasa.gov/moons/neptune-moons/s-2004-n1/in-depth/;orb:ec.2013-01-01"},
 tno:
   {name:"Transneptunian Objects", other:"", desig:"", type:"b", par:"sol", disc:"", dyr:"", m:"1.17e23kg",
-   tno:"4292", cen:"Neptune Trojans:24;Centaurs/Scattered Disk Objects:1085;Detached:79;Plutinos:~600;Other Resonant:~400;Classical KBOs:~1000",
+   tno:"4707", cen:"Neptune Trojans:24;Centaurs/Scattered Disk Objects:1085;Detached:79;Plutinos:~600;Other Resonant:~400;Classical KBOs:~1000",
    img:"kb.png", map:"tno.png", col:"#9fc", ind:"11", 
    desc:"sc:30;scmoons:0.05;url:www.minorplanetcenter.net;rsize:1800,200;x:72;y:72"},
 //Pluto system
@@ -1935,6 +1996,13 @@ sids:
    h:"15.7", mass:"", dia:"3.8km", rad:"1.9", tilt:"", alb:"0.06", grav:"", 
    comp:"", dens:"", atm:"", atp:"", temp:"160K",
    img:"", col:"", desc:"sc:3;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=7968;orb:ec.2016-01-13"},
+// 311P/PANSTARRS
+"pans311":
+  {name:"PANSTARRS", other:"", desig:"311P", type:"c", par:"sol", disc:"Bryce T. Bolin/Pan-STARRS", dyr:"2013",
+   a:"2.189au", e:"0.116", i:"4.97", per:"3.24a", rot:"3.471h", gr:"Main Belt",
+   h:"18.8", mass:"", dia:"480m", rad:"0.24", tilt:"", alb:"0.06", grav:"", 
+   comp:"", dens:"3.3", atm:"", atp:"", temp:"",
+   img:"", col:"", desc:"sc:3;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=311p;orb:ec.2016-01-13"},
 //Jupiter Rings
 halo:
   {name:"Halo", other:"1979 J1R", desig:"", type:"r", par:"jup", disc:"Voyager", dyr:"1979",

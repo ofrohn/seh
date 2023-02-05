@@ -2927,8 +2927,8 @@ change4: {name:"Chang'e 4", desc:"lv:CZ-3B/G3Z",
 chandrayaan2: {name:"Chandrayaan 2:Moon Craft 2", desc:"lv:GSLV MkIII",
   parts:[
     {names:"चंद्रयान-२", type:"om", dest:"lun", stat:"o", ctry:"ind", desc:"ag:isro;m:2379kg;dim:3.2x5.8x2.1m;sc:0.5", id:"2019-042A", url:"hp:www.isro.gov.in/chandrayaan2-home-0;data:pradan.issdc.gov.in/pradan/", icon:"chandrayaan2-o.png"},
-{names:"Vikram", type:"slm", dest:"lun", stat:"f", ctry:"ind", desc:"ag:isro;m:1471kg;dim:2.5x2x1.2m", icon:"chandrayaan2-l.png"},
-{names:"Pragyan", type:"rvm", dest:"lun", stat:"f", ctry:"ind", desc:"ag:isro;m:27kg;dim:0.9x0.75x0.85m;sc:0.5", icon:"chandrayaan2-rv.png"}], 
+    {names:"Vikram", type:"slm", dest:"lun", stat:"f", ctry:"ind", desc:"ag:isro;m:1471kg;dim:2.5x2x1.2m;sc:1", icon:"chandrayaan2-l.png"},
+    {names:"Pragyan", type:"rvm", dest:"lun", stat:"f", ctry:"ind", desc:"ag:isro;m:27kg;dim:0.9x0.75x0.85m;sc:0.5", icon:"chandrayaan2-rv.png"}], 
   events:[
     {pt:"", type:"l", dt:"2019-07-22", loc:"ter:sri:SLP", desc:""},
     {pt:"", type:"oi", dt:"2019-07-22", loc:"ter:170x40400km", desc:"5 Phasing Orbits"},
@@ -3050,6 +3050,7 @@ lucy: {name:"Lucy", desc:"lv:Atlas V 401",
     {pt:"", type:"oi", dt:"2021-10-16", loc:"sol:ho:1x0.8aux0.21deg", desc:""},
     {pt:"", type:"fb", dt:"2022-10-16", loc:"ter:298km", desc:"ga"},
     {pt:"", type:"tc", dt:"2022-10-16", loc:"sol:ho:1.63x0.39aux0.02deg", desc:""},
+    {pt:"", type:"fb", dt:"2023-11-01", loc:"ast:450km", desc:"ast:(152830) 1999 VD57"},
     {pt:"", type:"fb", dt:"2024-12-12", loc:"ter:347km", desc:"ga"},
     {pt:"", type:"tc", dt:"2024-12-12", loc:"sol:ho:3.36x0.71aux4.41deg", desc:""},
     {pt:"", type:"fb", dt:"2025-04-20", loc:"ast", desc:"ast:52246 Donaldjohanson"},
@@ -3260,13 +3261,15 @@ peregrine1: {name:"Peregrine 1", desc:"lv:Vulcan Centaur-2S",
 ]},
 chandrayaan3: {name:"Chandrayaan 3:Moon Craft 3", desc:"lv:GSLV MkIII",
   parts:[
-{names:"Vikram", type:"slm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:1471kg;dim:2.5x2x1.2m", url:"hp:www.isro.gov.in/chandrayaan3_science.html", id:"", icon:"chandrayaan2-l.png"},
-{names:"Pragyan", type:"rvm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:27kg;dim:0.9x0.75x0.85m;sc:0.5", icon:"chandrayaan2-rv.png"}], 
+	{names:"Vikram", type:"slm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:1752kg;dim:2.5x2x1.2m", url:"hp:www.isro.gov.in/Chandrayaan3_New.html", id:"", icon:"chandrayaan2-l.png"},
+    {names:"चंद्रयान-२", type:"om", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:2148kg;dim:3.2x5.8x2.1m;sc:1", id:"", url:"", icon:"chandrayaan2-o.png"},
+    {names:"Pragyan", type:"rvm", dest:"lun", stat:"pl", ctry:"ind", desc:"ag:isro;m:27kg;dim:0.9x0.75x0.85m;sc:0.5", icon:"chandrayaan2-rv.png"}], 
   events:[
     {pt:"", type:"l", dt:"2023-06", loc:"ter:sri:SLP", desc:""},
-    {pt:"", type:"oi", dt:"2023", loc:"lun:170x186000km", desc:""},
-    {pt:"", type:"td", dt:"2023", loc:"lun", desc:""},
-    {pt:"0", type:"nom", dt:"2024", loc:"lun", desc:"?"}
+    {pt:"", type:"oi", dt:"2023-06", loc:"lun:170x186000km", desc:""},
+    {pt:"", type:"td", dt:"2023-07", loc:"lun:69.3676S,32.3481E", desc:""},
+    {pt:"0", type:"nom", dt:"2023-08", loc:"lun", desc:"?;slp"}
+    {pt:"1", type:"nom", dt:"2024", loc:"lun", desc:"?;op"}
 ]},
 slim:{name:"SLIM:Smart Lander for Investigating Moon", desc:"lv:H-IIA 202", stat:"pl", 
   parts: [
@@ -3600,9 +3603,9 @@ zhenghe: {name:"Tianwen 2", desc:"lv:CZ-3B",
     {pt:"0", type:"edl", dt:"2027", loc:"ter", desc:"eom:srm"},
     {pt:"1", type:"fb", dt:"2027", loc:"ter", desc:"ga"},
     {pt:"1", type:"fb", dt:"2028", loc:"mar", desc:"ga"},
-    {pt:"1", type:"app", dt:"2033", loc:"com", desc:"com:133P/Elst-Pizarro"},
-    {pt:"1", type:"nom", dt:"2034", loc:"com", desc:""},
-    {pt:"1", type:"pom", dt:"2036", loc:"com", desc:""}
+    {pt:"1", type:"app", dt:"2033", loc:"com", desc:"com:311P/PANSTARRS"},
+    {pt:"1", type:"oi", dt:"2034", loc:"com", desc:""},
+    {pt:"1", type:"nom", dt:"2036", loc:"com", desc:""}
 ]},
 luna26: {name:"Luna 26", desc:"lv:Soyuz 2.1B/Fregat-MT",
   parts:[
