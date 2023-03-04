@@ -2262,7 +2262,13 @@ haur:
   {name:"Ring", other:"", desig:"", type:"r", par:"hau", disc:"Ortiz et al.", dyr:"2017",
    a:"2287km", e:"", i:"0", per:"",
    mass:"", dia:"70km", rad:"70", thick:"", opt:"0.5",
-   alb:"0.09", comp:"", sdens:"", desc:""}
+   alb:"0.09", comp:"", sdens:"", desc:""},
+//Quaoar ring
+quaor:
+  {name:"Ring", other:"", desig:"", type:"r", par:"qua", disc:"Morgado et al.", dyr:"2023",
+   a:"4110km", e:"", i:"0", per:"",
+   mass:"", dia:"", rad:"", thick:"", opt:"",
+   alb:"", comp:"", sdens:"", desc:""}
 };
 
 var groups = {     //Groups & rings
