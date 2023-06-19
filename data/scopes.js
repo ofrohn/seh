@@ -1025,9 +1025,10 @@ proba2:{name:"Proba-2", url:"hp:www.esa.int/Our_activities/Technology/Proba_Miss
 ]},
 proba3:{name:"Proba-3", url:"hp:www.esa.int/Enabling_Support/Space_Engineering_Technology/Proba_Missions/About_Proba-3", desc:"ag:esa;lv:Vega;2 spacecraft external coronagraph", stat:"pl", 
   parts: [
-    {n:"", ctry:"eu", type:"cor", pur:"sol", id:"", icon:"", desc:""}
+    {n:"Coronagraph", ctry:"eu", type:"cor", pur:"sol", id:"", icon:"", desc:"m:340kg"},
+    {n:"Occulter", ctry:"eu", type:"cor", pur:"sol", id:"", icon:"", desc:"m:200kg"}
   ], ev: [
-    {pt:"", dt:"2023", tp:"l", loc:"ter:kou:ZLV", desc:""},
+    {pt:"", dt:"2024", tp:"l", loc:"ter:kou:ZLV", desc:""},
     {pt:"", dt:"l+1d", tp:"sco", loc:"ter:heeo:600x60530km", desc:""}
   ], inst: [
     {n:"", band:"", res:"", d:"", px:"", url:"", desc:"c:;"}
@@ -1473,10 +1474,10 @@ wfirst:{name:"RST:Nancy Grace Roman Space Telescope", url:"hp:roman.gsfc.nasa.go
   parts: [
     {n:"WFIRST:Widefield Infrared Survey Explorer", ctry:"us", type:"nir", pur:"sur", id:"", icon:"ngrst.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2026-10", tp:"l", loc:"ter", desc:""},
-    {pt:"", dt:"2026-10", tp:"sco", loc:"ter:esl2", desc:"or GEO"},
-    {pt:"", dt:"2032", tp:"nom", loc:"", desc:""},
-    {pt:"", dt:"2037", tp:"pom", loc:"", desc:""},
+    {pt:"", dt:"2027-05", tp:"l", loc:"ter", desc:""},
+    {pt:"", dt:"2027-05", tp:"sco", loc:"ter:esl2", desc:"or GEO"},
+    {pt:"", dt:"2033", tp:"nom", loc:"", desc:""},
+    {pt:"", dt:"2038", tp:"pom", loc:"", desc:""},
   ], inst: [
     {n:"WFI:Wide Field Instrument", band:"480..2300nm", res:"", d:"2.4", px:"0.11", sres:"2.2..6", ea:"3m2@1.5um", fov:"0.8x0.4deg", desc:"c:nvt;cl:nl"},
     {n:"CGI:Coronograph Instrument", band:"550..900nm", res:"", d:"2.4", px:"0.021", fov:"9x9''", desc:""}
@@ -1508,8 +1509,8 @@ xarm:{name:"XRISM:X-ray Imaging and Spectroscopy Mission", url:"hp:xrism.isas.ja
   parts: [
     {n:"ASTRO-H2", ctry:"jp", type:"sx", pur:"", id:"", icon:"astro-h.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2023", tp:"l", loc:"ter:tng", desc:""},
-    {pt:"", dt:"2023", tp:"sco", loc:"ter:leo:550kmx31deg", desc:""},
+    {pt:"", dt:"2023-05-12", tp:"l", loc:"ter:tng", desc:""},
+    {pt:"", dt:"2023-06", tp:"sco", loc:"ter:leo:550kmx31deg", desc:""},
     {pt:"", dt:"2026", tp:"nom", loc:"ter:leo", desc:""}
   ], inst: [
     {n:"Xtend;SXI:Soft X-ray Imaging System", band:"0.4..13keV", res:"72", sres:"150eV@6keV", ea:"360cm2@6keV", fov:"38x38'", desc:"c:nr;cl:nl;"},

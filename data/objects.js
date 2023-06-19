@@ -1354,6 +1354,12 @@ s2006s3:
    h:"15.6", mass:"", dia:"4km", rad:"2", tilt:"",
    alb:"", grav:"", comp:"", dens:"", 
    img:"", desc:"sc:3;url:solarsystem.nasa.gov/moons/saturn-moons/s-2006-s3/in-depth/;orb:ec.2000-01-01"},
+s2006s9:
+  {name:"S/2006 S9", other:"", desig:"", type:"m", par:"sat", disc:"S.S. Sheppard et al.", dyr:"2006",
+   a:"14453000km", e:"0.268", i:"174.1", per:"648.71d", rot:"", gr:"Norse (R)",
+   h:"16.5", mass:"1.4e13kg", dia:"3km", rad:"1.5", tilt:"",
+   alb:"", grav:"", comp:"", dens:"", 
+   img:"", desc:"sc:3;url:solarsystem.nasa.gov/moons/saturn-moons/s-2006-s1/in-depth/;orb:ec.2023-02-25"},
 s2007s2:
   {name:"S/2007 S2", other:"", desig:"", type:"m", par:"sat", disc:"S.S. Sheppard et al.", dyr:"2007",
    a:"16718000km", e:"0.1791", i:"174.057", per:"808.15d", rot:"", gr:"Norse (R)",
@@ -1414,6 +1420,96 @@ s2004s36:
    h:"16.3", mass:"", dia:"3km", rad:"1.5", tilt:"",
    alb:"", grav:"", comp:"", dens:"", 
    img:"", desc:"sc:3;url:solarsystem.nasa.gov/moons/saturn-moons/s-2004-s36/in-depth/;orb:ec.2000-01-01"},
+s2020s1:
+  {name:"S/2020 S1", other:"", desig:"", type:"m", par:"sat", disc:"E.J. Ashton et al.", dyr:"2020",
+   a:"11339600km", e:"0.468", i:"47.0", per:"450.83d", rot:"", gr:"Inuit (P)",
+   h:"15.9", mass:"3.4e13", dia:"4km", rad:"2", tilt:"",
+   alb:"", grav:"", comp:"", dens:"", 
+   img:"", desc:"sc:3;url:solarsystem.nasa.gov/moons/saturn-moons/s-2020-s1/in-depth/;orb:ec.2023-02-25"},
+s2007s5:
+  {name:"S/2007 S5", other:"", desig:"", type:"m", par:"sat", disc:"S.S. Sheppard et al.", dyr:"2007",
+   a:"15899500km", e:"0.116", i:"160.3", per:"748.50d", rot:"", gr:"Norse (R)",
+   h:"16.2", mass:"3.4e13", dia:"4km", rad:"2", tilt:"",
+   alb:"", grav:"", comp:"", dens:"", 
+   img:"", desc:"sc:3;url:solarsystem.nasa.gov/moons/saturn-moons/s-2007-s5/in-depth/;orb:ec.2023-02-25"},
+s2004s40:
+  {name:"S/2004 S40", other:"", desig:"", type:"m", par:"sat", disc:"S.S. Sheppard et al.", dyr:"2004",
+   a:"16145300km", e:"0.317", i:"169.8", per:"765.82d", rot:"", gr:"Norse (R)",
+   h:"16.3", mass:"3.4e13", dia:"4km", rad:"2", tilt:"",
+   alb:"", grav:"", comp:"", dens:"", 
+   img:"", desc:"sc:3;url:solarsystem.nasa.gov/moons/saturn-moons/s-2004-s40/in-depth/;orb:ec.2023-02-25"},
+s2019s4:
+  {name:"S/2019 S4", other:"", desig:"", type:"m", par:"sat", disc:"E.J. Ashton et al.", dyr:"2019",
+   a:"17957200km", e:"0.450", i:"169.5", per:"898.40d", rot:"", gr:"Norse (R)",
+   h:"16.5", mass:"1.4e13", dia:"3km", rad:"1.5", tilt:"",
+   alb:"", grav:"", comp:"", dens:"", 
+   img:"", desc:"sc:3;url:solarsystem.nasa.gov/moons/saturn-moons/s-2019-s4/in-depth/;orb:ec.2023-02-25"},
+s2004s41:
+  {name:"S/2004 S41", other:"", desig:"", type:"m", par:"sat", disc:"S.S. Sheppard et al.", dyr:"2004",
+   a:"17921900km", e:"0.295", i:"168.3", per:"895.76d", rot:"", gr:"Norse (R)",
+   h:"16.3", mass:"3.4e13", dia:"4km", rad:"2", tilt:"",
+   alb:"", grav:"", comp:"", dens:"", 
+   img:"", desc:"sc:3;url:solarsystem.nasa.gov/moons/saturn-moons/s-2004-s41/in-depth/;orb:ec.2023-02-25"},
+s2020s4:
+  {name:"S/2020 S4", other:"", desig:"", type:"m", par:"sat", disc:"E.J. Ashton et al.", dyr:"2020",
+   a:"18115900km", e:"0.389", i:"43.4", per:"910.34d", rot:"", gr:"Inuit (P)",
+   h:"17.0", mass:"1.4e13", dia:"3km", rad:"1.5", tilt:"",
+   alb:"", grav:"", comp:"", dens:"", 
+   img:"", desc:"sc:3;url:solarsystem.nasa.gov/moons/saturn-moons/s-2020-s4/in-depth/;orb:ec.2023-02-25"},
+s2020s5:
+  {name:"S/2020 S5", other:"", desig:"", type:"m", par:"sat", disc:"E.J. Ashton et al.", dyr:"2020",
+   a:"18422200km", e:"0.135", i:"48.4", per:"933.52d", rot:"", gr:"Inuit (P)",
+   h:"16.6", mass:"1.4e13", dia:"3km", rad:"1.5", tilt:"",
+   alb:"", grav:"", comp:"", dens:"", 
+   img:"", desc:"sc:3;url:solarsystem.nasa.gov/moons/saturn-moons/s-2020-s6/in-depth/;orb:ec.2023-02-25"},
+s2007s6:
+  {name:"S/2007 S6", other:"", desig:"", type:"m", par:"sat", disc:"S.S. Sheppard et al.", dyr:"2007",
+   a:"18563700km", e:"0.172", i:"165.8", per:"944.31d", rot:"", gr:"Norse (R)",
+   h:"16.4", mass:"3.4e13", dia:"4km", rad:"2", tilt:"",
+   alb:"", grav:"", comp:"", dens:"", 
+   img:"", desc:"sc:3;url:solarsystem.nasa.gov/moons/saturn-moons/s-2007-s6/in-depth/;orb:ec.2023-02-25"},
+s2004s42:
+  {name:"S/2004 S42", other:"", desig:"", type:"m", par:"sat", disc:"S.S. Sheppard et al.", dyr:"2004",
+   a:"18119500km", e:"0.157", i:"165.8", per:"910.61d", rot:"", gr:"Norse (R)",
+   h:"16.1", mass:"3.4e13", dia:"4km", rad:"2", tilt:"",
+   alb:"", grav:"", comp:"", dens:"", 
+   img:"", desc:"sc:3;url:solarsystem.nasa.gov/moons/saturn-moons/s-2004-s42/in-depth/;orb:ec.2023-02-25"},
+s2006s10:
+  {name:"S/2010 S10", other:"", desig:"", type:"m", par:"sat", disc:"S.S. Sheppard et al.", dyr:"2006",
+   a:"18837300km", e:"0.154", i:"161.5", per:"965.26d", rot:"", gr:"Norse (R)",
+   h:"16.4", mass:"3.4e13", dia:"4km", rad:"2", tilt:"",
+   alb:"", grav:"", comp:"", dens:"", 
+   img:"", desc:"sc:3;url:solarsystem.nasa.gov/moons/saturn-moons/s-2006-s10/in-depth/;orb:ec.2023-02-25"},
+s2019s5:
+  {name:"S/2019 S5", other:"", desig:"", type:"m", par:"sat", disc:"E.J. Ashton et al.", dyr:"2019",
+   a:"18919000km", e:"0.183", i:"155.6", per:"971.54d", rot:"", gr:"Norse (R)",
+   h:"16.6", mass:"1.4e13", dia:"3km", rad:"1.5", tilt:"",
+   alb:"", grav:"", comp:"", dens:"", 
+   img:"", desc:"sc:3;url:solarsystem.nasa.gov/moons/saturn-moons/s-2019-s5/in-depth/;orb:ec.2023-02-25"},
+s2004s43:
+  {name:"S/2004 S43", other:"", desig:"", type:"m", par:"sat", disc:"S.S. Sheppard et al.", dyr:"2004",
+   a:"18918200km", e:"0.390", i:"172.0", per:"971.48d", rot:"", gr:"Norse (R)",
+   h:"16.3", mass:"3.4e13", dia:"4km", rad:"2", tilt:"",
+   alb:"", grav:"", comp:"", dens:"", 
+   img:"", desc:"sc:3;url:solarsystem.nasa.gov/moons/saturn-moons/s-2004-s43/in-depth/;orb:ec.2023-02-25"},
+s2004s44:
+  {name:"S/2004 S44", other:"", desig:"", type:"m", par:"sat", disc:"S.S. Sheppard et al.", dyr:"2004",
+   a:"1947800km", e:"0.129", i:"169.0", per:"1014.98d", rot:"", gr:"Norse (R)",
+   h:"15.8", mass:"3.4e13", dia:"4km", rad:"2", tilt:"",
+   alb:"", grav:"", comp:"", dens:"", 
+   img:"", desc:"sc:3;url:solarsystem.nasa.gov/moons/saturn-moons/s-2004-s44/in-depth/;orb:ec.2023-02-25"},
+s2004s45:
+  {name:"S/2004 S45", other:"", desig:"", type:"m", par:"sat", disc:"S.S. Sheppard et al.", dyr:"2004",
+   a:"20037400km", e:"0.464", i:"150.1", per:"1058.95d", rot:"", gr:"Norse (R)",
+   h:"16.0", mass:"3.4e13", dia:"4km", rad:"2", tilt:"",
+   alb:"", grav:"", comp:"", dens:"", 
+   img:"", desc:"sc:3;url:solarsystem.nasa.gov/moons/saturn-moons/s-2004-s45/in-depth/;orb:ec.2023-02-25"},
+s2006s11:
+  {name:"S/2006 S11", other:"", desig:"", type:"m", par:"sat", disc:"S.S. Sheppard et al.", dyr:"2006",
+   a:"19523200km", e:"0.137", i:"172.0", per:"1018.45d", rot:"", gr:"Norse (R)",
+   h:"16.5", mass:"1.4e13", dia:"3km", rad:"1.5", tilt:"",
+   alb:"", grav:"", comp:"", dens:"", 
+   img:"", desc:"sc:3;url:solarsystem.nasa.gov/moons/saturn-moons/s-2006-s11/in-depth/;orb:ec.2023-02-25"},
 //Uranus system
 ura:
   {name:"Uranus", other:"", desig:"h", type:"p", par:"sol", disc:"W. Herschel", dyr:"1781",
@@ -1675,7 +1771,7 @@ neso:
    alb:"0.06:", grav:"", comp:"", dens:"", 
    img:"", desc:"sc:3;url:solarsystem.nasa.gov/moons/neptune-moons/neso/in-depth/;orb:ec.2003-06-10"},
 s2004n1:
-  {name:"Hippocamp", other:"S/2004 N 1", desig:"XIV", type:"m", par:"nep", disc:"M.R. Showalter et al.", dyr:"2013",
+  {name:"Hippocamp", other:"S/2004 N1", desig:"XIV", type:"m", par:"nep", disc:"M.R. Showalter et al.", dyr:"2013",
    a:"105283km", e:"0.00001", i:"0.002", per:"0.9362d", rot:"", gr:"Regular",
    h:"", mass:"1.029e15kg", dia:"34km", rad:"17", tilt:"",
    alb:"0.06:", grav:"", comp:"", dens:"", 
