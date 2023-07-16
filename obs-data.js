@@ -1014,9 +1014,9 @@ elisa:{name:"LISA:Laser Interferometer Space Antenna", url:"hp:www.elisascience.
 ]},
 euclid:{name:"Euclid", url:"hp:www.euclid-ec.org/;esa:sci.esa.int/euclid", desc:"ag:esa;lv:Falcon 9;fam:M-class;sc:0.6;x:10;y:9", stat:"pl", 
   parts: [
-    {n:"", ctry:"eu", type:"nir", pur:"de;sur", id:"", icon:"euclid.png", desc:"m:2160kg;dim:4.5x3.1m"}
+    {n:"", ctry:"eu", type:"nir", pur:"de;sur", id:"2023-092A", icon:"euclid.png", desc:"m:2160kg;dim:4.5x3.1m"}
   ], ev: [
-    {pt:"", dt:"2023-07", tp:"l", loc:"ter:kou:ELS", desc:""},
+    {pt:"", dt:"2023-07-01", tp:"l", loc:"ter:cap:LC-40", desc:""},
     {pt:"", dt:"l+30d", tp:"sco", loc:"sol:esl2", desc:"1M km  Lissajous orbit"},
     {pt:"", dt:"2028", tp:"nom", loc:"sol:esl2", desc:"pend"},
   ], inst: [
@@ -2454,6 +2454,8 @@ cz-8
 "Juno II": {ctry:"us", m:"55300", pm:"50/-/6",  d:"23.4x2.67", pf:"", dt:"1958-12-06..1961-05-24", st:"4", th:"667", fam:"Jupiter", desc:"l:cap;ag:nasa", fuel:"KeroLOX+SRP", icon:"Juno-2.png"},
 //KSLV-II
 "KSLV-II": {n:"Nuri:누리", ctry:"sk", m:"200000", pm:"2600/-/500",  d:"47.2x3.5", pf:"", dt:"2022..", st:"3", th:"2612", fam:"KSLV", desc:"l:nar;ag:kari", fuel:"KeroLOX", icon:"kslv-2.png"},
+//LVM3
+"LVM3": {n:"Launch Vehicle Mk. III", alt:"भूस्थिर उपग्रह प्रक्षेपण यान-३", ctry:"ind", m:"642000", pm:"10000/3895/2300",  d:"43.5x4", pf:"5", dt:"2017-06..", st:"2/2", ust:"C-25", th:"11300", fam:"GSLV", desc:"l:sri;ag:isro", fuel:"UDMH/N2O4+SRP", icon:"gslv-mk3.png"},
 //M-3SII
 "M-3SII": {alt:"ミュ-3SII", ctry:"jp", m:"61700", pm:"800/-/140",  d:"27.8x1.41", pf:"", dt:"1985-01-07..1995-01-15", st:"3/2", th:"1930", fam:"Mu", desc:"l:uch;ag:jaxa", fuel:"SRP", icon:"M-3-SII.png"},
 //M-V

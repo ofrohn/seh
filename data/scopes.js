@@ -353,9 +353,9 @@ elisa:{name:"LISA:Laser Interferometer Space Antenna", url:"hp:www.elisascience.
 ]},
 euclid:{name:"Euclid", url:"hp:www.euclid-ec.org/;esa:sci.esa.int/euclid", desc:"ag:esa;lv:Falcon 9;fam:M-class;sc:0.6;x:10;y:9", stat:"pl", 
   parts: [
-    {n:"", ctry:"eu", type:"nir", pur:"de;sur", id:"", icon:"euclid.png", desc:"m:2160kg;dim:4.5x3.1m"}
+    {n:"", ctry:"eu", type:"nir", pur:"de;sur", id:"2023-092A", icon:"euclid.png", desc:"m:2160kg;dim:4.5x3.1m"}
   ], ev: [
-    {pt:"", dt:"2023-07", tp:"l", loc:"ter:kou:ELS", desc:""},
+    {pt:"", dt:"2023-07-01", tp:"l", loc:"ter:cap:LC-40", desc:""},
     {pt:"", dt:"l+30d", tp:"sco", loc:"sol:esl2", desc:"1M km  Lissajous orbit"},
     {pt:"", dt:"2028", tp:"nom", loc:"sol:esl2", desc:"pend"},
   ], inst: [
