@@ -3114,16 +3114,15 @@ lunaricecube: {name:"Lunar IceCube", desc:"lv:SLS;part:artemis1;6U CubeSat", sta
     //{pt:"0", type:"sco", dt:"2023-05", loc:"lun", desc:""},
     {pt:"0", type:"loc", dt:"2023-02-15", loc:"lun", desc:"eom"}
 ]},
-lunarhmap: {name:"LunaH-Map:Lunar Polar Hydrogen Mapper", desc:"lv:SLS;part:artemis1;6U CubeSat", stat:"o", 
+lunarhmap: {name:"LunaH-Map:Lunar Polar Hydrogen Mapper", desc:"lv:SLS;part:artemis1;6U CubeSat", stat:"p", 
   parts:[
     {names:"", type:"om", dest:"lun", ctry:"us", desc:"ag:nasa,asu;sc:0.6", id:"LUNAH-MAP", url:"H-Map:lunahmap.asu.edu/;tw:twitter.com/lunahmap", icon:"lunahmap.png"}],
   events:[
     {pt:"", type:"l", dt:"2022-11-16", loc:"ter:ksc:LC-39B", desc:"Artemis-1 piggyback"},
     {pt:"", type:"toi", dt:"2022-11-16", loc:"ter", desc:"lto"},
     {pt:"1", type:"fb", dt:"2022-11-21", loc:"lun:1300km", desc:""},
-    {pt:"1", type:"oi", dt:"2023-02", loc:"lun", desc:""},
-    {pt:"1", type:"sco", dt:"2024-05", loc:"lun", desc:"Perilune 5km"},
-    {pt:"", type:"pom", dt:"2025", loc:"lun", desc:""}
+    {pt:"1", type:"oi", dt:"2023-11-21", loc:"sol:ho", desc:""},
+    {pt:"", type:"eom", dt:"2023-08-03", loc:"sol:ho", desc:""}
 ]},
 omotenashi: {name:"OMOTENASHI:Outstanding Moon exploration Technologies demonstrated by Nano Semi-Hard Impactor", desc:"lv:SLS;part:artemis1;6U CubeSat", stat:"f", 
   parts:[    
@@ -3235,7 +3234,7 @@ lunarflashlight: {name:"Lunar Flashlight", desc:"lv:Falcon 9;part:hakutor1",
 // --- 2023
 novac: {name:"NOVA-C", desc:"lv:Falcon 9",
   parts:[
-    {names:"IM-1", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Intuitive Machines;fam:clps;m:1900kg;sc:0.3", id:"", url:"hp:intuitivemachines.com/;clps:nasa.gov/content/commercial-lunar-payload-services", icon:"novac.png"}], 
+    {names:"IM-1", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Intuitive Machines;fam:clps;m:1900kg;sc:0.3", id:"", url:"hp:intuitivemachines.com/;clps:science.nasa.gov/lunar-discovery/deliveries/op-to2-intuitive-machines", icon:"novac.png"}], 
   events:[
     {pt:"", type:"l", dt:"2023-07", loc:"ter:cap", desc:"Q3"},
     {pt:"", type:"oi", dt:"l+6d", loc:"lun", desc:""},
@@ -3253,7 +3252,7 @@ rlabvenus: {name:"Photon-Venus", desc:"lv:Electron",
 ]},
 peregrine1: {name:"Peregrine 1", desc:"lv:Vulcan Centaur-2S",
   parts:[
-    {names:"M1:Mission 1", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Astrobotic;fam:clps;dim:1.9x1.9x2.5m;m:1313kg;sc:0.3", id:"", url:"hp:www.astrobotic.com/peregrine;clps:nasa.gov/content/commercial-lunar-payload-services", icon:"peregrin.png"}], 
+    {names:"M1:Mission 1", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Astrobotic;fam:clps;dim:1.9x1.9x2.5m;m:1313kg;sc:0.3", id:"", url:"hp:www.astrobotic.com/peregrine;clps:science.nasa.gov/lunar-discovery/deliveries/to2-astrobotic", icon:"peregrin.png"}], 
   events:[
     {pt:"", type:"l", dt:"2023", loc:"ter:cap", desc:"Q3"},
     {pt:"", type:"oi", dt:"l+4d", loc:"lun:100x8700kmx56deg", desc:""},
@@ -3283,13 +3282,13 @@ slim:{name:"SLIM:Smart Lander for Investigating Moon", desc:"lv:H-IIA 202", stat
 ]},
 luna25: {name:"Luna 25", desc:"lv:Soyuz 2.1B/Fregat-MT",
   parts:[
-    {names:"Луна-Глоб посадочный;Luna Glob Lander:Lunar Sphere Lander", type:"slm", dest:"lun", stat:"pl", ctry:"ru", desc:"ag:rosc,iki;m:1750kg;m0:780kg;sc:0.45", id:"", url:"rsw:www.russianspaceweb.com/luna_glob.html", icon:"luna25.png"}], 
+    {names:"Луна-Глоб посадочный;Luna Glob Lander:Lunar Sphere Lander", type:"slm", dest:"lun", stat:"o", ctry:"ru", desc:"ag:rosc,iki;m:1750kg;m0:780kg;sc:0.45", id:"2023-118A", url:"rsw:www.russianspaceweb.com/luna_glob.html", icon:"luna25.png"}], 
   events:[
     {pt:"", type:"l", dt:"2023-08-11", loc:"ter:vos:LC-1S", desc:""},
-    {pt:"", type:"oi", dt:"l+5dy", loc:"lun:100x100kmx90deg", desc:""},
-    {pt:"", type:"td", dt:"l+10dy", loc:"lun:69.3S,43.9E", desc:"Near South Pole, Boguslavsky Crater"},
-    {pt:"", type:"nom", dt:"l+3mo", loc:"lun", desc:"?"},
-    {pt:"", type:"pom", dt:"l+1yr", loc:"lun", desc:"?"}
+    {pt:"", type:"oi", dt:"2023-08-16", loc:"lun:100x100kmx90deg", desc:""},
+    {pt:"", type:"td", dt:"2023-08-21", loc:"lun:69.3S,43.9E", desc:"Near South Pole, Boguslavsky Crater"},
+    {pt:"", type:"nom", dt:"2023-11", loc:"lun", desc:"?"},
+    {pt:"", type:"pom", dt:"2024-08", loc:"lun", desc:"?"}
 ]},
 aditya:{name:"Aditya-L1", desc:"lv:PSLV XL", stat:"pl", 
   parts: [
@@ -3355,7 +3354,7 @@ xl1: {name:"Xelene", desc:"lv:Falcon 9",
 // Sherpa Orbit Transfer Vehicle
 prime1: {name:"PRIME-1:Polar Resources Ice Mining Experiment", desc:"lv:Falcon 9",
   parts:[
-    {names:"NOVA-C IM-2", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Intuitive Machines;fam:clps;m:1700kg;sc:0.3", id:"", url:"hp:intuitivemachines.com/;clps:nasa.gov/content/commercial-lunar-payload-services", icon:"novac.png"},
+    {names:"NOVA-C IM-2", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Intuitive Machines;fam:clps;m:1700kg;sc:0.3", id:"", url:"hp:intuitivemachines.com/;clps:science.nasa.gov/lunar-discovery/deliveries/prime-1%E2%80%93intuitive-machines", icon:"novac.png"},
     {names:"MAPP Rover:Mobile Autonomous Prospecting Platform", type:"rvm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:Lunar Outpost;fam:clps;", id:"", url:"Rover:lunaroutpost.com/nokia-and-intuitive-machines-select-lunar-outpost-for-first-rover-mission-at-lunar-south-pole/", icon:"mapp.png"},
     {names:"Micro-Nova", type:"hpm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:Intuitive Machines;fam:clps;sc:0.3", id:"", url:"Hopper:www.intuitivemachines.com/post/intuitive-machines-and-nasa-finalize-contract-for-extreme-lunar-mobility-spacecraft", icon:"micronova.png"}], 
   events:[
@@ -3385,7 +3384,7 @@ lunarpathfinder: {name:"Lunar Pathfinder", desc:"",
 viper: {name:"VIPER:Volatiles Investigating Polar Exploration Rover", desc:"lv:Falcon Heavy",
   parts:[
     {names:"", type:"rvm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,ames,jsc;m:430kg;dim:1.8x1.8x2.6m;fam:clps;sc:0.3", id:"", url:"hp:www.nasa.gov/viper", icon:"viper.png"},
-    {names:"Griffin Lander", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Astrobotic;fam:clps", id:"", url:"Griffin:www.astrobotic.com/griffin", icon:"griffin.png"}], 
+    {names:"Griffin Lander", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Astrobotic;fam:clps", id:"", url:"Griffin:www.astrobotic.com/griffin;clps:science.nasa.gov/lunar-discovery/deliveries/20a%E2%80%93astrobotic", icon:"griffin.png"}], 
   events:[
     {pt:"", type:"l", dt:"2024-11", loc:"ter:cap", desc:""},
     {pt:"", type:"oi", dt:"l+5d", loc:"lun", desc:"South pole, Nobile Crater"},
@@ -3395,7 +3394,7 @@ viper: {name:"VIPER:Volatiles Investigating Polar Exploration Rover", desc:"lv:F
 ]},
 blueghost: {name:"Blue Ghost", desc:"lv:Falcon 9",
   parts:[
-    {names:"Blue Ghost", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Firefly;fam:clps;m:600kg;sc:0.3", id:"", url:"hp:firefly.com/lunar-lander/;clps:nasa.gov/content/commercial-lunar-payload-services", icon:"blueghost.png"}], 
+    {names:"Blue Ghost", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Firefly;fam:clps;m:600kg;sc:0.3", id:"", url:"hp:firefly.com/lunar-lander/;clps:science.nasa.gov/lunar-discovery/deliveries/19d-firefly-aerospace", icon:"blueghost.png"}], 
   events:[
     {pt:"", type:"l", dt:"2024", loc:"ter:cap", desc:""},
     {pt:"", type:"td", dt:"l+4d", loc:"lun:18.56N,61.81E", desc:"Mare Crisium"},
@@ -3492,7 +3491,7 @@ halo_ppe: {name:"Gateway", desc:"lv:Falcon Heavy",
 //Lunar Vertex rover, CADRE
 im3: {name:"PRISM-1A:Payloads and Research Investigations on the Surface of the Moon 1A", desc:"lv:Falcon 9",
   parts:[
-    {names:"NOVA-C IM-3", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Intuitive Machines;fam:clps;m:1700kg;sc:0.3", id:"", url:"hp:intuitivemachines.com/;clps:nasa.gov/content/commercial-lunar-payload-services", icon:"novac.png"},
+    {names:"NOVA-C IM-3", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Intuitive Machines;fam:clps;m:1700kg;sc:0.3", id:"", url:"hp:intuitivemachines.com/;clps:science.nasa.gov/lunar-discovery/deliveries/cp-11", icon:"novac.png"},
     {names:"Lunar Vertex", type:"rvm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,apl;fam:clps;", id:"", url:"Vertex:www.jhuapl.edu/NewsStory/211018b-lunar-vertex", icon:"vertex.png"},
     {names:"CADRE:Cooperative Autonomous Distributed Robotic Explorers", type:"rvm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa;fam:clps;", id:"", url:"CADRE:www.nasa.gov/directorates/spacetech/game_changing_development/projects/CADRE", icon:"cadre.png"}], 
   events:[
@@ -3544,7 +3543,7 @@ shukrayaan: {name:"Shukrayaan-1:Venus Craft", desc:"lv:LVM3",
 // Draper
 drapers2: {name:"Draper SERIES-2", desc:"lv:TBA",
   parts:[
-    {names:"", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Draper;fam:clps;m:600kg;sc:0.3", id:"", url:"hp:www.draper.com/business-areas/space/clps;clps:nasa.gov/content/commercial-lunar-payload-services", icon:"drapers2.png"}], 
+    {names:"", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Draper;fam:clps;m:600kg;sc:0.3", id:"", url:"hp:www.draper.com/business-areas/space/clps;clps:https://science.nasa.gov/lunar-discovery/deliveries/cp-12", icon:"drapers2.png"}], 
   events:[
     {pt:"", type:"l", dt:"2025", loc:"ter:cap", desc:""},
     {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:"Schrödinger Basin"},

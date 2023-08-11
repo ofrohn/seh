@@ -351,15 +351,15 @@ elisa:{name:"LISA:Laser Interferometer Space Antenna", url:"hp:www.elisascience.
   ], inst: [
     {n:"", tp:"li", band:"1e-4..1Hz", url:"", desc:"c:;"}
 ]},
-euclid:{name:"Euclid", url:"hp:www.euclid-ec.org/;esa:sci.esa.int/euclid", desc:"ag:esa;lv:Falcon 9;fam:M-class;sc:0.6;x:10;y:9", stat:"pl", 
+euclid:{name:"Euclid", url:"hp:www.euclid-ec.org/;esa:sci.esa.int/euclid", desc:"ag:esa;lv:Falcon 9;fam:M-class;sc:0.6;x:10;y:9", stat:"o", 
   parts: [
     {n:"", ctry:"eu", type:"nir", pur:"de;sur", id:"2023-092A", icon:"euclid.png", desc:"m:2160kg;dim:4.5x3.1m"}
   ], ev: [
     {pt:"", dt:"2023-07-01", tp:"l", loc:"ter:cap:LC-40", desc:""},
-    {pt:"", dt:"l+30d", tp:"sco", loc:"sol:esl2", desc:"1M km  Lissajous orbit"},
+    {pt:"", dt:"2023-08-01", tp:"sco", loc:"sol:esl2", desc:"1M km  Lissajous orbit"},
     {pt:"", dt:"2028", tp:"nom", loc:"sol:esl2", desc:"pend"},
   ], inst: [
-    {n:"VIS:Visual Imager", band:"550..900nm", res:"0.1", d:1.3, px:0.1, fov:"0.8deg2", desc:"c:n;cl:nly;"},
+    {n:"VIS:Visual Imager", band:"550..900nm", res:"0.1", d:1.3, px:0.1, fov:"0.8deg2", desc:"c:nr;cl:nly;"},
     {n:"NISP:Near-infrared spectrometer and photometer", band:"0.92..2um", res:"0.3", d:1.3, px:0.3, sres:"250", fov:"0.75deg2", desc:"c:nr;cl:nl"}
 ]},
 euve:{name:"EUVE", url:"hp:www.ssl.berkeley.edu/euve/", desc:"ag:nasa;lv:Delta II 6920-10", stat:"s", 
@@ -1509,8 +1509,8 @@ xarm:{name:"XRISM:X-ray Imaging and Spectroscopy Mission", url:"hp:xrism.isas.ja
   parts: [
     {n:"ASTRO-H2", ctry:"jp", type:"sx", pur:"", id:"", icon:"astro-h.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2023-05-12", tp:"l", loc:"ter:tng", desc:""},
-    {pt:"", dt:"2023-06", tp:"sco", loc:"ter:leo:550kmx31deg", desc:""},
+    {pt:"", dt:"2023-08-26", tp:"l", loc:"ter:tng", desc:""},
+    {pt:"", dt:"2023-09", tp:"sco", loc:"ter:leo:550kmx31deg", desc:""},
     {pt:"", dt:"2026", tp:"nom", loc:"ter:leo", desc:""}
   ], inst: [
     {n:"Xtend;SXI:Soft X-ray Imaging System", band:"0.4..13keV", res:"72", sres:"150eV@6keV", ea:"360cm2@6keV", fov:"38x38'", desc:"c:nr;cl:nl;"},
