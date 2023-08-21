@@ -3047,8 +3047,8 @@ stereoa: {name:"STEREO A:Solar Terrestrial Relations Observatory A", desc:"lv:De
     {pt:"", type:"fb", dt:"2006-12-15", loc:"lun:7340km", desc:"ga"},
     {pt:"", type:"oi", dt:"2006-12-15", loc:"sol:ho:0.956x0.967aux0.13deg", desc:"Earth-leading Orbit"},
     {pt:"", type:"ev", dt:"2011-02-06", loc:"so", desc:"180\u00b0 Separation from Stereo B"},
-    {pt:"", type:"nom", dt:"2022-09-30", loc:"so", desc:""},
-    {pt:"", type:"pom", dt:"2023-10-01", loc:"so", desc:""}
+    {pt:"", type:"nom", dt:"2024-09-30", loc:"so", desc:""},
+    {pt:"", type:"pom", dt:"2026-10-01", loc:"so", desc:""}
 ]},
 stereob: {name:"STEREO B:Solar Terrestrial Relations Observatory B", desc:"lv:Delta II 7925-10L",
   parts:[
@@ -3061,8 +3061,7 @@ stereob: {name:"STEREO B:Solar Terrestrial Relations Observatory B", desc:"lv:De
     {pt:"", type:"ev", dt:"2011-02-06", loc:"so", desc:"180\u00b0 Separation from Stereo A"},
     {pt:"", type:"los", dt:"2014-10-01", loc:"so", desc:"fail:Attitude control system;hib"},
     {pt:"", type:"ev", dt:"2016-08-21", loc:"so", desc:"Reestablishment of contact;wake"},
-    {pt:"", type:"nom", dt:"2022-09-30", loc:"so", desc:"?"},
-    {pt:"", type:"pom", dt:"2023-10-01", loc:"so", desc:""}
+    {pt:"", type:"los", dt:"2016-09-23", loc:"so", desc:"eom;Final loss of contact"}
 ]},
 // --- 2007 --- 5 Missions     
 artemis: {name:"ARTEMIS:Acceleration, Reconnection, Turbulence and Electrodynamics of the Moon's Interaction with the Sun", desc:"lv:Delta II 7925-10C",
@@ -3891,7 +3890,7 @@ novac: {name:"NOVA-C", desc:"lv:Falcon 9",
   parts:[
     {names:"IM-1", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Intuitive Machines;fam:clps;m:1900kg;sc:0.3", id:"", url:"hp:intuitivemachines.com/;clps:science.nasa.gov/lunar-discovery/deliveries/op-to2-intuitive-machines", icon:"novac.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2023-07", loc:"ter:cap", desc:"Q3"},
+    {pt:"", type:"l", dt:"2023-11", loc:"ter:cap", desc:"Q3"},
     {pt:"", type:"oi", dt:"l+6d", loc:"lun", desc:""},
     {pt:"", type:"td", dt:"l+7d", loc:"lun:80.1S,4.2W", desc:"Vallis Schröteri, Oceanus Procellarum;show:NOVA-C"},
     {pt:"0", type:"eom", dt:"l+20dy", loc:"lun", desc:""}]},
@@ -3922,6 +3921,7 @@ chandrayaan3: {name:"Chandrayaan 3:Moon Craft 3", desc:"lv:LVM3",
   events:[
     {pt:"", type:"l", dt:"2023-07-14", loc:"ter:sri:SLP", desc:""},
     {pt:"", type:"oi", dt:"2023-08-05", loc:"lun:170x186000km", desc:""},
+    {pt:"", type:"sco", dt:"2023-08-14", loc:"lun:150x177km", desc:""},
     {pt:"", type:"td", dt:"2023-08-24", loc:"lun:69.3676S,32.3481E", desc:"slp;near crater Manzinus"},
     {pt:"0", type:"nom", dt:"2023-09-07", loc:"lun", desc:"?;slp"},
     {pt:"1", type:"nom", dt:"2024", loc:"lun", desc:"?;op"}
@@ -3937,13 +3937,13 @@ slim:{name:"SLIM:Smart Lander for Investigating Moon", desc:"lv:H-IIA 202", stat
 ]},
 luna25: {name:"Luna 25", desc:"lv:Soyuz 2.1B/Fregat-MT",
   parts:[
-    {names:"Луна-Глоб посадочный;Luna Glob Lander:Lunar Sphere Lander", type:"slm", dest:"lun", stat:"o", ctry:"ru", desc:"ag:rosc,iki;m:1750kg;m0:780kg;sc:0.45", id:"2023-118A", url:"rsw:www.russianspaceweb.com/luna_glob.html", icon:"luna25.png"}], 
+    {names:"Луна-Глоб посадочный;Luna Glob Lander:Lunar Sphere Lander", type:"slm", dest:"lun", stat:"f", ctry:"ru", desc:"ag:rosc,iki;m:1750kg;m0:780kg;sc:0.45", id:"2023-118A", url:"rsw:www.russianspaceweb.com/luna_glob.html", icon:"luna25.png"}], 
   events:[
     {pt:"", type:"l", dt:"2023-08-11", loc:"ter:vos:LC-1S", desc:""},
     {pt:"", type:"oi", dt:"2023-08-16", loc:"lun:100x100kmx90deg", desc:""},
-    {pt:"", type:"td", dt:"2023-08-21", loc:"lun:69.3S,43.9E", desc:"Near South Pole, Boguslavsky Crater"},
-    {pt:"", type:"nom", dt:"2023-11", loc:"lun", desc:"?"},
-    {pt:"", type:"pom", dt:"2024-08", loc:"lun", desc:"?"}
+//    {pt:"", type:"td", dt:"2023-08-21", loc:"lun:69.3S,43.9E", desc:"Near South Pole, Boguslavsky Crater"},
+//    {pt:"", type:"nom", dt:"2023-11", loc:"lun", desc:"?"},
+    {pt:"", type:"eom", dt:"2024-08-19", loc:"lun", desc:"loc"}
 ]},
 aditya:{name:"Aditya-L1", desc:"lv:PSLV XL", stat:"pl", 
   parts: [
@@ -4277,7 +4277,7 @@ beresheet2: {name:"Beresheet 2", desc:"lv:TBA",
 ]},
 zhenghe: {name:"Tianwen 2", desc:"lv:CZ-3B",  
   parts:[
-    {names:"Zheng He;鄭和;", type:"srm", dest:"ast", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:Tianwen;sc:0.7;Near-Earth Asteroid Sample Return", id:"", url:"", icon:"zhenghe.png"},
+    {names:"Zheng He;鄭和;", type:"srm", dest:"ast", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:Tianwen;sc:0.7;Near-Earth Asteroid Sample Return", id:"", url:"", icon:"tianwen2.png"},
     {names:"", type:"om", dest:"com", stat:"pl", ctry:"cn", desc:"ag:cnsa", id:"", url:"", icon:""}], 
   events:[
     {pt:"", type:"l", dt:"2025", loc:"ter:wen", desc:""},
@@ -4295,7 +4295,7 @@ luna26: {name:"Luna 26", desc:"lv:Soyuz 2.1B/Fregat-MT",
   parts:[
     {names:"Луна-Ресурс орбитальный;Luna Resurs Orbiter:Lunar Resource Orbiter", type:"om", dest:"lun", stat:"pl", ctry:"ru", desc:"ag:rosc,iki;m:2200kg;sc:0.75", id:"", url:"rsw:www.russianspaceweb.com/luna_glob.html", icon:"luna26.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2024-11-13", loc:"ter:vos", desc:""},
+    {pt:"", type:"l", dt:"2027", loc:"ter:vos", desc:""},
     {pt:"", type:"oi", dt:"l+4dy", loc:"lun", desc:""},
     {pt:"", type:"sco", dt:"l+?dy", loc:"lun:100kmx90deg", desc:"Working Orbit"},
     {pt:"", type:"sco", dt:"l+1yr", loc:"lun:500kmx90deg", desc:"Final Operation Orbit"},
@@ -4329,7 +4329,7 @@ luna27: {name:"Luna 27", desc:"lv:Angara",
   parts:[
     {names:"Луна-Ресурс посадочный;Luna Resurs Lander", type:"slm", dest:"lun", stat:"pl", ctry:"ru;eu", desc:"ag:rosc,iki,esa;m:2150kg;sc:0.4", id:"", url:"hp:ofo.ikiweb.ru/en/p_luna_resurs.php;rsw:www.russianspaceweb.com/luna_resurs.html", icon:"lunaresurs.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2025-08", loc:"ter:vos", desc:""},
+    {pt:"", type:"l", dt:"2028", loc:"ter:vos", desc:""},
     {pt:"", type:"td", dt:"l+4dy", loc:"lun:87.2S,68E", desc:"Near South Pole; Shoemaker Crater;show:0"},
     {pt:"", type:"nom", dt:"l+1yr", loc:"lun", desc:"?"}
 ]},
@@ -4541,8 +4541,8 @@ davinciplus: {name:"DAVINCI+:Deep Atmosphere Venus Investigation of Noble gases,
 ]},
 tianwen4: {name:"Tianwen-4:Skyquest-4", desc:"lv:CZ-5",
   parts:[
-    {names:"天问三号", type:"om", dest:"jup", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:Tianwen;sc:0.75", id:"", url:"", icon:"tianwen3o.png"},
-	{names:"", type:"fbm", dest:"ura", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:Tianwen;sc:0.75", id:"", url:"", icon:"tianwen3o.png"}], 
+    {names:"天问三号", type:"om", dest:"jup", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:Tianwen;sc:0.75", id:"", url:"", icon:"tianwen4j.png"},
+	{names:"", type:"fbm", dest:"ura", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:Tianwen;sc:0.75", id:"", url:"", icon:"tianwen4u.png"}], 
   events:[
     {pt:"", type:"l", dt:"2030", loc:"ter:wen:LC-101", desc:""},
     {pt:"", type:"toi", dt:"2030", loc:"sol:hto", desc:""},
