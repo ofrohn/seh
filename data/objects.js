@@ -333,12 +333,12 @@ a2002gt:
    alb:"", grav:"", comp:"", dens:"", spec:"", temp:"",
    img:"", desc:"sc:6;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=163249;orb:ec.2000-01-01"},
 // 2001 WR1
-// 1999 VD57
+// Selam
 a1999vd57:
-  {name:"1999 VD57", other:"", desig:"152830", type:"a", par:"sol", disc:"LINEAR", dyr:"1999",
-   a:"2.457au", e:"0.112", i:"2.094", per:"3.24a", rot:"", gr:"mba",
-   h:"17.4", mass:"", dia:"700m", rad:"0.35", tilt:"",
-   alb:"0.4", grav:"", comp:"", dens:"", spec:"S", temp:"",
+  {name:"Dinkinesh", other:"1999 VD57;ድንቅነሽ", desig:"152830", type:"a", par:"sol", disc:"LINEAR", dyr:"1999",
+   a:"2.191", e:"0.112", i:"2.094", per:"3.24a", rot:"", gr:"mba",
+   h:"17.6", mass:"", dia:"790m", rad:"0.39", tilt:"",
+   alb:"0.27", grav:"", comp:"", dens:"", spec:"Sq", temp:"",
    img:"", desc:"sc:6;url:ssd.jpl.nasa.gov/sbdb.cgi?sstr=152830;orb:ec.2023-02-23"},
 a1996fg3:
   {name:"1996 FG3", other:"", desig:"175706", type:"a", par:"sol", disc:"R.H. McNaught", dyr:"1996",

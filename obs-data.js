@@ -102,7 +102,7 @@ swri: {name:"SwRI:Southwest Research Institute", desc:"url:www.swri.org/"},
 noaa: {name:"NOAA:National Oceanic and Atmospheric Administration", desc:"url:www.noaa.gov/"},
 b612: {name:"B612:B612 Foundation", desc:"url:b612foundation.org"},
 glxp: {name:"GLXP:Google Lunar X-Prize", desc:"url:www.googlelunarxprize.org/"},
-clps: {name:"CLSP: Commercial Lunar Payload Services", desc:"url:nasa.gov/content/commercial-lunar-payload-services"},
+clps: {name:"CLPS: Commercial Lunar Payload Services", desc:"url:nasa.gov/content/commercial-lunar-payload-services"},
 
 rosc: {name:"Roscosmos:Russian State Corporation", desc:"url:en.federalspace.ru;ctry:ru"},
 rsf: {name:"Russian Space Forces", desc:"ctry:ru"},
@@ -150,6 +150,7 @@ src: {name:"Sample Return Capsule"},
 rc: {name:"Return Capsule"},
 as: {name:"Ascend Stage"},
 lp: {name:"Lander"},
+slp: {name:"Lander"},
 rvp: {name:"Rover"},
 hpp: {name:"Hopper"},
 drp: {name:"Drone"},
@@ -710,15 +711,15 @@ ace:{name:"ACE:Advanced Composition Explorer", url:"hp:www.srl.caltech.edu/ACE/"
     {n:"SWEPAM:Solar Wind Electron, Proton and Alpha Monitor", tp:"par", band:"1eV..35keV", res:"", fov:"160x30deg", tres:"2min", url:"", desc:"c:"},
     {n:"MAG:Magnetic Field Monitor", tp:"em", band:"4..60000nT", res:"", tres:"0.35s", url:"", desc:"c:"}
 ]},
-aditya:{name:"Aditya-L1", url:"hp:aditya.iiap.res.in/", desc:"Solar Coronograph;ag:isro;lv:PSLV XL;m:400kg;sc:0.6;x:-10;y:16", stat:"pl", 
+aditya:{name:"Aditya-L1", url:"hp:aditya.iiap.res.in/", desc:"Solar Coronograph;ag:isro;lv:PSLV XL;m:400kg;sc:0.6;x:-10;y:16", stat:"o", 
   parts: [
     {n:"आदित्य", ctry:"ind", type:"opt;ir", pur:"sol", id:"", icon:"aditya-l1.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2023", tp:"l", loc:"ter:sri", desc:""},
-    {pt:"", dt:"l+100d", tp:"sco", loc:"sol:esl1", desc:""}
+    {pt:"", dt:"2023-09-02", tp:"l", loc:"ter:sri", desc:""},
+    {pt:"", dt:"2024-01-06", tp:"sco", loc:"sol:esl1", desc:""}
   ], inst: [
     {n:"VELC:Visible Emission Line Coronagraph", band:"530..640nm", res:"2", d:"0.2", px:"", url:"", desc:"c:nl;cl:nly"},
-    {n:"SUIT:Solar Ultraviolet Imaging Telescope", band:"200..400nm", res:"", d:"", px:"", url:"", desc:"c:;cl:n"},
+    {n:"SUIT:Solar Ultraviolet Imaging Telescope", band:"200..400nm", res:"", d:"", px:"", url:"", desc:"c:nl;cl:nl"},
     {n:"SoLEXS:Solar Low Energy X-ray Spectrometer", band:"", res:"", d:"", px:"", url:"", desc:"c:;"},
     {n:"ASPEX:Aditya Solar wind Particle Experiment", band:"", res:"", d:"", px:"", url:"", desc:"c:;"},
     {n:"PAPA:Plasma Analyser Package For Aditya", band:"", res:"", d:"", px:"", url:"", desc:"c:;"},
@@ -831,9 +832,9 @@ athenaplus:{name:"Athena:Advanced Telescope for High-energy Astrophysics", url:"
   parts: [
     {n:"", ctry:"eu", type:"x", pur:"", id:"", icon:"athena.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2031", tp:"l", loc:"ter:kou:ELA-4", desc:""},
-    {pt:"", dt:"2031", tp:"sco", loc:"sol:esl2", desc:""},
-    {pt:"", dt:"2035", tp:"nom", loc:"sol:esl2", desc:"pend"}
+    {pt:"", dt:"2037", tp:"l", loc:"ter:kou:ELA-4", desc:""},
+    {pt:"", dt:"2037", tp:"sco", loc:"sol:esl2", desc:""},
+    {pt:"", dt:"2041", tp:"nom", loc:"sol:esl2", desc:"pend"}
   ], inst: [
     {n:"X-IFU:X-ray Integral Field Unit", tp:"is", band:"0.3..10keV", res:"5", sres:"2.5eV@6keV", fov:"5'", ea:"1.4@1keV", sens:">1Crab", url:"athena2.irap.omp.eu/spip.php?article15", desc:"c:nbr;cl:nly;"},
     {n:"WFI:Wide Field Imager", tp:"im", band:"0.1..12keV", res:"5", sres:"8%@1keV;2.5%@6keV", fov:"40'", ea:"1.33@1keV", sens:"10mCrab", url:"athena2.irap.omp.eu/spip.php?article18", desc:"c:br;cl:n;"}
@@ -987,8 +988,8 @@ einsteinprobe:{name:"Einstein Probe", url:"", desc:"ag:cnsa;m:380kg;lv:", stat:"
   parts: [
     {n:"", ctry:"cn", type:"x", pur:"grb", id:"", icon:"einsteinprobe.png"}
   ], ev: [
-    {pt:"", dt:"2023", tp:"l", loc:"ter", desc:""},
-    {pt:"", dt:"2023", tp:"sco", loc:"ter:leo", desc:""}
+    {pt:"", dt:"2024", tp:"l", loc:"ter", desc:""},
+    {pt:"", dt:"2024", tp:"sco", loc:"ter:leo", desc:""}
   ], inst: [
     {n:"WXT:Wide-field X-ray Telescope", tp:"", band:"0.5..4keV", res:"300", fov:"60x60deg", ea:"3cm2€0.7keV", tres:"100us", eres:"50%@4keV", url:"", desc:"c:;"},
     {n:"FXT:Follow-up X-ray Telescope", tp:"", band:"0.5..4keV", res:"300", fov:"1deg", ea:"60cm2€1keV", tres:"1s", eres:"100ev@1keV", url:"", desc:"c:;"}
@@ -1684,12 +1685,12 @@ proba2:{name:"Proba-2", url:"hp:www.esa.int/Our_activities/Technology/Proba_Miss
   ], inst: [
     {n:"", band:"", res:"", d:"", px:"", url:"", desc:"c:;"}
 ]},
-proba3:{name:"Proba-3", url:"hp:www.esa.int/Enabling_Support/Space_Engineering_Technology/Proba_Missions/About_Proba-3", desc:"ag:esa;lv:Vega;2 spacecraft external coronagraph", stat:"pl", 
+proba3:{name:"Proba-3", url:"hp:www.esa.int/Enabling_Support/Space_Engineering_Technology/Proba_Missions/About_Proba-3", desc:"ag:esa;lv:PSLV;2 spacecraft external coronagraph", stat:"pl", 
   parts: [
     {n:"Coronagraph", ctry:"eu", type:"cor", pur:"sol", id:"", icon:"", desc:"m:340kg"},
     {n:"Occulter", ctry:"eu", type:"cor", pur:"sol", id:"", icon:"", desc:"m:200kg"}
   ], ev: [
-    {pt:"", dt:"2024", tp:"l", loc:"ter:kou:ZLV", desc:""},
+    {pt:"", dt:"2024", tp:"l", loc:"ter:sri", desc:""},
     {pt:"", dt:"l+1d", tp:"sco", loc:"ter:heeo:600x60530km", desc:""}
   ], inst: [
     {n:"", band:"", res:"", d:"", px:"", url:"", desc:"c:;"}
@@ -1896,7 +1897,7 @@ spitzer:{name:"Spitzer", url:"hp:ssc.spitzer.caltech.edu/;ipac:irsa.ipac.caltech
     {n:"IRAC", band:"3.6..10um", res:"2.7..1.6", d:0.85, px:1.2, fov:"5.2x5.2'", desc:"warm:<8um;c:nv;"},
     {n:"MIPS", band:"24..160um", res:"57..7.0", d:0.85, px:1.2, desc:"c:nv;", stat:"s"}
 ]},
-srg:{name:"Spektr-RG:Spectrum Roentgen Gamma", url:"hp:hea.iki.rssi.ru/SRG/en/index.php;tw:twitter.com/eROSITA_SRG", desc:"ag:rosc;lv:Proton-M/DM-3;m:2712.5kg;sc:1.4;x:5;y:-2", stat:"o", 
+srg:{name:"Spektr-RG:Spectrum Roentgen Gamma", url:"hp:hea.iki.rssi.ru/SRG/en/index.php;tw:twitter.com/eROSITA_SRG", desc:"ag:rosc;lv:Proton-M/DM-3;m:2712.5kg;sc:1.4;x:5;y:-2", stat:"p", 
   parts: [
     {n:"Спектр-РГ", ctry:"ru;de;uk", type:"fuv,sx", pur:"", id:"2019-040A", icon:"srg.png", desc:""}
   ], ev: [
@@ -2166,9 +2167,9 @@ wukong:{name:"Wukong:Monkey King", url:"hp:dpnc.unige.ch/dampe/index.html;data:d
     {n:"STK:Silicon-Tungsten Tracker", tp:"par", band:"", res:"0.2deg@10GeV", fov:"", url:"", desc:"Cosmic Rays;c:;"},
     {n:"NUD:Neutron Detector", tp:"par", band:"", res:"", fov:"", url:"", desc:"Cosmic Rays;c:;"}
 ]},
-xarm:{name:"XRISM:X-ray Imaging and Spectroscopy Mission", url:"hp:xrism.isas.jaxa.jp/en/;jaxa:global.jaxa.jp/projects/sat/astro_h/;", desc:"ag:jaxa;lv:H-IIA 202;m:2300kg;sc:1.4;x:0;y:-5", stat:"pl",
+xarm:{name:"XRISM:X-ray Imaging and Spectroscopy Mission", url:"hp:xrism.isas.jaxa.jp/en/;jaxa:global.jaxa.jp/projects/sat/astro_h/;", desc:"ag:jaxa;lv:H-IIA 202;m:2300kg;sc:1.4;x:0;y:-5", stat:"o",
   parts: [
-    {n:"ASTRO-H2", ctry:"jp", type:"sx", pur:"", id:"", icon:"astro-h.png", desc:""}
+    {n:"ASTRO-H2", ctry:"jp", type:"sx", pur:"", id:"2023-137A", icon:"astro-h.png", desc:""}
   ], ev: [
     {pt:"", dt:"2023-08-26", tp:"l", loc:"ter:tng", desc:""},
     {pt:"", dt:"2023-09", tp:"sco", loc:"ter:leo:550kmx31deg", desc:""},
@@ -2191,14 +2192,14 @@ xmm:{name:"XMM:XMM-Newton", url:"hp:www.esa.int/Our_activities/Space_Science/XMM
 ]},
 xposat:{name:"XPoSat:X-ray Polariation Satellite", url:"hp:", desc:"ag:isro;lv:PSLV XL;sc:1.6;y:10", stat:"pl", 
   parts: [
-    {n:"", ctry:"ind", type:"x", pur:"", id:"", icon:"xpo.png", desc:""}
+    {n:"", ctry:"ind", type:"x", pur:"", id:"2024-001A", icon:"xpo.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2023", tp:"l", loc:"ter:sri", desc:""},
-    {pt:"", dt:"2023", tp:"sco", loc:"ter:leo:600kmx30deg", desc:""},
+    {pt:"", dt:"2024-01-01", tp:"l", loc:"ter:sri", desc:""},
+    {pt:"", dt:"2024-01-01", tp:"sco", loc:"ter:leo:600kmx30deg", desc:""},
     {pt:"", dt:"2028", tp:"pom", loc:"ter:leo", desc:""}
   ], inst: [
-    {n:"POLIX", band:"5..30keV", res:"", desc:"c:nr;cl:nl"}
-    //XPECT
+    {n:"POLIX", band:"8..30keV", res:"", desc:"c:nr;cl:nly"},
+    {n:"XSPECT", band:"0.8..15keV", res:"", desc:"c:nr;cl:nl"}
   ]},
 xuntian:{name:"Xuntian:Sky Survey", url:"hp:", desc:"ag:cnsa;lv:CZ-5B;sc:0.9;y:7", stat:"pl", 
   parts: [
