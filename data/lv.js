@@ -213,7 +213,7 @@ cz-8
 "Vostok-L 8K72": {alt:"Восток-Л", ctry:"su", m:"279100", pm:"4000/-/400",  d:"33.5x2.95", pf:"", dt:"1958-09-23..1960-04-16", st:"1/4", ust:"Blok-E", th:"3998", fam:"R-7", desc:"l:bai;ag:okb", fuel:"KeroLOX", icon:"Luna.png"},
 // Vulcan
 "Vulcan": {syn:"Vulcan Centaur"},
-"Vulcan Centaur": {ctry:"us", m:"226300", pm:"10600/2900/2300",  d:"67.3x5.4", pf:"15.5-21.3x5.4", dt:"2022..", st:"2", ust:"Centaur-5", th:"4900", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"MethaLOX+SRP",  icon:"vulcan502.png"},
+"Vulcan Centaur": {ctry:"us", m:"226300", pm:"10600/2900/2300",  d:"67.3x5.4", pf:"15.5-21.3x5.4", dt:"2024-01-08..", st:"2", ust:"Centaur-5", th:"4900", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"MethaLOX+SRP",  icon:"vulcan502.png"},
 "Vulcan Centaur-2S": {syn:"Vulcan Centaur-2"},
 "Vulcan Centaur-2L": {syn:"Vulcan Centaur-2"},
 "Vulcan Centaur-2": {ctry:"us", m:"333100", pm:"18500/7600/6300",  d:"67.3x5.4", pf:"15.5-21.3x5.4", dt:"2022-01..", st:"2/2", ust:"Centaur-5", th:"9300", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"MethaLOX+SRP",  icon:"vulcan522.png"},

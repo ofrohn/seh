@@ -984,12 +984,12 @@ dscovr:{name:"DSCOVR:Deep Space Climate Observatory", url:"hp:www.nesdis.noaa.go
     {n:"ES:Electron Spectrometer", tp:"psp", band:"", res:"", d:"", px:"", url:"", desc:"c:;"},
     {n:"PHA:Pulse Height Analyzer", tp:"par", band:"", res:"", d:"", px:"", url:"", desc:"c:;"}
 ]},
-einsteinprobe:{name:"Einstein Probe", url:"", desc:"ag:cnsa;m:380kg;lv:", stat:"pl", 
+einsteinprobe:{name:"Einstein Probe", url:"", desc:"ag:cnsa;m:380kg;lv:CZ-2C", stat:"o", 
   parts: [
-    {n:"", ctry:"cn", type:"x", pur:"grb", id:"", icon:"einsteinprobe.png"}
+    {n:"爱因斯坦探针", ctry:"cn", type:"x", pur:"grb", id:"2024_007A", icon:"einsteinprobe.png"}
   ], ev: [
-    {pt:"", dt:"2024", tp:"l", loc:"ter", desc:""},
-    {pt:"", dt:"2024", tp:"sco", loc:"ter:leo", desc:""}
+    {pt:"", dt:"2024-01-09", tp:"l", loc:"ter", desc:""},
+    {pt:"", dt:"2024-01-09", tp:"sco", loc:"ter:leo", desc:""}
   ], inst: [
     {n:"WXT:Wide-field X-ray Telescope", tp:"", band:"0.5..4keV", res:"300", fov:"60x60deg", ea:"3cm2€0.7keV", tres:"100us", eres:"50%@4keV", url:"", desc:"c:;"},
     {n:"FXT:Follow-up X-ray Telescope", tp:"", band:"0.5..4keV", res:"300", fov:"1deg", ea:"60cm2€1keV", tres:"1s", eres:"100ev@1keV", url:"", desc:"c:;"}
@@ -1286,13 +1286,13 @@ hst: {name:"HST:Hubble Space Telescope", url:"hp:hubblesite.org/;esa:www.spacete
     {n:"STIS FUV", tp:"sp", band:"115..170nm", sres:"1000R", px:0.025, fov:"25x25''", desc:"c:;cl:n;"},
     {n:"STIS NUV", tp:"sp", band:"165..310nm", sres:"500..1005R", px:0.025, fov:"25x25''", desc:"c:;cl:n;"},
 ]},
-hxmt:{name:"Huì​yǎn:Insight", url:"hp:www.hxmt.org/;uk:www.integral.soton.ac.uk/missions/HXMT.html", desc:"m:2800kg;lv:CZ-4B;sc:1.3;x:0;y:16", stat:"o", 
+hxmt:{name:"Huìyǎn:Insight", url:"hp:www.hxmt.org/;uk:www.integral.soton.ac.uk/missions/HXMT.html", desc:"m:2800kg;lv:CZ-4B;sc:1.3;x:0;y:16", stat:"o", 
   parts: [
     {n:"HXMT:Hard X-ray Modulation Telescope", ctry:"cn", type:"hx", pur:"sur", id:"2017-034A", icon:"hxmt.png", desc:""}
   ], ev: [
     {pt:"", dt:"2017-06-15", tp:"l", loc:"ter:jiu:SLS-2", desc:""},
     {pt:"", dt:"2017-06-15", tp:"sco", loc:"leo:534x546kmx43deg", desc:""},
-    {pt:"", dt:"2021", tp:"nom", loc:"leo", desc:""}
+    {pt:"", dt:"2025", tp:"nom", loc:"leo", desc:""}
   ], inst: [
     {n:"HE", band:"20..250keV", res:"300", ea:"5096cm2", tres:"25us", sres:"15%@60keV", fov:"5.2deg", sens:"0.5mCrab", desc:"c:nr;cl:nl"},
     {n:"LE", band:"1..15keV", res:"300", ea:"384cm2", tres:"1ms", sres:"140eV@6keV", fov:"4x6deg", desc:"c:;cl:ny"},
@@ -2169,7 +2169,7 @@ wukong:{name:"Wukong:Monkey King", url:"hp:dpnc.unige.ch/dampe/index.html;data:d
 ]},
 xarm:{name:"XRISM:X-ray Imaging and Spectroscopy Mission", url:"hp:xrism.isas.jaxa.jp/en/;jaxa:global.jaxa.jp/projects/sat/astro_h/;", desc:"ag:jaxa;lv:H-IIA 202;m:2300kg;sc:1.4;x:0;y:-5", stat:"o",
   parts: [
-    {n:"ASTRO-H2", ctry:"jp", type:"sx", pur:"", id:"2023-137A", icon:"astro-h.png", desc:""}
+    {n:"ASTRO-H2", ctry:"jp", type:"sx", pur:"", id:"2023-137A", icon:"xrism.png", desc:""}
   ], ev: [
     {pt:"", dt:"2023-08-26", tp:"l", loc:"ter:tng", desc:""},
     {pt:"", dt:"2023-09", tp:"sco", loc:"ter:leo:550kmx31deg", desc:""},
@@ -2190,16 +2190,16 @@ xmm:{name:"XMM:XMM-Newton", url:"hp:www.esa.int/Our_activities/Space_Science/XMM
     {n:"OM", band:"4.61E+14..1.76E+15", res:"4", desc:"c:nr;cl:nl"},
     {n:"EPIC", band:"3.63E+16..3.63E+18", res:"6", desc:"c:nt;"}
 ]},
-xposat:{name:"XPoSat:X-ray Polariation Satellite", url:"hp:", desc:"ag:isro;lv:PSLV XL;sc:1.6;y:10", stat:"pl", 
+xposat:{name:"XPoSat:X-ray Polarimeter Satellite", url:"hp:", desc:"ag:isro;lv:PSLV DL;m:469kg;sc:1.6;y:10", stat:"pl", 
   parts: [
     {n:"", ctry:"ind", type:"x", pur:"", id:"2024-001A", icon:"xpo.png", desc:""}
   ], ev: [
     {pt:"", dt:"2024-01-01", tp:"l", loc:"ter:sri", desc:""},
     {pt:"", dt:"2024-01-01", tp:"sco", loc:"ter:leo:600kmx30deg", desc:""},
-    {pt:"", dt:"2028", tp:"pom", loc:"ter:leo", desc:""}
+    {pt:"", dt:"2029", tp:"pom", loc:"ter:leo", desc:""}
   ], inst: [
-    {n:"POLIX", band:"8..30keV", res:"", desc:"c:nr;cl:nly"},
-    {n:"XSPECT", band:"0.8..15keV", res:"", desc:"c:nr;cl:nl"}
+    {n:"POLIX:olarimeter Instrument in X-rays", band:"8..30keV", res:"", fov:"3deg", desc:"c:nr;cl:nly"},
+    {n:"XSPECT:X-ray Spectroscopy and Timing", band:"0.8..15keV", res:"", desc:"c:nr;cl:nl"}
   ]},
 xuntian:{name:"Xuntian:Sky Survey", url:"hp:", desc:"ag:cnsa;lv:CZ-5B;sc:0.9;y:7", stat:"pl", 
   parts: [
@@ -2531,7 +2531,7 @@ cz-8
 "Vostok-L 8K72": {alt:"Восток-Л", ctry:"su", m:"279100", pm:"4000/-/400",  d:"33.5x2.95", pf:"", dt:"1958-09-23..1960-04-16", st:"1/4", ust:"Blok-E", th:"3998", fam:"R-7", desc:"l:bai;ag:okb", fuel:"KeroLOX", icon:"Luna.png"},
 // Vulcan
 "Vulcan": {syn:"Vulcan Centaur"},
-"Vulcan Centaur": {ctry:"us", m:"226300", pm:"10600/2900/2300",  d:"67.3x5.4", pf:"15.5-21.3x5.4", dt:"2022..", st:"2", ust:"Centaur-5", th:"4900", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"MethaLOX+SRP",  icon:"vulcan502.png"},
+"Vulcan Centaur": {ctry:"us", m:"226300", pm:"10600/2900/2300",  d:"67.3x5.4", pf:"15.5-21.3x5.4", dt:"2024-01-08..", st:"2", ust:"Centaur-5", th:"4900", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"MethaLOX+SRP",  icon:"vulcan502.png"},
 "Vulcan Centaur-2S": {syn:"Vulcan Centaur-2"},
 "Vulcan Centaur-2L": {syn:"Vulcan Centaur-2"},
 "Vulcan Centaur-2": {ctry:"us", m:"333100", pm:"18500/7600/6300",  d:"67.3x5.4", pf:"15.5-21.3x5.4", dt:"2022-01..", st:"2/2", ust:"Centaur-5", th:"9300", fam:"Vulcan", desc:"l:cap;van;ag:nasa", fuel:"MethaLOX+SRP",  icon:"vulcan522.png"},
