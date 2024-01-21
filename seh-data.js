@@ -3907,13 +3907,13 @@ rlabvenus: {name:"Venus Life Finder 1", desc:"lv:Electron",
 ]},
 peregrine1: {name:"Peregrine 1", desc:"lv:Vulcan Centaur-2S",
   parts:[
-    {names:"M1:Mission 1", type:"slm", dest:"lun", stat:"o", ctry:"us", desc:"ag:nasa,Astrobotic;fam:clps;dim:1.9x1.9x2.5m;m:1313kg;sc:0.3", id:"2024-006A", url:"hp:www.astrobotic.com/peregrine;clps:science.nasa.gov/lunar-discovery/deliveries/to2-astrobotic", icon:"peregrin.png"}], 
+    {names:"M1:Mission 1", type:"slm", dest:"lun", stat:"f", ctry:"us", desc:"ag:nasa,Astrobotic;fam:clps;dim:1.9x1.9x2.5m;m:1313kg;sc:0.3", id:"2024-006A", url:"hp:www.astrobotic.com/peregrine;clps:science.nasa.gov/lunar-discovery/deliveries/to2-astrobotic", icon:"peregrin.png"}], 
   events:[
     {pt:"", type:"l", dt:"2024-01-08", loc:"ter:cap", desc:"Q3"},
     {pt:"", type:"oi", dt:"2024-01-08", loc:"ter:lto", desc:""},
     {pt:"", type:"mal", dt:"2024-01-08", loc:"ter:lto", desc:"Propulsion anomaly, stuck valve"},
     /*{pt:"", type:"td", dt:"2024-02-23", loc:"lun:36.2N,40.2W", desc:"near Gruithuisen volcanic dome;show:Per."},*/
-    {pt:"", type:"eom", dt:"2024-01-18", loc:"ter", desc:"Earth atmosphere reentry"}
+    {pt:"", type:"eom", dt:"2024-01-19", loc:"ter", desc:"Earth atmosphere reentry"}
 ]},
 chandrayaan3: {name:"Chandrayaan 3:Moon Craft 3", desc:"lv:LVM3",
   parts:[
@@ -3932,16 +3932,18 @@ chandrayaan3: {name:"Chandrayaan 3:Moon Craft 3", desc:"lv:LVM3",
     {pt:"1", type:"oi", dt:"2023-11-10", loc:"ter", desc:"op"},
     {pt:"1", type:"nom", dt:"2024", loc:"lun", desc:"?;op"}
 ]},
-slim:{name:"SLIM:Smart Lander for Investigating Moon", desc:"lv:H-IIA 202", stat:"o", 
+slim:{name:"SLIM:Smart Lander for Investigating Moon", desc:"lv:H-IIA 202", stat:"p", 
   parts: [
-    {names:"スリム;SPRINT-C", ctry:"jp", type:"slm", dest:"lun", id:"2023-137B", icon:"slim.png", desc:"ag:jaxa;m:730kg;m0:200kg;dim:2.4x1.7x2.7m;sc:0.3", url:"hp:global.jaxa.jp/projects/sas/slim/;isas:www.isas.jaxa.jp/home/slim/SLIM;tw:twitter.com/SLIM_JAXA"}], 
+    {names:"スリム;SPRINT-C", ctry:"jp", type:"slm", dest:"lun", id:"2023-137D", icon:"slim.png", desc:"ag:jaxa;m:730kg;m0:200kg;dim:2.4x1.7x2.7m;sc:0.3", url:"hp:global.jaxa.jp/projects/sas/slim/;isas:www.isas.jaxa.jp/home/slim/SLIM;tw:twitter.com/SLIM_JAXA"},
+	{names:"LEV-1", ctry:"jp", type:"hpm", dest:"lun", id:"", icon:"slim-lev1.png", desc:"ag:jaxa;m:2.1kg;sc:0.3", url:""},
+	{names:"LEV-2", ctry:"jp", type:"rvm", dest:"lun", id:"", icon:"slim-lev2.png", desc:"ag:jaxa;m:0.25kg;sc:0.3", url:""}], 
   events: [
     {pt:"", dt:"2023-09-06", type:"l", loc:"ter:tan", desc:""},
     {pt:"", dt:"2023-10-04", type:"fb", loc:"lun:5000km", desc:""},
     {pt:"", dt:"2023-12-25", type:"oi", loc:"lun", desc:""},
     {pt:"", dt:"2024-01-14", type:"sco", loc:"lun:600km", desc:"Circularization orbit"},
-    {pt:"", dt:"2024-01-19", type:"sco", loc:"lun:600x15km", desc:"Landing orbit"},
-    {pt:"", type:"td", dt:"2024-01-20", loc:"lun:13.32S,25.23E", desc:"Mare Nectaris, Shioli Crater"},
+    {pt:"", dt:"2024-01-18", type:"sco", loc:"lun:600x15km", desc:"Landing orbit"},
+    {pt:"", type:"td", dt:"2024-01-19", loc:"lun:13.32S,25.23E", desc:"Mare Nectaris, Shioli Crater"},
     {pt:"", type:"nom", dt:"2024-02", loc:"lun", desc:"?"}
 ]},
 luna25: {name:"Luna 25", desc:"lv:Soyuz 2.1B/Fregat-MT",

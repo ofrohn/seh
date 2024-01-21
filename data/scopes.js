@@ -322,14 +322,14 @@ dscovr:{name:"DSCOVR:Deep Space Climate Observatory", url:"hp:www.nesdis.noaa.go
     {n:"ES:Electron Spectrometer", tp:"psp", band:"", res:"", d:"", px:"", url:"", desc:"c:;"},
     {n:"PHA:Pulse Height Analyzer", tp:"par", band:"", res:"", d:"", px:"", url:"", desc:"c:;"}
 ]},
-einsteinprobe:{name:"Einstein Probe", url:"", desc:"ag:cnsa;m:380kg;lv:CZ-2C", stat:"o", 
+einsteinprobe:{name:"Einstein Probe", url:"", desc:"ag:cnsa;m:1380kg;lv:CZ-2C", stat:"o", 
   parts: [
     {n:"爱因斯坦探针", ctry:"cn", type:"x", pur:"grb", id:"2024_007A", icon:"einsteinprobe.png"}
   ], ev: [
-    {pt:"", dt:"2024-01-09", tp:"l", loc:"ter", desc:""},
+    {pt:"", dt:"2024-01-09", tp:"l", loc:"ter:xch", desc:""},
     {pt:"", dt:"2024-01-09", tp:"sco", loc:"ter:leo", desc:""}
   ], inst: [
-    {n:"WXT:Wide-field X-ray Telescope", tp:"", band:"0.5..4keV", res:"300", fov:"60x60deg", ea:"3cm2€0.7keV", tres:"100us", eres:"50%@4keV", url:"", desc:"c:;"},
+    {n:"WXT:Wide-field X-ray Telescope", tp:"", band:"0.5..4keV", res:"300", fov:"60x60deg", ea:"3cm2€0.7keV", tres:"100us", eres:"50%@4keV", url:"", desc:"c:nl;"},
     {n:"FXT:Follow-up X-ray Telescope", tp:"", band:"0.5..4keV", res:"300", fov:"1deg", ea:"60cm2€1keV", tres:"1s", eres:"100ev@1keV", url:"", desc:"c:;"}
 ]},
 einstein:{name:"Einstein", url:"hp:heasarc.gsfc.nasa.gov/docs/einstein/heao2.html", desc:"ag:nasa;lv:Atlas SLV-3D Centaur", stat:"s", 
@@ -1528,7 +1528,7 @@ xmm:{name:"XMM:XMM-Newton", url:"hp:www.esa.int/Our_activities/Space_Science/XMM
     {n:"OM", band:"4.61E+14..1.76E+15", res:"4", desc:"c:nr;cl:nl"},
     {n:"EPIC", band:"3.63E+16..3.63E+18", res:"6", desc:"c:nt;"}
 ]},
-xposat:{name:"XPoSat:X-ray Polarimeter Satellite", url:"hp:", desc:"ag:isro;lv:PSLV DL;m:469kg;sc:1.6;y:10", stat:"pl", 
+xposat:{name:"XPoSat:X-ray Polarimeter Satellite", url:"hp:", desc:"ag:isro;lv:PSLV DL;m:469kg;sc:1.6;y:10", stat:"o", 
   parts: [
     {n:"", ctry:"ind", type:"x", pur:"", id:"2024-001A", icon:"xpo.png", desc:""}
   ], ev: [
@@ -1536,7 +1536,7 @@ xposat:{name:"XPoSat:X-ray Polarimeter Satellite", url:"hp:", desc:"ag:isro;lv:P
     {pt:"", dt:"2024-01-01", tp:"sco", loc:"ter:leo:600kmx30deg", desc:""},
     {pt:"", dt:"2029", tp:"pom", loc:"ter:leo", desc:""}
   ], inst: [
-    {n:"POLIX:olarimeter Instrument in X-rays", band:"8..30keV", res:"", fov:"3deg", desc:"c:nr;cl:nly"},
+    {n:"POLIX:Polarimeter Instrument in X-rays", band:"8..30keV", res:"", fov:"3deg", desc:"c:nr;cl:nly"},
     {n:"XSPECT:X-ray Spectroscopy and Timing", band:"0.8..15keV", res:"", desc:"c:nr;cl:nl"}
   ]},
 xuntian:{name:"Xuntian:Sky Survey", url:"hp:", desc:"ag:cnsa;lv:CZ-5B;sc:0.9;y:7", stat:"pl", 
