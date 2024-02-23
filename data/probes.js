@@ -2808,7 +2808,7 @@ osirisrex: {name:"OSIRIS-APEx:Origins-Spectral Interpretation-Resource Identific
     {pt:"", type:"obs", dt:"2019-09", loc:"ast", desc:"Detailed survey of candidate sample sites"},
     {pt:"", type:"app", dt:"2020-04-14", loc:"ast:75m", desc:"Sample acquisition rehearsal 1"},
     {pt:"", type:"app", dt:"2020-06", loc:"ast", desc:"Sample acquisition rehearsal 2"},
-    {pt:"", type:"sc", dt:"2020-10-20", loc:"ast", desc:"Nightingale crater"},
+    {pt:"", type:"sc", dt:"2020-10-20", loc:"ast", desc:"Nightingale crater;mat:126.1g"},
     {pt:"", type:"fb", dt:"2021-04-07", loc:"ast:3.7km", desc:"Close flyby"},
     {pt:"", type:"dep", dt:"2021-05-10", loc:"ast", desc:"Begin Earth Return Cruise"},
     {pt:"", type:"edl", dt:"2023-09-24", loc:"ter:40.4N,113.4E", desc:"src;UTTR, Utah;eom:srm"},
@@ -2982,8 +2982,8 @@ mars2020rover: {name:"Perseverance", desc:"lv:Atlas V 541",
     {pt:"", type:"edl", dt:"2021-02-18", loc:"mar:18.4446N,77.4508E", desc:"Jezero Crater;Octavia E. Butler Landing;show:Perseverance"},
     {pt:"", type:"sep", dt:"2021-04-04", loc:"mar", desc:"Rover/Helicopter probe"},
     {pt:"1", type:"l", dt:"2021-04-19", loc:"mar", desc:"Helicopter probe"},
-    {pt:"1", type:"nom", dt:"2022-09", loc:"mar", desc:"rv:5km;Helicopter probe"},
-    {pt:"0", type:"nom", dt:"2023-01", loc:"mar", desc:"rv:9.5km"},
+    {pt:"1", type:"eom", dt:"2024-01-18", loc:"mar", desc:"fail:Rotor failure;rv:17.2km;Helicopter probe"},
+    {pt:"0", type:"nom", dt:"2025-01", loc:"mar", desc:"rv:23.7km"},
     {pt:"0", type:"pom", dt:"2030", loc:"mar", desc:"?"}
 ]},
 mgrso: {name:"Tianwen-1:Skyquest-1", desc:"lv:CZ-5",
@@ -3233,12 +3233,12 @@ lunarflashlight: {name:"Lunar Flashlight", desc:"lv:Falcon 9;part:hakutor1",
 // --- 2023
 novac: {name:"IM-1", desc:"lv:Falcon 9",
   parts:[
-    {names:"NOVA-C", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Intuitive Machines;fam:clps;m:1900kg;sc:0.3", id:"", url:"hp:intuitivemachines.com/;clps:science.nasa.gov/lunar-discovery/deliveries/op-to2-intuitive-machines", icon:"novac.png"}], 
+    {names:"NOVA-C Odysseus", type:"slm", dest:"lun", stat:"o", ctry:"us", desc:"ag:nasa,Intuitive Machines;fam:clps;m:1900kg;sc:0.3", id:"2024-030A", url:"hp:intuitivemachines.com/;clps:science.nasa.gov/lunar-discovery/deliveries/op-to2-intuitive-machines", icon:"novac.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2024-02-12", loc:"ter:cap", desc:""},
-    {pt:"", type:"oi", dt:"l+6d", loc:"lun", desc:""},
-    {pt:"", type:"td", dt:"l+7d", loc:"lun:80.1S,4.2W", desc:" Malapert A crater, Oceanus Procellarum;show:NOVA-C"},
-    {pt:"0", type:"eom", dt:"l+20dy", loc:"lun", desc:""}]},
+    {pt:"", type:"l", dt:"2024-02-15", loc:"ter:cap", desc:""},
+    {pt:"", type:"oi", dt:"2024-02-21", loc:"lun:100kmx90deg", desc:""},
+    {pt:"", type:"td", dt:"2024-02-22", loc:"lun:80.1S,4.2W", desc:" Malapert A crater, Oceanus Procellarum;show:NOVA-C"},
+    {pt:"0", type:"eom", dt:"2024-03", loc:"lun", desc:""}]},
 //CubeRover, Colmena
 // --- 2022   15 missions
 rlabvenus: {name:"Venus Life Finder 1", desc:"lv:Electron",
@@ -3287,7 +3287,9 @@ slim:{name:"SLIM:Smart Lander for Investigating Moon", desc:"lv:H-IIA 202", stat
     {pt:"", dt:"2023-12-25", type:"oi", loc:"lun", desc:""},
     {pt:"", dt:"2024-01-14", type:"sco", loc:"lun:600km", desc:"Circularization orbit"},
     {pt:"", dt:"2024-01-18", type:"sco", loc:"lun:600x15km", desc:"Landing orbit"},
-    {pt:"", type:"td", dt:"2024-01-19", loc:"lun:13.32S,25.23E", desc:"Mare Nectaris, Shioli Crater"},
+    {pt:"", type:"td", dt:"2024-01-19", loc:"lun:13.316S,25.251E", desc:"Mare Nectaris, Shioli Crater"},
+    {pt:"", type:"los", dt:"2024-01-19", loc:"lun:", desc:"mal:Thruster failure"},
+    {pt:"", type:"ev", dt:"2024-01-29", loc:"lun:", desc:"Contact reestablished"},
     {pt:"", type:"nom", dt:"2024-02", loc:"lun", desc:"?"}
 ]},
 luna25: {name:"Luna 25", desc:"lv:Soyuz 2.1B/Fregat-MT",
@@ -3404,7 +3406,9 @@ lupex: {name:"LUPEX:Lunar Polar Exploration", desc:"lv:H-III",
 ]},
 change6relay: {name:"Queqiao 2:Magpie Bridge 2", desc:"lv:CZ-8",
   parts:[
-    {names:"Chang'e 6 LRS:Lunar Relay Satellite", type:"om", dest:"lun", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:clep;sc:0.4;m:600kg;dim:4.2m", id:"", url:"", icon:"chang-e4-relay.png"}
+    {names:"Chang'e 6 LRS:Lunar Relay Satellite", type:"om", dest:"lun", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:clep;sc:0.4;m:600kg;dim:4.2m", id:"", url:"", icon:"chang-e4-relay.png"},
+    {names:"Tiandu-1", type:"om", dest:"lun", stat:"pl", ctry:"cn", desc:"Navigation satellites;ag:cnsa;fam:clep;sc:0.4;m:61kg", id:"", url:"", icon:"tiandu.png"},
+    {names:"Tiandu-2", type:"om", dest:"lun", stat:"pl", ctry:"cn", desc:"ag:cnsa;fam:clep;sc:0.4;m:15kg", id:"", url:"", icon:""}
    ], 
   events:[
     {pt:"", type:"l", dt:"2024-03", loc:"ter:wen:LC-201", desc:""},
