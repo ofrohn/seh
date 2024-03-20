@@ -3893,7 +3893,7 @@ novac: {name:"IM-1", desc:"lv:Falcon 9",
   events:[
     {pt:"", type:"l", dt:"2024-02-15", loc:"ter:cap", desc:""},
     {pt:"", type:"oi", dt:"2024-02-21", loc:"lun:100kmx90deg", desc:""},
-    {pt:"", type:"td", dt:"2024-02-22", loc:"lun:80.1S,4.2W", desc:" Malapert A crater, Oceanus Procellarum;show:NOVA-C"},
+    {pt:"", type:"td", dt:"2024-02-22", loc:"lun:80.13S,1.44E", desc:" Malapert A crater, Oceanus Procellarum;show:NOVA-C"},
     {pt:"0", type:"eom", dt:"2024-03", loc:"lun", desc:""}]},
 //CubeRover, Colmena
 // --- 2022   15 missions
@@ -4027,14 +4027,24 @@ lunartrailblazer: {name:"Lunar Trailblazer", desc:"lv:Vulcan Centaur;part:prime1
   parts:[
     {names:"", type:"om", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,jpl,Caltech;fam:SIMPLEx;m:210kg;sc:0.5", id:"", url:"hp:trailblazer.caltech.edu", icon:"lunar-trailblazer.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2023-10", loc:"ter", desc:""},
+    {pt:"", type:"l", dt:"2024", loc:"ter", desc:""},
     {pt:"", type:"oi", dt:"l+4m", loc:"lun:100km", desc:"Polar orbit"},
     {pt:"", type:"nom", dt:"2026", loc:"lun", desc:""}
 ]},
 //   2024
+droab: {name:"DRO-A/B:Distant Retrograde Orbit", desc:"lv:CZ-4C/-YZ-1S",
+  parts:[
+    {names:"卫星", type:"om", dest:"lun", stat:"f", ctry:"cn", desc:"ag:CASC;sc:0.4", id:"2024-048A", url:"", icon:"dro-ab.png"},
+    {names:"", type:"om", dest:"lun", stat:"", ctry:"cn", desc:"Navigation satellites", id:"", url:"", icon:""}
+   ], 
+  events:[
+    {pt:"", type:"l", dt:"2024-03-13", loc:"ter:xch:LC-3", desc:""},
+    {pt:"", type:"oi", dt:"2024-03-13", loc:"ter:lto", desc:"fail:Upper stage;eom"}
+]},
 viper: {name:"VIPER:Volatiles Investigating Polar Exploration Rover", desc:"lv:Falcon Heavy",
   parts:[
-    {names:"", type:"rvm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,ames,jsc;m:430kg;dim:1.8x1.8x2.6m;fam:clps;sc:0.3", id:"", url:"hp:www.nasa.gov/viper", icon:"viper.png"},
+    {names:"", type:"rvm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,ames,jsc;m:430kg;dim:1.8x1.8x2.6m;fam:clps;sc:0.3", 
+	id:"", url:"hp:www.nasa.gov/viper", icon:"viper.png"},
     {names:"Griffin Lander", type:"slm", dest:"lun", stat:"pl", ctry:"us", desc:"ag:nasa,Astrobotic;fam:clps", id:"", url:"Griffin:www.astrobotic.com/griffin;clps:science.nasa.gov/lunar-discovery/deliveries/20a%E2%80%93astrobotic", icon:"griffin.png"}], 
   events:[
     {pt:"", type:"l", dt:"2024-11", loc:"ter:cap", desc:""},

@@ -1863,8 +1863,8 @@ spherex:{name:"SPHEREx:Spectro-Photometer for the History of the Universe, Epoch
   parts: [
     {n:"Explorer", ctry:"us", type:"ir", pur:"sur", id:"", icon:"spherex.png"}
   ], ev: [
-    {pt:"", dt:"2024-06-17", tp:"l", loc:"ter:van:SLC-4E", desc:""},
-    {pt:"", dt:"2024-06", tp:"sco", loc:"ter:sseo", desc:""},
+    {pt:"", dt:"2025-06", tp:"l", loc:"ter:van:SLC-4E", desc:""},
+    {pt:"", dt:"2025-06", tp:"sco", loc:"ter:sseo", desc:""},
     {pt:"", dt:"2029", tp:"nom", loc:"", desc:""}
 ], inst: [
     {n:"", tp:"is", band:"0.75..5um", sres:"41..130", d:"0.2", px:"6.2", sens:"22mag", fov:"3.5x11.3deg", desc:"c:;cl:n;"}
