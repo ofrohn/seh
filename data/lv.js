@@ -154,7 +154,7 @@ cz-8
 //Neutron
 "Neutron": {ctry:"us", m:"480000", pm:"8000/-/1500",  d:"40x7", pf:"7", dt:"2024..", st:"2", ust:"", th:"5960", fam:"Neutron", desc:"l:wal;ag:Rocket Lab", fuel:"MethaLOX", icon:"neutron.png"},
 //New Glenn
-"New Glenn": {alt:"", ctry:"us", m:"", pm:"45000/13000/-",  d:"98x7", pf:"", dt:"2024", st:"2", th:"17100", fam:"", desc:"l:cap,van;ag:Blue Origin", fuel:"MethaLOX", icon:"newglenn.png"},
+"New Glenn": {alt:"", ctry:"us", m:"", pm:"45000/13000/-",  d:"98x7", pf:"", dt:"2024-09", st:"2", th:"17100", fam:"", desc:"l:cap,van;ag:Blue Origin", fuel:"MethaLOX", icon:"newglenn.png"},
 //OmegA
 /*"OmegA": {syn:"OmegA Intermediate"},
 "OmegA Intermediate": {n:"", alt:"", ctry:"us", m:"", pm:"~30000/4900..10100/-", d:"59.8x3.7", pf:"5.3x15", dt:"2021..", st:"3/2-6", th:"12000", fam:"OmegA", desc:"ag:atk", fuel:"SRP/LH2+LOX", icon:"omega500.png"},*/

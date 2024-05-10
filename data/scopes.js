@@ -1146,11 +1146,11 @@ smalljasmine:{name:"Small-JASMINE", url:"hp:www.jasmine-galaxy.org/index.html", 
   ], inst: [
     {n:"", band:"", res:"", d:"", px:"", desc:"c:;"}
 ]},
-smile:{name:"SMILE:Solar wind Magnetosphere Ionosphere Link Explorer", url:"hp:sci.esa.int/smile", desc:"ag:CAS,esa;lv:;y:-12", stat:"pl", 
+smile:{name:"SMILE:Solar wind Magnetosphere Ionosphere Link Explorer", url:"hp:sci.esa.int/smile", desc:"ag:CAS,esa;lv:Vega C;y:-12", stat:"pl", 
   parts: [
     {n:"", ctry:"cn;eu", type:"sol", pur:"", id:"", icon:"smile.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2023", tp:"l", loc:"ter:kou", desc:""},
+    {pt:"", dt:"2025", tp:"l", loc:"ter:kou", desc:""},
     {pt:"", dt:"", tp:"sco", loc:"ter:heeo:5000x120000kmx90deg", desc:""}
   ], inst: [
     {n:"SXI:Soft X-ray Imager", band:"0.2..2.5keV", res:"", d:"", px:"", fov:"15.5x26.5deg", desc:"c:;cl:nl;"},
