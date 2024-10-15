@@ -288,13 +288,13 @@ cosb:{name:"COS-B", url:"hp:www.esa.int/Our_activities/Space_Science/Cos-B_overv
     {pt:"", dt:"1976-01-01", tp:"sco", loc:"ter:heeo:2536x96895kmx92deg", desc:""},
     {pt:"", dt:"1982", tp:"tos", loc:"", desc:"eom"}
 ]},
-cosi:{name:"COSI:Compton Spectrometer and Imager", url:"hp:cosi.ssl.berkeley.edu", desc:"ag:nasa;fam:Astrophysics Explorers;lv:TBA", stat:"pl", 
+cosi:{name:"COSI:Compton Spectrometer and Imager", url:"hp:cosi.ssl.berkeley.edu", desc:"ag:nasa;fam:Astrophysics Explorers;lv:Falcon 9", stat:"pl", 
   parts: [
     {n:"", ctry:"us", type:"g", pur:"", id:"", icon:""}
   ], ev: [
-    {pt:"", dt:"2025", tp:"l", loc:"ter", desc:""},
-    {pt:"", dt:"2025", tp:"sco", loc:"ter:leo", desc:""},
-    {pt:"", dt:"2027", tp:"nom", loc:"ter", desc:"?"}
+    {pt:"", dt:"2027-08", tp:"l", loc:"ter", desc:""},
+    {pt:"", dt:"2027-08", tp:"sco", loc:"ter:leo", desc:""},
+    {pt:"", dt:"2029", tp:"nom", loc:"ter", desc:"?"}
   ], inst: [
     {tp:"g", n:"", band:"0.2..5MeV", d:"", px:"", tres:"", fov:"", desc:"c:nr;"}
 ]},
@@ -1308,10 +1308,10 @@ svom:{name:"SVOM:Space-based multi-band astronomical Variable Objects Monitor", 
   parts: [
     {n:"", ctry:"cn;fr", type:"gam;x;opt", pur:"mon", id:"", icon:"svom.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2023", tp:"l", loc:"ter:jiu", desc:""},
-    {pt:"", dt:"2023", tp:"sco", loc:"ter:leo:650kmx30deg", desc:""},
-    {pt:"", dt:"2027", tp:"nom", loc:"", desc:""},
-    {pt:"", dt:"2029", tp:"pom", loc:"", desc:""}
+    {pt:"", dt:"2024-06-22", tp:"l", loc:"ter:jiu", desc:""},
+    {pt:"", dt:"2024-06-22", tp:"sco", loc:"ter:leo:650kmx30deg", desc:""},
+    {pt:"", dt:"2028", tp:"nom", loc:"", desc:""},
+    {pt:"", dt:"2030", tp:"pom", loc:"", desc:""}
   ], inst: [
     {n:"GRM:Gamma-Ray Monitor", tp:"sp", band:"50..5000keV", res:"", ea:"0.056", url:"", desc:"c:nr;cl:nl;"},
     {n:"MXT:Microchannel X-ray Telescope", band:"0.3..7keV", res:"120", fov:"57'", ea:"0.005@1keV", url:"", desc:"c:nly;cl:nl;"},

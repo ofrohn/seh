@@ -950,13 +950,13 @@ cosb:{name:"COS-B", url:"hp:www.esa.int/Our_activities/Space_Science/Cos-B_overv
     {pt:"", dt:"1976-01-01", tp:"sco", loc:"ter:heeo:2536x96895kmx92deg", desc:""},
     {pt:"", dt:"1982", tp:"tos", loc:"", desc:"eom"}
 ]},
-cosi:{name:"COSI:Compton Spectrometer and Imager", url:"hp:cosi.ssl.berkeley.edu", desc:"ag:nasa;fam:Astrophysics Explorers;lv:TBA", stat:"pl", 
+cosi:{name:"COSI:Compton Spectrometer and Imager", url:"hp:cosi.ssl.berkeley.edu", desc:"ag:nasa;fam:Astrophysics Explorers;lv:Falcon 9", stat:"pl", 
   parts: [
     {n:"", ctry:"us", type:"g", pur:"", id:"", icon:""}
   ], ev: [
-    {pt:"", dt:"2025", tp:"l", loc:"ter", desc:""},
-    {pt:"", dt:"2025", tp:"sco", loc:"ter:leo", desc:""},
-    {pt:"", dt:"2027", tp:"nom", loc:"ter", desc:"?"}
+    {pt:"", dt:"2027-08", tp:"l", loc:"ter", desc:""},
+    {pt:"", dt:"2027-08", tp:"sco", loc:"ter:leo", desc:""},
+    {pt:"", dt:"2029", tp:"nom", loc:"ter", desc:"?"}
   ], inst: [
     {tp:"g", n:"", band:"0.2..5MeV", d:"", px:"", tres:"", fov:"", desc:"c:nr;"}
 ]},
@@ -1970,10 +1970,10 @@ svom:{name:"SVOM:Space-based multi-band astronomical Variable Objects Monitor", 
   parts: [
     {n:"", ctry:"cn;fr", type:"gam;x;opt", pur:"mon", id:"", icon:"svom.png", desc:""}
   ], ev: [
-    {pt:"", dt:"2023", tp:"l", loc:"ter:jiu", desc:""},
-    {pt:"", dt:"2023", tp:"sco", loc:"ter:leo:650kmx30deg", desc:""},
-    {pt:"", dt:"2027", tp:"nom", loc:"", desc:""},
-    {pt:"", dt:"2029", tp:"pom", loc:"", desc:""}
+    {pt:"", dt:"2024-06-22", tp:"l", loc:"ter:jiu", desc:""},
+    {pt:"", dt:"2024-06-22", tp:"sco", loc:"ter:leo:650kmx30deg", desc:""},
+    {pt:"", dt:"2028", tp:"nom", loc:"", desc:""},
+    {pt:"", dt:"2030", tp:"pom", loc:"", desc:""}
   ], inst: [
     {n:"GRM:Gamma-Ray Monitor", tp:"sp", band:"50..5000keV", res:"", ea:"0.056", url:"", desc:"c:nr;cl:nl;"},
     {n:"MXT:Microchannel X-ray Telescope", band:"0.3..7keV", res:"120", fov:"57'", ea:"0.005@1keV", url:"", desc:"c:nly;cl:nl;"},
@@ -2386,8 +2386,8 @@ cz-8
 //CZ-9
 "CZ-9": {n:"Long March 9", alt:"长征九号运载火箭", ctry:"cn", m:"4369000", pm:"150k/70k/54k", d:"114x10.6", pf:"?x10", dt:"2033..", st:"3", ust:"", th:"58840", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"MethaLOX", icon:"CZ-9.png"},
 //CZ-10
-"CZ-10": {n:"Long March 10", alt:"长征五号登月", ctry:"cn", m:"218700", pm:"70k/-/27k", d:"90x5", pf:"", dt:"2027..", st:"3/2", ust:"", th:"25200", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"cz-5dy.png"},
-//"CZ-10 LEO": {n:"Long March 10 LEO", alt:"", ctry:"cn", m:"750000", pm:"18k//", d:"86x5", pf:"", dt:"2030..", st:"2", ust:"", th:"", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"cz5zrl.png"},
+"CZ-10": {n:"Long March 10", alt:"长征五号登月", ctry:"cn", m:"218700", pm:"70k/-/27k", d:"90x5", pf:"", dt:"2027..", st:"3/2", ust:"", th:"25200", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"cz-10.png"},
+"CZ-10A": {n:"Long March 10A", alt:"", ctry:"cn", m:"750000", pm:"18k//", d:"86x5", pf:"", dt:"2030..", st:"2", ust:"", th:"", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"cz-10a.png"},
 //"CZ-X": {n:"Long March X", alt:"长征X号运载火箭", ctry:"cn", m:"2211000", pm:"70k//25k", d:"90x5", pf:"", dt:"2025..", st:"3/2", ust:"", th:"25200", fam:"Long March", desc:"l:wen;ag:cnsa", fuel:"KeroLOX", icon:"CZ-X.png"},
 //CZ-11
 "CZ-11": {n:"Long March 11", alt:"长征十一号运载火箭", ctry:"cn", m:"58000", pm:"700/-/-", d:"20.8x2", pf:"", dt:"2015-09-25..", st:"4", ust:"", th:"1188", fam:"Long March", desc:"l:jiu;ag:cnsa", fuel:"SRP", icon:"cz-11.png"},
