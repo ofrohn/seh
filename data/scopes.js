@@ -788,7 +788,7 @@ kepler:{name:"Kepler", url:"hp:kepler.nasa.gov/;tw:twitter.com/NASAKepler", desc
   ], inst: [
     {n:"", band:"423..897nm", d:"1.4", px:"10", tres:"59..1766s", fov:"16deg", desc:"c:n;cl:nl;"}
 ]},
-litebird:{name:"LiteBIRD:Lite satellite for the studies of B-mode polarization and Inflation from cosmic background Radiation Detection", url:"hp:litebird.jp/eng/", desc:"ag:jaxa,isas;lv:H-III;m:2600kg;sc:0.8", stat:"pl", 
+litebird:{name:"LiteBIRD:Lite satellite for the studies of B-mode polarization and Inflation from cosmic background Radiation Detection", url:"hp:litebird.jp/eng/", desc:"ag:jaxa,isas;lv:H3;m:2600kg;sc:0.8", stat:"pl", 
   parts: [
     {n:"ライトバード", ctry:"jp", type:"mw", pur:"cmb", id:"", icon:"litebird.png", desc:""}
   ], ev: [

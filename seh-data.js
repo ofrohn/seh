@@ -4195,7 +4195,7 @@ mom2: {name:"MOM-2:Mars Observation Mission 2", desc:"lv:GSLV MkIII",
     {pt:"", type:"nom", dt:"l+2yr", loc:"mar", desc:"?"},
     {pt:"", type:"pom", dt:"l+4yr", loc:"mar", desc:"?"}    
 ]},
-mbre: {name:"MBR Explorer:Mohammed Bin Rashid Explorer", desc:"lv:H-III",
+mbre: {name:"MBR Explorer:Mohammed Bin Rashid Explorer", desc:"lv:H3",
   parts:[
     {names:"لاستكشاف حزام الكويكبات", type:"fbm;om", dest:"ast", stat:"pl", ctry:"ue", desc:"ag:uaesa;m:2300kg;dim:16x7x3.5m;sc:0.5", id:"", url:"hp:space.gov.ae/", icon:"mbre.png"}], 
   events:[
@@ -4233,7 +4233,7 @@ shukrayaan: {name:"Shukrayaan-1:Venus Craft", desc:"lv:LVM3",
     {pt:"", type:"nom", dt:"l+4yr", loc:"ven", desc:"?"},
     {pt:"", type:"pom", dt:"l+6yr", loc:"ven", desc:"?"}    
 ]},
-lupex: {name:"Chandrayaan 5", desc:"lv:H-III",
+lupex: {name:"Chandrayaan 5", desc:"lv:H3",
   parts:[
     {names:"月極域探査機", type:"slm", dest:"lun", stat:"pl", ctry:"ind;jp", desc:"ag:isro,jaxa;m:6000kg;sc:0.5", id:"", url:"jaxa:www.exploration.jaxa.jp/e/program/lunarpolar/;tw:twitter,com/lupex_jaxa", icon:"lupex-l.png"},
     {names:"LUPEX:Lunar Polar Exploration", type:"rvm", dest:"lun", stat:"pl", ctry:"jp", desc:"ag:jaxa;m:350kg", id:"", url:"", icon:"lupex-rv.png"}], 
@@ -4285,15 +4285,15 @@ hera: {name:"Hera", desc:"lv:Falcon 9",
     {pt:"", type:"oi", dt:"2026-12-14", loc:"ast", desc:"ast:didy"},
     {pt:"", type:"nom", dt:"2028-12", loc:"ast", desc:"?"}
 ]},
-mmx: {name:"MMX:Martian Moons eXploration", desc:"lv:H-III",
+mmx: {name:"MMX:Martian Moons eXploration", desc:"lv:H3 24L",
   parts:[
-    {names:"火星衛星探査機", type:"srm", dest:"mar:phob", stat:"pl", ctry:"jp", desc:"ag:jaxa,isas;m:4000kg;m0:;dim:14x2.1x4.5m;sc:0.5", id:"", url:"hp:mmx.isas.jaxa.jp/en/;blog:mmx-news.isas.jaxa.jp/?lang=en;tw:twitter.com/mmx_jaxa_en", icon:"mmx.png"},
+    {names:"火星衛星探査機", type:"srm", dest:"mar:phob", stat:"o", ctry:"jp", desc:"ag:jaxa,isas;m:4480kg;m0:;dim:9x2.1x4.5m;sc:0.5", id:"2026-236A", url:"hp:mmx.isas.jaxa.jp/en/;blog:mmx-news.isas.jaxa.jp/?lang=en;tw:twitter.com/mmx_jaxa_en", icon:"mmx.png"},
     {names:"{MMX Sample Return Module}", desc:"m:1300kg;sc:1.0", icon:""},
-    {names:"{DLR/CNES Rover}", type:"rvm", dest:"mar:phob", stat:"pl", ctry:"de;fr", desc:"ag:dlr,cnes;m:29kg;sc:0.6", id:"", url:"dlr:www.dlr.de/content/en/articles/news/2019/02/20190619_a_rover_for_phobos_and_deimos.html", icon:"mmx-rv.png"}], 
+    {names:"IDEFIX", type:"rvm", dest:"mar:phob", stat:"o", ctry:"de;fr", desc:"ag:dlr,cnes;m:29kg;sc:0.6", id:"", url:"dlr:www.dlr.de/content/en/articles/news/2019/02/20190619_a_rover_for_phobos_and_deimos.html", icon:"mmx-rv.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2026-10-10", loc:"ter:tng", desc:""},
-    {pt:"", type:"oi", dt:"2027", loc:"mar", desc:""},
-    {pt:"", type:"sco", dt:"2027", loc:"mar", desc:"Phobos QSO"},
+    {pt:"", type:"l", dt:"2026-10-19", loc:"ter:tng", desc:""},
+    {pt:"", type:"oi", dt:"2027-08", loc:"mar", desc:""},
+    {pt:"", type:"sco", dt:"2027-08", loc:"mar", desc:"Phobos QSO"},
     {pt:"", type:"td", dt:"2028", loc:"mar:Phobos", desc:"Sample collection;show:0"},
     {pt:"", type:"oi", dt:"2030", loc:"sol:ho", desc:"ETO"},
     {pt:"", type:"edl", dt:"2031", loc:"ter", desc:"eom"}
@@ -4428,7 +4428,7 @@ bluemoon1: {name:"Blue Moon Mark 1", desc:"lv:New Glenn",
     {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:""},
     {pt:"0", type:"nom", dt:"l+20dy", loc:"lun", desc:"slp"}
 ]},
-ultram3: {name:"ispace M3", desc:"lv:H-III",
+ultram3: {name:"ispace M3", desc:"lv:H3",
   parts:[
     {names:"ULTRA", type:"slm", dest:"lun", stat:"pl", ctry:"jp", desc:"ag:ispace;sc:0.5", id:"", url:"hp:ispace-inc.com/mission-3/", icon:"ultra.png"}], 
   events:[
@@ -4438,7 +4438,7 @@ ultram3: {name:"ispace M3", desc:"lv:H-III",
     {pt:"", type:"td", dt:"2028", loc:"lun:60.5N,4.6W", desc:"Mare Frigoris"},
     {pt:"", type:"eom", dt:"2028", loc:"lun", desc:"fail:los"}
 ]},
-magpie: {name:"Magpie:Mission for Advanced Geophysics and Polar Ice Exploration", desc:"lv:H-III",
+magpie: {name:"Magpie:Mission for Advanced Geophysics and Polar Ice Exploration", desc:"lv:H3",
   parts:[
     {names:"", type:"rvm", dest:"lun", stat:"pl", ctry:"eu;jp", desc:"ag:esa,ispace;m:;sc:0.5", id:"", url:"jaxa:www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/ESA_s_first_lunar_rover_rolls_forward;tw:twitter,com/lupex_jaxa", icon:"magpie.png"}], 
   events:[
@@ -4446,7 +4446,7 @@ magpie: {name:"Magpie:Mission for Advanced Geophysics and Polar Ice Exploration"
     {pt:"", type:"td", dt:"l+4d", loc:"lun:", desc:"South pole"},
     {pt:"", type:"nom", dt:"l+14d", loc:"lun", desc:""}
 ]},
-ultram4: {name:"ispace M4", desc:"lv:H-III",
+ultram4: {name:"ispace M4", desc:"lv:H3",
   parts:[
     {names:"ULTRA", type:"slm", dest:"lun", stat:"pl", ctry:"jp", desc:"ag:ispace;sc:0.5", id:"", url:"hp:ispace-inc.com/mission-4/", icon:"ultra.png"}], 
   events:[
@@ -4589,7 +4589,7 @@ dragonfly: {name:"Dragonfly", desc:"lv:Falcon Heavy", stat:"pl",
     /*{pt:"", type:"fb", dt:"2027-04-15", loc:"ven:3770km", desc:"ga"},
     {pt:"", type:"fb", dt:"2028-05-27", loc:"ter:1355km", desc:"ga"},
     {pt:"", type:"fb", dt:"2031-09-05", loc:"ter:1093km", desc:"ga"},*/
-    {pt:"", type:"edl", dt:"2034-12", loc:"tita:7.0N,199.0W", desc:"Shangri-La, Selk Crater"},
+    {pt:"", type:"edl", dt:"2034-12", loc:"tita:7.0N,199.0W", desc:"Shangri-La, Ahmakiq Undae"},
     {pt:"", type:"nom", dt:"2037", loc:"tita", desc:"rv:175km;?"}
 ]},
 artemis5: {name:"Artemis-5" , desc:"lv:SLS 1B",
@@ -7411,11 +7411,11 @@ cz-8
 "H-IIA 2022": {ctry:"jp", m:"348000", pm:"-/5000/2000",  d:"53x4", pf:"12x5.1", dt:"2005-02-26..2007-09-14", st:"2/4", th:"8580", fam:"H-II", desc:"l:tng;g:jaxa", fuel:"LH2/LOX+SRP", icon:"H2A-2022.png"},
 "H-IIA": {syn:"H-IIA 202"},
 "H-IIB": {ctry:"jp", m:"531000", pm:"19000/8000/4000",  d:"56.6x5.2", pf:"13x5.2", dt:"2009-09-10..", st:"2/4", th:"11200", fam:"H-II", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"H2B.png"},
-"H-III": {syn:"H-III 24L"},
-"H-III 30S": {ctry:"jp", m:"353000", pm:"3000/2100/-",  d:"58x5.27", pf:"11x5.3", dt:"2024..", st:"2", th:"4413", fam:"H-III", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"h3-30s.png"},
-"H-III 22S": {ctry:"jp", m:"440000", pm:"5000/4000/-",  d:"58x5.27", pf:"11x5.3", dt:"2023-03-06..", st:"2/2", th:"7260", fam:"H-III", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"h3-22s.png"},
-"H-III 22L": {ctry:"jp", m:"497000", pm:"-/4200/-",  d:"63x5.27", pf:"16x5.3", dt:"2024..", st:"2/2", th:"8732", fam:"H-III", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"h3-22l.png"},
-"H-III 24L": {ctry:"jp", m:"574000", pm:"-/6500/-",  d:"63x5.27", pf:"16x5.3", dt:"2024..", st:"2/4", th:"11576", fam:"H-III", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"h3-24l.png"},
+"H3": {syn:"H3 24L"},
+"H3 30S": {ctry:"jp", m:"353000", pm:"3000/2100/-",  d:"58x5.27", pf:"11x5.3", dt:"2024..", st:"2", th:"4413", fam:"H3", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"h3-30s.png"},
+"H3 22S": {ctry:"jp", m:"440000", pm:"5000/4000/-",  d:"58x5.27", pf:"11x5.3", dt:"2023-03-06..", st:"2/2", th:"7260", fam:"H3", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"h3-22s.png"},
+"H3 22L": {ctry:"jp", m:"497000", pm:"-/4200/-",  d:"63x5.27", pf:"16x5.3", dt:"2024..", st:"2/2", th:"8732", fam:"H3", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"h3-22l.png"},
+"H3 24L": {ctry:"jp", m:"574000", pm:"-/6500/-",  d:"63x5.27", pf:"16x5.3", dt:"2024..", st:"2/4", th:"11576", fam:"H3", desc:"l:tng;ag:jaxa", fuel:"LH2/LOX+SRP", icon:"h3-24l.png"},
 //Juno II
 "Juno II": {ctry:"us", m:"55300", pm:"50/-/6",  d:"23.4x2.67", pf:"", dt:"1958-12-06..1961-05-24", st:"4", th:"667", fam:"Jupiter", desc:"l:cap;ag:nasa", fuel:"KeroLOX+SRP", icon:"Juno-2.png"},
 //KSLV-II
@@ -7624,8 +7624,8 @@ Common.lpad = [
 {n:"SLS-1", par:"jiu", lv:"CZ-2F", loc:"40.958N,100.291E"},
 {n:"SLS-2", par:"jiu", lv:"CZ-2C/D;CZ-4C;CZ-11", loc:"40.960N,100.298E"},
 //{n:"VLS", par:"alc", lv:"VLS", loc:"2.3177S,44.3678W"},
-{n:"YLP-1", par:"tng", lv:"H-IIA;H-III", loc:"30.401N,130.977E"},
-{n:"YLP-2", par:"tng", lv:"H-IIB;H-III", loc:"30.401N, 130.975E"},
+{n:"YLP-1", par:"tng", lv:"H-IIA;H3", loc:"30.401N,130.977E"},
+{n:"YLP-2", par:"tng", lv:"H-IIB;H3", loc:"30.401N, 130.975E"},
 {n:"LC-1A", par:"vos", lv:"Angara-1.2/A5", loc:"51.8756N,128.3615E"},
 //{n:"(LP-2)", par:"vos", lv:"Angara-A5/A7", loc:"51.8756N,128.3615E"},
 {n:"(LC)", par:"wen", lv:"CZ-9", loc:""},

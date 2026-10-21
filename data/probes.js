@@ -3539,7 +3539,7 @@ mom2: {name:"MOM-2:Mars Observation Mission 2", desc:"lv:GSLV MkIII",
     {pt:"", type:"nom", dt:"l+2yr", loc:"mar", desc:"?"},
     {pt:"", type:"pom", dt:"l+4yr", loc:"mar", desc:"?"}    
 ]},
-mbre: {name:"MBR Explorer:Mohammed Bin Rashid Explorer", desc:"lv:H-III",
+mbre: {name:"MBR Explorer:Mohammed Bin Rashid Explorer", desc:"lv:H3",
   parts:[
     {names:"لاستكشاف حزام الكويكبات", type:"fbm;om", dest:"ast", stat:"pl", ctry:"ue", desc:"ag:uaesa;m:2300kg;dim:16x7x3.5m;sc:0.5", id:"", url:"hp:space.gov.ae/", icon:"mbre.png"}], 
   events:[
@@ -3577,7 +3577,7 @@ shukrayaan: {name:"Shukrayaan-1:Venus Craft", desc:"lv:LVM3",
     {pt:"", type:"nom", dt:"l+4yr", loc:"ven", desc:"?"},
     {pt:"", type:"pom", dt:"l+6yr", loc:"ven", desc:"?"}    
 ]},
-lupex: {name:"Chandrayaan 5", desc:"lv:H-III",
+lupex: {name:"Chandrayaan 5", desc:"lv:H3",
   parts:[
     {names:"月極域探査機", type:"slm", dest:"lun", stat:"pl", ctry:"ind;jp", desc:"ag:isro,jaxa;m:6000kg;sc:0.5", id:"", url:"jaxa:www.exploration.jaxa.jp/e/program/lunarpolar/;tw:twitter,com/lupex_jaxa", icon:"lupex-l.png"},
     {names:"LUPEX:Lunar Polar Exploration", type:"rvm", dest:"lun", stat:"pl", ctry:"jp", desc:"ag:jaxa;m:350kg", id:"", url:"", icon:"lupex-rv.png"}], 
@@ -3629,15 +3629,15 @@ hera: {name:"Hera", desc:"lv:Falcon 9",
     {pt:"", type:"oi", dt:"2026-12-14", loc:"ast", desc:"ast:didy"},
     {pt:"", type:"nom", dt:"2028-12", loc:"ast", desc:"?"}
 ]},
-mmx: {name:"MMX:Martian Moons eXploration", desc:"lv:H-III",
+mmx: {name:"MMX:Martian Moons eXploration", desc:"lv:H3 24L",
   parts:[
-    {names:"火星衛星探査機", type:"srm", dest:"mar:phob", stat:"pl", ctry:"jp", desc:"ag:jaxa,isas;m:4000kg;m0:;dim:14x2.1x4.5m;sc:0.5", id:"", url:"hp:mmx.isas.jaxa.jp/en/;blog:mmx-news.isas.jaxa.jp/?lang=en;tw:twitter.com/mmx_jaxa_en", icon:"mmx.png"},
+    {names:"火星衛星探査機", type:"srm", dest:"mar:phob", stat:"o", ctry:"jp", desc:"ag:jaxa,isas;m:4480kg;m0:;dim:9x2.1x4.5m;sc:0.5", id:"2026-236A", url:"hp:mmx.isas.jaxa.jp/en/;blog:mmx-news.isas.jaxa.jp/?lang=en;tw:twitter.com/mmx_jaxa_en", icon:"mmx.png"},
     {names:"{MMX Sample Return Module}", desc:"m:1300kg;sc:1.0", icon:""},
-    {names:"{DLR/CNES Rover}", type:"rvm", dest:"mar:phob", stat:"pl", ctry:"de;fr", desc:"ag:dlr,cnes;m:29kg;sc:0.6", id:"", url:"dlr:www.dlr.de/content/en/articles/news/2019/02/20190619_a_rover_for_phobos_and_deimos.html", icon:"mmx-rv.png"}], 
+    {names:"IDEFIX", type:"rvm", dest:"mar:phob", stat:"o", ctry:"de;fr", desc:"ag:dlr,cnes;m:29kg;sc:0.6", id:"", url:"dlr:www.dlr.de/content/en/articles/news/2019/02/20190619_a_rover_for_phobos_and_deimos.html", icon:"mmx-rv.png"}], 
   events:[
-    {pt:"", type:"l", dt:"2026-10-10", loc:"ter:tng", desc:""},
-    {pt:"", type:"oi", dt:"2027", loc:"mar", desc:""},
-    {pt:"", type:"sco", dt:"2027", loc:"mar", desc:"Phobos QSO"},
+    {pt:"", type:"l", dt:"2026-10-19", loc:"ter:tng", desc:""},
+    {pt:"", type:"oi", dt:"2027-08", loc:"mar", desc:""},
+    {pt:"", type:"sco", dt:"2027-08", loc:"mar", desc:"Phobos QSO"},
     {pt:"", type:"td", dt:"2028", loc:"mar:Phobos", desc:"Sample collection;show:0"},
     {pt:"", type:"oi", dt:"2030", loc:"sol:ho", desc:"ETO"},
     {pt:"", type:"edl", dt:"2031", loc:"ter", desc:"eom"}
@@ -3772,7 +3772,7 @@ bluemoon1: {name:"Blue Moon Mark 1", desc:"lv:New Glenn",
     {pt:"", type:"td", dt:"l+4d", loc:"lun", desc:""},
     {pt:"0", type:"nom", dt:"l+20dy", loc:"lun", desc:"slp"}
 ]},
-ultram3: {name:"ispace M3", desc:"lv:H-III",
+ultram3: {name:"ispace M3", desc:"lv:H3",
   parts:[
     {names:"ULTRA", type:"slm", dest:"lun", stat:"pl", ctry:"jp", desc:"ag:ispace;sc:0.5", id:"", url:"hp:ispace-inc.com/mission-3/", icon:"ultra.png"}], 
   events:[
@@ -3782,7 +3782,7 @@ ultram3: {name:"ispace M3", desc:"lv:H-III",
     {pt:"", type:"td", dt:"2028", loc:"lun:60.5N,4.6W", desc:"Mare Frigoris"},
     {pt:"", type:"eom", dt:"2028", loc:"lun", desc:"fail:los"}
 ]},
-magpie: {name:"Magpie:Mission for Advanced Geophysics and Polar Ice Exploration", desc:"lv:H-III",
+magpie: {name:"Magpie:Mission for Advanced Geophysics and Polar Ice Exploration", desc:"lv:H3",
   parts:[
     {names:"", type:"rvm", dest:"lun", stat:"pl", ctry:"eu;jp", desc:"ag:esa,ispace;m:;sc:0.5", id:"", url:"jaxa:www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/ESA_s_first_lunar_rover_rolls_forward;tw:twitter,com/lupex_jaxa", icon:"magpie.png"}], 
   events:[
@@ -3790,7 +3790,7 @@ magpie: {name:"Magpie:Mission for Advanced Geophysics and Polar Ice Exploration"
     {pt:"", type:"td", dt:"l+4d", loc:"lun:", desc:"South pole"},
     {pt:"", type:"nom", dt:"l+14d", loc:"lun", desc:""}
 ]},
-ultram4: {name:"ispace M4", desc:"lv:H-III",
+ultram4: {name:"ispace M4", desc:"lv:H3",
   parts:[
     {names:"ULTRA", type:"slm", dest:"lun", stat:"pl", ctry:"jp", desc:"ag:ispace;sc:0.5", id:"", url:"hp:ispace-inc.com/mission-4/", icon:"ultra.png"}], 
   events:[
